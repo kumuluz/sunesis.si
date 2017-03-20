@@ -1901,3 +1901,40 @@
 
 	}
 	
+
+.references .blockWrapper{
+	vertical-align: middle;
+	padding-bottom: 15px;
+	height: 100px;
+	background: white;
+	padding: 0px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 20px;
+	display: inline-block;
+	float: none;
+	width: 21%;
+}
+.references .blockWrapper span {
+	display:none;
+	text-align: center;
+}
+.references .blockWrapper:hover span {
+	font-size: 20px;
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.9);
+	height: 100px;
+	width: 100%;
+	display: inline-block;
+}
+.references .blockWrapper span:before{
+	display: inline-block;
+	height: 100px;
+	width: 0;
+	vertical-align: middle;
+	content: '';
+}
+.references .blockWrapper > span > div {
+	display: inline-block;
+}
