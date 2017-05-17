@@ -1,5 +1,11 @@
 [   
     {
+        "image": "/images/articles/microprofile.jpg",
+        "title": "KumuluzEE is now part of MicroProfile",
+        "date": "27.04.2017",
+        "content": "KumuluzEE has joined MicroProfile. The MicroProfile is a baseline platform definition that optimizes Enterprise Java for a microservices architecture and delivers application portability across multiple MicroProfile runtimes. KumuluzEE is now a member of the MicroProfile community, alongside with IBM, London Java Community, redhat, Tomitribe, payara, SOU Java, hazelcast and FUJITSU. Read more on <a href='http://MicroProfile.io' target='_blank' >MicroProfile.io</a>."
+    },
+    {
         "image": "/images/articles/javaonesf.jpg",
         "title": "JavaOne Presentation",
         "date": "20.09.2016",
@@ -14,7 +20,7 @@
     {
         "image": "/images/articles/eurocloud.jpg",
         "title": "2014 EuroCloud Award",
-        "date": "20.6.2014",
+        "date": "20.06.2014",
         "content": "Sunesis won <a target='_blank' href='http://eurocloud.si/lang/sl/2014/06/20/zmagovalci-eurocloud-award-2014-tekmovanja-v-sloveniji-so-znani/'>EuroCloud Award</a> for the most innovative cloud service for its family of Kumuluz products. The expert jury has recognized the Kumuluz integration platform as very innovative. They also recognized the benefits of the Kumuluz integration platform compared to the competition."
     },
     {
@@ -26,13 +32,13 @@
     {
         "image": "/images/articles/java_magazine.jpg",
         "title": "Java Magazine Article",
-        "date": "28.2.2016",
+        "date": "28.02.2016",
         "content": "we have published an article in <a target='_blank' href='http://www.javamagazine.mozaicreader.com/JanFeb2016#&pageSet=80&page=0&contentItem=0'>Java Magazine</a> about building microservices with our KumuluzEE framework. "
     },
     {
         "image": "/images/articles/newspaper.jpg",
         "title": "KumuluzEE in the news ",
-        "date": "15.2.2016",
+        "date": "15.02.2016",
         "content": "Many foreign news media and blogs have reported about KumuluzEE, including: <ul><li><a target='_blank' href='http://www.forbes.com/sites/oracle/2015/11/14/cloud-and-internet-of-things-fuel-javas-ongoing-momentum/#4ba020f32a7d'>Forbes</a></li><li><a target='_blank' href='https://dzone.com/articles/2015-dukes-choice-award-winners-announced'>DZone</a></li><li><a target='_blank' href='http://www.infoq.com/news/2016/02/javaee-microservices'>InfoQ</a></li> <li><a target='_blank' href='https://community.oracle.com/docs/DOC-949972'>Oracle</a></li><li><a target='_blank' href='http://www.guigarage.com/2015/11/dolphin-platform-kumuluzee-javaee-microservices-with-dynamic-and-rich-frontends/'>GuiGarage</a></li><li>Blogs <a target='_blank' href='http://www.itdadao.com/article/374483/'>IT Avenue</a> and <a target='_blank' href='http://blog.arungupta.me/docker-kubernetes-microservices-devoxx-2015/'>Arun Gupta</a></li></ul>"
     },
     {
