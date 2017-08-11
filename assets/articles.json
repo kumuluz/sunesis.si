@@ -1,9 +1,15 @@
 [   
     {
+        "image": "/images/articles/projector.jpg",
+        "title": "Articles about KumuluzEE",
+        "date": "11.08.2017",
+        "content": "Watch how other use our product:<ul><li><a target='_blank' href='https://dzone.com/articles/java-ee-microprofile-with-kumuluzee'>Java EE MicroProfile With KumuluzEE</a></li><li><a target='_blank' href='https://dzone.com/articles/scalable-microservices-using-kumuluz-ee-framework'>Scalable Microservices Using Modern Java-Based Frameworks</a></li><li><a target='_blank' href='http://blog.arungupta.me/docker-kubernetes-microservices-devoxx-2015/'>Docker, Kubernetes, and Microservices</a></li><li><a target='_blank' href='https://dzone.com/articles/implementing-microservices-using-kumuluzee'>Implementing Microservices Using KumuluzEE</a></li><li><a target='_blank' href='http://blog.caelum.com.br/conheca-o-kumuluzee-seu-novo-framework-para-microservices/'>Conheça o KumuluzEE – seu novo framework para Microservices</a></li><li><a target='_blank' href='https://www.infoq.com/news/2016/02/javaee-microservices'>Java EE and Microservices in 2016?</a></li><li><a target='_blank' href='http://blog.nostratech.com/2016/03/implementasi-microservice-dengan-java.html'>Implementasi microservice dengan Java EE pada KumuluzEE</a></li><li><a target='_blank' href='http://www.guigarage.com/2015/11/dolphin-platform-kumuluzee-javaee-microservices-with-dynamic-and-rich-frontends/'>Dolphin Platform & KumuluzEE: JavaEE Microservices with dynamic and rich frontends</a></li><li><a target='_blank' href='https://www.youtube.com/watch?v=oLHy2VI00G0'>Video: Philipe Tjon A Hen - KumuluzEE - developing microservices using Java EE technologies</a></li></ul>"
+    },
+    {
         "image": "/images/articles/microprofile.jpg",
         "title": "KumuluzEE is now part of MicroProfile",
         "date": "27.04.2017",
-        "content": "KumuluzEE has joined MicroProfile. The MicroProfile is a baseline platform definition that optimizes Enterprise Java for a microservices architecture and delivers application portability across multiple MicroProfile runtimes. KumuluzEE is now a member of the MicroProfile community, alongside with IBM, London Java Community, redhat, Tomitribe, payara, SOU Java, hazelcast and FUJITSU. Read more on <a href='http://MicroProfile.io' target='_blank' >MicroProfile.io</a>."
+        "content": "KumuluzEE has joined MicroProfile. The MicroProfile is a baseline platform definition that optimizes Enterprise Java for a microservices architecture and delivers application portability across multiple MicroProfile runtimes. KumuluzEE is now a member of the MicroProfile community, alongside with IBM, London Java Community, redhat, Tomitribe, payara, SOU Java, hazelcast and FUJITSU. Read more on <a target='_blank' href='http://MicroProfile.io'>MicroProfile.io</a>."
     },
     {
         "image": "/images/articles/javaonesf.jpg",
