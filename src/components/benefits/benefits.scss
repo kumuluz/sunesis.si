@@ -1,0 +1,107 @@
+@import '../../layouts/variables.scss';
+@import '../../layouts/media-mixin.scss';
+
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  button {
+    height: 80px;
+    width: 80px;
+    background: none;
+    color: $blue-100;
+    border: 4px solid $blue-100;
+    cursor: pointer;
+
+    p {
+      font-size: 3.125rem;
+      line-height: normal;
+    }
+  }
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: nowrap;
+
+  .benefit {
+    background: $white;
+    color: $black;
+    padding: 40px 40px 10px;
+    min-width: 400px;
+    margin-right: 20px;
+
+    p.p-small {
+      font-size: 16px;
+    }
+    h4 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-weight: 600;
+    }
+    img {
+      max-width: 80px;
+    }
+  }
+}
+
+@include device-specific($phone) {
+  %no-left-right-space {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .benefits {
+    justify-content: center;
+    .benefit {
+      min-width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 10px 20px 10px !important;
+      margin-right: 0 !important;
+    }
+  }
+
+  .scroller-container {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    @extend %no-left-right-space;
+
+    .scroller-buttons {
+      flex: 0 1 auto;
+      max-width: unset;
+      position: unset;
+      margin-bottom: 10px !important;
+
+      @extend %no-left-right-space;
+      .nav-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        button:last-child {
+          margin-right: 40px;
+        }
+        button:first-child {
+          margin-left: 40px;
+        }
+      }
+
+    }
+    .scroller-content {
+      flex: 0 1 auto;
+      margin-top: 10px !important;
+      max-width: unset;
+      position: unset;
+      margin-right: 5px !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+}

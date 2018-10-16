@@ -1,0 +1,68 @@
+@import "../../layouts/variables";
+@import "../../layouts/media-mixin";
+
+.prod-serv-boxes-component {
+  .box-item {
+    text-align: left;
+    margin: 10px 0;
+    padding: 30px 20px 20px 30px;
+    min-height: 220px;
+    background-image: $blue-gradient;
+
+    &:hover {
+      background: $blue-300 none;
+    }
+    .box-item-content {
+      width: 100%;
+      min-height: 140px;
+
+      .box-item-title {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $blue-100;
+        font-weight: 700;
+      }
+      .box-item-subtitle {
+        font-weight: 700;
+        color: $white;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .box-item-desc {
+        color: $white;
+        margin-bottom: 5px;
+      }
+    }
+    .box-item-link {
+      a {
+        color: $red;
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+@include device-specific($phone) {
+  .prod-serv-boxes-component {
+    .box-item {
+      padding: 20px;
+
+      .box-item-content {
+        .box-item-title {
+          text-align: center;
+        }
+        .box-item-subtitle {
+          text-align: center;
+        }
+        .box-item-desc {
+          text-align: center;
+        }
+      }
+      .box-item-link {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}

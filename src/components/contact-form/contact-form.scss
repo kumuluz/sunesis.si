@@ -1,0 +1,49 @@
+@import '../../layouts/variables.scss';
+
+.contact-form {
+  color: $white;
+
+  label {
+    padding-left: 0;
+    font-weight: bold;
+  }
+
+  input,
+  select,
+  textarea {
+    background: transparent !important;
+    border: none;
+    border-bottom: 2px solid $blue-100 !important;
+    padding: 3px;
+    font-size: 1.125rem;
+    color: $white !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+    option {
+      color: $blue-400;
+    }
+  }
+  input::placeholder,
+  textarea::placeholder,
+  input:invalid option {
+    color: $blue-200;
+  }
+
+  .form-text {
+    color: $blue-100 !important;
+  }
+
+  &.light {
+    color: $black;
+
+    label {
+      font-weight: 600;
+    }
+    input,
+    select,
+    textarea {
+      color: $black !important;
+    }
+  }
+}

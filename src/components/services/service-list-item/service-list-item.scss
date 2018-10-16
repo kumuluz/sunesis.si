@@ -1,0 +1,55 @@
+@import '../../../layouts/variables.scss';
+@import '../../../layouts/media-mixin.scss';
+
+.list-item-row {
+  margin-bottom: 20px;
+}
+.service-list-item {
+  margin: 5px 5px 5px 5px;
+
+  .box-text {
+    margin-right: 5px;
+  }
+}
+.itemized {
+  color: $white;
+  font-weight: 600;
+  //font-family: $font-asap;
+}
+.blue-box {
+  display: inline-block;
+  background-color: $blue-100;
+  margin-right: 8px;
+  margin-bottom: -2px;
+}
+
+@include device-specific($phone) {
+  .itemized {
+    font-size: 14px;
+  }
+  .blue-box {
+    width: 12px !important;
+    height: 12px !important;
+  }
+}
+
+@include device-specific($tablet) {
+  .itemized {
+    font-size: 14px;
+  }
+  .blue-box {
+    width: 14px !important;
+    height: 14px !important;
+  }
+}
+
+@include device-specific($pc) {
+  .itemized {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .blue-box {
+    width: 16px !important;
+    height: 16px !important;
+  }
+}

@@ -1,0 +1,91 @@
+@import '../../layouts/variables.scss';
+@import '../../layouts/media-mixin.scss';
+
+.references {
+  justify-content: center;
+}
+.references > div {
+  vertical-align: middle;
+  padding-bottom: 15px;
+  height: 100px;
+  background: $white;
+  padding: 0;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 10px;
+  display: inline-block;
+  float: none;
+  width: 21%;
+
+  span {
+    display: none;
+    text-align: center;
+  }
+
+  &:hover span {
+    background: rgba(255, 255, 255, 0.9);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      display: inline-block;
+      margin-bottom: 0;
+      line-height: normal;
+    }
+
+    &:before {
+      display: inline-block;
+      height: 100px;
+      width: 0;
+      vertical-align: middle;
+      content: '';
+    }
+  }
+}
+
+.references-section {
+
+  .references-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+      color: $blue-400;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    p {
+      width: 70%;
+    }
+    div {
+      font-size: 18px;
+      color: $blue-300;
+      margin-bottom: 20px;
+    }
+  }
+}
+@include device-specific($phone) {
+  .references-section {
+    .references-text {
+      p {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@include device-specific($tablet) {
+  .references-section {
+    .references-text {
+      p {
+        width: 100%;
+      }
+    }
+  }
+}
+

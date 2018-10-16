@@ -1,0 +1,19 @@
+@import '../../../layouts/variables.scss';
+
+.section-title {
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: $black !important;
+  text-decoration: none !important;
+
+  img {
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 1rem;
+  }
+
+  &.active {
+    border-bottom: 4px solid $blue-100;
+    padding-bottom: 10px;
+  }
+}

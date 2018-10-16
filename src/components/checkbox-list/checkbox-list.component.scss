@@ -1,0 +1,33 @@
+@import "../../layouts/variables";
+
+.checkbox-list-component {
+  .title {
+    color: $blue-400;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .list {
+    .checkbox-list-item {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+      span {
+        display: inline-block;
+      }
+      .checkbox {
+        height: 30px;
+        width: 30px;
+        min-width: 30px;
+      }
+      .content {
+        margin-left: 10px;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

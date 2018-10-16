@@ -1,0 +1,15 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 77.26596">
+	<defs>
+		<style>
+			.cls-1{isolation:isolate;}.lighter{fill:#cfaacf;}.darker{fill:#6e3e6f;}.normal{fill:#a969aa;}
+		</style>
+	</defs>
+	<title>
+		3d-cube
+	</title>
+	<g class="cls-1">
+		<polygon class="normal" points="46.042 27.624 74.244 6.644 80 56.287 51.798 77.266 46.042 27.624" />
+		<polygon class="lighter" points="0 20.979 28.202 0 74.244 6.644 46.042 27.624 0 20.979" />
+		<polygon class="darker" points="46.042 27.624 51.798 77.266 5.756 70.622 0 20.979 46.042 27.624" />
+	</g>
+</svg>

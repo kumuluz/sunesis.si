@@ -1,0 +1,628 @@
+@import '../../../layouts/variables.scss';
+@import '../../../layouts/media-mixin.scss';
+
+.services-section {
+  .content {
+    .duke-award-box {
+    }
+    .service {
+      min-height: 200px;
+
+      img {
+        max-height: 80px;
+        margin-bottom: 10px;
+      }
+      p {
+        line-height: normal;
+      }
+    }
+  }
+
+}
+
+@include device-specific($phone) {
+  .services-section {
+    .content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .description-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h2, p {
+          width: 90%;
+        }
+        p {
+          margin-top: 40px;
+        }
+        .duke-award-box {
+          width: 100%;
+          height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .duke-award-box-background {
+            background-color: $blue-300;
+            height: 90px;
+            z-index: 2;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .duke-award-box-img {
+            margin-top: 20px;
+            z-index: 3;
+            text-align: left;
+
+            img {
+              height: 150px;
+              width: auto;
+            }
+          }
+          .duke-award-box-content {
+            margin-top: -10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            z-index: 3;
+            text-align: left;
+          }
+        }
+      }
+      .core-services-section {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .first-section {
+          margin-top: 40px;
+          margin-left: 20px;
+          width: 90%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          .image {
+            display: none;
+          }
+          .bullets {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            div {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+            }
+            .bullet-item {
+              margin: 10px 0;
+              .bullet-item-text {
+                font-weight: 600;
+              }
+            }
+            h3 {
+              color: $blue-100;
+              text-transform: uppercase;
+              font-size: 18px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        .second-section {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          margin-left: 20px;
+          width: 90%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          .image {
+            display: none;
+          }
+          .bullets {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            div {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+            }
+            .bullet-item {
+              margin: 10px 0;
+
+              .bullet-item-text {
+                font-weight: 600;
+              }
+            }
+            h3 {
+              color: $blue-100;
+              text-transform: uppercase;
+              font-size: 18px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        p {
+          width: 90%;
+          &:not(:first-child) {
+            margin-top: 40px;
+          }
+        }
+      }
+
+      .innovative-products-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          width: 90%;
+        }
+        .box-area {
+          width: 90%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-bottom: 20px;
+
+          .box-item {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            //width: 45%;
+            background-image: $blue-gradient;
+
+            &:hover {
+              background: $blue-300 none;
+            }
+            .box-item-content {
+              width: 80%;
+              margin: 20px 0;
+
+              .box-item-title {
+                font-size: 14px;
+                text-transform: uppercase;
+                color: $blue-100;
+                font-weight: 700;
+              }
+              .box-item-sh-desc {
+                font-weight: 700;
+                font-size: 18px;
+                margin-bottom: 5px;
+              }
+              .box-item-desc {
+                margin-bottom: 5px;
+              }
+            }
+            .box-item-img {
+              margin-top: 20px;
+              width: 15%;
+              padding: 0 10px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include device-specific($tablet) {
+  .services-section {
+    .content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .description-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h2, p {
+          width: 60%;
+        }
+        p {
+          margin-top: 40px;
+        }
+        .duke-award-box {
+          width: 80%;
+          height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .duke-award-box-background {
+            background-color: $blue-300;
+            height: 90px;
+            z-index: 2;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .duke-award-box-img {
+            margin-top: 20px;
+            margin-left: 10%;
+            z-index: 3;
+            text-align: left;
+
+            img {
+              height: 175px;
+              width: auto;
+            }
+          }
+          .duke-award-box-content {
+            margin-top: -10px;
+            margin-left: 5px;
+            z-index: 3;
+            text-align: left;
+          }
+        }
+      }
+      .core-services-section {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .first-section {
+          margin-top: 40px;
+          width: 90%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          .image {
+            width: 30%;
+            margin-right: 75px;
+            margin-top: 40px;
+          }
+          .bullets {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            div {
+              margin: 10px 0;
+            }
+            .bullet-item {
+              margin-right: 20px;
+
+              .bullet-item-text {
+                font-weight: 600;
+              }
+            }
+            h3 {
+              color: $blue-100;
+              text-transform: uppercase;
+              font-size: 18px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        .second-section {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          width: 90%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          .image {
+            width: 30%;
+            margin-left: 75px;
+            margin-top: 40px;
+          }
+          .bullets {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            div {
+              margin: 10px 0;
+            }
+            .bullet-item {
+              margin-right: 20px;
+
+              .bullet-item-text {
+                font-weight: 600;
+              }
+            }
+            h3 {
+              color: $blue-100;
+              text-transform: uppercase;
+              font-size: 18px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        p {
+          width: 60%;
+          &:not(:first-child) {
+            margin-top: 40px;
+          }
+        }
+      }
+
+      .innovative-products-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          width: 60%;
+        }
+        .box-area {
+          width: 90%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .box-item {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            width: 45%;
+            background-image: $blue-gradient;
+
+            &:hover {
+              background: $blue-300 none;
+            }
+            .box-item-content {
+              width: 80%;
+              margin: 20px 0;
+
+              .box-item-title {
+                font-size: 14px;
+                text-transform: uppercase;
+                color: $blue-100;
+                font-weight: 700;
+              }
+              .box-item-sh-desc {
+                font-weight: 700;
+                font-size: 18px;
+                margin-bottom: 5px;
+              }
+              .box-item-desc {
+                margin-bottom: 5px;
+              }
+            }
+            .box-item-img {
+              margin-top: 20px;
+              width: 15%;
+              padding: 0 10px 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include device-specific($pc) {
+  .services-section {
+    .content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .description-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h2, p {
+          width: 60%;
+        }
+        p {
+          margin-top: 40px;
+        }
+        .duke-award-box {
+          width: 80%;
+          height: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .duke-award-box-background {
+            background-color: $blue-300;
+            height: 90px;
+            z-index: 2;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .duke-award-box-img {
+            margin-top: 20px;
+            margin-left: 20%;
+            z-index: 3;
+            text-align: left;
+
+            img {
+              height: 175px;
+              width: auto;
+            }
+          }
+          .duke-award-box-content {
+            margin-top: -10px;
+            margin-left: 5px;
+            z-index: 3;
+            text-align: left;
+          }
+        }
+      }
+      .core-services-section {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .first-section {
+          margin-top: 40px;
+          width: 80%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          .image {
+            width: 30%;
+            margin-right: 75px;
+            margin-top: 40px;
+          }
+          .bullets {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            div {
+              margin: 10px 0;
+            }
+            .bullet-item {
+              margin-right: 20px;
+
+              .blue-box {
+                min-width: 20px;
+                width: 20px !important;
+                height: 20px !important;
+              }
+              .bullet-item-text {
+                font-weight: 600;
+                font-size: 18px;
+              }
+            }
+            h3 {
+              color: $blue-100;
+              text-transform: uppercase;
+              font-size: 18px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        .second-section {
+          margin-top: 40px;
+          margin-bottom: 40px;
+          width: 80%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+
+          .image {
+            width: 30%;
+            margin-left: 75px;
+            margin-top: 40px;
+          }
+          .bullets {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            div {
+              margin: 10px 0;
+            }
+            .bullet-item {
+              margin-right: 20px;
+
+              .blue-box {
+                min-width: 20px;
+                width: 20px !important;
+                height: 20px !important;
+              }
+              .bullet-item-text {
+                font-weight: 600;
+                font-size: 18px;
+              }
+            }
+            h3 {
+              color: $blue-100;
+              text-transform: uppercase;
+              font-size: 18px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+        p {
+          width: 60%;
+          &:not(:first-child) {
+            margin-top: 40px;
+          }
+        }
+      }
+
+      .innovative-products-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          width: 60%;
+        }
+        .box-area {
+          width: 90%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .box-item {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            width: 45%;
+            background-image: $blue-gradient;
+
+            &:hover {
+              background: $blue-300 none;
+            }
+            .box-item-content {
+              width: 80%;
+              margin: 20px 0;
+
+              .box-item-title {
+                font-size: 18px;
+                text-transform: uppercase;
+                color: $blue-100;
+                font-weight: 700;
+              }
+              .box-item-sh-desc {
+                font-weight: 700;
+                font-size: 23px;
+                margin-bottom: 5px;
+              }
+              .box-item-desc {
+                margin-bottom: 5px;
+              }
+            }
+            .box-item-img {
+              margin-top: 20px;
+              width: 15%;
+              padding: 0 10px 0 0;
+
+              img {
+                width: 55px;
+                height: 55px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

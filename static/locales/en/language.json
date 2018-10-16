@@ -1,0 +1,8 @@
+{
+  "lang": "Selected language:",
+  "langs": {
+    "en": "English",
+    "sl": "Slovenian"
+  },
+  "dateFormat": "YYYY/MM/DD"
+}

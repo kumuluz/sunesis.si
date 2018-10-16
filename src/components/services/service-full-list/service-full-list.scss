@@ -1,0 +1,288 @@
+@import '../../../layouts/variables.scss';
+@import '../../../layouts/media-mixin.scss';
+
+
+.skrito {
+  display: none !important;
+}
+
+@include device-specific($phone) {
+  .flc-list-item {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    padding: 10px 0 10px 20px;
+    .blue-box {
+      display: inline-block;
+      width: 12px !important;
+      min-width: 12px;
+      height: 12px !important;
+      background-color: $blue-100;
+      margin-right: 5px;
+    }
+    .serv-desc {
+      display: inline-block;
+      /*width: 90%;*/
+      text-align: left;
+    }
+  }
+  .flc-title {
+    color: $blue-300;
+    cursor: pointer;
+    margin-bottom: 20px;
+    .caret {
+      display: inline;
+      margin-right: 8px;
+      img {
+        width: 16px;
+      }
+    }
+    .title {
+      display: inline;
+    }
+  }
+  .flc-desc {
+    color: $black;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .flc-list {
+    color: $black;
+    padding: 5px 0 5px 0;
+    font-weight: 400;
+  }
+  .flc-multilist {
+    .table-elem {
+      width: 100%;
+    }
+    .level-1-item {
+      .title {
+        display: flex;
+        align-items: baseline;
+        .blue-box {
+          min-width: 12px;
+        }
+      }
+
+      .level-2-item {
+        margin-left: 30px;
+        padding: 5px 0;
+        display: flex;
+        .dark-blue-box {
+          margin-top: 10px;
+          display: inline-block;
+          width: 12px !important;
+          min-width: 12px;
+          height: 12px !important;
+          background-color: $blue-400;
+          margin-right: 8px;
+        }
+
+        .level-2-text {
+          display: inline-block;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+@include device-specific($tablet) {
+  .flc-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    .blue-box {
+      display: inline-block;
+      width: 12px !important;
+      min-width: 12px;
+      height: 12px !important;
+      background-color: $blue-100;
+      margin-right: 5px;
+    }
+    .serv-desc {
+      display: inline-block;
+      width: 80%;
+      text-align: left;
+    }
+  }
+  .flc-title {
+    color: $blue-300;
+    cursor: pointer;
+    margin-bottom: 20px;
+    .caret {
+      display: inline;
+      margin-right: 8px;
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .title {
+      display: inline;
+    }
+  }
+  .flc-desc {
+    color: $black;
+    margin-bottom: 20px;
+    font-weight: 400;
+    margin-left: 40px;
+  }
+  .flc-list {
+    color: $black;
+    padding: 5px 0 5px 0;
+    font-weight: 400;
+    margin-left: 40px;
+  }
+
+  .flc-multilist {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    .level-1-item {
+      padding: 5px 0;
+      .title {
+        display: flex;
+
+        .blue-box {
+          margin-top: 10px;
+          display: inline-block;
+          width: 12px !important;
+          min-width: 12px;
+          height: 12px !important;
+          background-color: $blue-100;
+          margin-right: 8px;
+        }
+
+        .text {
+          display: inline-block;
+          font-weight: 400;
+        }
+      }
+
+      .level-2-item {
+        margin-left: 30px;
+        padding: 5px 0;
+        display: flex;
+        .dark-blue-box {
+          margin-top: 10px;
+          display: inline-block;
+          width: 12px !important;
+          min-width: 12px;
+          height: 12px !important;
+          background-color: $blue-400;
+          margin-right: 8px;
+        }
+
+        .level-2-text {
+          display: inline-block;
+          font-weight: 400;
+        }
+      }
+    }
+    .table-elem {
+      width: 50%;
+    }
+  }
+}
+@include device-specific($pc) {
+  .flc-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    .blue-box {
+      display: inline-block;
+      width: 12px !important;
+      min-width: 12px;
+      height: 12px !important;
+      background-color: $blue-100;
+      margin-right: 5px;
+    }
+    .serv-desc {
+      display: inline-block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  .flc-title {
+    color: $blue-300;
+    cursor: pointer;
+    margin-bottom: 20px;
+    .caret {
+      display: inline-flex;
+      margin-right: 8px;
+      align-items: center;
+      img {
+        width: 16px;
+      }
+    }
+    .title {
+      display: inline;
+    }
+  }
+  .flc-desc {
+    color: $black;
+    margin-bottom: 20px;
+    font-weight: 400;
+    margin-left: 40px;
+  }
+  .flc-list {
+    color: $black;
+    padding: 5px 0 5px 0;
+    font-weight: 400;
+    margin-left: 40px;
+  }
+  .flc-multilist {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    .level-1-item {
+      padding: 5px 0;
+      .title {
+        display: flex;
+
+        .blue-box {
+          margin-top: 10px;
+          display: inline-block;
+          width: 12px !important;
+          min-width: 12px;
+          height: 12px !important;
+          background-color: $blue-100;
+          margin-right: 8px;
+        }
+
+        .text {
+          display: inline-block;
+          font-weight: 400;
+        }
+      }
+
+      .level-2-item {
+        margin-left: 30px;
+        padding: 5px 0;
+        display: flex;
+        .dark-blue-box {
+          margin-top: 10px;
+          display: inline-block;
+          width: 12px !important;
+          min-width: 12px;
+          height: 12px !important;
+          background-color: $blue-400;
+          margin-right: 8px;
+        }
+
+        .level-2-text {
+          display: inline-block;
+          font-weight: 400;
+        }
+      }
+    }
+    .table-elem {
+      width: 50%;
+    }
+  }
+}

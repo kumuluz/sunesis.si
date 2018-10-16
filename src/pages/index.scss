@@ -1,0 +1,15 @@
+@import '../layouts/variables.scss';
+@import '../layouts/media-mixin.scss';
+
+.index {
+}
+
+@include device-specific($phone) {
+
+}
+@include device-specific($tablet) {
+
+}
+@include device-specific($pc) {
+
+}

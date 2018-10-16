@@ -1,0 +1,68 @@
+@import '../../../layouts/variables.scss';
+@import '../../../layouts/media-mixin.scss';
+
+@include device-specific($phone) {
+  .box {
+    width: 100%;
+    margin: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    p {
+      color: $black;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+    img {
+      margin: 20px auto 0 auto;
+      width: 33%;
+      height: 33%;
+    }
+    .img-div {
+      width: 100%;
+
+    }
+  }
+}
+@include device-specific($tablet) {
+  .box {
+    width: 23%;
+    margin: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    p {
+      color: $black;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+    img {
+      margin: 20px auto 0 auto;
+      width: 33%;
+      height: 33%;
+    }
+    .img-div {
+      width: 100%;
+    }
+  }
+}
+@include device-specific($pc) {
+  .box {
+    width: 23%;
+    margin: 5px !important;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    p {
+      color: $black;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+    img {
+      margin: 20px auto 0 auto;
+      width: 33%;
+      height: 33%;
+    }
+    .img-div {
+      width: 100%;
+      img {
+        width: 27%;
+      }
+    }
+  }
+}

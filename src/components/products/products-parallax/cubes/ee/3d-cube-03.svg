@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 92.21318">
+	<defs>
+		<style>
+			.cls-1{isolation:isolate;}.darker{fill:#166b92;}.lighter{fill:#98cee6;}.normal{fill:#5ec1ee;}
+		</style>
+	</defs>
+	<g class="cls-1">
+		<polygon class="darker" points="21.38 92.213 1.746 65.301 0 10.641 19.635 37.553 21.38 92.213" />
+		<polygon class="lighter" points="19.635 37.553 0 10.641 58.62 0 78.254 26.912 19.635 37.553" />
+		<polygon class="normal" points="78.254 26.912 80 81.572 21.38 92.213 19.635 37.553 78.254 26.912" />
+	</g>
+</svg>

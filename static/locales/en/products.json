@@ -1,0 +1,94 @@
+{
+  "site": {
+    "title": "Kumuluz Digital Platform - Sunesis"
+  },
+  "header": {
+    "title": "Kumuluz Digital Platform",
+    "subtitle": "Everything you need to fast-track your digital transformation, with the open, light-weight digital platform."
+  },
+  "strategy": {
+    "title": "Fast-track your digital transformation",
+    "description":
+      "Kumuluz Digital Platform provides the necessary building blocks to adopt cloud-native, microservice and API-based development, integrate with back-end and cloud, and develop progressive UX and Marketplace applications.<br /><br /> Use only parts of the platform vital for your digital transformation:",
+    "quote": "A network of interconnected, scalable and agile digital applications",
+    "action": "Learn more"
+  },
+  "weForYou": {
+    "title": "What KumuluzDigital platform can do for you",
+    "descriptionLeft":
+      "<p class='blue-200'>KumuluzDigital platform is the award-winning solution that companies use to implement and accelerate their digital transformation.</p><p>KumuluzDigital Platform provides you all the building blocks necessary to fast-track the development of your digital business. The platform enables you fast implementation of your digital strategy.</p><p>With KumuluzDigital, you will introduce the latest cloud-native concepts, microservices, APIs and Docker containers. You will adopt agile development, DevOps principles and Continuous Delivery to fast track your development. You will be finally able to modernize your monolithic applications. You will develop sophisticated user experience and complex marketplace solutions.</p>",
+    "descriptionRight":
+      "<p>The benefits are enormous. You will significantly reduce time-to-market for your digital products, services, applications and marketplace solution with using our platform, agile, DevOps and other cloud-native methods for continuous delivery.</p><p><b>And there is much more:</b> Kumuluz Digital offers you the tools to create sophisticated responsive user experience, rapidly develop your own digital marketplaces, implement API economy business models, communicate with your customers in new ways, engage customers, sense their needs and respond instantly, gather digital payments and add many other exciting features, indispensable for the digital economy.</p>"
+  },
+
+  "advantages": {
+    "title": "All the advantages you get with the Kumuluz Digital platform",
+    "subtitle": "Implement and accelerate your digital transformation.",
+    "advantage1": "For organization transitioning to microservices & cloud-native architecture",
+    "advantage2": "Completly open, zero vendor lock-in",
+    "advantage3": "Deploys on-premises in your data center or in the cloud",
+    "advantage4": "Preserves investment in your existing knowledge and skills",
+    "advantage5": "Minimal upfront and completely flexible investment",
+    "advantage6": "Full 24/7 support and maintenance"
+  },
+
+  "caseStudy": {
+    "title": "Case study example: SaaS and IoT devices with on premise back-end applications",
+    "description":
+      "Kumuluz<b>Integration</b> addresses the integration challenges between SaaS applications and/or on premise applications. KumuluzIntegration enables you to integrate and synchronize your SaaS and/or on premise applications in matter of minutes.",
+    "advantages": {
+      "title": "Using cutting edge innovations in data integration, such as event driven integration:",
+      "advantage1": "<b>33% optimization</b> KumuluzIntegration enables you",
+      "advantage2": "<b>12% load SaaS</b> and/or on premise applications",
+      "advantage3": "<b>90% faster</b> to integrate"
+    },
+    "quote": {
+      "quote":
+        "With KumuluzDigital, you will introduce the latest cloud native concepts, microservices, APIs and Docker containers. You will adopt agile development, DevOps principles and Continuous Delivery to fast-track your development. You will be finally able to modernize your monolithic applications.",
+      "author": "Adrian Freeman",
+      "company": "World inc.",
+      "readMore": "Read more",
+      "about": "case studies on our blog"
+    }
+  },
+
+  "awards": "The awards Sunesis' Kumuluz won:",
+
+  "products": {
+    "capabilities": "Capabilities, Use Cases & Customer Stories",
+    "otherBlocks": "Discover other Kumuluz Digital Building Blocks"
+  },
+  "what-are-apis": {
+    "title": "Kumuluz Business APIs",
+    "subtitle": "There is no need to develop from scratch. Don't speed your development with half-build solutions. Just add functionalities using our business APIs.",
+    "items": {
+      "item-1": {
+        "title": "What are Kumuluz Business APIs?",
+        "desc": "Kumuluz Business APIs are pre-built APIs for common digital functionalities, which allow you to <strong>fast-track your development</strong> by including your pre-built and tested API's, use, customize and extend them."
+      },
+      "item-2": {
+        "title": "Who are Kumuluz Business APIs for?",
+        "desc": "Our business APIs are primary used by <strong>big enterprises, startups, government and agencies.</strong><br/><br/>... and all other enterprises that need to speeed up the development."
+      },
+      "item-3": {
+        "title": "What is the cost of the Kumuluz Business APIs?",
+        "desc": "You can test some of the APIs for free or we can do a demo for you.<br/><br/>To use the APIs to full extent you download selected ones as docker container for one time payment."
+      }
+    },
+    "needs": {
+      "title": "Does your application need?",
+      "item-1": "Product catalog",
+      "item-2": "Order Fulfillment/Invoice",
+      "item-3": "Customer loyalty and rating",
+      "item-4": "Registration or KYC",
+      "item-5": "Subscription management",
+      "item-6": "Payment",
+      "item-7": "Shopping cart",
+      "item-8": "Product catalog",
+      "item-9": "Order Fulfillment/Invoice",
+      "item-10": "Customer loyalty and rating",
+      "item-11": "Customer engagement",
+      "item-12": "Browse all APIs"
+    }
+  }
+}

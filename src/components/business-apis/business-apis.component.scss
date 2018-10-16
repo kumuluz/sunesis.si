@@ -1,0 +1,115 @@
+@import "../../layouts/variables";
+@import "../../layouts/media-mixin";
+
+.sun-business-apis-component {
+  margin-bottom: 80px;
+
+  .api-header {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-weight: 700;
+      color: $white;
+    }
+    p {
+      width: 50%;
+      color: $white;
+    }
+  }
+  .what-is {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .what-is-item {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .image {
+        width: 60px;
+        height: auto;
+      }
+      .title {
+        text-align: center;
+        color: $white;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      .desc {
+        color: $white;
+        text-align: center;
+      }
+    }
+  }
+
+  .subtitle {
+    text-align: center;
+    color: $blue-100;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 40px 0 20px 0;
+  }
+  .needs-row {
+    display: flex;
+    justify-content: center;
+
+    a {
+      display: inline-block;
+      margin-left: 10px;
+      text-decoration: none;
+      color: $white;
+    }
+    span {
+      margin: 10px 10px;
+      background-color: $white;
+      padding: 10px;
+      font-size: 18px;
+
+      img {
+        min-width: 25px;
+        width: 25px;
+        margin-right: 8px;
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &.btn {
+        background-color: $red;
+        padding: 10px 40px;
+      }
+    }
+  }
+}
+
+@include device-specific($phone) {
+  .needs-row {
+    flex-wrap: wrap;
+
+    span {
+      width: 100%;
+      margin: 0 0 20px 0 !important;
+    }
+  }
+  .api-header {
+    p {
+      width: 100% !important;
+    }
+  }
+  .what-is {
+    .what-is-item {
+      width: 100% !important;
+      margin-bottom: 40px;
+    }
+  }
+}

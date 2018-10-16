@@ -1,0 +1,85 @@
+{
+  "site": {
+    "title": "Sunesis",
+    "sunesis": {
+      "title": "About us"
+    },
+    "references": {
+      "title": "References"
+    },
+    "awards": {
+      "title": "Awards"
+    }
+  },
+  "header": {
+    "title": "Introduction of Sunesis",
+    "para-1": "Sunesis is a software and IT service company located in Slovenia. The company operates in Central and Eastern Europe, mainly helping big entreprises in the region with digital transformation and digital product development.",
+    "para-2": "The company brings together a highly-skilled team of 15+ experts with strong track record and extensive experience in designing, creating, developing and integrating complex cloud-native applications and information systems.",
+    "para-3": "Our team in specialized in utilizing microservices, APIs, containers, agile development practices and DevOps. Advantages of working with us include agility, rapid development, quick time-to-market, close relation with the client, high quality, and state-of-the-art technology skills.",
+    "para-4": "Since the establishment in 2014, the company has been growing fast and won several of the national and international prestigious awards. Our family of innovative products that enables much faster digital transformation and new digital products development is called Kumuluz."
+  },
+  "products-services": {
+    "title": "List of our products and services",
+    "learn-more": "Learn more",
+    "item-1": {
+      "title": "Our services",
+      "subtitle": "We can help you bring your digital strategy to life",
+      "desc": "We offer a wide range of IT consulting, training and software development services that help enterprises with faster digital transformation, transition to cloud, transition from monolithic to microservice architecture, software modernization and new digital products development."
+    },
+    "item-2": {
+      "title": "Kumuluz Digital Platform",
+      "subtitle": "Fast-track your digital transformation",
+      "desc": "A light-weight, open, award-winning digital platform that development teams love."
+    },
+    "item-3": {
+      "title": "Kumuluz Business APIs",
+      "subtitle": "API solutions for immediate use",
+      "desc": "Use pre-built business APIs to create your digital products and services much faster."
+    },
+    "item-4": {
+      "title": "Open-source community",
+      "subtitle": "Join community of developers, contributors and users",
+      "desc": "Our Microservice framework (EE) is a member of Microprofile.io."
+    },
+    "item-5": {
+      "title": "DAPIs & Blockchain",
+      "subtitle": "Truly decentralized applications",
+      "desc": "Kumuluz dAPI platform introduces fully decentralized APIs utilizing blockchain technology."
+    }
+  },
+  "sunesis-name": {
+    "title": "Are you wondering what the name Sunesis means?",
+    "para-1": "Sunesis name was not chosen randomly, but communicates the core values represented by the company. The Greeks had three great words describing three great qualities of the mind. If a man possessed these three qualities he had a mind equipped.",
+    "words": {
+      "item-1": "The first of these words is Sophia - wisdom of ultimate things.",
+      "item-2": "The second of the three great words is Phronesis - prudence.",
+      "item-3": "The third of the great Greek words of the mind is Sunesis."
+    },
+    "para-2": "Sunesis literally means uniting, bringing together, integrating. It would be true to say that Sunesis is that faculty of putting two and two together. In its essence Sunesis is the power to asses, distinguish, criticize and evaluate, understand and to form judgments."
+  },
+  "awards": {
+    "title": "Our awards",
+    "subtitle": "Kumuluz Digital Platform and our team won several prestigious national and international awards",
+    "duke": {
+      "title": "Java Duke's Choice Award Winner",
+      "text": "KumuluzEE has won the prestigious Java Duke's Choice Award. The Awards celebrate innovations that are based on the Java technology. Oracle announced the winners ate the JavaOne conference in San Francisco."
+    },
+    "eurocloud": {
+      "title": "EuroCloud Award",
+      "text": "Sunesis won EuroCloud Award for the most innovative cloud service for its family of Kumuluz products. The expert jury has recognized the Kumuluz integration platform as very innovative. They also recognized the benefits of the Kumuluz integration platform compared to the competition."
+    },
+    "startup": {
+      "title": "Slovenian Start:up of the Year Finalist",
+      "text": "Start-up Sunesis was one of the finalists of the Slovenian Start:up competition."
+    },
+    "view-more": "View more",
+    "press": {
+      "title": "Sunesis in the Press",
+      "subtitle": "Stories about Sunesis that we especially love"
+    }
+  },
+  "references": {
+    "title": "Our references",
+    "subtitle": "Full list of our satisfied clients"
+  }
+}

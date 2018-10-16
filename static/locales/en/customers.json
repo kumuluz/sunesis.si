@@ -1,0 +1,95 @@
+{
+  "site": {
+    "title": "Customers - Sunesis"
+  },
+  "header": {
+    "title": "Our customers and case studies",
+    "subtitle": "Bring all your data to one place and become a data-driven organization"
+  },
+  "who-are": {
+    "para-1": "Our main customers are big enterprises in the process of digital transformation. After putting digital transformation strategy on paper, we help enterprises to develop new digital products,  modernize their existing software and integrate it in the fastest way possible.",
+    "para-2": "We help big companies to develop digital applications faster, to modernize their application architecture, optimize application performance, and help them stay competitive in the digital age.",
+    "typical-customers": {
+      "title": "Our typical customers",
+      "item-1": "Big business in CE Europe (10mio+ revenue)",
+      "item-2": "Clear digital transformation strategy",
+      "item-3": "Struggling to bring digital transformation to life",
+      "item-4": "Need to modernize legacy software",
+      "item-5": "Want to build new digital solutions faster"
+    },
+    "common-industries": {
+      "title": "Most common industries we serve",
+      "item-1": "Automotive",
+      "item-2": "Financial services",
+      "item-3": "Oil and Gas",
+      "item-4": "Insurance",
+      "item-5": "Government",
+      "item-6": "Media",
+      "item-7": "Retail",
+      "item-8": "Telco"
+    },
+    "list-of-clients": "List of our clients",
+    "struggle": {
+      "title": "Our customers struggle to modernize monolithic applications",
+      "para": "Before microservices, software was built as large monolithic applications. Following traditional waterfall development process, a large team of developers wrote every part of the application from start to finish. The monolithic application is managed as a single package, with a single database and tightly coupled dependencies between features.",
+      "problems": {
+        "title": "The problems with monolithic applications",
+        "item-1": "If a component fails, the entire system fails",
+        "item-2": "Challenging to deploy and consequently new releases are less frequent",
+        "item-3": "Configuration is hard to manage",
+        "item-4": "Resources are not used optimal, being unable to ramp up only the services that are in high demand"
+      },
+      "summary": "Is your monolithic software hindering your progress? Then you are our ideal customer!"
+    },
+    "help": {
+      "title": "We help our clients to develop cloud-native applications based on microservices",
+      "para-1": "The main idea of microservices is to break down large applications into their core function called services and technically implemented as microservices. The main idea is not to organize code around software layers, but rather around business capabilities, where every microservice is a separate entity responsible for its own data model and data.",
+      "para-2": "So, we could say microservices are self-contained processes organized around a single business capability. If you need to replace, repair or upgrade a microservice, you don’t need to rebuild the entire application. Microservice architecture is based on the philosophy that containers of code should do one thing, and that one thing extraordinary.",
+      "advantages": {
+        "title": "There are several advantages of organizing software in this way:",
+        "item-1": "Every microservice is focused on a single business capability (small & focused)",
+        "item-2": "A microservice represents a self-contained component, independent from the other features",
+        "item-3": "Different frameworks, languages and tools can be used for microservices",
+        "item-4": "Existing ecosystems of pre-written microservices and APIs that can be integrated into applications",
+        "item-5": "Lowered learning curves for developers with dedicated responsibility for microservices",
+        "item-6": "Microservices are packed and deployed as containers and managed by container orchestration environments (such as Kubernetes)",
+        "item-7": "The ability to scale up individual containers",
+        "item-8": "Reduced costs with better resource utilization",
+        "item-9": "Following agile development practices with frequent deployment (several times per day)",
+        "item-10": "Much easier to follow continuous innovation principles"
+      }
+    },
+    "replatforming": {
+      "title": "We achieve that with application replatforming",
+      "para-1": "A process called replatforming enables companies to move current outdated software solutions to newer technologies, that are more efficient and less expensive. In the process, the monolith applications and the legacy code is modernized and migrated to cloud-native architecture that makes software faster, scalable, easier to maintain, and most importantly less expensive.",
+      "para-2": "With traditional software development practices and rigid architecture, the code can start stifling innovation, the development cycles become longer and longer and maintenance costs of infrastructure unjustified. Without modernization of the IT architecture, it’s impossible for organization to be competitive on the market and exploit all the benefits that digital transformation enables.",
+      "decisions": {
+        "title": "Why our customers usually decide to replatform:",
+        "item-1": "Unalignment of business goals and IT assets",
+        "item-2": "Complex infrastructure with high maintained costs and no scalability",
+        "item-3": "Long development cycles with no agility and ability to move fast",
+        "item-4": "Multiple poorly integrated or even duplicated software solutions",
+        "item-5": "Limiting innovation and bad user experience",
+        "item-6": "Hard to recruit new talent"
+      },
+      "transitions": {
+        "title": "The replatforming consists of several transitions:",
+        "item-1": "Migrating to cloud based applications",
+        "item-2": "From monolithic architecture to microservices",
+        "item-3": "From waterfall to agile development",
+        "item-4": "Speeding up development cycles"
+      }
+    },
+    "striving": {
+      "title": "We help our customers to strive in the API Economy",
+      "para": "The microservices use APIs (such as REST, messaging, event streaming, gRPC, GraphQL, etc.) to communicate among each other. APIs also enable your applications to communicate externally with other services. The main idea is that companies today are also connected with their stakeholders (customers, partners etc.) with APIs and develop new value chains and new partner channels.",
+      "enabled": {
+        "title": "APIs enable you to exchange data among applications and to seamlessly integrate:",
+        "item-1": "Develop specific applications and digital solutions for different stakeholders",
+        "item-2": "Bring third party data and applications in your ecosystem",
+        "item-3": "Send your data to other applications etc."
+      },
+      "summary": "Is your digital transformation progressing to slow? Let us help you!"
+    }
+  }
+}

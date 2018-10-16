@@ -1,0 +1,73 @@
+@import '../../../layouts/variables.scss';
+@import '../../../layouts/media-mixin.scss';
+
+.key-section {
+  .key {
+    h2 {
+      color: $blue-400;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    h3.h2-subtitle {
+      color: $blue-200;
+      font-weight: 300;
+      margin-bottom: 60px;
+    }
+
+    p.checkbox {
+      margin-left: 60px;
+      display: block;
+      line-height: 10px;
+      margin-bottom: 30px;
+    }
+
+    p.checkbox:before {
+      content: '';
+      height: 30px;
+      width: 30px;
+      display: inline-block;
+      background-image: url('../../../assets/images/check-mark.svg');
+      margin-left: -60px;
+      margin-right: 20px;
+      vertical-align: middle;
+    }
+
+    p.checkbox.one:before {
+      background-color: $blue-100;
+    }
+    p.checkbox.two:before {
+      background-color: $blue-200;
+    }
+    p.checkbox.three:before {
+      background-color: $blue-300;
+    }
+    p.checkbox.four:before {
+      background-color: $grey;
+    }
+  }
+}
+
+@include device-specific($phone) {
+  .key-section {
+    .key {
+      p.checkbox {
+        margin-left: 60px;
+        display: block;
+        line-height: normal;
+
+        margin-bottom: 30px;
+        font-size: 1.25rem;
+      }
+
+      p.checkbox:before {
+        content: '';
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        background-image: url('../../../assets/images/check-mark.svg');
+        margin-left: -60px;
+        margin-right: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,516 @@
+@import '../../layouts/variables.scss';
+@import '../../layouts/media-mixin.scss';
+
+.header {
+  padding-top: 100px;
+  background-color: $blue-300;
+}
+.service-range {
+  color: $white;
+
+  .content {
+    background-color: $white;
+
+    h4 {
+      color: $blue-400;
+      font-weight: 600;
+    }
+    .boxes-container {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .normal-text-wrapper {
+      margin-top: 80px;
+      .normal-text {
+        color: $black;
+        width: 60%;
+        margin: 20px auto 0 auto;
+      }
+    }
+
+    .darker-text {
+      color: $blue-200;
+      width: 60%;
+      margin: 20px auto 0 auto;
+      font-size: 1.64rem;
+      line-height: 2.3rem;
+    }
+    .highlighted-darker-text {
+      color: $blue-200;
+      font-weight: 600;
+    }
+  }
+}
+
+.capabilities {
+  .list {
+    background-color: $blue-300;
+    margin-left: 0;
+  }
+
+  .no-pad {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.certifications-wrapper {
+  margin-left: 20%;
+
+  .certifications {
+    margin-top: 10px;
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  .cert-divider {
+    width: 50%;
+  }
+
+  .service-full-list {
+    margin-top: 40px;
+    h4 {
+      color: $blue-400;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+/* ******************** PHONE **********************/
+@include device-specific($phone) {
+  .hidden-xs {
+    display: none;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header {
+    padding-top: 50px;
+    h1 {
+      color: $white;
+      margin: 0 auto 0 auto;
+      font-weight: 500;
+    }
+    p {
+      color: $white;
+      width: 90%;
+      margin: 20px auto 0 auto;
+    }
+  }
+
+  .service-range {
+    .content {
+      .normal-text-wrapper {
+        margin-top: 80px;
+        .normal-text {
+          color: $black;
+          width: 90%;
+          margin: 20px auto 0 auto;
+        }
+      }
+      .darker-text {
+        color: $blue-200;
+        width: 90%;
+        margin: 20px auto 0 auto;
+        font-size: 1.64rem;
+        line-height: 2.3rem;
+      }
+    }
+    .arrow {
+      margin-left: -15px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 60px 100vw 0 0;
+      border-color: $blue-300 transparent transparent transparent;
+    }
+  }
+
+  .capabilities {
+    margin-top: 20px;
+
+    .sunesis-devs-img {
+      width: 0;
+      height: 0;
+    }
+    .left-whitespace {
+      width: 0;
+    }
+    .center-image {
+      width: 0;
+    }
+    .right-content {
+      width: 100%;
+    }
+    // arrows
+    .white-arrow {
+      position: absolute;
+      margin-right: -15px;
+      z-index: 1;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 60px 100vw 0 0;
+      border-color: $white transparent transparent transparent;
+    }
+    .white-arrow-reversed {
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 100vw 60px 0;
+      border-color: transparent transparent $white transparent;
+    }
+    // text
+    .list-text {
+      margin: 100px 20px 150px 20px;
+      z-index: 2;
+
+      h3 {
+        color: $white;
+      }
+      p {
+        width: 90%;
+        margin: 20px auto 0 0;
+        color: $white;
+      }
+      h4 {
+        color: $blue-100;
+        margin-top: 50px;
+      }
+    }
+  }
+  .certifications-wrapper {
+    margin-left: 0;
+    .certifications {
+      .cert-content {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .left-cert {
+        width: 100%;
+        text-align: center;
+        h5 {
+          color: $blue-400;
+          font-weight: 700;
+          margin-bottom: 20px;
+          font-size: 26px;
+        }
+      }
+      .right-cert {
+        width: 100%;
+        img {
+          margin-left: 0;
+          width: 60%;
+        }
+      }
+    }
+  }
+
+  .service-full-list {
+    .full-list-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .left-full-list {
+      width: 100%;
+      text-align: center;
+    }
+    .right-full-list {
+      width: 90%;
+      text-align: left;
+    }
+  }
+}
+/* ******************** TABLET **********************/
+@include device-specific($tablet) {
+  .header-nav {
+    height: 60px;
+    background-color: $blue-400;
+    display: flex;
+    justify-content: center;
+
+    .header-nav-container {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      div {
+        color: $white;
+        font-family: $font-asap;
+      }
+    }
+  }
+
+  .header {
+    h1 {
+      color: $white;
+      width: 60%;
+      margin: 0 auto 0 auto;
+      font-weight: 500;
+    }
+    p {
+      color: $white;
+      width: 60%;
+      margin: 20px auto 0 auto;
+    }
+  }
+
+  .service-range {
+    .arrow {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 120px 100vw 0 0;
+      border-color: $blue-300 transparent transparent transparent;
+    }
+  }
+
+  .capabilities {
+    margin-top: 20px;
+    .sunesis-devs-img {
+
+    }
+    // content grid
+    .left-whitespace {
+      width: 8.32%;
+    }
+
+    .center-image {
+      width: 50%;
+    }
+
+    .right-content {
+      width: 50%;
+    }
+    // arrows
+    .white-arrow {
+      position: absolute;
+      z-index: 1;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 120px 100vw 0 0;
+      border-color: $white transparent transparent transparent;
+    }
+    .white-arrow-reversed {
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 100vw 120px 0;
+      border-color: transparent transparent $white transparent;
+    }
+    // text
+    .list-text {
+      margin: 100px 5px 150px 50px;
+      z-index: 2;
+
+      h3 {
+        color: $white;
+      }
+      p {
+        width: 80%;
+        margin: 20px auto 0 0;
+        color: $white;
+        font-size: 16px;
+      }
+      h4 {
+        color: $blue-100;
+        margin-top: 50px;
+      }
+    }
+  }
+  .certifications-wrapper {
+    margin-left: 10%;
+    .certifications {
+      .content {
+        padding: 0 !important;
+        .cert-content {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .left-cert {
+          width: 30%;
+          text-align: left;
+          h5 {
+            color: $blue-400;
+            font-weight: 700;
+            margin-bottom: 20px;
+          }
+        }
+        .right-cert {
+          width: 50%;
+          img {
+            margin-left: 50px;
+            margin-top: 40px;
+            width: 70%;
+          }
+        }
+      }
+
+    }
+  }
+
+  .service-full-list {
+    .full-list-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .left-full-list {
+      width: 25%;
+    }
+    .right-full-list {
+      width: 60%;
+      margin-left: 50px;
+    }
+  }
+}
+/* ******************** PC **********************/
+@include device-specific($pc) {
+  .header-nav {
+    height: 60px;
+    background-color: $blue-400;
+    display: flex;
+    justify-content: center;
+
+    .header-nav-container {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      div {
+        color: $white;
+        font-family: $font-asap;
+      }
+    }
+  }
+
+  .header {
+    h1 {
+      color: $white;
+      width: 60%;
+      margin: 0 auto 0 auto;
+      font-weight: 500;
+    }
+    p {
+      color: $white;
+      width: 60%;
+      margin: 20px auto 0 auto;
+    }
+  }
+
+  .service-range {
+    .arrow {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 240px 100vw 0 0;
+      border-color: $blue-300 transparent transparent transparent;
+    }
+  }
+
+  .capabilities {
+    margin-top: 20px;
+    .sunesis-devs-img {
+
+    }
+    // content grid
+    .left-whitespace {
+      width: 8.32%;
+    }
+
+    .center-image {
+      width: 50%;
+    }
+
+    .right-content {
+      width: 50%;
+    }
+    // arrows
+    .white-arrow {
+      position: absolute;
+      z-index: 1;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 240px 100vw 0 0;
+      border-color: $white transparent transparent transparent;
+    }
+    .white-arrow-reversed {
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 100vw 240px 0;
+      border-color: transparent transparent $white transparent;
+    }
+    //text
+    .list-text {
+      margin: 200px 0 200px 50px;
+      z-index: 2;
+
+      h3 {
+        color: $white;
+      }
+      p {
+        width: 60%;
+        margin: 20px auto 0 0;
+        color: $white;
+      }
+      h4 {
+        color: $blue-100;
+        margin-top: 50px;
+      }
+    }
+  }
+  .certifications {
+    .cert-content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .left-cert {
+      width: 30%;
+      text-align: left;
+      h5 {
+        color: $blue-400;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+    }
+    .right-cert {
+      width: 50%;
+      img {
+        margin-left: 50px;
+        margin-top: 40px;
+        width: 40%;
+      }
+    }
+  }
+  .service-full-list {
+    .full-list-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .left-full-list {
+      width: 25%;
+    }
+    .right-full-list {
+      width: 50%;
+      margin-left: 50px;
+    }
+  }
+}

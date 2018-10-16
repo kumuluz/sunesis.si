@@ -1,0 +1,86 @@
+@import '../../layouts/variables.scss';
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: bold;
+}
+
+li.bullet {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+li.bullet > div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  small {
+    color: $black;
+    line-height: normal;
+    font-weight: 500;
+  }
+}
+
+li.bullet:before {
+  content: '';
+  background: url('./chevron.svg');
+  font-size: 1.75rem;
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
+  background-size: contain;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 0 0 auto;
+}
+li.bullet.open:before {
+  background-image: url('./chevron-down.svg');
+}
+
+li.bullet {
+  @mixin specific-product-overrides($product-name) {
+    &:before {
+      background-image: url('./colors/chevron-'+$product-name+'.svg');
+    }
+    &.open:before {
+      background-image: url('./colors/chevron-'+$product-name+'-down.svg');
+    }
+  }
+
+  &.integration {
+    @include specific-product-overrides('integration');
+  }
+  &.ee {
+    @include specific-product-overrides('ee');
+  }
+  &.api {
+    @include specific-product-overrides('api');
+  }
+  &.devops {
+    @include specific-product-overrides('devops');
+  }
+  &.ux {
+    @include specific-product-overrides('ux');
+  }
+  &.ccm {
+    @include specific-product-overrides('ccm');
+  }
+  &.marketplace {
+    @include specific-product-overrides('marketplace');
+  }
+  &.payment {
+    @include specific-product-overrides('payment');
+  }
+  &.crowdsensing {
+    @include specific-product-overrides('crowdsensing');
+  }
+  &.blue-100 {
+    @include specific-product-overrides('blue-100');
+  }
+}

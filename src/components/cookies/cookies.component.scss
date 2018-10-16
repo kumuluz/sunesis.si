@@ -1,0 +1,55 @@
+@import "../../layouts/variables";
+@import "../../layouts/media-mixin";
+
+.accepted-cookies {
+  display: none !important;
+}
+.sun-cookies-component {
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $blue-200;
+  z-index: 10000;
+
+  display: flex;
+  justify-content: center;
+
+  .content {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    div {
+      font-family: $font-asap;
+      color: $white;
+      font-size: 16px;
+      margin-right: 20px;
+    }
+  }
+}
+
+@include device-specific($phone) {
+  .sun-cookies-component {
+    height: 80px;
+
+    .content {
+      width: 95%;
+
+      div {
+        font-size: 12px;
+      }
+      button {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@include device-specific($tablet) {
+  .sun-cookies-component {
+    height: 90px;
+  }
+}

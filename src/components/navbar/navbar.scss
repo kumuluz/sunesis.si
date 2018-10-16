@@ -1,0 +1,106 @@
+@import '../../layouts/variables.scss';
+@import '../../layouts/media-mixin.scss';
+
+.navbar-dark {
+  .nav-item a.nav-link {
+    color: $blue-400;
+    font-size: 1rem;
+    font-family: $font-asap;
+    margin-right: 10px;
+  }
+  .nav-item a.nav-link.dropdown-toggle:after {
+    border-width: 0.2em;
+    border-bottom-width: 0;
+  }
+}
+
+a.nav-link.active {
+  color: $red !important;
+  font-weight: bold;
+}
+
+a.nav-link:hover {
+  color: $red !important;
+}
+
+a.nav-link.active.plus:before {
+  content: '';
+  width: 20%;
+  display: block;
+  position: absolute;
+  left: 40%;
+  bottom: -25px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent $blue-400 transparent;
+}
+
+.placeholder {
+  height: 90px;
+}
+
+.dropdown-item.active.plus {
+  background: $white;
+  color: $black;
+}
+
+.lh-30 {
+  line-height: 30px !important;
+}
+
+@include device-specific($phone) {
+  .placeholder {
+    height: 70px;
+  }
+  .navbar-dark {
+    .nav-item {
+      text-align: center;
+    }
+    .lang.compact {
+      text-align: center;
+      color: white;
+    }
+    .nav-item a.nav-link {
+      color: $white;
+    }
+  }
+  .navbar-nav {
+    background-image: $blue-gradient-left;
+  }
+  .navbar-container {
+    background-image: $blue-gradient-left !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@include device-specific($tablet) {
+  .placeholder {
+    height: 70px;
+  }
+  .navbar-dark {
+    .nav-item {
+      text-align: center;
+    }
+    .lang.compact {
+      text-align: center;
+      color: white;
+    }
+    .nav-item a.nav-link {
+      color: $white;
+    }
+  }
+  .navbar-container {
+    background-image: $blue-gradient-left !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@include device-specific($pc) {
+  .navbar-dark {
+    .nav-item a.nav-link {
+      color: $blue-400 !important;
+    }
+  }
+}
