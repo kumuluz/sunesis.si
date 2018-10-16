@@ -71,11 +71,12 @@ export class Footer extends Component {
                 <div className="reverse-arrow"/>
                 <div className="content">
                     <Container>
-                        <Row>
-                            <Col>
-                                <LanguageSelector/>
-                            </Col>
-                        </Row>
+                        {/*Hide while there are no translations*/}
+                        {/*<Row>*/}
+                            {/*<Col>*/}
+                                {/*<LanguageSelector/>*/}
+                            {/*</Col>*/}
+                        {/*</Row>*/}
 
                         <Row className="links">
                             <Col xs="6" md="4" lg="auto">

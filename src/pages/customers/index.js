@@ -45,7 +45,7 @@ export default class CustomersPage extends Component {
                     <Row className="justify-content-center m-0">
                         <Col xs="12" lg="8">
                             <h1>{t("header.title")}</h1>
-                            <h2>{t("header.subtitle")}</h2>
+                            {/*<h2>{t("header.subtitle")}</h2>*/}
                         </Col>
                     </Row>
                     <div className="arrow"/>
