@@ -166,7 +166,7 @@ export default class ServicesPage extends Component {
                                 <div className="left-cert">
                                     <h5>{t('certifications.title')}</h5>
                                     <p>{t('certifications.body')}</p>
-                                    <p>{t('certifications.summary')}</p>
+                                    {/*<p>{t('certifications.summary')}</p>*/}
                                 </div>
                                 <div className="right-cert">
                                     <img src={certifications}/>

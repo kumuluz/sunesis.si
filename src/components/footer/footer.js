@@ -20,6 +20,26 @@ export class Footer extends Component {
         grey: PropTypes.any
     };
 
+    renderLink(link, index) {
+        if (link.href.startsWith("/")) {
+            return (
+                <div key={index}>
+                    <Link to={link.href}>
+                        {link.title}
+                    </Link>
+                </div>
+            )
+        } else {
+            return (
+                <div key={index}>
+                    <a href={link.href} target="_blank">
+                        {link.title}
+                    </a>
+                </div>
+            )
+        }
+    }
+
     render() {
         const {t, social, contact, grey} = this.props;
 
@@ -32,7 +52,7 @@ export class Footer extends Component {
                             <h4 className="position-relative text-center">{t('social.title')}</h4>
                             <div className="social-icons">
                                 {socialLinks.map((link, i) => (
-                                    <a key={i} href={link.href}>
+                                    <a key={i} href={link.href} target="_blank">
                                         <img src={link.img}/>
                                     </a>
                                 ))}
@@ -57,7 +77,7 @@ export class Footer extends Component {
                                         <h4 className="blue">{t('social.title')}</h4>
                                         <div className="social-icons text-center text-xl-left">
                                             {socialLinks.map((link, i) => (
-                                                <a key={i} href={link.href}>
+                                                <a key={i} href={link.href} target="_blank">
                                                     <img src={link.img}/>
                                                 </a>
                                             ))}
@@ -132,13 +152,13 @@ export class Footer extends Component {
                                 <Col key={i} xs="6" md="4" lg="auto">
                                     <div className="title">{fl.title}</div>
                                     {fl.links.map(
-                                        (link, ind) =>
-                                            (link.href && (
-                                                <Link key={ind} to={link.href}>
-                                                    {link.title}
-                                                </Link>
-                                            )) || <div key={ind}>{link.title}</div>
-                                    )}
+                                        (link, ind) =>{
+                                            if(link.href) {
+                                                return this.renderLink(link, ind);
+                                            } else {
+                                                return (<div key={ind}>{link.title}</div>);
+                                            }
+                                        })}
                                 </Col>
                             ))}
                         </Row>

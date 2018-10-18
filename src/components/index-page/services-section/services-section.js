@@ -63,7 +63,7 @@ export class ServicesSection extends Component {
                             </div>
 
                         </div>
-                        <p>{t('description.para3')} <a href="#">{t('description.more')}</a></p>
+                        <p>{t('description.para3')} <Link to={"/services"}>{t('description.more')}</Link></p>
 
                     </div>
                     <LineTitle title={t('core-services.title')}/>

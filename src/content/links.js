@@ -45,20 +45,47 @@ export const footerLinks = t => [
     {
         title: t('footer.community.title'),
         links: [
-            {title: t('footer.community.link1')},
-            {title: t('footer.community.link2')},
-            {title: t('footer.community.link3')},
-            {title: t('footer.community.link4')}
+            {
+                title: t('footer.community.link1'),
+                href: "https://blog.kumuluz.com"
+            },
+            {
+                title: t('footer.community.link2'),
+                href: ""
+            },
+            {
+                title: t('footer.community.link3'),
+                href: "https://twitter.com/kumuluz"
+            },
+            {
+                title: t('footer.community.link4'),
+                href: "https://www.linkedin.com/company/kumuluz"
+            }
         ]
     },
     {
         title: t('footer.company.title'),
         links: [
-            {title: t('footer.company.link1')},
-            {title: t('footer.company.link2')},
-            {title: t('footer.company.link3')},
-            {title: t('footer.company.link4')},
-            {title: t('footer.company.link5')}
+            {
+                title: t('footer.company.link1'),
+                href: "/about/sunesis"
+            },
+            {
+                title: t('footer.company.link2'),
+                href: "/about/awards"
+            },
+            {
+                title: t('footer.company.link3'),
+                href: "https://blog.kumuluz.com"
+            },
+            {
+                title: t('footer.company.link4'),
+                href: ""
+            },
+            {
+                title: t('footer.company.link5'),
+                href: ""
+            }
         ]
     }
 ];
@@ -69,10 +96,10 @@ import twitterIcon from './images/social/twitter.svg';
 export const socialLinks = [
     {
         img: twitterIcon,
-        href: '#'
+        href: "https://twitter.com/kumuluz"
     },
     {
         img: linkedInIcon,
-        href: '#'
+        href: "https://www.linkedin.com/company/kumuluz"
     }
 ];
