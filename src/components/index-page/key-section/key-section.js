@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 import './key-section.scss';
 
-import imageKey from '../../../assets/images/key2.svg';
+import imageKey from '../../../assets/images/key-diagram.svg';
 
 @translate()
 export class KeySection extends Component {
