@@ -1,4 +1,5 @@
 import React from 'react';
+import {KUMULUZ_URL} from "./constants";
 
 export const products = t => {
     return [
@@ -7,7 +8,7 @@ export const products = t => {
             name: <div dangerouslySetInnerHTML={{__html: t('products.kumuluzEE.title')}}/>,
             description: t('products.kumuluzEE.description'),
             transformation: t('products.kumuluzEE.transformation'),
-            href: 'https://www.kumuluz.com/digital-components/ee',
+            href: KUMULUZ_URL + '/digital-components/ee',
             external: true
         },
         {
@@ -15,7 +16,7 @@ export const products = t => {
             name: <div dangerouslySetInnerHTML={{__html: t('products.kumuluzAPI.title')}}/>,
             description: t('products.kumuluzAPI.description'),
             transformation: t('products.kumuluzAPI.transformation'),
-            href: 'https://www.kumuluz.com/digital-components/api',
+            href: KUMULUZ_URL + '/digital-components/api',
             external: true
         },
         {
@@ -29,7 +30,7 @@ export const products = t => {
             ),
             description: t('products.kumuluzIntegration.description'),
             transformation: t('products.kumuluzIntegration.transformation'),
-            href: 'https://www.kumuluz.com/digital-components/integration',
+            href: KUMULUZ_URL + '/digital-components/integration',
             external: true
         },
         {
@@ -37,7 +38,7 @@ export const products = t => {
             name: <div dangerouslySetInnerHTML={{__html: t('products.kumuluzUX.title')}}/>,
             description: t('products.kumuluzUX.description'),
             transformation: t('products.kumuluzUX.transformation'),
-            href: 'https://www.kumuluz.com/digital-components/ux',
+            href: KUMULUZ_URL + '/digital-components/ux',
             external: true
         },
         {
@@ -51,7 +52,7 @@ export const products = t => {
             ),
             description: t('products.kumuluzMarketplace.description'),
             transformation: t('products.kumuluzMarketplace.transformation'),
-            href: 'https://www.kumuluz.com/digital-components/marketplace',
+            href: KUMULUZ_URL + '/digital-components/marketplace',
             external: true
         },
         {
@@ -65,7 +66,7 @@ export const products = t => {
             ),
             description: t('products.kumuluzCrowdsensing.description'),
             transformation: t('products.kumuluzCrowdsensing.transformation'),
-            href: 'https://www.kumuluz.com/digital-components/crowdsensing',
+            href: KUMULUZ_URL + '/digital-components/crowdsensing',
             external: true
         }
     ];
@@ -74,52 +75,52 @@ export const products = t => {
 export const businessApis = t => [
     {
         title: t("business-apis.payment"),
-        url: "https://www.kumuluz.com/business-apis/payment/",
+        url: KUMULUZ_URL + "/business-apis/payment/",
         external: true
     },
     {
         title: t("business-apis.product-catalog"),
-        url: "https://www.kumuluz.com/business-apis/product-catalog",
+        url: KUMULUZ_URL + "/business-apis/product-catalog",
         external: true
     },
     {
         title: t("business-apis.cart"),
-        url: "https://www.kumuluz.com/business-apis/cart",
+        url: KUMULUZ_URL + "/business-apis/cart",
         external: true
     },
     {
         title: t("business-apis.order"),
-        url: "https://www.kumuluz.com/business-apis/order",
+        url: KUMULUZ_URL + "/business-apis/order",
         external: true
     },
     {
         title: t("business-apis.fulfillment"),
-        url: "https://www.kumuluz.com/business-apis/fulfillment",
+        url: KUMULUZ_URL + "/business-apis/fulfillment",
         external: true
     },
     {
         title: t("business-apis.invoice"),
-        url: "https://www.kumuluz.com/business-apis/invoice",
+        url: KUMULUZ_URL + "/business-apis/invoice",
         external: true
     },
     {
         title: t("business-apis.customer"),
-        url: "https://www.kumuluz.com/business-apis/customer",
+        url: KUMULUZ_URL + "/business-apis/customer",
         external: true
     },
     {
         title: t("business-apis.ccm"),
-        url: "https://www.kumuluz.com/business-apis/ccm",
+        url: KUMULUZ_URL + "/business-apis/ccm",
         external: true
     },
     {
         title: t("business-apis.subscription"),
-        url: "https://www.kumuluz.com/business-apis/subscription",
+        url: KUMULUZ_URL + "/business-apis/subscription",
         external: true
     },
     {
         title: t("business-apis.kyc"),
-        url: "https://www.kumuluz.com/business-apis/kyc",
+        url: KUMULUZ_URL + "/business-apis/kyc",
         external: true
     }
 ];

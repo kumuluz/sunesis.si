@@ -18,7 +18,7 @@ import sunesisCube from './images/sunesis-cube-full.png';
 import awardDuke from '../../assets/images/awards/duke.jpg';
 import awardEurocloud from '../../assets/images/awards/euro-cloud.png';
 import awardStartup from '../../assets/images/awards/startup.png';
-import {URL_KUMULUZ_COM} from "../../content/constants";
+import {BLOG_URL, URL_KUMULUZ_COM} from "../../content/constants";
 
 import deployDataCenterImage from "../../assets/images/products/deployDatacenter.svg";
 import fullSupportImage from "../../assets/images/products/fullSupport.svg";
@@ -223,7 +223,7 @@ export default class ProductsPage extends Component {
                                 </div>
                                 <div className="arrow"/>
                                 <p className="footer text-center mb-0 px-4 pb-4">
-                                    <a target="_blank" href="https://blog.kumuluz.com">{t('caseStudy.quote.readMore')}</a>
+                                    <a target="_blank" href={BLOG_URL}>{t('caseStudy.quote.readMore')}</a>
                                     <br/>
                                     {t('caseStudy.quote.about')}
                                 </p>

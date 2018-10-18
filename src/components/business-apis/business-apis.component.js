@@ -8,6 +8,7 @@ import checkMarkImage from "../../assets/images/checkMark.svg";
 import forWhoImage from "../../assets/images/forWho.svg";
 import whatCostImage from "../../assets/images/whatCost.svg";
 import whatIsImage from "../../assets/images/whatIs.svg";
+import {KUMULUZ_URL} from "../../content/constants";
 
 const applicationNeeds = (t) => {
     return {
@@ -66,7 +67,7 @@ export class BusinessApisComponent extends Component {
         if (item.isButton) {
             return (
                 // eslint-disable-next-line react/jsx-no-target-blank
-                <a target="_blank" href="https://www.kumuluz.com/business-apis" key={index}>
+                <a target="_blank" href={KUMULUZ_URL + "/business-apis"} key={index}>
                     <span className="btn btn-primary">
                         {item.title}
                     </span>

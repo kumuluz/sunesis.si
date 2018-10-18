@@ -71,8 +71,8 @@ export class Footer extends Component {
                                         <h4 className="blue">{t('contact.contact.title')}</h4>
                                         <h4>{t('contact.contact.company')}</h4>
                                         <p dangerouslySetInnerHTML={{__html: t('contact.contact.address')}}/>
-                                        <p className="mt-4 mb-0">{t('contact.contact.email')}</p>
-                                        <p>{t('contact.contact.phone')}</p>
+                                        <p className="mt-4">{t('contact.contact.email')}</p>
+                                        {/*<p>{t('contact.contact.phone')}</p>*/}
 
                                         <h4 className="blue">{t('social.title')}</h4>
                                         <div className="social-icons text-center text-xl-left">

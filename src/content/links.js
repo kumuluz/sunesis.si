@@ -1,6 +1,4 @@
-export const links = {
-    blog: 'https://blog.kumuluz.com'
-};
+import {BLOG_URL, GITHUB_ORG_URL, SOCIAL} from "./constants";
 
 export const navigation = t => [
     {href: '/services', name: t('menu.services')},
@@ -23,7 +21,7 @@ export const navigation = t => [
             {href: '/about/awards', name: t('menu.aboutUs.awards')}
         ]
     },
-    {href: links.blog, name: t('menu.blog'), external: true}
+    {href: BLOG_URL, name: t('menu.blog'), external: true}
 ];
 
 export const footerLinks = t => [
@@ -47,19 +45,19 @@ export const footerLinks = t => [
         links: [
             {
                 title: t('footer.community.link1'),
-                href: "https://blog.kumuluz.com"
+                href: BLOG_URL
             },
             {
                 title: t('footer.community.link2'),
-                href: ""
+                href: GITHUB_ORG_URL
             },
             {
                 title: t('footer.community.link3'),
-                href: "https://twitter.com/kumuluz"
+                href: SOCIAL.TWITTER_URL
             },
             {
                 title: t('footer.community.link4'),
-                href: "https://www.linkedin.com/company/kumuluz"
+                href: SOCIAL.LINKEDIN_URL
             }
         ]
     },
@@ -76,14 +74,10 @@ export const footerLinks = t => [
             },
             {
                 title: t('footer.company.link3'),
-                href: "https://blog.kumuluz.com"
+                href: BLOG_URL
             },
             {
                 title: t('footer.company.link4'),
-                href: ""
-            },
-            {
-                title: t('footer.company.link5'),
                 href: ""
             }
         ]
@@ -96,10 +90,10 @@ import twitterIcon from './images/social/twitter.svg';
 export const socialLinks = [
     {
         img: twitterIcon,
-        href: "https://twitter.com/kumuluz"
+        href: SOCIAL.TWITTER_URL
     },
     {
         img: linkedInIcon,
-        href: "https://www.linkedin.com/company/kumuluz"
+        href: SOCIAL.LINKEDIN_URL
     }
 ];

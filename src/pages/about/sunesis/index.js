@@ -15,6 +15,7 @@ import '../index.scss';
 import cube01 from '../../../assets/images/cubes/3d-cube-01.svg';
 import cube02 from '../../../assets/images/cubes/3d-cube-02.svg';
 import Helmet from "react-helmet";
+import {EE_KUMULUZ_URL, IO_KUMULUZ_URL, KUMULUZ_URL} from "../../../content/constants";
 
 const products = t => [
     {
@@ -28,28 +29,28 @@ const products = t => [
         title: t("products-services.item-2.title"),
         subtitle: t("products-services.item-2.subtitle"),
         description: t("products-services.item-2.desc"),
-        url: "https://www.kumuluz.com/digital-platform",
+        url: KUMULUZ_URL + "/digital-platform",
         size: 1
     },
     {
         title: t("products-services.item-3.title"),
         subtitle: t("products-services.item-3.subtitle"),
         description: t("products-services.item-3.desc"),
-        url: "https://www.kumuluz.com/business-apis",
+        url: KUMULUZ_URL + "/business-apis",
         size: 1
     },
     {
         title: t("products-services.item-4.title"),
         subtitle: t("products-services.item-4.subtitle"),
         description: t("products-services.item-4.desc"),
-        url: "https://ee.kumuluz.com",
+        url: EE_KUMULUZ_URL,
         size: 1
     },
     {
         title: t("products-services.item-5.title"),
         subtitle: t("products-services.item-5.subtitle"),
         description: t("products-services.item-5.desc"),
-        url: "https://www.kumuluz.io",
+        url: IO_KUMULUZ_URL,
         size: 1
     }
 ];
