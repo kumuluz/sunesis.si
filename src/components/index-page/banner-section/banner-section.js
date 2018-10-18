@@ -8,6 +8,7 @@ import sunesisCubeFull from "../../../assets/images/sunesisCube-full.svg";
 import sunesisCube from "../../../pages/products/images/sunesis-cube-full.png";
 
 import './banner-section.scss';
+import {BLOG_URL} from "../../../content/constants";
 
 @translate()
 export class BannerSection extends Component {
@@ -68,7 +69,7 @@ export class BannerSection extends Component {
                                         key={i}>{t(`theWay.newWay.reason${reason}`)}</li>)}
                                   </ul>
                                 </span>
-                                <a href={links.blog} className="btn btn-primary mt-3 mb-5" color="primary"
+                                <a href={BLOG_URL} className="btn btn-primary mt-3 mb-5" color="primary"
                                    target="_blank" rel="noopener noreferrer">
                                     {t('theWay.newWay.readOurBlog')}
                                 </a>
