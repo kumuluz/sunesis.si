@@ -10,6 +10,7 @@ import {businessApis, products as kumuluzDigitalProducts} from '../../content/pr
 import {footerLinks, socialLinks} from '../../content';
 
 import './footer.scss';
+import email from "../../assets/images/email.png";
 
 @translate()
 export class Footer extends Component {
@@ -71,7 +72,9 @@ export class Footer extends Component {
                                         <h4 className="blue">{t('contact.contact.title')}</h4>
                                         <h4>{t('contact.contact.company')}</h4>
                                         <p dangerouslySetInnerHTML={{__html: t('contact.contact.address')}}/>
-                                        <p className="mt-4">{t('contact.contact.email')}</p>
+                                        <p className="mt-4">
+                                            <img style={{cursor: "pointer"}} src={email} onClick={() => window.location = "mailto:info@sunesis.si"}/>
+                                        </p>
                                         {/*<p>{t('contact.contact.phone')}</p>*/}
 
                                         <h4 className="blue">{t('social.title')}</h4>
