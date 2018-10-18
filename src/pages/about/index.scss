@@ -99,11 +99,14 @@
     h3 {
       color: $blue-400;
     }
-
     img {
       max-width: 180px;
       max-height: 200px;
       margin-right: 60px;
+    }
+    .award-btn {
+      border-bottom: none;
+      color: $white;
     }
   }
 }

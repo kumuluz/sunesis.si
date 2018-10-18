@@ -23,19 +23,19 @@ const awards = t => [
     img: awardDuke,
     title: t("awards.duke.title"),
     text: t("awards.duke.text"),
-    href: ''
+    href: 'https://community.oracle.com/community/technology_network_community/java/javaone/dukes-choice-awards'
   },
   {
     img: awardEurocloud,
     title: t("awards.eurocloud.title"),
     text: t("awards.eurocloud.text"),
-    href: ''
+    href: 'https://krog.sta.si/2022184/na-gzs-podelili-nagrade-za-najboljse-storitve-v-oblaku'
   },
   {
     img: awardStartup,
     title: t("awards.startup.title"),
     text: t("awards.startup.text"),
-    href: ''
+    href: 'https://www.startup.si/en-us'
   }
 ];
 
@@ -109,9 +109,9 @@ export default class AboutUsPage extends Component {
                 <div className="award-content">
                   <h3 className="font-weight-bold mb-4">{award.title}</h3>
                   <p>{award.text}</p>
-                  <Button color="info" onClick={() => this.goTo(award.href)}>
+                    <a href={award.href} rel="noreferrer noopener" target="_blank" className="btn btn-info award-btn">
                       {t("awards.view-more")}
-                  </Button>
+                    </a>
                 </div>
               </Col>
             </Row>
