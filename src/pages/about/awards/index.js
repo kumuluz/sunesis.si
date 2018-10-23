@@ -78,6 +78,10 @@ export default class AboutUsPage extends Component {
     window.location = link;
   }
 
+  componentDidMount() {
+    GoogleAnalyticsService.registerPageView();
+  }
+
   render() {
     const { t } = this.props;
     const { howManyArticles, allLoaded, articles } = this.state;

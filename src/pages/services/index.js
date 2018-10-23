@@ -22,6 +22,10 @@ export default class ServicesPage extends Component {
         t: PropTypes.func
     };
 
+    componentDidMount() {
+        GoogleAnalyticsService.registerPageView();
+    }
+
     render() {
         const {t} = this.props;
         return (
