@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import { translate } from 'react-i18next';
-import { Navbar, Collapse, Nav, NavItem, UncontrolledDropdown, DropdownToggle, DropdownMenu, NavbarToggler } from 'reactstrap';
+import { Navbar, Collapse, Nav, NavItem, Dropdown, DropdownToggle, DropdownMenu, NavbarToggler } from 'reactstrap';
 
 import './navbar.scss';
 import sunesisLogo from './sunesis-logo.svg';
@@ -21,14 +21,25 @@ export class NavbarComponent extends Component {
   constructor(props) {
     super(props);
 
+    this.toggleDropdown = this.toggleDropdown.bind(this);
+
     this.state = {
-      isOpen: false
+      isOpen: false,
+      dropdownOpen: false
     };
   }
 
   toggle() {
     this.setState({
+        ...this.state,
       isOpen: !this.state.isOpen
+    });
+  }
+
+  toggleDropdown() {
+    this.setState({
+        ...this.state,
+        dropdownOpen: !this.state.dropdownOpen
     });
   }
 
@@ -36,6 +47,7 @@ export class NavbarComponent extends Component {
     const screenSize = returnScreenSize();
     if (screenSize <= MEDIA_TABLET) {
       this.setState({
+          ...this.state,
           isOpen: false
       })
     }
@@ -50,7 +62,6 @@ export class NavbarComponent extends Component {
         return 'active plus position-relative';
       }
     }
-    return;
   }
 
   render() {
@@ -71,18 +82,21 @@ export class NavbarComponent extends Component {
                 {navigation(t).map(
                   (nav, key) =>
                     (nav.children && (
-                      <UncontrolledDropdown key={key} nav>
+                      <Dropdown key={key} nav isOpen={this.state.dropdownOpen} toggle={this.toggleDropdown}>
                         <DropdownToggle nav caret className={this.linkActive(nav.href)}>
                           {nav.name}
                         </DropdownToggle>
                         <DropdownMenu>
                           {nav.children.map((child, childKey) => (
-                            <Link onClick={() => this.closeMobileMenu()} key={childKey} to={child.href} className={`${this.linkActive(child.href)} dropdown-item`}>
+                            <Link onClick={() => {
+                              this.toggleDropdown();
+                                this.closeMobileMenu();
+                            }} key={childKey} to={child.href} className={`${this.linkActive(child.href)} dropdown-item`}>
                               {child.name}
                             </Link>
                           ))}
                         </DropdownMenu>
-                      </UncontrolledDropdown>
+                      </Dropdown>
                     )) || (
                       <NavItem key={key}>
                         {!nav.external && (
