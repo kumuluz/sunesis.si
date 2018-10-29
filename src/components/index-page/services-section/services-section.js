@@ -3,15 +3,11 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import {translate} from 'react-i18next';
 import {Row, Col, Container} from 'reactstrap';
-// import {ProductsGrid} from '../..';
 
 import {LineTitle} from "..";
 import {innovativeProducts} from "../../../content/indexPage/innovatite-products";
 
 import './services-section.scss';
-
-//import {coreServices} from '../../../content/indexPage';
-
 import imageStrategicTactical from '../../../assets/images/strategic-tactical.svg';
 import imageOperational from '../../../assets/images/operational.svg';
 import imageDuke from '../../../assets/images/duke.svg';
@@ -135,23 +131,7 @@ export class ServicesSection extends Component {
                             ))}
                         </div>
                     </div>
-
-
-                    {/*<h3>{t('digitalPlatform.title')}</h3>*/}
-                    {/*<p*/}
-                        {/*dangerouslySetInnerHTML={{*/}
-                            {/*__html: t('digitalPlatform.subtitle')*/}
-                        {/*}}*/}
-                    {/*/>*/}
-                    {/*<br/>*/}
                 </Col>
-                {/*<Col xs="12" lg="10" xl="10">*/}
-                    {/*<ProductsGrid/>*/}
-                    {/*<br/>*/}
-                    {/*<Link to="/products" className="btn btn-primary mt-5">*/}
-                        {/*{t('digitalPlatform.moreAbout')}*/}
-                    {/*</Link>*/}
-                {/*</Col>*/}
             </Row>
             </Container>
         );

@@ -1,0 +1,85 @@
+{
+  "site": {
+    "title": "Sunesis",
+    "sunesis": {
+      "title": "O nas"
+    },
+    "references": {
+      "title": "Reference"
+    },
+    "awards": {
+      "title": "Nagrade in mediji"
+    }
+  },
+  "header": {
+    "title": "O podjetju Sunesis",
+    "para-1": "Sunesis je podjetje za programsko opremo in IT storitve s sedežem v Sloveniji. Podjetje deluje v osrednji in vzhodni Evropi, predvsem pa pomaga velikim podjetjem v regiji z njihovo digitalno transformacijo in razvojem digitalnih izdelkov.",
+    "para-2": "Podjetje združuje visoko usposobljeno ekipo več kot 15 strokovnjakov, ki dosegajo odlične rezultate in imajo obsežne izkušnje z oblikovanjem, ustvarjanjem, razvojem in integracijo kompleksnih oblačnih aplikacij in informacijskih sistemov.",
+    "para-3": "Naša ekipa je specializirana za uporabo mikrostoritev, API-jev, vsebnikov, agilnih razvojnih praks in metodologije DevOps. Prednosti dela z nami so agilnost, hiter razvoj, hiter čas vstopa na trg, tesen odnos s stranko, visoka kvaliteta in poznavanje najnaprednejših tehnologij.",
+    "para-4": "Od ustanovitve leta 2014 je podjetje hitro raslo in dobilo več državnih in mednarodnih prestižnih nagrad. Naša družina inovativnih izdelkov, ki omogoča veliko hitrejšo digitalno transformacijo in razvoj novih digitalnih izdelkov, se imenuje Kumuluz."
+  },
+  "products-services": {
+    "title": "Seznam naših izdelkov in storitev",
+    "learn-more": "Več",
+    "item-1": {
+      "title": "NAŠE STORITVE",
+      "subtitle": "Pomagamo vam lahko implementirati vašo digitalno strategijo",
+      "desc": "Ponujamo širok nabor storitev IT svetovanja in izobraževanja ter storitve razvoja programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prehod v oblak, prehod z monolitske v mikrostoritveno arhitekturo, modernizacijo programske opreme in razvoj novih digitalnih izdelkov."
+    },
+    "item-2": {
+      "title": "DIGITALNA PLATFORMA KUMULUZ",
+      "subtitle": "Pospešite svojo digitalno transformacijo",
+      "desc": "Lahka, odprta in zmagovalna digitalna platforma, ki jo razvojne ekipe obožujejo."
+    },
+    "item-3": {
+      "title": "POSLOVNI APLIKACIJSKI PROGRAMSKI VMESNIKI KUMULUZ",
+      "subtitle": "API rešitve za takojšnjo uporabo",
+      "desc": "Uporabite že razvite poslovne API-je in tako veliko hitreje ustvarite svoje digitalne izdelke in storitve."
+    },
+    "item-4": {
+      "title": "ODPRTOKODNA SKUPNOST",
+      "subtitle": "Pridružite se skupnosti razvijalcev, programerjev in uporabnikov",
+      "desc": "Naše mikrostoritveno ogrodje (EE) je del skupnosti Microprofile.io."
+    },
+    "item-5": {
+      "title": "DECENTRALIZIRANI API-JI IN TEHNOLOGIJA VERIŽENJA BLOKOV",
+      "subtitle": "Resnično decentralizirane aplikacije",
+      "desc": "Kumuluzova platforma dAPI uvaja popolnoma decentralizirane API-je, ki uporabljajo tehnologijo veriženja blokov."
+    }
+  },
+  "sunesis-name": {
+    "title": "Se sprašujete, kaj pomeni ime Sunesis?",
+    "para-1": "Ime Sunesis ni bilo izbrano naključno, temveč sporoča temeljne vrednote, ki jih podjetje predstavlja. Grki so imeli tri besede, ki opisujejo tri izjemne lastnosti uma. Če je človek imel vse tri lastnosti, je njegov um bil opremljen.",
+    "words": {
+      "item-1": "Prva od teh besed je sophia – modrost.",
+      "item-2": "Druga od teh velikih besed je phronesis – preudarnost.",
+      "item-3": "Tretja od velikih grških besed uma je sunesis."
+    },
+    "para-2": "Sunesis dobesedno pomeni združevati, zbližati, integrirati. Lahko bi rekli, da sunesis predstavlja tisto zmožnost logičnega sklepanja. V svojem bistvu sunesis predstavlja zmožnost vrednotenja, razločevanja, kritiziranja in ocenjevanja, razumevanja in oblikovanja stališč."
+  },
+  "awards": {
+    "title": "Naše nagrade",
+    "subtitle": "Kumuluz Digital Platform in naša ekipa so dobili več prestižnih državnih in mednarodnih nagrad.",
+    "duke": {
+      "title": "Zmagovalec nagrade Java Duke's Choice Award",
+      "text": "KumuluzEE je dobitnik prestižne Java Duke's Choice Award. Nagrade proslavijo inovacije, ki temeljijo na javanski tehnologiji. Oracle je zmagovalce naznanil na konferenci JavaOne v San Franciscu."
+    },
+    "eurocloud": {
+      "title": "Nagrada EuroCloud",
+      "text": "Sunesis je za svojo družino izdelkov Kumuluz dobil nagrado EuroCloud Award za najbolj inovativno storitev v oblaku. Strokovna žirija je Kumuluzovo integracijsko platformo prepoznala za zelo inovativno. Prav tako so prepoznali prednost Kumuluzove integracijske platforme v primerjavi s konkurenco."
+    },
+    "startup": {
+      "title": "Finalist Slovenskega startupa leta",
+      "text": "Startup Sunesis je bil eden od finalistov tekmovanja Slovenski startup leta."
+    },
+    "view-more": "Več",
+    "press": {
+      "title": "Sunesis v medijih",
+      "subtitle": "Članki o Sunesisu, ki jih želimo izpostaviti"
+    }
+  },
+  "references": {
+    "title": "Naše reference",
+    "subtitle": "Celoten seznam naših zadovoljnih strank"
+  }
+}

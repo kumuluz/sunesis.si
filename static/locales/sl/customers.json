@@ -1,0 +1,94 @@
+{
+  "site": {
+    "title": "Stranke - Sunesis"
+  },
+  "header": {
+    "title": "Naše stranke"
+  },
+  "who-are": {
+    "para-1": "Naše glavne stranke so velika podjetja, ki so v procesu digitalne transformacije. Po tem, ko strategijo digitalne transformacije zapišemo na papir, pomagamo podjetjem razviti nove digitalne izdelke, modernizirati njihovo obstoječo programsko opremo in jo integrirati na najhitrejši možni način.",
+    "para-2": "Velikim podjetjem pomagamo hitreje razviti digitalne aplikacije, modernizirati njihovo aplikacijsko arhitekturo, optimizirati delovanje aplikacij in ostati konkurenčni v digitalni dobi.",
+    "typical-customers": {
+      "title": "Naše tipične stranke",
+      "item-1": "Velika podjetja v osrednji in vzhodni Evropi (10 mio+ prihodkov)",
+      "item-2": "Jasna strategija za digitalno transformacijo",
+      "item-3": "Težave s tem, kako implementirati digitalno transformacijo",
+      "item-4": "Potreba po modernizaciji obstoječe programske opreme",
+      "item-5": "Želja po hitrejši gradnji novih digitalnih rešitev"
+    },
+    "common-industries": {
+      "title": "Najpogostejše panoge, v katerih delujemo",
+      "item-1": "Avtomobilska",
+      "item-2": "Finančne storitve",
+      "item-3": "Nafta in plin",
+      "item-4": "Zavarovalništvo",
+      "item-5": "Vlada",
+      "item-6": "Mediji",
+      "item-7": "Maloprodaja",
+      "item-8": "Telekomunikacije"
+    },
+    "list-of-clients": "Seznam naših strank",
+    "struggle": {
+      "title": "Naše stranke si prizadevajo modernizirati monolitske aplikacije",
+      "para": "Pred mikrostoritvami je programska oprema bila grajena v obliki velikih monolitskih aplikacij. Velika ekipa razvijalcev je sledila tradicionalnemu kaskadnemu razvojnemu procesu in spisala vsak del aplikacije, od začetka do konca. Monolitska aplikacija se obravnava kot en sam paket, z eno samo bazo podatkov in tesno povezanimi odvisnostmi med funkcionalnostmi.",
+      "problems": {
+        "title": "Problemi z monolitskimi aplikacijami",
+        "item-1": "Če se pokvari komponenta, se pokvari celoten sistem",
+        "item-2": "Izziv, kako lansirati, zato so nove različice manj pogoste",
+        "item-3": "Konfiguracijo je težko upravljati",
+        "item-4": "Viri niso optimalno porabljeni, saj ni možno povečati le tistih storitev, po katerih je veliko povpraševanje"
+      },
+      "summary": "Ali vaša monolitska programska oprema ovira vaš napredek? Potem ste naša idealna stranka!"
+    },
+    "help": {
+      "title": "Strankam pomagamo razvijati oblačne aplikacije, ki temeljijo na mikrostoritvah",
+      "para-1": "Glavna ideja mikrostoritev je razčleniti velike aplikacije v njihove glavne funkcije, ki se imenujejo storitve in so nato tehnično implementirane kot mikrostoritve. Osrednja ideja je, da koda ni organizirana okoli slojev programske opreme temveč okoli poslovnih funkcij, kjer je vsaka mikrostoritev ločena enota, ki je odgovorna za svoj lasten podatkovni model in podatke.",
+      "para-2": "Rečemo torej lahko, da so mikrostoritve samostojni procesi, ki so organizirani okoli ene same poslovne funkcije. Če morate zamenjati, popraviti ali nadgraditi mikrostoritev, ne rabite na novo zgraditi celotne aplikacije. Mikrostoritvena arhitektura temelji na filozofiji, da morajo vsebniki kode delati le eno stvar, vendar to stvar delati izjemno.",
+      "advantages": {
+        "title": "Pri organizaciji programske opreme tako obstaja več prednosti",
+        "item-1": "Vsaka mikrostoritev se osredotoča na eno samo poslovno funkcijo (je majhna in osredotočena)",
+        "item-2": "Mikrostoritev predstavlja samostojen sestavni del, ki ni odvisen od drugih značilnosti",
+        "item-3": "Za mikrostoritve so lahko uporabljena različna ogrodja, jeziki in orodja",
+        "item-4": "Obstoječi ekosistemi že napisanih mikrostoritev in API-jev, ki jih je možno integrirati v aplikacije",
+        "item-5": "Manj strma krivulja učenja za razvijalce, ki so zadolženi za mikrostoritve",
+        "item-6": "Mikrostoritve so pakirane in nameščene kot vsebniki, z njimi pa upravljajo okolja za organizacijo vsebnikov (kot je npr. Kubernetes)",
+        "item-7": "Možnost skaliranja posameznih vsebnikov ",
+        "item-8": "Zmanjšani stroški z boljšo uporabo virov",
+        "item-9": "Sledi agilnim razvojnim praksam s pogosto dostavo (nekajkrat na dan)",
+        "item-10": "Veliko lažje slediti principom neprekinjenega inoviranja"
+      }
+    },
+    "replatforming": {
+      "title": "To lahko dosežemo s prenovo aplikacijske platforme",
+      "para-1": "Proces prenove platforme (ang. replatforming) podjetjem omogoča, da trenutne zastarele programske rešitve prenesejo na nove tehnologije, ki so bolj učinkovite in manj drage. V tem procesu so monolitske aplikacije in obstoječa koda modernizirani ter migrirajo v oblačno arhitekturo, ki programsko opremo naredi hitrejšo in bolj skalabilno, lažje jo je vzdrževati, zlasti pa je manj draga.",
+      "para-2": "S tradicionalnimi praksami razvoja programske opreme in rigidno arhitekturo lahko koda začne dušiti inovacije, razvojni cikli postanejo vedno daljši, vzdrževalni stroški infrastrukture pa so tako neupravičeni. Brez modernizacije IT arhitekture je za organizacijo nemogoče, da je konkurenčna na trgu in izkoristi vse prednosti, ki jih omogoča digitalna transformacija.",
+      "decisions": {
+        "title": "Zakaj se naše stranke običajno odločijo prenoviti platformo",
+        "item-1": "Neskladnost med poslovnimi cilji in IT sredstvi",
+        "item-2": "Kompleksna infrastruktura z visokimi vzdrževalnimi stroški in brez skalabilnosti",
+        "item-3": "Dolgi razvojni cikli brez agilnosti ali zmožnosti hitrih ukrepov",
+        "item-4": "Več slabo integriranih ali celo podvojenih programskih rešitev",
+        "item-5": "Omejeno inoviranje in slaba uporabniška izkušnja",
+        "item-6": "Težko rekrutirati nove talente"
+      },
+      "transitions": {
+        "title": "Prenova platforme vključuje več tranzicij",
+        "item-1": "Migracija na oblačne aplikacije",
+        "item-2": "Z monolitske arhitekture na mikrostoritve",
+        "item-3": "Od kaskadnega do agilnega razvoja",
+        "item-4": "Pospešitev razvojnih ciklov"
+      }
+    },
+    "striving": {
+      "title": "Svojim strankam pomagamo uspeti v gospodarstvu API",
+      "para": "Mikrostoritve za medsebojno komunikacijo uporabljajo aplikacijske programske vmesnike (kot so REST, pošiljanje sporočil, prenos dogodkov, gRPC, GraphQL itd.). API-ji vašim aplikacijam prav tako omogočajo, da eksterno komunicirajo z drugimi storitvami. Osrednja ideja je, da so podjetja danes s pomočjo API-jev povezana tudi s svojimi deležniki (strankami, partnerji itd.), ter razvijejo nove vrednostne verige in nove kanale partnerjev. ",
+      "enabled": {
+        "title": "API-ji vam omogočajo izmenjavo podatkov med aplikacijami in neposredno integracijo",
+        "item-1": "Razvoj specifičnih aplikacij in digitalnih rešitev za različne deležnice",
+        "item-2": "Prenos podatkov in aplikacij tretje strani v vaš ekosistem",
+        "item-3": "Pošiljanje vaših podatkov v druge aplikacije itd."
+      },
+      "summary": "Ali je vaša digitalna transformacija prepočasna? Dovolite, da vam pomagamo!"
+    }
+  }
+}

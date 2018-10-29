@@ -10,6 +10,13 @@ import enServices from '../../static/locales/en/services.json';
 import enCustomers from '../../static/locales/en/customers.json';
 import enAbout from '../../static/locales/en/about.json';
 
+import slTranslations from '../../static/locales/sl/translations.json';
+import slLanguage from '../../static/locales/sl/language.json';
+import slProducts from '../../static/locales/sl/products.json';
+import slServices from '../../static/locales/sl/services.json';
+import slCustomers from '../../static/locales/sl/customers.json';
+import slAbout from '../../static/locales/sl/about.json';
+
 
 import { reactI18nextModule } from 'react-i18next';
 
@@ -26,7 +33,7 @@ i18n
     ns: ['translations'],
     defaultNS: 'translations',
 
-    debug: true,
+    debug: false,
 
     interpolation: {
       escapeValue: false
@@ -44,5 +51,12 @@ i18n.addResourceBundle('en', 'products', enProducts);
 i18n.addResourceBundle('en', 'services', enServices);
 i18n.addResourceBundle('en', 'customers', enCustomers);
 i18n.addResourceBundle('en', 'about', enAbout);
+
+i18n.addResourceBundle('sl', 'translations', slTranslations);
+i18n.addResourceBundle('sl', 'language', slLanguage);
+i18n.addResourceBundle('sl', 'products', slProducts);
+i18n.addResourceBundle('sl', 'services', slServices);
+i18n.addResourceBundle('sl', 'customers', slCustomers);
+i18n.addResourceBundle('sl', 'about', slAbout);
 
 export default i18n;

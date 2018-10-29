@@ -1,8 +1,312 @@
 {
   "site": {
-    "title": "Sunesis"
+    "title": "Sunesis",
+    "description": "Sunesis je IT podjetje locirano v Sloveniji.",
+    "keywords": "sunesis,kumuluz,digital,apis,business apis,decentralized,kumuluzee,java",
+    "cookie-warning": "To spletno mesto uporablja piškotke za boljšo uporabniško izkušnjo. Z uporabo tega spletnega mesta soglašate z uporabo piškotkov.",
+    "cookie-consent": "Se strinjam"
   },
+  "menu": {
+    "services": "Storitve",
+    "products": "Produkti",
+    "customers": "Stranke",
+    "aboutUs": {
+      "title": "O nas",
+      "references": "Reference",
+      "aboutUs": "O Sunesisu",
+      "awards": "Nagrade in mediji"
+    },
+    "blog": "Blog",
+    "contactUs": "Kontakt"
+  },
+  "banner": {
+    "title": "Predstavljajte si aplikacije, ki so <b>razvite trikrat hitreje</b>, popolnoma <b>fleksibilne, integrirane, preskakujejo napake</b> in <b>nimajo omejitev za skaliranje.</b>",
+    "subTitle": "Kako je to mogoče?",
+    "cubeTitle": "Prilagoditev razvoja novih, mikrostoritvenih in oblačnih aplikacij",
+    "mobile-cube-1": "Popolnoma fleksibilne",
+    "mobile-cube-2": "Preskakovanje napak",
+    "mobile-cube-3": "Integrirane",
+    "mobile-cube-4": "Skalabilne"
+  },
+  "theWay": {
+    "oldWay": {
+      "title": "Stari način",
+      "reason1": "Tradicionalne N-stopenjske razvijalske prakse",
+      "reason2": "Razvoj usmerjen v komponente",
+      "reason3": "Monolitna postavitev",
+      "reason4": "Aplikacijski serverji",
+      "reason5": "Slapovni razvoj"
+    },
+    "newWay": {
+      "title": "Novi način",
+      "reason1": "Mikrostoritve in APIji",
+      "reason2": "Oblaku prijazna arhitektura",
+      "reason3": "Vsebniki (Docker)",
+      "reason4": "Orkestracija vsebnikov (Kubernetes)",
+      "reason5": "Continuous Delivery",
+      "reason6": "DevOps",
+      "reason7": "Radikalna agilnost",
+      "readOurBlog": "Preberite naš blog"
+    }
+  },
+  "key": {
+    "title": "Ključ do vaše<br/>uspešne digitalne transformacije",
+    "subtitle": "Če ne prevzamete novega načina razvoja mikrostoritvenih in oblačnih aplikacij, ne morete izvesti svoje digitalne strategije ali razviti svojih digitalnih storitev in izdelkov.",
+    "weHelp": {
+      "title": "Pomagamo vam lahko:",
+      "key1": "Prevzeti nov način razvoja aplikacij",
+      "key2": "Dramatično izboljšati čas vstopa na trg",
+      "key3": "Vašo digitalno transformacijo narediti hitrejšo, učinkovitejšo in manj tvegano"
+    },
+    "weAchieve": {
+      "title": "To lahko dosežemo tako, da:",
+      "key1": "Vaše digitalne aplikacije razvijemo hitreje in bolje",
+      "key2": "Uporabljamo agilne razvojne procese, mikrostoritve in API-je",
+      "key3": "Integriramo in prenovimo vaše obstoječe aplikacije",
+      "key4": "Vašim strankam neprekinjeno dostavljamo nove funkcionalnosti "
+    }
+  },
+  "description": {
+    "title": "Najhitrejša pot od digitalne strategije do delujočih digitalnih izdelkov",
+    "para1": "Pri Sunesisu ponujamo širok nabor storitev in svoje lastne inovativne izdelke, ter tako pospešimo vašo digitalno transformacijo in oživimo digitalne izdelke.",
+    "para2": "Smo visoko usposobljena ekipa, ki dosega odlične rezultate in ima obsežne izkušnje z oblikovanjem, ustvarjanjem, razvijanjem in integriranjem kompleksnih oblačnih aplikacij in informacijskih sistemov, ki uporabljajo mikrostoritve, API-je, vsebnike, spletne, mobilne in agilne razvojne prakse, DevOps in tehnologijo veriženja blokov.",
+    "award": "Dobili smo prestižno nagrado",
+    "award-bold": "Java Duke's Choice Award za tehnično inovacijo.",
+    "para3": "Prednosti dela z nami vključujejo agilnost, hiter razvoj, hiter čas vstopa na trg, tesen odnos s stranko, visoko kvaliteto in znanje najsodobnejših tehnologij.",
+    "more": "Več"
+  },
+  "core-services": {
+    "title": "Naše glavne storitve",
+    "para1": "Ponujamo širok nabor storitev IT svetovanja in izobraževanja ter storitve razvoja programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prehod v oblak, prehod z monolitske v mikrostoritveno arhitekturo, modernizacijo programske opreme in nove digitalne izdelke.",
+    "para2": "Če se vam zdi, da ste obtičali, vam lahko pomagamo oživeti vašo digitalno strategijo.",
+    "para3": "Nenehno razvijamo nove zmožnosti glede na nove tehnološke trende, nastajajoče tehnologije in dobre razvojne prakse, kot so mikrostoritve, tehnologija veriženja blokov, internet stvari in ostale.",
+    "more-about": "Več o storitvah",
+    "strat-and-tact": {
+      "title": "STRATEŠKO IN SPRETNO",
+      "item-1-1": "Digitalna transformacija",
+      "item-1-2": "Strategija implementacije",
+      "item-2-1": "Identifikacija digitalnih izdelkov",
+      "item-2-2": "Obnova platforme aplikacij",
+      "item-3-1": "Modernizacija obstoječe kode",
+      "item-3-2": "Prehod na oblak"
+    },
+    "operational": {
+      "title": "OPERATIVNO",
+      "item-1-1": "Oblačen razvoj",
+      "item-1-2": "Mikrostoritve in API-ji",
+      "item-2-1": "Vsebniki Docker in Kubernetes",
+      "item-2-2": "Arhitektura za podjetja",
+      "item-3-1": "Integracija",
+      "item-3-2": "Razvoj tehnologije veriženja blokov",
+      "item-3-3": "Mobilna uporabniška izkušnja",
+      "item-4-1": "Razvoj HTML5 odzivnega spleta",
+      "item-4-2": "Razvoj v jezikih Java, Java EE/Jakarta EE/EE4J "
+    }
+  },
+  "innovative-products": {
+    "title": "Naši inovativni izdelki",
+    "para1": "Spoznajte Kumuluz, našo družino inovativnih izdelkov in zmagovalno digitalno platformo, ki lahko vaši razvojni ekipi pomaga pospešiti digitalno transformacijo in izjemno hitro zgraditi digitalne izdelke.",
+    "para2": "Platforma Kumuluz vam lahko pri digitalni transformaciji pomaga ohraniti prednost pred vašo konkurenco.",
+    "learn-more": "Več",
+    "platform": {
+      "title": "DIGITALNA PLATFORMA KUMULUZ",
+      "short-desc": "Pospešite svojo digitalno transformacijo",
+      "desc": "Lahka, odprta in zmagovalna digitalna platforma, ki jo razvojne ekipe obožujejo."
+    },
+    "apis": {
+      "title": "POSLOVNI APLIKACIJSKI PROGRAMSKI VMESNIKI KUMULUZ",
+      "short-desc": "API rešitve za takojšnjo uporabo",
+      "desc": "Uporabite že razvite poslovne API-je in tako veliko hitreje ustvarite svoje digitalne izdelke in storitve."
+    },
+    "community": {
+      "title": "ODPRTOKODNA SKUPNOST",
+      "short-desc": "Pridružite se skupnosti razvijalcev, programerjev in uporabnikov",
+      "desc": "Naše mikrostoritveno ogrodje (EE) je del skupnosti Microprofile.io."
+    },
+    "dapis": {
+      "title": "DECENTRALIZIRANI API-JI IN TEHNOLOGIJA VERIŽENJA BLOKOV",
+      "short-desc": "Resnično decentralizirane aplikacije",
+      "desc": "Kumuluzova platforma dAPI uvaja popolnoma decentralizirane API-je, ki uporabljajo tehnologijo veriženja blokov."
+    }
+  },
+  "benefits": {
+    "title": "Glavne prednosti mikrostoritvenih oblačnih aplikacij",
+    "description": "V hiperkonkurenčnem okolju digitalnih aplikacij si ne morete privoščiti, da bi vaša programska oprema bila slabost.",
+    "start": "<span class='colorRed font-weight-bold'>Začnite razvijati</span> digitalne<br/> aplikacije, ki so neodvisne od prihodnosti.",
+    "benefit1": {
+      "title": "Razvijte digitalne aplikacije 300% hitreje",
+      "description": "Z mikrostoritvami in oblačno arhitekturo, agilnim pristopom in metodologijo DevOps se za vašo aplikacijo čas vstopa na trg drastično skrajša."
+    },
+    "benefit2": {
+      "title": "Ustvarite digitalne, fleksibilne in prilagodljive aplikacije",
+      "description": "Razvijte prave digitalne aplikacije, ki so popolnoma fleksibilne, se lahko hitreje prilagodijo potrebam strank in potrebam vaše digitalne strategije, prav tako pa jih lahko prilagodite med procesom svoje transformacije."
+    },
+    "benefit3": {
+      "title": "Zagrabite nove poslovne priložnosti in digitalne poslovne modele",
+      "description": "Izkoristite digitalne kanale in resnično razumite potrebe svojih kupcev v roku le nekaj ur ali dni. Zmanjšajte zanko povratnih informacij. Zaznajte potrebe in se takoj odzovite."
+    },
+    "benefit4": {
+      "title": "Redno ponujajte nove funkcionalnosti",
+      "description": "Uveljavite neprekinjeno integracijo in dostavo ter jo nadgradite z neprekinjenim vsem. Dodajte agilno kulturo, okolje, dobre prakse in orodja metodologije DevOps. Le-ta za organizacijo poenostavi upravljanje objave aplikacij, saj standardizira razvoj okolij in izboljša zanesljivost in varnost."
+    }
+  },
+  "products": {
+    "title": "Kumuluz Digital",
+    "kumuluzEE": {
+      "title": "kumuluz<span class='font-weight-bold colorEE'>EE</span>",
+      "description": "Microservice framework",
+      "transformation": "Prenesite svoje monolitne javanske aplikacije v ogrodje mikrostoritev"
+    },
+    "kumuluzAPI": {
+      "title": "kumuluz<span class='font-weight-bold colorAPI'>API</span>",
+      "description": "API service management",
+      "transformation": "Upravljajte z API-ji in svoje poslovanje opolnomočite z gospodarstvom vmesnikov API"
+    },
+    "kumuluzIntegration": {
+      "title": "kumuluz<span class='font-weight-bold colorIntegration'>Integration</span>",
+      "description": "Integration platform",
+      "transformation": "Integrirajte digitalne rešitve, internet stvari in zaledne sisteme"
+    },
+    "kumuluzUX": {
+      "title": "kumuluz<span class='font-weight-bold colorUX'>Ux</span>",
+      "description": "Sophisticated UX framework with BMP integration",
+      "transformation": "Hitro razvijte sofisticirane in odzivne uporabniške izkušnje"
+    },
+    "kumuluzMarketplace": {
+      "title": "kumuluz<span class='font-weight-bold colorMarketplace'>Marketplace",
+      "description": "Digital marketplace framework",
+      "transformation": "Hitro razvijte prilagojena digitalna tržišča in pospešite svoje poslovanje"
+    },
 
+    "kumuluzCrowdsensing": {
+      "title": "kumuluz<span class='font-weight-bold colorCrowdsensing'>Crowdsensing</span>",
+      "description": "Platform for collecting and analyzing crowd data using Blockchain",
+      "transformation": "Novi poglobljeni podatki o vaših strankah."
+    }
+  },
+  "business-apis": {
+    "title": "Kumuluz Poslovni APIji",
+    "payment": "Payment",
+    "ccm": "CCM",
+    "product-catalog": "Product catalog",
+    "cart": "Cart",
+    "order": "Order",
+    "fulfillment": "Fulfillment",
+    "invoice": "Invoice",
+    "customer": "Customer",
+    "subscription": "Subscription",
+    "kyc": "KYC"
+  },
+  "customers": {
+    "title": "Kaj naše stranke pravijo o nas",
+    "subtitle": "Poskrbite da vas vaša programska oprema nikoli več ne zafrustrira.",
+    "adriatic": {
+      "text": "Adriatic Slovenica uporablja Kumuluzove API-je in mikrostoritve za interne sisteme in integracijo partnerjev. Vmesniki Kumuluz API poganjajo trg aplikacijskih programskih vmesnikov za izdelke v zavarovalni panogi, trenutno pa ga uporablja več kot 3000 partnerskih podjetij v Južnovzhodni Evropi. Adriatic Slovenica v svojih digitalnih kanalih, kot je na primer <a href='https://www.wiz.si/' target='_blank'>Wiz</a>, prav tako uporablja vmesnik Kumuluz Payment za spletna plačila. Kumuluz nam je omogočil lažjo integracijo in večjo produktivnost, ter je zelo pomemben za naše digitalne kanale.",
+      "title": "CIO pri Adriatic Slovenici"
+    },
+    "petrol": {
+      "text": "Petrol uporablja Kumuluz kot ogrodje za svoje digitalne izdelke. Kumuluzove mikrostoritve poganjajo inovativne mobilne aplikacije za digitalno okolje, kot je na primer <a href='https://www.petrol.si/mobilna-aplikacija-na-poti' target='_blank'>Na poti</a>, ter kar nekaj nujno potrebnih zalednih sistemov, vključno s Payment, Invoicing, Cart, Order, Fulfillment in Product Catalog. Kumuluz nam je omogočil, da smo pospešili razvoj in skrajšali čas, potreben za vstop na trg. Platforma Kumuluz je postala cenjen del naše strategije za digitalno transformacijo.",
+      "title": "CIO pri Petrolu"
+    },
+    "apl": {
+      "text": "Agencija za pospeševanje likvidnosti (APL) uporablja Kumuluz za razvoj platforme za faktoring naslednje generacije. Uporaba Kumuluza je že bistveno izboljšala fleksibilnost, skalabilnost in mobilnost naše programske opreme. S prehodom z monolitske na mikrostoritveno arhitekturo lahko zdaj nove funkcionalnosti dodamo veliko hitreje. S Kumuluzom bomo novo platformo za faktoring lahko razvili trikrat hitreje kot s tradicionalnimi razvojnimi dejavnostmi.",
+      "title": "CIO pri APL"
+    },
+    "couchbase": {
+      "text": "KumuluzEE resnično pripelje mikrostoritveno arhitekturo v Javo EE. Modularni spletni vsebnik je pripravljen za Maven, omogoča Fat JAR in modularizirane odvisnosti, ter je pripravljen na vsebnike Docker, kar omogoča, da je lahko takoj nameščen v katerokoli oblačno okolje. Če gradite aplikacije v okolju Java EE, začnite svojo mikrostoritveno pot s platformo KumuluzEE!",
+      "title": "Podpredsednik, odnosi z razvijalci pri Couchbase"
+    },
+    "jclarity": {
+      "text": "Četudi so se specifikacije in aplikacijski serverji platforme Java EE zmanjšali, le-ta še vedno ni bila prva tehnološka izbira za mikrostoritvene razvijalce v primerjavi s platformami, kot sta na primer NodeJS ali Spring Boot. To se je sedaj spremenilo, saj KumuluzEE omogoča način ustvarjanja mikrostoritev, ki je lahek in ne potrebuje aplikacijskih serverjev, prav tako pa je podprt s polno močjo storitev Java, JVM in Java EE. Ta inovativen sklad je zaslužen zmagovalec nagrade Duke Awards leta 2015.",
+      "title": "Java Champion in CEO pri jClarity"
+    },
+    "rightrix": {
+      "text": "Če iščete mikrostoritve za platformo Java EE, si morate ogledati nov in preprost način, ki vam ga KumuluzEE ponuja za avtomatizacijo mikrostoritev.",
+      "title": "Java Champion in ustanovitelj Rightrix Solutions and IndicThreads"
+    }
+  },
+  "references": {
+    "title": "S kom običajno delamo?",
+    "para": "Naše tipične stranke so velika in srednja podjetja s strategijo in strastjo za digitalno transformacijo. Običajno tesno sodelujemo z direktorji informatike in internimi razvojnimi ekipami, ki jim pomagamo karseda hitro oživeti digitalne izdelke."
+  },
+  "social": {
+    "title": "Socialna omrežja"
+  },
+  "contact": {
+    "title": "Govorite z našimi strokovnjaki",
+    "form": {
+      "name": "Ime in Priimek",
+      "namePlaceholder": "Vaše polno ime",
+      "company": "Podjetje",
+      "companyPlaceholder": "Vaše podjetje",
+      "email": "Elektronski naslov",
+      "emailPlaceholder": "janeznovak at email",
+      "companySize": "Velikost podjetja",
+      "companySizeOptions": {
+        "micro": "1-9 (Zelo majhno)",
+        "small": "10-49 (Majhno)",
+        "medium": "50-249 (Srednje)",
+        "large": "250+ (Veliko)"
+      },
+      "phone": "Telefonska številka",
+      "phonePlaceholder": "+386 41 123 456",
+      "partnership": "Tip partnerstva",
+      "partnershipPlaceholder": "Tip...",
+      "partnershipOptions": {
+        "customer": "Stranka",
+        "integration": "Integracijski partner",
+        "developer": "Razvijalec"
+      },
+      "message": "Kako Vam lahko pomagamo?",
+      "messagePlaceholder": "Vnesite svoje sporočilo...",
+      "messageHelp": "Znakov na voljo",
+      "send": "Pošlji poizvedbo",
+      "errors": {
+        "required": "Polje je zahtevano.",
+        "email": "Neveljaven elektronski naslov.",
+        "phone": "Neveljavna telefonska številka."
+      }
+    },
+    "contact": {
+      "title": "Kontaktne informacije",
+      "company": "SUNESIS d.o.o.",
+      "address": "Šmartinska cesta 152,<br /> Ljubljana,<br /> Slovenija",
+      "email": "e: info@sunesis.si",
+      "phone": "tel: +386 2 123 456 78"
+    }
+  },
+  "footer": {
+    "products": {
+      "title": "Produkti"
+    },
+    "services": {
+      "title": "Storitve",
+      "service1": "Digitalna transformacija",
+      "service2": "Oblak, mikrostoritve & APIji",
+      "service3": "Docker in Kubernetes ipd.",
+      "service4": "Integracija",
+      "service5": "Verižni bloki",
+      "service6": "Java EE arhitektura & razvoj",
+      "service7": "Mobilni UX",
+      "service8": "HTML5 odzivni spletni razvoj",
+      "service9": "DevOps & Continuous Delivery",
+      "service10": "BPM"
+    },
+    "community": {
+      "title": "Skupnost",
+      "link1": "Blog",
+      "link2": "Odprtokodnost",
+      "link3": "Twitter",
+      "link4": "LinkedIn"
+    },
+    "company": {
+      "title": "Podjetje",
+      "link1": "O nas",
+      "link2": "Nagrade",
+      "link3": "Novice",
+      "link4": "Kariera"
+    }
+  },
   "copyright": "&copy; Sunesis, Vse pravice pridržane",
-  "404": "Strani ni bilo mogoče prikazati."
+  "404": "Ne najdem strani"
 }

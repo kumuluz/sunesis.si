@@ -9,12 +9,7 @@
   "menu": {
     "services": "Services",
     "products": "Products",
-    "customers": {
-      "title": "Customers",
-      "developers": "Developers",
-      "customers": "Customers and case studies",
-      "other": "Other"
-    },
+    "customers": "Customers",
     "aboutUs": {
       "title": "About us",
       "references": "References",
@@ -25,11 +20,9 @@
     "contactUs": "Contact us"
   },
   "banner": {
-    "title":
-      "Imagine applications that are <b>developed 3x faster</b>, are completely <b>flexible, integrated, fault tolerant</b> and have <b>no limitations with scaling</b>",
+    "title": "Imagine applications that are <b>developed 3x faster</b>, are completely <b>flexible, integrated, fault tolerant</b> and have <b>no limitations with scaling</b>",
     "subTitle": "How is that possible?",
     "cubeTitle": "Adapting the new, microservice and cloud-native application development",
-    "cubeSubtitle": "THIS IS DUMMY TEXT: technologies integrated, help reduce operational overhead, enabling businesses to invest less in maintenance and more fault tolerant and scalable innovation.",
     "mobile-cube-1": "Completely flexible",
     "mobile-cube-2": "Fault tolerant",
     "mobile-cube-3": "Integrated",
@@ -42,8 +35,7 @@
       "reason2": "Component based development",
       "reason3": "Monolith deployment",
       "reason4": "Application servers",
-      "reason5": "Waterfall development",
-      "goToWhitepaper": "Go to whitepaper"
+      "reason5": "Waterfall development"
     },
     "newWay": {
       "title": "The new way",
@@ -59,8 +51,7 @@
   },
   "key": {
     "title": "The key to your<br/> successful digital transformation.",
-    "subtitle":
-      "You cannot execute your digital strategy and build your digital products and services without adapting the new, microservice and cloud-native application development.",
+    "subtitle": "You cannot execute your digital strategy and build your digital products and services without adapting the new, microservice and cloud-native application development.",
     "weHelp": {
       "title": "We can help you:",
       "key1": "Adopt the new way of application development",
@@ -163,28 +154,6 @@
       "Establish continuous integration and delivery and upgrade it to continuous everything. Add agile DevOps culture, environment, best-practices and tools. DevOps simplifies software application release management for an organization by standardizing development environments and improves reliability and security."
     }
   },
-  "family": {
-    "title": "Meet the family of our products and services",
-    "description":
-      "<p>Sunesis brings together a highly skilled team with a strong record of accomplishment and extensive experience in designing, creating, developing and integrating complex cloud-native applications and information systems. </p> <p> From utilizing microservices, APIs, containers, agile development practices and DevOps, we got you covered. </p>"
-  },
-  "services": {
-    "title": "Our core services",
-    "service1": "Development of digital applications",
-    "service2": "Software modernization and replatforming",
-    "service3": "Transition to the cloud",
-    "service4": "Agile development (Continuous Delivery, DevOps)",
-    "service5": "Application integration",
-    "service6": "Business Process Management",
-    "service7": "Mentoring & Training",
-    "service8": "Blockchain and smart contracts",
-    "moreAbout": "More about services"
-  },
-  "digitalPlatform": {
-    "title": "Sunesis's Kumuluz Digital Platform",
-    "subtitle": "Everything you need to fast-track your digital<br/> transformation, with the open, light-weight digital platform.",
-    "moreAbout": "More about products"
-  },
   "products": {
     "title": "Kumuluz Digital",
     "kumuluzEE": {
@@ -232,16 +201,32 @@
     "subscription": "Subscription",
     "kyc": "KYC"
   },
-  "awards": {
-    "title": "The awards Sunesis's Kumuluz won:"
-  },
   "customers": {
     "title": "What our customers said about us",
     "subtitle": "Make sure your software never gets you<br/> frustrated again",
-    "customers1": {
-      "name": "",
-      "company": "",
-      "quote": ""
+    "adriatic": {
+      "text": "Adriatic Slovenica is using Kumuluz API and microservices for internal systems and partner integration. Kumuluz API is powering the API economy marketplace for insurance products, currently used by over 3000 partner companies in Southeast Europe. Furthermore, Adriatic Slovenica is using Kumuluz Payment for online payments in its digital channels, such as <a href='https://www.wiz.si/' target='_blank'>Wiz</a>. Kumuluz has enabled us easier integration and better productivity and is very important for our digital channels.",
+      "title": "CIO at Adriatic Slovenica"
+    },
+    "petrol": {
+      "text": "Petrol is using Kumuluz as the backbone for its digital products. Kumuluz microservices are powering innovative mobile applications for the digital environment, such as <a href='https://www.petrol.si/mobilna-aplikacija-na-poti' target='_blank'>Na poti</a>, and several mission critical backend systems, including Payment, Invoicing, Cart, Order, Fulfilment and Product Catalog. With Kumuluz, we have been able to fast-track the development and shorten the time-to-market. The Kumuluz platform has become a valuable part of our digital transformation strategy.",
+      "title": "CIO at Petrol"
+    },
+    "apl": {
+      "text": "Agency for accelerating liquidity (APL) is empowering Kumuluz for development of our next generation factoring platform. Using Kumuluz has already considerably improved the flexibility, scalability and mobility of our software. Going from monolithic to microservice architecture, we can now add new functionalities much faster. With Kumuluz, we will be able to develop the new factoring platform 3x faster than with traditional development practices.",
+      "title": "CIO at APL"
+    },
+    "couchbase": {
+      "text": "KumuluzEE truly brings microservice architecture to Java EE. Maven-ready, Fat JAR, modularized dependencies, Docker-ready, and pluggable web container makes it ready to be deployable in any cloud environment. If you are building apps using Java EE, start your microservice journey with KumuluzEE!",
+      "title": "Vice President, Developer Relations at Couchbase"
+    },
+    "jclarity": {
+      "text": "Although Java EE specifications and application servers have come down in size, it still wasn't the first technology choice for today's microservice developers when compared to, for example, NodeJS or Spring Boot. That's now changed, as KumuluzEE brings a light-weight, application server free way of creating microservices with the full power of Java, the JVM and JavaEE behind it! This innovative stack is truly a worthy Duke Awards winner in 2015.",
+      "title": "Java Champion and CEO of jClarity"
+    },
+    "rightrix": {
+      "text": "If you are exploring microservices for Java EE, you need to take a look at KumuluzEE's novel yet simple approach to automating microservices for you.",
+      "title": "Java Champion and Founder of Rightrix Solutions and IndicThreads"
     }
   },
   "references": {
@@ -323,11 +308,9 @@
       "link1": "About us",
       "link2": "Rewards",
       "link3": "News",
-      "link4": "Careers",
-      "link5": "Legal"
+      "link4": "Careers"
     }
   },
-
   "copyright": "&copy; Sunesis, All rights reserved",
   "404": "Location not found"
 }

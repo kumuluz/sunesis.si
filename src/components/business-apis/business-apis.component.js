@@ -20,17 +20,16 @@ const applicationNeeds = (t) => {
         row2: [
             new Needs(t("what-are-apis.needs.item-4")),
             new Needs(t("what-are-apis.needs.item-5")),
-            new Needs(t("what-are-apis.needs.item-6")),
-            new Needs(t("what-are-apis.needs.item-7"))
+            new Needs(t("what-are-apis.needs.item-6"))
         ],
         row3: [
+            new Needs(t("what-are-apis.needs.item-7")),
             new Needs(t("what-are-apis.needs.item-8")),
-            new Needs(t("what-are-apis.needs.item-9")),
-            new Needs(t("what-are-apis.needs.item-10"))
+            new Needs(t("what-are-apis.needs.item-9"))
         ],
         row4: [
-            new Needs(t("what-are-apis.needs.item-11")),
-            new Needs(t("what-are-apis.needs.item-12"), true),
+            new Needs(t("what-are-apis.needs.item-10")),
+            new Needs(t("what-are-apis.needs.item-11"), true),
         ]
     };
 };

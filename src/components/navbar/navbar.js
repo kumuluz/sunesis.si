@@ -101,8 +101,7 @@ export class NavbarComponent extends Component {
                 <Link className="ml-5 btn btn-primary lh-30 mr-5" onClick={() => this.closeMobileMenu()} to="/about/sunesis#footer">
                   {t('menu.contactUs')}
                 </Link>
-                {/* While there is no translations, hide*/}
-                {/*<LanguageSelector compact dark />*/}
+                <LanguageSelector compact dark />
               </Nav>
             </Collapse>
           </div>

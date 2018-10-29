@@ -66,7 +66,7 @@ export class CustomersSection extends Component {
 
     const { width } = this.state;
     const quotePagesArray = [];
-    const quotePages = width > 992 ? Math.ceil(quotes.length / 3) : quotes.length;
+    const quotePages = width > 992 ? Math.ceil(quotes(t).length / 3) : quotes(t).length;
     const quotesPerPage = width > 992 ? 3 : 1;
     for (let i = 0; i < quotePages; i++) {
       quotePagesArray.push(i);
@@ -80,7 +80,7 @@ export class CustomersSection extends Component {
             <h2 className="h2-subtitle" dangerouslySetInnerHTML={{ __html: t('customers.subtitle') }} />
 
             <Row className="customers justify-content-center">
-              {quotes
+              {quotes(t)
                 .slice(this.state.quotesPage * quotesPerPage, this.state.quotesPage * quotesPerPage + quotesPerPage)
                 .map((customer, i) => (
                   <Col className="customer" key={i} xs="12" lg="4">

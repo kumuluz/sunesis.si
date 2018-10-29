@@ -94,13 +94,11 @@ export class Footer extends Component {
                 <div className="reverse-arrow"/>
                 <div className="content">
                     <Container>
-                        {/*Hide while there are no translations*/}
-                        {/*<Row>*/}
-                            {/*<Col>*/}
-                                {/*<LanguageSelector/>*/}
-                            {/*</Col>*/}
-                        {/*</Row>*/}
-
+                        <Row>
+                            <Col>
+                                <LanguageSelector/>
+                            </Col>
+                        </Row>
                         <Row className="links">
                             <Col xs="6" md="4" lg="auto">
                                 <div className="title">{t('footer.products.title')}</div>

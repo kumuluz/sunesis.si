@@ -4,13 +4,8 @@ export const navigation = t => [
     {href: '/services', name: t('menu.services')},
     {href: '/products', name: t('menu.products')},
     {
-        name: t('menu.customers.title'),
+        name: t('menu.customers'),
         href: '/customers'
-        /*children: [
-          { href: '/customers/developers', name: t('menu.customers.developers') },
-          { href: '/customers', name: t('menu.customers.customers') },
-          { href: '/customers/other', name: t('menu.customers.other') }
-        ]*/
     },
     {
         name: t('menu.aboutUs.title'),

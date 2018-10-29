@@ -1,140 +1,84 @@
 {
-  "products": {
-    "capabilities": "Zmožnosti, uporabniške zgobde in uporabni primeri",
-    "otherBlocks": "Odkrij ostale KumuluzDigital gradnike",
+  "site": {
+    "title": "Produkti - Sunesis"
+  },
+  "header": {
+    "title": "Kumuluz Digital Platform",
+    "subtitle": "Vse, kar potrebujete, da pospešite svojo digitalno transformacijo z odprto in lahko digitalno platformo."
+  },
+  "strategy": {
+    "title": "Pospešite svojo digitalno transformacijo",
+    "description": "Digitalna platforma Kumuluz zagotovi vse gradnike, ki jih potrebujete, da posvojite razvoj v oblaku, v mikrostoritvenem ogrodju ali na temelju aplikacijskih uporabniških vmesnikov, aplikacije integrirate z zalednimi sistemi in oblakom, ter razvijete napredne aplikacije za uporabniško izkušnjo in tržišče.<br /><br /> Uporabite samo gradnike, ki so vitalni za vašo digitalno transformacijo:",
+    "quote": "Omrežje povezanih, skalabilnih in agilnih digitalnih aplikacij.",
+    "action": "Več"
+  },
+  "weForYou": {
+    "title": "Kaj lahko platforma Kumuluz Digital stori za vas",
+    "descriptionLeft": "<p class='blue-200'>Platforma Kumuluz Digital je zmagovalna rešitev, ki jo podjetja uporabljajo, da implementirajo in pospešijo svojo digitalno transformacijo.</p><p>Platforma Kumuluz Digital zagotovi vse gradnike, ki jih potrebujete, da pospešite razvoj svojega digitalnega poslovanja. Platforma vam omogoči hitro implementacijo vaše digitalne strategije.</p><p>S platformo Kumuluz Digital boste vpeljali najnovejše oblačne koncepte, mikrostoritve, API-je in vsebnike Docker. Uporabili boste agilni razvoj, principe DevOps in neprekinjeno dostavo, ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitske aplikacije. Razvili boste sofisticirano uporabniško izkušnjo in kompleksne rešitve za trg.</p>",
+    "descriptionRight": "<p>Koristi je ogromno. Z našo platformo ter agilnimi, DevOps in drugimi oblačnimi metodami boste bistveno skrajšali čas vstopa na trg za svoje digitalne izdelke, storitve, aplikacije in rešitve za trg.</p><p><strong>In še mnogo več:</strong> Kumuluz Digital vam ponuja orodja, ki so potrebna, da ustvarite sofisticirano in odzivno uporabniško izkušnjo, hitro razvijete svoje lastne digitalne trge, implementirate poslovne modele za gospodarstvo vmesnikov API, na nove načine komunicirate s svojimi kupci, pritegnite kupce, zaznate njihove potrebe in se na njih takoj odzovete, zberete digitalna plačila in dodate mnoge druge zanimive funkcionalnosti, ki so nepogrešljive v digitalnem gospodarstvu.</p>"
+  },
+  "advantages": {
+    "title": "Vse prednosti, ki jih dobite s Kumuluzovo digitalno platformo",
+    "subtitle": "Implementirajte in pospešite svojo digitalno transformacijo",
+    "advantage1": "Za organizacije, ki prehajajo na mikrostoritve in arhitekturo v oblaku",
+    "advantage2": "Popolnoma odprta, brez kakršnekoli odvisnosti od ponudnika",
+    "advantage3": "Nameščena na lokaciji (v vašem podatkovnem središču) ali v oblaku",
+    "advantage4": "Ohrani investicijo v vaše obstoječe znanje in veščine",
+    "advantage5": "Minimalno predplačilo in popolnoma fleksibilna naložba",
+    "advantage6": "Podpora in vzdrževanje 24/7"
+  },
 
-    "payment": {
-      "header": {
-        "title": "Kumuluz<b>PaymentAPI</b>",
-        "subtitle": "Enostavno nadgradite svoj obsotječi plačilni sistem",
-        "features": {
-          "crypto": "Podpora za kriptovalute",
-          "instant": "Sodobni plačilni sistemi",
-          "debit": "Podpora za kreditne kartice"
-        }
+  "caseStudy": {
+    "title": "Študija primera: SaaS in IoT naprave z lokalnimi zalednimi aplikacijami",
+    "description": "Kumuluz<b>Integration</b> nagovarja izzive pri integraciji med SaaS aplikacijami in/ali lokalnimi aplikacijami. KumuluzIntegration nam omogoča, da integriramo in sinhroniziramo naše SaaS in/ali lokalne aplikacije v nekaj minutah",
+    "advantages": {
+      "title": "Z uporabo najnovejših inovacij pri integracijah podatkov, kot so integracije ob dogodkih:",
+      "advantage1": "KumuluzIntegration omogoči <b>33% več optimizacije</b>",
+      "advantage2": "<b>12% nalaganje SaaS</b> in/ali lokalnih aplikacij",
+      "advantage3": "<b>90% hitrejša</b> integracija"
+    },
+    "quote": {
+      "quote": "Z vmesnikom KumuluzDigital boste lahko vpeljali najnovejše oblačne koncepte, mikrostoritve, aplikacijske programske vmesnike in vsebnike Docker. Implementirali boste agilni razvoj, principe razvojnih operacij (ang. DevOps) in neprekinjene dostave (ang. continuous delivery), ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitske aplikacije.",
+      "readMore": "Preberite več",
+      "about": "študij primerov na našem blogu"
+    }
+  },
+  "awards": "Nagrade, ki jih je dobil Sunesisov Kumuluz:",
+
+  "products": {
+    "capabilities": "Capabilities, Use Cases & Customer Stories",
+    "otherBlocks": "Discover other Kumuluz Digital Building Blocks"
+  },
+  "what-are-apis": {
+    "title": "Kumuluz Poslovni APIji",
+    "subtitle": "Ni potrebe po razvoju iz nič. Ne pospešujte vašega razvoja s polovičnimi rešitvami. Preprosto dodajte funkcionalnosti z uporabo naših poslovnih APIjev.",
+    "items": {
+      "item-1": {
+        "title": "Kaj so Kumuluz Poslovni APIji?",
+        "desc": "Kumuluz Poslovni APIji so vnaprej zgrajeni APIji za pogoste digitalne funkcionalnosti, ki vam omogočajo da <strong>pospešite svoj razvoj</strong> z uporabo, prilagoditvijo in razširitvijo vnaprej razvitih in testiranih APIjev."
       },
-      "summary": {
-        "about": {
-          "title": "O produktu",
-          "p1":
-            "Kumuluz PaymentAPI poenostavlja integracijo in implementacijo plačilnih sistemov. Z minimalnim razvojem lahko podprete vse najpogosteje uporabljene plačilne sisteme in poenostavite plačilni proces vaših stranik.",
-          "p2":
-            "Vsi plačilni sistemi so podprti preko enotnega vmesnika, kar vam omogoča enostavno optimizacijo transakcij glede na trenutne stroške. Z uporabo Kumuluz PaymentAPI lahko izberete najugodnejši plačilni gateway za posamezno kartico, kar znižuje stroške transakcij.",
-          "why": {
-            "title": "Zakaj bi izbrali KumuluzPaymentAPI?",
-            "reason1": {
-              "title": "Enostavna integracija (dodajanje novih plačilnih sistemov ?)",
-              "content": ""
-            },
-            "reason2": {
-              "title": "Podpora za vse plačilne sisteme",
-              "content": ""
-            },
-            "reason3": {
-              "title": "Izbira plačilnih gateway-ov",
-              "content": ""
-            },
-            "reason4": {
-              "title": "Znižanje stroškov transakcij",
-              "content": ""
-            }
-          }
-        },
-        "features": {
-          "title": "Glavne lastnosti",
-          "feature1": "Enoten vmesnik za najpogostejše plačilne sisteme",
-          "feature2": "Enostavna optimiazcija stroškov transakcij z uporabo različnih ponudnikov",
-          "feature3": "Centralni nadzor, monitoriranje in pregled nad plačili",
-          "feature4": "KumuluzPaymentAPI omogoča skladnost s PCI-DSS standardom",
-          "feature5": "Za varnost skrbi platforma Kumuluz s sodobnimi varnostnimi mehanizmi",
-          "feature6": "Prilagodite izgled za skladnost z vašo aplikacijo",
-          "feature7": "Dokumentacija omogoča enostavno integracijo v obstoječe rešitve",
-          "feature8": "Možnost izbire plačila poskrbi za zadovoljstvo strank in poveča prihodke",
-          "feature9": "Dobro dokumentirano"
-        },
-        "customers": {
-          "title": "Stranke in uporabniške zgodbe"
-        },
-        "info": {
-          "title": "Več informacij"
-        }
+      "item-2": {
+        "title": "Komu so Kumuluz Poslovni APIji namenjeni?",
+        "desc": "Naši Poslovni APIji so primarni uporabljani s strani <strong>velikih podjetij, startupov, vlade in agencij.</strong><br/><br/>... ter vseh drugih podjetij, ki potrebujejo pospešiti svoj razvoj."
       },
-      "strategy": {
-        "title": "Uporabljate MegaPOS EON in želite strankam omogočiti plačevanje z aplikacijami za instantno plačevanje, PayPal in kriptovalutami?",
-        "subtitle":
-          "<p>Zavedamo se pomena in prednosti sodobnih plačilnih sistemov, ki jih prinašajo za uporabnike. Vse več uporabnikov spletnih storitev zahteva podporo sodobnih plačilnih sistemov.</p><p>KumuluzPaymentAPI je idealen za obstoječe uporabnike MegaPOS, saj je načrtovan kot enostavna zamenjava, ki odprira možnosti za plačevanje s sistemi PayPal, kriptovalutami in sistemi za instantno plačevanje.</p><p>V kolikor želite nadgraditi vaš obstoječi MegaPOS sistem in privarčevati pri stroških transakcij, nas kontaktirajte. Naša ekipa razvijalcev vam bo pomagala pri implementaciji Kumuluz PaymentAPI-a v vašo ostoječo aplikacijo.</p>"
-      },
-      "benefits": {
-        "title": "Glavne prednosti in funkcionalnosti KumuluzPaymentAPI",
-        "description": "Enoten vmesnik za dodajanje in nadzor plačilnih sistemov.",
-        "quote": "Podprite <b class='colorRed'>prihodnost</b> plačevanja danes s KumuluzPaymentAPI.",
-        "benefit1": {
-          "title": "Klasični plačilni sistemi",
-          "description": "Podpiramo klasične plačilne sisteme za plačevanje s kreditnimi karticami. Izbirate lahko med VISA, MASTERCARD, AMERICAN EXPRESS,..."
-        },
-        "benefit2": {
-          "title": "Sodobni plačilni sistemi za instantno plačevanje",
-          "description": "Enostavno lahko dodate sisteme za instantno plačevanje kot so PayPal, Moneta, ApplePay, AndroidPay"
-        },
-        "benefit3": {
-          "title": "Podpora za kriptovalute",
-          "description": "Svojim strankam lahko enostavno omogočite plačevanje s kriptovalutami (Bitcoin, Ether)."
-        },
-        "benefit4": {
-          "title": "",
-          "description": ""
-        },
-        "benefit5": {
-          "title": "",
-          "description": ""
-        }
-      },
-      "capabilities": {
-        "payment": {
-          "title": "Izbira plačilnih sistemov",
-          "p": "Izkoristite moč enostavne izbire plačilnih sistemov:",
-          "bullet1": "Enostaven vmesnik",
-          "bullet2": "Prilagoditev izgleda",
-          "bullet3": "Hitro dodajanje novih plačilnih sistemov",
-          "bullet4": "Širok izbor plačilnih sistemov"
-        },
-        "crypto": {
-          "title": "Podpora kriptovalut",
-          "p1": "Podprite prihodnost internetnega plačevanja danes.",
-          "p2": "Omogočite strankam plačilo s kriptovalutami."
-        },
-        "pos": {
-          "title": "Zamenjava MegaPOS EON",
-          "p": "Idealno za obstoječe uporabnike MegaPOS, saj KumuluzPaymentAPI omogoča enostavno zamenjavo.",
-          "bullet1": "Enostavno zamenjajte MegaPOS EON",
-          "bullet2": "Dodajte možnost plačevanja s Paypal",
-          "bullet3": "Podprite sisteme za instantno plačevanje",
-          "bullet4": "Dodajte podporo za kriptovalute"
-        },
-        "customer": {
-          "title": "Uporabniške zgodbe",
-          "story1": {
-            "title": "Primer 1:",
-            "description": ""
-          },
-          "story2": {
-            "title": "Primer 2:",
-            "description": ""
-          },
-          "story3": {
-            "title": "Primer 3:",
-            "description": ""
-          },
-          "story4": {
-            "title": "Primer 4:",
-            "description": ""
-          },
-          "story5": {
-            "title": "Primer 5:",
-            "description": ""
-          }
-        }
+      "item-3": {
+        "title": "Kolikšna je cena uporabe Kumuluz Poslovni APIjev?",
+        "desc": "Nekaj APIjev lahko testirate brezplačno ali pa lahko pripravimo demonstracijo za vas.<br/><br/>Za polno uporabo APIjev prenesete izbrane kot docker vsebnik za enkratno plačilo."
       }
+    },
+    "needs": {
+      "title": "Ali vaša aplikacija potrebuje?",
+      "item-1": "Plačilo",
+      "item-2": "Katalog izdelkov",
+      "item-3": "Komunikacija s strankami",
+      "item-4": "Upravljanje naročil",
+      "item-5": "Izpolnjevanje naročil",
+      "item-6": "Izdajanje računov",
+      "item-7": "Nakupovalna košarica",
+      "item-8": "Upravljanje naročnine",
+      "item-9": "Proces spoznavanja strank",
+      "item-10": "Upravljanje odnosov s strankami",
+      "item-11": "Pregled APIjev"
     }
   }
 }
