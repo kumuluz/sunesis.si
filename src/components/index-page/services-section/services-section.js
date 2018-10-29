@@ -25,8 +25,9 @@ const operationalBullets = (t) => {
   return [
       [t('core-services.operational.item-1-1'), t('core-services.operational.item-1-2')],
       [t('core-services.operational.item-2-1'), t('core-services.operational.item-2-2')],
-      [t('core-services.operational.item-3-1'), t('core-services.operational.item-3-2'), t('core-services.operational.item-3-3')],
-      [t('core-services.operational.item-4-1'), t('core-services.operational.item-4-2')]
+      [t('core-services.operational.item-3-1'), t('core-services.operational.item-3-2')],
+      [t('core-services.operational.item-3-3'), t('core-services.operational.item-4-1')],
+      [t('core-services.operational.item-4-2')]
   ];
 };
 
