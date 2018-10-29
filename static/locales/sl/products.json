@@ -51,7 +51,7 @@
   },
   "what-are-apis": {
     "title": "Kumuluz Poslovni APIji",
-    "subtitle": "Ni potrebe po razvoju iz nič. Ne pospešujte vašega razvoja s polovičnimi rešitvami. Preprosto dodajte funkcionalnosti z uporabo naših poslovnih APIjev.",
+    "subtitle": "Ni potrebe, da razvijate iz nič. Ne pospešujte vašega razvoja s polovičnimi rešitvami. Preprosto dodajte funkcionalnosti z uporabo naših poslovnih APIjev.",
     "items": {
       "item-1": {
         "title": "Kaj so Kumuluz Poslovni APIji?",
@@ -59,11 +59,11 @@
       },
       "item-2": {
         "title": "Komu so Kumuluz Poslovni APIji namenjeni?",
-        "desc": "Naši Poslovni APIji so primarni uporabljani s strani <strong>velikih podjetij, startupov, vlade in agencij.</strong><br/><br/>... ter vseh drugih podjetij, ki potrebujejo pospešiti svoj razvoj."
+        "desc": "Naši Poslovni APIji so primarno uporabljani s strani <strong>velikih podjetij, startupov, vlade in agencij.</strong><br/><br/>... ter vseh drugih podjetij, ki potrebujejo pospešiti svoj razvoj."
       },
       "item-3": {
         "title": "Kolikšna je cena uporabe Kumuluz Poslovni APIjev?",
-        "desc": "Nekaj APIjev lahko testirate brezplačno ali pa lahko pripravimo demonstracijo za vas.<br/><br/>Za polno uporabo APIjev prenesete izbrane kot docker vsebnik za enkratno plačilo."
+        "desc": "Nekaj APIjev lahko testirate brezplačno ali pa lahko pripravimo demonstracijo za vas.<br/><br/>Za polno uporabo APIjev jih prenesete kot docker vsebnike za enkratno plačilo."
       }
     },
     "needs": {
