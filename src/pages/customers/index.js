@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import PropTypes from 'prop-types';
 import {translate} from 'react-i18next';
 import {Container, Row, Col} from 'reactstrap';
+
 import {Footer, CheckboxListComponent, References} from '../../components';
 import {GoogleAnalyticsService} from "../../components/google-analytics/google-analytics.service";
 
@@ -50,7 +51,6 @@ export default class CustomersPage extends Component {
                     <Row className="justify-content-center m-0">
                         <Col xs="12" lg="8">
                             <h1>{t("header.title")}</h1>
-                            {/*<h2>{t("header.subtitle")}</h2>*/}
                         </Col>
                     </Row>
                     <div className="arrow"/>
@@ -70,13 +70,11 @@ export default class CustomersPage extends Component {
                             </p>
                         </Col>
                         <Col xs="12" xl="9">
-
                             <CheckboxListComponent title={t("who-are.typical-customers.title")}
                                 items={typicalCustomersList(t)} checkboxColor={"#367dbf"}/>
                             <div className="mt-5"/>
                             <CheckboxListComponent title={t("who-are.common-industries.title")}
                                 items={commonIndustriesList(t)} checkboxColor={"#367dbf"}/>
-
                             <h3 className="text-center mt-5 blue-400">{t("who-are.list-of-clients")}</h3>
                             <References showIntro={false} marginTopClass={"mt-2"}/>
                         </Col>
