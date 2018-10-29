@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { translate } from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 import { Footer, SubNavbar } from '../../../components';
+import {GoogleAnalyticsService} from "../../../components/google-analytics/google-analytics.service";
 
 import '../index.scss';
 

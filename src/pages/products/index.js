@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import {translate} from 'react-i18next';
 import {Container, Row, Col} from 'reactstrap';
 import {Footer, ProductsGrid, References, ParallaxBlock, BusinessApisComponent} from '../../components';
 
 import './index.scss';
+import {GoogleAnalyticsService} from "../../components/google-analytics/google-analytics.service";
 
 import monkey from '../../assets/images/monkey.png';
 import cube01 from '../../assets/images/cubes/3d-cube-01.svg';

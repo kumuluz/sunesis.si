@@ -4,6 +4,7 @@ import moment from 'moment';
 import { translate } from 'react-i18next';
 import { Container, Row, Col, Button } from 'reactstrap';
 import { Footer, SubNavbar, ParallaxBlock } from '../../../components';
+import {GoogleAnalyticsService} from "../../../components/google-analytics/google-analytics.service";
 
 import '../index.scss';
 

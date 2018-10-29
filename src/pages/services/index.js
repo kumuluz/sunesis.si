@@ -14,6 +14,7 @@ import rangeDev from '../../assets/images/services/dev.svg';
 import rangeReplatforming from '../../assets/images/services/replafroming.svg';
 import rangeTransformation from '../../assets/images/services/transformation.svg';
 import rangeTransProducts from '../../assets/images/services/trans-products.svg';
+import {GoogleAnalyticsService} from "../../components/google-analytics/google-analytics.service";
 
 @translate('services')
 export default class ServicesPage extends Component {

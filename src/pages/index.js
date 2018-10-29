@@ -15,6 +15,7 @@ import cube01 from '../assets/images/cubes/3d-cube-01.svg';
 import cube02 from '../assets/images/cubes/3d-cube-02.svg';
 import cube03 from '../assets/images/cubes/3d-cube-03.svg';
 import { ServicesSection } from '../components/index-page/services-section/services-section';
+import {GoogleAnalyticsService} from "../components/google-analytics/google-analytics.service";
 
 @translate()
 export default class IndexPage extends Component {

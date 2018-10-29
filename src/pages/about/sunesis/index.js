@@ -9,6 +9,7 @@ import {
     CheckboxListComponent,
     ProductsServicesBoxesComponent
 } from '../../../components';
+import {GoogleAnalyticsService} from "../../../components/google-analytics/google-analytics.service";
 
 import '../index.scss';
 
