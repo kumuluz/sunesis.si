@@ -115,6 +115,11 @@
     width: 75% !important;
   }
 }
+.inThePress {
+  .article {
+    margin-bottom: 60px;
+  }
+}
 
 @include device-specific($phone) {
   .slider {
