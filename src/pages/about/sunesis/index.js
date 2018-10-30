@@ -80,16 +80,16 @@ export default class AboutUsPage extends Component {
                         </Col>
                     </Row>
                     <Row className="justify-content-center pt-4">
-                        <Col xs="12" className="mb-4">
+                        <Col xs="10" className="mb-4">
                             <p>{t("header.para-1")}</p>
                         </Col>
-                        <Col xs="12" lg="6">
+                        <Col xs="10" lg="5">
                             <p>{t("header.para-2")}</p>
                         </Col>
-                        <Col xs="12" lg="6">
+                        <Col xs="10" lg="5">
                             <p>{t("header.para-3")}</p>
                         </Col>
-                        <Col xs="12" className="mt-4">
+                        <Col xs="10" className="mt-4">
                             <p>{t("header.para-4")}</p>
                         </Col>
                     </Row>
