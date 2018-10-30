@@ -29,12 +29,12 @@ export class KeySection extends Component {
 
             <Row>
               <Col md="12" lg="6" xl="5">
-                <h3 className="mb-3">{t('key.weHelp.title')}</h3>
+                <h3 className="mb-3 checkbox-title">{t('key.weHelp.title')}</h3>
                 <p className="checkbox one">{t('key.weHelp.key1')}</p>
                 <p className="checkbox two">{t('key.weHelp.key2')}</p>
                 <p className="checkbox three">{t('key.weHelp.key3')}</p>
 
-                <h3 className="mb-3">{t('key.weAchieve.title')}</h3>
+                <h3 className="mb-3 checkbox-title">{t('key.weAchieve.title')}</h3>
                 <p className="checkbox one">{t('key.weAchieve.key1')}</p>
                 <p className="checkbox two">{t('key.weAchieve.key2')}</p>
                 <p className="checkbox three">{t('key.weAchieve.key3')}</p>
