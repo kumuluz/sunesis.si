@@ -150,7 +150,9 @@ export default class ServicesPage extends Component {
                                                         t('capabilities.operational.mobil-ux')
                                                     ],
                                                     [
-                                                        t('capabilities.operational.html-resp-web'),
+                                                        t('capabilities.operational.html-resp-web')
+                                                    ],
+                                                    [
                                                         t('capabilities.operational.jee-dev')
                                                     ]
                                                 ]}/>
