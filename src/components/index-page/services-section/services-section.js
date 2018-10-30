@@ -75,7 +75,7 @@ export class ServicesSection extends Component {
                             <div className="bullets">
                                 <h3>{t('core-services.strat-and-tact.title')}</h3>
                                 {strategicTacticalBullets(t).map((row, rowIndex) => (
-                                    <div key={rowIndex}>
+                                    <div key={rowIndex} className="bullet-container">
                                         {row.map((item, itemIndex) => (
                                             <span key={itemIndex} className="bullet-item">
                                                 <span className="blue-box"/>
@@ -90,7 +90,7 @@ export class ServicesSection extends Component {
                             <div className="bullets">
                                 <h3>{t('core-services.operational.title')}</h3>
                                 {operationalBullets(t).map((row, rowIndex) => (
-                                    <div key={rowIndex}>
+                                    <div key={rowIndex} className="bullet-container">
                                         {row.map((item, itemIndex) => (
                                             <span key={itemIndex} className="bullet-item">
                                                 <span className="blue-box"/>
