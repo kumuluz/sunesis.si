@@ -32,7 +32,11 @@ export const footerLinks = t => [
             {title: t('footer.services.service7')},
             {title: t('footer.services.service8')},
             {title: t('footer.services.service9')},
-            {title: t('footer.services.service10')}
+            {title: t('footer.services.service10')},
+            {
+                title: t('footer.services.more'),
+                href: '/services'
+            }
         ]
     },
     {
