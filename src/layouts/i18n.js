@@ -27,7 +27,7 @@ i18n
   .use(reactI18nextModule)
   .init({
     load: 'languageOnly',
-    preload: ['en'],
+    preload: ['en', 'sl'],
     fallbackLng: 'en',
 
     ns: ['translations'],
@@ -40,7 +40,7 @@ i18n
     },
 
     react: {
-      wait: false,
+      wait: true,
       bindI18n: 'languageChanged loaded'
     }
   });
