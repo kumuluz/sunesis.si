@@ -28,6 +28,21 @@ export class Benefits extends Component {
         this.animating = false;
     }
 
+    // eslint-disable-next-line no-unused-vars
+    componentWillReceiveProps(nextProps, nextCtx) {
+
+        this.setState(() => {
+            return {
+                benefits: [
+                    nextProps.benefits[nextProps.benefits.length - 1],
+                    ...nextProps.benefits.slice(),
+                    ...nextProps.benefits.slice(0, nextProps.benefits.length - 1)
+                ]
+            };
+        });
+
+    }
+
     returnShiftFor() {
         const screenSize = returnScreenSize();
         if (screenSize <= MEDIA_PHONE) {
