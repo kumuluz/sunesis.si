@@ -53,7 +53,7 @@ export default class ProjectsPage extends Component {
                 <Container fluid={true} className="project-header">
                     <Row className="align-items-center flex-column">
                         <Col xs={12} className="justify-content-center d-flex">
-                            <img src={crowdsensingLogo} alt="Kumuluz Crowdsensing"/>
+                            <img className="crowdsensing-logo" src={crowdsensingLogo} alt="Kumuluz Crowdsensing"/>
                         </Col>
                         <Col xs={12}>
                             <h2 className="text-center">Platforma za zbiranje podatkov in zaznavanje potreb množic v okoljih pametnih mest in skupnosti</h2>
