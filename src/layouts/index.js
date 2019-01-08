@@ -22,6 +22,15 @@ export default class TemplateWrapper extends Component {
     translate.setI18n(i18n);
   }
 
+  componentDidMount() {
+    const { i18n } = this.props;
+    const langParam = new URLSearchParams(window.location.search).get("lang");
+    const acceptableLocales = ["en", "sl"];
+    if (acceptableLocales.includes(langParam)) {
+      i18n.changeLanguage(langParam);
+    }
+  }
+
   render() {
     const { children, t } = this.props;
 
