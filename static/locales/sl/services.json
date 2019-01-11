@@ -13,33 +13,33 @@
   },
   "header": {
     "title": "Razvoj programske opreme in razvoj za digitalno transformacijo",
-    "block1": "Sunesis podjetjem med procesom digitalne transformacije ponuja celostno svetovalno, mentorsko in operacijsko podporo (zunanji razvoj programske opreme).",
-    "block2": "Podjetjem pomagamo, da postanejo ali ostanejo izjemna s pomočjo novih digitalnih tehnologij, nenehnega inoviranja, uporabe hitrih razvojnih ciklov in ustvarjanja boljše uporabniške izkušnje."
+    "block1": "Sunesis podjetjem med procesom digitalne transformacije ponuja celostno svetovalno, mentorsko in operativno podporo (zunanji razvoj programske opreme).",
+    "block2": "Podjetjem pomagamo, da postanejo ali ostanejo izjemni, pri tem pa se poslužujemo uporabe novih digitalnih tehnologij, nenehnega inoviranja, hitrih razvojnih ciklov in ustvarjanja boljše uporabniške izkušnje."
   },
   "servicerange": {
-    "title": "S polnim razponom naših storitev pospešimo vašo digitalno transformacijo",
+    "title": "S celotno paleto naših storitev pospešimo vašo digitalno transformacijo",
     "box": {
-      "transformation": "Strategija za digitalno transformacijo",
+      "transformation": "Izdelava strategije za digitalno transformacijo",
       "tacplan": "Taktični načrt za digitalno transformacijo, vključno z identifikacijo novih digitalnih izdelkov in rešitev",
       "replatforming": "Prenova platforme in modernizacija trenutne programske opreme",
       "dev": "Hiter razvoj novih digitalnih izdelkov in aplikacij"
     },
-    "body": "Na temelju ciljev strateške digitalne transformacije pomagamo podjetjem pripraviti soliden in taktičen načrt za digitalno transformacijo, v katerem so identificirani novi jedrni digitalni izdelki in storitve. V naslednjem koraku podjetjem pomagamo prestaviti obstoječo programsko opremo in zastarele aplikacije na novo platformo, moderniziramo obstoječo kodo in vpeljemo nove moderne tehnologije, ter tako hitro razvijemo nove digitalne rešitve.",
+    "body": "Na podlagi strateških ciljev digitalne transformacije podjetjem pomagamo pripraviti izvedljiv načrt za digitalno transformacijo, v katerem so identificirani novi ključni digitalni izdelki in storitve. V naslednjem koraku podjetjem pomagamo prenoviti obstoječo programsko opremo, zastarele aplikacije prenesemo na novo platformo, moderniziramo obstoječo kodo in vpeljemo nove moderne tehnologije. Na ta način izjemno hitro realiziramo razvoj novih digitalnih rešitev.",
     "summary": {
-      "normal": "Z našimi širokimi zmožnostmi, oblačno specializacijo, digitalno platformo Kumuluz in agilnimi praksami pomagamo podjetjem",
-      "emphasized": "skrajšati cikel digitalne transformacije do 85%."
+      "normal": "Z našimi ključnimi kompetencami, specializiranostjo za oblačno rešitve, digitalno platformo Kumuluz in agilnimi praksami pomagamo podjetjem",
+      "emphasized": "skrajšati cikel digitalne transformacije za 85%."
     }
   },
   "capabilities": {
-    "title": "Naše zmožnosti",
-    "intro": "Ponujamo širok nabor storitev IT svetovanja in izobraževanja ter storitve razvoja programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prehod v oblak, prehod z monolitske v mikrostoritveno arhitekturo, modernizacijo programske opreme in nove digitalne izdelke.",
-    "outro": "Nenehno razvijamo nove zmožnosti glede na nove tehnološke trende, nastajajoče tehnologije in dobre razvojne prakse, kot so mikrostoritve, tehnologija veriženja blokov, internet stvari in ostale.",
+    "title": "Naše kompetence",
+    "intro": "Ponujamo širok nabor storitev IT svetovanja in izobraževanja ter storitve razvoja programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prehod v oblak, prehod z monolitnee v mikrostoritveno arhitekturo, modernizacijo programske opreme in razvoj novih digitalnih izdelkov.",
+    "outro": "Nenehno razvijamo nove kompetence glede na nove tehnološke trende, nastajajoče tehnologije in dobre razvojne prakse, kot so mikrostoritve, tehnologija veriženja blokov, internet stvari in ostale.",
     "strategic": {
-      "title": "STRATEŠKO IN SPRETNO",
+      "title": "STRATEGIJE IN NAČRTOVANJE",
       "dig-trans": "Digitalna transformacija",
       "impl-strat": "Strategija implementacije",
       "dig-prod-id": "Identifikacija digitalnih izdelkov",
-      "app-repl": "Obnova platforme aplikacij",
+      "app-repl": "Prenova obstoječih aplikacij",
       "leg-code-mod": "Modernizacija obstoječe kode",
       "trans-2-cloud": "Prehod na oblak"
     },
@@ -58,27 +58,27 @@
   },
   "certifications": {
     "title": "Naši certifikati",
-    "body": "Prejeli smo več mednarodnih nagrad in certifikatov od globalnih tehnoloških vodij, kot so IBM, Oracle, Java Community in drugi."
+    "body": "Prejeli smo več mednarodnih nagrad in certifikatov od vodnilih tehnoloških sil, kot so IBM, Oracle, Java Community in drugi."
   },
   "servicelist": {
-    "title": "Celoten seznam naših storitev in zmožnosti",
-    "desc": "Tukaj lahko najdete celoten seznam naših storitev in zmožnostih na strateškem, taktičnem in operativnem nivoju, ki jih ponujamo predvsem podjetjem v panogah, kot so avtomobilna, finančne storitve, energija, nafta in plin, vlada, mediji, maloprodaja in telekomunikacije.",
+    "title": "Celoten seznam naših storitev in kompetenc",
+    "desc": "Tukaj lahko najdete celoten seznam naših storitev in kompetenc na strateškem, taktičnem in operativnem nivoju, ki jih ponujamo predvsem podjetjem v panogah, kot so avtomobilska industrija, finančne storitve, energija, nafta in plin, vlada, mediji, maloprodaja in telekomunikacije.",
     "digital-transformation-services": {
       "title": "Storitve digitalne transformacije",
-      "desc": "Ponujamo celostne storitve digitalne transformacije, vse od priprave strategije do taktičnega načrta za identifikacijo in opisa novih digitalnih izdelkov in storitev. V naslednjem koraku pomagamo podjetjem razviti nove digitalne izdelke in storitve ter neprekinjeno ponujamo nove in napredne funkcionalnosti njihovim deležnikom.",
+      "desc": "Ponujamo celostne storitve digitalne transformacije, vse od priprave strategije do taktičnega načrta za identifikacijo in opis novih digitalnih izdelkov in storitev. V naslednjem koraku pomagamo podjetjem razviti nove digitalne izdelke in storitve ter neprekinjeno ponujamo nove in napredne funkcionalnosti njihovim deležnikom.",
       "item-1": "Svetovanje in mentoriranje za projekte digitalne transformacije",
       "item-2": "Strategija digitalne transformacije",
       "item-3": "Identifikacija digitalnih izdelkov/storitev",
       "item-4": "Načrtovanje in arhitektura za digitalne izdelke/storitve",
       "item-5": "Hiter razvoj in implementacija (celotna rešitev) z izjemno hitrim časom vstopa na trg",
-      "item-6": "Integracija z zalednimi sistemi",
-      "item-7": "Vgrajena orodja za komunikacijo s strankami – zaznajte potrebe svojih strank in se na njih takoj odzovite",
+      "item-6": "Integracija z zalednimi sistemi"
+      "item-7": "Že vgrajena orodja za komunikacijo s strankami, zaznavanje njihovih potreb in takojšen odziv",
       "item-8": "Napredne digitalne tehnologije – mikrostoritve, API-ji, vsebniki, tehnologije veriženja blokov",
       "item-9": "Neprekinjena dostava novih in naprednih funkcionalnosti, vključno z DevOps"
     },
     "cloud-native-microservices-apis": {
       "title": "Aplikacije v oblaku, mikrostoritve in aplikacijski programski vmesniki",
-      "desc": "Razvoj aplikacij v oblaku, mikrostoritvena arhitektura in aplikacijski programski vmesniki so naša glavna zmožnost in konkurenčna prednost. Podjetjem pomagamo pri prehodu na oblak in mikrostoritve, tudi tako da obstoječe aplikacije prestavimo v oblačne rešitve.",
+      "desc": "Razvoj aplikacij v oblaku, obvladovanje mikrostoritvene arhitektura in lastni aplikacijski programski vmesniki so naša glavne komptetence in konkurenčna prednost. Podjetjem pomagamo pri prehodu na oblak in uporabo mikrostoritev, tudi tako da obstoječe aplikacije preoblikujemo v oblačne rešitve.",
       "upper-left": {
         "title": "V oblaku",
         "item-1": "Oblačna arhitektura",
@@ -87,9 +87,9 @@
         "item-2-2": "Dnevniki ",
         "item-2-3": "Iskanje",
         "item-2-4": "Metrike",
-        "item-2-5": "Zdravje",
+        "item-2-5": "Stanje",
         "item-2-6": "Varnost",
-        "item-2-7": "Preskakovanje napak",
+        "item-2-7": "Odpornost na napake",
         "item-2-8": "Varnostna stikala",
         "item-2-9": "Prenos dogodkov",
         "item-2-10": "Reaktivnost",
@@ -114,9 +114,9 @@
       },
       "lower-left": {
         "title": "Mikrostoritve",
-        "item-1": "Razvoj aplikacij na podlagi mikrostoritev",
+        "item-1": "Razvoj aplikacij z uporabo mikrostoritev",
         "item-2": "Prehod na mikrostoritve",
-        "item-3": "Prehod na novejšo platformo za vaše obstoječe aplikacije",
+        "item-3": "Prehod na novejšo platformo za obstoječe aplikacije",
         "item-4": "Dobre prakse in vzorci za mikrostoritve",
         "item-5": "Mikrostoritvena ogrodja za Javo, .NET, Node.js in Go",
         "item-6": "Mikrostoritvena ogrodja za Javo (KumuluzEE, Spring Boot/Cloud, WildFly Swarm, Open Liberty, etc.)",
@@ -138,7 +138,7 @@
     },
     "docker-and-kubernetes": {
       "title": "Docker, Kubernetes in ostali vsebniki",
-      "desc": "Smo strokovnjaki za moderne programske vsebniške storitve, ki ponujajo vzdržljivost, skalabilnost, predvidljivost, nespremenljivost in ponovljivost tekočih digitalnih storitev in rešitev, ne glede na infrastrukturo.",
+      "desc": "Smo strokovnjaki za moderne programske vsebniške storitve, ki ponujajo vzdržljivost, skalabilnost, predvidljivost, nespremenljivost in ponovljivost digitalnih storitev in rešitev, ne glede na infrastrukturo.",
       "item-1": "Vsebniki Docker",
       "item-2": "Gostiteljsko okolje za vsebnike",
       "item-3": "Privatna odlagališča za vsebnike",
@@ -152,7 +152,7 @@
       "title": "Integracija",
       "desc": "Z integracijskimi rešitvami pomagamo podjetjem pripeljati vse podatke na eno mesto iz kateregakoli vira – za analitiko, pametne podatke, sinhronizacijo ali druge namene.",
       "item-1": "Integracija aplikacij, interneta stvari in zalednih sistemov",
-      "item-2": "Od integracije točka-točka do ohlapno sklopljene vozliščne integracije",
+      "item-2": "Od integracije točka-točka do integracije prek vozlišč",
       "item-3": "Integracijske platforme",
       "item-4": "Integracijski vzorci in dobre prakse",
       "item-5": "Oblikovanje odpornih integracijskih arhitektur",
@@ -160,17 +160,17 @@
     },
     "blockchain": {
       "title": "Tehnologija veriženja blokov",
-      "desc": "Specializirani smo za oblikovanje in razvoj aplikacij in rešitev, ki temeljijo na tehnologiji veriženja blokov. Naš prispevek k svetu veriženja blokov je razvoj platforme API Kumuluz.io za aplikacije veriženja blokov naslednje generacije.",
+      "desc": "Specializirani smo za oblikovanje in razvoj aplikacij in rešitev, ki temeljijo na tehnologiji veriženja blokov. Naš prispevek k svetu veriženja blokov je razvoj platforme naslednje generacije Kumuluz.io za decentralizirane API-je.",
       "item-1": "Razvoj tehnologije veriženja blokov",
       "item-2": "Razvoj pametnih pogodb",
       "item-3": "Razvoj decentraliziranih aplikacij",
-      "item-4": "Strokovno znanje operacijskega sistema Etherium",
+      "item-4": "Strokovno znanje sistema Ethereum",
       "item-5": "Strokovno znanje Hyperledger Fabric",
       "item-6": "Namestitev v oblaku"
     },
     "javaee-architecture-development": {
       "title": "Arhitektura in razvoj Java, Java EE/Jakarta EE/EE4J",
-      "desc": "Ponujamo visokokvalitetni razvoj zalednih sistemov, ki temelji na našem obsežnem strokovnem znanju razvoja programske opreme za podjetja in splošnih vzorcev oblikovanja programske opreme. Specializirani smo za zaledni javanski razvoj.",
+      "desc": "Ponujamo visokokvalitetni razvoj zalednih sistemov, ki temelji na našem obsežnem strokovnem znanju razvoja programske opreme za podjetja in poznavanju vzorcev načrtovanja programske opreme. Specializirani smo za razvoj zelednih delov sistemov.",
       "item-1": "Obsežno, poglobljeno znanje Java in Java EE/Jakarta EE/EE4J",
       "item-2": "Dolgoletne izkušnje z najbolj zapletenimi Java in Java EE projekti",
       "item-3": "Certificirani za IBM WebSphere in Orcale WebLogic",
@@ -179,9 +179,9 @@
     },
     "mobile-ux-html5-responsive-web-dev": {
       "title": "Mobilna uporabniška izkušnja in HTML5 odzivni spletni razvoj",
-      "desc": "Poleg zalednega razvoja pokrivamo tudi razvoj uporabniških vmesnikov, ki temelji na HTML5 in priljubljenih ogrodjih, kot sta Angular in React. Prav tako smo visoko usposobljeni v mobilnem razvoju.",
+      "desc": "Poleg zalednega razvoja pokrivamo tudi razvoj uporabniških vmesnikov, ki temelji na HTML5 in priljubljenih ogrodjih, kot sta Angular in React. Prav tako smo visoko usposobljeni za razvoj mobilnih aplikacij.",
       "item-1": "Prvovrstna uporabniška izkušnja",
-      "item-2": "Visoko usposobljeni za HTML5 odjemalski razvoj",
+      "item-2": "Visoko usposobljeni za razvoj HTML5 na strani odjemalca",
       "item-3": "Poznavanje platforme Angular",
       "item-4": "Poznavanje platforme React",
       "item-5": "Visoko usposobljeni za mobilni razvoj: iOS in Android",
@@ -192,13 +192,13 @@
       "desc": "Vsi naši razvojni procesi temeljijo na dobrih praksah in principih agilnosti ter DevOps, kar omogoča hitre razvojne cikle, avtomatizacijo procesov, enostavno spremljanje napredka razvoja in, kar je najpomembneje, nenehno lansiranje novih funkcionalnosti programske opreme.",
       "item-1": "Neprekinjena integracija",
       "item-2": "Neprekinjeno lansiranje",
-      "item-3": "Neprekinjena uvedba",
+      "item-3": "Neprekinjene namestitve",
       "item-4": "Neprekinjeno poslovanje (oz. neprekinjeno vse)",
       "item-5": "Namestitev in konfiguracija okolij DevOps"
     },
     "bpm": {
       "title": "BPM",
-      "desc": "Imamo strokovno ekipo za management poslovnih procesov (ang. Business Process Management ali BPM), ki poseduje strokovno znanje za identifikacijo, analizo, merjenje in optimiziranje procesov, vključno z razvojem novih procesnih aplikacij in integracijo podatkov. Certificirani smo za več zbirk BPM.",
+      "desc": "Imamo strokovno ekipo za management poslovnih procesov (ang. Business Process Management ali BPM), ki poseduje strokovno znanje za identifikacijo, analizo, merjenje in optimiziranje procesov, vključno z razvojem novih procesnih aplikacij in integracijo podatkov. Certificirani smo za različna BPM ogrodja.",
       "item-1": "Modeliranje izvršljivih poslovnih procesov",
       "item-2": "Razvoj procesnih aplikacij",
       "item-3": "Integracija procesnih aplikacij z zalednimi storitvami",
