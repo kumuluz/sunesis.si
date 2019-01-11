@@ -13,8 +13,8 @@
   },
   "header": {
     "title": "O podjetju Sunesis",
-    "para-1": "Sunesis je podjetje za programsko opremo in IT storitve s sedežem v Sloveniji. Podjetje deluje v osrednji in vzhodni Evropi, predvsem pa pomaga velikim podjetjem v regiji z njihovo digitalno transformacijo in razvojem digitalnih izdelkov.",
-    "para-2": "Podjetje združuje visoko usposobljeno ekipo več kot 15 strokovnjakov, ki dosegajo odlične rezultate in imajo obsežne izkušnje z oblikovanjem, ustvarjanjem, razvojem in integracijo kompleksnih oblačnih aplikacij in informacijskih sistemov.",
+    "para-1": "Sunesis je podjetje za razvoj programske opreme in IT storitve s sedežem v Sloveniji. Podjetje deluje v Srednji in Vzhodni Evropi, predvsem pa pomaga velikim podjetjem v regiji pri njihovi digitalni transformaciji in razvoju digitalnih izdelkov.",
+    "para-2": "Podjetje združuje visoko usposobljeno ekipo več kot 15 strokovnjakov, ki dosegajo odlične rezultate in imajo bogate izkušnje z oblikovanjem, ustvarjanjem, razvojem in integracijo kompleksnih oblačnih aplikacij in informacijskih sistemov.",
     "para-3": "Naša ekipa je specializirana za uporabo mikrostoritev, API-jev, vsebnikov, agilnih razvojnih praks in metodologije DevOps. Prednosti dela z nami so agilnost, hiter razvoj, hiter čas vstopa na trg, tesen odnos s stranko, visoka kvaliteta in poznavanje najnaprednejših tehnologij.",
     "para-4": "Od ustanovitve leta 2014 je podjetje hitro raslo in dobilo več državnih in mednarodnih prestižnih nagrad. Naša družina inovativnih izdelkov, ki omogoča veliko hitrejšo digitalno transformacijo in razvoj novih digitalnih izdelkov, se imenuje Kumuluz."
   },
@@ -49,13 +49,13 @@
   },
   "sunesis-name": {
     "title": "Se sprašujete, kaj pomeni ime Sunesis?",
-    "para-1": "Ime Sunesis ni bilo izbrano naključno, temveč sporoča temeljne vrednote, ki jih podjetje predstavlja. Grki so imeli tri besede, ki opisujejo tri izjemne lastnosti uma. Če je človek imel vse tri lastnosti, je njegov um bil opremljen.",
+    "para-1": "Ime Sunesis ni bilo izbrano naključno, temveč sporoča temeljne vrednote, ki jih podjetje predstavlja. Grki so imeli tri besede, ki opisujejo tri izjemne lastnosti uma.",
     "words": {
       "item-1": "Prva od teh besed je sophia – modrost.",
       "item-2": "Druga od teh velikih besed je phronesis – preudarnost.",
       "item-3": "Tretja od velikih grških besed uma je sunesis."
     },
-    "para-2": "Sunesis dobesedno pomeni združevati, zbližati, integrirati. Lahko bi rekli, da sunesis predstavlja tisto zmožnost logičnega sklepanja. V svojem bistvu sunesis predstavlja zmožnost vrednotenja, razločevanja, kritiziranja in ocenjevanja, razumevanja in oblikovanja stališč."
+    "para-2": "Sunesis dobesedno pomeni združevati, povezovati, integrirati. Lahko bi rekli, da sunesis predstavlja zmožnost logičnega sklepanja. V svojem bistvu sunesis predstavlja zmožnost presoje, razlikovanje, kritičnega ovrednotenja razumevanja in mnenja."
   },
   "awards": {
     "title": "Naše nagrade",
