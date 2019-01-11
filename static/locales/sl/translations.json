@@ -22,7 +22,7 @@
   "banner": {
     "title": "Predstavljajte si aplikacije, ki so <b>razvite trikrat hitreje</b>, popolnoma <b>fleksibilne, integrirane, odporne na napake</b> in <b>nimajo omejitev pri skaliranju.</b>",
     "subTitle": "Kako to dosežemo?",
-    "cubeTitle": "Vpeljava novega razvoja z uporabo mikrostoritev in tehnologijami za oblak",
+    "cubeTitle": "Vpeljava novega razvoja z uporabo mikrostoritev in tehnologij za oblak",
     "mobile-cube-1": "Popolnoma fleksibilne",
     "mobile-cube-2": "Odporne na napake",
     "mobile-cube-3": "Integrirane",
@@ -68,7 +68,7 @@
   },
   "description": {
     "title": "Najhitrejša pot od digitalne strategije do delujočih digitalnih izdelkov",
-    "para1": "Pri Sunesisu ponujamo širok nabor storitev in svoje lastne inovativne izdelke, s katerimi lahko t pospešimo vašo digitalno transformacijo in razvoj digitalnih izdelkov.",
+    "para1": "Pri Sunesisu ponujamo širok nabor storitev in svoje lastne inovativne izdelke, s katerimi lahko pospešimo vašo digitalno transformacijo in razvoj digitalnih izdelkov.",
     "para2": "Smo visoko usposobljena ekipa z odličnimi rezultati in obsežnimi izkušnjami z oblikovanjem, ustvarjanjem, razvijanjem in integriranjem kompleksnih oblačnih aplikacij in informacijskih sistemov, ki uporabljajo mikrostoritve, API-je, vsebnike, spletne, mobilne in agilne razvojne prakse, DevOps in tehnologijo veriženja blokov.",
     "award": "Dobili smo prestižno nagrado",
     "award-bold": "Java Duke's Choice Award za tehnično inovacijo.",
@@ -77,8 +77,8 @@
   },
   "core-services": {
     "title": "Naše glavne storitve",
-    "para1": "Svetovanje in izobraževanje s področja IT.",
-    "para2": "Razvoj programske oprme.",
+    "para1": "Svetovanje in izobraževanje s področja IT ter razvoj programske opreme.",
+    "para2": "Ponujamo širok nabor storitev IT svetovanja in izobraževanja ter storitve razvoja programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prehod v oblak, prehod z monolitske v mikrostoritveno arhitekturo, modernizacijo programske opreme in nove digitalne izdelke.",
     "para3": "Nenehno razvijamo nove kompetence glede na nove tehnološke trende, nastajajoče tehnologije in dobre razvojne prakse, kot so mikrostoritve, tehnologija veriženja blokov, internet stvari in ostale.",
     "more-about": "Več o storitvah",
     "strat-and-tact": {
@@ -132,9 +132,9 @@
   "benefits": {
     "title": "Glavne prednosti mikrostoritvenih oblačnih aplikacij",
     "description": "V izjemno konkurenčnem okolju digitalnih aplikacij si ne morete privoščiti, da bi bila vaše programske rešitve slabe.",
-    "start": "<span class='colorRed font-weight-bold'>Začnite razvijati</span> digitalne<br/> aplikacije, ki so pripravljene na prihodnost.",
+    "start": "<span class='colorRed font-weight-bold'>Začnite razvijati</span> digitalne aplikacije,<br/> ki so pripravljene na prihodnost.",
     "benefit1": {
-      "title": "300% hitrejši razvoj lastnih digitalnih aplikacij",
+      "title": "Razvijte lastne digitalne aplikacije 300% hitreje",
       "description": "Z mikrostoritvami in oblačno arhitekturo, agilnim pristopom in metodologijo DevOps se za vašo aplikacijo čas vstopa na trg drastično skrajša."
     },
     "benefit2": {
