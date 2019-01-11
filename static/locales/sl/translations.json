@@ -69,7 +69,7 @@
   "description": {
     "title": "Najhitrejša pot od digitalne strategije do delujočih digitalnih izdelkov",
     "para1": "Pri Sunesisu ponujamo širok nabor storitev in svoje lastne inovativne izdelke, s katerimi lahko pospešimo vašo digitalno transformacijo in razvoj digitalnih izdelkov.",
-    "para2": "Smo visoko usposobljena ekipa z odličnimi rezultati in obsežnimi izkušnjami z oblikovanjem, ustvarjanjem, razvijanjem in integriranjem kompleksnih oblačnih aplikacij in informacijskih sistemov, ki uporabljajo mikrostoritve, API-je, vsebnike, spletne, mobilne in agilne razvojne prakse, DevOps in tehnologijo veriženja blokov.",
+    "para2": "Smo visoko usposobljena ekipa z odličnimi rezultati in bogatimi izkušnjami z oblikovanjem, ustvarjanjem, razvijanjem in integriranjem kompleksnih oblačnih aplikacij in informacijskih sistemov, ki uporabljajo mikrostoritve, API-je, vsebnike, spletne, mobilne in agilne razvojne prakse, DevOps in tehnologijo veriženja blokov.",
     "award": "Dobili smo prestižno nagrado",
     "award-bold": "Java Duke's Choice Award za tehnično inovacijo.",
     "para3": "Prednosti dela z nami so: agilnost, hiter razvoj, hiter čas vstopa na trg, tesen odnos s stranko, visoka kvaliteta, strokovnost in odlično poznavanje najsodobnejših tehnologij.",
@@ -78,7 +78,7 @@
   "core-services": {
     "title": "Naše glavne storitve",
     "para1": "Svetovanje in izobraževanje s področja IT ter razvoj programske opreme.",
-    "para2": "Ponujamo širok nabor storitev IT svetovanja in izobraževanja ter storitve razvoja programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prehod v oblak, prehod z monolitske v mikrostoritveno arhitekturo, modernizacijo programske opreme in nove digitalne izdelke.",
+    "para2": "Ponujamo širok nabor storitev IT svetovanja in izobraževanja ter storitve razvoja programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prehod v oblak, prehod z monolitne v mikrostoritveno arhitekturo, modernizacijo programske opreme in implementacijo novih digitalnih izdelkov.",
     "para3": "Nenehno razvijamo nove kompetence glede na nove tehnološke trende, nastajajoče tehnologije in dobre razvojne prakse, kot so mikrostoritve, tehnologija veriženja blokov, internet stvari in ostale.",
     "more-about": "Več o storitvah",
     "strat-and-tact": {
@@ -105,7 +105,7 @@
   },
   "innovative-products": {
     "title": "Naši inovativni izdelki",
-    "para1": "Spoznajte Kumuluz, družino inovativnih izdelkov in nagrajeno digitalno platformo, ki lahko vaši razvojni ekipi pomaga pospešiti digitalno transformacijo in izjemno hitro razviti digitalne izdelke.",
+    "para1": "KUMULUZ je družina inovativnih izdelkov in nagrajena digitalna platforma, ki lahko vaši razvojni ekipi pomaga pospešiti digitalno transformacijo in izjemno hitro razviti digitalne izdelke.",
     "para2": "Platforma Kumuluz vam lahko pri digitalni transformaciji pomaga ohraniti prednost pred vašo konkurenco.",
     "learn-more": "Več",
     "platform": {
@@ -131,7 +131,7 @@
   },
   "benefits": {
     "title": "Glavne prednosti mikrostoritvenih oblačnih aplikacij",
-    "description": "V izjemno konkurenčnem okolju digitalnih aplikacij si ne morete privoščiti, da bi bila vaše programske rešitve slabe.",
+    "description": "V izjemno konkurenčnem okolju digitalnih aplikacij si ne morete privoščiti, da bi bile vaše programske rešitve slabe.",
     "start": "<span class='colorRed font-weight-bold'>Začnite razvijati</span> digitalne aplikacije,<br/> ki so pripravljene na prihodnost.",
     "benefit1": {
       "title": "Razvijte lastne digitalne aplikacije 300% hitreje",
@@ -143,11 +143,11 @@
     },
     "benefit3": {
       "title": "Zagrabite nove poslovne priložnosti in digitalne poslovne modele",
-      "description": "Izkoristite digitalne kanale za resnično razumevanje potreb vaših strank in to zelo kratkem času. Zaznajte potrebe strank, izboljšajte povratne informacije in se takoj odzovite."
+      "description": "Izkoristite digitalne kanale za resnično razumevanje potreb vaših strank in to v zelo kratkem času. Zaznajte potrebe strank, izboljšajte povratne informacije in se takoj odzovite."
     },
     "benefit4": {
       "title": "Redno ponujajte nove funkcionalnosti",
-      "description": "Vpeljite neprekinjeno integracijo in dostavo ter jo nadgradite z neprekinjenim vsem. Dodajte agilno kulturo, okolje, dobre prakse in orodja metodologije DevOps. Le-to za organizacijo poenostavi upravljanje objav aplikacij, saj standardizira razvoj okolij in izboljša zanesljivost in varnost."
+      "description": "Vpeljite neprekinjeno integracijo in dostavo novih funkcionalnosti. Dodajte agilno kulturo, okolje, dobre prakse in orodja metodologije DevOps. To za organizacijo poenostavi upravljanje objav aplikacij, saj standardizira razvoj okolij in izboljša zanesljivost in varnost."
     }
   },
   "products": {
@@ -185,7 +185,7 @@
     }
   },
   "business-apis": {
-    "title": "Kumuluz Poslovni APIji",
+    "title": "Kumuluz Poslovni API-ji",
     "payment": "Payment",
     "ccm": "CCM",
     "product-catalog": "Product catalog",
@@ -282,7 +282,7 @@
     "services": {
       "title": "Storitve",
       "service1": "Digitalna transformacija",
-      "service2": "Oblak, mikrostoritve & APIji",
+      "service2": "Oblak, mikrostoritve & API-ji",
       "service3": "Docker in Kubernetes",
       "service4": "Integracija",
       "service5": "Verižni bloki",
