@@ -30,7 +30,7 @@
 
   "caseStudy": {
     "title": "Študija primera: Integracija SaaS in IoT naprav z lokalnimi zalednimi aplikacijami",
-    "description": "Kumuluz<b>Integration</b> nagovarja izzive pri integraciji med SaaS aplikacijami in/ali lokalnimi aplikacijami. KumuluzIntegration nam omogoča, da integriramo in sinhroniziramo naše SaaS in/ali lokalne aplikacije v nekaj minutah",
+    "description": "Kumuluz<b>Integration</b> nagovarja izzive pri integraciji med SaaS aplikacijami in/ali lokalnimi aplikacijami. KumuluzIntegration nam omogoča, da integriramo in sinhroniziramo naše SaaS in/ali lokalne aplikacije v nekaj minutah.",
     "advantages": {
       "title": "Z uporabo najnovejših inovacij pri integracijah podatkov, kot so integracije ob dogodkih:",
       "advantage1": "KumuluzIntegration omogoči <b>33% boljšo optimizacijo</b>",
@@ -55,11 +55,11 @@
     "items": {
       "item-1": {
         "title": "Kaj so Kumuluz Poslovni API-ji?",
-        "desc": "Kumuluz Poslovni APIji so vnaprej zgrajeni API-ji za pogoste digitalne funkcionalnosti, ki vam omogočajo da <strong>pospešite svoj razvoj</strong> z uporabo, prilagoditvijo in razširitvijo vnaprej razvitih in testiranih API-jev."
+        "desc": "Kumuluz Poslovni API-ji so vnaprej zgrajeni API-ji za pogoste digitalne funkcionalnosti, ki omogočajo, da <strong>pospešite svoj razvoj</strong> z uporabo, prilagoditvijo in razširitvijo vnaprej razvitih in testiranih API-jev."
       },
       "item-2": {
         "title": "Komu so Kumuluz Poslovni API-ji namenjeni?",
-        "desc": "Naši Poslovni APIji so primarno uporabljani s strani <strong>velikih podjetij, startupov, vlade in agencij.</strong><br/><br/>... ter vseh drugih podjetij, ki želijo pospešiti svoj razvoj."
+        "desc": "Naše Poslovne API-ji primarno uporabljajo <strong>velika podjetja, startupi, vlade in agencije,</strong><br/><br/>... ter vsa druga podjetja, ki želijo pospešiti svoj razvoj."
       },
       "item-3": {
         "title": "Kakšna je cena uporabe Kumuluz Poslovni API-jev?",
