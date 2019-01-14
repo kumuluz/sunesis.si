@@ -3,8 +3,8 @@
     "title": "Produkti - Sunesis"
   },
   "header": {
-    "title": "Digitalčna plaforma Kumuluz",
-    "subtitle": "Vse, kar potrebujete, da pospešite svojo digitalno transformacijo: odprtain lahka digitalna platforma."
+    "title": "Digitalna plaforma Kumuluz",
+    "subtitle": "Vse, kar potrebujete, da pospešite svojo digitalno transformacijo, je odprta in lahka digitalna platforma."
   },
   "strategy": {
     "title": "Pospešite svojo digitalno transformacijo",
@@ -14,13 +14,13 @@
   },
   "weForYou": {
     "title": "Kaj lahko platforma Kumuluz Digital stori za vas",
-    "descriptionLeft": "<p class='blue-200'>Platforma Kumuluz Digital je zmagovalna rešitev, ki jo podjetja uporabljajo, da implementirajo in pospešijo svojo digitalno transformacijo.</p><p>Platforma Kumuluz Digital zagotovi vse gradnike, ki jih potrebujete, da pospešite razvoj svojega digitalnega poslovanja. Platforma vam omogoči hitro implementacijo vaše digitalne strategije.</p><p>S platformo Kumuluz Digital boste vpeljali najnovejše oblačne koncepte, mikrostoritve, API-je in vsebnike Docker. Uporabili boste agilni razvoj, principe DevOps in neprekinjeno dostavo, ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitske aplikacije. Razvili boste sofisticirano uporabniško izkušnjo in kompleksne rešitve za trg.</p>",
-    "descriptionRight": "<p>Koristi je ogromno. Z našo platformo ter agilnimi, DevOps in drugimi oblačnimi metodami boste bistveno skrajšali čas vstopa na trg za svoje digitalne izdelke, storitve, aplikacije in rešitve za trg.</p><p><strong>In še mnogo več:</strong> Kumuluz Digital vam ponuja orodja, ki so potrebna, da ustvarite sofisticirano in odzivno uporabniško izkušnjo, hitro razvijete svoje lastne digitalne trge, implementirate poslovne modele za gospodarstvo vmesnikov API, na nove načine komunicirate s svojimi kupci, pritegnite kupce, zaznate njihove potrebe in se na njih takoj odzovete, zberete digitalna plačila in dodate mnoge druge zanimive funkcionalnosti, ki so nepogrešljive v digitalnem gospodarstvu.</p>"
+    "descriptionLeft": "<p class='blue-200'>Platforma Kumuluz Digital je zmagovalna rešitev, ki jo podjetja uporabljajo, da implementirajo in pospešijo svojo digitalno transformacijo.</p><p>Platforma Kumuluz Digital zagotovi vse gradnike, ki jih potrebujete, da pospešite razvoj svojega digitalnega poslovanja. Platforma vam omogoči hitro implementacijo vaše digitalne strategije.</p><p>S platformo Kumuluz Digital boste vpeljali najnovejše oblačne koncepte, mikrostoritve, API-je in vsebnike Docker. Uporabili boste agilni razvoj, principe DevOps in neprekinjeno dostavo, ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitne aplikacije. Razvili boste sofisticirano uporabniško izkušnjo in kompleksne rešitve za trg.</p>",
+    "descriptionRight": "<p>Koristi je ogromno. Z našo platformo ter agilnimi, DevOps in drugimi oblačnimi metodami boste bistveno skrajšali čas vstopa na trg za svoje digitalne izdelke, storitve, aplikacije in rešitve za trg.</p><p><strong>In še mnogo več:</strong> Kumuluz Digital vam ponuja orodja, ki so potrebna, da ustvarite sofisticirano in odzivno uporabniško izkušnjo, hitro razvijete svoje lastne digitalne trge, implementirate poslovne modele za ekonomijo API, na nove načine komunicirate s svojimi kupci, pritegnite kupce, zaznate njihove potrebe in se na njih takoj odzovete, zberete digitalna plačila in dodate mnoge druge zanimive funkcionalnosti, ki so nepogrešljive v digitalnem gospodarstvu.</p>"
   },
   "advantages": {
-    "title": "Vse prednosti, ki jih dobite s Kumuluzovo digitalno platformo",
+    "title": "Vse prednosti, ki jih dobite z digitalno platformo Kumuluz",
     "subtitle": "Implementirajte in pospešite svojo digitalno transformacijo",
-    "advantage1": "Za organizacije, ki prehajajo na mikrostoritve in arhitekturo v oblaku",
+    "advantage1": "Enostaven prehod na mikrostoritve in arhitekturo v oblaku",
     "advantage2": "Popolnoma odprta, brez kakršnekoli odvisnosti od ponudnika",
     "advantage3": "Nameščena na lokaciji (v vašem podatkovnem središču) ali v oblaku",
     "advantage4": "Ohrani investicijo v vaše obstoječe znanje in veščine",
@@ -29,16 +29,16 @@
   },
 
   "caseStudy": {
-    "title": "Študija primera: SaaS in IoT naprave z lokalnimi zalednimi aplikacijami",
+    "title": "Študija primera: Integracija SaaS in IoT naprav z lokalnimi zalednimi aplikacijami",
     "description": "Kumuluz<b>Integration</b> nagovarja izzive pri integraciji med SaaS aplikacijami in/ali lokalnimi aplikacijami. KumuluzIntegration nam omogoča, da integriramo in sinhroniziramo naše SaaS in/ali lokalne aplikacije v nekaj minutah",
     "advantages": {
       "title": "Z uporabo najnovejših inovacij pri integracijah podatkov, kot so integracije ob dogodkih:",
-      "advantage1": "KumuluzIntegration omogoči <b>33% več optimizacije</b>",
+      "advantage1": "KumuluzIntegration omogoči <b>33% boljšo optimizacijo</b>",
       "advantage2": "<b>12% nalaganje SaaS</b> in/ali lokalnih aplikacij",
       "advantage3": "<b>90% hitrejša</b> integracija"
     },
     "quote": {
-      "quote": "Z vmesnikom KumuluzDigital boste lahko vpeljali najnovejše oblačne koncepte, mikrostoritve, aplikacijske programske vmesnike in vsebnike Docker. Implementirali boste agilni razvoj, principe razvojnih operacij (ang. DevOps) in neprekinjene dostave (ang. continuous delivery), ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitske aplikacije.",
+      "quote": "Z vmesnikom KumuluzDigital boste lahko vpeljali najnovejše oblačne koncepte, mikrostoritve, aplikacijske programske vmesnike in vsebnike Docker. Implementirali boste agilni razvoj, principe razvojnih operacij (ang. DevOps) in neprekinjene dostave (ang. continuous delivery), ter tako pospešili svoj razvoj. Končno boste lahko modernizirali svoje monolitne aplikacije.",
       "readMore": "Preberite več",
       "about": "študij primerov na našem blogu"
     }
@@ -50,25 +50,25 @@
     "otherBlocks": "Discover other Kumuluz Digital Building Blocks"
   },
   "what-are-apis": {
-    "title": "Kumuluz Poslovni APIji",
-    "subtitle": "Ni potrebe, da razvijate iz nič. Ne pospešujte vašega razvoja s polovičnimi rešitvami. Preprosto dodajte funkcionalnosti z uporabo naših poslovnih APIjev.",
+    "title": "Kumuluz Poslovni API-ji",
+    "subtitle": "Ni potrebe, da razvijate iz nič. Ne pospešujte vašega razvoja s polovičnimi rešitvami. Preprosto dodajte funkcionalnosti z uporabo naših poslovnih API-jev.",
     "items": {
       "item-1": {
-        "title": "Kaj so Kumuluz Poslovni APIji?",
-        "desc": "Kumuluz Poslovni APIji so vnaprej zgrajeni APIji za pogoste digitalne funkcionalnosti, ki vam omogočajo da <strong>pospešite svoj razvoj</strong> z uporabo, prilagoditvijo in razširitvijo vnaprej razvitih in testiranih APIjev."
+        "title": "Kaj so Kumuluz Poslovni API-ji?",
+        "desc": "Kumuluz Poslovni APIji so vnaprej zgrajeni API-ji za pogoste digitalne funkcionalnosti, ki vam omogočajo da <strong>pospešite svoj razvoj</strong> z uporabo, prilagoditvijo in razširitvijo vnaprej razvitih in testiranih API-jev."
       },
       "item-2": {
-        "title": "Komu so Kumuluz Poslovni APIji namenjeni?",
-        "desc": "Naši Poslovni APIji so primarno uporabljani s strani <strong>velikih podjetij, startupov, vlade in agencij.</strong><br/><br/>... ter vseh drugih podjetij, ki potrebujejo pospešiti svoj razvoj."
+        "title": "Komu so Kumuluz Poslovni API-ji namenjeni?",
+        "desc": "Naši Poslovni APIji so primarno uporabljani s strani <strong>velikih podjetij, startupov, vlade in agencij.</strong><br/><br/>... ter vseh drugih podjetij, ki želijo pospešiti svoj razvoj."
       },
       "item-3": {
-        "title": "Kolikšna je cena uporabe Kumuluz Poslovni APIjev?",
-        "desc": "Nekaj APIjev lahko testirate brezplačno ali pa lahko pripravimo demonstracijo za vas.<br/><br/>Za polno uporabo APIjev jih prenesete kot docker vsebnike za enkratno plačilo."
+        "title": "Kakšna je cena uporabe Kumuluz Poslovni API-jev?",
+        "desc": "Nekaj API-jev lahko testirate brezplačno ali pa lahko pripravimo demonstracijo za vas.<br/><br/>Za polno uporabo API-jev jih prenesete kot docker vsebnike za enkratno plačilo."
       }
     },
     "needs": {
       "title": "Ali vaša aplikacija potrebuje?",
-      "item-1": "Plačilo",
+      "item-1": "Plačevanje",
       "item-2": "Katalog izdelkov",
       "item-3": "Komunikacija s strankami",
       "item-4": "Upravljanje naročil",
@@ -78,7 +78,7 @@
       "item-8": "Upravljanje naročnine",
       "item-9": "Proces spoznavanja strank",
       "item-10": "Upravljanje odnosov s strankami",
-      "item-11": "Pregled APIjev"
+      "item-11": "Pregled API-jev"
     }
   }
 }
