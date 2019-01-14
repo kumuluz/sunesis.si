@@ -30,7 +30,7 @@
     "list-of-clients": "Seznam naših strank",
     "struggle": {
       "title": "Naše stranke si prizadevajo modernizirati monolitne aplikacije",
-      "para": "Pred mikrostoritvami je bila programska oprema razvita v obliki velikih monolitskih aplikacij. Velika ekipa razvijalcev je sledila tradicionalnemu kaskadnemu razvojnemu procesu in spisala vsak del aplikacije, od začetka do konca. Monolitna aplikacija se obravnava kot en sam paket, z eno samo bazo podatkov in tesno povezanimi odvisnostmi med funkcionalnostmi.",
+      "para": "Pred mikrostoritvami je bila programska oprema razvita v obliki velikih monolitnih aplikacij. Velika ekipa razvijalcev je sledila tradicionalnemu kaskadnemu razvojnemu procesu in spisala vsak del aplikacije, od začetka do konca. Monolitna aplikacija se obravnava kot en sam paket, z eno samo bazo podatkov in tesno povezanimi odvisnostmi med funkcionalnostmi.",
       "problems": {
         "title": "Problemi z monolitnimi aplikacijami",
         "item-1": "Če se pokvari ena komponenta, se pokvari celoten sistem",
@@ -73,7 +73,7 @@
       "transitions": {
         "title": "Prenova platforme vključuje več tranzicij",
         "item-1": "Migracija na oblačne aplikacije",
-        "item-2": "Z monolitnee arhitekture na mikrostoritve",
+        "item-2": "Z monolitne arhitekture na mikrostoritve",
         "item-3": "Od kaskadnega do agilnega razvoja",
         "item-4": "Pospešitev razvojnih ciklov"
       }
