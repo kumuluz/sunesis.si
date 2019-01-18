@@ -199,7 +199,7 @@
   },
   "customers": {
     "title": "Kaj naše stranke pravijo o nas",
-    "subtitle": "Poskrbite da vas vaša programska oprema nikoli več ne bo jezila.",
+    "subtitle": "Poskrbite, da vas vaša programska oprema nikoli več ne bo jezila.",
     "adriatic": {
       "text": "Adriatic Slovenica uporablja Kumuluzove API-je in mikrostoritve za integracijo internih sistemov s sistemi partnerjev. Na vmesnikih Kumuluz API sloni trg aplikacijskih programskih vmesnikov za izdelke v zavarovalniški panogi, ki ga trenutno uporablja več kot 3000 partnerskih podjetij v Jugovzhodni Evropi. Adriatic Slovenica v svojih digitalnih kanalih, kot je na primer <a href='https://www.wiz.si/' target='_blank'>Wiz</a>, prav tako uporablja vmesnik Kumuluz Payment za spletna plačila. Kumuluz nam je omogočil lažjo integracijo in večjo produktivnost, ter je zelo pomemben za naše digitalne kanale.",
       "title": "CIO pri Adriatic Slovenici"
