@@ -235,10 +235,10 @@
   "contact": {
     "title": "Govorite z našimi strokovnjaki",
     "form": {
-      "name": "Ime in Priimek",
+      "name": "Ime in priimek",
       "namePlaceholder": "Vaše polno ime",
       "company": "Podjetje",
-      "companyPlaceholder": "Vaše podjetje",
+      "companyPlaceholder": "Podjetje",
       "email": "Elektronski naslov",
       "emailPlaceholder": "janeznovak at email",
       "companySize": "Velikost podjetja",
