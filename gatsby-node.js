@@ -14,11 +14,6 @@ const languages = require("./src/i18n/languages");
 exports.onCreatePage = ({page, actions}) => {
     const {createPage, deletePage} = actions;
 
-    // TODO: localize 404 page
-    if (page.path.includes("404")) {
-        return Promise.resolve();
-    }
-
     return new Promise(resolve => {
         deletePage(page);
         Object.keys(languages).map(language => {
