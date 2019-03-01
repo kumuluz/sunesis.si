@@ -44,7 +44,7 @@ export class Layout extends Component {
                     </Helmet>
                     <NavbarComponent locale={locale}/>
                     <div>{children}</div>
-                    <CookiesComponent/>
+                    <CookiesComponent locale={locale}/>
                 </div>
             </IntlProvider>
         );

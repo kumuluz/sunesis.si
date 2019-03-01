@@ -2,10 +2,12 @@ import React, {Component} from "react";
 import * as PropType from "prop-types";
 
 import "./cookies.component.scss";
+import {TranslationUtil} from "../../utils/translation.util";
 
 export class CookiesComponent extends Component {
 
     static propTypes = {
+        locale: PropType.string
     };
 
     constructor(props) {
@@ -36,12 +38,13 @@ export class CookiesComponent extends Component {
     }
 
     render() {
+        const {locale} = this.props;
         const clazz = this.state.show ? "sun-cookies-component" : "accepted-cookies sun-cookies-component";
         return (
             <div className={clazz}>
                 <div className="content">
-                    <div>{"site.cookie-warning"}</div>
-                    <button className="btn btn-primary" onClick={this.acceptCookies}>{"site.cookie-consent"}</button>
+                    <div>{TranslationUtil.translate(locale, "site.cookie-warning")}</div>
+                    <button className="btn btn-primary" onClick={this.acceptCookies}>{TranslationUtil.translate(locale, "site.cookie-consent")}</button>
                 </div>
             </div>
         );
