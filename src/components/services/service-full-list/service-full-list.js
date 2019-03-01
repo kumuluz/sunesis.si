@@ -1,17 +1,16 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import {translate} from 'react-i18next';
+import * as PropTypes from 'prop-types';
 
 import './service-full-list.scss';
 import {getListOfServices} from '../../../content/services/services-full-list';
 import chevron from '../../../assets/images/services/chevron.svg';
 import {MEDIA_PHONE, returnScreenSize} from "../../../layouts/common";
+import {TranslationUtil} from "../../../utils/translation.util";
 
-@translate('services')
 export class ServiceFullList extends Component {
 
     static propTypes = {
-        t: PropTypes.func
+        locale: PropTypes.string
     };
 
     constructor(props) {
@@ -21,26 +20,23 @@ export class ServiceFullList extends Component {
     renderItem(item, i) {
         if (!item.multilevel) {
             return (
-                <ServiceFullListItem key={i} title={item.title}
-                                     services={item.services} desc={item.description}
+                <ServiceFullListItem key={i} title={TranslationUtil.translate(this.props.locale, item.title, "services-page")}
+                     services={item.services} locale={this.props.locale}
+                    desc={TranslationUtil.translate(this.props.locale, item.description, "services-page")}
                 />
             );
         } else {
             return (
-                <ServiceFullListMultilevelItem key={i} item={item}/>
+                <ServiceFullListMultilevelItem key={i} item={item} locale={this.props.locale}/>
             );
         }
     }
 
     render() {
-        const {t} = this.props;
-
-        const data = getListOfServices(t);
-
         return (
             <div className="full-list-component">
                 <ul>
-                    {data.map((item, i) => (
+                    {getListOfServices.map((item, i) => (
                         this.renderItem(item, i)
                     ))}
                 </ul>
@@ -52,7 +48,8 @@ export class ServiceFullList extends Component {
 export class ServiceFullListMultilevelItem extends Component {
 
     static propTypes = {
-        item: PropTypes.object
+        item: PropTypes.object,
+        locale: PropTypes.string
     };
 
     constructor(props) {
@@ -81,7 +78,6 @@ export class ServiceFullListMultilevelItem extends Component {
         const rightBorderShouldBeShown = returnScreenSize() > MEDIA_PHONE && service.meta.endsWith("left");
 
         return {
-            //width: "50%",
             padding: "20px",
             borderBottom: "1px solid #dadada",
             borderTop: "1px solid #dadada",
@@ -91,27 +87,27 @@ export class ServiceFullListMultilevelItem extends Component {
     }
 
     render() {
-        const {item} = this.props;
+        const {item, locale} = this.props;
 
         return (
             <li>
                 <div className="flc-title" onClick={this.changeState}>
                     <div className="caret">
-                        <img src={chevron} style={this.rotateChevron(this.state.opened)}/>
+                        <img src={chevron} alt="chevron" style={this.rotateChevron(this.state.opened)}/>
                     </div>
                     <div className="title">
-                        {item.title}
+                        {TranslationUtil.translate(locale, item.title, "services-page")}
                     </div>
                 </div>
                 <div
                     className={this.state.opened ? 'flc-desc changeable-content' : 'flc-desc skrito changeable-content'}>
-                    {item.description}
+                    {TranslationUtil.translate(locale, item.description, "services-page")}
                 </div>
                 <div className={this.state.opened ? 'flc-multilist' : 'flc-multilist skrito'}>
                     {item.services && item.services.map((service, j) => (
                         <div key={j} className="table-elem" style={this.getGridStyle(service)}>
                             <h4>
-                                {service.title}
+                                {TranslationUtil.translate(locale, service.title, "services-page")}
                             </h4>
                             <ul>
                             {service.items.map((level1Item, k) => (
@@ -120,7 +116,7 @@ export class ServiceFullListMultilevelItem extends Component {
                                         <div className="blue-box">
                                         </div>
                                         <div className="text">
-                                            {level1Item.text}
+                                            {TranslationUtil.translate(locale, level1Item.text, "services-page")}
                                         </div>
                                     </div>
 
@@ -131,7 +127,7 @@ export class ServiceFullListMultilevelItem extends Component {
                                                     <div className="dark-blue-box"/>
                                                 </div>
                                                 <div className="level-2-text">
-                                                    {level2Item}
+                                                    {TranslationUtil.translate(locale, level2Item, "services-page")}
                                                 </div>
                                             </li>
                                         ))}
@@ -160,7 +156,8 @@ export class ServiceFullListItem extends Component {
     static propTypes = {
         title: PropTypes.string,
         desc: PropTypes.string,
-        services: PropTypes.array
+        services: PropTypes.array,
+        locale: PropTypes.string
     };
 
     rotateChevron(opened) {
@@ -178,7 +175,7 @@ export class ServiceFullListItem extends Component {
     }
 
     render() {
-        const {title, desc, services} = this.props;
+        const {title, desc, services, locale} = this.props;
 
         const replaceNewLines = (tekst) => {
             return tekst.replace(new RegExp(/\n/, 'g'), '<br/>');
@@ -204,7 +201,7 @@ export class ServiceFullListItem extends Component {
                             <div className="blue-box">
                             </div>
                             <div className="serv-desc">
-                                {service}
+                                {TranslationUtil.translate(locale, service, "services-page")}
                             </div>
                         </div>
                     ))}

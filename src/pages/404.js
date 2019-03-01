@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
 import { Footer, ParallaxBlock } from '../components';
 
 import './index.scss';
@@ -9,14 +8,12 @@ import cube01 from '../assets/images/cubes/3d-cube-01.svg';
 import cube02 from '../assets/images/cubes/3d-cube-02.svg';
 import cube03 from '../assets/images/cubes/3d-cube-03.svg';
 
-@translate()
+
 export default class ErrorPage extends Component {
   static propTypes = {
-    t: PropTypes.func
   };
 
   render() {
-    const { t } = this.props;
 
     return (
       <div className="index">
@@ -29,7 +26,7 @@ export default class ErrorPage extends Component {
         <ParallaxBlock className="d-none d-sm-block" image={cube03} size={60} xOffset="8%" yOffset={550} />
 
         <div className="banner">
-          <h1 className="col-lg-9 col-xl-8 px-5 mx-auto" dangerouslySetInnerHTML={{ __html: t('404') }} />
+          <h1 className="col-lg-9 col-xl-8 px-5 mx-auto" dangerouslySetInnerHTML={{ __html: '404'}} />
         </div>
 
         <Footer social />

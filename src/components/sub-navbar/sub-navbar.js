@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import * as PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
 import { products as kumuluzDigitalProducts } from '../../content/products';
-import { navigation } from '../../content/links';
+import { navigationLinks } from '../../content/links';
 
 import './sub-navbar.scss';
+import InternalLink from "../links/internal-link.component";
+import {TranslationUtil} from "../../utils/translation.util";
 
-@translate()
 export class SubNavbar extends Component {
   static propTypes = {
-    t: PropTypes.func,
-    i18n: PropTypes.object,
     transformation: PropTypes.any,
-    nav: PropTypes.any
+    nav: PropTypes.any,
+    locale: PropTypes.string
   };
 
   constructor(props) {
@@ -67,18 +66,16 @@ export class SubNavbar extends Component {
   }
 
   render() {
-    const { t, nav } = this.props;
+    const { nav, locale } = this.props;
     const { width, index } = this.state;
 
     const bigEnough = width > 1500;
 
     let content = [];
     if (nav) {
-      content = navigation(t)
-        .find(n => n.href.includes(nav))
-        .children.map(c => Object.assign({}, { ...c, name: <div>{c.name}</div> }));
+      content = navigationLinks.find(n => n.href.includes(nav)).children;
     } else {
-      content = kumuluzDigitalProducts(t);
+      content = kumuluzDigitalProducts;
     }
 
     const leftArray = content.slice(index);
@@ -94,16 +91,16 @@ export class SubNavbar extends Component {
         <div className={'d-flex align-items-center justify-content-center w-100 ' + (bigEnough ? 'mx-auto' : '')}>
           {leftArray.map((prod, i) => (
             <div key={i} className="text-center">
-              <Link to={prod.href} className={this.isActive(prod) ? (prod.id ? prod.id : 'active') : ''}>
-                {prod.name}
-              </Link>
+              <InternalLink to={prod.href} className={this.isActive(prod) ? (prod.id ? prod.id : 'active') : ''}>
+                {TranslationUtil.translate(locale, prod.name)}
+              </InternalLink>
             </div>
           ))}
           {rightArray.map((prod, i) => (
             <div key={i}>
-              <Link to={prod.href} className={this.isActive(prod) ? (prod.id ? prod.id : 'active') : ''}>
-                {prod.name}
-              </Link>
+              <InternalLink to={prod.href} className={this.isActive(prod) ? (prod.id ? prod.id : 'active') : ''}>
+                {TranslationUtil.translate(locale, prod.name)}
+              </InternalLink>
             </div>
           ))}
         </div>

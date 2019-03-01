@@ -1,3 +1,16 @@
 {
-  "plugins": ["transform-decorators-legacy", "transform-async-to-generator"]
+  "plugins": [],
+  "presets": [
+    [
+      "babel-preset-gatsby",
+      {
+        "targets": {
+          "browsers": [
+            ">0.25%",
+            "not dead"
+          ]
+        }
+      }
+    ]
+  ]
 }

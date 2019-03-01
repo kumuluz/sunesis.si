@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
+import * as PropTypes from 'prop-types';
 import { Col, Form, FormGroup, Label, Input, Button, FormFeedback, FormText } from 'reactstrap';
 import isEmail from 'validator/lib/isEmail';
 import { PhoneNumberUtil, PhoneNumberFormat } from 'google-libphonenumber';
 
 import './contact-form.scss';
+import {TranslationUtil} from "../../utils/translation.util";
 
-@translate()
 export class ContactForm extends Component {
   static propTypes = {
-    t: PropTypes.func,
     light: PropTypes.bool,
-    smallTitle: PropTypes.bool
+    smallTitle: PropTypes.bool,
+    locale: PropTypes.string
   };
 
   constructor(props) {
@@ -143,74 +142,74 @@ export class ContactForm extends Component {
   }
 
   render() {
-    const { t, light, smallTitle } = this.props;
+    const { light, smallTitle, locale } = this.props;
     const { valid } = this.state.form;
     const { fullName, company, email, companySize, phoneNumber, partnership, message } = this.state.form.fields;
 
     return (
       <div className={`contact-form ${light && 'light'}`}>
-        {(!smallTitle && <h3 className="blue">{t('contact.title')}</h3>) || <h4>{t('contact.title')}</h4>}
+        {(!smallTitle && <h3 className="blue">{TranslationUtil.translate(locale, 'contact.title')}</h3>) || <h4>{TranslationUtil.translate(locale, 'contact.title')}</h4>}
         <Form className="row col pr-0" onSubmit={e => this.submitForm(e)}>
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="fullName" xs="12">
-                {t('contact.form.name')}
+                {TranslationUtil.translate(locale, 'contact.form.name')}
               </Label>
               <Input
                 type="text"
                 name="fullName"
                 id="fullName"
-                placeholder={t('contact.form.namePlaceholder')}
+                placeholder={TranslationUtil.translate(locale, 'contact.form.namePlaceholder')}
                 value={fullName.value}
                 maxLength={fullName.maxLength}
                 onChange={e => this.changeInput(e)}
                 onBlur={e => this.blurInput(e)}
                 invalid={fullName.touched && fullName.error}
               />
-              {fullName.error && <FormFeedback>{t(`contact.form.errors.${fullName.error}`)}</FormFeedback>}
+              {fullName.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${fullName.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="company" xs="12">
-                {t('contact.form.company')}
+                {TranslationUtil.translate(locale, 'contact.form.company')}
               </Label>
               <Input
                 type="text"
                 name="company"
                 id="company"
-                placeholder={t('contact.form.companyPlaceholder')}
+                placeholder={TranslationUtil.translate(locale, 'contact.form.companyPlaceholder')}
                 value={company.value}
                 maxLength={company.maxLength}
                 onChange={e => this.changeInput(e)}
                 onBlur={e => this.blurInput(e)}
                 invalid={company.touched && company.error}
               />
-              {company.error && <FormFeedback>{t(`contact.form.errors.${company.error}`)}</FormFeedback>}
+              {company.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${company.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="email" xs="12">
-                {t('contact.form.email')}
+                {TranslationUtil.translate(locale, 'contact.form.email')}
               </Label>
               <Input
                 type="text"
                 name="email"
                 id="email"
-                placeholder={t('contact.form.emailPlaceholder')}
+                placeholder={TranslationUtil.translate(locale, 'contact.form.emailPlaceholder')}
                 value={email.value}
                 onChange={e => this.changeInput(e)}
                 onBlur={e => this.blurInput(e)}
                 invalid={email.touched && email.error}
               />
-              {email.error && <FormFeedback>{t(`contact.form.errors.${email.error}`)}</FormFeedback>}
+              {email.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${email.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="companySize" xs="12">
-                {t('contact.form.companySize')}
+                {TranslationUtil.translate(locale, 'contact.form.companySize')}
               </Label>
               <Input
                 type="select"
@@ -223,34 +222,34 @@ export class ContactForm extends Component {
               >
                 <option disabled />
                 {['micro', 'small', 'medium', 'large'].map((opt, k) => (
-                  <option key={k}>{t(`contact.form.companySizeOptions.${opt}`)}</option>
+                  <option key={k}>{TranslationUtil.translate(locale, `contact.form.companySizeOptions.${opt}`)}</option>
                 ))}
               </Input>
-              {companySize.error && <FormFeedback>{t(`contact.form.errors.${companySize.error}`)}</FormFeedback>}
+              {companySize.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${companySize.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="phoneNumber" xs="12">
-                {t('contact.form.phone')}
+                {TranslationUtil.translate(locale, 'contact.form.phone')}
               </Label>
               <Input
                 type="text"
                 name="phoneNumber"
                 id="phoneNumber"
-                placeholder={t('contact.form.phonePlaceholder')}
+                placeholder={TranslationUtil.translate(locale, 'contact.form.phonePlaceholder')}
                 value={phoneNumber.value}
                 onChange={e => this.changeInput(e)}
                 onBlur={e => this.blurInput(e)}
                 invalid={phoneNumber.touched && phoneNumber.error}
               />
-              {phoneNumber.error && <FormFeedback>{t(`contact.form.errors.${phoneNumber.error}`)}</FormFeedback>}
+              {phoneNumber.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${phoneNumber.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="partnership" xs="12">
-                {t('contact.form.partnership')}
+                {TranslationUtil.translate(locale, 'contact.form.partnership')}
               </Label>
               <Input
                 type="select"
@@ -263,22 +262,22 @@ export class ContactForm extends Component {
               >
                 <option disabled />
                 {['customer', 'integration', 'developer'].map((opt, k) => (
-                  <option key={k}>{t(`contact.form.partnershipOptions.${opt}`)}</option>
+                  <option key={k}>{TranslationUtil.translate(locale, `contact.form.partnershipOptions.${opt}`)}</option>
                 ))}
               </Input>
-              {partnership.error && <FormFeedback>{t(`contact.form.errors.${partnership.error}`)}</FormFeedback>}
+              {partnership.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${partnership.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
           <Col xs="12" className="mt-3 pr-5">
             <FormGroup row>
               <Label for="message" xs="12">
-                {t('contact.form.message')}
+                {TranslationUtil.translate(locale, 'contact.form.message')}
               </Label>
               <Input
                 type="textarea"
                 name="message"
                 id="message"
-                placeholder={t('contact.form.messagePlaceholder')}
+                placeholder={TranslationUtil.translate(locale, 'contact.form.messagePlaceholder')}
                 value={message.value}
                 maxLength={message.maxLength}
                 onChange={e => this.changeInput(e)}
@@ -286,13 +285,13 @@ export class ContactForm extends Component {
                 invalid={message.touched && message.error}
               />
               <FormText className="ml-auto">
-                {t(`contact.form.messageHelp`)}: {message.maxLength - message.value.length}
+                {TranslationUtil.translate(locale, `contact.form.messageHelp`)}: {message.maxLength - message.value.length}
               </FormText>
-              {message.error && <FormFeedback>{t(`contact.form.errors.${message.error}`)}</FormFeedback>}
+              {message.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${message.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
           <Button color="primary" className="mt-3" disabled={!valid}>
-            {t('contact.form.send')}
+            {TranslationUtil.translate(locale, 'contact.form.send')}
           </Button>
         </Form>
       </div>
