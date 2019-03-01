@@ -6,6 +6,7 @@ import { PhoneNumberUtil, PhoneNumberFormat } from 'google-libphonenumber';
 
 import './contact-form.scss';
 import {TranslationUtil} from "../../utils/translation.util";
+import {LocaleUtil} from "../../utils/locale.util";
 
 export class ContactForm extends Component {
   static propTypes = {
@@ -149,7 +150,10 @@ export class ContactForm extends Component {
     return (
       <div className={`contact-form ${light && 'light'}`}>
         {(!smallTitle && <h3 className="blue">{TranslationUtil.translate(locale, 'contact.title')}</h3>) || <h4>{TranslationUtil.translate(locale, 'contact.title')}</h4>}
-        <Form className="row col pr-0" onSubmit={e => this.submitForm(e)}>
+        <Form className="row col pr-0" /*onSubmit={e => this.submitForm(e)}*/ method="POST" action={LocaleUtil.getLocalizedUrl(locale, "/thanks/")}
+            name="contact-form" data-netlify="true" data-netlify-honeypot="itsatrap">
+          <input type="hidden" name="form-name" value="contact-form"/>
+          <input type="hidden" name="itsatrap"/>
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="fullName" xs="12">

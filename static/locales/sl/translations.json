@@ -309,5 +309,10 @@
     }
   },
   "copyright": "&copy; Sunesis, Vse pravice pridržane",
-  "404": "Ne najdem strani"
+  "404": "Ne najdem strani",
+  "thanks": {
+    "title": "Hvala za vaš kontakt",
+    "text": "V kratkem boste preusmerjeni na",
+    "link": "prvotno stran"
+  }
 }

@@ -2,6 +2,14 @@ import languages from "../i18n/languages";
 
 export class LocaleUtil {
 
+    static getLocalizedUrl(locale, url) {
+        const localeKey = Object.keys(languages).find(key => key === locale);
+        if (localeKey === null) {
+            return url;
+        }
+        const lang = languages[localeKey];
+        return lang.default ? url : `/${lang.path}${url}`;
+    }
 
     static getCurrentLocale() {
         const foundLocale = LocaleUtil.__getLocale();

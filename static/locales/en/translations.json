@@ -313,5 +313,10 @@
     }
   },
   "copyright": "&copy; Sunesis, All rights reserved",
-  "404": "Location not found"
+  "404": "Location not found",
+  "thanks": {
+    "title": "Thank you for your contact",
+    "text": "Shortly, you will be redirected to",
+    "link": "homepage"
+  }
 }
