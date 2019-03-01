@@ -9,6 +9,7 @@ import InternalLink from "../../components/links/internal-link.component";
 import {Footer} from "../../components";
 
 import "./index.scss";
+import {LocaleUtil} from "../../utils/locale.util";
 
 export default class ThanksPage extends Component {
 
@@ -19,8 +20,10 @@ export default class ThanksPage extends Component {
     constructor(props) {
         super(props);
 
+        const {pageContext} = this.props;
+        const locale = pageContext.locale;
         setTimeout(() => {
-            navigate("/");
+            navigate(LocaleUtil.getLocalizedUrl(locale, "/"));
         }, 3000);
     }
 
