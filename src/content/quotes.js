@@ -6,42 +6,42 @@ import imageArunGupta from './images/quotes/arun_gupta.jpg';
 import imageMartijnVerburg from './images/quotes/martijn_verburg.png';
 import imageHarshadOak from './images/quotes/harshad_oak.jpg';
 
-export const quotes = t => [
+export const quotes = [
   {
-    quote: t("customers.adriatic.text"),
+    quote: 'customers.adriatic.text',
     photo: imageEdvardSimec,
     name: 'Edvard Šimec',
-    company: t("customers.adriatic.title")
+    company: 'customers.adriatic.title'
   },
   {
-    quote: t("customers.petrol.text"),
+    quote: 'customers.petrol.text',
     photo: imagePavelSkerlj,
     name: 'Pavel Škerlj',
-    company: t("customers.petrol.title")
+    company: 'customers.petrol.title'
   },
   {
-    quote: t("customers.apl.text"),
+    quote: 'customers.apl.text',
     photo: imageToneCerne,
     name: 'Tone Černe',
-    company: t("customers.apl.title")
+    company: 'customers.apl.title'
   },
 
   {
-    quote: t("customers.couchbase.text"),
+    quote: 'customers.couchbase.text',
     photo: imageArunGupta,
     name: 'Arun Gupta',
-    company: t("customers.couchbase.title")
+    company: 'customers.couchbase.title'
   },
   {
-    quote: t("customers.jclarity.text"),
+    quote: 'customers.jclarity.text',
     photo: imageMartijnVerburg,
     name: 'Martijn Verburg',
-    company: t("customers.jclarity.title")
+    company: 'customers.jclarity.title'
   },
   {
-    quote: t("customers.rightrix.text"),
+    quote: 'customers.rightrix.text',
     photo: imageHarshadOak,
     name: 'Harshad Oak',
-    company: t("customers.rightrix.title")
+    company: 'customers.rightrix.title'
   }
 ];

@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import {translate} from 'react-i18next';
+import * as PropTypes from 'prop-types';
 import {Container, Row, Col} from 'reactstrap';
-import Link from 'gatsby-link';
 
 import {LanguageSelector, ContactForm} from '../../components';
 
@@ -11,30 +9,32 @@ import {footerLinks, socialLinks} from '../../content';
 
 import './footer.scss';
 import email from "../../assets/images/email.png";
+import InternalLink from "../links/internal-link.component";
+import {FormattedMessage} from "react-intl";
+import {TranslationUtil} from "../../utils/translation.util";
 
-@translate()
 export class Footer extends Component {
     static propTypes = {
-        t: PropTypes.func,
         social: PropTypes.any,
         contact: PropTypes.any,
-        grey: PropTypes.any
+        grey: PropTypes.any,
+        locale: PropTypes.string
     };
 
     renderLink(link, index) {
         if (link.href.startsWith("/")) {
             return (
                 <div key={index}>
-                    <Link to={link.href}>
-                        {link.title}
-                    </Link>
+                    <InternalLink to={link.href}>
+                        {TranslationUtil.translate(this.props.locale, link.title)}
+                    </InternalLink>
                 </div>
             )
         } else {
             return (
                 <div key={index}>
-                    <a href={link.href} target="_blank">
-                        {link.title}
+                    <a href={link.href} target="_blank" rel="noreferrer noopener">
+                        {TranslationUtil.translate(this.props.locale, link.title)}
                     </a>
                 </div>
             )
@@ -42,7 +42,7 @@ export class Footer extends Component {
     }
 
     render() {
-        const {t, social, contact, grey} = this.props;
+        const {social, contact, grey, locale} = this.props;
 
         return (
             <div id="footer" className="footer">
@@ -50,7 +50,9 @@ export class Footer extends Component {
                 <div className="darkSection">
                     {social && (
                         <div className="social">
-                            <h4 className="position-relative text-center">{t('social.title')}</h4>
+                            <h4 className="position-relative text-center">
+                                <FormattedMessage id="social.title"/>
+                            </h4>
                             <div className="social-icons">
                                 {socialLinks.map((link, i) => (
                                     <a key={i} href={link.href} target="_blank">
@@ -66,18 +68,24 @@ export class Footer extends Component {
                             <Container>
                                 <Row>
                                     <Col xs="12" xl="9">
-                                        <ContactForm/>
+                                        <ContactForm locale={locale}/>
                                     </Col>
                                     <Col xs="12" xl="3" className="mt-5 text-center text-xl-left">
-                                        <h4 className="blue">{t('contact.contact.title')}</h4>
-                                        <h4>{t('contact.contact.company')}</h4>
-                                        <p dangerouslySetInnerHTML={{__html: t('contact.contact.address')}}/>
+                                        <h4 className="blue">
+                                            <FormattedMessage id="contact.contact.title"/>
+                                        </h4>
+                                        <h4>
+                                            <FormattedMessage id="contact.contact.company"/>
+                                        </h4>
+                                        <p dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale, 'contact.contact.address')}}/>
                                         <p className="mt-4">
                                             <img style={{cursor: "pointer"}} src={email} onClick={() => window.location = "mailto:info@sunesis.si"}/>
                                         </p>
                                         {/*<p>{t('contact.contact.phone')}</p>*/}
 
-                                        <h4 className="blue">{t('social.title')}</h4>
+                                        <h4 className="blue">
+                                            <FormattedMessage id="social.title"/>
+                                        </h4>
                                         <div className="social-icons text-center text-xl-left">
                                             {socialLinks.map((link, i) => (
                                                 <a key={i} href={link.href} target="_blank">
@@ -96,18 +104,20 @@ export class Footer extends Component {
                     <Container>
                         <Row>
                             <Col>
-                                <LanguageSelector/>
+                                <LanguageSelector locale={locale}/>
                             </Col>
                         </Row>
                         <Row className="links">
                             <Col xs="6" md="4" lg="auto">
-                                <div className="title">{t('footer.products.title')}</div>
+                                <div className="title">
+                                    <FormattedMessage id="footer.products.title"/>
+                                </div>
                                 <div className="footer-digital-platform">
                                     <div className="title-digital-platform">
-                                        {t("products.title")}
+                                        <FormattedMessage id="products.title"/>
                                     </div>
                                     <div className="content-digital-platform">
-                                        {kumuluzDigitalProducts(t).map((prod, i) => {
+                                        {kumuluzDigitalProducts(locale).map((prod, i) => {
                                             if (prod.external) {
                                                 return (
                                                     <a key={i} href={prod.href} target="_blank">
@@ -116,19 +126,19 @@ export class Footer extends Component {
                                                 );
                                             }
                                             return (
-                                                <Link key={i} to={prod.href}>
+                                                <InternalLink key={i} to={prod.href}>
                                                     {prod.name}
-                                                </Link>
+                                                </InternalLink>
                                             )
                                         })}
                                     </div>
                                 </div>
                                 <div className="footer-business-apis">
                                     <div className="title-business-apis">
-                                        {t("business-apis.title")}
+                                        <FormattedMessage id="business-apis.title"/>
                                     </div>
                                     <div className="content-business-apis">
-                                        {businessApis(t).map((api, i) => {
+                                        {businessApis(locale).map((api, i) => {
                                             if (api.external) {
                                                 return (
                                                     <div key={i}>
@@ -140,24 +150,24 @@ export class Footer extends Component {
                                             }
                                             return (
                                                 <div key={i}>
-                                                    <Link to={api.url}>
+                                                    <InternalLink key={i} to={api.url}>
                                                         {api.title}
-                                                    </Link>
+                                                    </InternalLink>
                                                 </div>
                                             )
                                         })}
                                     </div>
                                 </div>
                             </Col>
-                            {footerLinks(t).map((fl, i) => (
+                            {footerLinks.map((fl, i) => (
                                 <Col key={i} xs="6" md="4" lg="auto">
-                                    <div className="title">{fl.title}</div>
+                                    <div className="title">{TranslationUtil.translate(locale, fl.title)}</div>
                                     {fl.links.map(
                                         (link, ind) =>{
                                             if(link.href) {
                                                 return this.renderLink(link, ind);
                                             } else {
-                                                return (<div key={ind}>{link.title}</div>);
+                                                return (<div key={ind}>{TranslationUtil.translate(locale, link.title)}</div>);
                                             }
                                         })}
                                 </Col>
@@ -167,7 +177,7 @@ export class Footer extends Component {
                         <Row>
                             <Col>
                                 <div className="line"/>
-                                <p className="copyright" dangerouslySetInnerHTML={{__html: t('copyright')}}/>
+                                <p className="copyright" dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale, "copyright")}}/>
                             </Col>
                         </Row>
                     </Container>

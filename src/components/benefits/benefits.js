@@ -1,18 +1,20 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+import * as PropTypes from "prop-types";
 import {Row, Col, Container} from 'reactstrap';
 import {MEDIA_PHONE, returnScreenSize} from '../../layouts/common';
 
 import anime from 'animejs';
 
 import './benefits.scss';
+import {TranslationUtil} from "../../utils/translation.util";
 
 export class Benefits extends Component {
     static propTypes = {
         title: PropTypes.string,
         description: PropTypes.string,
         benefits: PropTypes.array,
-        quote: PropTypes.string
+        quote: PropTypes.string,
+        locale: PropTypes.string
     };
 
     constructor(props) {
@@ -121,9 +123,11 @@ export class Benefits extends Component {
         return (
             (benefit.content && <div key={i}>{benefit.content}</div>) || (
                 <div key={i} className="benefit">
-                    <img src={benefit.icon}/>
-                    <h4>{benefit.title}</h4>
-                    <p className="p-small" dangerouslySetInnerHTML={{__html: benefit.description}}/>
+                    <img src={benefit.icon} alt="benefit-icon"/>
+                    <h4>{
+                        TranslationUtil.translate(this.props.locale, benefit.title)
+                    }</h4>
+                    <p className="p-small" dangerouslySetInnerHTML={{__html: TranslationUtil.translate(this.props.locale, benefit.description)}}/>
                 </div>
             )
         );

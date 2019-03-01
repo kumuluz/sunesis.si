@@ -3,17 +3,14 @@ import PropType from "prop-types";
 import Link from "gatsby-link";
 import anime from "animejs";
 import {Row, Col} from "reactstrap";
-import {translate} from "react-i18next";
 
 import "./slider.component.scss";
 import {MEDIA_PHONE, returnScreenSize} from "../../layouts/common";
 import arrow from "../../assets/images/arrow.svg";
 
-@translate("about")
 export class SliderComponent extends Component {
 
     static propTypes = {
-        t: PropType.func,
         items: PropType.array
     };
 
@@ -103,19 +100,18 @@ export class SliderComponent extends Component {
     }
 
     renderLink(item) {
-        const {t} = this.props;
 
         if (item.url.startsWith("/")) {
             return (
                 <Link to={item.url} className="learn-more-link">
-                    <span>{t("products-services.learn-more")}</span>
+                    <span>{"products-services.learn-more"}</span>
                     <img src={arrow}/>
                 </Link>
             )
         } else {
             return (
                 <a target="_blank" href={item.url} className="learn-more-link">
-                    {t("products-services.learn-more")}
+                    {"products-services.learn-more"}
                     <img src={arrow}/>
                 </a>
             )

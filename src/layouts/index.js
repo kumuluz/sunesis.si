@@ -1,51 +1,52 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, {Component} from 'react';
+import * as PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { translate } from 'react-i18next';
+
 import {CookiesComponent, NavbarComponent} from '../components';
 
-import i18n from './i18n';
-
-import './index.scss';
+import slData from "react-intl/locale-data/sl";
+import enData from "react-intl/locale-data/en";
 
 import favicon from './favicon.ico';
+import './index.scss';
+import {IntlProvider, addLocaleData} from "react-intl";
+import {getTranslations} from "../i18n/get-translations";
 
-@translate()
-export default class TemplateWrapper extends Component {
-  static propTypes = {
-    children: PropTypes.func,
-    t: PropTypes.func
-  };
+addLocaleData([...enData, ...slData]);
 
-  constructor(props) {
-    super(props);
-    translate.setI18n(i18n);
-  }
+const messages = getTranslations();
 
-  componentDidMount() {
-    const { i18n } = this.props;
-    const langParam = new URLSearchParams(window.location.search).get("lang");
-    const acceptableLocales = ["en", "sl"];
-    if (acceptableLocales.includes(langParam)) {
-      i18n.changeLanguage(langParam);
+export class Layout extends Component {
+
+    static propTypes = {
+        children: PropTypes.object,
+        locale: PropTypes.string
+    };
+
+    constructor(props) {
+        super(props);
     }
-  }
 
-  render() {
-    const { children, t } = this.props;
+    render() {
+        const {children, locale} = this.props;
 
-    return (
-      <div>
-        <Helmet
-          title={t('site.title')}
-          meta={[{ name: 'description', content: t("site.description") }, { name: 'keywords', content: t("site.keywords") }]}
-        >
-          <link rel="icon" href={favicon} type="image/x-icon" />
-        </Helmet>
-        <NavbarComponent />
-        <div>{children()}</div>
-        <CookiesComponent/>
-      </div>
-    );
-  }
+        return (
+            <IntlProvider locale={locale} messages={messages[locale]}>
+                <div>
+                    <Helmet
+                        title={'site.title'}
+                        meta={[{name: 'description', content: "site.description"}, {
+                            name: 'keywords',
+                            content: "site.keywords"
+                        }]}
+                    >
+                        <link rel="icon" href={favicon} type="image/x-icon"/>
+                    </Helmet>
+                    <NavbarComponent locale={locale}/>
+                    <div>{children}</div>
+                    <CookiesComponent locale={locale}/>
+                </div>
+            </IntlProvider>
+        );
+    }
 }

@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { translate } from 'react-i18next';
 import { Container, Row, Col } from 'reactstrap';
 import anime from 'animejs';
+import * as PropTypes from "prop-types";
 
 import './customers-section.scss';
 
 import { quotes } from '../../../content';
+import {FormattedMessage} from "react-intl";
+import {TranslationUtil} from "../../../utils/translation.util";
 
-@translate()
 export class CustomersSection extends Component {
   static propTypes = {
-    t: PropTypes.func
+    locale: PropTypes.string
   };
 
   constructor(props) {
@@ -62,11 +62,10 @@ export class CustomersSection extends Component {
   }
 
   render() {
-    const { t } = this.props;
-
+    const {locale} = this.props;
     const { width } = this.state;
     const quotePagesArray = [];
-    const quotePages = width > 992 ? Math.ceil(quotes(t).length / 3) : quotes(t).length;
+    const quotePages = width > 992 ? Math.ceil(quotes.length / 3) : quotes.length;
     const quotesPerPage = width > 992 ? 3 : 1;
     for (let i = 0; i < quotePages; i++) {
       quotePagesArray.push(i);
@@ -76,20 +75,22 @@ export class CustomersSection extends Component {
       <div className="customers-section">
         <div className="customers text-center">
           <Container>
-            <h2>{t('customers.title')}</h2>
-            <h2 className="h2-subtitle" dangerouslySetInnerHTML={{ __html: t('customers.subtitle') }} />
+            <h2>
+              <FormattedMessage id="customers.title"/>
+            </h2>
+            <h2 className="h2-subtitle" dangerouslySetInnerHTML={{ __html: TranslationUtil.translate(locale, "customers.subtitle") }} />
 
             <Row className="customers justify-content-center">
-              {quotes(t)
+              {quotes
                 .slice(this.state.quotesPage * quotesPerPage, this.state.quotesPage * quotesPerPage + quotesPerPage)
                 .map((customer, i) => (
                   <Col className="customer" key={i} xs="12" lg="4">
                     <p className="quote">
-                      <span dangerouslySetInnerHTML={{ __html: `&quot;${customer.quote}&quot;` }} />
+                      <span dangerouslySetInnerHTML={{ __html: `&quot;${TranslationUtil.translate(locale, customer.quote)}&quot;`}} />
                     </p>
                     <img className="rounded-circle my-3" src={customer.photo} />
                     <p className="font-weight-bold mb-0">{customer.name}</p>
-                    <p className="font-italic">{customer.company}</p>
+                    <p className="font-italic">{TranslationUtil.translate(locale, customer.company)}</p>
                   </Col>
                 ))}
 

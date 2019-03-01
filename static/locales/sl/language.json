@@ -1,8 +1,8 @@
 {
   "lang": "Izbran jezik:",
   "langs": {
-    "en": "angleški",
-    "sl": "slovenski"
+    "en": "Angleščina",
+    "sl": "Slovenščina"
   },
   "dateFormat": "DD.MM.YYYY"
 }

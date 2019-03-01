@@ -1,15 +1,18 @@
 import React, {Component} from "react";
-import PropType from "prop-types";
+import * as PropTypes from "prop-types";
 import Link from "gatsby-link";
 import {Row, Col} from "reactstrap";
 
 import "./prod-serv-boxes.component.scss";
+import {TranslationUtil} from "../../utils/translation.util";
+import InternalLink from "../links/internal-link.component";
 
 export class ProductsServicesBoxesComponent extends Component {
 
     static propTypes = {
-        items: PropType.array,
-        learnMoreLabel: PropType.string
+        items: PropTypes.array,
+        learnMoreLabel: PropTypes.string,
+        locale: PropTypes.string
     };
 
     constructor(props) {
@@ -19,9 +22,9 @@ export class ProductsServicesBoxesComponent extends Component {
     renderLink(label, url) {
         if (url.startsWith("/")) {
             return (
-                <Link to={url}>
+                <InternalLink to={url}>
                     {label} &rarr;
-                </Link>
+                </InternalLink>
             )
         } else {
             return (
@@ -33,14 +36,20 @@ export class ProductsServicesBoxesComponent extends Component {
     }
 
     renderBox(item) {
-        const {learnMoreLabel} = this.props;
+        const {learnMoreLabel, locale} = this.props;
 
         return (
           <div className="box-item">
               <div className="box-item-content">
-                  <div className="box-item-title">{item.title}</div>
-                  <div className="box-item-subtitle">{item.subtitle}</div>
-                  <div className="box-item-desc">{item.description}</div>
+                  <div className="box-item-title">{
+                      TranslationUtil.translate(locale, item.title, "about-page")
+                  }</div>
+                  <div className="box-item-subtitle">{
+                      TranslationUtil.translate(locale, item.subtitle, "about-page")
+                  }</div>
+                  <div className="box-item-desc">{
+                      TranslationUtil.translate(locale, item.description, "about-page")
+                  }</div>
               </div>
               <div className="box-item-link">
                   {this.renderLink(learnMoreLabel, item.url)}

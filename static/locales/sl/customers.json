@@ -68,7 +68,8 @@
         "item-2": "Kompleksna infrastruktura z visokimi vzdrževalnimi stroški in brez skalabilnosti",
         "item-3": "Dolgi razvojni cikli brez agilnosti ali zmožnosti hitrih ukrepov",
         "item-4": "Več slabo integriranih ali celo podvojenih programskih rešitev",
-        "item-5": "Omejeno inoviranje in slaba uporabniška izkušnja"
+        "item-5": "Omejeno inoviranje in slaba uporabniška izkušnja",
+        "item-6": "Oteženo rekrutiranje novih talentov"
       },
       "transitions": {
         "title": "Prenova platforme vključuje več tranzicij",
