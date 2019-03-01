@@ -25,8 +25,18 @@ export class NavbarComponent extends Component {
 
         this.state = {
             isOpen: false,
-            dropdownOpen: false
+            dropdownOpen: false,
+            sunesisLogo: sunesisLogo
         };
+    }
+
+    componentDidMount() {
+        window.addEventListener("resize", (e) => {
+            this.setState({
+                ...this.state,
+                sunesisLogo: returnScreenSize() > MEDIA_TABLET ? sunesisLogo : sunesisWhiteLogo
+            })
+        })
     }
 
     toggle() {
@@ -66,7 +76,7 @@ export class NavbarComponent extends Component {
 
     render() {
         const {locale} = this.props;
-        const logoImage = returnScreenSize() > MEDIA_TABLET ? sunesisLogo : sunesisWhiteLogo;
+        // const logoImage = returnScreenSize() > MEDIA_TABLET ? sunesisLogo : sunesisWhiteLogo;
 
         return (
             <div className="placeholder">
@@ -74,7 +84,7 @@ export class NavbarComponent extends Component {
                     style={{width: "100vw"}}>
                     <div className="container">
                         <InternalLink to="/" className="navbar-brand" style={{marginLeft: "10px"}}>
-                            <img src={logoImage} alt=""/>
+                            <img src={this.state.sunesisLogo} alt=""/>
                         </InternalLink>
                         <NavbarToggler onClick={() => this.toggle()} style={{marginRight: "10px"}}/>
                         <Collapse isOpen={this.state.isOpen} navbar>
