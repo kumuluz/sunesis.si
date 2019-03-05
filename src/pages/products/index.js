@@ -88,7 +88,7 @@ export default class ProductsPage extends Component {
         return (
             <Layout locale={locale}>
                 <div className="products">
-                    <SEO siteTitleId={["products-page.site.title", "site.title"]} locale={locale}/>
+                    <SEO siteTitleId={["products-page.site.title", "site.title"]} locale={locale} canonical="/products"/>
                     <ParallaxBlock className="d-none d-xl-block" image={cube01} size={60} xOffset="11%" yOffset={50}/>
                     <ParallaxBlock className="d-none d-xl-block" image={cube02} size={30} xOffset="70%" yOffset={100}/>
                     <ParallaxBlock className="d-none d-xl-block" image={cube01} size={40} xOffset="85%" yOffset={100}/>

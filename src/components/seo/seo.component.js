@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Helmet from "react-helmet";
 import * as PropTypes from "prop-types";
 import {injectIntl, intlShape} from "react-intl";
+import languages from "../../i18n/languages";
 
 
 class SEO extends Component {
@@ -31,13 +32,19 @@ class SEO extends Component {
         }
     }
 
+    buildCanonicalLink() {
+        const {canonical, locale} = this.props;
+        const path = languages[locale].default ? canonical : `/${locale}${canonical}`;
+        return `https://sunesis.si${path}`;
+    }
+
     render() {
         const {locale, canonical} = this.props;
         const siteTitle = this.buildSiteTitle();
         return (
             <Helmet title={siteTitle} htmlAttributes={{lang: locale}}>
                 {canonical && (
-                    <link rel="canonical" href={canonical}/>
+                    <link rel="canonical" href={this.buildCanonicalLink()}/>
                 )}
             </Helmet>
         );

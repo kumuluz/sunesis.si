@@ -34,7 +34,7 @@ export default class ThanksPage extends Component {
         return (
             <Layout locale={locale}>
                 <div className="sun-thanks-page">
-                    <SEO locale={locale} siteTitleId={"site.title"}/>
+                    <SEO locale={locale} siteTitleId={"site.title"} canonical="/thanks"/>
                     <Container fluid={true}>
                         <Row className="justify-content-center">
                             <Col xs={12}>

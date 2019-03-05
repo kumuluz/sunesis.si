@@ -39,7 +39,7 @@ import {TranslationUtil} from "../utils/translation.util";
         return (
             <Layout locale={locale}>
                 <div className="index">
-                    <SEO siteTitleId={'site.title'} canonical="https://sunesis.si/" locale={locale}/>
+                    <SEO siteTitleId={'site.title'} canonical="/" locale={locale}/>
 
                     <ParallaxBlock className="d-none d-xl-block" image={cube01} size={40} xOffset="1%" yOffset={270}/>
                     <ParallaxBlock className="d-none d-md-block" image={cube01} size={60} xOffset="20%" yOffset={100}/>

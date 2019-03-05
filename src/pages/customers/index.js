@@ -50,7 +50,7 @@ export default class CustomersPage extends Component {
         return (
             <Layout locale={locale}>
                 <div className="customers">
-                    <SEO siteTitleId={["customers-page.site.title", "site.title"]} locale={locale}/>
+                    <SEO siteTitleId={["customers-page.site.title", "site.title"]} locale={locale} canonical="/customers"/>
                     <Container fluid={true} className="banner-dark pl-0 pr-0">
                         <Row className="justify-content-center m-0">
                             <Col xs="12" lg="8">

@@ -75,7 +75,7 @@ export default class AboutUsPage extends Component {
         return (
             <Layout locale={locale}>
                 <div className="aboutUs">
-                    <SEO siteTitleId={["about-page.site.sunesis.title", "site.title"]} locale={locale}/>
+                    <SEO siteTitleId={["about-page.site.sunesis.title", "site.title"]} locale={locale} canonical="/about/sunesis"/>
                     <SubNavbar nav="/about" locale={locale}/>
                     <Container className="banner mt-5 mb-5">
                         <Row className="justify-content-center pt-5">

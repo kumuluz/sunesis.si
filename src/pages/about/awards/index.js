@@ -93,7 +93,7 @@ export default class AboutUsPage extends Component {
         return (
             <Layout locale={locale}>
                 <div className="aboutUs awards">
-                    <SEO locale={locale} siteTitleId={["about-page.site.awards.title", "site.title"]}/>
+                    <SEO locale={locale} siteTitleId={["about-page.site.awards.title", "site.title"]} canonical="/about/awards"/>
                     <SubNavbar nav="/about" locale={locale}/>
                     <Container className="banner mt-5 mb-5">
                         <Row className="justify-content-center pt-5">
