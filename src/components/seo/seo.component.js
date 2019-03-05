@@ -12,6 +12,7 @@ class SEO extends Component {
             PropTypes.array
         ]),
         locale: PropTypes.string,
+        canonical: PropTypes.string,
         intl: intlShape.isRequired
     };
 
@@ -31,11 +32,13 @@ class SEO extends Component {
     }
 
     render() {
-        const {locale} = this.props;
+        const {locale, canonical} = this.props;
         const siteTitle = this.buildSiteTitle();
         return (
             <Helmet title={siteTitle} htmlAttributes={{lang: locale}}>
-
+                {canonical && (
+                    <link rel="canonical" href={canonical}/>
+                )}
             </Helmet>
         );
     }

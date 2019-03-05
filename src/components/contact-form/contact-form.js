@@ -136,12 +136,6 @@ export class ContactForm extends Component {
     });
   }
 
-  submitForm(e) {
-    e.preventDefault();
-    // TODO Handle submission
-    return false;
-  }
-
   render() {
     const { light, smallTitle, locale } = this.props;
     const { valid } = this.state.form;
@@ -150,7 +144,7 @@ export class ContactForm extends Component {
     return (
       <div className={`contact-form ${light && 'light'}`}>
         {(!smallTitle && <h3 className="blue">{TranslationUtil.translate(locale, 'contact.title')}</h3>) || <h4>{TranslationUtil.translate(locale, 'contact.title')}</h4>}
-        <Form className="row col pr-0" /*onSubmit={e => this.submitForm(e)}*/ method="POST" action={LocaleUtil.getLocalizedUrl(locale, "/thanks/")}
+        <Form className="row col pr-0" method="POST" action={LocaleUtil.getLocalizedUrl(locale, "/thanks/")}
             name="contact-form" data-netlify="true" data-netlify-honeypot="itsatrap">
           <input type="hidden" name="form-name" value="contact-form"/>
           <input type="hidden" name="itsatrap"/>

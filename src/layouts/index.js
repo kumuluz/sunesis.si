@@ -11,6 +11,7 @@ import favicon from './favicon.ico';
 import './index.scss';
 import {IntlProvider, addLocaleData} from "react-intl";
 import {getTranslations} from "../i18n/get-translations";
+import {TranslationUtil} from "../utils/translation.util";
 
 addLocaleData([...enData, ...slData]);
 
@@ -34,10 +35,10 @@ export class Layout extends Component {
             <IntlProvider locale={locale} messages={messages[locale]}>
                 <div>
                     <Helmet
-                        title={'site.title'}
-                        meta={[{name: 'description', content: "site.description"}, {
+                        title={TranslationUtil.translate(locale, 'site.title')}
+                        meta={[{name: 'description', content: TranslationUtil.translate(locale, 'site.description')}, {
                             name: 'keywords',
-                            content: "site.keywords"
+                            content: TranslationUtil.translate(locale, 'site.keywords')
                         }]}
                     >
                         <link rel="icon" href={favicon} type="image/x-icon"/>

@@ -76,7 +76,6 @@ export class NavbarComponent extends Component {
 
     render() {
         const {locale} = this.props;
-        // const logoImage = returnScreenSize() > MEDIA_TABLET ? sunesisLogo : sunesisWhiteLogo;
 
         return (
             <div className="placeholder">
