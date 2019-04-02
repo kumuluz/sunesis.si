@@ -24,6 +24,7 @@ import logoChile from './images/references/chile.jpg';
 import logoIBM from './images/references/ibm.jpg';
 import logoOracle from './images/references/oracle.jpg';
 import logoEbrad from './images/references/ebrad.jpg';
+import citytech from './images/references/citytech.png';
 
 export const references = [
   {
@@ -130,5 +131,9 @@ export const references = [
   {
     image: logoEbrad,
     name: 'European Bank for Reconstruction and Development (EBRD), EU'
+  },
+  {
+    image: citytech,
+    name: "Citytech"
   }
 ];
