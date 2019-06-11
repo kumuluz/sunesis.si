@@ -3,13 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
-// const fs = require('fs-extra');
-// const path = require('path');
 const languages = require("./src/i18n/languages");
-
-/*exports.onPostBuild = () => {
-  fs.copySync(path.join(__dirname, '/static/locales'), path.join(__dirname, '/public/locales'));
-};*/
 
 exports.onCreatePage = ({page, actions}) => {
     const {createPage, deletePage} = actions;
