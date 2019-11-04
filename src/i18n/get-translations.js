@@ -76,5 +76,5 @@ export function getTranslations() {
                 ...slAbout
             }
         })
-    }
+    };
 }
