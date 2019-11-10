@@ -77,7 +77,7 @@ export class Footer extends Component {
                                         <h4>
                                             <FormattedMessage id="contact.contact.company"/>
                                         </h4>
-                                        <p dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale, 'contact.contact.address')}}/>
+                                        <p className="address" dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale, 'contact.contact.address')}}/>
                                         <p className="mt-4">
                                             <img style={{cursor: "pointer"}} src={email} onClick={() => window.location = "mailto:info@sunesis.si"}/>
                                         </p>
