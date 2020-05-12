@@ -3,7 +3,7 @@ import * as PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
 import { products as kumuluzDigitalProducts } from '../../content/products';
-import { navigationLinks } from '../../content/links';
+import { navigationLinks, rightNavigationLinks } from '../../content';
 
 import './sub-navbar.scss';
 import InternalLink from "../links/internal-link.component";
@@ -73,7 +73,7 @@ export class SubNavbar extends Component {
 
     let content = [];
     if (nav) {
-      content = navigationLinks.find(n => n.href.includes(nav)).children;
+      content = [...navigationLinks, ...rightNavigationLinks].find(n => n.href.includes(nav)).children;
     } else {
       content = kumuluzDigitalProducts;
     }

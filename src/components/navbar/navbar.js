@@ -11,25 +11,25 @@ import sunesisLogo from './sunesis-logo.svg';
 import sunesisWhiteLogo from './sunesis-logo-white.svg';
 import './navbar.scss';
 
-import {navigationLinks} from '../../content';
+import {navigationLinks, rightNavigationLinks} from '../../content';
 
 export class NavbarComponent extends Component {
     static propTypes = {
         locale: PropTypes.string
     };
-
+    
     constructor(props) {
         super(props);
-
+        
         this.toggleDropdown = this.toggleDropdown.bind(this);
-
+        
         this.state = {
             isOpen: false,
             dropdownOpen: false,
             sunesisLogo: sunesisLogo
         };
     }
-
+    
     componentDidMount() {
         window.addEventListener("resize", (e) => {
             this.setState({
@@ -38,21 +38,21 @@ export class NavbarComponent extends Component {
             })
         })
     }
-
+    
     toggle() {
         this.setState({
             ...this.state,
             isOpen: !this.state.isOpen
         });
     }
-
+    
     toggleDropdown() {
         this.setState({
             ...this.state,
             dropdownOpen: !this.state.dropdownOpen
         });
     }
-
+    
     closeMobileMenu() {
         const screenSize = returnScreenSize();
         if (screenSize <= MEDIA_TABLET) {
@@ -62,7 +62,7 @@ export class NavbarComponent extends Component {
             })
         }
     }
-
+    
     linkActive(path) {
         if (typeof window !== 'undefined') {
             if (window.location.pathname.includes(path)) {
@@ -73,10 +73,10 @@ export class NavbarComponent extends Component {
             }
         }
     }
-
+    
     render() {
         const {locale} = this.props;
-
+        
         return (
             <div className="placeholder">
                 <Navbar color="faded" dark expand="lg" fixed="top" className="navbar-container"
@@ -87,8 +87,26 @@ export class NavbarComponent extends Component {
                         </InternalLink>
                         <NavbarToggler onClick={() => this.toggle()} style={{marginRight: "10px"}}/>
                         <Collapse isOpen={this.state.isOpen} navbar>
+                            <Nav className="left-nav" navbar>
+                                {navigationLinks.map((nav, index) => (
+                                    <NavItem key={index}>
+                                        {!nav.external && (
+                                            <InternalLink onClick={() => this.closeMobileMenu()} to={nav.href}
+                                                className={`${this.linkActive(nav.href)} nav-link`}>
+                                                <FormattedMessage id={nav.name}/>
+                                            </InternalLink>
+                                        )}
+                                        {nav.external && (
+                                            <a href={nav.href} rel="noopener noreferrer" target="_blank"
+                                                className={`${this.linkActive(nav.href)} nav-link`}>
+                                                <FormattedMessage id={nav.name}/>
+                                            </a>
+                                        )}
+                                    </NavItem>
+                                ))}
+                            </Nav>
                             <Nav className="ml-auto" navbar>
-                                {navigationLinks.map(
+                                {rightNavigationLinks.map(
                                     (nav, key) =>
                                         (nav.children && (
                                             <Dropdown key={key} nav isOpen={this.state.dropdownOpen}
@@ -125,10 +143,6 @@ export class NavbarComponent extends Component {
                                             </NavItem>
                                         )
                                 )}
-                                {/*<InternalLink className="ml-5 btn btn-primary lh-30 mr-5" onClick={() => this.closeMobileMenu()}*/}
-                                {/*    to="/about/sunesis#footer">*/}
-                                {/*    <FormattedMessage id={'menu.contactUs'}/>*/}
-                                {/*</InternalLink>*/}
                                 <LanguageSelector compact dark locale={locale}/>
                             </Nav>
                         </Collapse>

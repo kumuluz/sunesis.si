@@ -10,6 +10,10 @@
   .dropdown {
     display: inline-block;
     cursor: pointer;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: $font-asap;
+    text-transform: capitalize;
 
     .dropdown-icon {
       height: 15px;
@@ -41,7 +45,7 @@
 .lang.compact {
   margin-bottom: 0;
   font-size: 1rem;
-  color: $blue-400;
+  color: $blue-300;
 
   img {
     max-width: 30px;
