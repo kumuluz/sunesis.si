@@ -114,6 +114,14 @@
       }
     }
   }
+  .main-content {
+    display: flex;
+    justify-content: center;
+
+    .index-content-component {
+      width: 60%;
+    }
+  }
 
 }
 
@@ -135,6 +143,11 @@
         }
       }
     }
+    .main-content {
+      .index-content-component {
+        width: 80%;
+      }
+    }
   }
 }
 
@@ -150,6 +163,11 @@
         .row {
           width: 90%;
         }
+      }
+    }
+    .main-content {
+      .index-content-component {
+        width: 90%;
       }
     }
   }

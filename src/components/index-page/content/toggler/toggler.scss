@@ -1,0 +1,41 @@
+@import "../../../../layouts/media-mixin";
+@import "../../../../layouts/variables";
+
+.content-toggler-component {
+  box-shadow: 0 2px 20px rgba(43, 43, 111, 0.1);
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+
+  .toggler-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+
+    font-family: $font-asap;
+    font-size: 18px;
+    font-weight: 600;
+    color: $blue-300;
+
+    .toggle-title {
+      flex: 1 1 auto;
+      display: flex;
+      align-items: center;
+
+      span {
+        cursor: pointer;
+      }
+    }
+    .underline {
+      height: 4px;
+      width: 100%;
+
+      &.selected {
+        background-color: $blue-100;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,56 @@
+@import "../../../layouts/variables";
+@import "../../../layouts/media-mixin";
+
+
+.index-content-component {
+  padding-top: 40px;
+
+  .toggler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .carousel-container {
+      margin-top: 100px;
+      width: 100%;
+
+      .carousel-item {
+
+        .space-top {
+          margin-top: 100px;
+        }
+        .title {
+          display: inline-block;
+          margin-bottom: 5px;
+        }
+        h2 {
+          color: $blue-400;
+          font-size: 32px;
+          font-weight: bold;
+          font-family: $font-rubik;
+          margin-bottom: 0;
+        }
+        h3 {
+          color: $blue-400;
+          opacity: 0.8;
+          font-family: $font-asap;
+          font-weight: normal;
+          font-size: 32px;
+          margin-bottom: 30px;
+        }
+
+        .title-underline {
+          height: 5px;
+          background: $white-blue-light-gradient;
+        }
+        .image-subtitle {
+          font-family: $font-asap;
+          font-size: 16px;
+          font-style: italic;
+          color: $grey-300;
+
+        }
+      }
+    }
+  }
+}

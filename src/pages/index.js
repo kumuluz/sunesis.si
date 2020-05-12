@@ -14,7 +14,7 @@ import digitalProducts from "../assets/images/index/dig-produkti.svg";
 import digitalization from "../assets/images/index/digitalizacija.svg";
 import newWays from "../assets/images/index/nove-poti.svg";
 import {TranslationUtil} from "../utils/translation.util";
-import {Footer} from "../components";
+import {Footer, IndexContent} from "../components";
 
 const headerItems = [
     {
@@ -112,6 +112,9 @@ class IndexPage extends Component {
                         <div className="arrow-reversed"/>
                     </div>
                     
+                    <div className="main-content">
+                        <IndexContent />
+                    </div>
                     
                     <Footer contact locale={locale}/>
                 </div>

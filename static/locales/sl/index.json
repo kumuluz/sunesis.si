@@ -12,5 +12,28 @@
         "digitalize": "Digitalizirajte celotno<br/>interakcijo z vašimi strankami<br/>in zaledne procese",
         "api-economy": "Vpeljite API ekonomijo<br/>in razširite vaš digitalni<br/>poslovni model",
         "new-ways": "Odprite nove poti poslovanja<br/>in znižajte stroške"
+    },
+    "content": {
+        "toggler": {
+            "digitalization": "Digitalizacija poslovanja",
+            "development": "Razvoj",
+            "knowledge-transfer": "Prenos znanja in podpora"
+        },
+        "tabs": {
+            "digitalization": {
+                "experience": {
+                    "title": "Popolna digitalna izkušnja",
+                    "subtitle": "za vaše stranke",
+                    "description": "Omogočamo vam hitro postavitev \"enterprise grade\" rešitev, ki digitalizirajo celotno interakcijo z vašimi strankami – za povečanje prodaje in večje zadovoljstvo vaših strank.",
+                    "image": "Točke digitalne interakcije s strankami"
+                },
+                "omni-channel": {
+                    "title": "»Omni-channel« poslovanje",
+                    "subtitle": "in avtomatizacija procesov",
+                    "description": "Vzpostavimo digitalno platformo, ki bo podpirala različne digitalne in fizične kanale po »omni-channel« principih in omogočala poljubno prehajanje stranke med kanali. Hkrati poslovne procese avtomatiziramo po principih RPA (Robotic Process Automation).",
+                    "image": "Ključni gradniki za »OMNI CHANNEL«"
+                }
+            }
+        }
     }
 }

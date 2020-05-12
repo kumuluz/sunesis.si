@@ -12,5 +12,28 @@
         "digitalize": "",
         "api-economy": "",
         "new-ways": ""
+    },
+    "content": {
+        "toggler": {
+            "digitalization": "",
+            "development": "",
+            "knowledge-transfer": ""
+        },
+        "tabs": {
+            "digitalization": {
+                "experience": {
+                    "title": "",
+                    "subtitle": "",
+                    "description": "",
+                    "image": ""
+                },
+                "omni-channel": {
+                    "title": "",
+                    "subtitle": "",
+                    "description": "",
+                    "image": ""
+                }
+            }
+        }
     }
 }
