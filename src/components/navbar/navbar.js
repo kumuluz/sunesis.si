@@ -125,10 +125,10 @@ export class NavbarComponent extends Component {
                                             </NavItem>
                                         )
                                 )}
-                                <InternalLink className="ml-5 btn btn-primary lh-30 mr-5" onClick={() => this.closeMobileMenu()}
-                                    to="/about/sunesis#footer">
-                                    <FormattedMessage id={'menu.contactUs'}/>
-                                </InternalLink>
+                                {/*<InternalLink className="ml-5 btn btn-primary lh-30 mr-5" onClick={() => this.closeMobileMenu()}*/}
+                                {/*    to="/about/sunesis#footer">*/}
+                                {/*    <FormattedMessage id={'menu.contactUs'}/>*/}
+                                {/*</InternalLink>*/}
                                 <LanguageSelector compact dark locale={locale}/>
                             </Nav>
                         </Collapse>
