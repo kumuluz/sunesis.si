@@ -38,18 +38,18 @@ export class ContactForm extends Component {
             required: true,
             email: true
           },
-          companySize: {
+          /*companySize: {
             value: '',
             required: true
-          },
+          },*/
           phoneNumber: {
             value: '',
             phone: true
           },
-          partnership: {
+          /*partnership: {
             value: '',
             required: true
-          },
+          },*/
           message: {
             value: '',
             required: true,
@@ -139,7 +139,7 @@ export class ContactForm extends Component {
   render() {
     const { light, smallTitle, locale } = this.props;
     const { valid } = this.state.form;
-    const { fullName, company, email, companySize, phoneNumber, partnership, message } = this.state.form.fields;
+    const { fullName, company, email, phoneNumber, message } = this.state.form.fields;
 
     return (
       <div className={`contact-form ${light && 'light'}`}>
@@ -204,6 +204,7 @@ export class ContactForm extends Component {
               {email.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${email.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
+          {/*
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="companySize" xs="12">
@@ -226,6 +227,7 @@ export class ContactForm extends Component {
               {companySize.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${companySize.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
+          */}
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="phoneNumber" xs="12">
@@ -244,6 +246,7 @@ export class ContactForm extends Component {
               {phoneNumber.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${phoneNumber.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
+          {/*
           <Col xs="6" className="pr-5">
             <FormGroup row>
               <Label for="partnership" xs="12">
@@ -266,6 +269,7 @@ export class ContactForm extends Component {
               {partnership.error && <FormFeedback>{TranslationUtil.translate(locale, `contact.form.errors.${partnership.error}`)}</FormFeedback>}
             </FormGroup>
           </Col>
+          */}
           <Col xs="12" className="mt-3 pr-5">
             <FormGroup row>
               <Label for="message" xs="12">
