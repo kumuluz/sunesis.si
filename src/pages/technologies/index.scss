@@ -1,9 +1,6 @@
 @import '../../layouts/variables';
 @import '../../layouts/media-mixin';
 
-.index {
-}
-
 @include device-specific($phone) {
 
 }

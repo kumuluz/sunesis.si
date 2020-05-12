@@ -1,3 +1,16 @@
 {
-
+    "header": {
+        "titleStrong": "Rešitve za digitalizacijo poslovanja",
+        "title": "na ključ",
+        "subtitle-1": "Podjetjem vseh velikosti pomagamo, da uspevajo v digitalnem ekosistemu.",
+        "subtitle-2": "Še toliko bolj v današnjih zaostrenih poslovnih okoliščinah.",
+        "button": "CTA",
+        "they-trust-us": "Zaupajo nam"
+    },
+    "blue-header": {
+        "digital-products": "Nadoknadite izpad fizične<br/>prodaje z novimi digitalnimi<br/>produkti ali storitvami",
+        "digitalize": "Digitalizirajte celotno<br/>interakcijo z vašimi strankami<br/>in zaledne procese",
+        "api-economy": "Vpeljite API ekonomijo<br/>in razširite vaš digitalni<br/>poslovni model",
+        "new-ways": "Odprite nove poti poslovanja<br/>in znižajte stroške"
+    }
 }

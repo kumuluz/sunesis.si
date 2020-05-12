@@ -1,4 +1,7 @@
 {
+    "site": {
+        "title": "Technologies"
+    },
     "banner": {
         "title": "Imagine applications that are <b>developed 3x faster</b>, are completely <b>flexible, integrated, fault tolerant</b> and have <b>no limitations with scaling</b>",
         "subTitle": "How is that possible?",

@@ -1,3 +1,16 @@
 {
-
+    "header": {
+        "titleStrong": "",
+        "title": "",
+        "subtitle-1": "",
+        "subtitle-2": "",
+        "button": "",
+        "they-trust-us": ""
+    },
+    "blue-header": {
+        "digital-products": "",
+        "digitalize": "",
+        "api-economy": "",
+        "new-ways": ""
+    }
 }

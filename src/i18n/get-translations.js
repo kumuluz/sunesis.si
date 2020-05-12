@@ -6,6 +6,7 @@ import slCustomers from "../../static/locales/sl/customers.json";
 import slAbout from "../../static/locales/sl/about.json";
 import slTechnologies from "../../static/locales/sl/technologies.json";
 import slIndex from "../../static/locales/sl/index.json";
+import slPrinciples from "../../static/locales/sl/principles.json";
 
 import enTranslations from "../../static/locales/en/translations.json";
 import enServices from "../../static/locales/en/services.json";
@@ -15,6 +16,7 @@ import enCustomers from "../../static/locales/en/customers.json";
 import enAbout from "../../static/locales/en/about.json";
 import enTechnologies from "../../static/locales/en/technologies.json";
 import enIndex from "../../static/locales/en/index.json";
+import enPrinciples from "../../static/locales/en/principles.json";
 
 function flatten(data) {
     let result = {};
@@ -58,6 +60,9 @@ export function getTranslations() {
             "technologies-page": {
                 ...enTechnologies
             },
+            "principles-page": {
+                ...enPrinciples
+            },
             languages: {
                 ...enLanguage
             },
@@ -81,6 +86,9 @@ export function getTranslations() {
             },
             "technologies-page": {
                 ...slTechnologies
+            },
+            "principles-page": {
+                ...slPrinciples
             },
             languages: {
                 ...slLanguage

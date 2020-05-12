@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import * as PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
 import {Container} from 'reactstrap';
 
 import {Footer, References, Benefits, ParallaxBlock} from '../../components';
@@ -38,8 +37,8 @@ import {TranslationUtil} from "../../utils/translation.util";
 
         return (
             <Layout locale={locale}>
-                <div className="index">
-                    <SEO siteTitleId={'site.title'} canonical="/" locale={locale}/>
+                <div className="technologies-page">
+                    <SEO siteTitleId={['technologies-page.site.title', 'site.title']} canonical="/technologies" locale={locale}/>
 
                     <ParallaxBlock className="d-none d-xl-block" image={cube01} size={40} xOffset="1%" yOffset={270}/>
                     <ParallaxBlock className="d-none d-md-block" image={cube01} size={60} xOffset="20%" yOffset={100}/>

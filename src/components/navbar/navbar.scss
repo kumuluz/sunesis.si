@@ -3,9 +3,10 @@
 
 .navbar-dark {
   .nav-item a.nav-link {
-    color: $blue-400;
-    font-size: 1rem;
+    color: $blue-300;
+    font-size: 16px;
     font-family: $font-asap;
+    font-weight: normal;
     margin-right: 10px;
   }
   .nav-item a.nav-link.dropdown-toggle:after {

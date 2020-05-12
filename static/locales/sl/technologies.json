@@ -1,4 +1,7 @@
 {
+    "site": {
+        "title": "Tehnologije"
+    },
     "banner": {
         "title": "Predstavljajte si aplikacije, ki so <b>razvite trikrat hitreje</b>, popolnoma <b>fleksibilne, integrirane, odporne na napake</b> in <b>nimajo omejitev pri skaliranju.</b>",
         "subTitle": "Kako to dosežemo?",

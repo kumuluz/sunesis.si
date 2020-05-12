@@ -4,6 +4,7 @@ export const navigationLinks = [
     {href: '/services', name: 'menu.services'},
     {href: '/products', name: 'menu.products'},
     {href: '/technologies', name: 'menu.technologies'},
+    {href: '/principles', name: 'menu.principles'},
     {
         name: 'menu.customers',
         href: '/customers'

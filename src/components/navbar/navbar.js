@@ -11,7 +11,7 @@ import sunesisLogo from './sunesis-logo.svg';
 import sunesisWhiteLogo from './sunesis-logo-white.svg';
 import './navbar.scss';
 
-import {navigationLinks} from '../../content/links';
+import {navigationLinks} from '../../content';
 
 export class NavbarComponent extends Component {
     static propTypes = {
