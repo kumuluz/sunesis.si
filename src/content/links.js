@@ -3,6 +3,7 @@ import {BLOG_URL, GITHUB_ORG_URL, SOCIAL} from "./constants";
 export const navigationLinks = [
     {href: '/services', name: 'menu.services'},
     {href: '/products', name: 'menu.products'},
+    {href: '/technologies', name: 'menu.technologies'},
     {
         name: 'menu.customers',
         href: '/customers'

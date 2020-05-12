@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import * as PropTypes from 'prop-types';
 import {Footer, ParallaxBlock} from '../components';
 
-import './index.scss';
+import './technologies/index.scss';
 
 import cube01 from '../assets/images/cubes/3d-cube-01.svg';
 import cube02 from '../assets/images/cubes/3d-cube-02.svg';

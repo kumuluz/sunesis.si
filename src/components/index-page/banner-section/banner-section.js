@@ -22,9 +22,9 @@ export class BannerSection extends Component {
             <div className="banner-section">
                 <div className="banner">
                     <h1 className="col-lg-9 col-xl-8 px-5 mx-auto"
-                        dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale, "banner.title")}}/>
+                        dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale, "technologies-page.banner.title")}}/>
                     <h2 className="h1-subtitle px-5 mt-3">
-                        <FormattedMessage id="banner.subTitle"/>
+                        <FormattedMessage id="technologies-page.banner.subTitle"/>
                     </h2>
                 </div>
 
@@ -33,7 +33,7 @@ export class BannerSection extends Component {
                         <div>
                             <div className="cube-text">
                                 <p className="in-bold">
-                                    <FormattedMessage id="banner.cubeTitle"/>
+                                    <FormattedMessage id="technologies-page.banner.cubeTitle"/>
                                 </p>
                             </div>
                             <div className="cube-image">
@@ -43,16 +43,16 @@ export class BannerSection extends Component {
                                 </div>
                                 <div className="mobile-cube">
                                     <div className="mobile-cube-item">
-                                        <FormattedMessage id="banner.mobile-cube-1"/>
+                                        <FormattedMessage id="technologies-page.banner.mobile-cube-1"/>
                                     </div>
                                     <div className="mobile-cube-item">
-                                        <FormattedMessage id="banner.mobile-cube-2"/>
+                                        <FormattedMessage id="technologies-page.banner.mobile-cube-2"/>
                                     </div>
                                     <div className="mobile-cube-item">
-                                        <FormattedMessage id="banner.mobile-cube-3"/>
+                                        <FormattedMessage id="technologies-page.banner.mobile-cube-3"/>
                                     </div>
                                     <div className="mobile-cube-item">
-                                        <FormattedMessage id="banner.mobile-cube-4"/>
+                                        <FormattedMessage id="technologies-page.banner.mobile-cube-4"/>
                                     </div>
                                 </div>
                             </div>
@@ -64,11 +64,11 @@ export class BannerSection extends Component {
                                  className="d-flex flex-column justify-content-between align-items-center order-2 order-lg-1">
                                 <span>
                                     <h3>
-                                        <FormattedMessage id="theWay.oldWay.title"/>
+                                        <FormattedMessage id="technologies-page.theWay.oldWay.title"/>
                                     </h3>
                                     <ul className="mt-4">{[1, 2, 3, 4, 5].map((reason, i) => <li
                                         key={i}>
-                                        <FormattedMessage id={`theWay.oldWay.reason${reason}`}/>
+                                        <FormattedMessage id={`technologies-page.theWay.oldWay.reason${reason}`}/>
                                     </li>)}</ul>
                                 </span>
                             </Col>
@@ -77,18 +77,18 @@ export class BannerSection extends Component {
                                  className="d-flex flex-column justify-content-between align-items-center order-3 order-lg-3">
                                 <span>
                                   <h3>
-                                      <FormattedMessage id="theWay.newWay.title"/>
+                                      <FormattedMessage id="technologies-page.theWay.newWay.title"/>
                                   </h3>
                                   <ul className="mt-4">
                                     {[1, 2, 3, 4, 5, 6, 7].map((reason, i) => <li
                                         key={i}>
-                                        <FormattedMessage id={`theWay.newWay.reason${reason}`}/>
+                                        <FormattedMessage id={`technologies-page.theWay.newWay.reason${reason}`}/>
                                     </li>)}
                                   </ul>
                                 </span>
                                 <a href={BLOG_URL} className="btn btn-primary mt-3 mb-5" color="primary"
                                    target="_blank" rel="noopener noreferrer">
-                                    <FormattedMessage id="theWay.newWay.readOurBlog"/>
+                                    <FormattedMessage id="technologies-page.theWay.newWay.readOurBlog"/>
                                 </a>
                             </Col>
                         </Row>

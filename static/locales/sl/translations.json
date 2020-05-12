@@ -10,6 +10,7 @@
     "services": "Storitve",
     "products": "Produkti",
     "customers": "Stranke",
+    "technologies": "Tehnologije",
     "aboutUs": {
       "title": "O nas",
       "references": "Reference",
@@ -18,137 +19,6 @@
     },
     "blog": "Blog",
     "contactUs": "Kontakt"
-  },
-  "banner": {
-    "title": "Predstavljajte si aplikacije, ki so <b>razvite trikrat hitreje</b>, popolnoma <b>fleksibilne, integrirane, odporne na napake</b> in <b>nimajo omejitev pri skaliranju.</b>",
-    "subTitle": "Kako to dosežemo?",
-    "cubeTitle": "Vpeljava novega načina razvoja z uporabo mikrostoritev in tehnologij za oblak",
-    "mobile-cube-1": "Popolnoma fleksibilne",
-    "mobile-cube-2": "Odporne na napake",
-    "mobile-cube-3": "Integrirane",
-    "mobile-cube-4": "Skalabilne"
-  },
-  "theWay": {
-    "oldWay": {
-      "title": "Stari način",
-      "reason1": "Tradicionalne N-stopenjske razvijalske prakse",
-      "reason2": "Razvoj usmerjen v komponente",
-      "reason3": "Monolitna postavitev",
-      "reason4": "Aplikacijski strežniki",
-      "reason5": "Slapovni razvoj"
-    },
-    "newWay": {
-      "title": "Novi način",
-      "reason1": "Mikrostoritve in APIji",
-      "reason2": "Oblačna arhitektura",
-      "reason3": "Vsebniki (Docker)",
-      "reason4": "Orkestracija vsebnikov (Kubernetes)",
-      "reason5": "Continuous Delivery",
-      "reason6": "DevOps",
-      "reason7": "Radikalna agilnost",
-      "readOurBlog": "Preberite naš blog"
-    }
-  },
-  "key": {
-    "title": "Ključ do uspešne<br/> digitalne transformacije",
-    "subtitle": "Svoje digitalne strategije ali razvoja novih digitalnih storitev in produktov ne boste mogli izvesti, če ne boste vpeljali novega načina razvoja mikrostoritvenih in oblačnih aplikacij.",
-    "weHelp": {
-      "title": "Pomagamo vam lahko:",
-      "key1": "Vpeljati nov način razvoja aplikacij",
-      "key2": "Dramatično izboljšati čas vstopa na trg",
-      "key3": "Vašo digitalno transformacijo izvesti hitreje, bolj učinkovito in manj tvegano"
-    },
-    "weAchieve": {
-      "title": "To lahko dosežemo tako, da:",
-      "key1": "Vaše digitalne aplikacije razvijemo hitreje in bolje",
-      "key2": "Uporabljamo agilne razvojne procese, mikrostoritve in API-je",
-      "key3": "Integriramo in prenovimo vaše obstoječe aplikacije",
-      "key4": "Vašim strankam neprekinjeno dostavljamo nove funkcionalnosti"
-    }
-  },
-  "description": {
-    "title": "Najhitrejša pot od digitalne strategije do delujočih digitalnih izdelkov",
-    "para1": "Pri Sunesisu ponujamo širok nabor storitev in svoje lastne inovativne izdelke, s katerimi lahko pospešimo vašo digitalno transformacijo in razvoj digitalnih izdelkov.",
-    "para2": "Smo visoko usposobljena ekipa z odličnimi rezultati in bogatimi izkušnjami z oblikovanjem, ustvarjanjem, razvijanjem in integriranjem kompleksnih oblačnih aplikacij in informacijskih sistemov, ki uporabljajo mikrostoritve, API-je, vsebnike, spletne, mobilne in agilne razvojne prakse, DevOps in tehnologijo veriženja blokov.",
-    "award": "Dobili smo prestižno nagrado",
-    "award-bold": "Java Duke's Choice Award za tehnično inovacijo.",
-    "para3": "Prednosti dela z nami so: agilnost, hiter razvoj, hiter čas vstopa na trg, tesen odnos s stranko, visoka kvaliteta, strokovnost in odlično poznavanje najsodobnejših tehnologij.",
-    "more": "Več"
-  },
-  "core-services": {
-    "title": "Naše glavne storitve",
-    "para1": "Svetovanje in izobraževanje s področja IT ter razvoj programske opreme.",
-    "para2": "Ponujamo širok nabor storitev IT svetovanja in izobraževanja ter storitve razvoja programske opreme, ki podjetjem omogočajo hitrejšo digitalno transformacijo, prehod v oblak, prehod z monolitne v mikrostoritveno arhitekturo, modernizacijo programske opreme in implementacijo novih digitalnih izdelkov.",
-    "para3": "Nenehno razvijamo nove kompetence glede na nove tehnološke trende, nastajajoče tehnologije in dobre razvojne prakse, kot so mikrostoritve, tehnologija veriženja blokov, internet stvari in ostale.",
-    "more-about": "Več o storitvah",
-    "strat-and-tact": {
-      "title": "STRATEGIJE IN NAČRTOVANJE",
-      "item-1-1": "Digitalna transformacija",
-      "item-1-2": "Strategija implementacije",
-      "item-2-1": "Identifikacija digitalnih izdelkov",
-      "item-2-2": "Prenova obstoječih aplikacij",
-      "item-3-1": "Modernizacija obstoječe kode",
-      "item-3-2": "Prehod na oblak"
-    },
-    "operational": {
-      "title": "OPERATIVNO",
-      "item-1-1": "Oblačen razvoj",
-      "item-1-2": "Mikrostoritve in API-ji",
-      "item-2-1": "Vsebniki Docker in Kubernetes",
-      "item-2-2": "Poslovno informacijska arhitektura",
-      "item-3-1": "Integracije",
-      "item-3-2": "Razvoj tehnologije veriženja blokov",
-      "item-3-3": "Mobilna uporabniška izkušnja",
-      "item-4-1": "Razvoj HTML5 odzivnega spleta",
-      "item-4-2": "Razvoj v jezikih Java, Java EE/Jakarta EE/EE4J "
-    }
-  },
-  "innovative-products": {
-    "title": "Naši inovativni izdelki",
-    "para1": "KUMULUZ je družina inovativnih izdelkov in nagrajena digitalna platforma, ki lahko vaši razvojni ekipi pomaga pospešiti digitalno transformacijo in izjemno hitro razviti digitalne izdelke.",
-    "para2": "Platforma Kumuluz vam lahko pri digitalni transformaciji pomaga ohraniti prednost pred vašo konkurenco.",
-    "learn-more": "Več",
-    "platform": {
-      "title": "DIGITALNA PLATFORMA KUMULUZ",
-      "short-desc": "Pospešite svojo digitalno transformacijo",
-      "desc": "Lahka, odprta in nagrajena digitalna platforma, ki jo razvojne ekipe obožujejo."
-    },
-    "apis": {
-      "title": "POSLOVNI APLIKACIJSKI PROGRAMSKI VMESNIKI KUMULUZ",
-      "short-desc": "API rešitve za takojšnjo uporabo",
-      "desc": "Uporabite že razvite poslovne API-je in tako veliko hitreje ustvarite svoje digitalne izdelke in storitve."
-    },
-    "community": {
-      "title": "ODPRTOKODNA SKUPNOST",
-      "short-desc": "Pridružite se skupnosti razvijalcev, programerjev in uporabnikov",
-      "desc": "Naše mikrostoritveno ogrodje (EE) je del skupnosti Microprofile.io."
-    },
-    "dapis": {
-      "title": "DECENTRALIZIRANI API-JI IN TEHNOLOGIJA VERIŽENJA BLOKOV",
-      "short-desc": "Resnično decentralizirane aplikacije",
-      "desc": "Kumuluzova platforma dAPI uvaja popolnoma decentralizirane API-je, ki uporabljajo tehnologijo veriženja blokov."
-    }
-  },
-  "benefits": {
-    "title": "Glavne prednosti mikrostoritvenih oblačnih aplikacij",
-    "description": "V izjemno konkurenčnem okolju digitalnih aplikacij si ne morete privoščiti, da bi bile vaše programske rešitve slabe.",
-    "start": "<span class='colorRed font-weight-bold'>Začnite razvijati</span> digitalne aplikacije,<br/> ki so pripravljene na prihodnost.",
-    "benefit1": {
-      "title": "Razvijte lastne digitalne aplikacije 300% hitreje",
-      "description": "Z mikrostoritvami in oblačno arhitekturo, agilnim pristopom in metodologijo DevOps se za vašo aplikacijo čas vstopa na trg drastično skrajša."
-    },
-    "benefit2": {
-      "title": "Ustvarite fleksibilne in prilagodljive aplikacije",
-      "description": "Razvijte prave digitalne aplikacije, ki so popolnoma fleksibilne, se lahko hitro prilagodijo potrebam strank in potrebam vaše digitalne strategije, že med samim procesom digitalne transformacije."
-    },
-    "benefit3": {
-      "title": "Zagrabite nove poslovne priložnosti in digitalne poslovne modele",
-      "description": "Izkoristite digitalne kanale za resnično razumevanje potreb vaših strank in to v zelo kratkem času. Zaznajte potrebe strank, izboljšajte povratne informacije in se takoj odzovite."
-    },
-    "benefit4": {
-      "title": "Redno ponujajte nove funkcionalnosti",
-      "description": "Vpeljite neprekinjeno integracijo in dostavo novih funkcionalnosti. Dodajte agilno kulturo, okolje, dobre prakse in orodja metodologije DevOps. To za organizacijo poenostavi upravljanje objav aplikacij, saj standardizira razvoj okolij in izboljša zanesljivost in varnost."
-    }
   },
   "products": {
     "title": "Kumuluz Digital",

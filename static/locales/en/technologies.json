@@ -1,0 +1,137 @@
+{
+    "banner": {
+        "title": "Imagine applications that are <b>developed 3x faster</b>, are completely <b>flexible, integrated, fault tolerant</b> and have <b>no limitations with scaling</b>",
+        "subTitle": "How is that possible?",
+        "cubeTitle": "Adapting the new, microservice and cloud-native application development",
+        "mobile-cube-1": "Completely flexible",
+        "mobile-cube-2": "Fault tolerant",
+        "mobile-cube-3": "Integrated",
+        "mobile-cube-4": "Scalable"
+    },
+    "theWay": {
+        "oldWay": {
+            "title": "The old way",
+            "reason1": "Traditional N-tier development practices",
+            "reason2": "Component based development",
+            "reason3": "Monolith deployment",
+            "reason4": "Application servers",
+            "reason5": "Waterfall development"
+        },
+        "newWay": {
+            "title": "The new way",
+            "reason1": "Microservices and APIs",
+            "reason2": "Cloud-native architecture",
+            "reason3": "Containers (Docker)",
+            "reason4": "Container orchestration (Kubernetes)",
+            "reason5": "Continuous Delivery",
+            "reason6": "DevOps",
+            "reason7": "Radical Agility",
+            "readOurBlog": "Read our blog"
+        }
+    },
+    "key": {
+        "title": "The key to your<br/> successful digital transformation.",
+        "subtitle": "You cannot execute your digital strategy and build your digital products and services without adapting the new, microservice and cloud-native application development.",
+        "weHelp": {
+            "title": "We can help you:",
+            "key1": "Adopt the new way of application development",
+            "key2": "Dramatically decrease time-to-market",
+            "key3": "Make your digital transformation faster, more efficient and less risky"
+        },
+        "weAchieve": {
+            "title": "We achieve this by:",
+            "key1": "Developing your digital applications faster and better",
+            "key2": "Adopting agile development process, microservices and APIs",
+            "key3": "Integrating and replatforming your existing applications",
+            "key4": "Continuously delivering new features for your customers"
+        }
+    },
+    "description": {
+        "title": "The fastest way from a digital strategy to working digital products",
+        "para1": "At Sunesis we provide a wide range of services and our own innovative products to accelerate your digital transformation and bring digital products to life.",
+        "para2": "We are a highly-skilled team with strong track record and extensive experience in designing, creating, developing and integrating complex cloud-native applications and information systems, utilizing microservices, APIs, containers, web, mobile, agile development practices, DevOps and Blockchain.",
+        "award": "We won the prestigious",
+        "award-bold": "Java Duke's Choice Award for technical innovation",
+        "para3": "Advantages of working with us include agility, rapid development, quick time-to-market, close relation with the client, high quality and state-of-the-art technology skills.",
+        "more": "More"
+    },
+    "core-services": {
+        "title": "Our core services",
+        "para1": "We offer a wide range of IT consulting training and software development services that help enterprises with faster digital transformation transition to cloud transition from monolithic to microservice architecture software modernization and new digital products.",
+        "para2": "If you feel stuck we can help you bring your digital strategy to life",
+        "para3": "We are constantly developing new capabilities according to new technology trends, emerging technologies and best development practices, like microservices, blockchain, IoT and others.",
+        "more-about": "More about services",
+        "strat-and-tact": {
+            "title": "Strategic & Tactical",
+            "item-1-1": "Digital transformation",
+            "item-1-2": "Implementation strategy",
+            "item-2-1": "Digital products identification",
+            "item-2-2": "Application replatforming",
+            "item-3-1": "Legacy code modernization",
+            "item-3-2": "Transition to cloud"
+        },
+        "operational": {
+            "title": "Operational",
+            "item-1-1": "Cloud-native development",
+            "item-1-2": "Microservices & APIs",
+            "item-2-1": "Docker & Kubernetes",
+            "item-2-2": "Enterprise Architecture",
+            "item-3-1": "Integration",
+            "item-3-2": "Blockchain development",
+            "item-3-3": "Mobile UX",
+            "item-4-1": "HTML5 Responsive Web development",
+            "item-4-2": "Java, Java EE/Jakarta EE/EE4J Development"
+        }
+    },
+    "innovative-products": {
+        "title": "Our innovative products",
+        "para1": "Meet Kumuluz, our family of innovative products and an award-winning digital platform, to help your development team accelerate your digital transformation and build digital products super-fast.",
+        "para2": "Kumuluz Platform can help you stay ahead from your competitors in digital transformation",
+        "learn-more": "Learn more",
+        "platform": {
+            "title": "Kumuluz Platform",
+            "short-desc": "Fast-track your digital transformation",
+            "desc": "A light-weight, open, award-winning digital platform that development teams love."
+        },
+        "apis": {
+            "title": "Kumuluz Business APIs",
+            "short-desc": "API solutions for immediate use",
+            "desc": "Use pre-built business APIs to create your digital products and services much faster."
+        },
+        "community": {
+            "title": "Open-source community",
+            "short-desc": "Join our community of users and contributors.",
+            "desc": "Our microservice framework KumuluzEE is member of Microprofile.io."
+        },
+        "dapis": {
+            "title": "DAPIs & Blockchain",
+            "short-desc": "Truly decentralized applications",
+            "desc": "Kumuluz dAPI platform introduces fully decentralized APIs utilizing blockchain technology."
+        }
+    },
+    "benefits": {
+        "title": "The core benefits of the microservice, cloud-native applications",
+        "description": "In the hypercompetitive digital application economy, you cannot afford for your software to be a drawback",
+        "start": "<span class='colorRed font-weight-bold'>Start developing</span> your digital<br/> applications in a future-proof way.",
+        "benefit1": {
+            "title": "Develop digital applications 300% faster",
+            "description":
+            "With microservices and cloud-native architecture, agile approach and DevOps the application time-to-market can be improved by several orders of magnitude."
+        },
+        "benefit2": {
+            "title": "Produce digital ready, flexible, adaptive and customizable applications",
+            "description":
+            "Develop true digital-ready applications that are fully flexible, can adapt to customer needs faster and are fully customizable to address your digital strategy needs and adapt."
+        },
+        "benefit3": {
+            "title": "Seize new business possibilities and digital business models",
+            "description":
+            "Exploit digital channels to truly understand your customer needs in hours and days. Shorten the feedback loop. Sense the needs and respond immediately."
+        },
+        "benefit4": {
+            "title": "Deliver new features more frequently",
+            "description":
+            "Establish continuous integration and delivery and upgrade it to continuous everything. Add agile DevOps culture, environment, best-practices and tools. DevOps simplifies software application release management for an organization by standardizing development environments and improves reliability and security."
+        }
+    }
+}

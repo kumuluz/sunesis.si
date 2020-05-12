@@ -21,9 +21,9 @@ export class KeySection extends Component {
                     <Container>
                         <Row className="justify-content-center">
                             <Col xl="8">
-                                <h2 className="text-center" dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale, "key.title")}}/>
+                                <h2 className="text-center" dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale, "technologies-page.key.title")}}/>
                                 <h3 className="h2-subtitle text-center">
-                                    <FormattedMessage id="key.subtitle"/>
+                                    <FormattedMessage id="technologies-page.key.subtitle"/>
                                 </h3>
                             </Col>
                         </Row>
@@ -31,32 +31,32 @@ export class KeySection extends Component {
                         <Row>
                             <Col md="12" lg="6" xl="5">
                                 <h3 className="mb-3 checkbox-title">
-                                    <FormattedMessage id="key.weHelp.title"/>
+                                    <FormattedMessage id="technologies-page.key.weHelp.title"/>
                                 </h3>
                                 <p className="checkbox one">
-                                    <FormattedMessage id="key.weHelp.key1"/>
+                                    <FormattedMessage id="technologies-page.key.weHelp.key1"/>
                                 </p>
                                 <p className="checkbox two">
-                                    <FormattedMessage id="key.weHelp.key2"/>
+                                    <FormattedMessage id="technologies-page.key.weHelp.key2"/>
                                 </p>
                                 <p className="checkbox three">
-                                    <FormattedMessage id="key.weHelp.key3"/>
+                                    <FormattedMessage id="technologies-page.key.weHelp.key3"/>
                                 </p>
 
                                 <h3 className="mb-3 checkbox-title">
-                                    <FormattedMessage id="key.weAchieve.title"/>
+                                    <FormattedMessage id="technologies-page.key.weAchieve.title"/>
                                 </h3>
                                 <p className="checkbox one">
-                                    <FormattedMessage id="key.weAchieve.key1"/>
+                                    <FormattedMessage id="technologies-page.key.weAchieve.key1"/>
                                 </p>
                                 <p className="checkbox two">
-                                    <FormattedMessage id="key.weAchieve.key2"/>
+                                    <FormattedMessage id="technologies-page.key.weAchieve.key2"/>
                                 </p>
                                 <p className="checkbox three">
-                                    <FormattedMessage id="key.weAchieve.key3"/>
+                                    <FormattedMessage id="technologies-page.key.weAchieve.key3"/>
                                 </p>
                                 <p className="checkbox four">
-                                    <FormattedMessage id="key.weAchieve.key4"/>
+                                    <FormattedMessage id="technologies-page.key.weAchieve.key4"/>
                                 </p>
                             </Col>
                             <Col xl="2" className="d-none d-xl-block"/>
