@@ -22,6 +22,10 @@
         .title {
           display: inline-block;
           margin-bottom: 5px;
+
+          .title-slim {
+            font-weight: 400;
+          }
         }
         h2 {
           color: $blue-400;

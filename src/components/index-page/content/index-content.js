@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import * as PropTypes from "prop-types";
-import {Carousel, CarouselItem, CarouselIndicators} from "reactstrap";
+import {Carousel, CarouselItem} from "reactstrap";
 
 import "./index-content.scss";
 import {Toggler} from "./toggler/toggler";
@@ -60,26 +60,6 @@ export class IndexContent extends Component {
             ...this.state,
             tab: newTab
         });
-    }
-    
-    getTabs() {
-        return [
-            (
-                <CarouselItem key={0} onExiting={() => this.setAnimating(true)} onExited={() => this.setAnimating(false)}>
-                    tab1
-                </CarouselItem>
-            ),
-            (
-                <CarouselItem key={1} onExiting={() => this.setAnimating(true)} onExited={() => this.setAnimating(false)}>
-                    tab2
-                </CarouselItem>
-            ),
-            (
-                <CarouselItem key={2} onExiting={() => this.setAnimating(true)} onExited={() => this.setAnimating(false)}>
-                    tab3
-                </CarouselItem>
-            ),
-        ];
     }
     
     render() {

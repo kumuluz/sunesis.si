@@ -1,0 +1,28 @@
+@import "../../layouts/variables";
+
+.itemized-component {
+  display: flex;
+
+  .box-container {
+    width: 35px;
+    min-width: 35px;
+
+    .box {
+      display: inline-block !important;
+      width: 10px !important;
+      height: 10px !important;
+      min-width: 10px !important;
+      min-height: 10px !important;
+      max-width: 10px !important;
+      max-height: 10px !important;
+      background-color: $blue-100 !important;
+      box-shadow: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  }
+  .content {
+    font-family: $font-asap;
+    font-size: 20px;
+  }
+}
