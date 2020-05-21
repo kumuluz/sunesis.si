@@ -48,7 +48,7 @@
                 "points": {
                     "point-1": {
                         "title": "Čez noč se vključite v API ekonomijo",
-                        "description": "Vzpostavimo vam vse potrebne gradnike, s katerimi se vključite v API ekonomijo. Vzpostavite ali se vključite v nove vrednostne verige. Povežite se z drugimi sistemi, učinkovito izmenjujte podate ali integrirajte tretje storitve.",
+                        "description": "Vzpostavimo vam vse potrebne gradnike, s katerimi se vključite v API ekonomijo. Vzpostavite ali se vključite v nove vrednostne verige. Povežite se z drugimi sistemi, učinkovito izmenjujte podatke ali integrirajte tretje storitve.",
                         "items": {
                             "item-1": "Identifikacija API priložnosti",
                             "item-2": "Hiter razvoj API-jev",
