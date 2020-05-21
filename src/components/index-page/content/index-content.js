@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import * as PropTypes from "prop-types";
-import {Carousel, CarouselItem} from "reactstrap";
+import {Carousel} from "reactstrap";
 
 import "./index-content.scss";
 import {Toggler} from "./toggler/toggler";
@@ -8,7 +8,7 @@ import {tabs} from "./tabs";
 
 export class IndexContent extends Component {
     static propTypes = {
-    
+        onTabChange: PropTypes.func
     };
     
     constructor(props) {
@@ -32,6 +32,7 @@ export class IndexContent extends Component {
             ...this.state,
             tab: nextTab
         });
+        this.props.onTabChange(nextTab);
     }
     
     prevTab() {
@@ -43,6 +44,7 @@ export class IndexContent extends Component {
             ...this.state,
             tab: prevTab
         });
+        this.props.onTabChange(prevTab);
     }
     
     setAnimating(animating) {
@@ -60,6 +62,7 @@ export class IndexContent extends Component {
             ...this.state,
             tab: newTab
         });
+        this.props.onTabChange(newTab);
     }
     
     render() {

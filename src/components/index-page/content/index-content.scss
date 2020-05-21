@@ -57,4 +57,56 @@
       }
     }
   }
+  .arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100vw 240px 0;
+    border-color: transparent white transparent transparent;
+  }
+  .points {
+    background-color: $beige;
+  }
+  .points-title {
+    display: flex;
+    width: calc((100% - 60px) * 0.25);
+    margin-right: 30px;
+
+    div {
+      color: $blue-100;
+      font-family: $font-asap;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      margin-right: 8px;
+    }
+    h2 {
+      color: $black !important;
+      font-size: 24px !important;
+      font-family: $font-rubik !important;
+      font-weight: normal !important;
+      padding-top: 12px;
+    }
+  }
+  .points-body {
+    width: calc((100% - 60px) * 0.45);
+    margin-right: 30px;
+
+    p {
+      padding-top: 12px;
+    }
+  }
+  .points-items {
+    width: calc((100% - 60px) * 0.30);
+    padding-top: 12px;
+    font-size: 18px;
+
+    * {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .itemized-component {
+      margin-bottom: 25px;
+    }
+  }
 }

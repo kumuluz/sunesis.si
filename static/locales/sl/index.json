@@ -44,6 +44,38 @@
                         "item-3": "Poslovanje na vseh digitalnih kanalih",
                         "item-4": "Tudi na sistemih v poslovalnicah"
                     }
+                },
+                "points": {
+                    "point-1": {
+                        "title": "Čez noč se vključite v API ekonomijo",
+                        "description": "Vzpostavimo vam vse potrebne gradnike, s katerimi se vključite v API ekonomijo. Vzpostavite ali se vključite v nove vrednostne verige. Povežite se z drugimi sistemi, učinkovito izmenjujte podate ali integrirajte tretje storitve.",
+                        "items": {
+                            "item-1": "Identifikacija API priložnosti",
+                            "item-2": "Hiter razvoj API-jev",
+                            "item-3": "Integracija API-jev z zalednimi sistemi",
+                            "item-4": "Vpeljava orodij za API management"
+                        }
+                    },
+                    "point-2": {
+                        "title": "Z digitalno platformo do digitalne tranformacije",
+                        "description": "Kumuluz Digital platforma vključuje vse gradnike, s katerimi dosežete popolno digitalno transformacijo, od integracije podatkov, vpeljave API poslovanja in digitalnih gradnikov za hiter razvoj digitalnih aplikacij.",
+                        "items": {
+                            "item-1": "Vnaprej pripravljeni poslovni API gradniki",
+                            "item-2": "Marketplace rešitve",
+                            "item-3": "Avtomatizacija poslovnih procesov",
+                            "item-4": "Vzpostavitev »data-driven« organizacije"
+                        }
+                    },
+                    "point-3": {
+                        "title": "Moderniziramo monolitne sisteme",
+                        "description": "Z lastno platformo poskrbimo za integracijo in izmenjavo podatkov med različnimi sistemi. Nadgradimo vaše zaledne sisteme, da lahko pričnete z digitalnim poslovanjem.",
+                        "items": {
+                            "item-1": "Integracija preko API-jev",
+                            "item-2": "Nadgradnja zalednih sistemov",
+                            "item-3": "Vzpostavitev digitalne platforme",
+                            "item-4": "Nešteto novih priložnosti"
+                        }
+                    }
                 }
             },
             "development": {

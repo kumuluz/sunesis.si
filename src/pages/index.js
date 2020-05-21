@@ -46,6 +46,17 @@ class IndexPage extends Component {
     
     constructor(props) {
         super(props);
+        this.state = {
+            selectedTab: 0
+        }
+        this.setNewTab = this.setNewTab.bind(this);
+    }
+    
+    setNewTab(newTab) {
+        this.setState({
+            ...this.state,
+            selectedTab: newTab
+        });
     }
     
     render() {
@@ -113,10 +124,10 @@ class IndexPage extends Component {
                     </div>
                     
                     <div className="main-content">
-                        <IndexContent />
+                        <IndexContent onTabChange={this.setNewTab}/>
                     </div>
                     
-                    <Footer contact locale={locale}/>
+                    <Footer contact locale={locale} beige={this.state.selectedTab === 0}/>
                 </div>
             </Layout>
         );
