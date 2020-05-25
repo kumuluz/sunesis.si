@@ -1,6 +1,9 @@
 @import "../layouts/variables";
 @import "../layouts/media-mixin";
 
+$pc-width: 60%;
+$tablet-width: 80%;
+$phone-width: 90%;
 
 .index-page {
 
@@ -92,7 +95,7 @@
       margin-bottom: 20px;
 
       .row {
-        width: 60%;
+        width: $pc-width;
       }
       .header-item {
         display: flex;
@@ -119,39 +122,44 @@
     justify-content: center;
 
     .index-content-component {
-      // width: 60%;
       .content-body {
-        width: 60%;
+        width: $pc-width;
       }
     }
   }
-
-}
-
-@include device-specific($pc) {
-
+  .index-references-section {
+    display: flex;
+    justify-content: center;
+    .references-section {
+      width: $pc-width;
+    }
+  }
 }
 
 @include device-specific($tablet) {
   .index-page {
     .index-header {
       .index-header-content {
-        width: 80%;
+        width: $tablet-width;
       }
     }
     .index-blue-header {
       .index-blue-header-content {
         .row {
-          width: 80%;
+          width: $tablet-width;
         }
       }
     }
     .main-content {
       .index-content-component {
-        // width: 80%;
         .content-body {
-          width: 80%;
+          width: $tablet-width;
         }
+      }
+    }
+    .index-references-section {
+      .references-section {
+        width: $tablet-width;
       }
     }
   }
@@ -161,22 +169,26 @@
   .index-page {
     .index-header {
       .index-header-content {
-        width: 90%;
+        width: $phone-width;
       }
     }
     .index-blue-header {
       .index-blue-header-content {
         .row {
-          width: 90%;
+          width: $phone-width;
         }
       }
     }
     .main-content {
       .index-content-component {
-        // width: 90%;
         .content-body {
-          width: 90%;
+          width: $phone-width;
         }
+      }
+    }
+    .index-references-section {
+      .references-section {
+        width: $phone-width;
       }
     }
   }

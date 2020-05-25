@@ -349,9 +349,6 @@ export const tabs = (setAnimating) => {
                             <img src={stockBoard} style={{width: "100%"}} alt="omni-channel"/>
                         </Col>
                     </Row>
-                    <Row style={{marginTop: "150px"}} className="content-body">
-                        <References/>
-                    </Row>
                 </div>
             </CarouselItem>
         ),

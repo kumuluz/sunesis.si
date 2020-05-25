@@ -14,7 +14,7 @@ import digitalProducts from "../assets/images/index/dig-produkti.svg";
 import digitalization from "../assets/images/index/digitalizacija.svg";
 import newWays from "../assets/images/index/nove-poti.svg";
 import {TranslationUtil} from "../utils/translation.util";
-import {Footer, IndexContent} from "../components";
+import {Footer, IndexContent, References} from "../components";
 
 const headerItems = [
     {
@@ -127,7 +127,11 @@ class IndexPage extends Component {
                         <IndexContent onTabChange={this.setNewTab}/>
                     </div>
                     
-                    <Footer contact locale={locale} beige={this.state.selectedTab === 0}/>
+                    <div className="index-references-section">
+                        <References/>
+                    </div>
+                    
+                    <Footer contact locale={locale} /*beige={this.state.selectedTab === 0}*//>
                 </div>
             </Layout>
         );
