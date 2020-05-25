@@ -30,11 +30,12 @@ const operationalBullets = [
 
 export class ServicesSection extends Component {
     static propTypes = {
-        locale: PropTypes.string
+        locale: PropTypes.string,
+        showCoreServices: PropTypes.bool
     };
 
     render() {
-        const {locale} = this.props;
+        const {locale, showCoreServices} = this.props;
 
         return (
             <Container fluid={true}>
@@ -65,66 +66,71 @@ export class ServicesSection extends Component {
                             <p><FormattedMessage id="technologies-page.description.para3"/> <InternalLink to="/services"><FormattedMessage id="technologies-page.description.more"/></InternalLink></p>
 
                         </div>
-                        <LineTitle title={TranslationUtil.translate(locale, "technologies-page.core-services.title")}/>
-
-                        <div className="core-services-section">
-                            <p>
-                                <FormattedMessage id="technologies-page.core-services.para1"/>
-                            </p>
-                            <p>
-                                <FormattedMessage id="technologies-page.core-services.para2"/>
-                            </p>
-                            <div className="first-section">
-                                <div className="image">
-                                    <img src={imageStrategicTactical}/>
-                                </div>
-                                <div className="bullets">
-                                    <h3>
-                                        <FormattedMessage id="technologies-page.core-services.strat-and-tact.title"/>
-                                    </h3>
-                                    {strategicTacticalBullets.map((row, rowIndex) => (
-                                        <div key={rowIndex} className="bullet-container">
-                                            {row.map((item, itemIndex) => (
-                                                <span key={itemIndex} className="bullet-item">
+                        
+                        {(showCoreServices) && (
+                            <>
+                                <LineTitle title={TranslationUtil.translate(locale, "technologies-page.core-services.title")}/>
+    
+                                <div className="core-services-section">
+                                    <p>
+                                        <FormattedMessage id="technologies-page.core-services.para1"/>
+                                    </p>
+                                    <p>
+                                        <FormattedMessage id="technologies-page.core-services.para2"/>
+                                    </p>
+                                    <div className="first-section">
+                                        <div className="image">
+                                            <img src={imageStrategicTactical}/>
+                                        </div>
+                                        <div className="bullets">
+                                            <h3>
+                                                <FormattedMessage id="technologies-page.core-services.strat-and-tact.title"/>
+                                            </h3>
+                                            {strategicTacticalBullets.map((row, rowIndex) => (
+                                                <div key={rowIndex} className="bullet-container">
+                                                    {row.map((item, itemIndex) => (
+                                                        <span key={itemIndex} className="bullet-item">
                                                 <span className="blue-box"/>
                                                 <span className="bullet-item-text">{TranslationUtil.translate(locale, item)}</span>
                                             </span>
+                                                    ))}
+                                                </div>
                                             ))}
                                         </div>
-                                    ))}
-                                </div>
-                            </div>
-                            <div className="second-section">
-                                <div className="bullets">
-                                    <h3>
-                                        <FormattedMessage id="technologies-page.core-services.operational.title"/>
-                                    </h3>
-                                    {operationalBullets.map((row, rowIndex) => (
-                                        <div key={rowIndex} className="bullet-container">
-                                            {row.map((item, itemIndex) => (
-                                                <span key={itemIndex} className="bullet-item">
+                                    </div>
+                                    <div className="second-section">
+                                        <div className="bullets">
+                                            <h3>
+                                                <FormattedMessage id="technologies-page.core-services.operational.title"/>
+                                            </h3>
+                                            {operationalBullets.map((row, rowIndex) => (
+                                                <div key={rowIndex} className="bullet-container">
+                                                    {row.map((item, itemIndex) => (
+                                                        <span key={itemIndex} className="bullet-item">
                                                 <span className="blue-box"/>
                                                 <span className="bullet-item-text">{
                                                     TranslationUtil.translate(locale, item)
                                                 }</span>
                                             </span>
+                                                    ))}
+                                                </div>
                                             ))}
                                         </div>
-                                    ))}
+                                        <div className="image">
+                                            <img src={imageOperational}/>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <FormattedMessage id="technologies-page.core-services.para3"/>
+                                    </p>
                                 </div>
-                                <div className="image">
-                                    <img src={imageOperational}/>
-                                </div>
-                            </div>
-                            <p>
-                                <FormattedMessage id="technologies-page.core-services.para3"/>
-                            </p>
-                        </div>
-                        <InternalLink to="/services" className="btn btn-primary">
-                            <FormattedMessage id="technologies-page.core-services.more-about"/>
-                        </InternalLink>
-                        <br/>
-
+                                <InternalLink to="/services" className="btn btn-primary">
+                                    <FormattedMessage id="technologies-page.core-services.more-about"/>
+                                </InternalLink>
+                                <br/>
+                            </>
+                        )}
+                        
                         <LineTitle title={TranslationUtil.translate(locale, "technologies-page.innovative-products.title")}/>
 
                         <div className="innovative-products-section">

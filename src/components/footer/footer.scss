@@ -94,6 +94,9 @@
     &.beige {
       border-color: $beige transparent transparent $blue-400;
     }
+    &.blue {
+      border-color: $blue-400 transparent transparent $blue-400;
+    }
   }
   .reverse-arrow {
     width: 0;

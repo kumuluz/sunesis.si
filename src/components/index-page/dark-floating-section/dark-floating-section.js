@@ -32,7 +32,7 @@ export class DarkFloatingSection extends Component {
   
                   <ParallaxBlock className="d-none d-md-block" image={cube02} size={130} xOffset="5%" yOffset={100} />
                   <ParallaxBlock className="d-none d-md-block" image={cube01} size={150} xOffset="80%" yOffset={200} />
-                  <div className="reverse-arrow-empty" />
+                  {/*<div className="reverse-arrow-empty" />*/}
                   </>
               )}
             </Col>

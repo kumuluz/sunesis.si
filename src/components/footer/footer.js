@@ -19,6 +19,7 @@ export class Footer extends Component {
         contact: PropTypes.any,
         grey: PropTypes.any,
         beige: PropTypes.bool,
+        blue: PropTypes.bool,
         locale: PropTypes.string
     };
 
@@ -43,11 +44,11 @@ export class Footer extends Component {
     }
 
     render() {
-        const {social, contact, grey, locale, beige} = this.props;
+        const {social, contact, grey, locale, beige, blue} = this.props;
         
         return (
             <div id="footer" className="footer">
-                <div className={`arrow ${grey && 'grey'} ${beige && 'beige'}`}/>
+                <div className={`arrow ${grey && 'grey'} ${beige && 'beige'} ${blue && 'blue'}`}/>
                 <div className="darkSection">
                     {social && (
                         <div className="social">

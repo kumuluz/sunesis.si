@@ -91,9 +91,9 @@ class IndexPage extends Component {
                                 <FormattedMessage id="index-page.header.subtitle-2"/>
                             </h2>
                             <div className="header-button">
-                                <button className="btn btn-primary">
-                                    <FormattedMessage id="index-page.header.button"/>
-                                </button>
+                                {/*<button className="btn btn-primary">*/}
+                                {/*    <FormattedMessage id="index-page.header.button"/>*/}
+                                {/*</button>*/}
                             </div>
                             <div className="emphasized-partners">
                                 <div>
@@ -129,7 +129,7 @@ class IndexPage extends Component {
                     </div>
                     
                     <div className="index-services-section">
-                        <DarkFloatingSection topContent={<ServicesSection locale={locale}/>} />
+                        <DarkFloatingSection topContent={<ServicesSection locale={locale} showCoreServices={true}/>} />
                         <div className="dark-blue-white-arrow"/>
                     </div>
                     

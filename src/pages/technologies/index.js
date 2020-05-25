@@ -56,7 +56,7 @@ import {TranslationUtil} from "../../utils/translation.util";
                     <ParallaxBlock className="d-none d-lg-block" image={cube02} size={60} xOffset="5%" yOffset={1300}/>
 
                     <DarkFloatingSection
-                        topContent={<ServicesSection locale={locale}/>}
+                        topContent={<ServicesSection locale={locale} showCoreServices={false}/>}
                         bottomContent={
                             <Benefits
                                 locale={locale}
@@ -68,15 +68,15 @@ import {TranslationUtil} from "../../utils/translation.util";
                         }
                     />
 
-                    <CustomersSection locale={locale}/>
+                    {/*<CustomersSection locale={locale}/>*/}
 
-                    <Container className="text-center">
-                        <References/>
-                    </Container>
+                    {/*<Container className="text-center">*/}
+                    {/*    <References/>*/}
+                    {/*</Container>*/}
 
                     <ParallaxBlock image={cube02} size={100} xOffset="10%" yOffset={300}/>
                     <ParallaxBlock className="d-none d-md-block" image={cube01} size={80} xOffset="70%" yOffset={450}/>
-                    <Footer locale={locale} social/>
+                    <Footer locale={locale} social blue={true}/>
                 </div>
             </Layout>
         );
