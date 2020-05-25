@@ -8,6 +8,11 @@
     font-family: $font-asap;
     font-weight: normal;
     margin-right: 10px;
+
+    padding-bottom: 0;
+    &.active {
+      border-bottom: 2px solid $blue-300;
+    }
   }
   .nav-item a.nav-link.dropdown-toggle:after {
     border-width: 0.2em;
