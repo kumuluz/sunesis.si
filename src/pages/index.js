@@ -14,7 +14,8 @@ import digitalProducts from "../assets/images/index/dig-produkti.svg";
 import digitalization from "../assets/images/index/digitalizacija.svg";
 import newWays from "../assets/images/index/nove-poti.svg";
 import {TranslationUtil} from "../utils/translation.util";
-import {Footer, IndexContent, References} from "../components";
+import {CustomersSection, DarkFloatingSection, Footer, IndexContent, References} from "../components";
+import {ServicesSection} from "../components/index-page/services-section/services-section";
 
 const headerItems = [
     {
@@ -125,6 +126,15 @@ class IndexPage extends Component {
                     
                     <div className="main-content">
                         <IndexContent onTabChange={this.setNewTab}/>
+                    </div>
+                    
+                    <div className="index-services-section">
+                        <DarkFloatingSection topContent={<ServicesSection locale={locale}/>} />
+                        <div className="dark-blue-white-arrow"/>
+                    </div>
+                    
+                    <div className="index-customers-section">
+                        <CustomersSection locale={locale}/>
                     </div>
                     
                     <div className="index-references-section">
