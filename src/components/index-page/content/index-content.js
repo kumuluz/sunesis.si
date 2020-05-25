@@ -15,12 +15,18 @@ export class IndexContent extends Component {
         super(props);
         this.state = {
             tab: 0,
-            animating: false
+            animating: false,
+            inBox: false
         };
+        this.lastScrollPosition = 0;
         this.nextTab = this.nextTab.bind(this);
         this.prevTab = this.prevTab.bind(this);
         this.goToIndex = this.goToIndex.bind(this);
         this.setAnimating = this.setAnimating.bind(this);
+        this.scrollingInBox = this.scrollingInBox.bind(this);
+        if (typeof window !== "undefined") {
+            window.onscroll = this.scrollingInBox;
+        }
     }
     
     nextTab() {
@@ -65,9 +71,32 @@ export class IndexContent extends Component {
         this.props.onTabChange(newTab);
     }
     
+    mouseInBox(entered) {
+        this.setState({
+            ...this.state,
+            inBox: entered
+        });
+    }
+    
+    scrollingInBox(event) {
+        if (this.state.inBox && typeof window !== "undefined") {
+            event.preventDefault();
+            const st = window.pageYOffset || document.documentElement.scrollTop;
+            if (st > this.lastScrollPosition) {
+                // scroll down
+                this.nextTab();
+            } else {
+                // scroll up
+                this.prevTab();
+            }
+            this.lastScrollPosition = st <= 0 ? 0 : st;
+        }
+    }
+    
     render() {
         return (
-            <div className="index-content-component">
+            <div className="index-content-component" onMouseEnter={() => this.mouseInBox(true)}
+                onMouseLeave={() => this.mouseInBox(false)}>
                 
                 <div className="toggler">
                     <Toggler activeTab={this.state.tab} clicked={(newTab) => this.goToIndex(newTab)}/>
