@@ -144,5 +144,60 @@ export const articles = [
     title: 'KumuluzEE on Oracle Application Container Cloud',
     date: '2018-03-22',
     content: 'In this blog post, I will describe how to deploy the CloudEE Duke application packaged in a Kumuluz EE über-jar to Oracle Application Container Cloud. <a target="_blank" rel="noopener noreferrer" href="http://www.agilejava.eu/2018/03/22/kumuluzee-on-oracle-application-container-cloud/">Link</a>'
+  },
+  {
+    title: 'Java EE Microservices on Kubernetes With KumuluzEE',
+    date: '2020-02-22',
+    content: 'We will demonstrate how KumuluzEE microservice framework is able to make use of the Kubernetes utilities for optimal execution of the microservices. <a target="_blank" rel="noopener noreferrer" href="https://javantura.com/sessions_v5/#kumuluzee">Link</a>'
+  },
+  {
+    title: 'Evaluierung und Skizzierung einer Servicearchitektur für einen klassischen Monolithen',
+    date: '2020-01-01',
+    content: 'Eine gewachsene Anwendung soll in einer SOA überführt werden im Hinblick auf Microservices. In dem Rahmen wurden Technologien wie JEE, SpringBoot oder auch KumuluzEE oder JHipster evaluiert. Swagger wurde als API Dokumentation ausgewählt, wobei API Driven Design direkt nicht gewünscht ist. Daraus wurden Handlungesempfehlungen abgeleitet, sowie die Softwareentwickler geschult. <a target="_blank" rel="noopener noreferrer" href="https://www.informatikwerk.de/portfolio/monolith_service_migration_architektur/">Link</a>'
+  },
+  {
+    title: 'KumuluzEE for Standalone Java EE Microservices',
+    date: '2018-09-09',
+    content: 'In this post, I would like to start with KumuluzEE which advertises the easy migration of Java EE applications to cloud-native microservices on it’s website. The advantage, like with Thorntail, to me is that I can code against the regular Java EE APIs and thus do not have to learn a new framework. <a target="_blank" rel="noopener noreferrer" href="http://dplatz.de/blog/2018/kumuluzee.html">Link</a>'
+  },
+  {
+    title: 'Jakarta EE 8 Recipes',
+    date: '2019-07-01',
+    content: 'Jakarta EE 8 Recipes by Sherwin John Calleja Tragura. Publisher(s): Packt Publishing. ISBN 9781789958607'
+  },
+  {
+    title: 'GraphQL with KumuluzEE',
+    date: '2019-03-08',
+    content: 'In the context of my contribution to the recently started MicroProfile GraphQL initiative, I’ve decided to give KumuluzEE GraphQL a try in order to  get some interesting inputs. <a target="_blank" rel="noopener noreferrer" href="https://jefrajames.fr/2019/03/08/graphql-with-kumuluzee/">Link</a>'
+  },
+  {
+    title: 'Apache Kafka: streamline communication across your microservices',
+    date: '2019-10-09',
+    content: 'Apache Kafka is a community-distributed streaming platform that has three key capabilities: publish and subscribe to streams of records, store streams of records in a fault-tolerant durable way, and process streams as they occur. <a target="_blank" rel="noopener noreferrer" href="https://platform.sh/blog/2019/apache-kafka-streamline-communication-across-your-microservices/">Link</a>'
+  },
+  {
+    title: 'An Analysis of Frameworks for Microservices',
+    date: '2018-10-01',
+    content: 'In this paper, we present a qualitative study that compares both KumuluzEE and Spring Cloud & NetFlix OSS frameworks through functional and non-functional requirements. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/8786337">Link</a>'
+  },
+  {
+    title: 'MicroProfile Runtimes Overview',
+    date: '2019-10-24',
+    content: '<a target="_blank" rel="noopener noreferrer" href="https://www.adam-bien.com/roller/abien/entry/microprofile_runtimes_overview">Link</a>'
+  },
+  {
+    title: 'Vom Enterprise-Java-Monolithen zu Microservicesin der Container-Welt',
+    date: '2019-09-26',
+    content: 'OWLTech & Innovation Day <a target="_blank" rel="noopener noreferrer" href="https://teuto.net/wp-content/uploads/2019/10/Vom-Enterprise-Java-Monolithen-zu-Microservices-in-der-Container-WeltDW.pdf">Link</a>'
+  },
+  {
+    title: 'Building an API Backend with MicroProfile',
+    date: '2019-12-19',
+    content: 'This book is for Java developers that want to quickly learn how to create a REST API using MicroProfile. <a target="_blank" rel="noopener noreferrer" href="https://cicekhayri.github.io/ebook-Building-an-API-Backend-with-MicroProfile/building-an-api-backend-with-microprofile.html">Link</a>'
+  },
+  {
+    title: 'MicroProfile Runtimes Overview',
+    date: '2019-10-24',
+    content: '<a target="_blank" rel="noopener noreferrer" href="https://www.eclipse.org/community/eclipse_newsletter/2019/november/2.php">Link</a>'
   }
 ];
