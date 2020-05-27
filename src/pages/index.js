@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import * as PropTypes from 'prop-types';
-import {Container, Row, Col} from 'reactstrap';
+import {Row, Col} from 'reactstrap';
 import {FormattedMessage} from "react-intl";
 
 import {GoogleAnalyticsService} from "../components/google-analytics/google-analytics.service";
@@ -47,17 +47,6 @@ class IndexPage extends Component {
     
     constructor(props) {
         super(props);
-        this.state = {
-            selectedTab: 0
-        }
-        this.setNewTab = this.setNewTab.bind(this);
-    }
-    
-    setNewTab(newTab) {
-        this.setState({
-            ...this.state,
-            selectedTab: newTab
-        });
     }
     
     render() {
@@ -125,7 +114,7 @@ class IndexPage extends Component {
                     </div>
                     
                     <div className="main-content">
-                        <IndexContent onTabChange={this.setNewTab}/>
+                        <IndexContent/>
                     </div>
                     
                     <div className="index-services-section">
@@ -141,7 +130,7 @@ class IndexPage extends Component {
                         <References/>
                     </div>
                     
-                    <Footer contact locale={locale} /*beige={this.state.selectedTab === 0}*//>
+                    <Footer contact locale={locale}/>
                 </div>
             </Layout>
         );

@@ -5,7 +5,48 @@
 .index-content-component {
   padding-top: 40px;
 
-  .toggler {
+
+  .space-top {
+    margin-top: 100px;
+  }
+  .title {
+    display: inline-block;
+    margin-bottom: 5px;
+
+    .title-slim {
+      font-weight: 400;
+    }
+  }
+  h2 {
+    color: $blue-400;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: $font-rubik;
+    margin-bottom: 0;
+  }
+  h3 {
+    color: $blue-400;
+    opacity: 0.8;
+    font-family: $font-asap;
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .title-underline {
+    height: 5px;
+    background: $white-blue-light-gradient;
+  }
+  .image-subtitle {
+    font-family: $font-asap;
+    font-size: 16px;
+    font-style: italic;
+    color: $grey-300;
+
+  }
+
+
+  /*.toggler {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,49 +54,29 @@
     .carousel-container {
       margin-top: 100px;
       width: 100%;
-
-      .carousel-item {
-
-        .space-top {
-          margin-top: 100px;
-        }
-        .title {
-          display: inline-block;
-          margin-bottom: 5px;
-
-          .title-slim {
-            font-weight: 400;
-          }
-        }
-        h2 {
-          color: $blue-400;
-          font-size: 32px;
-          font-weight: bold;
-          font-family: $font-rubik;
-          margin-bottom: 0;
-        }
-        h3 {
-          color: $blue-400;
-          opacity: 0.8;
-          font-family: $font-asap;
-          font-weight: normal;
-          font-size: 32px;
-          margin-bottom: 30px;
-        }
-
-        .title-underline {
-          height: 5px;
-          background: $white-blue-light-gradient;
-        }
-        .image-subtitle {
-          font-family: $font-asap;
-          font-size: 16px;
-          font-style: italic;
-          color: $grey-300;
-
-        }
-      }
     }
+  }*/
+  .dark-blue-specialist {
+    background: $blue-gradient-left;
+    color: $white;
+
+    h2 {
+      color: $white;
+    }
+  }
+  .beige-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100vw 120px 0;
+    border-color: transparent $beige transparent transparent;
+  }
+  .white-arrow-reversed {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 120px 100vw 0 0;
+    border-color: transparent $white transparent transparent;
   }
   .arrow {
     width: 0;

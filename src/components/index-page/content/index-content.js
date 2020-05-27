@@ -1,113 +1,363 @@
 import React, {Component} from "react";
 import * as PropTypes from "prop-types";
-import {Carousel} from "reactstrap";
+import {Col, Row} from "reactstrap";
 
 import "./index-content.scss";
-import {Toggler} from "./toggler/toggler";
-import {tabs} from "./tabs";
+import {FormattedMessage} from "react-intl";
+import {Itemized} from "../../itemized/itemized.component";
+import digitalExperience from "./images/digi-izkusnja.svg";
+import omniChannel from "./images/omni-channel.svg";
+import monitoring from "./images/monitoring.svg";
+import stockGroup from "./images/stock-group.svg";
+import stockBoard from "./images/board-stock.svg";
 
 export class IndexContent extends Component {
     static propTypes = {
-        onTabChange: PropTypes.func
     };
     
     constructor(props) {
         super(props);
-        this.state = {
-            tab: 0,
-            animating: false,
-            inBox: false
-        };
-        this.lastScrollPosition = 0;
-        this.nextTab = this.nextTab.bind(this);
-        this.prevTab = this.prevTab.bind(this);
-        this.goToIndex = this.goToIndex.bind(this);
-        this.setAnimating = this.setAnimating.bind(this);
-        this.scrollingInBox = this.scrollingInBox.bind(this);
-        if (typeof window !== "undefined") {
-            window.onscroll = this.scrollingInBox;
-        }
-    }
-    
-    nextTab() {
-        if (this.state.animating) {
-            return;
-        }
-        const nextTab = this.state.tab === 2 ? this.state.tab : this.state.tab + 1;
-        this.setState({
-            ...this.state,
-            tab: nextTab
-        });
-        this.props.onTabChange(nextTab);
-    }
-    
-    prevTab() {
-        if (this.state.animating) {
-            return;
-        }
-        const prevTab = this.state.tab === 0 ? this.state.tab : this.state.tab - 1;
-        this.setState({
-            ...this.state,
-            tab: prevTab
-        });
-        this.props.onTabChange(prevTab);
-    }
-    
-    setAnimating(animating) {
-        this.setState({
-            ...this.state,
-            animating: animating
-        });
-    }
-    
-    goToIndex(newTab) {
-        if (this.state.animating) {
-            return;
-        }
-        this.setState({
-            ...this.state,
-            tab: newTab
-        });
-        this.props.onTabChange(newTab);
-    }
-    
-    mouseInBox(entered) {
-        this.setState({
-            ...this.state,
-            inBox: entered
-        });
-    }
-    
-    scrollingInBox(event) {
-        if (this.state.inBox && typeof window !== "undefined") {
-            event.preventDefault();
-            const st = window.pageYOffset || document.documentElement.scrollTop;
-            if (st > this.lastScrollPosition) {
-                // scroll down
-                this.nextTab();
-            } else {
-                // scroll up
-                this.prevTab();
-            }
-            this.lastScrollPosition = st <= 0 ? 0 : st;
-        }
     }
     
     render() {
         return (
-            <div className="index-content-component" onMouseEnter={() => this.mouseInBox(true)}
-                onMouseLeave={() => this.mouseInBox(false)}>
+            <div className="index-content-component">
                 
-                <div className="toggler">
-                    <Toggler activeTab={this.state.tab} clicked={(newTab) => this.goToIndex(newTab)}/>
-    
-                    <div className="carousel-container">
-                        <Carousel activeIndex={this.state.tab} next={this.nextTab} previous={this.prevTab} interval={false}>
-                            {tabs(this.setAnimating)}
-                        </Carousel>
+                    <div className="flex-column d-flex align-items-center">
+                        <Row className="content-body">
+                            <Col md={6}>
+                                <div className="title">
+                                    <h2>
+                                        <FormattedMessage id="index-page.content.tabs.digitalization.experience.title"/>
+                                    </h2>
+                                    <div className="title-underline"/>
+                                </div>
+                                <h3>
+                                    <FormattedMessage id="index-page.content.tabs.digitalization.experience.subtitle"/>
+                                </h3>
+                                <p>
+                                    <FormattedMessage id="index-page.content.tabs.digitalization.experience.description"/>
+                                </p>
+                                <Row>
+                                    <Col ms={12}>
+                                        <Row>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.digitalization.experience.items.item-1"/>
+                                            </Col>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.digitalization.experience.items.item-2"/>
+                                            </Col>
+                                        </Row>
+                                        <Row style={{marginTop: "40px"}}>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.digitalization.experience.items.item-3"/>
+                                            </Col>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.digitalization.experience.items.item-4"/>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                </Row>
+                            </Col>
+                            <Col md={6}>
+                                <img src={digitalExperience} style={{width: "100%"}} alt="digital-experience"/>
+                                <p className="image-subtitle text-center">
+                                    <FormattedMessage id="index-page.content.tabs.digitalization.experience.image"/>
+                                </p>
+                            </Col>
+                        </Row>
+                        <Row className="space-top content-body">
+                            <Col md={6}>
+                                <img src={omniChannel} style={{width: "100%"}} alt="omni-channel"/>
+                                <p className="image-subtitle text-center">
+                                    <FormattedMessage id="index-page.content.tabs.digitalization.omni-channel.image"/>
+                                </p>
+                            </Col>
+                            <Col md={6}>
+                                <div className="title">
+                                    <h2>
+                                        <FormattedMessage id="index-page.content.tabs.digitalization.omni-channel.title"/>
+                                    </h2>
+                                    <div className="title-underline"/>
+                                </div>
+                                <h3>
+                                    <FormattedMessage id="index-page.content.tabs.digitalization.omni-channel.subtitle"/>
+                                </h3>
+                                <p>
+                                    <FormattedMessage id="index-page.content.tabs.digitalization.omni-channel.description"/>
+                                </p>
+                                <Row>
+                                    <Col ms={12}>
+                                        <Row>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.digitalization.omni-channel.items.item-1"/>
+                                            </Col>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.digitalization.omni-channel.items.item-2"/>
+                                            </Col>
+                                        </Row>
+                                        <Row style={{marginTop: "40px"}}>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.digitalization.omni-channel.items.item-3"/>
+                                            </Col>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.digitalization.omni-channel.items.item-4"/>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                        <div className="points flex-column d-flex align-items-center">
+                            <div className="arrow"/>
+                            <Row className="content-body">
+                                <Col md={12} className="p-0">
+                                    <Row style={{marginBottom: "60px"}} className="d-flex justify-content-center">
+                                        <div className="points-title">
+                                            <div>1</div>
+                                            <h2>
+                                                <FormattedMessage
+                                                    id="index-page.content.tabs.digitalization.points.point-1.title"/>
+                                            </h2>
+                                        </div>
+                                        <div className="points-body">
+                                            <p>
+                                                <FormattedMessage
+                                                    id="index-page.content.tabs.digitalization.points.point-1.description"/>
+                                            </p>
+                                        </div>
+                                        <div className="points-items">
+                                            <Row>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-1.items.item-1"/>
+                                                </Col>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-1.items.item-2"/>
+                                                </Col>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-1.items.item-3"/>
+                                                </Col>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-1.items.item-4"/>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </Row>
+                                    <Row style={{marginBottom: "60px"}}>
+                                        <div className="points-title">
+                                            <div>2</div>
+                                            <h2>
+                                                <FormattedMessage
+                                                    id="index-page.content.tabs.digitalization.points.point-2.title"/>
+                                            </h2>
+                                        </div>
+                                        <div className="points-body">
+                                            <p>
+                                                <FormattedMessage
+                                                    id="index-page.content.tabs.digitalization.points.point-2.description"/>
+                                            </p>
+                                        </div>
+                                        <div className="points-items">
+                                            <Row>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-2.items.item-1"/>
+                                                </Col>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-2.items.item-2"/>
+                                                </Col>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-2.items.item-3"/>
+                                                </Col>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-2.items.item-4"/>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </Row>
+                                    <Row>
+                                        <div className="points-title">
+                                            <div>3</div>
+                                            <h2>
+                                                <FormattedMessage
+                                                    id="index-page.content.tabs.digitalization.points.point-3.title"/>
+                                            </h2>
+                                        </div>
+                                        <div className="points-body">
+                                            <p>
+                                                <FormattedMessage
+                                                    id="index-page.content.tabs.digitalization.points.point-3.description"/>
+                                            </p>
+                                        </div>
+                                        <div className="points-items">
+                                            <Row>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-3.items.item-1"/>
+                                                </Col>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-3.items.item-2"/>
+                                                </Col>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-3.items.item-3"/>
+                                                </Col>
+                                                <Col md="12">
+                                                    <Itemized small={true}
+                                                        trKey="index-page.content.tabs.digitalization.points.point-3.items.item-4"/>
+                                                </Col>
+                                            </Row>
+                                        </div>
+                                    </Row>
+                                </Col>
+                            </Row>
+                        </div>
                     </div>
-                </div>
+                    
+                    
+                    
+                    
+                    <div className="flex-column d-flex align-items-center dark-blue-specialist">
+                        <div className="beige-arrow"/>
+                        <Row style={{paddingBottom: "80px"}} className="content-body">
+                            <Col md={6}>
+                                <div className="title">
+                                    <h2 className="title-slim">
+                                        <FormattedMessage id="index-page.content.tabs.development.above-title"/>
+                                    </h2>
+                                    <h2>
+                                        <FormattedMessage id="index-page.content.tabs.development.title"/>
+                                    </h2>
+                                    <div className="title-underline"/>
+                                </div>
+                                <p style={{marginTop: "20px", marginBottom: "40px"}}>
+                                    <FormattedMessage id="index-page.content.tabs.development.description"/>
+                                </p>
+                                <Row>
+                                    <Col ms={12}>
+                                        <Row>
+                                            <Col md="6">
+                                                <Itemized trKey="index-page.content.tabs.development.items.item-1"/>
+                                            </Col>
+                                            <Col md="6">
+                                                <Itemized trKey="index-page.content.tabs.development.items.item-2"/>
+                                            </Col>
+                                        </Row>
+                                        <Row style={{marginTop: "40px"}}>
+                                            <Col md="6">
+                                                <Itemized trKey="index-page.content.tabs.development.items.item-3"/>
+                                            </Col>
+                                            <Col md="6">
+                                                <Itemized trKey="index-page.content.tabs.development.items.item-4"/>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                </Row>
+                            </Col>
+                            <Col md={6}>
+                                <img src={monitoring} alt="monitoring" style={{width: "100%"}}/>
+                            </Col>
+                        </Row>
+                        <div className="white-arrow-reversed"/>
+                    </div>
                 
+                    
+                    
+                    
+                    
+                    <div className="flex-column d-flex align-items-center">
+                        <Row className="content-body">
+                            <Col md={6}>
+                                <img src={stockGroup} style={{width: "100%"}} alt="stock-photo-group"/>
+                            </Col>
+                            <Col md={6}>
+                                <div className="title">
+                                    <h2>
+                                        <FormattedMessage
+                                            id="index-page.content.tabs.knowledge-transfer.opportunities.title"/>
+                                    </h2>
+                                    <div className="title-underline"/>
+                                </div>
+                                <h3>
+                                    <FormattedMessage
+                                        id="index-page.content.tabs.knowledge-transfer.opportunities.subtitle"/>
+                                </h3>
+                                <p>
+                                    <FormattedMessage
+                                        id="index-page.content.tabs.knowledge-transfer.opportunities.description"/>
+                                </p>
+                                <Row>
+                                    <Col ms={12}>
+                                        <Row>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.knowledge-transfer.opportunities.items.item-1"/>
+                                            </Col>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.knowledge-transfer.opportunities.items.item-2"/>
+                                            </Col>
+                                        </Row>
+                                        <Row style={{marginTop: "40px"}}>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.knowledge-transfer.opportunities.items.item-3"/>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                        <Row className="space-top content-body">
+                            <Col md={6}>
+                                <h3 style={{marginBottom: 0}}>
+                                    <FormattedMessage id="index-page.content.tabs.knowledge-transfer.concepts.above-title"/>
+                                </h3>
+                                <div className="title" style={{marginBottom: "30px"}}>
+                                    <h2>
+                                        <FormattedMessage id="index-page.content.tabs.knowledge-transfer.concepts.title"/>
+                                    </h2>
+                                    <div className="title-underline"/>
+                                </div>
+                                <p>
+                                    <FormattedMessage id="index-page.content.tabs.knowledge-transfer.concepts.description"/>
+                                </p>
+                                <Row>
+                                    <Col ms={12}>
+                                        <Row>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.knowledge-transfer.concepts.items.item-1"/>
+                                            </Col>
+                                            <Col md="6">
+                                                <Itemized
+                                                    trKey="index-page.content.tabs.knowledge-transfer.concepts.items.item-2"/>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                </Row>
+                            </Col>
+                            <Col md={6}>
+                                <img src={stockBoard} style={{width: "100%"}} alt="omni-channel"/>
+                            </Col>
+                        </Row>
+                    </div>
             </div>
         );
     }

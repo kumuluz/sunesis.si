@@ -15,7 +15,7 @@ $blue-gradient: linear-gradient(to right, $blue-300, $blue-400);
 $blue-gradient-bottom: linear-gradient(to bottom, $blue-300, $blue-400);
 $blue-gradient-left: linear-gradient(to left, $blue-300, $blue-400);
 $blue-light-gradient: linear-gradient(to right, $blue-100, $blue-200);
-$white-blue-light-gradient: linear-gradient(to right, $white, $blue-100);
+$white-blue-light-gradient: linear-gradient(to right, transparent, $blue-100);
 
 $light-grey: rgba(36,54,138,.2);
 $grey-shadow: 0 7px 20px $light-grey;
