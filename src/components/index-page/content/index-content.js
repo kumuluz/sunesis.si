@@ -234,7 +234,7 @@ export class IndexContent extends Component {
                     
                     
                     <div className="flex-column d-flex align-items-center dark-blue-specialist">
-                        <div className="beige-arrow"/>
+                        <div className="beige-arrow" style={{marginBottom: "60px"}}/>
                         <Row style={{paddingBottom: "80px"}} className="content-body">
                             <Col md={6}>
                                 <div className="title">
@@ -281,7 +281,7 @@ export class IndexContent extends Component {
                     
                     
                     
-                    <div className="flex-column d-flex align-items-center">
+                    <div className="flex-column d-flex align-items-center" style={{marginTop: "60px"}}>
                         <Row className="content-body">
                             <Col md={6}>
                                 <img src={stockGroup} style={{width: "100%"}} alt="stock-photo-group"/>
