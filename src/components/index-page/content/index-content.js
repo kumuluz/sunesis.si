@@ -50,7 +50,7 @@ export class IndexContent extends Component {
                                                     trKey="index-page.content.tabs.digitalization.experience.items.item-2"/>
                                             </Col>
                                         </Row>
-                                        <Row style={{marginTop: "40px"}}>
+                                        <Row className="items-margin-top">
                                             <Col md="6">
                                                 <Itemized
                                                     trKey="index-page.content.tabs.digitalization.experience.items.item-3"/>
@@ -102,7 +102,7 @@ export class IndexContent extends Component {
                                                     trKey="index-page.content.tabs.digitalization.omni-channel.items.item-2"/>
                                             </Col>
                                         </Row>
-                                        <Row style={{marginTop: "40px"}}>
+                                        <Row className="items-margin-top">
                                             <Col md="6">
                                                 <Itemized
                                                     trKey="index-page.content.tabs.digitalization.omni-channel.items.item-3"/>
@@ -155,7 +155,7 @@ export class IndexContent extends Component {
                                             </Row>
                                         </div>
                                     </Row>
-                                    <Row style={{marginBottom: "60px"}}>
+                                    <Row style={{marginBottom: "60px"}} className="d-flex justify-content-center">
                                         <div className="points-title">
                                             <div>2</div>
                                             <h2>
@@ -190,8 +190,8 @@ export class IndexContent extends Component {
                                             </Row>
                                         </div>
                                     </Row>
-                                    <Row>
-                                        <div className="points-title">
+                                    <Row className="d-flex justify-content-center">
+                                        <div className="points-title" >
                                             <div>3</div>
                                             <h2>
                                                 <FormattedMessage
@@ -259,7 +259,7 @@ export class IndexContent extends Component {
                                                 <Itemized trKey="index-page.content.tabs.development.items.item-2"/>
                                             </Col>
                                         </Row>
-                                        <Row style={{marginTop: "40px"}}>
+                                        <Row className="items-margin-top">
                                             <Col md="6">
                                                 <Itemized trKey="index-page.content.tabs.development.items.item-3"/>
                                             </Col>
@@ -314,7 +314,7 @@ export class IndexContent extends Component {
                                                     trKey="index-page.content.tabs.knowledge-transfer.opportunities.items.item-2"/>
                                             </Col>
                                         </Row>
-                                        <Row style={{marginTop: "40px"}}>
+                                        <Row className="items-margin-top">
                                             <Col md="6">
                                                 <Itemized
                                                     trKey="index-page.content.tabs.knowledge-transfer.opportunities.items.item-3"/>

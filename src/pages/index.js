@@ -66,7 +66,9 @@ class IndexPage extends Component {
                                     </h1>
                                     <div className="title-underline"/>
                                 </div>
-                                &nbsp;
+                                <span className="breaking-space">
+                                    &nbsp;
+                                </span>
                                 <div>
                                     <h1 className="normal">
                                         <FormattedMessage id="index-page.header.title"/>
@@ -100,7 +102,7 @@ class IndexPage extends Component {
                         <div className="index-blue-header-content">
                             <Row>
                                 {headerItems.map((item, index) => (
-                                    <Col key={index} md={3} className="header-item">
+                                    <Col key={index} md={3} sm={12} className="header-item">
                                         <div>
                                             <img src={item.icon} alt="header-icon"/>
                                         </div>

@@ -177,6 +177,24 @@ $phone-width: 90%;
     .index-header {
       .index-header-content {
         width: $phone-width;
+
+        h2 {
+          margin-top: 20px;
+        }
+        .header-button {
+          margin-top: 0;
+        }
+        .emphasized-partners {
+          margin-top: 40px;
+        }
+      }
+      .index-header-title {
+        display: flex;
+        flex-direction: column;
+
+        .breaking-space {
+          display: none;
+        }
       }
     }
     .index-blue-header {
