@@ -16,6 +16,7 @@ import newWays from "../assets/images/index/nove-poti.svg";
 import {TranslationUtil} from "../utils/translation.util";
 import {CustomersSection, DarkFloatingSection, Footer, IndexContent, References} from "../components";
 import {ServicesSection} from "../components/index-page/services-section/services-section";
+import {ReferencesSpinner} from "../components/references/spinner/references-spinner";
 
 const headerItems = [
     {
@@ -91,7 +92,11 @@ class IndexPage extends Component {
                                     <h3 className="text-center">
                                         <FormattedMessage id="index-page.header.they-trust-us"/>
                                     </h3>
-                                    <img src={emphasizedPartners} alt="emphasized partners"/>
+                                    
+                                    <div className="references-spinning">
+                                        <ReferencesSpinner/>
+                                    </div>
+                                    {/*<img src={emphasizedPartners} alt="emphasized partners"/>*/}
                                 </div>
                             </div>
                         </div>

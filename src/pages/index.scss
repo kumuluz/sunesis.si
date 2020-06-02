@@ -59,13 +59,17 @@ $phone-width: 90%;
       & > div {
         display: flex;
         flex-direction: column;
-        align-content: center;
+        align-items: center;
       }
       h3 {
         color: $grey-200;
         font-family: $font-asap;
         font-size: 16px;
         font-weight: 600;
+      }
+
+      .references-spinning {
+        width: 60%;
       }
     }
   }
@@ -186,6 +190,10 @@ $phone-width: 90%;
         }
         .emphasized-partners {
           margin-top: 40px;
+
+          .references-spinning {
+            width: 100%;
+          }
         }
       }
       .index-header-title {
