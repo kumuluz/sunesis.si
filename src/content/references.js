@@ -25,6 +25,8 @@ import logoIBM from './images/references/ibm.jpg';
 import logoOracle from './images/references/oracle.jpg';
 import logoEbrad from './images/references/ebrad.jpg';
 import citytech from './images/references/citytech.png';
+import logoGlobePayroll from './images/references/globepayroll.png';
+
 
 export const references = [
   {
@@ -135,5 +137,8 @@ export const references = [
   {
     image: citytech,
     name: "Citytech"
+  },{
+    image: logoGlobePayroll,
+    name: "GlobePayroll"
   }
 ];

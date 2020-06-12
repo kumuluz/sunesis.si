@@ -85,11 +85,17 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 240px 0px 0px 100vw;
+    border-width: 240px 0 0 100vw;
     border-color: transparent transparent transparent $blue-400;
 
     &.grey {
       border-color: $grey-100 transparent transparent $blue-400;
+    }
+    &.beige {
+      border-color: $beige transparent transparent $blue-400;
+    }
+    &.blue {
+      border-color: $blue-400 transparent transparent $blue-400;
     }
   }
   .reverse-arrow {

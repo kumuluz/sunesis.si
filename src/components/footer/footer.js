@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import * as PropTypes from 'prop-types';
 import {Container, Row, Col} from 'reactstrap';
 
-import {LanguageSelector, ContactForm} from '../../components';
+import {LanguageSelector, ContactForm} from '..';
 
 import {businessApis, products as kumuluzDigitalProducts} from '../../content/products';
 import {footerLinks, socialLinks} from '../../content';
@@ -18,6 +18,8 @@ export class Footer extends Component {
         social: PropTypes.any,
         contact: PropTypes.any,
         grey: PropTypes.any,
+        beige: PropTypes.bool,
+        blue: PropTypes.bool,
         locale: PropTypes.string
     };
 
@@ -42,11 +44,11 @@ export class Footer extends Component {
     }
 
     render() {
-        const {social, contact, grey, locale} = this.props;
-
+        const {social, contact, grey, locale, beige, blue} = this.props;
+        
         return (
             <div id="footer" className="footer">
-                <div className={`arrow ${grey && 'grey'}`}/>
+                <div className={`arrow ${grey && 'grey'} ${beige && 'beige'} ${blue && 'blue'}`}/>
                 <div className="darkSection">
                     {social && (
                         <div className="social">

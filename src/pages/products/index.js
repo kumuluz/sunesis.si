@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import * as PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
 import {Container, Row, Col} from 'reactstrap';
 import {Footer, ProductsGrid, References, ParallaxBlock, BusinessApisComponent} from '../../components';
 

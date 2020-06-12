@@ -15,3 +15,4 @@ export {ProductsServicesBoxesComponent} from "./prod-serv-boxes/prod-serv-boxes.
 export {CookiesComponent} from "./cookies/cookies.component";
 export * from './products';
 export * from './services';
+export * from './index-page';

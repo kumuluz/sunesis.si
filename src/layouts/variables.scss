@@ -2,10 +2,21 @@ $blue-100: #5dc2ef;
 $blue-200: #367dbf;
 $blue-300: #254a99;
 $blue-400: #2b2b6f;
+
+$white: #fff;
+$black: #333;
+$grey: #e6e7e8;
+$grey-100: #f4f5f5;
+$grey-200: #C4C4C4;
+$grey-300: #A3A3A3;
+$beige: #F4F5F5;
+
 $blue-gradient: linear-gradient(to right, $blue-300, $blue-400);
 $blue-gradient-bottom: linear-gradient(to bottom, $blue-300, $blue-400);
 $blue-gradient-left: linear-gradient(to left, $blue-300, $blue-400);
 $blue-light-gradient: linear-gradient(to right, $blue-100, $blue-200);
+$white-blue-light-gradient: linear-gradient(to right, transparent, $blue-100);
+
 $light-grey: rgba(36,54,138,.2);
 $grey-shadow: 0 7px 20px $light-grey;
 
@@ -21,11 +32,6 @@ $api: #ee875c;
 $devops: #a7b4ba;
 $ccm: #c2d961;
 $crowdsensing: #a969aa;
-
-$white: #fff;
-$black: #333;
-$grey: #e6e7e8;
-$grey-100: #f4f5f5;
 
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,500,700');
 @import url('https://fonts.googleapis.com/css?family=Asap:400,700');

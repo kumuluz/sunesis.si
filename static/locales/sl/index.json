@@ -1,0 +1,116 @@
+{
+    "header": {
+        "titleStrong": "Rešitve za digitalizacijo poslovanja",
+        "title": "na ključ",
+        "subtitle-1": "Podjetjem vseh velikosti pomagamo, da uspevajo v digitalnem ekosistemu.",
+        "subtitle-2": "Še toliko bolj v današnjih zaostrenih poslovnih okoliščinah.",
+        "button": "CTA",
+        "they-trust-us": "Zaupajo nam"
+    },
+    "blue-header": {
+        "digital-products": "Nadoknadite izpad fizične<br/>prodaje z novimi digitalnimi<br/>produkti ali storitvami",
+        "digitalize": "Digitalizirajte celotno<br/>interakcijo z vašimi strankami<br/>in zaledne procese",
+        "api-economy": "Vpeljite API ekonomijo<br/>in razširite vaš digitalni<br/>poslovni model",
+        "new-ways": "Odprite nove poti poslovanja<br/>in znižajte stroške"
+    },
+    "content": {
+        "toggler": {
+            "digitalization": "Digitalizacija poslovanja",
+            "development": "Razvoj",
+            "knowledge-transfer": "Prenos znanja in podpora"
+        },
+        "tabs": {
+            "digitalization": {
+                "experience": {
+                    "title": "Popolna digitalna izkušnja",
+                    "subtitle": "za vaše stranke",
+                    "description": "Omogočamo vam hitro postavitev \"enterprise grade\" rešitev, ki digitalizirajo celotno interakcijo z vašimi strankami – za povečanje prodaje in večje zadovoljstvo vaših strank.",
+                    "image": "Točke digitalne interakcije s strankami",
+                    "items": {
+                        "item-1": "Prilagojeno vašim potrebam",
+                        "item-2": "Enostavne nadgradnje in integracije",
+                        "item-3": "Hitrejši razvoj z uporabo API-jev",
+                        "item-4": "Prisotnost na vseh digitalnih kanalih"
+                    }
+                },
+                "omni-channel": {
+                    "title": "»Omni-channel« poslovanje",
+                    "subtitle": "in avtomatizacija procesov",
+                    "description": "Vzpostavimo digitalno platformo, ki bo podpirala različne digitalne in fizične kanale po »omni-channel« principih in omogočala poljubno prehajanje stranke med kanali. Hkrati poslovne procese avtomatiziramo po principih RPA (Robotic Process Automation).",
+                    "image": "Ključni gradniki za »OMNI CHANNEL«",
+                    "items": {
+                        "item-1": "Popoln pregled nad strankami",
+                        "item-2": "24/7 prisotnost na digitalu",
+                        "item-3": "Poslovanje na vseh digitalnih kanalih",
+                        "item-4": "Tudi na sistemih v poslovalnicah"
+                    }
+                },
+                "points": {
+                    "point-1": {
+                        "title": "Čez noč se vključite v API ekonomijo",
+                        "description": "Vzpostavimo vam vse potrebne gradnike, s katerimi se vključite v API ekonomijo. Vzpostavite ali se vključite v nove vrednostne verige. Povežite se z drugimi sistemi, učinkovito izmenjujte podatke ali integrirajte tretje storitve.",
+                        "items": {
+                            "item-1": "Identifikacija API priložnosti",
+                            "item-2": "Hiter razvoj API-jev",
+                            "item-3": "Integracija API-jev z zalednimi sistemi",
+                            "item-4": "Vpeljava orodij za API management"
+                        }
+                    },
+                    "point-2": {
+                        "title": "Z digitalno platformo do digitalne tranformacije",
+                        "description": "Kumuluz Digital platforma vključuje vse gradnike, s katerimi dosežete popolno digitalno transformacijo, od integracije podatkov, vpeljave API poslovanja in digitalnih gradnikov za hiter razvoj digitalnih aplikacij.",
+                        "items": {
+                            "item-1": "Vnaprej pripravljeni poslovni API gradniki",
+                            "item-2": "Marketplace rešitve",
+                            "item-3": "Avtomatizacija poslovnih procesov",
+                            "item-4": "Vzpostavitev »data-driven« organizacije"
+                        }
+                    },
+                    "point-3": {
+                        "title": "Modernizirajte monolitne sisteme",
+                        "description": "Z lastno platformo poskrbimo za integracijo in izmenjavo podatkov med različnimi sistemi. Nadgradimo vaše zaledne sisteme, da lahko pričnete z digitalnim poslovanjem.",
+                        "items": {
+                            "item-1": "Integracija preko API-jev",
+                            "item-2": "Nadgradnja zalednih sistemov",
+                            "item-3": "Vzpostavitev digitalne platforme",
+                            "item-4": "Nešteto novih priložnosti"
+                        }
+                    }
+                }
+            },
+            "development": {
+                "above-title": "Specialisti za",
+                "title": "napredne tehnološke rešitve",
+                "description": "Odpravimo ovire, ki preprečujejo digitalizacijo poslovanja zaradi nepovezanosti med različnimi sistemi ter zaledne sisteme nadgradimo s funkcionalnostmi, ki jih zaledni sistemi nimajo, potrebujete pa jih za digitalno poslovanje.",
+                "items": {
+                    "item-1": "Cloud-native arhitektura, API-ji in mikrostoritve",
+                    "item-2": "IAM in Keycloak",
+                    "item-3": "Kubernetes",
+                    "item-4": "DevOps"
+                }
+            },
+            "knowledge-transfer": {
+                "opportunities": {
+                    "title": "Identifikacija priložnosti",
+                    "subtitle": "v digitalnem okolju",
+                    "description": "Za vas izvedemo online delavnico in skupaj identificiramo, kako digitalizirati vaše poslovanje. Prav tako pripravimo načrt razvoja spletne ali mobilne aplikacije, ki bo prodajo podprla.",
+                    "items":{
+                        "item-1": "Identifikacija konkurenčne prednosti",
+                        "item-2": "S posluhom do vaših strank",
+                        "item-3": "Hiter razvoj novih rešitev"
+                    }
+                },
+                "concepts": {
+                    "above-title": "Tehnološki",
+                    "title": "koncepti digitalizacije",
+                    "description": "Izobražujemo na področju vpeljave novih konceptov digitalne transformacije, kot so \"cloude-native\", microservice arhitektura, API, DevOps, IAM, Kubernetes in Docker.",
+                    "items": {
+                        "item-1": "Ekipa vrhunskih strokovnjakov",
+                        "item-2": "Avtorji odprtokodnega ogrodja za razvoj cloud-native aplikacij"
+                    }
+                }
+
+            }
+        }
+    }
+}

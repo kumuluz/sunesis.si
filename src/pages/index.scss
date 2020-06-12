@@ -1,15 +1,228 @@
-@import '../layouts/variables.scss';
-@import '../layouts/media-mixin.scss';
+@import "../layouts/variables";
+@import "../layouts/media-mixin";
 
-.index {
+$pc-width: 60%;
+$tablet-width: 80%;
+$phone-width: 90%;
+
+.index-page {
+
+  .index-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+    .index-header-content {
+      width: 60%;
+    }
+
+    .index-header-title {
+      display: flex;
+
+      h1 {
+        font-weight: 600;
+        color: $blue-400;
+        font-size: 36px;
+        margin-bottom: 0;
+
+        &.normal {
+          font-weight: 300;
+        }
+      }
+      .title-underline {
+        height: 5px;
+        background: $white-blue-light-gradient;
+
+        &.transparent {
+          background: none;
+        }
+      }
+    }
+
+    h2 {
+      color: $blue-400;
+      opacity: 0.8;
+      font-family: $font-asap;
+      font-size: 24px;
+      font-weight: normal;
+    }
+    .header-button {
+      margin-top: 40px;
+
+      button {
+        width: 150px;
+      }
+    }
+    .emphasized-partners {
+      margin-top: 100px;
+
+      & > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h3 {
+        color: $grey-200;
+        font-family: $font-asap;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .references-spinning {
+        width: 60%;
+      }
+    }
+  }
+
+  .index-blue-header {
+    background-color: $blue-400;
+
+    .arrow {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 120px 100vw 0 0;
+      border-color: $white transparent transparent transparent;
+    }
+    .arrow-reversed {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 0 120px 100vw;
+      border-color: transparent transparent $white transparent;
+    }
+
+    .index-blue-header-content {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      margin-bottom: 20px;
+
+      .row {
+        width: $pc-width;
+      }
+      .header-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        div {
+          height: 50px;
+          margin-bottom: 20px;
+        }
+        p {
+          color: $white;
+          font-size: 20px;
+          font-family: $font-asap;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  .main-content {
+    display: flex;
+    justify-content: center;
+
+    .index-content-component {
+      .content-body {
+        width: $pc-width;
+      }
+    }
+  }
+  .index-references-section {
+    display: flex;
+    justify-content: center;
+    .references-section {
+      width: $pc-width;
+    }
+  }
+  .dark-blue-white-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 120px 100vw 0 0;
+    border-color: $blue-400 transparent transparent transparent;
+  }
+}
+
+@include device-specific($tablet) {
+  .index-page {
+    .index-header {
+      .index-header-content {
+        width: $tablet-width;
+      }
+    }
+    .index-blue-header {
+      .index-blue-header-content {
+        .row {
+          width: $tablet-width;
+        }
+      }
+    }
+    .main-content {
+      .index-content-component {
+        .content-body {
+          width: $tablet-width;
+        }
+      }
+    }
+    .index-references-section {
+      .references-section {
+        width: $tablet-width;
+      }
+    }
+  }
 }
 
 @include device-specific($phone) {
+  .index-page {
+    .index-header {
+      .index-header-content {
+        width: $phone-width;
 
-}
-@include device-specific($tablet) {
+        h2 {
+          margin-top: 20px;
+        }
+        .header-button {
+          margin-top: 0;
+        }
+        .emphasized-partners {
+          margin-top: 40px;
 
-}
-@include device-specific($pc) {
+          .references-spinning {
+            width: 100%;
+          }
+        }
+      }
+      .index-header-title {
+        display: flex;
+        flex-direction: column;
 
+        .breaking-space {
+          display: none;
+        }
+      }
+    }
+    .index-blue-header {
+      .index-blue-header-content {
+        .row {
+          width: $phone-width;
+        }
+      }
+    }
+    .main-content {
+      .index-content-component {
+        .content-body {
+          width: $phone-width;
+        }
+      }
+    }
+    .index-references-section {
+      .references-section {
+        width: $phone-width;
+      }
+    }
+  }
 }

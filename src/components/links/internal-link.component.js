@@ -11,7 +11,8 @@ class InternalLink extends Component {
         intl: intlShape.isRequired,
         children: PropTypes.PropTypes.oneOfType([
             PropTypes.string,
-            PropTypes.object
+            PropTypes.object,
+            PropTypes.array
         ])
     };
 

@@ -3,10 +3,11 @@ import {BLOG_URL, GITHUB_ORG_URL, SOCIAL} from "./constants";
 export const navigationLinks = [
     {href: '/services', name: 'menu.services'},
     {href: '/products', name: 'menu.products'},
-    {
-        name: 'menu.customers',
-        href: '/customers'
-    },
+    {href: '/technologies', name: 'menu.technologies'},
+    {href: '/customers', name: 'menu.customers'}
+];
+
+export const rightNavigationLinks = [
     {
         name: 'menu.aboutUs.title',
         href: '/about',
@@ -16,7 +17,8 @@ export const navigationLinks = [
             {href: '/about/awards', name: 'menu.aboutUs.awards'}
         ]
     },
-    {href: BLOG_URL, name: 'menu.blog', external: true}
+    {href: BLOG_URL, name: 'menu.blog', external: true},
+    {href: "/about/sunesis#footer", name: 'menu.contactUs'}
 ];
 
 export const footerLinks = [

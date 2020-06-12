@@ -1,0 +1,11 @@
+@import "../../../layouts/variables";
+@import "../../../layouts/media-mixin";
+
+.spinner-item {
+  padding: 10px;
+
+  img {
+    width: 100%;
+    filter: grayscale(100%);
+  }
+}

@@ -3,10 +3,16 @@
 
 .navbar-dark {
   .nav-item a.nav-link {
-    color: $blue-400;
-    font-size: 1rem;
+    color: $blue-300;
+    font-size: 16px;
     font-family: $font-asap;
+    font-weight: normal;
     margin-right: 10px;
+
+    padding-bottom: 0;
+    &.active {
+      border-bottom: 2px solid $blue-300;
+    }
   }
   .nav-item a.nav-link.dropdown-toggle:after {
     border-width: 0.2em;
@@ -36,7 +42,14 @@ a.nav-link:hover {
   line-height: 30px !important;
 }
 
+.left-nav {
+  margin-left: 60px;
+}
+
 @include device-specific($phone) {
+  .left-nav {
+    margin-left: 0;
+  }
   .placeholder {
     height: 70px;
   }
@@ -63,6 +76,9 @@ a.nav-link:hover {
 }
 
 @include device-specific($tablet) {
+  .left-nav {
+    margin-left: 0;
+  }
   .placeholder {
     height: 70px;
   }
@@ -88,7 +104,7 @@ a.nav-link:hover {
 @include device-specific($pc) {
   .navbar-dark {
     .nav-item a.nav-link {
-      color: $blue-400 !important;
+      color: $blue-300 !important;
     }
   }
 }

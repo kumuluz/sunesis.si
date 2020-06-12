@@ -1,90 +1,147 @@
-import React, {Component} from 'react';
+import React, {Component} from "react";
 import * as PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import {Container} from 'reactstrap';
+import {Row, Col} from 'reactstrap';
+import {FormattedMessage} from "react-intl";
 
-import {Footer, References, Benefits, ParallaxBlock} from '../components';
-import {BannerSection, KeySection, CustomersSection, DarkFloatingSection} from '../components/index-page';
-import {ServicesSection} from '../components/index-page/services-section/services-section';
 import {GoogleAnalyticsService} from "../components/google-analytics/google-analytics.service";
-
-import '../assets/images/check-mark.svg';
-import cube01 from '../assets/images/cubes/3d-cube-01.svg';
-import cube02 from '../assets/images/cubes/3d-cube-02.svg';
-import cube03 from '../assets/images/cubes/3d-cube-03.svg';
-import './index.scss';
-
-import {benefits} from '../content/indexPage';
 import {Layout} from "../layouts";
 import SEO from "../components/seo/seo.component";
-import {TranslationUtil} from "../utils/translation.util";
 
- class IndexPage extends Component {
+import "./index.scss";
+import emphasizedPartners from "../assets/images/emphasized-partners.svg";
+import apiEconomy from "../assets/images/index/api-ekonomija.svg";
+import digitalProducts from "../assets/images/index/dig-produkti.svg";
+import digitalization from "../assets/images/index/digitalizacija.svg";
+import newWays from "../assets/images/index/nove-poti.svg";
+import {TranslationUtil} from "../utils/translation.util";
+import {CustomersSection, DarkFloatingSection, Footer, IndexContent, References} from "../components";
+import {ServicesSection} from "../components/index-page/services-section/services-section";
+import {ReferencesSpinner} from "../components/references/spinner/references-spinner";
+
+const headerItems = [
+    {
+        icon: digitalProducts,
+        text: 'index-page.blue-header.digital-products'
+    },
+    {
+        icon: digitalization,
+        text: 'index-page.blue-header.digitalize'
+    },
+    {
+        icon: apiEconomy,
+        text: 'index-page.blue-header.api-economy'
+    },
+    {
+        icon: newWays,
+        text: 'index-page.blue-header.new-ways'
+    }
+];
+
+class IndexPage extends Component {
     static propTypes = {
         pageContext: PropTypes.object
     };
-
+    
     componentDidMount() {
         GoogleAnalyticsService.registerPageView();
     }
-
+    
     constructor(props) {
         super(props);
     }
-
+    
     render() {
         const {pageContext} = this.props;
         const locale = pageContext.locale;
-
+        
         return (
             <Layout locale={locale}>
-                <div className="index">
+                <div className="index-page">
                     <SEO siteTitleId={'site.title'} canonical="/" locale={locale}/>
-
-                    <ParallaxBlock className="d-none d-xl-block" image={cube01} size={40} xOffset="1%" yOffset={270}/>
-                    <ParallaxBlock className="d-none d-md-block" image={cube01} size={60} xOffset="20%" yOffset={100}/>
-                    <ParallaxBlock className="d-none d-xl-block" image={cube01} size={40} xOffset="95%" yOffset={160}/>
-                    <ParallaxBlock className="d-none d-sm-block" image={cube01} size={100} xOffset="80%" yOffset={550}/>
-                    <ParallaxBlock image={cube02} size={50} xOffset="60%" yOffset={100}/>
-                    <ParallaxBlock className="d-none d-md-block" image={cube02} size={80} xOffset="55%" yOffset={500}/>
-                    <ParallaxBlock className="d-none d-sm-block" image={cube03} size={60} xOffset="8%" yOffset={550}/>
-
-                    <BannerSection locale={locale}/>
-
-                    <KeySection locale={locale}/>
-
-                    <ParallaxBlock image={cube02} size={130} xOffset="12%" yOffset={150}/>
-                    <ParallaxBlock className="d-none d-lg-block" image={cube02} size={60} xOffset="5%" yOffset={1300}/>
-
-                    <DarkFloatingSection
-                        topContent={<ServicesSection locale={locale}/>}
-                        bottomContent={
-                            <Benefits
-                                locale={locale}
-                                title={TranslationUtil.translate(locale,"benefits.title")}
-                                description={TranslationUtil.translate(locale,"benefits.description")}
-                                benefits={benefits}
-                                quote={TranslationUtil.translate(locale,"benefits.start")}
-                            />
-                        }
-                    />
-
-                    <CustomersSection locale={locale}/>
-
-                    <Container className="text-center">
+                    <div className="index-header">
+                        <div className="index-header-content">
+                            <div className="index-header-title">
+                                <div>
+                                    <h1>
+                                        <FormattedMessage id="index-page.header.titleStrong"/>
+                                    </h1>
+                                    <div className="title-underline"/>
+                                </div>
+                                <span className="breaking-space">
+                                    &nbsp;
+                                </span>
+                                <div>
+                                    <h1 className="normal">
+                                        <FormattedMessage id="index-page.header.title"/>
+                                    </h1>
+                                    <div className="title-underline transparent"/>
+                                </div>
+                            </div>
+                            <h2>
+                                <FormattedMessage id="index-page.header.subtitle-1"/>
+                                <br/>
+                                <FormattedMessage id="index-page.header.subtitle-2"/>
+                            </h2>
+                            <div className="header-button">
+                                {/*<button className="btn btn-primary">*/}
+                                {/*    <FormattedMessage id="index-page.header.button"/>*/}
+                                {/*</button>*/}
+                            </div>
+                            <div className="emphasized-partners">
+                                <div>
+                                    <h3 className="text-center">
+                                        <FormattedMessage id="index-page.header.they-trust-us"/>
+                                    </h3>
+                                    
+                                    <div className="references-spinning">
+                                        <ReferencesSpinner/>
+                                    </div>
+                                    {/*<img src={emphasizedPartners} alt="emphasized partners"/>*/}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="index-blue-header">
+                        <div className="arrow"/>
+                        <div className="index-blue-header-content">
+                            <Row>
+                                {headerItems.map((item, index) => (
+                                    <Col key={index} md={3} sm={12} className="header-item">
+                                        <div>
+                                            <img src={item.icon} alt="header-icon"/>
+                                        </div>
+                                        <p className="text-center"
+                                            dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale, item.text)}}/>
+                                    </Col>
+                                ))}
+                            </Row>
+                        </div>
+                        <div className="arrow-reversed"/>
+                    </div>
+                    
+                    <div className="main-content">
+                        <IndexContent locale={locale}/>
+                    </div>
+                    
+                    <div className="index-services-section">
+                        <DarkFloatingSection topContent={<ServicesSection locale={locale} showCoreServices={true}/>} />
+                        <div className="dark-blue-white-arrow"/>
+                    </div>
+                    
+                    <div className="index-customers-section">
+                        <CustomersSection locale={locale}/>
+                    </div>
+                    
+                    <div className="index-references-section">
                         <References/>
-                    </Container>
-
-                    <ParallaxBlock image={cube02} size={100} xOffset="10%" yOffset={300}/>
-                    <ParallaxBlock className="d-none d-md-block" image={cube01} size={80} xOffset="70%" yOffset={450}/>
-                    <Footer locale={locale} social/>
+                    </div>
+                    
+                    <Footer contact locale={locale}/>
                 </div>
             </Layout>
         );
     }
 }
 
-export default
-// injectIntl(
-    IndexPage
-// );
+export default IndexPage;

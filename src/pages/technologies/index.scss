@@ -1,0 +1,12 @@
+@import '../../layouts/variables';
+@import '../../layouts/media-mixin';
+
+@include device-specific($phone) {
+
+}
+@include device-specific($tablet) {
+
+}
+@include device-specific($pc) {
+
+}
