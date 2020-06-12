@@ -9,7 +9,7 @@ export class CookiesComponent extends Component {
     static propTypes = {
         locale: PropType.string
     };
-
+ 
     constructor(props) {
         super(props);
         this.STORAGE_NAME = "COOKIES_AGREED";
@@ -44,7 +44,7 @@ export class CookiesComponent extends Component {
             <div className={clazz}>
                 <div className="content">
                     <div>{TranslationUtil.translate(locale, "site.cookie-warning")}</div>
-                    <button className="btn btn-primary" onClick={this.acceptCookies}>{TranslationUtil.translate(locale, "site.cookie-consent")}</button>
+                    <button className="btn btn-info" onClick={this.acceptCookies}>{TranslationUtil.translate(locale, "site.cookie-consent")}</button>
                 </div>
             </div>
         );
