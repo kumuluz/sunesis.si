@@ -121,7 +121,7 @@ class IndexPage extends Component {
                     </div>
                     
                     <div className="main-content">
-                        <IndexContent/>
+                        <IndexContent locale={locale}/>
                     </div>
                     
                     <div className="index-services-section">

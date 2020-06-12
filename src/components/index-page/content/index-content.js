@@ -5,14 +5,17 @@ import {Col, Row} from "reactstrap";
 import "./index-content.scss";
 import {FormattedMessage} from "react-intl";
 import {Itemized} from "../../itemized/itemized.component";
+import digitalExperienceEN from "./images/digi-izkusnja-eng.svg";
 import digitalExperience from "./images/digi-izkusnja.svg";
+import omniChannelEN from "./images/omni-channel-eng.svg";
 import omniChannel from "./images/omni-channel.svg";
-import monitoring from "./images/monitoring.svg";
+import techSpecialist from "./images/tech-specialists.png";
 import stockGroup from "./images/stock-group.svg";
 import stockBoard from "./images/board-stock.svg";
 
 export class IndexContent extends Component {
     static propTypes = {
+        locale: PropTypes.string
     };
     
     constructor(props) {
@@ -20,6 +23,8 @@ export class IndexContent extends Component {
     }
     
     render() {
+        const {locale} = this.props;
+        
         return (
             <div className="index-content-component">
                 
@@ -64,7 +69,7 @@ export class IndexContent extends Component {
                                 </Row>
                             </Col>
                             <Col md={6}>
-                                <img src={digitalExperience} style={{width: "100%"}} alt="digital-experience"/>
+                                <img src={locale === "en" ? digitalExperienceEN : digitalExperience} style={{width: "100%"}} alt="digital-experience"/>
                                 <p className="image-subtitle text-center">
                                     <FormattedMessage id="index-page.content.tabs.digitalization.experience.image"/>
                                 </p>
@@ -72,7 +77,7 @@ export class IndexContent extends Component {
                         </Row>
                         <Row className="space-top content-body">
                             <Col md={6}>
-                                <img src={omniChannel} style={{width: "100%"}} alt="omni-channel"/>
+                                <img src={locale === "en" ? omniChannelEN : omniChannel} style={{width: "100%"}} alt="omni-channel"/>
                                 <p className="image-subtitle text-center">
                                     <FormattedMessage id="index-page.content.tabs.digitalization.omni-channel.image"/>
                                 </p>
@@ -271,7 +276,7 @@ export class IndexContent extends Component {
                                 </Row>
                             </Col>
                             <Col md={6}>
-                                <img src={monitoring} alt="monitoring" style={{width: "100%"}}/>
+                                <img src={techSpecialist} alt="tech specialists" style={{width: "100%"}}/>
                             </Col>
                         </Row>
                         <div className="white-arrow-reversed"/>
