@@ -37,6 +37,7 @@ export default class ServicesPage extends Component {
             <Layout locale={locale}>
                 <div className="services">
                     <SEO siteTitleId={"services-page.site.title"} locale={locale} canonical="/services"/>
+                    {/*
                     <div className="header-nav">
                         <div className="header-nav-container">
                             <div><FormattedMessage id={'services-page.navbar.dig-app'}/></div>
@@ -47,9 +48,8 @@ export default class ServicesPage extends Component {
                             <div><FormattedMessage id={'services-page.navbar.bus-proc-manage'}/></div>
                             <div><FormattedMessage id={'services-page.navbar.ment-train'}/></div>
                         </div>
-
                     </div>
-
+                    */}
                     <Container fluid={true} className="header">
                         <Row>
                             <Col xs="12" className="px-0">
