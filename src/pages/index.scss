@@ -157,6 +157,35 @@ $phone-width: 90%;
   }
 }
 
+@include device-specific($tablet-landscape) {
+  .index-page {
+    .index-header {
+      .index-header-content {
+        width: $tablet-width;
+      }
+    }
+    .index-blue-header {
+      .index-blue-header-content {
+        .row {
+          width: $tablet-width;
+        }
+      }
+    }
+    .main-content {
+      .index-content-component {
+        .content-body {
+          width: $tablet-width;
+        }
+      }
+    }
+    .index-references-section {
+      .references-section {
+        width: $tablet-width;
+      }
+    }
+  }
+}
+
 @include device-specific($tablet) {
   .index-page {
     .index-header {
