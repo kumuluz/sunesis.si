@@ -26,7 +26,8 @@ export class NavbarComponent extends Component {
         this.state = {
             isOpen: false,
             dropdownOpen: false,
-            sunesisLogo: sunesisLogo
+            // sunesisLogo: sunesisLogo
+            sunesisLogo: returnScreenSize() > MEDIA_TABLET ? sunesisLogo : sunesisWhiteLogo
         };
     }
     
