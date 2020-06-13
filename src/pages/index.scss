@@ -19,6 +19,16 @@ $phone-width: 90%;
     .index-header-title {
       display: flex;
 
+      .localized-title-1 {
+        order: 1;
+      }
+      .localized-title-2 {
+        order: 2;
+      }
+      .localized-title-3 {
+        order: 3;
+      }
+
       h1 {
         font-weight: 600;
         color: $blue-400;

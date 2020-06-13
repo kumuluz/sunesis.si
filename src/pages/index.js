@@ -61,16 +61,16 @@ class IndexPage extends Component {
                     <div className="index-header">
                         <div className="index-header-content">
                             <div className="index-header-title">
-                                <div>
+                                <div className={locale === "en" ? "localized-title-3" : "localized-title-1"}>
                                     <h1>
                                         <FormattedMessage id="index-page.header.titleStrong"/>
                                     </h1>
                                     <div className="title-underline"/>
                                 </div>
-                                <span className="breaking-space">
+                                <span className="breaking-space localized-title-2">
                                     &nbsp;
                                 </span>
-                                <div>
+                                <div className={locale === "en" ? "localized-title-1" : "localized-title-3"}>
                                     <h1 className="normal">
                                         <FormattedMessage id="index-page.header.title"/>
                                     </h1>
