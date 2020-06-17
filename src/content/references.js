@@ -26,6 +26,8 @@ import logoOracle from './images/references/oracle.jpg';
 import logoEbrad from './images/references/ebrad.jpg';
 import citytech from './images/references/citytech.png';
 import logoGlobePayroll from './images/references/globepayroll.png';
+import logoPrva from './images/references/prva.jpg';
+import logoSava from './images/references/sava.jpg';
 
 
 export const references = [
@@ -140,5 +142,13 @@ export const references = [
   },{
     image: logoGlobePayroll,
     name: "GlobePayroll"
+  },
+  {
+    image: logoPrva,
+    name: "Prva Osebna zavarovalnica"
+  },
+  {
+    image: logoSava,
+    name: "Zavarovalnica Sava"
   }
 ];
