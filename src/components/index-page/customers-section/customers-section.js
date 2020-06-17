@@ -40,7 +40,13 @@ export class CustomersSection extends Component {
   }
 
   toQuotesPage(page) {
-    anime({
+    this.setState(state => {
+      return {
+        ...state,
+        quotesPage: page
+      };
+    });
+    /*anime({
       targets: '.customers .customer',
       rotateY: '720deg',
       duration: 500,
@@ -58,7 +64,7 @@ export class CustomersSection extends Component {
         duration: 500,
         easing: 'easeOutQuad'
       });
-    });
+    });*/
   }
 
   render() {
