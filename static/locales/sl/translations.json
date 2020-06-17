@@ -81,7 +81,7 @@
     },
     "apl": {
       "text": "Agencija za pospeševanje likvidnosti (APL) uporablja Kumuluz za razvoj platforme za faktoring naslednje generacije. Uporaba Kumuluza je že bistveno izboljšala fleksibilnost, skalabilnost in mobilnost naše programske opreme. S prehodom z monolitske na mikrostoritveno arhitekturo lahko zdaj nove funkcionalnosti dodamo veliko hitreje. S Kumuluzom bomo novo platformo za faktoring lahko razvili trikrat hitreje kot s tradicionalnimi razvojnimi dejavnostmi.",
-      "title": "CIO pri APL"
+      "title": "CEO pri APL"
     },
     "couchbase": {
       "text": "KumuluzEE resnično prinaša mikrostoritveno arhitekturo v Javo EE. Modularni spletni vsebnik je pripravljen za Maven, omogoča Fat JAR in modularizirane odvisnosti, ter je pripravljen na vsebnike Docker, kar omogoča, da je lahko takoj nameščen v katerokoli oblačno okolje. Če gradite aplikacije v okolju Java EE, začnite svojo mikrostoritveno pot s platformo KumuluzEE!",
