@@ -29,6 +29,10 @@ export class NavbarComponent extends Component {
             // sunesisLogo: sunesisLogo
             sunesisLogo: returnScreenSize() > MEDIA_TABLET ? sunesisLogo : sunesisWhiteLogo
         };
+        this.setState({
+            ...this.state,
+            sunesisLogo: returnScreenSize() > MEDIA_TABLET ? sunesisLogo : sunesisWhiteLogo
+        })
     }
     
     componentDidMount() {
