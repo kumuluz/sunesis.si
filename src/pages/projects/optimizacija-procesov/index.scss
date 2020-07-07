@@ -1,0 +1,44 @@
+@import "../../../layouts/variables";
+@import "../../../layouts/media-mixin";
+
+
+.process-opt-goals {
+  margin-top: 60px;
+}
+
+.process-opt-ul {
+  padding-left: 40px;
+
+  li {
+    padding-left: 10px;
+    list-style-type: disc;
+    font-weight: normal;
+  }
+}
+
+.process-opt-logos {
+  .sponsor-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 300px;
+      height: auto;
+    }
+  }
+}
+
+@include device-specific($phone) {
+  .sponsor-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
