@@ -173,9 +173,6 @@ $phone-width: 90%;
 }
 
 @include device-specific($tablet-landscape) {
-  .eu-sklad {
-    display: none;
-  }
 
   .index-page {
     .index-header {
