@@ -117,6 +117,10 @@ export const references = [
     name: 'Tovarna podjemov'
   },
   {
+    image: logoPrva,
+    name: "Prva Osebna zavarovalnica"
+  },
+  {
     image: logoKneip,
     name: 'Kneip Communication, Luxembourg'
   },
@@ -142,10 +146,6 @@ export const references = [
   },{
     image: logoGlobePayroll,
     name: "GlobePayroll"
-  },
-  {
-    image: logoPrva,
-    name: "Prva Osebna zavarovalnica"
   },
   {
     image: logoSava,
