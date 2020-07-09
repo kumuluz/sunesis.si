@@ -2,17 +2,18 @@ import React, {Component} from "react";
 import * as PropTypes from 'prop-types';
 import {Row, Col} from 'reactstrap';
 import {FormattedMessage} from "react-intl";
+import {Link} from "gatsby";
 
 import {GoogleAnalyticsService} from "../components/google-analytics/google-analytics.service";
 import {Layout} from "../layouts";
 import SEO from "../components/seo/seo.component";
 
 import "./index.scss";
-import emphasizedPartners from "../assets/images/emphasized-partners.svg";
 import apiEconomy from "../assets/images/index/api-ekonomija.svg";
 import digitalProducts from "../assets/images/index/dig-produkti.svg";
 import digitalization from "../assets/images/index/digitalizacija.svg";
 import newWays from "../assets/images/index/nove-poti.svg";
+import euLogo from "../assets/images/projects/eu_logo_cut.jpg";
 import {TranslationUtil} from "../utils/translation.util";
 import {CustomersSection, DarkFloatingSection, Footer, IndexContent, References} from "../components";
 import {ServicesSection} from "../components/index-page/services-section/services-section";
@@ -58,6 +59,13 @@ class IndexPage extends Component {
             <Layout locale={locale}>
                 <div className="index-page">
                     <SEO siteTitleId={'site.title'} canonical="/" locale={locale}/>
+                    
+                    <div className="eu-sklad">
+                        <Link to="/">
+                            <img src={euLogo} alt="Evropski sklad za regionalni razvoj"/>
+                        </Link>
+                    </div>
+                    
                     <div className="index-header">
                         <div className="index-header-content">
                             <div className="index-header-title">
@@ -125,7 +133,7 @@ class IndexPage extends Component {
                     </div>
                     
                     <div className="index-services-section">
-                        <DarkFloatingSection topContent={<ServicesSection locale={locale} showCoreServices={true}/>} />
+                        <DarkFloatingSection topContent={<ServicesSection locale={locale} showCoreServices={true}/>}/>
                         <div className="dark-blue-white-arrow"/>
                     </div>
                     
