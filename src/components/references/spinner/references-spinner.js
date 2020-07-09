@@ -30,7 +30,7 @@ export class ReferencesSpinner extends Component {
         };
         
         return (
-            <Carousel responsive={responsive} arrows={true} swipeable={true} infinite={true} autoPlay={false} autoPlaySpeed={2000}>
+            <Carousel responsive={responsive} arrows={false} swipeable={true} infinite={true} autoPlay={true} autoPlaySpeed={2000}>
                 {references.map((reference, index) => (
                     <div className="spinner-item" key={index}>
                         <img src={reference.image} alt={reference.name}/>
