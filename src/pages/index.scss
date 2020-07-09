@@ -205,9 +205,6 @@ $phone-width: 90%;
 }
 
 @include device-specific($tablet) {
-  .eu-sklad {
-    display: none;
-  }
 
   .index-page {
     .index-header {
