@@ -175,7 +175,9 @@ $phone-width: 90%;
 }
 
 @include device-specific($tablet-landscape) {
-
+  .eu-sklad {
+    bottom: 160px;
+  }
   .index-page {
     .index-header {
       .index-header-content {
@@ -205,9 +207,22 @@ $phone-width: 90%;
 }
 
 @include device-specific($tablet) {
+  .eu-sklad {
+    margin-top: 25px;
+    margin-right: 25px;
+    display: flex;
+    position: static;
+    justify-content: flex-end;
+
+    img {
+      width: 50%;
+    }
+  }
 
   .index-page {
     .index-header {
+      margin-top: 20px;
+
       .index-header-content {
         width: $tablet-width;
       }
