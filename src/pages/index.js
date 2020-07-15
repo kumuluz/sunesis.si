@@ -61,7 +61,7 @@ class IndexPage extends Component {
                     <SEO siteTitleId={'site.title'} canonical="/" locale={locale}/>
                     
                     <div className="eu-sklad">
-                        <Link to="/">
+                        <Link to="/projects/optimizacija-procesov/">
                             <img src={euLogo} alt="Evropski sklad za regionalni razvoj"/>
                         </Link>
                     </div>
