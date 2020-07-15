@@ -177,6 +177,10 @@ $phone-width: 90%;
 @include device-specific($tablet-landscape) {
   .eu-sklad {
     bottom: 160px;
+
+    img {
+      width: 35%;
+    }
   }
   .index-page {
     .index-header {
