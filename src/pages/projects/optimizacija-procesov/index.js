@@ -41,13 +41,13 @@ export default class ProcessOptimizationPage extends Component {
                     
                     <Container fluid={true} className="process-opt-logos">
                         <Row className="justify-content-center">
-                            <Col sm={8} md={3} lg={2} className="sponsor-logo">
+                            <Col xs={10} sm={8} md={3} lg={3} xl={2} className="sponsor-logo">
                                 <img src={euLogo} alt="EU"/>
                             </Col>
-                            <Col sm={8} md={3} lg={2} className="sponsor-logo">
+                            <Col xs={10} sm={8} md={3} lg={3} xl={2} className="sponsor-logo">
                                 <img src={spiritSloveniaLogo} alt="Spirit Slovenia"/>
                             </Col>
-                            <Col sm={8} md={3} lg={2} className="sponsor-logo">
+                            <Col xs={10} sm={8} md={3} lg={3} xl={2} className="sponsor-logo">
                                 <img src={ministryLogo} alt="RS - Ministry for economical development and technology"/>
                             </Col>
                         </Row>
