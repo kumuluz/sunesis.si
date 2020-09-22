@@ -50,6 +50,43 @@ export default class ProjectsPage extends Component {
                             </Col>
                         </Row>
                     </Container>
+                    
+                    <Container fluid={true} className="project-header">
+                        <Row className="align-items-center flex-column">
+                            <Col xs={12} className="justify-content-center d-flex">
+                                <h2 className="text-center">
+                                    Projekt EDISON WINCI <br/>(ang. Eco Driving Innovative SOlutions and Networking - Wireless Induction Charging Infrastructure)
+                                </h2>
+                            </Col>
+                        </Row>
+                        <Row className="justify-content-center mt-5">
+                            <Col xs={12} md={10} lg={8}>
+                                <p>
+                                    EDISON WINCI - Razvoj infrastrukture, kompetenc in gradnikov poslovnih modelov logističnih sistemov električnih vozil z brezkontaktnim polnjenjem
+                                </p>
+                                <p>
+                                    V projektu obravnavamo tehnologijo brezžičnega polnjenja, kot enega od ključnih tehnoloških omogočiteljev (KET), ki v kombinaciji z drugimi hitro razvijajočimi tehnologijami (veriženje blokov, internet storitev/stvari, družbena omrežja, računalniški oblak in pametni telefoni ...) omogoča razvoj novih inovativnih poslovnih modelov multimodalne mobilnosti, ki podpirajo tudi razvoj delitvene ekonomije.
+                                </p>
+                                <p>
+                                    Zato želimo partnerji konzorcija v Sloveniji kot prvi razviti in v realnem okolju validirati manjkajoče ključne gradnike celovitega podpornega okolja, ki bodo omogočali enostavno brezkontaktno polnjenje električnih vozil in s tem podpirali razvoj inovativnih poslovnih modelov delitvene ekonomije med uporabniki in ponudniki (energije, infrastrukture, komponent, storitev, vozil idr.).
+                                </p>
+                            </Col>
+                        </Row>
+                        <Row className="justify-content-center mt-4">
+                            <Col xs={12} md={10} lg={8}>
+                                <p className="text-center">NALOŽBO SOFINANCIRATA REPUBLIKA SLOVENIJA IN EVROPSKA UNIJA
+                                    IZ EVROPSKEGA SKLADA ZA REGIONALNI RAZVOJ</p>
+                            </Col>
+                        </Row>
+                        <Row className="justify-content-center mt-1">
+                            <Col xs={8} className="d-flex justify-content-center">
+                                <a className="skladi-url" href="http://www.eu-skladi.si" target="_blank"
+                                    rel="noreferrer noopener">
+                                    www.eu-skladi.si
+                                </a>
+                            </Col>
+                        </Row>
+                    </Container>
 
                     <Container fluid={true} className="project-header">
                         <Row className="align-items-center flex-column">
