@@ -1,6 +1,12 @@
 @import '../../layouts/variables.scss';
 @import '../../layouts/media-mixin.scss';
 
+
+.right-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .navbar-dark {
   .nav-item a.nav-link {
     color: $blue-300;

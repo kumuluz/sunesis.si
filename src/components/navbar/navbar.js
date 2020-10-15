@@ -110,7 +110,7 @@ export class NavbarComponent extends Component {
                                     </NavItem>
                                 ))}
                             </Nav>
-                            <Nav className="ml-auto" navbar>
+                            <Nav className="ml-auto right-navbar" navbar>
                                 {rightNavigationLinks.map(
                                     (nav, key) =>
                                         (nav.children && (
