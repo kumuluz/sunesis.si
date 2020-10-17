@@ -2,7 +2,7 @@
 
 .lang {
   margin-bottom: 60px;
-  min-width: 75px;
+  min-width: 80px;
 
   img {
     max-width: 40px;
@@ -44,7 +44,7 @@
 }
 
 .lang.compact {
-  margin-bottom: 0;
+  margin-bottom: -10px;
   font-size: 1rem;
   color: $blue-300;
 
