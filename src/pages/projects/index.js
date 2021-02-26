@@ -12,6 +12,7 @@ import ministryLogo from "../../assets/images/projects/ministry_logo.png";
 import crowdsensingLogo from "../../assets/images/projects/crowdsensing_logo.png";
 import uhubLogo from "../../assets/images/projects/uhub_logo.png";
 import apiSponsorLogo from "../../assets/images/projects/sponsor_logo_1.png";
+import apiHeaderLogo from "../../assets/images/projects/api_header.png";
 import {Layout} from "../../layouts";
 
 export default class ProjectsPage extends Component {
@@ -41,9 +42,6 @@ export default class ProjectsPage extends Component {
                         <div className="arrow"/>
                     </Container>
     
-    
-    
-    
                     <Container fluid={true}>
                         <Row className="justify-content-center">
                             <Col sm={12} md={4} lg={2} className="sponsor-logo">
@@ -60,14 +58,14 @@ export default class ProjectsPage extends Component {
     
                     <Container fluid={true} className="project-header">
                         <Row className="align-items-center flex-column">
-                            <Col xs={12} className=" d-flex flex-column align-items-center">
-                                <h2 className="text-center api-header">
-                                    Kumuluz
-                                    <span className="api-emph">API</span>
-                                </h2>
-                                <h3>
+    
+                            <Col xs={12} className="justify-content-center d-flex">
+                                <img className="crowdsensing-logo api-logo" src={apiHeaderLogo} alt="Kumuluz API"/>
+                            </Col>
+                            <Col xs={12}>
+                                <h2 className="text-center">
                                     Platforma KumuluzAPI za upravljanje ekosistema APIjev v okoljih pametnih mest in skupnosti
-                                </h3>
+                                </h2>
                             </Col>
                         </Row>
                         <Row className="justify-content-center mt-5">
