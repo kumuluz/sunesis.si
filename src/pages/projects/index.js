@@ -12,7 +12,6 @@ import ministryLogo from "../../assets/images/projects/ministry_logo.png";
 import crowdsensingLogo from "../../assets/images/projects/crowdsensing_logo.png";
 import uhubLogo from "../../assets/images/projects/uhub_logo.png";
 import apiSponsorLogo from "../../assets/images/projects/sponsor_logo_1.png";
-import apiLogo from "../../assets/images/projects/api_logo – kopija.svg";
 import {Layout} from "../../layouts";
 
 export default class ProjectsPage extends Component {
