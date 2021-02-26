@@ -1,6 +1,8 @@
 @import "../../layouts/variables";
 @import "../../layouts/media-mixin";
 
+$api: #ee875c;
+
 .projects-page {
   .banner-dark {
     background: linear-gradient(to bottom, $blue-300, $blue-400);
@@ -11,9 +13,11 @@
     h1 {
       font-weight: bold;
     }
+
     h2 {
       font-weight: 300;
     }
+
     .arrow {
       width: 0;
       height: 0;
@@ -22,12 +26,35 @@
       border-color: transparent transparent $white transparent;
     }
   }
-  .sponsor-logo {
-    img {
-      width: 400px;
-      height: auto;
+
+  .api-header {
+
+    .api-emph {
+      font-weight: 600;
+      color: $api;
     }
   }
+  .sponsor-logo {
+
+    img {
+      width: 300px;
+      height: auto;
+    }
+
+    &.sponsor-logo-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: unset !important;
+      max-width: unset !important;
+      width: 120px;
+
+      img {
+        width: 100px;
+      }
+    }
+  }
+
   .project-header {
     margin-top: 100px;
 
@@ -37,7 +64,13 @@
       color: $blue-300;
       font-family: $font-rubik;
     }
+    h3 {
+      font-weight: 300;
+      color: $blue-300;
+      font-family: $font-rubik;
+    }
   }
+
   .skladi-url {
     font-size: 1.25rem;
   }
@@ -51,6 +84,7 @@
         height: 100%;
       }
     }
+
     .sponsor-logo {
       display: flex;
       justify-content: center;
