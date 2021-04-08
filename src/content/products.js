@@ -16,7 +16,7 @@ export const products = (locale) => [
         name: <div dangerouslySetInnerHTML={{__html: TranslationUtil.translate(locale,'products.kumuluzAPI.title')}}/>,
         description: TranslationUtil.translate(locale,'products.kumuluzAPI.description'),
         transformation: TranslationUtil.translate(locale,'products.kumuluzAPI.transformation'),
-        href: KUMULUZ_URL + '/digital-components/api',
+        href: KUMULUZAPI_URL,
         external: true
     },
     {
