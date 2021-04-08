@@ -1,5 +1,5 @@
 import React from 'react';
-import {KUMULUZ_URL} from "./constants";
+import {KUMULUZ_URL, KUMULUZAPI_URL} from "./constants";
 import {TranslationUtil} from "../utils/translation.util";
 
 export const products = (locale) => [
