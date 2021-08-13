@@ -14,7 +14,8 @@ export const rightNavigationLinks = [
         children: [
             {href: '/about/sunesis', name: 'menu.aboutUs.aboutUs'},
             {href: '/about/references', name: 'menu.aboutUs.references'},
-            {href: '/about/awards', name: 'menu.aboutUs.awards'}
+            {href: '/about/awards', name: 'menu.aboutUs.awards'},
+            {href: '/projects', name: 'menu.aboutUs.projects'}
         ]
     },
     {href: BLOG_URL, name: 'menu.blog', external: true},

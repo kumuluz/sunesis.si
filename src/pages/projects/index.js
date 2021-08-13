@@ -29,7 +29,7 @@ export default class ProjectsPage extends Component {
         const {pageContext} = this.props;
         const locale = pageContext.locale;
         return (
-            <Layout locale={"en"}>
+            <Layout locale={locale}>
                 <div className="projects-page">
                     <Helmet title="Projekti"/>
 
