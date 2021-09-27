@@ -286,7 +286,11 @@ export default class ProjectsPage extends Component {
                                     in relevantnosti pošt, kot na izziv vse večje izključenosti lokalnih skupnosti iz
                                     ekonomskih odnosov. UHUB skozi transformacijo Pošte inovativno naslovi in rešuje oba
                                     problema. Osredotočen je na lokalne skupnosti, omogoča lokalno kroženje dobrin ter s
-                                    tem samouravnalni mehanizem ponudbe in povpraševanja.</p>
+                                    tem samouravnalni mehanizem ponudbe in povpraševanja.<br/>
+                                    Po sklepu Ministrstva za gospodarski razvoj in tehnologijo je projekt UHUB, ki ga je 
+                                    prijavil konzorcij partnerjev APS PLUS, Result in Sunesis, prejel sofinanciranje 
+                                    prijavljenega projekta v skladu z oddano vlogo v višini največ do 499.561,99 EUR 
+                                    nepovratnih sredstev.</p>
                             </Col>
                         </Row>
                         <Row className="justify-content-center mt-4">
