@@ -28,7 +28,7 @@
     "react-intl": "^2.8.0",
     "react-multi-carousel": "^2.5.5",
     "reactstrap": "^7.1.0",
-    "validator": "^10.11.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.2.5",
