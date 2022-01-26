@@ -59,7 +59,6 @@
   "business-apis": {
     "title": "Kumuluz Poslovni API-ji",
     "payment": "Payment",
-    "ccm": "CCM",
     "product-catalog": "Product catalog",
     "cart": "Cart",
     "order": "Order",
@@ -176,8 +175,7 @@
       "title": "Podjetje",
       "link1": "O nas",
       "link2": "Nagrade",
-      "link3": "Novice",
-      "link4": "Kariera"
+      "link3": "Novice"
     }
   },
   "copyright": "&copy; Sunesis, Vse pravice pridržane",

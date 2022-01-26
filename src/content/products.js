@@ -108,11 +108,6 @@ export const businessApis = (locale) => [
         external: true
     },
     {
-        title: TranslationUtil.translate(locale,"business-apis.ccm"),
-        url: KUMULUZ_URL + "/business-apis/ccm",
-        external: true
-    },
-    {
         title: TranslationUtil.translate(locale,"business-apis.subscription"),
         url: KUMULUZ_URL + "/business-apis/subscription",
         external: true

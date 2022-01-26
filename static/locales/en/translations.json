@@ -60,7 +60,6 @@
   "business-apis": {
     "title": "Kumuluz Business APIs",
     "payment": "Payment",
-    "ccm": "CCM",
     "product-catalog": "Product catalog",
     "cart": "Cart",
     "order": "Order",
@@ -177,8 +176,7 @@
       "title": "Company",
       "link1": "About us",
       "link2": "Rewards",
-      "link3": "News",
-      "link4": "Careers"
+      "link3": "News"
     }
   },
   "copyright": "&copy; Sunesis, All rights reserved",

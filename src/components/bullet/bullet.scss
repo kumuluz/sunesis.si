@@ -46,10 +46,10 @@ li.bullet.open:before {
 li.bullet {
   @mixin specific-product-overrides($product-name) {
     &:before {
-      background-image: url('./colors/chevron-'+$product-name+'.svg');
+      background-image: url('./colors/chevron-' + $product-name + '.svg');
     }
     &.open:before {
-      background-image: url('./colors/chevron-'+$product-name+'-down.svg');
+      background-image: url('./colors/chevron-' + $product-name + '-down.svg');
     }
   }
 

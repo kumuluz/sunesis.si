@@ -5,7 +5,7 @@ export const EE_KUMULUZ_URL = "https://ee.kumuluz.com";
 export const IO_KUMULUZ_URL = "https://www.kumuluz.io";
 export const BLOG_URL = "https://blog.sunesis.si";
 export const GITHUB_ORG_URL = "https://github.com/kumuluz";
-export const KUMULUZAPI_URL = "https://api.sunesis.si";
+export const KUMULUZAPI_URL = "https://kumuluz.com/digital-components/api";
 
 export const SOCIAL = {
     TWITTER_URL: "https://twitter.com/kumuluz",

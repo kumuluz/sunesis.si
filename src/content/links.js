@@ -78,10 +78,6 @@ export const footerLinks = [
                 title: 'footer.company.link3',
                 href: BLOG_URL
             },
-            {
-                title: 'footer.company.link4',
-                href: ""
-            }
         ]
     }
 ];
