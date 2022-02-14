@@ -159,8 +159,8 @@
       border-color: $white transparent transparent transparent;
     }
     .white-arrow-reversed {
-      position: absolute;
-      bottom: 0;
+      position: relative;
+      top: -60px;
       z-index: 1;
       width: 0;
       height: 0;
@@ -303,8 +303,8 @@
       border-color: $white transparent transparent transparent;
     }
     .white-arrow-reversed {
-      position: absolute;
-      bottom: 0;
+      position: relative;
+      top: -120px;
       z-index: 1;
       width: 0;
       height: 0;
@@ -449,8 +449,8 @@
       border-color: $white transparent transparent transparent;
     }
     .white-arrow-reversed {
-      position: absolute;
-      bottom: 0;
+      position: relative;
+      top: -240px;
       z-index: 1;
       width: 0;
       height: 0;

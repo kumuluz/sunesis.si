@@ -1,56 +1,50 @@
-import React, {Component} from "react";
+import React from "react";
 import * as PropTypes from "prop-types";
 
 import "./toggler.scss";
-import {FormattedMessage} from "react-intl";
+import {useI18next} from "gatsby-plugin-react-i18next";
 
-export class Toggler extends Component {
-    static propTypes = {
-        activeTab: PropTypes.number,
-        clicked: PropTypes.func
+export function Toggler({activeTab, clicked}) {
+    const {t} = useI18next("index");
+    
+    function openTab(newTab) {
+        clicked(newTab);
     }
     
-    
-    constructor(props) {
-        super(props);
-        this.openTab = this.openTab.bind(this);
-    }
-    
-    openTab(newTab) {
-        this.props.clicked(newTab);
-    }
-    
-    getTogglerStyle(index) {
-        if (index === this.props.activeTab) {
+    function getTogglerStyle(index) {
+        if (index === activeTab) {
             return "selected underline"
         } else {
             return "underline"
         }
     }
     
-    render() {
-        return (
-            <div className="content-toggler-component">
-                <div className="toggler-item">
-                    <div className="toggle-title" onClick={() => this.openTab(0)}>
-                        <FormattedMessage id="index-page.content.toggler.digitalization"/>
-                    </div>
-                    <div className={this.getTogglerStyle(0)}/>
-                </div>
-                <div className="toggler-item">
-                    <div className="toggle-title" onClick={() => this.openTab(1)}>
-                        <FormattedMessage id="index-page.content.toggler.development"/>
-                    </div>
-                    <div className={this.getTogglerStyle(1)}/>
-                </div>
-                <div className="toggler-item">
-                    <div className="toggle-title" onClick={() => this.openTab(2)}>
-                        <FormattedMessage id="index-page.content.toggler.knowledge-transfer"/>
-                    </div>
-                    <div className={this.getTogglerStyle(2)}/>
-                </div>
-            </div>
-        );
-    }
     
+    return (
+        <div className="content-toggler-component">
+            <div className="toggler-item">
+                <div className="toggle-title" onClick={() => openTab(0)}>
+                    {t("content.toggler.digitalization")}
+                </div>
+                <div className={getTogglerStyle(0)}/>
+            </div>
+            <div className="toggler-item">
+                <div className="toggle-title" onClick={() => openTab(1)}>
+                    {t("content.toggler.development")}
+                </div>
+                <div className={getTogglerStyle(1)}/>
+            </div>
+            <div className="toggler-item">
+                <div className="toggle-title" onClick={() => openTab(2)}>
+                    {t("content.toggler.knowledge-transfer")}
+                </div>
+                <div className={getTogglerStyle(2)}/>
+            </div>
+        </div>
+    );
 }
+
+Toggler.propTypes = {
+    activeTab: PropTypes.number,
+    clicked: PropTypes.func
+};

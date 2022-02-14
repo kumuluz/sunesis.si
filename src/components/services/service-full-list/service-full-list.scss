@@ -6,6 +6,12 @@
   display: none !important;
 }
 
+.full-list-component {
+  li {
+    list-style-type: none;
+  }
+}
+
 @include device-specific($phone) {
   .flc-list-item {
     display: flex;

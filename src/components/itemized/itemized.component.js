@@ -1,43 +1,34 @@
-import React, {Component} from "react";
+import React from "react";
 import * as PropTypes from "prop-types";
-import {FormattedMessage} from "react-intl";
 
 import "./itemized.component.scss";
+import {useI18next} from "gatsby-plugin-react-i18next";
 
-export class Itemized extends Component {
-    static propTypes = {
-        trKey: PropTypes.string,
-        label: PropTypes.string,
-        small: PropTypes.bool
-    }
-    static defaultProps = {
-        small: false
-    }
+export function Itemized(props) {
+    const {trKey, label, small = false} = props;
+    const {t} = useI18next();
     
-    constructor(props) {
-        super(props);
-    }
-    
-    renderContent() {
-        const {trKey, label} = this.props;
+    const renderContent = () => {
         if (trKey) {
-            return (<FormattedMessage id={trKey} />);
+            return (<span>{t(trKey)}</span>);
         }
         return (<span>{label}</span>);
-    }
+    };
     
-    render() {
-        const {small} = this.props;
-        
-        return (
-            <div className="itemized-component">
-                <div className={small ? "box-container box-container-small" : "box-container"}>
-                    <span className="box"/>
-                </div>
-                <div className={small ? "content content-small" : "content"}>
-                    {this.renderContent()}
-                </div>
+    return (
+        <div className="itemized-component">
+            <div className={small ? "box-container box-container-small" : "box-container"}>
+                <span className="box"/>
             </div>
-        );
-    }
+            <div className={small ? "content content-small" : "content"}>
+                {renderContent()}
+            </div>
+        </div>
+    );
+}
+
+Itemized.propTypes = {
+    trKey: PropTypes.string,
+    label: PropTypes.string,
+    small: PropTypes.bool
 }
