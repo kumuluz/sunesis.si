@@ -3,7 +3,6 @@ import {Navbar as ReactNavbar, Collapse, Nav, NavItem, Dropdown, DropdownToggle,
 
 import {LanguageSelector, Link} from '..';
 
-import sunesisLogo from './sunesis-logo.svg';
 import './navbar.scss';
 
 import {navigationLinks, rightNavigationLinks} from '../../content';
@@ -20,7 +19,7 @@ export function Navbar() {
                 style={{width: "100vw"}}>
                 <div className="container">
                     <Link external={false} to="/" className="navbar-brand" style={{marginLeft: "10px"}}>
-                        <img src={navbarState.sunesisLogo ? navbarState.sunesisLogo : sunesisLogo} alt=""/>
+                        <img src={navbarState.sunesisLogo} alt=""/>
                     </Link>
                     <NavbarToggler onClick={() => toggle()} style={{marginRight: "10px"}}/>
                     <Collapse isOpen={navbarState.isOpen} navbar>

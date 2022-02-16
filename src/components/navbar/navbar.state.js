@@ -3,6 +3,13 @@ import {MEDIA_TABLET, returnScreenSize} from "../../layouts/common";
 import sunesisLogo from "./sunesis-logo.svg";
 import sunesisWhiteLogo from "./sunesis-logo-white.svg";
 
+function getLogo() {
+    const screenSize = returnScreenSize();
+    if (screenSize > MEDIA_TABLET) {
+        return sunesisLogo;
+    }
+    return sunesisWhiteLogo;
+}
 
 
 export function useNavbarState() {
@@ -10,14 +17,13 @@ export function useNavbarState() {
     const [state, setter] = useState({
         isOpen: false,
         dropdownOpen: false,
-        sunesisLogo: returnScreenSize() > MEDIA_TABLET ? sunesisLogo : sunesisWhiteLogo
     });
     
     function onWindowResize() {
         setter(prevState => {
             return {
                 ...prevState,
-                sunesisLogo: returnScreenSize() > MEDIA_TABLET ? sunesisLogo : sunesisWhiteLogo
+                sunesisLogo: getLogo(),
             };
         });
     }
