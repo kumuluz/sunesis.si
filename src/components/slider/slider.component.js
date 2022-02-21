@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import PropType from "prop-types";
-import Link from "gatsby-link";
 import anime from "animejs";
 import {Row, Col} from "reactstrap";
 
 import "./slider.component.scss";
 import {MEDIA_PHONE, returnScreenSize} from "../../layouts/common";
 import arrow from "../../assets/images/arrow.svg";
+import {Link} from "../link/link.component";
 
 export class SliderComponent extends Component {
 

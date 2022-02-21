@@ -4,24 +4,24 @@ import carouselSeize from "../../assets/images/carousel_seize.svg";
 import carouselDeliver from "../../assets/images/carousel_deliver.svg";
 
 
-export const benefits = [
+export const benefits = t => [
     {
         icon: carouselDevelop,
-        title: 'technologies-page.benefits.benefit1.title',
-        description: 'technologies-page.benefits.benefit1.description'
+        title: t('benefits.benefit1.title'),
+        description: t('benefits.benefit1.description'),
     },
     {
         icon: carouselProduce,
-        title: 'technologies-page.benefits.benefit2.title',
-        description: 'technologies-page.benefits.benefit2.description'
+        title: t('benefits.benefit2.title'),
+        description: t('benefits.benefit2.description')
     },
     {
         icon: carouselSeize,
-        title: 'technologies-page.benefits.benefit3.title',
-        description: 'technologies-page.benefits.benefit3.description'
+        title: t('benefits.benefit3.title'),
+        description: t('benefits.benefit3.description')
     }, {
         icon: carouselDeliver,
-        title: 'technologies-page.benefits.benefit4.title',
-        description: 'technologies-page.benefits.benefit4.description'
+        title: t('benefits.benefit4.title'),
+        description: t('benefits.benefit4.description')
     }
 ];

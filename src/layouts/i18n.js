@@ -1,3 +1,4 @@
+/* UNUSED
 import i18n from 'i18next';
 import Backend from 'i18next-xhr-backend';
 import Cache from 'i18next-localstorage-cache';
@@ -60,3 +61,4 @@ i18n.addResourceBundle('sl', 'customers', slCustomers);
 i18n.addResourceBundle('sl', 'about', slAbout);
 
 export default i18n;
+*/

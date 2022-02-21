@@ -1,54 +1,31 @@
-import React, {Component} from "react";
-import Helmet from "react-helmet";
-import * as PropTypes from "prop-types";
-import {injectIntl, intlShape} from "react-intl";
+import React from "react";
+import {Helmet, useI18next} from "gatsby-plugin-react-i18next";
 import languages from "../../i18n/languages";
 
-
-class SEO extends Component {
-
-    static propTypes = {
-        siteTitleId: PropTypes.oneOfType([
-            PropTypes.string,
-            PropTypes.array
-        ]),
-        locale: PropTypes.string,
-        canonical: PropTypes.string,
-        intl: intlShape.isRequired
-    };
-
-    constructor(props) {
-        super(props);
-    }
-
-    buildSiteTitle() {
-        const {siteTitleId, intl} = this.props;
+export function SEO({siteTitleId, canonical}) {
+    const {t, i18n} = useI18next();
+    const locale = i18n.language;
+    
+    function buildSiteTitle() {
         if (typeof siteTitleId === "string") {
-            return intl.formatMessage({id: siteTitleId});
+            return t(siteTitleId);
         } else {
             return siteTitleId.map(id => {
-                return intl.formatMessage({id: id});
+                return t(id);
             }).join(" - ");
         }
     }
-
-    buildCanonicalLink() {
-        const {canonical, locale} = this.props;
+    
+    function buildCanonicalLink() {
         const path = languages[locale].default ? canonical : `/${locale}${canonical}`;
         return `https://sunesis.si${path}`;
     }
-
-    render() {
-        const {locale, canonical} = this.props;
-        const siteTitle = this.buildSiteTitle();
-        return (
-            <Helmet title={siteTitle} htmlAttributes={{lang: locale}}>
-                {canonical && (
-                    <link rel="canonical" href={this.buildCanonicalLink()}/>
-                )}
-            </Helmet>
-        );
-    }
+    
+    return (
+        <Helmet title={buildSiteTitle()} htmlAttributes={{lang: locale}}>
+            {canonical && (
+                <link rel="canonical" href={buildCanonicalLink()}/>
+            )}
+        </Helmet>
+    );
 }
-
-export default injectIntl(SEO);

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
 import { Container, Row, Col } from 'reactstrap';
 
 import './products-summary.scss';
+import {Link} from "../../link/link.component";
 
 export class ProductsSummary extends Component {
   static propTypes = {
@@ -45,7 +45,7 @@ export class ProductsSummary extends Component {
                       {section.title}
                     </div>
                   )) || (
-                    <Link key={key} to={section.href} target="_blank" className="section-title mr-3 mb-3">
+                    <Link key={key} to={section.href} external={true} className="section-title mr-3 mb-3">
                       <img src={section.icon} />
                       {section.title}
                     </Link>

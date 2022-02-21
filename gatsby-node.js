@@ -3,7 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
-const languages = require("./src/i18n/languages");
+/*const languages = require("./src/i18n/languages");
 
 exports.onCreatePage = ({page, actions}) => {
     const {createPage, deletePage} = actions;
@@ -24,3 +24,4 @@ exports.onCreatePage = ({page, actions}) => {
     });
 
 };
+*/
