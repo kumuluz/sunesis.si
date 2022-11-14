@@ -181,7 +181,7 @@ export const articles = [
         content: 'In this paper, we present a qualitative study that compares both KumuluzEE and Spring Cloud & NetFlix OSS frameworks through functional and non-functional requirements. <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/8786337">Link</a>'
     },
     {
-        title: 'MicroProfile Runtimes Overview',
+        title: 'MicroProfile Runtimes Overview (Adam Bien)',
         date: '2019-10-24',
         content: '<a target="_blank" rel="noopener noreferrer" href="https://www.adam-bien.com/roller/abien/entry/microprofile_runtimes_overview">Link</a>'
     },
@@ -196,7 +196,7 @@ export const articles = [
         content: 'This book is for Java developers that want to quickly learn how to create a REST API using MicroProfile. <a target="_blank" rel="noopener noreferrer" href="https://cicekhayri.github.io/ebook-Building-an-API-Backend-with-MicroProfile/building-an-api-backend-with-microprofile.html">Link</a>'
     },
     {
-        title: 'MicroProfile Runtimes Overview',
+        title: 'MicroProfile Runtimes Overview (Eclipse Foundation)',
         date: '2019-10-24',
         content: '<a target="_blank" rel="noopener noreferrer" href="https://www.eclipse.org/community/eclipse_newsletter/2019/november/2.php">Link</a>'
     }
