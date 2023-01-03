@@ -53,6 +53,18 @@ $api: #ee875c;
         width: 100px;
       }
     }
+    &.sponsor-logo-2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: unset !important;
+      max-width: unset !important;
+      width: 200px;
+
+      img {
+        width: 180px;
+      }
+    }
   }
 
   .project-header {
@@ -71,6 +83,10 @@ $api: #ee875c;
     }
     .api-logo {
       height: 70px !important;
+    }
+
+    &.small-header {
+      margin-top: 60px;
     }
   }
 

@@ -11,6 +11,9 @@ import crowdsensingLogo from "../../assets/images/projects/crowdsensing_logo.png
 import uhubLogo from "../../assets/images/projects/uhub_logo.png";
 import apiSponsorLogo from "../../assets/images/projects/sponsor_logo_1.png";
 import apiHeaderLogo from "../../assets/images/projects/api_header.png";
+import nextGenEuLogo from "../../assets/images/projects/nextgen-eu.png";
+import nooLogo from "../../assets/images/projects/noo.png";
+import ministryGRITLogo from "../../assets/images/projects/ministry_grit.png";
 import {Layout} from "../../layouts";
 import {graphql} from "gatsby";
 
@@ -19,7 +22,7 @@ export default function ProjectsPage() {
         <Layout>
             <div className="projects-page">
                 <Helmet title="Projekti - Sunesis"/>
-                
+
                 <Container fluid={true} className="banner-dark pl-0 pr-0">
                     <Row className="justify-content-center m-0">
                         <Col xs="12">
@@ -28,7 +31,68 @@ export default function ProjectsPage() {
                     </Row>
                     <div className="arrow"/>
                 </Container>
-                
+
+                <Container fluid={true}>
+                    <Row className="justify-content-center">
+                        <Col sm={12} md={4} lg={2} className="sponsor-logo sponsor-logo-2">
+                            <img src={nextGenEuLogo} alt="Next Gen EU"/>
+                        </Col>
+                        <Col sm={12} md={4} lg={2} className="sponsor-logo sponsor-logo-2">
+                            <img src={nooLogo} alt="NOO"/>
+                        </Col>
+                        <Col sm={12} md={4} lg={2} className="sponsor-logo sponsor-logo-2">
+                            <img src={ministryGRITLogo} alt="Ministry GRIT"/>
+                        </Col>
+                    </Row>
+                </Container>
+
+                <Container fluid={true} className="project-header small-header mb-5">
+                    <Row className="align-items-center flex-column">
+                        <Col xs={12}>
+                            <h2 className="text-center">GRAD 4.0</h2>
+                        </Col>
+                    </Row>
+                    <Row className="justify-content-center mt-5">
+                        <Col xs={12} md={10} lg={8}>
+                            <p>
+                                Konzorcij podjetij v sestavi <strong>GIC Gradnje d.o.o., SRC d.o.o., Robotina d.o.o. in
+                                Sunesis
+                                d.o.o.</strong> je pridobil sredstva EU v okviru razpisa Digitalna preobrazba
+                                gospodarstva za
+                                izvedbo projekta <strong>Gradbeništvo 4.0</strong>.
+                            </p>
+                            <p>
+                                Namen projekta je izvedba celovite digitalne preobrazbe vodilnega partnerja konzorcija,
+                                podjetja GIC Gradnje, in številnih poslovnih funkcij pri ostalih partnerjih. S tem
+                                naslavljamo glavne izzive, ki jih globalno in posledično tudi v Sloveniji zaznava in
+                                občuti <strong>gradbena panoga</strong>, na kar imajo pomemben vpliv tudi digitalne
+                                tehnologije in
+                                digitalizacija. O ambiciji in zahtevnosti projekta priča predvsem dejstvo, da je
+                                gradbeništvo na samem repu panog po stopnji digitalizacije.
+                            </p>
+                            <p>
+                                Pričakovan rezultat projekta bodo vpeljane <strong>nove metode, procesi in načini
+                                dela</strong> kot
+                                pozitiven učinek <strong>tehnološko napredne digitalne preobrazbe</strong>. Z
+                                aktivnostmi v sklopu
+                                podprojektov <em>Gradbišče 4.0</em> in <em>Betonarna 2.0</em>. bomo prenovili in digitalizirali procese na
+                                gradbiščih in v betonarnah, z vpeljavo <em>Gradbene platforme</em> posodobili upravljanje
+                                postopkov in dokumentacije, z <em>Zgradbo kot platformo</em> pa spremenili način dojemanja
+                                zgradb. Projekt vključuje tudi izdelavo celovite digitalne strategije in namenja velik
+                                poudarek ne samo razvoju in uporabi naprednih digitalnih tehnologij, pač pa tudi dvigu
+                                digitalnih kompetenc zaposlenih, spremembi (digitalne) kulture ter krepitvi zmogljivosti
+                                partnerjev.
+                            </p>
+                            <p>
+                                Projekt je del <a
+                                target="_blank" rel="noreferrer noopener"
+                                href="https://www.gov.si/zbirke/projekti-in-programi/nacrt-za-okrevanje-in-odpornost"
+                            >Načrta za okrevanje in odpornost</a>, ki ga financira Mehanizem za okrevanje in odpornost.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
+
                 <Container fluid={true}>
                     <Row className="justify-content-center">
                         <Col sm={12} md={4} lg={2} className="sponsor-logo">
@@ -42,10 +106,10 @@ export default function ProjectsPage() {
                         </Col>
                     </Row>
                 </Container>
-                
+
                 <Container fluid={true} className="project-header">
                     <Row className="align-items-center flex-column">
-                        
+
                         <Col xs={12} className="justify-content-center d-flex">
                             <img className="crowdsensing-logo api-logo" src={apiHeaderLogo} alt="Kumuluz API"/>
                         </Col>
@@ -91,14 +155,14 @@ export default function ProjectsPage() {
                     <Row className="justify-content-center mt-1">
                         <Col xs={8} className="d-flex justify-content-center">
                             <a className="skladi-url" href="http://www.eu-skladi.si" target="_blank"
-                                rel="noreferrer noopener">
+                               rel="noreferrer noopener">
                                 www.eu-skladi.si
                             </a>
                         </Col>
                     </Row>
                 </Container>
-                
-                
+
+
                 {/*<Container fluid={true}>*/}
                 {/*    <Row className="justify-content-center">*/}
                 {/*        <Col sm={12} md={6} lg={3} className="sponsor-logo">*/}
@@ -109,7 +173,7 @@ export default function ProjectsPage() {
                 {/*        </Col>*/}
                 {/*    </Row>*/}
                 {/*</Container>*/}
-                
+
                 <Container fluid={true} className="project-header">
                     <Row className="align-items-center flex-column">
                         <Col xs={12} className="justify-content-center d-flex">
@@ -127,15 +191,15 @@ export default function ProjectsPage() {
                                 target="_blank" rel="noreferrer noopener"
                                 href="https://www.gov.si/zbirke/javne-objave/javni-razpis-demo-piloti-ii-2018/">Demo
                                 piloti II 2018</a>«, ki ga je razpisalo <a target="_blank" rel="noreferrer noopener"
-                                href="https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-gospodarski-razvoj-in-tehnologijo/">Ministrstvo
+                                                                           href="https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-gospodarski-razvoj-in-tehnologijo/">Ministrstvo
                                 za gospodarski razvoj in tehnologijo - MGRT</a>.
                             </p>
-                            
+
                             <p>NAZIV PROJEKTA:
                                 EDISON WINCI - Razvoj infrastrukture, kompetenc in gradnikov poslovnih modelov
                                 logističnih sistemov električnih vozil z brezkontaktnim polnjenjem
                             </p>
-                            
+
                             <p>
                                 Na doseganje okoljskih ciljev ima pomemben vpliv razvoj novih, zelenih tehnologij v
                                 mobilnosti, saj ta prispeva k okvirno 30 % celotnih emisij CO2, poleg tega pa je
@@ -148,14 +212,14 @@ export default function ProjectsPage() {
                                 uporabniški izkušnji ter jih spodbujali k širjenju in vnovični uporabi zelene
                                 mobilnosti.
                             </p>
-                            
+
                             <p>
                                 Hitrejši preboj električnih vozil (EV) na trg je mogoče pospešiti z več ukrepi. Eden od
                                 teh je razvoj brezstičnega polnjenja EV, ki temelji na ustvarjanju magnetnega polja in
                                 posledično električnega toka med oddajnimi tuljavami v vozišču oz. vozni podlagi ter
                                 sprejemnimi tuljavami v vozilu. Naša rešitev bo s pomočjo brezkontaktnega polnjenja
                                 omogočala:
-                                
+
                                 <ul>
                                     <li>zmanjšanje količine potrebnih baterij in s tem zmanjšanje teže in cene vozila,
                                     </li>
@@ -169,11 +233,11 @@ export default function ProjectsPage() {
                                     </li>
                                     <li>enostavno zaračunavanje stroškov porabljene električne energije,</li>
                                 </ul>
-                                
+
                                 s čimer bodo električna vozila postala privlačnejša, njihova uporaba pa bo omogočala več
                                 udobja v primerjavi s klasičnimi vozili.
                             </p>
-                            
+
                             <p>
                                 V projektu obravnavamo tehnologijo brezžičnega polnjenja, kot enega od ključnih
                                 tehnoloških omogočiteljev (KET), ki v kombinaciji z drugimi hitro razvijajočimi
@@ -211,14 +275,14 @@ export default function ProjectsPage() {
                                 električnega vozila in demonstracije delovanja razvitih komponent sistema ter novo
                                 razvitih tehnologij. 5 demonstracij novih rešitev.
                             </p>
-                            
+
                             <p>
                                 <strong>Vodilni partner:</strong>
                                 <ul>
                                     <li>HIDRIA, razvoj in proizvodnja avtomobilskih in industrijskih sistemov, d.o.o.
                                     </li>
                                 </ul>
-                                
+
                                 <strong>Partnerji:</strong>
                                 <ul>
                                     <li>Abelium d.o.o., raziskave in razvoj</li>
@@ -231,7 +295,7 @@ export default function ProjectsPage() {
                             </p>
                             <p>OBDOBJE: 1. 10. 2019 - 31. 5. 2022</p>
                             <p>VODJE / KOORDINATORJI:
-                                
+
                                 <ul>
                                     <li>dr. Vitoslav Bratuš - HIDRIA d.o.o.</li>
                                     <li>dr. Alen Orbanić - Abelium d.o.o.</li>
@@ -253,13 +317,13 @@ export default function ProjectsPage() {
                     <Row className="justify-content-center mt-1">
                         <Col xs={8} className="d-flex justify-content-center">
                             <a className="skladi-url" href="http://www.eu-skladi.si" target="_blank"
-                                rel="noreferrer noopener">
+                               rel="noreferrer noopener">
                                 www.eu-skladi.si
                             </a>
                         </Col>
                     </Row>
                 </Container>
-                
+
                 <Container fluid={true} className="project-header">
                     <Row className="align-items-center flex-column">
                         <Col xs={12} className="justify-content-center d-flex">
@@ -303,13 +367,13 @@ export default function ProjectsPage() {
                     <Row className="justify-content-center mt-1">
                         <Col xs={8} className="d-flex justify-content-center">
                             <a className="skladi-url" href="http://www.eu-skladi.si" target="_blank"
-                                rel="noreferrer noopener">
+                               rel="noreferrer noopener">
                                 www.eu-skladi.si
                             </a>
                         </Col>
                     </Row>
                 </Container>
-                
+
                 <Container fluid={true} className="project-header">
                     <Row className="align-items-center flex-column">
                         <Col xs={12} className="justify-content-center d-flex">
@@ -350,18 +414,18 @@ export default function ProjectsPage() {
                     <Row className="justify-content-center mt-1">
                         <Col xs={8} className="d-flex justify-content-center">
                             <a className="skladi-url" href="http://www.eu-skladi.si" target="_blank"
-                                rel="noreferrer noopener">
+                               rel="noreferrer noopener">
                                 www.eu-skladi.si
                             </a>
                         </Col>
                     </Row>
                 </Container>
-                
+
                 <Footer social/>
             </div>
         </Layout>
     );
-    
+
 }
 
 export const query = graphql`
