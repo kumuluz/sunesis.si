@@ -23,7 +23,7 @@ export function ProjectAgriTrace() {
             <Container fluid={true} className="project-header small-header mb-5 mt-2">
                 <Row className="align-items-center flex-column">
                     <Col xs={12}>
-                        <h2 className="text-center">Platforma AgriTrace za generiranje in upravljanje zelenih
+                        <h2 className="text-center">Platforma AgriTrace<br/> za generiranje in upravljanje zelenih
                             vrednostnih verig</h2>
                     </Col>
                 </Row>
