@@ -2,7 +2,7 @@ import {Col, Container, Row} from "reactstrap";
 import React from "react";
 import nextGenEuLogo from "../../assets/images/projects/nextgen-eu.png";
 import nooLogo from "../../assets/images/projects/noo.png";
-import ministryGRITLogo from "../../assets/images/projects/ministry_grit.png";
+import ministryGRITLogo from "../../assets/images/projects/ministry_grit_v2.png";
 
 export function ProjectAgriTrace() {
     return (
@@ -20,7 +20,7 @@ export function ProjectAgriTrace() {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid={true} className="project-header small-header mb-5">
+            <Container fluid={true} className="project-header small-header mb-5 mt-2">
                 <Row className="align-items-center flex-column">
                     <Col xs={12}>
                         <h2 className="text-center">Platforma AgriTrace za generiranje in upravljanje zelenih
