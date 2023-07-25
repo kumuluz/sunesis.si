@@ -12,7 +12,7 @@ export function ProjectAgriTrace() {
                     <Col sm={12} md={4} lg={2} className="sponsor-logo sponsor-logo-2">
                         <img src={nextGenEuLogo} alt="Next Gen EU"/>
                     </Col>
-                    <Col sm={12} md={4} lg={2} className="sponsor-logo sponsor-logo-2">
+                    <Col sm={12} md={4} lg={2} className="sponsor-logo sponsor-logo-2 noo-logo">
                         <img src={nooLogo} alt="NOO"/>
                     </Col>
                     <Col sm={12} md={4} lg={2} className="sponsor-logo sponsor-logo-2">
