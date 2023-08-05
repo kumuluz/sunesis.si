@@ -47,6 +47,7 @@ export function ProjectAgriTrace() {
                             <a href="http://www.noo.gov.si" target="_blank" rel="noreferrer noopener">Mehanizem za okrevanje in odpornost</a>
                             {" "}v okviru{" "}
                             <a href="http://www.evropskasredstva.si" target="_blank" rel="noreferrer noopener">evropskih sredstev</a>.
+                            Skupna vrednost projekta je 499.549,42 EUR, vrednost sofinanciranja pa 299.729,63 EUR. Trajanje: 2022 – 2024.
                         </p>
                     </Col>
                 </Row>
