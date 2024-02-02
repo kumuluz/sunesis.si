@@ -2,16 +2,23 @@ import React from "react";
 import {Helmet, useI18next} from "gatsby-plugin-react-i18next";
 import languages from "../../i18n/languages";
 
-export function SEO({siteTitleId, canonical}) {
+export function SEO({siteTitleId, canonical, translateSiteTitle = true}) {
     const {t, i18n} = useI18next();
     const locale = i18n.language;
     
+    function conditionalTr(id) {
+        if (translateSiteTitle) {
+            return t(id);
+        }
+        return id;
+    }
+    
     function buildSiteTitle() {
         if (typeof siteTitleId === "string") {
-            return t(siteTitleId);
+            return conditionalTr(siteTitleId);
         } else {
             return siteTitleId.map(id => {
-                return t(id);
+                return conditionalTr(id);
             }).join(" - ");
         }
     }
