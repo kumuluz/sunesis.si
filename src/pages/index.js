@@ -56,11 +56,11 @@ const IndexPage = () => {
             <div className="index-page">
                 <SEO siteTitleId={["translations:site.title"]} canonical="/" locale={i18n.language}/>
                 
-                <div className="eu-sklad">
-                    <Link to="/projects/optimizacija-procesov/">
-                        <img src={euLogo} alt="Evropski sklad za regionalni razvoj"/>
-                    </Link>
-                </div>
+                {/*<div className="eu-sklad">*/}
+                {/*    <Link to="/projects/optimizacija-procesov/">*/}
+                {/*        <img src={euLogo} alt="Evropski sklad za regionalni razvoj"/>*/}
+                {/*    </Link>*/}
+                {/*</div>*/}
                 
                 <div className="index-header">
                     <div className="index-header-content">
