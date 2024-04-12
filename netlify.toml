@@ -3,6 +3,6 @@
   publish = "public"
   environment = {NODE_VERSION = "18.12.1"}
 [[redirects]]
-  from = "/interstore/lpc"
+  from = "/interstore/lpc/*"
   to = "https://lpc-generator.netlify.app/:splat"
   status = 200
