@@ -14,7 +14,13 @@
       "ai": "AI/GPT integration",
       "backbase": "Banking software - Backbase platform"
     },
-    "products": "Products",
+    "products": {
+      "title": "Products",
+      "digital-platform": "Digital Platform",
+      "business-api": "Business APIs",
+      "ai-digital-assistant": "AI Digital Assistant",
+      "ai-knowledge-mentor": "AI Knowledge Mentor"
+    },
     "customers": "Customers",
     "technologies": "Technologies",
     "principles": "Principles",

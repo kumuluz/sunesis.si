@@ -11,7 +11,16 @@ export const navigationLinks = [
       { href: "/services/backbase", name: "menu.services.backbase" },
     ],
   },
-  { href: "/products", name: "menu.products" },
+  {
+    name: "menu.products.title",
+    href: "/products",
+    children: [
+      { href: "/products/digital-platform", name: "menu.products.digital-platform" },
+      { href: "/products/business-api", name: "menu.products.business-api" },
+      { href: "/products/ai-digital-assistant", name: "menu.products.ai-digital-assistant" },
+      { href: "/products/ai-knowledge-mentor", name: "menu.products.ai-knowledge-mentor" },
+    ],
+  },
   { href: "/technologies", name: "menu.technologies" },
   { href: "/customers", name: "menu.customers" },
   {

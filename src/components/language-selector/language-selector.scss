@@ -2,6 +2,7 @@
 
 .lang {
   min-width: 80px;
+  width: fit-content;
 
   .dropdown-toggle {
     cursor: pointer;
@@ -11,7 +12,6 @@
     border: none;
     padding: 0;
     width: fit-content;
-    background-color: red;
 
     &::after {
       display: none;
@@ -33,12 +33,13 @@
 
     p {
       margin: 0;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 500;
     }
   }
 
   .language-icon {
+    width: 40px;
     max-width: 40px;
     margin-right: 10px;
   }
@@ -63,11 +64,12 @@
 
   .dropdown-menu {
     padding: 0.5rem 0;
-    box-shadow: 2px 2px 10px -4px $black;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     background-color: $white;
     min-width: 120px;
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    border-radius: 6px;
 
     .dropdown-item {
       padding: 0.5rem 1rem;

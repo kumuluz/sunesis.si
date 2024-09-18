@@ -9,6 +9,19 @@
   gap: 0.2rem;
 }
 
+.dropdown-menu {
+  padding: 0.5rem 0;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: $white;
+  min-width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+  .dropdown-item {
+    padding: 0.5rem 1rem;
+  }
+}
+
 .navbar-dark {
   .nav-item a.nav-link {
     color: $blue-300;

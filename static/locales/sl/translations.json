@@ -14,7 +14,13 @@
       "ai": "AI/GPT integracija",
       "backbase": "Bančniška programska oprema - Backbase platforma"
     },
-    "products": "Produkti",
+    "products": {
+      "title": "Izdelki",
+      "digital-platform": "Digitalna platforma",
+      "business-api": "Poslovni API-ji",
+      "ai-digital-assistant": "AI digitalni asistent",
+      "ai-knowledge-mentor": "AI mentor znanja"
+    },
     "customers": "Stranke",
     "technologies": "Tehnologije",
     "principles": "Načela",
