@@ -7,7 +7,13 @@
     "cookie-consent": "Se strinjam"
   },
   "menu": {
-    "services": "Storitve",
+    "services": {
+      "title": "Storitve",
+      "solutions": "Oblakovne digitalne rešitve",
+      "modernization": "Posodobitev programske opreme",
+      "ai": "AI/GPT integracija",
+      "backbase": "Bančniška programska oprema - Backbase platforma"
+    },
     "products": "Produkti",
     "customers": "Stranke",
     "technologies": "Tehnologije",

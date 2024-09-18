@@ -1,2 +1,2 @@
-export { footerLinks, socialLinks, navigationLinks, rightNavigationLinks } from './links';
-export { quotes } from './quotes';
+export { footerLinks, socialLinks, navigationLinks } from "./links";
+export { quotes } from "./quotes";

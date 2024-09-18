@@ -7,7 +7,13 @@
     "cookie-consent": "I agree"
   },
   "menu": {
-    "services": "Services",
+    "services": {
+      "title": "Services",
+      "solutions": "Cloud-native digital solutions",
+      "modernization": "Software modernization",
+      "ai": "AI/GPT integration",
+      "backbase": "Banking software - Backbase platform"
+    },
     "products": "Products",
     "customers": "Customers",
     "technologies": "Technologies",
