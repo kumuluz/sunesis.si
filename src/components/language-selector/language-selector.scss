@@ -1,4 +1,5 @@
 @import '../../layouts/variables.scss';
+@import '../../layouts/media-mixin.scss';
 
 .lang {
   min-width: 80px;
@@ -73,6 +74,22 @@
 
     .dropdown-item {
       padding: 0.5rem 1rem;
+    }
+  }
+}
+
+@include device-specific($tablet) {
+  .lang {
+    .dropdown-lang-compact {
+      color: $white;
+    }
+  }
+}
+
+@include device-specific($phone) {
+  .lang {
+    .dropdown-lang-compact {
+      color: $white;
     }
   }
 }

@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.2rem;
+  gap: 2rem;
 }
 
 .dropdown-menu {
@@ -46,6 +46,9 @@
 
 .nav-item {
   list-style-type: none;
+
+  padding: 0;
+  margin: 0;
 }
 
 a.nav-link.active {
@@ -76,8 +79,8 @@ a.nav-link:hover {
 }
 
 .navbar-container {
-  padding-left: 16rem !important;
-  padding-right: 16rem !important;
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
 }
 
 @include device-specific($phone) {
@@ -110,8 +113,8 @@ a.nav-link:hover {
 
   .navbar-container {
     background-image: $blue-gradient-left !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
 }
 
@@ -141,8 +144,8 @@ a.nav-link:hover {
 
   .navbar-container {
     background-image: $blue-gradient-left !important;
-    padding-left: 40rem;
-    padding-right: 40rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
 }
 
@@ -151,5 +154,12 @@ a.nav-link:hover {
     .nav-item a.nav-link {
       color: $blue-300 !important;
     }
+  }
+}
+
+@include device-specific($pc-xl) {
+  .navbar-container {
+    padding-left: 16rem !important;
+    padding-right: 16rem !important;
   }
 }

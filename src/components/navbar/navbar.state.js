@@ -5,6 +5,7 @@ import sunesisWhiteLogo from "./sunesis-logo-white.svg";
 
 function getLogo() {
   const screenSize = returnScreenSize();
+
   if (screenSize > MEDIA_TABLET) {
     return sunesisLogo;
   }

@@ -1,116 +1,119 @@
 {
-    "header": {
-        "titleStrong": "digital business solutions",
-        "title": "Custom made",
-        "subtitle-1": "We help businesses of all sizes thrive in the digital ecosystem.",
-        "subtitle-2": "All the more so in today’s tougher business circumstances.",
-        "button": "",
-        "they-trust-us": "They trust us"
+  "header": {
+    "titleStrong": "Cutting-edge software solutions",
+    "title": "for digital transformation",
+    "subtitle-1": "We empower businesses to succeed in the digital landscape. Our expertise includes cloud-native development, software modernization and the seamless integration of cutting-edge technologies, including AI and GPT.",
+    "button": "",
+    "they-trust-us": "They trust us"
+  },
+  "blue-header": {
+    "digital-products": "Grow  your business with<br/>modern digital products<br/>and solutions",
+    "digitalize": "Optimize customer<br/>interactions and your<br/>back-end processes",
+    "api-economy": "Expand your business<br/>with API and<br/>event-driven integrations",
+    "new-ways": "Employ AI and GPT<br/>technologies to drive<br/>efficiency and reduce costs"
+  },
+  "content": {
+    "toggler": {
+      "digitalization": "Digitization of business",
+      "development": "Development",
+      "knowledge-transfer": "Knowledge transfer and support"
     },
-    "blue-header": {
-        "digital-products": "Make up for the loss of<br/>physical sales with new<br/>digital products or services",
-        "digitalize": "Digitize the entire interaction<br/>with your customers and<br/>back-end processes",
-        "api-economy": "Introduce API economy and<br/>expand your digital business model",
-        "new-ways": "Open up new business<br/>revenue streams and lower costs"
-    },
-    "content": {
-        "toggler": {
-            "digitalization": "Digitization of business",
-            "development": "Development",
-            "knowledge-transfer": "Knowledge transfer and support"
+    "tabs": {
+      "services": {
+        "title": "Our services",
+        "subtitle": "Unmatched experience in the development of cutting-edge software",
+        "learn-more": "Learn more",
+        "development": {
+          "title": "Cloud-native",
+          "subtitle": "digital solutions development",
+          "description": "We offer full advisory, mentoring, architectural design and software development services to enterprises in the process of digital transformation.",
+          "description-2": "We help you to quickly set up enterprise grade solutions that digitize the entire interaction with your customers - to increase sales and increase customer satisfaction. We build software solutions using state-of-the-art technologies and solutions.",
+          "items": {
+            "item-1": "Tailored to your needs",
+            "item-2": "Easy upgrades and integrations",
+            "item-3": "Faster development using cloud-native architecture, microservices and APIs",
+            "item-4": "Omni-channel digital experience"
+          }
         },
-        "tabs": {
-            "digitalization": {
-                "experience": {
-                    "title": "The perfect digital experience",
-                    "subtitle": "for your customers",
-                    "description": "We help you to quickly set up enterprise grade solutions that digitize the entire interaction with your customers - to increase sales and increase your customer satisfaction.",
-                    "image": "Points of digital interaction with customers",
-                    "items": {
-                        "item-1": "Tailored to your needs",
-                        "item-2": "Easy upgrades and integrations",
-                        "item-3": "Faster development using APIs",
-                        "item-4": "Presence on all digital channels"
-                    }
-                },
-                "omni-channel": {
-                    "title": "Omni-channel business",
-                    "subtitle": "and process automation",
-                    "description": "We help you establish a digital platform that will support various digital and physical channels according to omni-channel principles and enable your customer switching between channels. At the same time, we automate business processes according to the principles of RPA (Robotic Process Automation).",
-                    "image": "Key building blocks for OMNI CHANNEL",
-                    "items": {
-                        "item-1": "Full customer insight",
-                        "item-2": "24/7 digital presence",
-                        "item-3": "Business on all digital channels",
-                        "item-4": "Also on branch systems"
-                    }
-                },
-                "points": {
-                    "point-1": {
-                        "title": "Get involved in the API economy overnight",
-                        "description": "We provide you with all the necessary building blocks to get involved in the API economy. Establish or engage in new value chains. Connect to other systems, share data efficiently, or integrate third-party services.",
-                        "items": {
-                            "item-1": "Identification of API opportunities",
-                            "item-2": "Rapid development of APIs",
-                            "item-3": "Integration of APIs with back-end systems",
-                            "item-4": "Introduction of API management tools"
-                        }
-                    },
-                    "point-2": {
-                        "title": "With a digital platform towards digital transformation",
-                        "description": "The Kumuluz Digital platform includes all the building blocks to achieve complete digital transformation, from data integration, API economy and digital building blocks for rapid digital applications development.",
-                        "items": {
-                            "item-1": "Pre-built business APIs",
-                            "item-2": "Marketplace solutions",
-                            "item-3": "Business process automation",
-                            "item-4": "Establishment of a »data-driven« organization"
-                        }
-                    },
-                    "point-3": {
-                        "title": "Modernize monolithic systems",
-                        "description": "With our platform, we take care of the integration and exchange of data between different systems. We upgrade your back-end systems so you can start a digital business.",
-                        "items": {
-                            "item-1": "API integration",
-                            "item-2": "Backend system upgrade",
-                            "item-3": "Establishment of a digital platform",
-                            "item-4": "Countless new opportunities"
-                        }
-                    }
-                }
-            },
-            "development": {
-                "above-title": "Experts in",
-                "title": "advanced technology solutions",
-                "description": "We eliminate obstacles that prevent the digitalization of business due to the lack of integration between different systems. We upgrade back-end systems with functionalities needed for digital business.",
-                "items": {
-                    "item-1": "Cloud-native architecture, APIs and microservices",
-                    "item-2": "IAM and Keycloak",
-                    "item-3": "Kubernetes",
-                    "item-4": "DevOps"
-                }
-            },
-            "knowledge-transfer": {
-                "opportunities": {
-                    "title": "Identifying opportunities",
-                    "subtitle": "in the digital environment",
-                    "description": "We conduct an online workshop for you and together identify how to digitize your business. We also prepare a plan for the development of a web or mobile application that will support sales.",
-                    "items":{
-                        "item-1": "Identification of competitive advantage",
-                        "item-2": "Engaging your customers",
-                        "item-3": "Rapid development of new solutions"
-                    }
-                },
-                "concepts": {
-                    "above-title": "Technological",
-                    "title": "concepts of digitization",
-                    "description": "We educate in the implementation of new concepts of digital transformation, such as cloud-native, microservice architecture, API, DevOps, IAM, Kubernetes and Docker.",
-                    "items": {
-                        "item-1": "A team of top experts",
-                        "item-2": "Authors of open source framework for cloud-native application development"
-                    }
-                }
-
-            }
+        "modernization": {
+          "above-title": "Modernize your software",
+          "title": "for the cloud",
+          "description": "Sunesis offers software modernization services that revitalize legacy systems and enable businesses to remain competitive in today’s rapidly evolving digital landscape.",
+          "description-2": "Our services ensure that your software infrastructure grows with your business - from replatforming and cloud migration to API and event-driven integrations that drive innovation and growth.",
+          "items": {
+            "item-1": "Solutions tailored to your specific business needs",
+            "item-2": "Seamless cloud, API and event-driven integration",
+            "item-3": "Integration with modern technologies and platforms",
+            "item-4": "Improved performance and scalability"
+          }
         }
+      },
+      "digitalization": {
+        "points": {
+          "point-1": {
+            "title": "Get involved in the API economy overnight",
+            "description": "We provide you with all the necessary building blocks to get involved in the API economy. Establish or engage in new value chains. Connect to other systems, share data efficiently, or integrate third-party services.",
+            "items": {
+              "item-1": "Identification of API opportunities",
+              "item-2": "Rapid development of APIs",
+              "item-3": "Integration of APIs with back-end systems",
+              "item-4": "Introduction of API management tools"
+            }
+          },
+          "point-2": {
+            "title": "With a digital platform towards digital transformation",
+            "description": "The Kumuluz Digital platform includes all the building blocks to achieve complete digital transformation, from data integration, API economy and digital building blocks for rapid digital applications development.",
+            "items": {
+              "item-1": "Pre-built business APIs",
+              "item-2": "Marketplace solutions",
+              "item-3": "Business process automation",
+              "item-4": "Establishment of a »data-driven« organization"
+            }
+          },
+          "point-3": {
+            "title": "Modernize monolithic systems",
+            "description": "With our platform, we take care of the integration and exchange of data between different systems. We upgrade your back-end systems so you can start a digital business.",
+            "items": {
+              "item-1": "API integration",
+              "item-2": "Backend system upgrade",
+              "item-3": "Establishment of a digital platform",
+              "item-4": "Countless new opportunities"
+            }
+          }
+        }
+      },
+      "development": {
+        "above-title": "Experts in",
+        "title": "advanced technology solutions",
+        "description": "We eliminate obstacles that prevent the digitalization of business due to the lack of integration between different systems. We upgrade back-end systems with functionalities needed for digital business.",
+        "items": {
+          "item-1": "Cloud-native architecture, APIs and microservices",
+          "item-2": "IAM and Keycloak",
+          "item-3": "Kubernetes",
+          "item-4": "DevOps"
+        }
+      },
+      "knowledge-transfer": {
+        "opportunities": {
+          "title": "Identifying opportunities",
+          "subtitle": "in the digital environment",
+          "description": "We conduct an online workshop for you and together identify how to digitize your business. We also prepare a plan for the development of a web or mobile application that will support sales.",
+          "items": {
+            "item-1": "Identification of competitive advantage",
+            "item-2": "Engaging your customers",
+            "item-3": "Rapid development of new solutions"
+          }
+        },
+        "concepts": {
+          "above-title": "Technological",
+          "title": "concepts of digitization",
+          "description": "We educate in the implementation of new concepts of digital transformation, such as cloud-native, microservice architecture, API, DevOps, IAM, Kubernetes and Docker.",
+          "items": {
+            "item-1": "A team of top experts",
+            "item-2": "Authors of open source framework for cloud-native application development"
+          }
+        }
+      }
     }
+  }
 }

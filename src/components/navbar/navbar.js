@@ -28,7 +28,7 @@ export function Navbar() {
         <Link external={false} to="/" className="navbar-brand">
           <img src={navbarState.sunesisLogo} alt="" />
         </Link>
-        <NavbarToggler onClick={() => toggle()} style={{ marginRight: "10px" }} />
+        <NavbarToggler onClick={() => toggle()} />
         <Collapse isOpen={navbarState.isOpen} navbar>
           <Nav className="ml-auto navbar-items" navbar>
             {navigationLinks.map((nav, ix) =>

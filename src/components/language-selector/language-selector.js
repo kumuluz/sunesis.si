@@ -7,14 +7,20 @@ import languageIconDark from "./language-select-dark.svg";
 import dropdownIcon from "./dropdown-icon.svg";
 import { useLanguageState } from "./language-selector.state";
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
+import { MEDIA_TABLET, MEDIA_PHONE, returnScreenSize } from "../../layouts/common";
 
 export function LanguageSelector({ compact, dark }) {
   const { t, language, showDropdown, toggleDropdown, toggleLanguage } = useLanguageState();
+  const screenSize = returnScreenSize();
 
   return (
     <Dropdown isOpen={showDropdown} toggle={toggleDropdown} className={`lang ${compact ? "compact" : ""}`}>
       <DropdownToggle tag="div" className="dropdown-toggle">
-        <img src={dark ? languageIconDark : languageIcon} alt="Language Icon" className="language-icon" />
+        <img
+          src={screenSize > MEDIA_TABLET && dark ? languageIconDark : languageIcon}
+          alt="Language Icon"
+          className="language-icon"
+        />
         {compact ? (
           <div className="dropdown-lang-compact">{language}</div>
         ) : (
@@ -25,7 +31,7 @@ export function LanguageSelector({ compact, dark }) {
         )}
         <img src={dropdownIcon} alt="Dropdown Icon" className="dropdown-icon" />
       </DropdownToggle>
-      <DropdownMenu>
+      <DropdownMenu right={screenSize > MEDIA_PHONE}>
         {Object.keys(languages).map((lng, k) => (
           <DropdownItem
             key={k}
