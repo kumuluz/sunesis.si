@@ -210,7 +210,7 @@
     "block1": "In today's rapidly evolving digital world, the integration of artificial intelligence (AI) and generative pre-trained transformers (GPT) models into enterprise applications is not just an option, but a powerful competitive advantage.",
     "block2": "We specialize in embedding cutting-edge AI technologies into your existing enterprise applications by leveraging Open AI services, including OpenAI's GPT models, AI search and others.",
     "servicerange": {
-      "title": "Grow  and optimize your business with robust, scalable and secure AI solutions tailored to the unique challenges of your industry",
+      "title": "Grow and optimize your business with robust, scalable and secure AI solutions tailored to the unique challenges of your industry",
       "box": {
         "efficiency": {
           "title": "Increase efficiency",
@@ -352,6 +352,107 @@
       },
       "end-1": "Embracing AI is not just about adopting new technologies, but also about transforming your business processes. By integrating AI and GPT models into your enterprise applications, you will position your company at the forefront of innovation and be ready to meet the challenges of tomorrow.",
       "end-2": "Let's shape the future together. Work with us to unlock the full potential of AI in your business."
+    }
+  },
+  "backbase": {
+    "title": "Transform your banking ecosystem and innovation",
+    "block1": "Backbase is the leading engagement banking platform that empowers financial institutions by transforming legacy, siloed systems into a unified, customer-centric ecosystem. It provides an interoperable, API-based platform that enables banks to deliver seamless omnichannel experiences while driving innovation at scale.",
+    "servicerange": {
+      "title": "With Backbase, banks can modernize quickly, deliver differentiating capabilities faster and orchestrate personalized customer experiences across every touchpoint.",
+      "box": {
+        "efficiency": {
+          "title": "Increase operational efficiency",
+          "description": "Optimize banking processes through automation and reduce the need for manual intervention"
+        },
+        "loyalty": {
+          "title": "Improve customer loyalty",
+          "description": "Deliver personalized omnichannel experiences that delight and engage customers across every touchpoint"
+        },
+        "market": {
+          "title": "Accelerate time to market",
+          "description": "Deliver new features and services faster with Backbase’s modular, API-based platform"
+        },
+        "future": {
+          "title": "Future-proof your banking systems",
+          "description": "Adapt to evolving technologies with a scalable platform that integrates seamlessly with fintech solutions and core systems"
+        }
+      }
+    },
+    "features": {
+      "title": "Main features",
+      "banking": {
+        "title": "Omnichannel",
+        "subtitle": "banking",
+        "description": "Enable your customers to interact with your bank across web, mobile and branch with a consistent, integrated experience. Backbase’s omnichannel capabilities ensure that every touchpoint provides the same seamless and personalized user experience, allowing customers to start a transaction on one device and complete it on another."
+      },
+      "journey": {
+        "above-title": "Orchestrate",
+        "title": "the customer journey",
+        "description": "Tailor every interaction to your customers’ individual needs by leveraging Backbase’s advanced journey orchestration engine. From onboarding to daily transactions to complex financial workflows, banks can easily map the customer journey to ensure a smooth, personalized experience every step of the way."
+      },
+      "architecture": {
+        "title": "Modular and compatible",
+        "subtitle": "architecture",
+        "description": "Backbase offers a modular, composable platform that integrates seamlessly with your existing systems. Thanks to its API-based architecture, you can easily build and extend digital banking services by connecting them with core systems, CRMs and third-party fintech solutions."
+      },
+      "automation": {
+        "above-title": "Process",
+        "title": "automation",
+        "description": "Optimize and automate key banking processes, such as customer onboarding, loan origination and document management. Backbase’s process automation capabilities reduce manual workflows, improve operational efficiency and reduce errors."
+      },
+      "data": {
+        "title": "Customer-centric",
+        "subtitle": "data and AI",
+        "description": "Backbase provides banks with real-time insights through advanced data analytics and AI-driven services. By integrating data from multiple sources, the platform enables personalized offers, AI-powered advice and predictive financial insights, all tailored to the individual customer."
+      },
+      "end": "Backbase enables banks to leverage data and AI to deliver proactive, personalized customer experiences that drive long-term customer loyalty."
+    },
+    "benefits": {
+      "title": "Main benefits",
+      "subtitle": "Transform your banking solutions with cutting-edge technology that scales as your business grows.",
+      "items": {
+        "item-1": {
+          "title": "Rapid modernization",
+          "description": "With Backbase, banks can free themselves from legacy systems and vendor lock-in and adopt an agile, customer-centric platform that supports rapid digital transformation."
+        },
+        "item-2": {
+          "title": "Improved customer engagement",
+          "description": "By leveraging Backbase’s powerful customer engagement tools, banks can deliver real-time, personalized experiences across all channels."
+        },
+        "item-3": {
+          "title": "Operational efficiency & cost reduction",
+          "description": "Process automation, unified customer data and AI-driven workflows dramatically improve operational efficiency. Backbase’s platform enables banks to automate repetitive tasks and improve service delivery."
+        },
+        "item-4": {
+          "title": "Future-proof integration",
+          "description": "Easily integrating with your core systems, third-party fintech services and new technologies, Backbase provides a future-proof solution that can adapt to the evolving needs of your business."
+        }
+      },
+      "end": "Backbase provides the flexibility to evolve with the fast-moving financial landscape, ensuring your bank is always at the cutting edge of digital innovation."
+    },
+    "use-cases": {
+      "title": "Use cases",
+      "subtitle": "Explore different use cases of banking ecosystem and innovation transformation:",
+      "item-1": {
+        "title": "Digital-first banking transformation",
+        "description": "From digital onboarding to managing complex customer journeys, Backbase lets you redesign your entire banking model."
+      },
+      "item-2": {
+        "title": "AI-driven customer journeys",
+        "description": "Use Backbase’s AI and data capabilities to provide your customers with tailored financial advice, proactive alerts and predictive insights."
+      },
+      "item-3": {
+        "title": "Automated loan origination",
+        "description": "Backbase simplifies the lending process with end-to-end automation, from application submission to decisioning and document management. This allows banks to process more applications with fewer errors, improving both speed and accuracy."
+      },
+      "item-4": {
+        "title": "End-to-end customer onboarding",
+        "description": "Automate and optimize the entire onboarding process, from document submission to account activation, with automated workflows and real-time data validation."
+      }
+    },
+    "cta": {
+      "end-1": "With Backbase, your institution can tackle modernization without the constraints of legacy infrastructure, ensuring you stay ahead of the competition.",
+      "end-2": "Contact us today to find out how our Backbase integration services can enable your institution to innovate, modernize and lead in today’s competitive digital banking landscape."
     }
   }
 }

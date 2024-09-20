@@ -1,112 +1,67 @@
-import React, {useRef, useState} from "react";
-import {MEDIA_PHONE, returnScreenSize} from "../../layouts/common";
+import { useRef, useState, useEffect, useCallback } from "react";
 import anime from "animejs";
 
+export function useBenefitsState(initialBenefits) {
+  const animating = useRef(false);
+  const [benefits, setBenefits] = useState(
+    initialBenefits.length > 4 ? initialBenefits : [...initialBenefits, ...initialBenefits]
+  );
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const MEDIA_PHONE = 790;
 
-function rearrangeBenefits(benefits) {
-    return [
-        benefits[benefits.length - 1], // last elem
-        ...benefits.slice(), // all elements
-        ...benefits.slice(0, benefits.length - 1), // all elems, but last
-    ];
-}
-
-export function useBenefitsState(benefits) {
-    const animating = useRef(false);
-    
-    const [state, setter] = useState({
-        benefits: rearrangeBenefits(benefits),
-    });
-    
-    function returnShiftFor() {
-        const screenSize = returnScreenSize();
-        if (screenSize <= MEDIA_PHONE) {
-            return screenSize;
-        }
-        return 420;
+  useEffect(() => {
+    function handleResize() {
+      setWindowWidth(window.innerWidth);
     }
-    
-    function moveLeft() {
-        const shiftFor = returnShiftFor().toString(10);
-        if (animating.current) {
-            return;
-        }
-        
-        animating.current = true;
-        const moveLeftAnimation = anime({
-            targets: '.benefits',
-            translateX: `-=${shiftFor}`,
-            duration: 250,
-            elasticity: 0,
-            easing: 'easeInQuad'
-        });
-        moveLeftAnimation.finished.then(() => {
-            setter(prevState => {
-                const {benefits} = prevState;
-                let modifiedBenefits = [...benefits.slice(1), benefits[0]];
-                try {
-                    anime({
-                        targets: '.benefits',
-                        translateX: 0,
-                        easing: 'none',
-                        duration: 0
-                    });
-                } catch (_) {
-        
-                }
-                animating.current = false;
-                return {
-                    ...prevState,
-                    benefits: modifiedBenefits,
-                };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const shiftAmount = windowWidth <= MEDIA_PHONE ? windowWidth : 420;
+
+  const moveCarousel = useCallback(
+    (direction) => {
+      if (animating.current) return;
+
+      animating.current = true;
+
+      anime({
+        targets: ".benefits",
+        translateX: direction === "left" ? `-=${shiftAmount}` : `+=${shiftAmount}`,
+        duration: 250,
+        easing: "easeInQuad",
+      })
+        .finished.then(() => {
+          setBenefits((prevBenefits) => {
+            const newBenefits =
+              direction === "left"
+                ? [...prevBenefits.slice(1), prevBenefits[0]]
+                : [prevBenefits[prevBenefits.length - 1], ...prevBenefits.slice(0, -1)];
+
+            anime({
+              targets: ".benefits",
+              translateX: -shiftAmount,
+              duration: 0,
             });
-        }).catch(_ => {
-    
+
+            animating.current = false;
+            return newBenefits;
+          });
         })
-    }
-    
-    function moveRight() {
-        const shiftFor = returnShiftFor().toString(10);
-        if (animating.current){
-            return;
-        }
-        animating.current = true;
-        const moveLeftAnimation = anime({
-            targets: '.benefits',
-            translateX: `+=${shiftFor}`,
-            duration: 250,
-            elasticity: 0,
-            easing: 'easeInQuad'
+        .catch(() => {
+          animating.current = false;
         });
-        moveLeftAnimation.finished.then(() => {
-            setter(prevState => {
-                const {benefits} = prevState;
-                let modifiedBenefits = [benefits[benefits.length - 1], ...benefits.slice(0, benefits.length - 1)];
-                try {
-                    anime({
-                        targets: '.benefits',
-                        translateX: 0,
-                        easing: 'none',
-                        duration: 0
-                    });
-                } catch (_) {
-                
-                }
-                animating.current = false;
-                return {
-                    ...prevState,
-                    benefits: modifiedBenefits,
-                };
-            });
-        }).catch(_ => {
-        
-        });
-    }
-    
-    return {
-        state,
-        moveLeft,
-        moveRight,
-        returnShiftFor,
-    }
+    },
+    [shiftAmount]
+  );
+
+  const moveLeft = useCallback(() => moveCarousel("left"), [moveCarousel]);
+  const moveRight = useCallback(() => moveCarousel("right"), [moveCarousel]);
+
+  return {
+    benefits,
+    moveLeft,
+    moveRight,
+    shiftAmount,
+  };
 }

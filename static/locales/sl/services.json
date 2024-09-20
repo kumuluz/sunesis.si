@@ -353,5 +353,106 @@
       "end-1": "Sprejemanje AI ne pomeni le uvedbe novih tehnologij, temveč tudi preoblikovanje vaših poslovnih procesov. Z vključitvijo AI in GPT modelov v vaše poslovne aplikacije boste svoje podjetje postavili v ospredje inovacij in se pripravili na izzive jutrišnjega dne.",
       "end-2": "Oblikujmo prihodnost skupaj. Sodelujte z nami, da odklenemo ves potencial AI v vašem podjetju."
     }
+  },
+  "backbase": {
+    "title": "Preoblikujte svoj bančni ekosistem in inovacije",
+    "block1": "Backbase je vodilna platforma za angažma v bančništvu, ki finančnim institucijam omogoča preoblikovanje zastarelih, ločenih sistemov v enoten, na stranke osredotočen ekosistem. Ponuja interoperabilno platformo, ki temelji na API-ju in bankam omogoča brezhibno zagotavljanje večkanalnih izkušenj, hkrati pa spodbuja inovacije v velikem obsegu.",
+    "servicerange": {
+      "title": "Z Backbase lahko banke hitro modernizirajo, hitreje zagotovijo razlikovalne zmogljivosti in orkestrirajo personalizirane izkušnje strank na vsakem stičnem mestu.",
+      "box": {
+        "efficiency": {
+          "title": "Povečajte operativno učinkovitost",
+          "description": "Optimizirajte bančne procese z avtomatizacijo in zmanjšajte potrebo po ročnem poseganju"
+        },
+        "loyalty": {
+          "title": "Izboljšajte zvestobo strank",
+          "description": "Zagotovite personalizirane večkanalne izkušnje, ki razveseljujejo in angažirajo stranke na vsakem stičnem mestu"
+        },
+        "market": {
+          "title": "Pospešite čas do trga",
+          "description": "Z Backbasejevo modularno, na API-ju temelječo platformo hitreje zagotovite nove funkcije in storitve"
+        },
+        "future": {
+          "title": "Pripravite svoje bančne sisteme na prihodnost",
+          "description": "Prilagodite se razvijajočim se tehnologijam s platformo, ki se enostavno integrira s fintech rešitvami in temeljnimi sistemi"
+        }
+      }
+    },
+    "features": {
+      "title": "Glavne funkcije",
+      "banking": {
+        "title": "Večkanalno",
+        "subtitle": "bančništvo",
+        "description": "Omogočite svojim strankam, da komunicirajo z vašo banko prek spleta, mobilnih naprav in poslovalnic z dosledno, integrirano izkušnjo. Večkanalne zmogljivosti Backbase zagotavljajo, da vsako stično mesto nudi enako brezhibno in personalizirano uporabniško izkušnjo, kar omogoča strankam, da začnejo transakcijo na eni napravi in jo zaključijo na drugi."
+      },
+      "journey": {
+        "above-title": "Orkestrirajte",
+        "title": "potovanje strank",
+        "description": "Prilagodite vsako interakcijo individualnim potrebam svojih strank z uporabo naprednega orodja za orkestracijo poti strank Backbase. Od onboarding-a do vsakodnevnih transakcij in kompleksnih finančnih delovnih tokov banke zlahka mapirajo potovanje strank, da zagotovijo gladko, personalizirano izkušnjo na vsakem koraku."
+      },
+      "architecture": {
+        "title": "Modularna in združljiva",
+        "subtitle": "arhitektura",
+        "description": "Backbase ponuja modularno, sestavljivo platformo, ki se brezhibno integrira z vašimi obstoječimi sistemi. Zaradi arhitekture, ki temelji na API-ju, lahko enostavno gradite in razširjate digitalne bančne storitve, tako da jih povežete s temeljnimi sistemi, CRM-ji in fintech rešitvami tretjih oseb."
+      },
+      "automation": {
+        "above-title": "Avtomatizacija",
+        "title": "procesov",
+        "description": "Optimizirajte in avtomatizirajte ključne bančne procese, kot so onboarding strank, odobritev posojil in upravljanje dokumentov. Zmožnosti avtomatizacije procesov Backbase zmanjšujejo ročne delovne tokove, izboljšujejo operativno učinkovitost in zmanjšujejo napake."
+      },
+      "data": {
+        "title": "Na stranke osredotočeni",
+        "subtitle": "podatki in AI",
+        "description": "Backbase bankam zagotavlja vpogled v realnem času prek naprednih analitik podatkov in storitev, ki jih poganja umetna inteligenca. Z integracijo podatkov iz več virov platforma omogoča personalizirane ponudbe, nasvete, ki jih poganja AI, in napovedne finančne vpoglede, vse prilagojeno posameznim strankam."
+      },
+      "end": "Backbase bankam omogoča, da izkoristijo podatke in umetno inteligenco za zagotavljanje proaktivnih, personaliziranih uporabniških izkušenj, ki spodbujajo dolgoročno zvestobo strank."
+    },
+    "benefits": {
+      "title": "Glavne prednosti",
+      "subtitle": "Preoblikujte svoje bančne rešitve s sodobno tehnologijo, ki se razširja, ko vaše podjetje raste.",
+      "items": {
+        "item-1": {
+          "title": "Hitra modernizacija",
+          "description": "Z Backbase se lahko banke osvobodijo zastarelih sistemov in odvisnosti od dobaviteljev ter sprejmejo agilno, na stranke osredotočeno platformo, ki podpira hitro digitalno preobrazbo."
+        },
+        "item-2": {
+          "title": "Izboljšana angažiranost strank",
+          "description": "Z izkoriščanjem zmogljivih orodij za angažiranost strank Backbase lahko banke zagotavljajo v realnem času personalizirane izkušnje prek vseh kanalov."
+        },
+        "item-3": {
+          "title": "Operativna učinkovitost in znižanje stroškov",
+          "description": "Avtomatizacija procesov, združeni podatki strank in delovni tokovi, ki jih poganja AI, dramatično izboljšajo operativno učinkovitost. Platforma Backbase omogoča bankam avtomatizacijo ponavljajočih se nalog in izboljšanje kakovosti storitev."
+        },
+        "item-4": {
+          "title": "Pripravljena na prihodnost",
+          "description": "S preprosto integracijo z vašimi temeljnimi sistemi, fintech storitvami tretjih oseb in novimi tehnologijami Backbase zagotavlja rešitev, ki je pripravljena na prihodnost in se lahko prilagodi spreminjajočim se potrebam vašega podjetja."
+        }
+      },
+      "end": "Backbase ponuja prilagodljivost, da se razvijate skupaj s hitro spreminjajočo se finančno pokrajino in zagotavlja, da je vaša banka vedno na čelu digitalnih inovacij."
+    },
+    "use-cases": {
+      "title": "Primeri uporabe",
+      "subtitle": "Raziščite različne primere uporabe preobrazbe bančnega ekosistema in inovacij:",
+      "item-1": {
+        "title": "Preobrazba bančništva s poudarkom na digitalnem",
+        "description": "Od digitalnega onboardinga do upravljanja kompleksnih poti strank, Backbase vam omogoča, da preoblikujete celoten bančni model."
+      },
+      "item-2": {
+        "title": "AI-podprte poti strank",
+        "description": "Uporabite zmogljivosti AI in podatkov Backbase, da svojim strankam zagotovite prilagojene finančne nasvete, proaktivna obvestila in napovedne vpoglede."
+      },
+      "item-3": {
+        "title": "Avtomatizirano izdajanje posojil",
+        "description": "Backbase poenostavi postopek posojil z avtomatizacijo od oddaje vloge do odločanja in upravljanja dokumentov. To omogoča bankam obdelavo večjega števila vlog z manj napakami, kar izboljša tako hitrost kot natančnost."
+      },
+      "item-4": {
+        "title": "End-to-end onboarding strank",
+        "description": "Avtomatizirajte in optimizirajte celoten proces onboardinga, od oddaje dokumentov do aktivacije računa, z avtomatiziranimi delovnimi tokovi in preverjanjem podatkov v realnem času."
+      }
+    },
+    "cta": {
+      "end-1": "Z Backbase lahko vaša institucija brez omejitev zastarele infrastrukture izvede modernizacijo in zagotovi, da boste pred konkurenco.",
+      "end-2": "Kontaktirajte nas še danes, da izveste, kako lahko naše storitve integracije Backbase omogočijo vaši instituciji, da inovira, modernizira in vodi v današnjem konkurenčnem digitalnem bančniškem okolju."
+    }
   }
 }
