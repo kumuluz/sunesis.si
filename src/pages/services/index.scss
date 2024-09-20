@@ -10,6 +10,47 @@ $phone-width: 90%;
   background-color: $blue-300;
 }
 
+.full-list-component {
+  li {
+    list-style-type: none;
+  }
+}
+
+.use-case-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  border: 1px solid $grey-200;
+
+
+  .table-separator {
+    width: 1px;
+    background-color: $grey-200;
+  }
+
+  li {
+    font-size: 18px;
+    text-align: left;
+    list-style-position: outside;
+
+    &::marker {
+      color: $blue-300;
+    }
+  }
+
+  ul {
+    flex: 1;
+    padding-left: 20px;
+    margin: 0;
+  }
+}
+
+.container-margin {
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-content {
   display: flex;
   justify-content: center;
@@ -19,14 +60,17 @@ $phone-width: 90%;
       width: $pc-width;
     }
 
-    .container-subtitle,
-    .container-title {
+    .apply-margin {
       margin: 0 20% 0 20%;
     }
   }
 }
 
 @include device-specific($tablet-landscape) {
+  .container-margin {
+    width: 60% !important;
+  }
+
   .main-content {
     .index-content-component {
       .content-body {
@@ -37,6 +81,10 @@ $phone-width: 90%;
 }
 
 @include device-specific($tablet) {
+  .container-margin {
+    width: $tablet-width !important;
+  }
+
   .main-content {
     .index-content-component {
       .content-body {
@@ -47,14 +95,17 @@ $phone-width: 90%;
 }
 
 @include device-specific($phone) {
+  .container-margin {
+    width: $phone-width !important;
+  }
+
   .main-content {
     .index-content-component {
       .content-body {
         width: $phone-width;
       }
 
-      .container-subtitle,
-      .container-title {
+      .apply-margin {
         margin: 0 3rem 0 3rem;
       }
     }

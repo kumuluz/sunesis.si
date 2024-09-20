@@ -6,6 +6,7 @@ import { graphql } from "gatsby";
 import { Layout } from "../../../layouts";
 import { Footer, ServiceRangeBox, SEO, ReferencesSpinner, Link } from "../../../components";
 import { Itemized } from "../../../components/itemized/itemized.component";
+import { ServiceFullListItem } from "../../../components/services/service-full-list/list-item";
 
 import stockModernization from "../../../components/index-page/content/images/stock-modernization.jpg";
 
@@ -92,8 +93,8 @@ function ServicesAiPage() {
           <div className="index-content-component">
             <div className="flex-column d-flex align-items-center">
               <div className="flex-column d-flex align-items-center" style={{ marginTop: "60px" }}>
-                <h2 className="container-title">{t("ai.services.title")}</h2>
-                <p className="mt-3 container-subtitle">{t("ai.services.subtitle")}</p>
+                <h2 className="apply-margin">{t("ai.services.title")}</h2>
+                <p className="mt-3 apply-margin">{t("ai.services.subtitle")}</p>
                 <Row className="mt-5 content-body">
                   <Col md={6}>
                     <img
@@ -253,6 +254,54 @@ function ServicesAiPage() {
             </div>
           </div>
         </Container>
+
+        <div fluid={true} className="mt-5 container-margin">
+          <Row className="content-body">
+            <Col xs="12" className="text-center">
+              <h2>{t("ai.use-cases.title")}</h2>
+              <p className="">{t("ai.use-cases.subtitle")}</p>
+            </Col>
+          </Row>
+          <div className="use-case-table">
+            <ul>
+              <li>{t("ai.use-cases.table.item-1-1")}</li>
+              <li>{t("ai.use-cases.table.item-1-2")}</li>
+              <li>{t("ai.use-cases.table.item-1-3")}</li>
+              <li>{t("ai.use-cases.table.item-1-4")}</li>
+              <li>{t("ai.use-cases.table.item-1-5")}</li>
+            </ul>
+            <div className="table-separator" />
+            <ul>
+              <li>{t("ai.use-cases.table.item-2-1")}</li>
+              <li>{t("ai.use-cases.table.item-2-2")}</li>
+              <li>{t("ai.use-cases.table.item-2-3")}</li>
+              <li>{t("ai.use-cases.table.item-2-4")}</li>
+              <li>{t("ai.use-cases.table.item-2-5")}</li>
+            </ul>
+          </div>
+          <Row className="full-list-component">
+            <ul>
+              <ServiceFullListItem title={t("ai.use-cases.item-1.title")} desc={t("ai.use-cases.item-1.description")} />
+              <ServiceFullListItem title={t("ai.use-cases.item-2.title")} desc={t("ai.use-cases.item-2.description")} />
+              <ServiceFullListItem title={t("ai.use-cases.item-3.title")} desc={t("ai.use-cases.item-3.description")} />
+              <ServiceFullListItem title={t("ai.use-cases.item-4.title")} desc={t("ai.use-cases.item-4.description")} />
+              <ServiceFullListItem title={t("ai.use-cases.item-5.title")} desc={t("ai.use-cases.item-5.description")} />
+              <ServiceFullListItem title={t("ai.use-cases.item-6.title")} desc={t("ai.use-cases.item-6.description")} />
+              <ServiceFullListItem title={t("ai.use-cases.item-7.title")} desc={t("ai.use-cases.item-7.description")} />
+              <ServiceFullListItem title={t("ai.use-cases.item-8.title")} desc={t("ai.use-cases.item-8.description")} />
+              <ServiceFullListItem title={t("ai.use-cases.item-9.title")} desc={t("ai.use-cases.item-9.description")} />
+              <ServiceFullListItem
+                title={t("ai.use-cases.item-10.title")}
+                desc={t("ai.use-cases.item-10.description")}
+              />
+            </ul>
+          </Row>
+          <Row className="content-body">
+            <Col xs="12" className="text-center">
+              <p>{t("ai.use-cases.end")}</p>
+            </Col>
+          </Row>
+        </div>
 
         <Footer contact />
       </div>

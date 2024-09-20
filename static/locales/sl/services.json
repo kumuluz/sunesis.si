@@ -229,6 +229,129 @@
           "description": "Ostanite pred konkurenco z najnovejšo AI tehnologijo"
         }
       }
+    },
+    "services": {
+      "title": "Naše tehnične zmožnosti",
+      "subtitle": "Razvijamo učinkovite rešitve v oblaku z optimiziranimi arhitekturami za razširljivost in visoko zmogljivost. Poleg tega izvajamo stroškovno učinkovite strategije za trajnostno vključevanje AI in GPT v vaše poslovanje.",
+      "integration": {
+        "title": "Brezhibna integracija GPT",
+        "subtitle": "s aplikacijami, ki temeljijo na obrazcih",
+        "description": "Obogatimo tradicionalne in napredne obrazce z elementi pogovornih vmesnikov, ki jih poganja GPT, kot so inteligentno samodejno izpolnjevanje in pomoč v realnem času, da optimiziramo vnos podatkov in izboljšamo uporabniško interakcijo, ne da bi izgubili domačnost.",
+        "items": {
+          "item-1": "Hibridno inženirstvo vmesnikov",
+          "item-2": "Implementacija kontekstualne inteligence",
+          "item-3": "Uporabniku osredotočeno oblikovanje in usposabljanje"
+        }
+      },
+      "openai": {
+        "above-title": "Optimizirana integracija arhitekture",
+        "title": "z OpenAI",
+        "description": "Gradimo razširljive, modularne arhitekture AI z učinkovitim upravljanjem API-jev, zmanjšanjem zakasnitve s predpomnjenjem in optimizacijo omrežja ter prilagodljivim povečevanjem prek infrastrukture Azure.",
+        "items": {
+          "item-1": "Razširljiva arhitektura mikroservisov",
+          "item-2": "Učinkovito upravljanje API-jev",
+          "item-3": "Tehnike za zmanjšanje zakasnitve",
+          "item-4": "Prilagodljivo povečevanje infrastrukture"
+        }
+      },
+      "security": {
+        "title": "Izboljšana varnost podatkov",
+        "subtitle": "in dokumentov",
+        "description": "Zavarujemo vaše občutljive podatke z naprednim šifriranjem, strogimi kontrolami dostopa in skladnostjo s predpisi, kot so GDPR, DORA in HIPAA, da zmanjšamo tveganje in vam zagotovimo mir.",
+        "items": {
+          "item-1": "Robustni šifrirni protokoli",
+          "item-2": "Stroge kontrole dostopa in revizije",
+          "item-3": "Zagotavljanje skladnosti s predpisi",
+          "item-4": "Varna okolja za obdelavo",
+          "item-5": "Zasebno gostovani ali lokalni AI, GPT in LLM modeli"
+        }
+      },
+      "scalability": {
+        "above-title": "Razširljivost, hitrost",
+        "title": "in nadzor stroškov",
+        "description": "Proaktivno spremljamo vire, inteligentno upravljamo stroške, da ohranimo poslovanje v okviru proračuna, optimiziramo AI modele za hitrejšo zmogljivost in izkoriščamo arhitekturo brez strežnikov za samodejno povečanje in prihranek stroškov.",
+        "items": {
+          "item-1": "Proaktivno spremljanje virov",
+          "item-2": "Inteligentno upravljanje stroškov",
+          "item-3": "Optimizacija zmogljivosti",
+          "item-4": "Sprejetje arhitekture brez strežnikov"
+        }
+      },
+      "table": {
+        "left": "Razvoj novih AI aplikacij za vaše poslovanje",
+        "right": "Integracije v vaše obstoječe poslovne aplikacije"
+      }
+    },
+    "use-cases": {
+      "title": "Primeri uporabe",
+      "subtitle": "Odkrijte, kako lahko vključitev naprednih AI tehnologij, kot so GPT modeli, v vaše poslovne aplikacije revolucionira vaše poslovanje.",
+      "table": {
+        "item-1-1": "Izboljšana uporabniška izkušnja",
+        "item-1-2": "Avtomatizirani poslovni procesi",
+        "item-1-3": "Napredna analiza podatkov",
+        "item-1-4": "Inteligentno iskanje in upravljanje znanja",
+        "item-1-5": "Personalizirane uporabniške izkušnje",
+        "item-2-1": "Uvajanje in usposabljanje zaposlenih",
+        "item-2-2": "Priprava poslovnih dokumentov",
+        "item-2-3": "Analiza dokumentov in dokumentacije",
+        "item-2-4": "Analiza in segmentacija strank",
+        "item-2-5": "Skladnost in obvladovanje tveganj"
+      },
+      "item-1": {
+        "title": "AI-podprti virtualni pomočniki",
+        "description": "Uporabite klepetalne robote in virtualne agente, ki zagotavljajo personalizirano, takojšnjo podporo, izboljšajo zadovoljstvo strank in skrajšajo odzivne čase."
+      },
+      "item-2": {
+        "title": "Obdelava naravnega jezika",
+        "description": "Uporabite GPT modele za razumevanje in odgovarjanje na poizvedbe strank na človeški način, kar povečuje angažiranost in zaupanje."
+      },
+      "item-3": {
+        "title": "Inteligentna obdelava dokumentov",
+        "description": "Avtomatizirajte ekstrakcijo, razvrščanje in upravljanje podatkov iz dokumentov, računov in obrazcev za povečanje natančnosti in učinkovitosti."
+      },
+      "item-4": {
+        "title": "Avtomatizirano ustvarjanje dokumentov",
+        "description": "Uporabite GPT modele za ustvarjanje visokokakovostnih poslovnih dokumentov, kot so ponudbe, poročila in pogodbe, da zmanjšate čas priprave in zagotovite doslednost."
+      },
+      "item-5": {
+        "title": "Povzetki dokumentov",
+        "description": "Uporabite AI za ustvarjanje jedrnatih povzetkov dolgih dokumentov za hitrejše razumevanje in sprejemanje odločitev."
+      },
+      "item-6": {
+        "title": "Avtomatizacija delovnih procesov",
+        "description": "Optimizirajte ponavljajoče se naloge, kot so vnos podatkov, načrtovanje in obveščanje, da se vaši zaposleni lahko osredotočijo na dejavnosti z višjo vrednostjo."
+      },
+      "item-7": {
+        "title": "Iskalna funkcionalnost, podprta z AI",
+        "description": "Izboljšajte natančnost in ustreznost iskanja v vaših aplikacijah z uporabo Azure AI, da bodo uporabniki hitro in učinkovito našli informacije."
+      },
+      "item-8": {
+        "title": "Optimizacija baze znanja",
+        "description": "Uporabite AI za organizacijo in pridobivanje informacij iz velikih skladišč podatkov, da omogočite izmenjavo znanja in sodelovanje znotraj vaše organizacije."
+      },
+      "item-9": {
+        "title": "Personalizacija vsebine",
+        "description": "Dostavite prilagojeno vsebino in priporočila uporabnikom glede na njihove preference in vedenje za povečanje angažiranosti in zvestobe."
+      },
+      "item-10": {
+        "title": "Interaktivni pomočniki za uvajanje",
+        "description": "Uporabite pomočnike, podprte z AI, da vodite nove zaposlene skozi postopek uvajanja in jim zagotovite takojšnje odgovore na vprašanja ter personalizirane učne materiale."
+      },
+      "end": "In še veliko več. Raziščimo glavne koristi za vaše podjetje na delavnici."
+    },
+    "cta": {
+      "table-item-1": {
+        "title": "Kumuluz AI Knowledge Mentor",
+        "description": "Inovativna AI rešitev, ki gradi interno bazo znanja vašega podjetja, do katere lahko dostopate prek klepetalnega robota ali drugih vrst vmesnikov in jo uporabljate za uvajanje, usposabljanje, odpravljanje težav in med izvajanjem nalog s strani vaših zaposlenih.",
+        "learn-more": "Izvedite več"
+      },
+      "table-item-2": {
+        "title": "Preizkusite našega Kumuluz AI Smart Assistant",
+        "description": "Vnaprej pripravljene komponente za hitro vključitev AI v vaše poslovne aplikacije.",
+        "give-it-a-try": "Preizkusite"
+      },
+      "end-1": "Sprejemanje AI ne pomeni le uvedbe novih tehnologij, temveč tudi preoblikovanje vaših poslovnih procesov. Z vključitvijo AI in GPT modelov v vaše poslovne aplikacije boste svoje podjetje postavili v ospredje inovacij in se pripravili na izzive jutrišnjega dne.",
+      "end-2": "Oblikujmo prihodnost skupaj. Sodelujte z nami, da odklenemo ves potencial AI v vašem podjetju."
     }
   }
 }
