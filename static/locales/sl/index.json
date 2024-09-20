@@ -48,69 +48,30 @@
           }
         }
       },
-      "digitalization": {
-        "points": {
-          "point-1": {
-            "title": "Čez noč se vključite v API ekonomijo",
-            "description": "Vzpostavimo vam vse potrebne gradnike, s katerimi se vključite v API ekonomijo. Vzpostavite ali se vključite v nove vrednostne verige. Povežite se z drugimi sistemi, učinkovito izmenjujte podatke ali integrirajte tretje storitve.",
-            "items": {
-              "item-1": "Identifikacija API priložnosti",
-              "item-2": "Hiter razvoj API-jev",
-              "item-3": "Integracija API-jev z zalednimi sistemi",
-              "item-4": "Vpeljava orodij za API management"
-            }
-          },
-          "point-2": {
-            "title": "Z digitalno platformo do digitalne tranformacije",
-            "description": "Kumuluz Digital platforma vključuje vse gradnike, s katerimi dosežete popolno digitalno transformacijo, od integracije podatkov, vpeljave API poslovanja in digitalnih gradnikov za hiter razvoj digitalnih aplikacij.",
-            "items": {
-              "item-1": "Vnaprej pripravljeni poslovni API gradniki",
-              "item-2": "Marketplace rešitve",
-              "item-3": "Avtomatizacija poslovnih procesov",
-              "item-4": "Vzpostavitev »data-driven« organizacije"
-            }
-          },
-          "point-3": {
-            "title": "Modernizirajte monolitne sisteme",
-            "description": "Z lastno platformo poskrbimo za integracijo in izmenjavo podatkov med različnimi sistemi. Nadgradimo vaše zaledne sisteme, da lahko pričnete z digitalnim poslovanjem.",
-            "items": {
-              "item-1": "Integracija preko API-jev",
-              "item-2": "Nadgradnja zalednih sistemov",
-              "item-3": "Vzpostavitev digitalne platforme",
-              "item-4": "Nešteto novih priložnosti"
-            }
-          }
-        }
-      },
-      "development": {
-        "above-title": "Specialisti za",
-        "title": "napredne tehnološke rešitve",
-        "description": "Odpravimo ovire, ki preprečujejo digitalizacijo poslovanja zaradi nepovezanosti med različnimi sistemi ter zaledne sisteme nadgradimo s funkcionalnostmi, ki jih zaledni sistemi nimajo, potrebujete pa jih za digitalno poslovanje.",
-        "items": {
-          "item-1": "Cloud-native arhitektura, API-ji in mikrostoritve",
-          "item-2": "IAM in Keycloak",
-          "item-3": "Kubernetes",
-          "item-4": "DevOps"
-        }
-      },
-      "knowledge-transfer": {
-        "opportunities": {
-          "title": "Identifikacija priložnosti",
-          "subtitle": "v digitalnem okolju",
-          "description": "Za vas izvedemo online delavnico in skupaj identificiramo, kako digitalizirati vaše poslovanje. Prav tako pripravimo načrt razvoja spletne ali mobilne aplikacije, ki bo prodajo podprla.",
+      "ai-backbase": {
+        "learn-more": "Preberite več",
+        "ai": {
+          "title": "Odklenite inovacije, učinkovitost in rast",
+          "subtitle": "z umetno inteligenco in GPT",
+          "description": "Specializirani smo za vključevanje naprednih AI tehnologij v vaše obstoječe poslovne aplikacije, s pomočjo Open AI storitev, vključno z modeli OpenAI GPT, AI iskanjem in drugimi.",
           "items": {
-            "item-1": "Identifikacija konkurenčne prednosti",
-            "item-2": "S posluhom do vaših strank",
-            "item-3": "Hiter razvoj novih rešitev"
+            "item-1": "Nemotena integracija AI in GPT s formami osnovanimi aplikacijami",
+            "item-2": "Optimizirana arhitekturna integracija z OpenAI",
+            "item-3": "Podjetniška raven varnosti podatkov in dokumentov ter zasebnost",
+            "item-4": "Gostovanje v oblaku (Azure OpenAI in drugi) ter zasebni AI, GPT in LLM modeli",
+            "item-5": "Razširljivost, hitrost in nadzor stroškov"
           }
         },
-        "concepts": {
-          "above-title": "Tehnološki",
-          "title": "koncepti digitalizacije",
-          "description": "Izobražujemo na področju vpeljave novih konceptov digitalne transformacije, kot so \"cloude-native\", microservice arhitektura, API, DevOps, IAM, Kubernetes in Docker.",
+        "backbase": {
+          "above-title": "Sodobne bančne programske rešitve",
+          "title": "s platformo Backbase",
+          "description": "S platformo Backbase lahko banke hitro modernizirajo, hitreje zagotavljajo razlikovalne zmožnosti in orkestrirajo prilagojene uporabniške izkušnje na vsakem stiku.",
           "items": {
-            "item-1": "Ekipa vrhunskih strokovnjakov",
-            "item-2": "Avtorji odprtokodnega ogrodja za razvoj cloud-native aplikacij"
+            "item-1": "Omnikanalno bančništvo",
+            "item-2": "Orkestrirajte potovanje stranke",
+            "item-3": "Modularna in združljiva arhitektura",
+            "item-4": "Avtomatizacija procesov",
+            "item-5": "Podatki in umetna inteligenca usmerjena na stranke"
           }
         }
       }

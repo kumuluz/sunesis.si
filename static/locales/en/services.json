@@ -204,5 +204,83 @@
       "item-3": "Integration process applications with back-end services",
       "item-4": "Highly-skilled and certified for IBM BPM, Oracle SOA and BPM Suite and JBoss jBPM with an extensive track record"
     }
+  },
+  "ai": {
+    "title": "Unlock innovation, efficiency and growth with AI and GPT",
+    "block1": "In today's rapidly evolving digital world, the integration of artificial intelligence (AI) and generative pre-trained transformers (GPT) models into enterprise applications is not just an option, but a powerful competitive advantage.",
+    "block2": "We specialize in embedding cutting-edge AI technologies into your existing enterprise applications by leveraging Open AI services, including OpenAI's GPT models, AI search and others.",
+    "servicerange": {
+      "title": "Grow  and optimize your business with robust, scalable and secure AI solutions tailored to the unique challenges of your industry",
+      "box": {
+        "efficiency": {
+          "title": "Increase efficiency",
+          "description": "Automate repetitive tasks and optimize your processes"
+        },
+        "decision-making": {
+          "title": "Improve decision making",
+          "description": "Leverage AI insights for smarter strategies"
+        },
+        "experiences": {
+          "title": "Personalize experiences",
+          "description": "Deliver customized content to delight users"
+        },
+        "advantage": {
+          "title": "Gain competitive advantage",
+          "description": "Stay ahead with cutting-edge AI technology"
+        }
+      }
+    },
+    "services": {
+      "title": "Our technical capabilities",
+      "subtitle": "We develop effective cloud-native solutions with optimized architectures for scalability and high performance. In addition, we implement cost-efficient strategies to make AI and GPT integration sustainable for your business.",
+      "integration": {
+        "title": "Seamless GPT integration",
+        "subtitle": "with form-based applications",
+        "description": "We enrich traditional and advanced form interfaces with GPT-powered conversational elements such as intelligent autofill and real-time help to optimize data entry and improve user interaction without losing familiarity.",
+        "items": {
+          "item-1": "Hybrid interface engineering",
+          "item-2": "Contextual intelligence implementation",
+          "item-3": "User-centric design and training"
+        }
+      },
+      "openai": {
+        "above-title": "Optimized architectural integration",
+        "title": "with OpenAI",
+        "description": "We build scalable, modular AI architectures with efficient API management, reduced latency through caching and network optimization, and flexible scaling through Azure infrastructure.",
+        "items": {
+          "item-1": "Scalable microservices architecture",
+          "item-2": "Efficient API management",
+          "item-3": "Latency reduction techniques",
+          "item-4": "Flexible infrastructure scaling"
+        }
+      },
+      "security": {
+        "title": "Improved data ",
+        "subtitle": "and document security",
+        "description": "We secure your sensitive data through advanced encryption, strict access controls and compliance with regulations such as GDPR, DORA and HIPAA to minimize risk and give you peace of mind.",
+        "items": {
+          "item-1": "Robust encryption protocols",
+          "item-2": "Strict access controls and auditing",
+          "item-3": "Regulatory compliance assurance",
+          "item-4": "Secure processing environments",
+          "item-5": "Privately hosted or local AI, GPT and LLM models"
+        }
+      },
+      "scalability": {
+        "above-title": "Scalability, speed",
+        "title": "and cost control",
+        "description": "We proactively monitor resources, intelligently manage costs to keep operations within budget, optimize AI models for faster performance and leverage serverless computing for automatic scaling and cost savings.",
+        "items": {
+          "item-1": "Proactive resource monitoring",
+          "item-2": "Intelligent cost management",
+          "item-3": "Performance optimization",
+          "item-4": "Serverless architecture adoption"
+        }
+      },
+      "table": {
+        "left": "Development of new AI applications for your business",
+        "right": "Integrations in your existing enterprise applications"
+      }
+    }
   }
 }

@@ -204,5 +204,31 @@
       "item-3": "Integracija procesnih aplikacij z zalednimi storitvami",
       "item-4": "Visoko usposobljeni in certificirani za IBM BPM, Oracle SOA in BPM Suite ter JBoss jBPM z uspešnimi rezultati"
     }
+  },
+  "ai": {
+    "title": "Odklenite inovacije, učinkovitost in rast z AI in GPT",
+    "block1": "V današnjem hitro razvijajočem se digitalnem svetu je vključevanje umetne inteligence (AI) in modelov generativnih predhodno usposobljenih transformatorjev (GPT) v podjetniške aplikacije ne le možnost, temveč močna konkurenčna prednost.",
+    "block2": "Specializirani smo za vgradnjo najnovejših AI tehnologij v vaše obstoječe podjetniške aplikacije z uporabo storitev OpenAI, vključno z modeli GPT OpenAI, AI iskanjem in drugimi.",
+    "servicerange": {
+      "title": "Rastite in optimizirajte svoje poslovanje z robustnimi, skalabilnimi in varnimi AI rešitvami, prilagojenimi edinstvenim izzivom vaše industrije",
+      "box": {
+        "efficiency": {
+          "title": "Povečajte učinkovitost",
+          "description": "Avtomatizirajte ponavljajoče se naloge in optimizirajte svoje procese"
+        },
+        "decision-making": {
+          "title": "Izboljšajte odločanje",
+          "description": "Izkoristite vpoglede AI za pametnejše strategije"
+        },
+        "experiences": {
+          "title": "Personalizirajte izkušnje",
+          "description": "Ponudite prilagojeno vsebino, da navdušite uporabnike"
+        },
+        "advantage": {
+          "title": "Pridobite konkurenčno prednost",
+          "description": "Ostanite pred konkurenco z najnovejšo AI tehnologijo"
+        }
+      }
+    }
   }
 }

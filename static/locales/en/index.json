@@ -48,69 +48,30 @@
           }
         }
       },
-      "digitalization": {
-        "points": {
-          "point-1": {
-            "title": "Get involved in the API economy overnight",
-            "description": "We provide you with all the necessary building blocks to get involved in the API economy. Establish or engage in new value chains. Connect to other systems, share data efficiently, or integrate third-party services.",
-            "items": {
-              "item-1": "Identification of API opportunities",
-              "item-2": "Rapid development of APIs",
-              "item-3": "Integration of APIs with back-end systems",
-              "item-4": "Introduction of API management tools"
-            }
-          },
-          "point-2": {
-            "title": "With a digital platform towards digital transformation",
-            "description": "The Kumuluz Digital platform includes all the building blocks to achieve complete digital transformation, from data integration, API economy and digital building blocks for rapid digital applications development.",
-            "items": {
-              "item-1": "Pre-built business APIs",
-              "item-2": "Marketplace solutions",
-              "item-3": "Business process automation",
-              "item-4": "Establishment of a »data-driven« organization"
-            }
-          },
-          "point-3": {
-            "title": "Modernize monolithic systems",
-            "description": "With our platform, we take care of the integration and exchange of data between different systems. We upgrade your back-end systems so you can start a digital business.",
-            "items": {
-              "item-1": "API integration",
-              "item-2": "Backend system upgrade",
-              "item-3": "Establishment of a digital platform",
-              "item-4": "Countless new opportunities"
-            }
-          }
-        }
-      },
-      "development": {
-        "above-title": "Experts in",
-        "title": "advanced technology solutions",
-        "description": "We eliminate obstacles that prevent the digitalization of business due to the lack of integration between different systems. We upgrade back-end systems with functionalities needed for digital business.",
-        "items": {
-          "item-1": "Cloud-native architecture, APIs and microservices",
-          "item-2": "IAM and Keycloak",
-          "item-3": "Kubernetes",
-          "item-4": "DevOps"
-        }
-      },
-      "knowledge-transfer": {
-        "opportunities": {
-          "title": "Identifying opportunities",
-          "subtitle": "in the digital environment",
-          "description": "We conduct an online workshop for you and together identify how to digitize your business. We also prepare a plan for the development of a web or mobile application that will support sales.",
+      "ai-backbase": {
+        "learn-more": "Learn more",
+        "ai": {
+          "title": "Unlock innovation, efficiency and growth",
+          "subtitle": "with AI and GPT",
+          "description": "We specialize in embedding cutting-edge AI technologies into your existing enterprise applications by leveraging Open AI services, including OpenAI's GPT models, AI search and others.",
           "items": {
-            "item-1": "Identification of competitive advantage",
-            "item-2": "Engaging your customers",
-            "item-3": "Rapid development of new solutions"
+            "item-1": "Seamless AI and GPT integration with form-based applications",
+            "item-2": "Optimized architectural integration with OpenAI",
+            "item-3": "Enterprise-grade data and document security and privacy",
+            "item-4": "Cloud-hosted (Azure OpenAI and others) and private AI, GPT and LLM models",
+            "item-5": "Scalability, speed and cost control"
           }
         },
-        "concepts": {
-          "above-title": "Technological",
-          "title": "concepts of digitization",
-          "description": "We educate in the implementation of new concepts of digital transformation, such as cloud-native, microservice architecture, API, DevOps, IAM, Kubernetes and Docker.",
+        "backbase": {
+          "above-title": "Modern banking software solutions",
+          "title": "with Backbase platform",
+          "description": "With Backbase platform, banks can modernize quickly, deliver differentiating capabilities faster and orchestrate personalized customer experiences across every touchpoint.",
           "items": {
-            "item-1": "A team of top experts",
-            "item-2": "Authors of open source framework for cloud-native application development"
+            "item-1": "Omnichannel banking",
+            "item-2": "Orchestrate the customer journey",
+            "item-3": "Modular and compatible architecture",
+            "item-4": "Process Automation",
+            "item-5": "Customer-centric data and AI"
           }
         }
       }

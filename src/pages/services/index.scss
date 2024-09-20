@@ -1,10 +1,89 @@
 @import '../../layouts/variables.scss';
 @import '../../layouts/media-mixin.scss';
 
+$pc-width: 60%;
+$tablet-width: 80%;
+$phone-width: 90%;
+
 .header {
   padding-top: 100px;
   background-color: $blue-300;
 }
+
+.main-content {
+  display: flex;
+  justify-content: center;
+
+  .index-content-component {
+    .content-body {
+      width: $pc-width;
+    }
+
+    .container-subtitle,
+    .container-title {
+      margin: 0 20% 0 20%;
+    }
+  }
+}
+
+@include device-specific($tablet-landscape) {
+  .main-content {
+    .index-content-component {
+      .content-body {
+        width: $tablet-width;
+      }
+    }
+  }
+}
+
+@include device-specific($tablet) {
+  .main-content {
+    .index-content-component {
+      .content-body {
+        width: $tablet-width;
+      }
+    }
+  }
+}
+
+@include device-specific($phone) {
+  .main-content {
+    .index-content-component {
+      .content-body {
+        width: $phone-width;
+      }
+
+      .container-subtitle,
+      .container-title {
+        margin: 0 3rem 0 3rem;
+      }
+    }
+  }
+}
+
+.emphasized-partners {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h3 {
+    color: $grey-200;
+    font-family: $font-asap;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .references-spinning {
+    width: 60%;
+    box-sizing: border-box;
+  }
+}
+
 .service-range {
   color: $white;
 
@@ -15,14 +94,17 @@
       color: $blue-400;
       font-weight: 600;
     }
+
     .boxes-container {
       margin-top: 40px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
     }
+
     .normal-text-wrapper {
       margin-top: 80px;
+
       .normal-text {
         color: $black;
         width: 60%;
@@ -37,6 +119,7 @@
       font-size: 1.64rem;
       line-height: 2.3rem;
     }
+
     .highlighted-darker-text {
       color: $blue-200;
       font-weight: 600;
@@ -73,6 +156,7 @@
 
   .service-full-list {
     margin-top: 40px;
+
     h4 {
       color: $blue-400;
       font-weight: 600;
@@ -86,16 +170,20 @@
   .hidden-xs {
     display: none;
   }
+
   .header-nav {
     display: none;
   }
+
   .header {
     padding-top: 50px;
+
     h1 {
       color: $white;
       margin: 0 auto 0 auto;
       font-weight: 500;
     }
+
     p {
       color: $white;
       width: 90%;
@@ -107,12 +195,14 @@
     .content {
       .normal-text-wrapper {
         margin-top: 80px;
+
         .normal-text {
           color: $black;
           width: 90%;
           margin: 20px auto 0 auto;
         }
       }
+
       .darker-text {
         color: $blue-200;
         width: 90%;
@@ -121,6 +211,7 @@
         line-height: 2.3rem;
       }
     }
+
     .arrow {
       margin-left: -15px;
       width: 0;
@@ -138,15 +229,19 @@
       width: 0;
       height: 0;
     }
+
     .left-whitespace {
       width: 0;
     }
+
     .center-image {
       width: 0;
     }
+
     .right-content {
       width: 100%;
     }
+
     // arrows
     .white-arrow {
       position: absolute;
@@ -158,6 +253,7 @@
       border-width: 60px 100vw 0 0;
       border-color: $white transparent transparent transparent;
     }
+
     .white-arrow-reversed {
       position: relative;
       top: -60px;
@@ -168,6 +264,7 @@
       border-width: 0 100vw 60px 0;
       border-color: transparent transparent $white transparent;
     }
+
     // text
     .list-text {
       margin: 100px 20px 150px 20px;
@@ -176,27 +273,33 @@
       h3 {
         color: $white;
       }
+
       p {
         width: 90%;
         margin: 20px auto 0 0;
         color: $white;
       }
+
       h4 {
         color: $blue-100;
         margin-top: 50px;
       }
     }
   }
+
   .certifications-wrapper {
     margin-left: 0;
+
     .certifications {
       .cert-content {
         display: flex;
         flex-wrap: wrap;
       }
+
       .left-cert {
         width: 100%;
         text-align: center;
+
         h5 {
           color: $blue-400;
           font-weight: 700;
@@ -204,8 +307,10 @@
           font-size: 26px;
         }
       }
+
       .right-cert {
         width: 100%;
+
         img {
           margin-left: 0;
           width: 60%;
@@ -220,16 +325,19 @@
       flex-wrap: wrap;
       justify-content: center;
     }
+
     .left-full-list {
       width: 100%;
       text-align: center;
     }
+
     .right-full-list {
       width: 90%;
       text-align: left;
     }
   }
 }
+
 /* ******************** TABLET **********************/
 @include device-specific($tablet) {
   .header-nav {
@@ -244,6 +352,7 @@
       justify-content: space-around;
       align-items: center;
       text-align: center;
+
       div {
         color: $white;
         font-family: $font-asap;
@@ -258,6 +367,7 @@
       margin: 0 auto 0 auto;
       font-weight: 500;
     }
+
     p {
       color: $white;
       width: 60%;
@@ -277,9 +387,9 @@
 
   .capabilities {
     margin-top: 20px;
-    .sunesis-devs-img {
 
-    }
+    .sunesis-devs-img {}
+
     // content grid
     .left-whitespace {
       width: 8.32%;
@@ -292,6 +402,7 @@
     .right-content {
       width: 50%;
     }
+
     // arrows
     .white-arrow {
       position: absolute;
@@ -302,6 +413,7 @@
       border-width: 120px 100vw 0 0;
       border-color: $white transparent transparent transparent;
     }
+
     .white-arrow-reversed {
       position: relative;
       top: -120px;
@@ -312,6 +424,7 @@
       border-width: 0 100vw 120px 0;
       border-color: transparent transparent $white transparent;
     }
+
     // text
     .list-text {
       margin: 100px 5px 150px 50px;
@@ -320,38 +433,47 @@
       h3 {
         color: $white;
       }
+
       p {
         width: 80%;
         margin: 20px auto 0 0;
         color: $white;
         font-size: 16px;
       }
+
       h4 {
         color: $blue-100;
         margin-top: 50px;
       }
     }
   }
+
   .certifications-wrapper {
     margin-left: 10%;
+
     .certifications {
       .content {
         padding: 0 !important;
+
         .cert-content {
           display: flex;
           flex-wrap: wrap;
         }
+
         .left-cert {
           width: 30%;
           text-align: left;
+
           h5 {
             color: $blue-400;
             font-weight: 700;
             margin-bottom: 20px;
           }
         }
+
         .right-cert {
           width: 50%;
+
           img {
             margin-left: 50px;
             margin-top: 40px;
@@ -368,15 +490,18 @@
       display: flex;
       flex-wrap: wrap;
     }
+
     .left-full-list {
       width: 25%;
     }
+
     .right-full-list {
       width: 60%;
       margin-left: 50px;
     }
   }
 }
+
 /* ******************** PC **********************/
 @include device-specific($pc) {
   .header-nav {
@@ -390,6 +515,7 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+
       div {
         color: $white;
         font-family: $font-asap;
@@ -404,6 +530,7 @@
       margin: 0 auto 0 auto;
       font-weight: 500;
     }
+
     p {
       color: $white;
       width: 60%;
@@ -423,9 +550,9 @@
 
   .capabilities {
     margin-top: 20px;
-    .sunesis-devs-img {
 
-    }
+    .sunesis-devs-img {}
+
     // content grid
     .left-whitespace {
       width: 8.32%;
@@ -438,6 +565,7 @@
     .right-content {
       width: 50%;
     }
+
     // arrows
     .white-arrow {
       position: absolute;
@@ -448,6 +576,7 @@
       border-width: 240px 100vw 0 0;
       border-color: $white transparent transparent transparent;
     }
+
     .white-arrow-reversed {
       position: relative;
       top: -240px;
@@ -458,6 +587,7 @@
       border-width: 0 100vw 240px 0;
       border-color: transparent transparent $white transparent;
     }
+
     //text
     .list-text {
       margin: 200px 0 200px 50px;
@@ -466,33 +596,40 @@
       h3 {
         color: $white;
       }
+
       p {
         width: 60%;
         margin: 20px auto 0 0;
         color: $white;
       }
+
       h4 {
         color: $blue-100;
         margin-top: 50px;
       }
     }
   }
+
   .certifications {
     .cert-content {
       display: flex;
       flex-wrap: wrap;
     }
+
     .left-cert {
       width: 30%;
       text-align: left;
+
       h5 {
         color: $blue-400;
         font-weight: 700;
         margin-bottom: 20px;
       }
     }
+
     .right-cert {
       width: 50%;
+
       img {
         margin-left: 50px;
         margin-top: 40px;
@@ -500,14 +637,17 @@
       }
     }
   }
+
   .service-full-list {
     .full-list-container {
       display: flex;
       flex-wrap: wrap;
     }
+
     .left-full-list {
       width: 25%;
     }
+
     .right-full-list {
       width: 50%;
       margin-left: 50px;

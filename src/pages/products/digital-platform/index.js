@@ -179,48 +179,8 @@ function ProductsPage() {
             </Col>
           </Row>
         </Container>
-        <Container className="bapis mt-5" fluid={true}>
-          <Row className="justify-content-center">
-            <Col xs={12} xl={10}>
-              <BusinessApisComponent />
-            </Col>
-          </Row>
-        </Container>
+
         <Container className="white-section">
-          <Row className="case-study justify-content-center mt-5 pt-5">
-            <Col lg="8" xl="6">
-              <h3 className="blue-400 font-weight-bold">{t("caseStudy.title")}</h3>
-              <p dangerouslySetInnerHTML={{ __html: t("caseStudy.description") }} />
-
-              <p dangerouslySetInnerHTML={{ __html: t("caseStudy.advantages.title") }} />
-              {caseStudyAdvantages(t).map((adv, i) => (
-                <p className="case-study-item" key={i}>
-                  <span className="case-study-blue-icon" />
-                  <span dangerouslySetInnerHTML={{ __html: t(adv.description) }} />
-                </p>
-              ))}
-            </Col>
-            <Col lg="8" xl="5" className="mt-5">
-              <div className="box">
-                <div className="quote-wrapper">
-                  <p className="position-relative">
-                    <span className="quote">&quot;</span>
-                    <span>{t("caseStudy.quote.quote")}</span>
-                    <span className="quote right">&quot;</span>
-                  </p>
-                </div>
-                <div className="arrow" />
-                <p className="footer text-center mb-0 px-4 pb-4">
-                  <a target="_blank" href={BLOG_URL}>
-                    {t("caseStudy.quote.readMore")}
-                  </a>
-                  <br />
-                  {t("caseStudy.quote.about")}
-                </p>
-              </div>
-            </Col>
-          </Row>
-
           <References />
         </Container>
         <ParallaxBlock className="d-none d-lg-block" image={cube02} size={100} xOffset="5%" yOffset={200} />

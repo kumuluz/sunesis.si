@@ -12,8 +12,9 @@ import {
   CustomersSection,
   SEO,
   GoogleAnalyticsService,
-  ServicesSection,
+  CapabilitiesSection,
   ReferencesSpinner,
+  ProductsSection,
 } from "../components";
 
 import "./index.scss";
@@ -21,6 +22,7 @@ import apiEconomy from "../assets/images/index/api-ekonomija.svg";
 import digitalProducts from "../assets/images/index/dig-produkti.svg";
 import digitalization from "../assets/images/index/digitalizacija.svg";
 import newWays from "../assets/images/index/nove-poti.svg";
+import { IndexContentAiBackbase } from "../components/index-page/content-ai-backbase/index-content-ai-backbase";
 
 const headerItems = (t) => [
   {
@@ -102,7 +104,16 @@ const IndexPage = () => {
         </div>
 
         <div className="index-services-section">
-          <DarkFloatingSection topContent={<ServicesSection locale={i18n.language} showCoreServices={true} />} />
+          <DarkFloatingSection topContent={<CapabilitiesSection locale={i18n.language} />} />
+          <div className="dark-blue-white-arrow" />
+        </div>
+
+        <div className="main-content">
+          <IndexContentAiBackbase locale={i18n.language} />
+        </div>
+
+        <div className="index-services-section">
+          <DarkFloatingSection topContent={<ProductsSection locale={i18n.language} />} />
           <div className="dark-blue-white-arrow" />
         </div>
 
