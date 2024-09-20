@@ -255,7 +255,15 @@ function ServicesAiPage() {
           </div>
         </Container>
 
-        <div fluid={true} className="mt-5 container-margin">
+        <div className="mt-5 container-margin">
+          <div className="use-case-table">
+            <div className="content">{t("ai.services.table.left")}</div>
+            <div className="table-separator" />
+            <div className="content">{t("ai.services.table.right")}</div>
+          </div>
+        </div>
+
+        <div className="mt-5 container-margin">
           <Row className="content-body">
             <Col xs="12" className="text-center">
               <h2>{t("ai.use-cases.title")}</h2>
@@ -301,6 +309,25 @@ function ServicesAiPage() {
               <p>{t("ai.use-cases.end")}</p>
             </Col>
           </Row>
+        </div>
+
+        <div className="flex-column d-flex align-items-center beige-div">
+          <div className="beige-arrow-reversed" />
+          <div className="beige-content container-padding">
+            <div>
+              <h2>{t("ai.cta.table-item-1.title")}</h2>
+              <p>{t("ai.cta.table-item-1.description")}</p>
+              <Link to="/products/ai-knowledge-mentor">{t("ai.cta.table-item-1.learn-more")}</Link>
+            </div>
+            <div className="mt-5">
+              <h2>{t("ai.cta.table-item-2.title")}</h2>
+              <p>{t("ai.cta.table-item-2.description")}</p>
+              <Link to="/products/ai-knowledge-mentor">{t("ai.cta.table-item-2.give-it-a-try")}</Link>
+            </div>
+            <p className="mt-5">{t("ai.cta.end-1")}</p>
+            <p className="mt-5 end-2">{t("ai.cta.end-2")}</p>
+          </div>
+          <div className="beige-arrow" />
         </div>
 
         <Footer contact />
