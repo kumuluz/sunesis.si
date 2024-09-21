@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
-import { Footer, ProductsGrid, References, ParallaxBlock, BusinessApisComponent, SEO } from "../../../components";
+import { Footer, ProductsGrid, References, ParallaxBlock, SEO } from "../../../components";
 import { Layout } from "../../../layouts";
 
 import "../index.scss";
@@ -18,7 +18,7 @@ import sunesisCube from "../images/sunesis-cube-full.png";
 import awardDuke from "../../../assets/images/awards/duke.jpg";
 import awardEurocloud from "../../../assets/images/awards/euro-cloud.png";
 import awardStartup from "../../../assets/images/awards/startup.png";
-import { BLOG_URL, URL_KUMULUZ_COM } from "../../../content/constants";
+import { URL_KUMULUZ_COM } from "../../../content/constants";
 
 import deployDataCenterImage from "../../../assets/images/products/deployDatacenter.svg";
 import fullSupportImage from "../../../assets/images/products/fullSupport.svg";
@@ -54,22 +54,7 @@ const advantages = (t) => [
   },
 ];
 
-const caseStudyAdvantages = (t) => [
-  {
-    icon: monkey,
-    description: t("caseStudy.advantages.advantage1"),
-  },
-  {
-    icon: monkey,
-    description: t("caseStudy.advantages.advantage2"),
-  },
-  {
-    icon: monkey,
-    description: t("caseStudy.advantages.advantage3"),
-  },
-];
-
-function ProductsPage() {
+function ProductsDigitalPlatformPage() {
   const { t } = useI18next("products");
 
   return (
@@ -192,7 +177,7 @@ function ProductsPage() {
   );
 }
 
-export default ProductsPage;
+export default ProductsDigitalPlatformPage;
 
 export const query = graphql`
   query ($language: String!) {

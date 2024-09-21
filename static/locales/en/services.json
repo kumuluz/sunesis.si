@@ -454,5 +454,93 @@
       "end-1": "With Backbase, your institution can tackle modernization without the constraints of legacy infrastructure, ensuring you stay ahead of the competition.",
       "end-2": "Contact us today to find out how our Backbase integration services can enable your institution to innovate, modernize and lead in today’s competitive digital banking landscape."
     }
+  },
+  "modernization": {
+    "title": "Rapidly modernize your outdated software systems",
+    "block1": "At Sunesis, we specialize in transforming legacy systems into agile, future-proof platforms. Our software modernization services enable businesses to stay competitive by re-platforming outdated software to cloud-native platforms, modernizing code and integrating cutting-edge technologies while ensuring seamless operational efficiency.",
+    "servicerange": {
+      "title": "With Backbase, banks can modernize quickly, deliver differentiating capabilities faster and orchestrate personalized customer experiences across every touchpoint.",
+      "box": {
+        "agility": {
+          "title": "Increase operational agility",
+          "description": "Optimize legacy systems and workflows so your teams can work faster and more efficiently across departments"
+        },
+        "satisfaction": {
+          "title": "Improve customer satisfaction",
+          "description": "Leverage modern technologies to create seamless, user-friendly digital experiences"
+        },
+        "speed": {
+          "title": "Accelerate the speed of innovation",
+          "description": "Use a modular architecture to deliver new products and services quickly and stay ahead of the market"
+        },
+        "scalability": {
+          "title": "Ensure long-term scalability",
+          "description": "Secure your software infrastructure with a flexible, cloud-ready platform"
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Our capabilities",
+      "subtitle": "Our capabilities for your faster digital transformation and software modernization:",
+      "replatforming": {
+        "title": "Replatforming of legacy systems",
+        "description": "Update your outdated software infrastructure by moving to modern, scalable platforms that are easier to maintain and improve."
+      },
+      "modernization": {
+        "title": "Code refactoring and modernization",
+        "description": "Revitalize your legacy applications by rewriting, refactoring or updating outdated code to meet today’s technology requirements and improve performance and scalability."
+      },
+      "optimization": {
+        "title": "Cloud migration and optimization",
+        "description": "Move your on-premises systems to the cloud and leverage cloud-native architectures for greater flexibility, efficiency and lower operating costs."
+      },
+      "microservices": {
+        "title": "Switch to microservices and serverless architecture",
+        "description": "Transform monolithic systems into microservices architectures that enable faster deployment cycles, better scalability and smoother integration with modern technologies."
+      },
+      "integration": {
+        "title": "API extension and event-driven integration",
+        "description": "Improve system interoperability by introducing robust APIs that enable seamless integration with third-party services, digital platforms and internal systems."
+      },
+      "dev-ops": {
+        "title": "DevOps and continuous integration/deployment",
+        "description": "Implement modern DevOps practices to streamline development processes and enable faster deployment of updates and enhancements with minimal downtime."
+      },
+      "table": {
+        "title": "Proprietary software products and solutions to accelerate your software modernization and digital transformation",
+        "learn-more": "Learn more",
+        "items-left": {
+          "title": "Kumuluz platform",
+          "description-1": "Accelerate your digital transformation",
+          "description-2": "A lightweight, open, award-winning digital platform that simplifies and accelerates software modernization."
+        },
+        "items-right": {
+          "title": "Kumuluz Business APIs",
+          "description-1": "API solutions for immediate deployment",
+          "description-2": "Pre-built business APIs to develop your digital products and services much faster."
+        }
+      }
+    },
+    "use-cases": {
+      "title": "Use cases",
+      "subtitle": "Examples of our software modernization services:",
+      "item-1": {
+        "title": "Replatforming legacy financial systems",
+        "description": "A large financial institution with legacy core banking systems wanted to modernize its platform without disrupting its operations. Sunesis successfully migrated the systems to a modern cloud infrastructure, overhauled key components and introduced a microservices architecture.\n\nThis enabled the institution to bring new digital products to market faster, reduce maintenance costs and improve the overall resilience of the system.",
+        "cta-title": "Learn more:",
+        "cta-text": "Transform your banking ecosystem and innovation with Backbase"
+      },
+      "item-2": {
+        "title": "Cloud migration for business efficiency",
+        "description": "An oil company was faced with scaling its on-premise software when demand surged. Sunesis helped the company move to a cloud-native platform to optimize both performance and cost efficiency. By using microservices and API-driven architectures, the company was able to reduce its operating costs and significantly shorten deployment cycles."
+      },
+      "item-3": {
+        "title": "API integration for a unified customer experience",
+        "description": "Sunesis implemented an API-first approach with Kumuluz Digital Platform that integrated the disparate systems into a unified platform, improving internal collaboration and increasing customer service response times."
+      }
+    },
+    "cta": {
+      "end-1": "Contact us today to find out how our software modernization services can enable your organization to innovate, modernize and lead in today’s competitive digital landscape."
+    }
   }
 }

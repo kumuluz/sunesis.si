@@ -2,6 +2,7 @@ import * as PropTypes from "prop-types";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import React, { useState } from "react";
 import chevron from "../../../assets/images/services/chevron.svg";
+import { Link } from "../../link/link.component";
 
 /**
  *
@@ -11,7 +12,7 @@ import chevron from "../../../assets/images/services/chevron.svg";
  * @return {JSX.Element}
  * @constructor
  */
-export function ServiceFullListItem({ title, desc, services }) {
+export function ServiceFullListItem({ title, desc, cta, services }) {
   const { t } = useI18next("services");
   const [opened, toggleOpened] = useState(false);
 
@@ -42,6 +43,12 @@ export function ServiceFullListItem({ title, desc, services }) {
         className={opened ? "flc-desc changeable-content" : "flc-desc skrito changeable-content"}
         dangerouslySetInnerHTML={{ __html: replaceNewLines(desc) }}
       ></div>
+      {cta && opened && (
+        <div className="d-flex ml-5">
+          <p className="mr-2">{cta.title}</p>
+          <Link to={cta.link}>{cta.text}</Link>
+        </div>
+      )}
       <div className={opened ? "flc-list" : "flc-list skrito"}>
         {services &&
           services.map((service, j) => (

@@ -4,7 +4,7 @@ import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
 import { Layout } from "../../../layouts";
-import { Footer, ServiceRangeBox, SEO, ReferencesSpinner, Link, DarkFloatingSection } from "../../../components";
+import { Footer, ServiceRangeBox, SEO, ReferencesSpinner, DarkFloatingSection } from "../../../components";
 import { ServiceFullListItem } from "../../../components/services/service-full-list/list-item";
 import { Benefits } from "../../../components";
 import { benefits } from "./benefits";
@@ -19,7 +19,7 @@ import rangeTransProducts from "../../../assets/images/services/trans-products.s
 import "../index.scss";
 import "../../../components/index-page/content/index-content.scss";
 
-function ServicesPage() {
+function ServicesBackbasePage() {
   const { t } = useI18next("services");
   return (
     <Layout>
@@ -258,7 +258,7 @@ function ServicesPage() {
   );
 }
 
-export default ServicesPage;
+export default ServicesBackbasePage;
 
 export const query = graphql`
   query ($language: String!) {

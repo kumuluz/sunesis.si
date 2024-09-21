@@ -55,6 +55,14 @@ $phone-width: 90%;
   }
 }
 
+.use-case-table-title {
+  padding: 0.75rem;
+  border: 1px solid $grey-200;
+  border-bottom: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 .use-case-table {
   display: flex;
   justify-content: space-between;

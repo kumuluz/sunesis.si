@@ -74,12 +74,6 @@ class TechnologiesPage extends Component {
             }
           />
 
-          {/*<CustomersSection locale={locale}/>*/}
-
-          {/*<Container className="text-center">*/}
-          {/*    <References/>*/}
-          {/*</Container>*/}
-
           <ParallaxBlock image={cube02} size={100} xOffset="10%" yOffset={300} />
           <ParallaxBlock className="d-none d-md-block" image={cube01} size={80} xOffset="70%" yOffset={450} />
           <Footer social blue={true} />

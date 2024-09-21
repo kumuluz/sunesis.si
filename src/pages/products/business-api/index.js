@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
-import { Footer, ProductsGrid, References, ParallaxBlock, BusinessApisComponent, SEO } from "../../../components";
+import { Footer, References, ParallaxBlock, BusinessApisComponent, SEO } from "../../../components";
 import { Layout } from "../../../layouts";
 
 import "../index.scss";
@@ -11,48 +11,7 @@ import "../index.scss";
 import monkey from "../../../assets/images/monkey.png";
 import cube01 from "../../../assets/images/cubes/3d-cube-01.svg";
 import cube02 from "../../../assets/images/cubes/3d-cube-02.svg";
-import cube03 from "../../../assets/images/cubes/3d-cube-03.svg";
-
-import sunesisCube from "../images/sunesis-cube-full.png";
-
-import awardDuke from "../../../assets/images/awards/duke.jpg";
-import awardEurocloud from "../../../assets/images/awards/euro-cloud.png";
-import awardStartup from "../../../assets/images/awards/startup.png";
-import { BLOG_URL, URL_KUMULUZ_COM } from "../../../content/constants";
-
-import deployDataCenterImage from "../../../assets/images/products/deployDatacenter.svg";
-import fullSupportImage from "../../../assets/images/products/fullSupport.svg";
-import knowledgeImage from "../../../assets/images/products/knowledge.svg";
-import lockInImage from "../../../assets/images/products/lockIn.svg";
-import minInvestementImage from "../../../assets/images/products/minInvestment.svg";
-import transitionCloudImage from "../../../assets/images/products/transitionCloud.svg";
-
-const advantages = (t) => [
-  {
-    icon: transitionCloudImage,
-    description: t("advantages.advantage1"),
-  },
-  {
-    icon: lockInImage,
-    description: t("advantages.advantage2"),
-  },
-  {
-    icon: deployDataCenterImage,
-    description: t("advantages.advantage3"),
-  },
-  {
-    icon: knowledgeImage,
-    description: t("advantages.advantage4"),
-  },
-  {
-    icon: minInvestementImage,
-    description: t("advantages.advantage5"),
-  },
-  {
-    icon: fullSupportImage,
-    description: t("advantages.advantage6"),
-  },
-];
+import { BLOG_URL } from "../../../content/constants";
 
 const caseStudyAdvantages = (t) => [
   {
@@ -69,7 +28,7 @@ const caseStudyAdvantages = (t) => [
   },
 ];
 
-function ProductsPage() {
+function ProductsBusinessApiPage() {
   const { t } = useI18next("products");
 
   return (
@@ -130,7 +89,7 @@ function ProductsPage() {
   );
 }
 
-export default ProductsPage;
+export default ProductsBusinessApiPage;
 
 export const query = graphql`
   query ($language: String!) {

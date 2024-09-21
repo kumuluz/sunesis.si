@@ -454,5 +454,93 @@
       "end-1": "Z Backbase lahko vaša institucija brez omejitev zastarele infrastrukture izvede modernizacijo in zagotovi, da boste pred konkurenco.",
       "end-2": "Kontaktirajte nas še danes, da izveste, kako lahko naše storitve integracije Backbase omogočijo vaši instituciji, da inovira, modernizira in vodi v današnjem konkurenčnem digitalnem bančniškem okolju."
     }
+  },
+  "modernization": {
+    "title": "Hitro modernizirajte svoje zastarele programske sisteme",
+    "block1": "V Sunesisu smo specializirani za preoblikovanje zastarelih sistemov v agilne, prihodnje varne platforme. Naše storitve modernizacije programske opreme omogočajo podjetjem, da ostanejo konkurenčna z replatformiranjem zastarele programske opreme na oblačno-nativne platforme, modernizacijo kode in integracijo najsodobnejših tehnologij ter hkrati zagotavljajo nemoteno operativno učinkovitost.",
+    "servicerange": {
+      "title": "Z Backbase lahko banke hitro modernizirajo, hitreje uvajajo razlikovalne zmogljivosti in usklajujejo prilagojene uporabniške izkušnje na vseh stičnih točkah.",
+      "box": {
+        "agility": {
+          "title": "Povečajte operativno agilnost",
+          "description": "Optimizirajte zastarele sisteme in delovne tokove, tako da lahko vaše ekipe hitreje in učinkoviteje delujejo med oddelki."
+        },
+        "satisfaction": {
+          "title": "Izboljšajte zadovoljstvo strank",
+          "description": "Izkoristite sodobne tehnologije za ustvarjanje brezhibnih, uporabniku prijaznih digitalnih izkušenj."
+        },
+        "speed": {
+          "title": "Pospešite hitrost inovacij",
+          "description": "Uporabite modularno arhitekturo za hitro uvajanje novih izdelkov in storitev ter ostanite pred konkurenco."
+        },
+        "scalability": {
+          "title": "Zagotovite dolgoročno skalabilnost",
+          "description": "Zavarujte svojo programsko infrastrukturo s prilagodljivo, na oblak pripravljeno platformo."
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Naše zmogljivosti",
+      "subtitle": "Naše zmogljivosti za hitrejšo digitalno preobrazbo in modernizacijo programske opreme:",
+      "replatforming": {
+        "title": "Replatformiranje zastarelih sistemov",
+        "description": "Posodobite svojo zastarelo programsko infrastrukturo s prehodom na sodobne, prilagodljive platforme, ki so lažje za vzdrževanje in izboljšanje."
+      },
+      "modernization": {
+        "above-title": "Prepisovanje kode in modernizacija",
+        "description": "Oživite svoje zastarele aplikacije z njihovim prepisovanjem, preurejanjem ali posodabljanjem zastarele kode, da izpolnijo današnje tehnološke zahteve in izboljšajo zmogljivost ter prilagodljivost."
+      },
+      "optimization": {
+        "title": "Migracija v oblak in optimizacija",
+        "description": "Premaknite svoje sisteme iz lokalnega okolja v oblak in izkoristite arhitekture, zasnovane na oblaku, za večjo prilagodljivost, učinkovitost in nižje operativne stroške."
+      },
+      "microservices": {
+        "above-title": "Prehod na mikroservise in arhitekturo brez strežnikov",
+        "description": "Preoblikujte monolitne sisteme v arhitekturo mikroservisov, ki omogoča hitrejše razvojne cikle, boljšo prilagodljivost in bolj gladko integracijo z modernimi tehnologijami."
+      },
+      "integration": {
+        "title": "Razširitev API-jev in integracija, podprta z dogodki",
+        "description": "Izboljšajte interoperabilnost sistemov z uvedbo zanesljivih API-jev, ki omogočajo brezhibno integracijo s storitvami tretjih oseb, digitalnimi platformami in notranjimi sistemi."
+      },
+      "dev-ops": {
+        "title": "DevOps in neprekinjena integracija/uvajanje",
+        "description": "Uvedite sodobne DevOps prakse za poenostavitev razvojnih procesov in omogočite hitrejšo uvedbo posodobitev in izboljšav z minimalnim izpadom."
+      },
+      "table": {
+        "title": "Lastniški programski izdelki in rešitve za pospešitev vaše modernizacije programske opreme in digitalne preobrazbe",
+        "learn-more": "Izvedite več",
+        "items-left": {
+          "title": "Kumuluz platforma",
+          "description-1": "Pospešite svojo digitalno preobrazbo",
+          "description-2": "Lahka, odprta, nagrajena digitalna platforma, ki poenostavi in pospeši modernizacijo programske opreme."
+        },
+        "items-right": {
+          "title": "Kumuluz poslovni API-ji",
+          "description-1": "API rešitve za takojšnjo uvedbo",
+          "description-2": "Vnaprej izdelani poslovni API-ji za hitrejši razvoj vaših digitalnih izdelkov in storitev."
+        }
+      }
+    },
+    "use-cases": {
+      "title": "Primeri uporabe",
+      "subtitle": "Primeri naših storitev modernizacije programske opreme:",
+      "item-1": {
+        "title": "Replatformiranje zastarelih finančnih sistemov",
+        "description": "Velika finančna institucija z zastarelimi osnovnimi bančnimi sistemi je želela modernizirati svojo platformo, ne da bi prekinila svoje operacije. Sunesis je uspešno preselil sisteme v sodobno oblačno infrastrukturo, prenovil ključne komponente in uvedel arhitekturo mikroservisov.\n\nTo je instituciji omogočilo hitrejšo uvedbo novih digitalnih izdelkov na trg, zmanjšanje stroškov vzdrževanja in izboljšanje splošne odpornosti sistema.",
+        "cta-title": "Izvedite več:",
+        "cta-text": "Preoblikujte svoj bančni ekosistem in inovacije z Backbase"
+      },
+      "item-2": {
+        "title": "Migracija v oblak za poslovno učinkovitost",
+        "description": "Naftno podjetje se je soočilo s povečanjem povpraševanja po svoji lokalni programski opremi. Sunesis je podjetju pomagal pri prehodu na oblačno-nativno platformo, da bi optimiziral tako zmogljivost kot stroškovno učinkovitost. Z uporabo mikroservisov in arhitektur, podprtih z API-ji, je podjetje zmanjšalo svoje obratovalne stroške in znatno skrajšalo razvojne cikle."
+      },
+      "item-3": {
+        "title": "API integracija za enotno uporabniško izkušnjo",
+        "description": "Sunesis je uvedel pristop API-first s Kumuluz Digital Platform, ki je integriral raznolike sisteme v enotno platformo, izboljšal notranje sodelovanje in povečal odzivni čas storitev za stranke."
+      }
+    },
+    "cta": {
+      "end-1": "Kontaktirajte nas danes, da ugotovite, kako vam lahko naše storitve modernizacije programske opreme omogočijo inovacije, modernizacijo in vodenje v današnjem konkurenčnem digitalnem okolju."
+    }
   }
 }
