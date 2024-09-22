@@ -3,7 +3,7 @@
     "title": "Storitve",
     "title-modernization": "Posodobitev Programske Opreme",
     "title-ai-integration": "AI/GPT Integracija",
-    "title-backbase": "Backbase Platforma"
+    "title-backbase": "Platforma Backbase"
   },
   "navbar": {
     "dig-app": "Razvoj digitalnih aplikacij",
@@ -50,6 +50,8 @@
       "title": "OPERATIVNO",
       "cloud-dev": "Oblačen razvoj",
       "micro-apis": "Mikrostoritve in API-ji ",
+      "event-driven": "Arhitekture, ki temeljijo na dogodkih (Kafka, NATS)",
+      "cloud-edge": "Arhitekture oblačnih in robnih rešitev",
       "dock-kube": "Vsebniki Docker in Kubernetes",
       "ent-arch": "Arhitektura za podjetja",
       "integration": "Integracija",
@@ -462,7 +464,7 @@
     "title": "Hitro modernizirajte svoje zastarele programske sisteme",
     "block1": "V Sunesisu smo specializirani za preoblikovanje zastarelih sistemov v agilne, prihodnje varne platforme. Naše storitve modernizacije programske opreme omogočajo podjetjem, da ostanejo konkurenčna z replatformiranjem zastarele programske opreme na oblačno-nativne platforme, modernizacijo kode in integracijo najsodobnejših tehnologij ter hkrati zagotavljajo nemoteno operativno učinkovitost.",
     "servicerange": {
-      "title": "Z Backbase lahko banke hitro modernizirajo, hitreje uvajajo razlikovalne zmogljivosti in usklajujejo prilagojene uporabniške izkušnje na vseh stičnih točkah.",
+      "title": "Poskrbite, da vaša starejša programska oprema ne zavira vaše inovacije in prihodkov.",
       "box": {
         "agility": {
           "title": "Povečajte operativno agilnost",

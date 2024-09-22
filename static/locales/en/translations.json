@@ -177,6 +177,11 @@
       "service10": "HTML5 responsive web development",
       "service11": "DevOps & Continuous Delivery",
       "service12": "BPM",
+      "service13": {
+        "title": "Kumuluz AI / GPT",
+        "item-1": "AI Smart Assistant",
+        "item-2": "AI Knowledge mentor"
+      },
       "more": "More"
     },
     "community": {

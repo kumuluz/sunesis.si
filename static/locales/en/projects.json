@@ -1,0 +1,108 @@
+{
+  "title": "Projects",
+  "agriTrace": {
+    "title": "AgriTrace Platform<br /> for Generating and Managing Green Value Chains",
+    "description1": "The AgriTrace platform for generating and managing green value chains is the first solution on the market to address the control and management of the entire product life cycle, not just the supply chain. It will enable transparent capture, monitoring, and reporting of environmental (and social) impacts across all processes along the value chain. The AgriTrace platform will be based on the latest technology—edge, fog, and cloud computing, blockchain and smart contracts, the Internet of Things—and techniques to adapt to the number of processes and stakeholders in the chain, making it usable for a wide range of use cases in various industries.",
+    "description2": "The project is financed by the European Union - NextGenerationEU and is part of the Recovery and Resilience Plan, funded by the <a href='http://www.noo.gov.si' target='_blank' rel='noreferrer noopener'>Recovery and Resilience Facility</a> through <a href='http://www.evropskasredstva.si' target='_blank' rel='noreferrer noopener'>European funds</a>. The total value of the project is EUR 499,549.42, with co-financing amounting to EUR 299,729.63. Duration: 2022 – 2024."
+  },
+  "crowdsensing": {
+    "title": "Platform for Data Collection and Crowdsensing in Smart Cities and Communities",
+    "description": "The aim of the project is to develop an innovative platform for data collection and crowdsensing in smart cities and communities – KumuluzCrowdsensing, and launch it globally. The KumuluzCrowdsensing platform enables the collection of data and sensing of crowd needs in smart city environments through simple and efficient data collection from mobile devices, sensors, IoT devices, smart traffic infrastructure, smart buildings, and other sources. It allows active and passive involvement of users (prosumers). The collected data is anonymized and exposed through APIs, enabling the development of new innovative solutions for smart cities and communities in areas such as transportation, healthcare, public administration, logistics, etc. Such solutions will leverage crowdsourced data, easily accessible on KumuluzCrowdsensing, giving other companies (Slovenian and foreign) the opportunity to enter the global market with innovative solutions, generating multiplicative effects. Given the concern of users (prosumers) about where their data is stored and how it is used, the KumuluzCrowdsensing platform will rely on distributed and encrypted data storage using blockchain technology for sensitive data and smart contracts to regulate data access and its subsequent monetization. This technology ensures transparency in data collection, processing, and access, despite the simple user interface.",
+    "fundingNotice": "THE INVESTMENT IS CO-FINANCED BY THE REPUBLIC OF SLOVENIA AND THE EUROPEAN UNION FROM THE EUROPEAN REGIONAL DEVELOPMENT FUND",
+    "url": "www.eu-skladi.si"
+  },
+  "grad": {
+    "title": "GRAD 4.0",
+    "description1": "A consortium of companies including <strong>GIC Gradnje d.o.o., SRC d.o.o., Robotina d.o.o., and Sunesis d.o.o.</strong> has obtained EU funding through the Digital Transformation of the Economy call for the implementation of the <strong>Construction 4.0</strong> project.",
+    "description2": "The purpose of the project is the complete digital transformation of the leading partner, GIC Gradnje, and several business functions of the other partners. This addresses the main challenges faced globally and in Slovenia by the <strong>construction industry</strong>, where digital technologies and digitalization have a significant impact. The ambition and complexity of the project are evident from the fact that the construction industry is at the tail end of sectors in terms of digitalization.",
+    "description3": "The expected result of the project will be the introduction of <strong>new methods, processes, and ways of working</strong> as a positive effect of <strong>technologically advanced digital transformation</strong>. Through activities within the sub-projects <em>Construction Site 4.0</em> and <em>Concrete Plant 2.0</em>, we will renew and digitize processes on construction sites and in concrete plants, modernize the management of procedures and documentation with the introduction of the <em>Construction Platform</em>, and change the perception of buildings with <em>Building as a Platform</em>. The project also includes the development of a comprehensive digital strategy, with a strong focus not only on the development and use of advanced digital technologies but also on improving the digital competencies of employees, changing (digital) culture, and strengthening the capacities of the partners.",
+    "description4": "The project is part of the <a target='_blank' rel='noreferrer noopener' href='https://www.gov.si/zbirke/projekti-in-programi/nacrt-za-okrevanje-in-odpornost'>Recovery and Resilience Plan</a>, financed by the Recovery and Resilience Facility."
+  },
+  "kumuluzApi": {
+    "title": "KumuluzAPI Platform for Managing API Ecosystems in Smart Cities and Communities",
+    "description1": "The aim of the project is to develop an innovative platform for establishing an API ecosystem in smart cities and communities – KumuluzAPI, and launch it on the global market. The KumuluzAPI platform significantly simplifies the establishment of the API economy at the smart city level. It introduces a decentralized marketplace that enables quick and efficient stakeholder connections and advanced API monetization methods based on AI. From a technical innovation standpoint, KumuluzAPI introduces city-native APIs that support context-dependent behavior, a smart-city-specific API gateway with IoT support, and analytical tools for API usage monitoring based on machine learning. This is complemented by industrial design and eco-design. It builds on the foundations of the API economy and the introduction of new value chains, enabling the development of innovative solutions for smart cities and communities in areas such as transportation, healthcare, public administration, logistics, etc. It is based on microservices technologies, Docker containers, Kubernetes, edge and fog computing, decentralized technologies, agile development, and DevOps.",
+    "description2": "KumuluzAPI enables easier stakeholder connections for offering APIs, and due to its decentralized operation, it does not require coordination among individual stakeholders, allowing for easier integration. It will be positioned as one of the elements of the Kumuluz digital platform (kumuluz.com), which is already internationally recognized and has won several international awards.",
+    "fundingText": "THE INVESTMENT IS CO-FINANCED BY THE REPUBLIC OF SLOVENIA AND THE EUROPEAN UNION FROM THE EUROPEAN REGIONAL DEVELOPMENT FUND",
+    "fundingUrl": "www.eu-skladi.si"
+  },
+  "uhub": {
+    "title": "UHUB – Service Information Platform for Digital Transformation of Post Offices and Localization of the Economy",
+    "description": "UHUB is an innovative R&D project whose ultimate goal is a completely new product for the company, significantly transforming the business activities of the economic group. UHUB is a service information platform for the digital transformation of post offices and the localization of the economy – postal services will significantly expand their service capacity and functionality portfolio, and local communities will gain concrete infrastructure support to encourage economic activity for self-sufficiency and local circulation of goods. UHUB is a sustainable service platform for the digital transformation of post offices and the localization of the economy, focusing on self-sufficiency and shortening logistics chains. It is a development response to the challenge of declining mail traffic and the diminishing importance and relevance of post offices, as well as the growing exclusion of local communities from economic relations. Through the transformation of postal services, UHUB addresses and solves both problems innovatively. It focuses on local communities, enabling the local circulation of goods and thus a self-regulating supply and demand mechanism.<br />According to the decision of the Ministry of Economic Development and Technology, the UHUB project, submitted by the consortium partners APS PLUS, Result, and Sunesis, received co-financing in line with the submitted application, with a maximum of EUR 499,561.99 in non-refundable funding.",
+    "footer": "THE INVESTMENT IS CO-FINANCED BY THE REPUBLIC OF SLOVENIA AND THE EUROPEAN UNION FROM THE EUROPEAN REGIONAL DEVELOPMENT FUND",
+    "link": "www.eu-skladi.si"
+  },
+  "edisonWinci": {
+    "title": "EDISON WINCI Project <br />(Eco Driving Innovative Solutions and Networking - Wireless Induction Charging Infrastructure)",
+    "description1": "The EDISON WINCI project (Eco Driving Innovative Solutions and Networking - Wireless Induction Charging Infrastructure) was successfully selected in the Public Call for 'Demo Pilots II 2018', announced by the <a target='_blank' rel='noreferrer noopener' href='https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-gospodarski-razvoj-in-tehnologijo/'>Ministry of Economic Development and Technology - MGRT</a>.",
+    "description2": "PROJECT TITLE: EDISON WINCI - Development of infrastructure, competencies, and components of business models for logistics systems of electric vehicles with wireless charging.",
+    "description3": "The development of new, green technologies in mobility has a significant impact on achieving environmental goals, as it contributes to approximately 30% of total CO2 emissions. Additionally, especially in larger urban cities, it is almost entirely responsible for harmful emissions of particulate matter and NOx. The development of new solutions, such as cleaner vehicles, requires not only changes in user behavior but also changes in the behavior of providers of these cleaner solutions or business models that enable this transformation in the first place. To achieve such comprehensive breakthroughs, comprehensive approaches and solutions are needed that will allow users to easily transition to new technologies with greater comfort and a better user experience, encouraging the widespread adoption and reuse of green mobility.",
+    "description4": "The faster breakthrough of electric vehicles (EVs) into the market can be accelerated by several measures. One of these is the development of wireless EV charging, based on the creation of a magnetic field and, consequently, electric current between transmitter coils in the roadway or driving surface and receiver coils in the vehicle. Our solution will enable wireless charging to:",
+    "features": {
+      "feature1": "reduce the number of required batteries, thus reducing the weight and cost of the vehicle",
+      "feature2": "significantly extend the range of electric vehicles (with more frequent charging during intermediate stops)",
+      "feature3": "enable simple charging (in a dynamic way, without unnecessary and unwanted stops)",
+      "feature4": "reduce the negative environmental impact of battery production and disposal",
+      "feature5": "enable easy billing for the consumed electric energy"
+    },
+    "description4-2": "making electric vehicles more attractive, and their use will offer greater comfort compared to traditional vehicles.",
+    "description5": "The project addresses wireless charging technology as one of the key enabling technologies (KET), which, combined with other rapidly developing technologies (blockchain, the Internet of Services/Things, social networks, cloud computing, and smartphones...), enables the development of new innovative business models for multimodal mobility, also supporting the development of the sharing economy.",
+    "description6": "Therefore, the consortium partners in Slovenia aim to be the first to develop and validate in a real-world environment the missing key components of a comprehensive support system that will enable easy wireless charging of electric vehicles, thereby supporting the development of innovative business models in the sharing economy among users and providers (of energy, infrastructure, components, services, vehicles, etc.).",
+    "goals": {
+      "title": "Main goals and project indicators:",
+      "goal1": "Goal 1: Development of digital solutions",
+      "goal1_indicator": "Indicator: An application through which the user (on a mobile device) can easily and securely find, book, use, return, and pay for an electric mobility service based on a wireless EV charging system (and connects services from more than one provider).",
+      "goal2": "Goal 2: Development of multimodal mobility components",
+      "goal2_indicator": "Indicator: A developed business model for multimodality, which includes EVs with wireless charging (as a module integrated into the mobile/web application of third-party providers, promoting the use of EVs with wireless charging).",
+      "goal3": "Goal 3: Energy transfer and connection with the energy system",
+      "goal3_indicator": "Indicator: Developed prototypes of components enabling the functioning of static induction charging, with documented APIs. At least 5 prototype components for equipping charging stations, with documented APIs.",
+      "goal4": "Goal 4: Identification and development of solutions suitable for vehicle integration",
+      "goal4_indicator": "Indicator: Developed components to improve the efficiency and safety of electric vehicles. At least 5 prototype components to enhance the efficiency and safety of electric vehicles.",
+      "goal5": "Goal 5: Demonstration of the system's functionality",
+      "goal5_indicator": "Indicator: Demonstrated functionality of the complete IT solution for wireless charging of electric vehicles and demonstrations of the developed system components and newly developed technologies. 5 demonstrations of new solutions."
+    },
+    "partners": {
+      "leading_title": "Leading partner:",
+      "leading": "HIDRIA, Development and Production of Automotive and Industrial Systems, d.o.o.",
+      "partner_title": "Partners:",
+      "partner_list": [
+        "Abelium d.o.o., Research and Development",
+        "GoOpti Intelligent Transport Solutions d.o.o.",
+        "ISKRA d.d.",
+        "NELA, Development Center for Electrical Industry and Electronics, d.o.o.",
+        "Pošta Slovenije d.o.o.",
+        "Sunesis, Innovative Technologies and Services, d.o.o."
+      ],
+      "project_period": "PERIOD: 1. 10. 2019 - 31. 5. 2022",
+      "leaders": "LEADERS / COORDINATORS:"
+    },
+    "leaders": {
+      "leader_list": [
+        "Dr. Vitoslav Bratuš - HIDRIA d.o.o.",
+        "Dr. Alen Orbanić - Abelium d.o.o.",
+        "Marko Guček - GoOpti d.o.o.",
+        "Mag. Simon Štrancar - ISKRA d.d.",
+        "Dr. Špela Bolka - NELA d.o.o.",
+        "Branka Leskovšek - Pošta Slovenije d.o.o.",
+        "Dr. Eva Zupančič - Sunesis d.o.o."
+      ]
+    },
+    "disclaimer": "THE INVESTMENT IS CO-FINANCED BY THE REPUBLIC OF SLOVENIA AND THE EUROPEAN UNION FROM THE EUROPEAN REGIONAL DEVELOPMENT FUND",
+    "website": "www.eu-skladi.si"
+  },
+  "greenDatAI": {
+    "title": "GreenDat.AI",
+    "funding": "Horizon Europe",
+    "description1": "GREEN.DAT.AI aims to channel the potential of AI towards the goals of the European Green Deal, by developing novel Energy-Efficient Large-Scale Data Analytics Services, ready-to-use in industrial AI-based systems, while reducing the environmental impact of data management processes.",
+    "description2": "GREEN.DAT.AI will demonstrate the efficiencies of the new large-scale data analytics services in four industries – Smart Energy, Smart Agriculture/Agri-food, Smart Mobility, Smart Banking – and six different application scenarios, leveraging the use of European Data Spaces.",
+    "description3": "The GREEN.DAT.AI Consortium consists of a multidisciplinary group of 17 partners (and one associated party) from 10 different countries, well balanced in terms of expertise.",
+    "website": "https://greendatai.eu/"
+  },
+  "interstore": {
+    "title": "Interstore",
+    "funding": "Horizon Europe",
+    "description1": "InterSTORE is an EU-funded project that aims to deploy and demonstrate a set of interoperable Open-Source tools to integrate Distributed Energy Storage (DES) and Distributed Energy Resources (DER), to enable the hybridization, utilisation and monetisation of storage flexibility, within a real-life environment.",
+    "description2": "InterSTORE plans to address the complexity of various characteristics of storage solutions and technologies by developing an innovative middleware that, while virtualising the storage technology, will simplify its use from the point of view of integration platform thanks to a technology agnostic approach.",
+    "description3": "The middleware will facilitate the integration of storage creating hardware independent solutions, which are critical from a customer perspective, avoiding vendor locked-in solutions. It will also facilitate its use from a monetisation perspective, making sure that more investments in storage are enabled.",
+    "website": "https://interstore-project.eu/interstore-project/"
+  }
+}

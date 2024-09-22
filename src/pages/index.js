@@ -22,7 +22,7 @@ import apiEconomy from "../assets/images/index/api-ekonomija.svg";
 import digitalProducts from "../assets/images/index/dig-produkti.svg";
 import digitalization from "../assets/images/index/digitalizacija.svg";
 import newWays from "../assets/images/index/nove-poti.svg";
-import { IndexContentAiBackbase } from "../components/index-page/content-ai-backbase/index-content-ai-backbase";
+import imageDuke from "../assets/images/duke.svg";
 
 const headerItems = (t) => [
   {
@@ -108,8 +108,19 @@ const IndexPage = () => {
           <div className="dark-blue-white-arrow" />
         </div>
 
-        <div className="main-content">
-          <IndexContentAiBackbase locale={i18n.language} />
+        <div className="description-section">
+          <div className="duke-award-box">
+            <div className="duke-award-box-background">
+              <div className="duke-award-box-img">
+                <img src={imageDuke} alt="Duke award" />
+              </div>
+              <div className="duke-award-box-content">
+                {t("description.award")}
+                <br />
+                <strong>{t("description.award-bold")}</strong>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="index-services-section">
@@ -117,7 +128,7 @@ const IndexPage = () => {
           <div className="dark-blue-white-arrow" />
         </div>
 
-        <div className="index-customers-section">
+        <div className="index-customers-section mt-5">
           <CustomersSection locale={i18n.language} />
         </div>
 

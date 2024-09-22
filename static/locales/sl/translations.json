@@ -12,7 +12,7 @@
       "solutions": "Oblakovne digitalne rešitve",
       "modernization": "Posodobitev programske opreme",
       "ai": "AI/GPT integracija",
-      "backbase": "Bančniška programska oprema - Backbase platforma"
+      "backbase": "Rešitve za bančništvo – platforma Backbase "
     },
     "products": {
       "title": "Izdelki",
@@ -176,6 +176,11 @@
       "service10": "HTML5 odzivni spletni razvoj",
       "service11": "DevOps & Continuous Delivery",
       "service12": "BPM",
+      "service13": {
+        "title": "Kumuluz AI / GPT",
+        "item-1": "AI Smart Assistant",
+        "item-2": "AI Knowledge mentor"
+      },
       "more": "Več"
     },
     "community": {
