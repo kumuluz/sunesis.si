@@ -1,6 +1,9 @@
 {
   "site": {
-    "title": "Services"
+    "title": "Services",
+    "title-modernization": "Software Modernization",
+    "title-ai-integration": "AI/GPT Integration",
+    "title-backbase": "Backbase Platfrom"
   },
   "navbar": {
     "dig-app": "Digital applications",

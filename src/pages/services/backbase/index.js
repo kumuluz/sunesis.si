@@ -24,7 +24,7 @@ function ServicesBackbasePage() {
   return (
     <Layout>
       <div className="services">
-        <SEO siteTitleId={["services:site.title", "translations:site.title"]} canonical="/services" />
+        <SEO siteTitleId={["services:site.title-backbase", "translations:site.title"]} canonical="/services" />
 
         <Container fluid={true} className="header">
           <Row>

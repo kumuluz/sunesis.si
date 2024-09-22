@@ -23,7 +23,7 @@ function ServicesModernizationPage() {
   return (
     <Layout>
       <div className="services">
-        <SEO siteTitleId={["services:site.title", "translations:site.title"]} canonical="/services" />
+        <SEO siteTitleId={["services:site.title-modernization", "translations:site.title"]} canonical="/services" />
 
         <Container fluid={true} className="header">
           <Row>

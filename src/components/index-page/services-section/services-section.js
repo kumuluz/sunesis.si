@@ -50,7 +50,7 @@ export function ServicesSection({ showCoreServices }) {
             </div>
             <p>
               {t("description.para3")}{" "}
-              <Link external={false} to="/services">
+              <Link external={false} to="/services/solutions">
                 {t("description.more")}
               </Link>
             </p>
@@ -101,7 +101,7 @@ export function ServicesSection({ showCoreServices }) {
                 </div>
                 <p>{t("core-services.para3")}</p>
               </div>
-              <Link external={false} to="/services" className="btn btn-primary">
+              <Link external={false} to="/services/solutions" className="btn btn-primary">
                 {t("core-services.more-about")}
               </Link>
               <br />

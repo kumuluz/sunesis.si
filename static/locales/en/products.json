@@ -1,6 +1,9 @@
 {
   "site": {
-    "title": "Products"
+    "title": "Products",
+    "title-digital-assistant": "AI Digital Assistant",
+    "title-knowledge-mentor": "AI Knowledge Mentor",
+    "title-business-apis": "Business APIs"
   },
   "header": {
     "title": "Kumuluz Digital Platform",
@@ -80,6 +83,177 @@
       "item-9": "KYC",
       "item-10": "Customer Management",
       "item-11": "Browse all APIs"
+    }
+  },
+  "smart-assistant": {
+    "title": "Accelerate AI integration with pre-built components",
+    "block1": "Our AI Smart Assistant and solution accelerators provide pre-built, tested and customizable components that enable seamless AI integration into your existing business applications, shortening development cycles and driving innovation faster.",
+    "servicerange": {
+      "title": "Grow and optimize your business with robust, scalable and secure AI solutions tailored to the unique challenges of your industry",
+      "box": {
+        "box-1": {
+          "title": "Optimized AI implementation",
+          "description": "Shorten time-to-market and increases efficiency across all business processes"
+        },
+        "box-2": {
+          "title": "Customizable to your needs",
+          "description": "Easily modify, extend and integrate components into existing systems"
+        },
+        "box-3": {
+          "title": "Innovation at your fingertips",
+          "description": "By removing development bottlenecks, you can innovate faster"
+        },
+        "box-4": {
+          "title": "Long-term scalability and reliability",
+          "description": "Secure your software infrastructure with a flexible, cloud-ready platform"
+        }
+      }
+    },
+    "services": {
+      "title": "Capabilities of Kumuluz AI Smart Assistant",
+      "subtitle": "Our advanced AI Smart Assistant is packed with features and capabilities that allow you to quickly adopt AI technologies while minimizing development risks:",
+      "library": {
+        "title": "Comprehensive",
+        "subtitle": "API library",
+        "description": "Our pre-built APIs cover a wide range of components that are designed to be integrated into AI workflows with minimal customization and provide a solid foundation for advanced AI capabilities.",
+        "items": {
+          "item-1": "Natural language processing API",
+          "item-2": "Recommendation engine API",
+          "item-3": "AI Chatbot API",
+          "item-4": "Document processing API",
+          "item-5": "Automated machine learning API and others"
+        }
+      },
+      "architecture": {
+        "above-title": "Scalable architecture",
+        "title": "for future growth",
+        "description": "All of our APIs are built on scalable, cloud-native architectures that ensure your solutions can grow with your business. Whether you're working with huge data sets or need real-time AI processing capabilities, our solutions are optimized to deliver consistent performance at scale."
+      },
+      "security": {
+        "title": "Data Security",
+        "subtitle": "and Privacy",
+        "description": "Kumuluz AI components have been designed with data security and privacy in mind. All data and documents, processed by AI components, are always processed confidentially and privately, without the possibility of escaping to the Internet or sharing the content."
+      },
+      "framework": {
+        "above-title": "Extensible",
+        "title": "and customizable framework",
+        "description": "Unlike rigid one-size-fits-all solutions, Kumuluz APIs are fully customizable and extensible. Your teams can modify and adapt them to your specific business environment to ensure that AI integration enhances, rather than disrupts, existing workflows."
+      },
+      "integration": {
+        "title": "Seamless integration",
+        "subtitle": "across platforms",
+        "description": "Kumuluz solution accelerators are designed to work with a variety of platforms and enable seamless integration into your existing technology stack. Whether you're working with legacy systems or cloud-native applications, our APIs and AI accelerators ensure compatibility and efficiency."
+      }
+    },
+    "use-cases": {
+      "title": "Real-world use cases",
+      "subtitle": "Revolutionizing businesses through AI integration",
+      "item-1": {
+        "title": "AI-supported customer loyalty",
+        "description": "A large organization used the Kumuluz AI Smart Assistant to automate their customer support. By integrating AI-powered chatbots and virtual assistants into their platform, the company was able to reduce response times, increase customer satisfaction and free up human resources for more complex tasks."
+      },
+      "item-2": {
+        "title": "AI-knowledge management",
+        "description": "A large company used AI-powered knowledge management and onboarding systems with Kumuluz’s pre-built AI chatbot APIs to optimize internal knowledge sharing and onboarding. The solution enabled employees to quickly search for and access relevant information, while new employees received personalized, AI-driven onboarding support."
+      },
+      "item-3": {
+        "title": "Advanced data analysis and reporting",
+        "description": "A leading financial services company used Kumuluz's pre-built APIs to implement an AI-driven financial reporting system. By automating data collection and analysis, the company was able to drastically reduce the time spent on manual reporting and gain real-time insights into financial performance."
+      }
+    },
+    "cta": {
+      "title": "Get started with Kumuluz AI Smart Assistant",
+      "end-1": "Ready to transform your business with AI-powered solutions? Try our Kumuluz AI Smart Assistant to quickly implement AI in your business applications with pre-built, tested components that reduce complexity and drive innovation.",
+      "end-2": "Unlock the potential of AI for your business. Get started today and take the first step towards future-proofing your business with AI.",
+      "contact-us": "Contact us"
+    }
+  },
+  "knowledge-mentor": {
+    "title": "AI-powered solutions for knowledge management and onboarding",
+    "block1": "A revolutionary AI knowledge management platform that consolidates your organization's expertise into one intelligent and employee-engaging system. AI Knowledge Mentor is designed to continuously grow and adapt with usage.",
+    "block2": "It improves employee onboarding, promotes seamless knowledge sharing and ensures that important information is always accessible — whether it’s a simple issue or a complex operational question.",
+    "servicerange": {
+      "title": "Transform knowledge management with AI Knowledge Mentor",
+      "box": {
+        "box-1": {
+          "title": "Centralized knowledge hub",
+          "description": "All internal knowledge, from operational procedures to company policies, is available on one easily accessible platform"
+        },
+        "box-2": {
+          "title": "Continuous learning and growth",
+          "description": "As employees use the platform, AI Knowledge Mentor expands its database, updating and improving it automatically over time"
+        },
+        "box-3": {
+          "title": "Improved onboarding with gamification",
+          "description": "New hires experience an interactive, gamified onboarding process that increases engagement "
+        },
+        "box-4": {
+          "title": "Seamless integration and security",
+          "description": "Knowledge Mentor integrates with your internal document management systems, ensuring secure access to confidential company knowledge"
+        }
+      },
+      "end": "AI Knowledge Mentor acts as the digital brain of your organization, ensuring that your employees have instant access to all approved knowledge of your company. By securely integrating with your existing document systems, Knowledge Mentor ensures that your data is secure while being available where and when it is needed."
+    },
+    "interface": {
+      "title": "A simple and engaging interface employees will love to use",
+      "description": "No complex structures, no tedious searching for documents and no time wasted looking for the right answer."
+    },
+    "features": {
+      "title": "AI Knowledge Mentor features",
+      "subtitle": "AI Knowledge Mentor’s powerful features promote corporate knowledge management, learning and operational efficiency:",
+      "knowledge": {
+        "title": "AI-powered knowledge graph",
+        "description": "The platform dynamically links information from different areas and creates a knowledge graph that becomes more intelligent with every interaction."
+      },
+      "nlp": {
+        "title": "Natural language processing (NLP)",
+        "description": "Employees can ask questions in everyday language, from simple logistical questions to complex procedural queries, and receive precise answers immediately."
+      },
+      "gamification": {
+        "title": "Intelligent onboarding with gamification",
+        "description": "The platform provides a gamified onboarding experience that keeps new employees engaged, tracks their progress and ensures they are familiar with the company's processes and standards."
+      },
+      "integration": {
+        "title": "Secure integration with document systems",
+        "description": "AI Knowledge Mentor securely connects to your internal document repositories so that relevant data can be retrieved, ensuring it is secure, updated and easily accessible."
+      },
+      "scalable": {
+        "title": "Scalable knowledge building",
+        "description": "AI Knowledge Mentor adapts as your organization evolves. Administrators have the ability to monitor and control the creation of internal wikis, documents and knowledge nodes."
+      },
+      "adaptable": {
+        "title": "Adaptable to company needs",
+        "description": "Customize the platform to your specific knowledge management needs so that the solution grows with your business and evolves with your processes."
+      }
+    },
+    "use-cases": {
+      "title": "Use cases for AI Knowledge Mentor",
+      "subtitle": "Learn more how companies revolutionized their knowledge management and onboarding:",
+      "item-1": {
+        "title": "AI-supported onboarding of employees",
+        "description": "A multinational company used AI Knowledge Mentor to streamline the onboarding of its employees. The platform offered new employees a gamified learning path with quizzes, interactive modules and progress monitoring.\n\nThis not only increased engagement, but also reduced onboarding time by 30% and ensured faster integration of new team members."
+      },
+      "item-2": {
+        "title": "Real-time knowledge query for employees",
+        "description": "A technology company implemented AI Knowledge Mentor to reduce the time employees spend searching for internal resources. With the AI-driven prompting system, employees could instantly ask questions such as:",
+        "point-1": "\"What is the process for submitting expenses?\"",
+        "point-2": "\"Who is the person in charge of the marketing project?\" and similar.",
+        "end": "This improved day-to-day efficiency and increased overall productivity."
+      },
+      "item-3": {
+        "title": "Maintaining internal standards and best practices",
+        "description": "A large company used AI Knowledge Mentor to centralize their ever-evolving compliance and regulatory documentation. The platform provided real-time updates to policies and procedures, ensuring staff across multiple sites were adhering to the latest standards."
+      },
+      "item-4": {
+        "title": "Facilitating knowledge sharing across departments",
+        "description": "A financial services company used AI Knowledge Mentor to break down silos between departments. By integrating knowledge across finance, HR and IT systems, the platform enabled seamless collaboration and faster decision making.\n\nEmployees from different teams can now easily find detailed company information, improving communication and efficiency between departments."
+      }
+    },
+    "cta": {
+      "title": "Unlock the future of knowledge management",
+      "end-1": "Are you ready to revolutionize knowledge management and onboarding processes in your company? Try AI Knowledge Mentor — your AI-powered solution to consolidate internal knowledge, increase onboarding efficiency and ensure seamless knowledge sharing across your organization.",
+      "end-2": "Give your teams real-time access to everything they need to succeed - from onboarding to complex business processes.",
+      "end-3": "Get started today and take the first step towards future-proofing your business with AI Knowledge Mentor."
     }
   }
 }

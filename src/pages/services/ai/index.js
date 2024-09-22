@@ -23,7 +23,7 @@ function ServicesAiPage() {
   return (
     <Layout>
       <div className="services">
-        <SEO siteTitleId={["services:site.title", "translations:site.title"]} canonical="/services" />
+        <SEO siteTitleId={["services:site.title-ai-integration", "translations:site.title"]} canonical="/services" />
 
         <Container fluid={true} className="header">
           <Row>

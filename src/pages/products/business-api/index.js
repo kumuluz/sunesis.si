@@ -34,7 +34,7 @@ function ProductsBusinessApiPage() {
   return (
     <Layout>
       <div className="products">
-        <SEO siteTitleId={["products:site.title", "translations:site.title"]} canonical="/products" />
+        <SEO siteTitleId={["products:site.title-business-apis", "translations:site.title"]} canonical="/products" />
 
         <Container className="bapis" fluid={true}>
           <Row className="justify-content-center">

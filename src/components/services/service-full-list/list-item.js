@@ -12,7 +12,7 @@ import { Link } from "../../link/link.component";
  * @return {JSX.Element}
  * @constructor
  */
-export function ServiceFullListItem({ title, desc, cta, services }) {
+export function ServiceFullListItem({ title, desc, cta, services, end }) {
   const { t } = useI18next("services");
   const [opened, toggleOpened] = useState(false);
 
@@ -58,6 +58,11 @@ export function ServiceFullListItem({ title, desc, cta, services }) {
             </div>
           ))}
       </div>
+      {end && opened && (
+        <div className="d-flex ml-5 flc-list-item">
+          <p className="serv-desc flc-list-item">{end}</p>
+        </div>
+      )}
     </li>
   );
 }
