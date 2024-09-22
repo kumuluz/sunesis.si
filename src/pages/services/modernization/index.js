@@ -15,7 +15,7 @@ import rangeTransformation from "../../../assets/images/services/transformation.
 import rangeTransProducts from "../../../assets/images/services/trans-products.svg";
 
 import { LineTitle } from "../../../components";
-import capabilities from "./capabilities";
+import capabilities from "../../../components/services/modernization/capabilities";
 
 import "../index.scss";
 import "../../../components/index-page/content/index-content.scss";

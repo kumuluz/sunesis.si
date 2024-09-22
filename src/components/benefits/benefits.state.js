@@ -3,18 +3,23 @@ import anime from "animejs";
 
 export function useBenefitsState(initialBenefits) {
   const animating = useRef(false);
+
   const [benefits, setBenefits] = useState(
     initialBenefits.length > 4 ? initialBenefits : [...initialBenefits, ...initialBenefits]
   );
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  const [windowWidth, setWindowWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 0);
+
   const MEDIA_PHONE = 790;
 
   useEffect(() => {
-    function handleResize() {
-      setWindowWidth(window.innerWidth);
+    if (typeof window !== "undefined") {
+      function handleResize() {
+        setWindowWidth(window.innerWidth);
+      }
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
     }
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   const shiftAmount = windowWidth <= MEDIA_PHONE ? windowWidth : 420;

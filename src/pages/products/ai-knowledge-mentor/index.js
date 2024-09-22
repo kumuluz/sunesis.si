@@ -16,7 +16,7 @@ import rangeTransProducts from "../../../assets/images/services/trans-products.s
 import aiChatbot from "../../../assets/images/products/ai-chatbot.png";
 
 import { LineTitle } from "../../../components";
-import features from "./features";
+import features from "../../../components/products/ai-knowledge-mentor/features";
 
 import "../index.scss";
 import "../../../components/index-page/content/index-content.scss";
