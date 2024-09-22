@@ -9,7 +9,7 @@ import { Layout } from "../../../layouts";
 import { Footer, ServiceRangeBox, SEO, ReferencesSpinner, DarkFloatingSection } from "../../../components";
 import { ServiceFullListItem } from "../../../components/services/service-full-list/list-item";
 import { Benefits } from "../../../components";
-import { benefits } from "./benefits";
+import { benefits } from "../../../components/services/benefits/benefits";
 
 import stockOmniBanking from "../../../components/index-page/content/images/stock-omni-banking.jpg";
 import stockCustomerJourney from "../../../components/index-page/content/images/stock-customer-journey.jpg";
