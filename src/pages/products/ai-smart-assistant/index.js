@@ -30,7 +30,7 @@ function ProductsAiKnowledgeMentorPage() {
   return (
     <Layout>
       <div className="products">
-        <SEO siteTitleId={["products:site.title-digital-assistant", "translations:site.title"]} canonical="/products" />
+        <SEO siteTitleId={["products:site.title-smart-assistant", "translations:site.title"]} canonical="/products" />
         <SubNavbar nav="/products" />
         <Container fluid={true} className="header">
           <Row>

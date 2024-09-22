@@ -320,14 +320,14 @@ function ServicesAiPage() {
           <div className="beige-arrow-reversed" />
           <div className="beige-content container-padding">
             <div>
+              <h2>{t("ai.cta.table-item-2.title")}</h2>
+              <p>{t("ai.cta.table-item-2.description")}</p>
+              <Link to="/products/ai-smart-assistant">{t("ai.cta.table-item-2.give-it-a-try")}</Link>
+            </div>
+            <div className="mt-5">
               <h2>{t("ai.cta.table-item-1.title")}</h2>
               <p>{t("ai.cta.table-item-1.description")}</p>
               <Link to="/products/ai-knowledge-mentor">{t("ai.cta.table-item-1.learn-more")}</Link>
-            </div>
-            <div className="mt-5">
-              <h2>{t("ai.cta.table-item-2.title")}</h2>
-              <p>{t("ai.cta.table-item-2.description")}</p>
-              <Link to="/products/ai-knowledge-mentor">{t("ai.cta.table-item-2.give-it-a-try")}</Link>
             </div>
             <p className="mt-5">{t("ai.cta.end-1")}</p>
             <p className="mt-5 end-2">{t("ai.cta.end-2")}</p>

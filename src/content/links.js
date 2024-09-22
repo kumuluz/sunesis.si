@@ -17,7 +17,7 @@ export const navigationLinks = [
     children: [
       { href: "/products/digital-platform", name: "menu.products.digital-platform" },
       { href: "/products/business-api", name: "menu.products.business-api" },
-      { href: "/products/ai-digital-assistant", name: "menu.products.ai-digital-assistant" },
+      { href: "/products/ai-smart-assistant", name: "menu.products.ai-smart-assistant" },
       { href: "/products/ai-knowledge-mentor", name: "menu.products.ai-knowledge-mentor" },
     ],
   },
