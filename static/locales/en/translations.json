@@ -7,8 +7,20 @@
     "cookie-consent": "I agree"
   },
   "menu": {
-    "services": "Services",
-    "products": "Products",
+    "services": {
+      "title": "Services",
+      "solutions": "Cloud-native digital solutions",
+      "modernization": "Software modernization",
+      "ai": "AI/GPT integration",
+      "backbase": "Banking software - Backbase platform"
+    },
+    "products": {
+      "title": "Products",
+      "digital-platform": "Digital Platform",
+      "business-api": "Business APIs",
+      "ai-smart-assistant": "AI Smart Assistant",
+      "ai-knowledge-mentor": "AI Knowledge Mentor"
+    },
     "customers": "Customers",
     "technologies": "Technologies",
     "principles": "Principles",
@@ -154,15 +166,17 @@
     "services": {
       "title": "Services",
       "service1": "Digital Transformation",
-      "service2": "Cloud-native, microservices & APIs",
-      "service3": "Docker and Kubernetes et al.",
-      "service4": "Integration",
-      "service5": "Blockchain",
-      "service6": "Java EE architecture & development",
-      "service7": "Mobile UX",
-      "service8": "HTML5 responsive web development",
-      "service9": "DevOps & Continuous Delivery",
-      "service10": "BPM",
+      "service2": "Cloud-native digital solutions",
+      "service3": "Software modernization",
+      "service4": "Banking software Backbase platform",
+      "service5": "Docker and Kubernetes et al.",
+      "service6": "Integration",
+      "service7": "Blockchain",
+      "service8": "Java architecture & development",
+      "service9": "Mobile UX",
+      "service10": "HTML5 responsive web development",
+      "service11": "DevOps & Continuous Delivery",
+      "service12": "BPM",
       "more": "More"
     },
     "community": {

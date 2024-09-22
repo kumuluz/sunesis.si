@@ -1,6 +1,9 @@
 {
   "site": {
-    "title": "Produkti"
+    "title": "Izdelki",
+    "title-smart-assistant": "AI Pametni Asistent",
+    "title-knowledge-mentor": "AI Mentor Znanja",
+    "title-business-apis": "Poslovni API-ji"
   },
   "header": {
     "title": "Digitalna plaforma Kumuluz",
@@ -79,6 +82,177 @@
       "item-9": "Proces spoznavanja strank",
       "item-10": "Upravljanje odnosov s strankami",
       "item-11": "Pregled API-jev"
+    }
+  },
+  "smart-assistant": {
+    "title": "Pospešite AI integracijo s predhodno pripravljenimi komponentami",
+    "block1": "Naš AI Smart Assistant in pospeševalniki rešitev ponujajo predhodno pripravljene, testirane in prilagodljive komponente, ki omogočajo brezhibno AI integracijo v vaše obstoječe poslovne aplikacije, skrajšajo razvojne cikle in pospešujejo inovacije.",
+    "servicerange": {
+      "title": "Rastite in optimizirajte svoje podjetje z robustnimi, prilagodljivimi in varnimi AI rešitvami, prilagojenimi edinstvenim izzivom vaše industrije",
+      "box": {
+        "box-1": {
+          "title": "Optimizirana AI implementacija",
+          "description": "Skrajšajte čas do trga in povečajte učinkovitost vseh poslovnih procesov"
+        },
+        "box-2": {
+          "title": "Prilagodljivo vašim potrebam",
+          "description": "Enostavno prilagodite, razširite in integrirajte komponente v obstoječe sisteme"
+        },
+        "box-3": {
+          "title": "Inovacije na dosegu roke",
+          "description": "Z odstranjevanjem razvojnih ovir lahko inovirate hitreje"
+        },
+        "box-4": {
+          "title": "Dolgoročna skalabilnost in zanesljivost",
+          "description": "Zagotovite svojo programsko infrastrukturo s prilagodljivo, oblakom pripravljeno platformo"
+        }
+      }
+    },
+    "services": {
+      "title": "Zmožnosti Kumuluz AI Smart Assistant",
+      "subtitle": "Naš napredni AI Smart Assistant je opremljen z lastnostmi in funkcionalnostmi, ki vam omogočajo hitro uvedbo AI tehnologij ob minimalnih razvojnih tveganjih:",
+      "library": {
+        "title": "Obsežna",
+        "subtitle": "API knjižnica",
+        "description": "Naši predhodno pripravljeni API-ji pokrivajo širok nabor komponent, ki so zasnovane za enostavno integracijo v AI delovne tokove z minimalnimi prilagoditvami in zagotavljajo trdno podlago za napredne AI funkcionalnosti.",
+        "items": {
+          "item-1": "API za obdelavo naravnega jezika",
+          "item-2": "API za priporočilni sistem",
+          "item-3": "API za AI klepetalni bot",
+          "item-4": "API za obdelavo dokumentov",
+          "item-5": "API za avtomatizirano strojno učenje in drugi"
+        }
+      },
+      "architecture": {
+        "above-title": "Skalabilna arhitektura",
+        "title": "za prihodnjo rast",
+        "description": "Vsi naši API-ji so zgrajeni na skalabilnih, oblačnih arhitekturah, ki zagotavljajo, da vaše rešitve lahko rastejo z vašim podjetjem. Ne glede na to, ali delate z velikimi podatkovnimi nabori ali potrebujete AI zmogljivosti v realnem času, so naše rešitve optimizirane za zagotavljanje dosledne učinkovitosti na velikem obsegu."
+      },
+      "security": {
+        "title": "Varnost podatkov",
+        "subtitle": "in zasebnost",
+        "description": "Kumuluz AI komponente so zasnovane z mislijo na varnost podatkov in zasebnost. Vsi podatki in dokumenti, obdelani z AI komponentami, se vedno obdelujejo zaupno in zasebno, brez možnosti uhajanja na internet ali deljenja vsebine."
+      },
+      "framework": {
+        "above-title": "Razširljiv",
+        "title": "in prilagodljiv okvir",
+        "description": "V nasprotju s togimi rešitvami 'ena velikost za vse' so Kumuluz API-ji popolnoma prilagodljivi in razširljivi. Vaše ekipe jih lahko prilagodijo specifičnemu poslovnemu okolju, da zagotovijo, da AI integracija izboljšuje, ne pa moti obstoječih delovnih tokov."
+      },
+      "integration": {
+        "title": "Brezhibna integracija",
+        "subtitle": "med platformami",
+        "description": "Kumuluzovi pospeševalniki rešitev so zasnovani za delo z različnimi platformami in omogočajo brezhibno integracijo v vašo obstoječo tehnološko strukturo. Ne glede na to, ali delate z dediščinskimi sistemi ali oblačnimi aplikacijami, naši API-ji in AI pospeševalniki zagotavljajo združljivost in učinkovitost."
+      }
+    },
+    "use-cases": {
+      "title": "Primeri uporabe iz resničnega sveta",
+      "subtitle": "Revolucioniranje poslovanja skozi AI integracijo",
+      "item-1": {
+        "title": "AI-podprta zvestoba strank",
+        "description": "Velika organizacija je uporabila Kumuluz AI Smart Assistant za avtomatizacijo podpore strankam. Z integracijo AI-podprtih klepetalnih botov in virtualnih asistentov v svojo platformo je podjetje skrajšalo odzivne čase, povečalo zadovoljstvo strank in sprostilo človeške vire za bolj kompleksne naloge."
+      },
+      "item-2": {
+        "title": "Upravljanje znanja z AI",
+        "description": "Veliko podjetje je uporabilo AI-podprte sisteme za upravljanje znanja in uvajanje z API-ji Kumuluz AI klepetalnih botov za optimizacijo internega deljenja znanja in uvajanja. Rešitev je zaposlenim omogočila hitro iskanje in dostop do ustreznih informacij, medtem ko so novi zaposleni prejeli prilagojeno, z AI-podprto uvajanje."
+      },
+      "item-3": {
+        "title": "Napredna analiza podatkov in poročanje",
+        "description": "Vodilno podjetje za finančne storitve je uporabilo predhodno pripravljene API-je Kumuluz za implementacijo AI-podprtega sistema finančnega poročanja. Z avtomatizacijo zbiranja in analize podatkov je podjetje močno skrajšalo čas, porabljen za ročno poročanje, in pridobilo vpogled v realnem času v finančno uspešnost."
+      }
+    },
+    "cta": {
+      "title": "Začnite z uporabo Kumuluz AI Smart Assistant",
+      "end-1": "Ste pripravljeni preoblikovati svoje podjetje z AI-podprtimi rešitvami? Poskusite naš Kumuluz AI Smart Assistant za hitro implementacijo AI v vaše poslovne aplikacije s predhodno pripravljenimi, testiranimi komponentami, ki zmanjšujejo kompleksnost in pospešujejo inovacije.",
+      "end-2": "Odklenite potencial AI za svoje podjetje. Začnite danes in naredite prvi korak k prihodnosti svojega podjetja z AI.",
+      "contact-us": "Kontaktirajte nas"
+    }
+  },
+  "knowledge-mentor": {
+    "title": "Rešitve z AI-podprto upravljanje znanja in uvajanje",
+    "block1": "Revolucionarna platforma za upravljanje znanja z AI, ki združuje strokovno znanje vaše organizacije v en inteligenten in za zaposlene privlačen sistem. AI mentor znanja je zasnovan tako, da se nenehno razvija in prilagaja z uporabo.",
+    "block2": "Izboljšuje uvajanje zaposlenih, spodbuja brezhibno deljenje znanja in zagotavlja, da so pomembne informacije vedno dostopne — naj gre za preprosto vprašanje ali kompleksno operativno težavo.",
+    "servicerange": {
+      "title": "Preoblikujte upravljanje znanja z AI mentorjem znanja",
+      "box": {
+        "box-1": {
+          "title": "Centralizirano središče znanja",
+          "description": "Vso notranje znanje, od operativnih postopkov do politik podjetja, je na voljo na eni enostavno dostopni platformi"
+        },
+        "box-2": {
+          "title": "Nenehno učenje in rast",
+          "description": "Ko zaposleni uporabljajo platformo, AI mentor znanja širi svojo podatkovno bazo, ki jo samodejno posodablja in izboljšuje"
+        },
+        "box-3": {
+          "title": "Izboljšano uvajanje z igrifikacijo",
+          "description": "Novi zaposleni doživijo interaktiven, igrificiran proces uvajanja, ki povečuje njihovo angažiranost"
+        },
+        "box-4": {
+          "title": "Brezhibna integracija in varnost",
+          "description": "Mentor znanja se integrira z vašimi notranjimi sistemi za upravljanje dokumentov, kar zagotavlja varen dostop do zaupnega znanja podjetja"
+        }
+      },
+      "end": "AI mentor znanja deluje kot digitalni možgani vaše organizacije in zagotavlja, da imajo vaši zaposleni takojšen dostop do vsega odobrenega znanja vašega podjetja. Z varno integracijo z vašimi obstoječimi dokumentnimi sistemi mentor znanja zagotavlja, da so vaši podatki varni, hkrati pa dostopni tam in takrat, ko jih potrebujete."
+    },
+    "interface": {
+      "title": "Preprost in privlačen vmesnik, ki ga bodo zaposleni radi uporabljali",
+      "description": "Brez zapletenih struktur, brez zamudnega iskanja dokumentov in brez zapravljanja časa z iskanjem pravega odgovora."
+    },
+    "features": {
+      "title": "Funkcije AI mentorja znanja",
+      "subtitle": "Funkcije AI mentorja znanja spodbujajo upravljanje korporativnega znanja, učenje in operativno učinkovitost:",
+      "knowledge": {
+        "title": "AI-podprta grafika znanja",
+        "description": "Platforma dinamično povezuje informacije iz različnih področij in ustvarja graf znanja, ki postaja z vsako interakcijo bolj inteligenten."
+      },
+      "nlp": {
+        "title": "Obdelava naravnega jezika (NLP)",
+        "description": "Zaposleni lahko postavljajo vprašanja v vsakdanjem jeziku, od preprostih logističnih vprašanj do kompleksnih proceduralnih vprašanj, in takoj prejmejo natančne odgovore."
+      },
+      "gamification": {
+        "title": "Inteligentno uvajanje z igrifikacijo",
+        "description": "Platforma ponuja igrificirano izkušnjo uvajanja, ki zaposlene ohranja angažirane, spremlja njihov napredek in zagotavlja, da so seznanjeni s procesi in standardi podjetja."
+      },
+      "integration": {
+        "title": "Varna integracija s sistemom dokumentov",
+        "description": "AI mentor znanja se varno poveže z vašimi notranjimi dokumentnimi repozitoriji, da pridobi ustrezne podatke in zagotovi, da so varni, posodobljeni in enostavno dostopni."
+      },
+      "scalable": {
+        "title": "Skalabilno gradnjo znanja",
+        "description": "AI mentor znanja se prilagaja, ko se vaša organizacija razvija. Administratorji imajo možnost spremljanja in nadzora ustvarjanja notranjih wikisov, dokumentov in vozlišč znanja."
+      },
+      "adaptable": {
+        "title": "Prilagodljivo potrebam podjetja",
+        "description": "Prilagodite platformo specifičnim potrebam vašega podjetja za upravljanje znanja, da rešitev raste z vašim podjetjem in se razvija skupaj z vašimi procesi."
+      }
+    },
+    "use-cases": {
+      "title": "Primeri uporabe AI mentor znanja",
+      "subtitle": "Spoznajte, kako so podjetja revolucionirala svoje upravljanje znanja in uvajanje:",
+      "item-1": {
+        "title": "AI-podprto uvajanje zaposlenih",
+        "description": "Multinacionalno podjetje je uporabilo AI mentor znanja za poenostavitev uvajanja svojih zaposlenih. Platforma je novim zaposlenim ponudila igrificirano učno pot z vprašanji, interaktivnimi moduli in spremljanjem napredka.\n\nTo ni samo povečalo angažiranost, ampak je tudi skrajšalo čas uvajanja za 30 % in omogočilo hitrejšo integracijo novih članov ekipe."
+      },
+      "item-2": {
+        "title": "Vprašanja v realnem času za zaposlene",
+        "description": "Tehnološko podjetje je uvedlo AI mentor znanja, da zmanjša čas, ki ga zaposleni porabijo za iskanje notranjih virov. Z AI-podprtim sistemom za postavljanje vprašanj so lahko zaposleni takoj postavili vprašanja, kot so:",
+        "point-1": "\"Kakšen je postopek za oddajo stroškov?\"",
+        "point-2": "\"Kdo je odgovoren za marketinški projekt?\" in podobno.",
+        "end": "To je izboljšalo vsakodnevno učinkovitost in povečalo splošno produktivnost."
+      },
+      "item-3": {
+        "title": "Ohranjanje notranjih standardov in najboljših praks",
+        "description": "Veliko podjetje je uporabilo AI mentor znanja za centralizacijo njihove vedno spreminjajoče se dokumentacije o skladnosti in regulativnih zahtevah. Platforma je zagotavljala sprotne posodobitve politik in postopkov, kar je zagotovilo, da so se zaposleni na več lokacijah držali najnovejših standardov."
+      },
+      "item-4": {
+        "title": "Olajšanje deljenja znanja med oddelki",
+        "description": "Podjetje za finančne storitve je uporabilo AI mentor znanja za razbijanje silosov med oddelki. S povezovanjem znanja med finančnim, kadrovskim in IT oddelkom je platforma omogočila brezhibno sodelovanje in hitrejše odločanje.\n\nZaposleni iz različnih ekip lahko zdaj zlahka najdejo podrobne informacije o podjetju, kar izboljšuje komunikacijo in učinkovitost med oddelki."
+      }
+    },
+    "cta": {
+      "title": "Odklenite prihodnost upravljanja znanja",
+      "end-1": "Ste pripravljeni revolucionirati procese upravljanja znanja in uvajanja v vašem podjetju? Poskusite AI mentor znanja — vašo AI-podprto rešitev za konsolidacijo notranjega znanja, povečanje učinkovitosti uvajanja in zagotavljanje brezhibnega deljenja znanja znotraj vaše organizacije.",
+      "end-2": "Zagotovite svojim ekipam takojšen dostop do vsega, kar potrebujejo za uspeh — od uvajanja do zapletenih poslovnih procesov.",
+      "end-3": "Začnite danes in naredite prvi korak k prihodnosti vašega podjetja z AI mentorjem znanja."
     }
   }
 }

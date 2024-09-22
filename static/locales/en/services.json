@@ -1,6 +1,9 @@
 {
   "site": {
-    "title": "Services"
+    "title": "Services",
+    "title-modernization": "Software Modernization",
+    "title-ai-integration": "AI/GPT Integration",
+    "title-backbase": "Backbase Platfrom"
   },
   "navbar": {
     "dig-app": "Digital applications",
@@ -203,6 +206,344 @@
       "item-2": "Developing process applications",
       "item-3": "Integration process applications with back-end services",
       "item-4": "Highly-skilled and certified for IBM BPM, Oracle SOA and BPM Suite and JBoss jBPM with an extensive track record"
+    }
+  },
+  "ai": {
+    "title": "Unlock innovation, efficiency and growth with AI and GPT",
+    "block1": "In today's rapidly evolving digital world, the integration of artificial intelligence (AI) and generative pre-trained transformers (GPT) models into enterprise applications is not just an option, but a powerful competitive advantage.",
+    "block2": "We specialize in embedding cutting-edge AI technologies into your existing enterprise applications by leveraging Open AI services, including OpenAI's GPT models, AI search and others.",
+    "servicerange": {
+      "title": "Grow and optimize your business with robust, scalable and secure AI solutions tailored to the unique challenges of your industry",
+      "box": {
+        "efficiency": {
+          "title": "Increase efficiency",
+          "description": "Automate repetitive tasks and optimize your processes"
+        },
+        "decision-making": {
+          "title": "Improve decision making",
+          "description": "Leverage AI insights for smarter strategies"
+        },
+        "experiences": {
+          "title": "Personalize experiences",
+          "description": "Deliver customized content to delight users"
+        },
+        "advantage": {
+          "title": "Gain competitive advantage",
+          "description": "Stay ahead with cutting-edge AI technology"
+        }
+      }
+    },
+    "services": {
+      "title": "Our technical capabilities",
+      "subtitle": "We develop effective cloud-native solutions with optimized architectures for scalability and high performance. In addition, we implement cost-efficient strategies to make AI and GPT integration sustainable for your business.",
+      "integration": {
+        "title": "Seamless GPT integration",
+        "subtitle": "with form-based applications",
+        "description": "We enrich traditional and advanced form interfaces with GPT-powered conversational elements such as intelligent autofill and real-time help to optimize data entry and improve user interaction without losing familiarity.",
+        "items": {
+          "item-1": "Hybrid interface engineering",
+          "item-2": "Contextual intelligence implementation",
+          "item-3": "User-centric design and training"
+        }
+      },
+      "openai": {
+        "above-title": "Optimized architectural integration",
+        "title": "with OpenAI",
+        "description": "We build scalable, modular AI architectures with efficient API management, reduced latency through caching and network optimization, and flexible scaling through Azure infrastructure.",
+        "items": {
+          "item-1": "Scalable microservices architecture",
+          "item-2": "Efficient API management",
+          "item-3": "Latency reduction techniques",
+          "item-4": "Flexible infrastructure scaling"
+        }
+      },
+      "security": {
+        "title": "Improved data ",
+        "subtitle": "and document security",
+        "description": "We secure your sensitive data through advanced encryption, strict access controls and compliance with regulations such as GDPR, DORA and HIPAA to minimize risk and give you peace of mind.",
+        "items": {
+          "item-1": "Robust encryption protocols",
+          "item-2": "Strict access controls and auditing",
+          "item-3": "Regulatory compliance assurance",
+          "item-4": "Secure processing environments",
+          "item-5": "Privately hosted or local AI, GPT and LLM models"
+        }
+      },
+      "scalability": {
+        "above-title": "Scalability, speed",
+        "title": "and cost control",
+        "description": "We proactively monitor resources, intelligently manage costs to keep operations within budget, optimize AI models for faster performance and leverage serverless computing for automatic scaling and cost savings.",
+        "items": {
+          "item-1": "Proactive resource monitoring",
+          "item-2": "Intelligent cost management",
+          "item-3": "Performance optimization",
+          "item-4": "Serverless architecture adoption"
+        }
+      },
+      "table": {
+        "left": "Development of new AI applications for your business",
+        "right": "Integrations in your existing enterprise applications"
+      }
+    },
+    "use-cases": {
+      "title": "Use cases",
+      "subtitle": "Discover how integrating advanced AI technologies like GPT models into your enterprise applications can revolutionize the way you do business.",
+      "table": {
+        "item-1-1": "Enhanced customer experience",
+        "item-1-2": "Automated business processes",
+        "item-1-3": "Advanced data analytics",
+        "item-1-4": "Intelligent search and knowledge management",
+        "item-1-5": "Personalized user experiences",
+        "item-2-1": "Employee onboarding and training",
+        "item-2-2": "Preparation of business documents",
+        "item-2-3": "Analysis of documents and documentation",
+        "item-2-4": "Customer analysis and segmentation",
+        "item-2-5": "Compliance and risk management"
+      },
+      "item-1": {
+        "title": "AI-supported virtual assistants",
+        "description": "Deploy chatbots and virtual agents that provide personalized, instant support, improve customer satisfaction and shorten response times."
+      },
+      "item-2": {
+        "title": "Natural language processing",
+        "description": "Use GPT models to understand and respond to customer queries in a human-like way to increase engagement and trust."
+      },
+      "item-3": {
+        "title": "Intelligent document processing",
+        "description": "Automate the extraction, classification and management of data from documents, invoices and forms to increase accuracy and efficiency."
+      },
+      "item-4": {
+        "title": "Automated document creation",
+        "description": "Use GPT models to create high-quality business documents such as proposals, reports and contracts to reduce preparation time and ensure consistency."
+      },
+      "item-5": {
+        "title": "Document summarization",
+        "description": "Use AI to create concise summaries of long documents for faster understanding and decision making."
+      },
+      "item-6": {
+        "title": "Automate workflows",
+        "description": "Optimize repetitive tasks such as data entry, scheduling and notifications so your employees can focus on higher value activities."
+      },
+      "item-7": {
+        "title": "AI-powered search functionality",
+        "description": "Improve search accuracy and relevance in your applications with Azure AI to help users find information quickly and efficiently."
+      },
+      "item-8": {
+        "title": "Knowledge base optimization",
+        "description": "Use AI to organize and retrieve information from large repositories to facilitate knowledge sharing and collaboration across your organization."
+      },
+      "item-9": {
+        "title": "Personalization of content",
+        "description": "Deliver tailored content and recommendations to users based on their preferences and behavior to increase engagement and loyalty."
+      },
+      "item-10": {
+        "title": "Interactive onboarding assistants",
+        "description": "Use AI-powered assistants to guide new employees through the onboarding process and provide them with instant answers to questions and personalized training materials."
+      },
+      "end": "And many more. Let’s explore the main benefits for your business in a workshop."
+    },
+    "cta": {
+      "table-item-1": {
+        "title": "Kumuluz AI Knowledge Mentor",
+        "description": "An innovative AI solution that builds your company's internal knowledge base that can be accessed as a chatbot or via other types of interfaces and used for onboarding, training, troubleshooting and during task execution by your employees.",
+        "learn-more": "Learn more"
+      },
+      "table-item-2": {
+        "title": "Try our Kumuluz AI Smart Assistant",
+        "description": "Pre-built components to fast-track AI enablement of your business applications.",
+        "give-it-a-try": "Give it a try"
+      },
+      "end-1": "Embracing AI is not just about adopting new technologies, but also about transforming your business processes. By integrating AI and GPT models into your enterprise applications, you will position your company at the forefront of innovation and be ready to meet the challenges of tomorrow.",
+      "end-2": "Let's shape the future together. Work with us to unlock the full potential of AI in your business."
+    }
+  },
+  "backbase": {
+    "title": "Transform your banking ecosystem and innovation",
+    "block1": "Backbase is the leading engagement banking platform that empowers financial institutions by transforming legacy, siloed systems into a unified, customer-centric ecosystem. It provides an interoperable, API-based platform that enables banks to deliver seamless omnichannel experiences while driving innovation at scale.",
+    "servicerange": {
+      "title": "With Backbase, banks can modernize quickly, deliver differentiating capabilities faster and orchestrate personalized customer experiences across every touchpoint.",
+      "box": {
+        "efficiency": {
+          "title": "Increase operational efficiency",
+          "description": "Optimize banking processes through automation and reduce the need for manual intervention"
+        },
+        "loyalty": {
+          "title": "Improve customer loyalty",
+          "description": "Deliver personalized omnichannel experiences that delight and engage customers across every touchpoint"
+        },
+        "market": {
+          "title": "Accelerate time to market",
+          "description": "Deliver new features and services faster with Backbase’s modular, API-based platform"
+        },
+        "future": {
+          "title": "Future-proof your banking systems",
+          "description": "Adapt to evolving technologies with a scalable platform that integrates seamlessly with fintech solutions and core systems"
+        }
+      }
+    },
+    "features": {
+      "title": "Main features",
+      "banking": {
+        "title": "Omnichannel",
+        "subtitle": "banking",
+        "description": "Enable your customers to interact with your bank across web, mobile and branch with a consistent, integrated experience. Backbase’s omnichannel capabilities ensure that every touchpoint provides the same seamless and personalized user experience, allowing customers to start a transaction on one device and complete it on another."
+      },
+      "journey": {
+        "above-title": "Orchestrate",
+        "title": "the customer journey",
+        "description": "Tailor every interaction to your customers’ individual needs by leveraging Backbase’s advanced journey orchestration engine. From onboarding to daily transactions to complex financial workflows, banks can easily map the customer journey to ensure a smooth, personalized experience every step of the way."
+      },
+      "architecture": {
+        "title": "Modular and compatible",
+        "subtitle": "architecture",
+        "description": "Backbase offers a modular, composable platform that integrates seamlessly with your existing systems. Thanks to its API-based architecture, you can easily build and extend digital banking services by connecting them with core systems, CRMs and third-party fintech solutions."
+      },
+      "automation": {
+        "above-title": "Process",
+        "title": "automation",
+        "description": "Optimize and automate key banking processes, such as customer onboarding, loan origination and document management. Backbase’s process automation capabilities reduce manual workflows, improve operational efficiency and reduce errors."
+      },
+      "data": {
+        "title": "Customer-centric",
+        "subtitle": "data and AI",
+        "description": "Backbase provides banks with real-time insights through advanced data analytics and AI-driven services. By integrating data from multiple sources, the platform enables personalized offers, AI-powered advice and predictive financial insights, all tailored to the individual customer."
+      },
+      "end": "Backbase enables banks to leverage data and AI to deliver proactive, personalized customer experiences that drive long-term customer loyalty."
+    },
+    "benefits": {
+      "title": "Main benefits",
+      "subtitle": "Transform your banking solutions with cutting-edge technology that scales as your business grows.",
+      "items": {
+        "item-1": {
+          "title": "Rapid modernization",
+          "description": "With Backbase, banks can free themselves from legacy systems and vendor lock-in and adopt an agile, customer-centric platform that supports rapid digital transformation."
+        },
+        "item-2": {
+          "title": "Improved customer engagement",
+          "description": "By leveraging Backbase’s powerful customer engagement tools, banks can deliver real-time, personalized experiences across all channels."
+        },
+        "item-3": {
+          "title": "Operational efficiency & cost reduction",
+          "description": "Process automation, unified customer data and AI-driven workflows dramatically improve operational efficiency. Backbase’s platform enables banks to automate repetitive tasks and improve service delivery."
+        },
+        "item-4": {
+          "title": "Future-proof integration",
+          "description": "Easily integrating with your core systems, third-party fintech services and new technologies, Backbase provides a future-proof solution that can adapt to the evolving needs of your business."
+        }
+      },
+      "end": "Backbase provides the flexibility to evolve with the fast-moving financial landscape, ensuring your bank is always at the cutting edge of digital innovation."
+    },
+    "use-cases": {
+      "title": "Use cases",
+      "subtitle": "Explore different use cases of banking ecosystem and innovation transformation:",
+      "item-1": {
+        "title": "Digital-first banking transformation",
+        "description": "From digital onboarding to managing complex customer journeys, Backbase lets you redesign your entire banking model."
+      },
+      "item-2": {
+        "title": "AI-driven customer journeys",
+        "description": "Use Backbase’s AI and data capabilities to provide your customers with tailored financial advice, proactive alerts and predictive insights."
+      },
+      "item-3": {
+        "title": "Automated loan origination",
+        "description": "Backbase simplifies the lending process with end-to-end automation, from application submission to decisioning and document management. This allows banks to process more applications with fewer errors, improving both speed and accuracy."
+      },
+      "item-4": {
+        "title": "End-to-end customer onboarding",
+        "description": "Automate and optimize the entire onboarding process, from document submission to account activation, with automated workflows and real-time data validation."
+      }
+    },
+    "cta": {
+      "end-1": "With Backbase, your institution can tackle modernization without the constraints of legacy infrastructure, ensuring you stay ahead of the competition.",
+      "end-2": "Contact us today to find out how our Backbase integration services can enable your institution to innovate, modernize and lead in today’s competitive digital banking landscape."
+    }
+  },
+  "modernization": {
+    "title": "Rapidly modernize your outdated software systems",
+    "block1": "At Sunesis, we specialize in transforming legacy systems into agile, future-proof platforms. Our software modernization services enable businesses to stay competitive by re-platforming outdated software to cloud-native platforms, modernizing code and integrating cutting-edge technologies while ensuring seamless operational efficiency.",
+    "servicerange": {
+      "title": "With Backbase, banks can modernize quickly, deliver differentiating capabilities faster and orchestrate personalized customer experiences across every touchpoint.",
+      "box": {
+        "agility": {
+          "title": "Increase operational agility",
+          "description": "Optimize legacy systems and workflows so your teams can work faster and more efficiently across departments"
+        },
+        "satisfaction": {
+          "title": "Improve customer satisfaction",
+          "description": "Leverage modern technologies to create seamless, user-friendly digital experiences"
+        },
+        "speed": {
+          "title": "Accelerate the speed of innovation",
+          "description": "Use a modular architecture to deliver new products and services quickly and stay ahead of the market"
+        },
+        "scalability": {
+          "title": "Ensure long-term scalability",
+          "description": "Secure your software infrastructure with a flexible, cloud-ready platform"
+        }
+      }
+    },
+    "capabilities": {
+      "title": "Our capabilities",
+      "subtitle": "Our capabilities for your faster digital transformation and software modernization:",
+      "replatforming": {
+        "title": "Replatforming of legacy systems",
+        "description": "Update your outdated software infrastructure by moving to modern, scalable platforms that are easier to maintain and improve."
+      },
+      "modernization": {
+        "title": "Code refactoring and modernization",
+        "description": "Revitalize your legacy applications by rewriting, refactoring or updating outdated code to meet today’s technology requirements and improve performance and scalability."
+      },
+      "optimization": {
+        "title": "Cloud migration and optimization",
+        "description": "Move your on-premises systems to the cloud and leverage cloud-native architectures for greater flexibility, efficiency and lower operating costs."
+      },
+      "microservices": {
+        "title": "Switch to microservices and serverless architecture",
+        "description": "Transform monolithic systems into microservices architectures that enable faster deployment cycles, better scalability and smoother integration with modern technologies."
+      },
+      "integration": {
+        "title": "API extension and event-driven integration",
+        "description": "Improve system interoperability by introducing robust APIs that enable seamless integration with third-party services, digital platforms and internal systems."
+      },
+      "dev-ops": {
+        "title": "DevOps and continuous integration/deployment",
+        "description": "Implement modern DevOps practices to streamline development processes and enable faster deployment of updates and enhancements with minimal downtime."
+      },
+      "table": {
+        "title": "Proprietary software products and solutions to accelerate your software modernization and digital transformation",
+        "learn-more": "Learn more",
+        "items-left": {
+          "title": "Kumuluz platform",
+          "description-1": "Accelerate your digital transformation",
+          "description-2": "A lightweight, open, award-winning digital platform that simplifies and accelerates software modernization."
+        },
+        "items-right": {
+          "title": "Kumuluz Business APIs",
+          "description-1": "API solutions for immediate deployment",
+          "description-2": "Pre-built business APIs to develop your digital products and services much faster."
+        }
+      }
+    },
+    "use-cases": {
+      "title": "Use cases",
+      "subtitle": "Examples of our software modernization services:",
+      "item-1": {
+        "title": "Replatforming legacy financial systems",
+        "description": "A large financial institution with legacy core banking systems wanted to modernize its platform without disrupting its operations. Sunesis successfully migrated the systems to a modern cloud infrastructure, overhauled key components and introduced a microservices architecture.\n\nThis enabled the institution to bring new digital products to market faster, reduce maintenance costs and improve the overall resilience of the system.",
+        "cta-title": "Learn more:",
+        "cta-text": "Transform your banking ecosystem and innovation with Backbase"
+      },
+      "item-2": {
+        "title": "Cloud migration for business efficiency",
+        "description": "An oil company was faced with scaling its on-premise software when demand surged. Sunesis helped the company move to a cloud-native platform to optimize both performance and cost efficiency. By using microservices and API-driven architectures, the company was able to reduce its operating costs and significantly shorten deployment cycles."
+      },
+      "item-3": {
+        "title": "API integration for a unified customer experience",
+        "description": "Sunesis implemented an API-first approach with Kumuluz Digital Platform that integrated the disparate systems into a unified platform, improving internal collaboration and increasing customer service response times."
+      }
+    },
+    "cta": {
+      "end-1": "Contact us today to find out how our software modernization services can enable your organization to innovate, modernize and lead in today’s competitive digital landscape."
     }
   }
 }

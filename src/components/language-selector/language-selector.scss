@@ -1,54 +1,95 @@
 @import '../../layouts/variables.scss';
+@import '../../layouts/media-mixin.scss';
 
 .lang {
-  margin-bottom: 60px;
   min-width: 80px;
+  width: fit-content;
 
-  img {
-    max-width: 40px;
+  .dropdown-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+    width: fit-content;
+
+    &::after {
+      display: none;
+    }
   }
 
-  .dropdown {
-    display: inline-block;
-    cursor: pointer;
-    font-weight: normal;
+  .dropdown-lang-compact {
     font-size: 16px;
-    font-family: $font-asap;
-    text-transform: capitalize;
+    font-weight: 500;
+    color: $blue-400;
+  }
 
-    .dropdown-icon {
-      height: 15px;
-      margin-left: 10px;
+  .dropdown-lang {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 16px;
+    font-weight: 500;
+
+    p {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 500;
     }
+  }
 
-    .dropdown-selector {
-      position: absolute;
-      z-index: 10;
-      left: 0;
-      top: 30px;
-      background: $white;
-      padding: 0.5rem 1rem 0;
-      color: $black;
-      box-shadow: 2px 2px 10px -4px $black;
-      min-width: 120px;
+  .language-icon {
+    width: 40px;
+    max-width: 40px;
+    margin-right: 10px;
+  }
 
-      & > div {
-        padding-bottom: 0.5rem;
+  .dropdown-icon {
+    height: 15px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
 
-        &:hover {
-          font-weight: 700;
-        }
+  &.show .dropdown-icon {
+    transform: rotate(180deg);
+  }
+
+  &.compact {
+    .dropdown-toggle {
+      .language-icon {
+        max-width: 30px;
       }
+    }
+  }
+
+  .dropdown-menu {
+    padding: 0.5rem 0;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    background-color: $white;
+    min-width: 120px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+
+    .dropdown-item {
+      padding: 0.5rem 1rem;
     }
   }
 }
 
-.lang.compact {
-  margin-bottom: -10px;
-  font-size: 1rem;
-  color: $blue-300;
+@include device-specific($tablet) {
+  .lang {
+    .dropdown-lang-compact {
+      color: $white;
+    }
+  }
+}
 
-  img {
-    max-width: 30px;
+@include device-specific($phone) {
+  .lang {
+    .dropdown-lang-compact {
+      color: $white;
+    }
   }
 }

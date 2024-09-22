@@ -15,6 +15,7 @@
     width: 20%;
     margin: 0 20px;
   }
+
   h2 {
     display: inline-block;
     margin: 0;
@@ -24,17 +25,17 @@
 @include device-specific($phone) {
   .line-title-separator {
     margin: 40px 0 20px 0;
+
     .lts-line {
       margin: 0 5px;
     }
+
     h2 {
       width: 45%;
     }
   }
 }
-@include device-specific($tablet) {
 
-}
-@include device-specific($pc) {
+@include device-specific($tablet) {}
 
-}
+@include device-specific($pc) {}

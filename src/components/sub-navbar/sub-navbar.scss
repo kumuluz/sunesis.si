@@ -5,12 +5,12 @@
   background: $blue-400;
   overflow: hidden;
 
-  & > div {
+  &>div {
     height: 60px;
     margin-left: 40px;
   }
 
-  div > div {
+  div>div {
     margin-right: 2rem;
   }
 
@@ -26,30 +26,39 @@
     &.kumuluzEE div {
       border-color: $ee;
     }
+
     &.kumuluzAPI div {
       border-color: $api;
     }
+
     &.kumuluzIntegration div {
       border-color: $integration;
     }
+
     &.kumuluzDevOps div {
       border-color: $devops;
     }
+
     &.kumuluzUX div {
       border-color: $ux;
     }
+
     &.kumuluzCCM div {
       border-color: $ccm;
     }
+
     &.kumuluzMarketplace div {
       border-color: $marketplace;
     }
+
     &.kumuluzPayment div {
       border-color: $payment;
     }
+
     &.kumuluzCrowdsensing div {
       border-color: $crowdsensing;
     }
+
     &.active div {
       border-color: $blue-100;
     }

@@ -16,6 +16,7 @@
       padding-bottom: 8px;
       color: $blue-100;
     }
+
     .title:after {
       content: '';
       height: 4px;
@@ -24,6 +25,24 @@
       margin-top: 10px;
       display: block;
       margin-bottom: 10px;
+    }
+
+    .footer-bulletpoints {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .bullet-point {
+      width: 4px;
+      height: 4px;
+      background-color: $white;
+      border-radius: 9999px;
+    }
+
+    .link {
+      text-decoration: underline;
+      text-underline-offset: 2px;
     }
 
     a {
@@ -35,28 +54,34 @@
         margin-bottom: 5px;
       }
     }
+
     div {
       margin-bottom: 5px;
     }
+
     .footer-digital-platform {
       .title-digital-platform {
         font-weight: 700;
       }
+
       .content-digital-platform {
         margin-left: 20px;
       }
     }
+
     .footer-business-apis {
       margin-top: 20px;
 
       .title-business-apis {
         font-weight: 700;
       }
+
       .content-business-apis {
         margin-left: 20px;
-         * {
-           border-bottom: none;
-         }
+
+        * {
+          border-bottom: none;
+        }
       }
     }
   }
@@ -69,9 +94,11 @@
     width: 300px;
     background: $blue-100;
   }
+
   .address {
     font-size: 1.1rem;
   }
+
   .copyright {
     text-align: center;
     font-size: 0.875rem;
@@ -91,13 +118,16 @@
     &.grey {
       border-color: $grey-100 transparent transparent $blue-400;
     }
+
     &.beige {
       border-color: $beige transparent transparent $blue-400;
     }
+
     &.blue {
       border-color: $blue-400 transparent transparent $blue-400;
     }
   }
+
   .reverse-arrow {
     width: 0;
     height: 0;
@@ -106,6 +136,7 @@
     border-color: $blue-400 transparent transparent transparent;
     position: relative;
   }
+
   .content {
     background: linear-gradient(to right, $blue-300, $blue-400);
     margin-top: -240px;
@@ -126,10 +157,12 @@
         margin-right: 0;
       }
     }
+
     img {
       max-width: 50px;
       margin-right: 10px;
     }
+
     img:last-child {
       margin-right: 0;
     }
@@ -138,17 +171,21 @@
 
 @include device-specific($phone) {
   .footer {
+
     // remove when there are translations
     .links {
       margin-top: 0;
     }
+
     // end remove
     .arrow {
       border-width: 60px 0 0 100vw !important;
     }
+
     .reverse-arrow {
       border-width: 60px 0 0 100vw !important;
     }
+
     .content {
       margin-top: -60px;
     }
@@ -157,17 +194,21 @@
 
 @include device-specific($tablet) {
   .footer {
+
     // remove when there are translations
     .links {
       margin-top: 0;
     }
+
     // end remove
     .arrow {
       border-width: 120px 0 0 100vw !important;
     }
+
     .reverse-arrow {
       border-width: 120px 0 0 100vw !important;
     }
+
     .content {
       margin-top: -120px;
     }
