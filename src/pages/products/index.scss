@@ -3,6 +3,7 @@
 .products {
   .banner {
     padding-top: 100px;
+
     img {
       max-width: 280px;
       margin: auto;
@@ -24,6 +25,17 @@
     }
   }
 
+  .interface {
+    margin-top: 10rem;
+
+    img {
+      width: 100%;
+      max-width: 700px;
+      margin: auto;
+      display: block;
+    }
+  }
+
   .strategy {
     color: $white;
 
@@ -42,6 +54,7 @@
       border-width: 240px 0 0 100vw;
       border-color: $blue-400 transparent transparent transparent;
     }
+
     .down-arrow {
       width: 0;
       height: 0;
@@ -60,6 +73,7 @@
     h2 {
       color: $blue-400;
     }
+
     h3 {
       color: $blue-200;
     }
@@ -79,6 +93,7 @@
       margin-top: 70px;
       margin-bottom: 50px;
     }
+
     .case-study {
       .case-study-item {
         display: flex;
@@ -144,6 +159,7 @@
       }
     }
   }
+
   .bapis {
     background: $blue-gradient-bottom;
   }
@@ -228,27 +244,35 @@
   &.integration {
     @include specific-product-overrides($integration, 'integration');
   }
+
   &.ee {
     @include specific-product-overrides($ee, 'ee');
   }
+
   &.api {
     @include specific-product-overrides($api, 'api');
   }
+
   &.devops {
     @include specific-product-overrides($devops, 'devops');
   }
+
   &.ux {
     @include specific-product-overrides($ux, 'ux');
   }
+
   &.ccm {
     @include specific-product-overrides($ccm, 'ccm');
   }
+
   &.marketplace {
     @include specific-product-overrides($marketplace, 'marketplace');
   }
+
   &.payment {
     @include specific-product-overrides($payment, 'payment');
   }
+
   &.crowdsensing {
     @include specific-product-overrides($crowdsensing, 'crowdsensing');
   }

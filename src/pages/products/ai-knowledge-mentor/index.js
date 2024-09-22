@@ -3,17 +3,20 @@ import { Container, Row, Col } from "reactstrap";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
+import { SubNavbar } from "../../../components";
+
 import { Layout } from "../../../layouts";
 import { Footer, ServiceRangeBox, SEO, ReferencesSpinner, DarkFloatingSection } from "../../../components";
 import { ServiceFullListItem } from "../../../components/services/service-full-list/list-item";
-
-import { Benefits } from "../../../components";
-import { benefits } from "./benefits";
 
 import rangeDev from "../../../assets/images/services/dev.svg";
 import rangeReplatforming from "../../../assets/images/services/replafroming.svg";
 import rangeTransformation from "../../../assets/images/services/transformation.svg";
 import rangeTransProducts from "../../../assets/images/services/trans-products.svg";
+import aiChatbot from "../../../assets/images/products/ai-chatbot.png";
+
+import { LineTitle } from "../../../components";
+import features from "./features";
 
 import "../index.scss";
 import "../../../components/index-page/content/index-content.scss";
@@ -24,7 +27,7 @@ function ProductsAiDigitalAssistantPage() {
     <Layout>
       <div className="products">
         <SEO siteTitleId={["products:site.title-knowledge-mentor", "translations:site.title"]} canonical="/products" />
-
+        <SubNavbar nav="/products" />
         <Container fluid={true} className="header">
           <Row>
             <Col xs="12" className="px-0">
@@ -92,17 +95,49 @@ function ProductsAiDigitalAssistantPage() {
           </Row>
         </Container>
 
+        <div className="container-margin interface">
+          <Row className="justify-content-center text-center">
+            <Col xs="12" lg="10" xl="8">
+              <h2>{t("knowledge-mentor.interface.title")}</h2>
+              <p className="mt-3">{t("knowledge-mentor.interface.description")}</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <img src={aiChatbot} alt="ai-chatbot" className="" />
+            </Col>
+          </Row>
+        </div>
+
         <DarkFloatingSection
           topContent={
-            <Benefits
-              title={t("backbase.benefits.title")}
-              description={t("backbase.benefits.subtitle")}
-              benefits={benefits(t)}
-              quote={t("backbase.benefits.end")}
-            />
+            <Container fluid={true}>
+              <Row className="justify-content-center services-section">
+                <Col xs="12" lg="10" xl="8" className="content p-0">
+                  <LineTitle title={t("knowledge-mentor.features.title")} className="products-title" />
+
+                  <div className="innovative-products-section">
+                    <p>{t("knowledge-mentor.features.subtitle")}</p>
+                    <div className="box-area">
+                      {features(t).map((box, index) => (
+                        <div key={index} className="box-item">
+                          <div className="box-item-img">
+                            <img src={box.image} />
+                          </div>
+                          <div className="box-item-content">
+                            <div className="box-item-title">{box.title}</div>
+                            <div className="box-item-desc">{box.desc}</div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
           }
         />
-        <div className="arrow" />
+        <div className="arrow pt-5" />
 
         <div className="mt-5 container-margin">
           <Row className="content-body">

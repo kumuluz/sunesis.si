@@ -3,6 +3,8 @@ import { Container, Row, Col } from "reactstrap";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
+import { SubNavbar } from "../../../components";
+
 import { Footer, References, ParallaxBlock, BusinessApisComponent, SEO } from "../../../components";
 import { Layout } from "../../../layouts";
 
@@ -35,7 +37,7 @@ function ProductsBusinessApiPage() {
     <Layout>
       <div className="products">
         <SEO siteTitleId={["products:site.title-business-apis", "translations:site.title"]} canonical="/products" />
-
+        <SubNavbar nav="/products" />
         <Container className="bapis" fluid={true}>
           <Row className="justify-content-center">
             <Col xs={12} xl={10}>

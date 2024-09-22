@@ -3,6 +3,8 @@ import { Container, Row, Col } from "reactstrap";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
+import { SubNavbar } from "../../../components";
+
 import { Layout } from "../../../layouts";
 import { Footer, ServiceRangeBox, SEO, ReferencesSpinner, DarkFloatingSection, Link } from "../../../components";
 import { ServiceFullListItem } from "../../../components/services/service-full-list/list-item";
@@ -24,7 +26,7 @@ function ServicesModernizationPage() {
     <Layout>
       <div className="services">
         <SEO siteTitleId={["services:site.title-modernization", "translations:site.title"]} canonical="/services" />
-
+        <SubNavbar nav="/services" />
         <Container fluid={true} className="header">
           <Row>
             <Col xs="12" className="px-0">

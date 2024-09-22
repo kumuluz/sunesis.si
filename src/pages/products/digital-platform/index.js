@@ -3,6 +3,8 @@ import { Container, Row, Col } from "reactstrap";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
+import { SubNavbar } from "../../../components";
+
 import { Footer, ProductsGrid, References, ParallaxBlock, SEO } from "../../../components";
 import { Layout } from "../../../layouts";
 
@@ -61,6 +63,7 @@ function ProductsDigitalPlatformPage() {
     <Layout>
       <div className="products">
         <SEO siteTitleId={["products:site.title", "translations:site.title"]} canonical="/products" />
+        <SubNavbar nav="/products" />
         <ParallaxBlock className="d-none d-xl-block" image={cube01} size={60} xOffset="11%" yOffset={50} />
         <ParallaxBlock className="d-none d-xl-block" image={cube02} size={30} xOffset="70%" yOffset={100} />
         <ParallaxBlock className="d-none d-xl-block" image={cube01} size={40} xOffset="85%" yOffset={100} />

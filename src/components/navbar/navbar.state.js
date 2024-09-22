@@ -71,8 +71,10 @@ export function useNavbarState() {
     },
     linkActive: function (path) {
       if (typeof window !== "undefined") {
-        if (window.location.pathname.includes(path)) {
-          if (window.location.pathname === path || window.location.pathname === path + "/") {
+        const pathnameWithoutLang = window.location.pathname.replace(/^\/[a-z]{2}\//, "/"); // Remove language prefix like /en/, /fr/, etc.
+
+        if (pathnameWithoutLang.includes(path)) {
+          if (pathnameWithoutLang === path || pathnameWithoutLang === path + "/") {
             return "active";
           }
           return "active plus position-relative";

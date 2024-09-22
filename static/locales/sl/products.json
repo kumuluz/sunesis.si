@@ -169,7 +169,7 @@
   },
   "knowledge-mentor": {
     "title": "Rešitve z AI-podprto upravljanje znanja in uvajanje",
-    "block1": "Revolucionarna platforma za upravljanje znanja z AI, ki združuje strokovno znanje vaše organizacije v en inteligenten in za zaposlene privlačen sistem. AI Knowledge Mentor je zasnovan tako, da se nenehno razvija in prilagaja z uporabo.",
+    "block1": "Revolucionarna platforma za upravljanje znanja z AI, ki združuje strokovno znanje vaše organizacije v en inteligenten in za zaposlene privlačen sistem. AI mentor znanja je zasnovan tako, da se nenehno razvija in prilagaja z uporabo.",
     "block2": "Izboljšuje uvajanje zaposlenih, spodbuja brezhibno deljenje znanja in zagotavlja, da so pomembne informacije vedno dostopne — naj gre za preprosto vprašanje ali kompleksno operativno težavo.",
     "servicerange": {
       "title": "Preoblikujte upravljanje znanja z AI mentorjem znanja",
@@ -180,7 +180,7 @@
         },
         "box-2": {
           "title": "Nenehno učenje in rast",
-          "description": "Ko zaposleni uporabljajo platformo, AI Knowledge Mentor širi svojo podatkovno bazo, ki jo samodejno posodablja in izboljšuje"
+          "description": "Ko zaposleni uporabljajo platformo, AI mentor znanja širi svojo podatkovno bazo, ki jo samodejno posodablja in izboljšuje"
         },
         "box-3": {
           "title": "Izboljšano uvajanje z igrifikacijo",
@@ -188,18 +188,18 @@
         },
         "box-4": {
           "title": "Brezhibna integracija in varnost",
-          "description": "Knowledge Mentor se integrira z vašimi notranjimi sistemi za upravljanje dokumentov, kar zagotavlja varen dostop do zaupnega znanja podjetja"
+          "description": "Mentor znanja se integrira z vašimi notranjimi sistemi za upravljanje dokumentov, kar zagotavlja varen dostop do zaupnega znanja podjetja"
         }
       },
-      "end": "AI Knowledge Mentor deluje kot digitalni možgani vaše organizacije in zagotavlja, da imajo vaši zaposleni takojšen dostop do vsega odobrenega znanja vašega podjetja. Z varno integracijo z vašimi obstoječimi dokumentnimi sistemi Knowledge Mentor zagotavlja, da so vaši podatki varni, hkrati pa dostopni tam in takrat, ko jih potrebujete."
+      "end": "AI mentor znanja deluje kot digitalni možgani vaše organizacije in zagotavlja, da imajo vaši zaposleni takojšen dostop do vsega odobrenega znanja vašega podjetja. Z varno integracijo z vašimi obstoječimi dokumentnimi sistemi mentor znanja zagotavlja, da so vaši podatki varni, hkrati pa dostopni tam in takrat, ko jih potrebujete."
     },
     "interface": {
       "title": "Preprost in privlačen vmesnik, ki ga bodo zaposleni radi uporabljali",
       "description": "Brez zapletenih struktur, brez zamudnega iskanja dokumentov in brez zapravljanja časa z iskanjem pravega odgovora."
     },
     "features": {
-      "title": "Funkcije AI Knowledge Mentor",
-      "subtitle": "Močne funkcije AI Knowledge Mentor spodbujajo upravljanje korporativnega znanja, učenje in operativno učinkovitost:",
+      "title": "Funkcije AI mentorja znanja",
+      "subtitle": "Funkcije AI mentorja znanja spodbujajo upravljanje korporativnega znanja, učenje in operativno učinkovitost:",
       "knowledge": {
         "title": "AI-podprta grafika znanja",
         "description": "Platforma dinamično povezuje informacije iz različnih področij in ustvarja graf znanja, ki postaja z vsako interakcijo bolj inteligenten."
@@ -214,11 +214,11 @@
       },
       "integration": {
         "title": "Varna integracija s sistemom dokumentov",
-        "description": "AI Knowledge Mentor se varno poveže z vašimi notranjimi dokumentnimi repozitoriji, da pridobi ustrezne podatke in zagotovi, da so varni, posodobljeni in enostavno dostopni."
+        "description": "AI mentor znanja se varno poveže z vašimi notranjimi dokumentnimi repozitoriji, da pridobi ustrezne podatke in zagotovi, da so varni, posodobljeni in enostavno dostopni."
       },
       "scalable": {
         "title": "Skalabilno gradnjo znanja",
-        "description": "AI Knowledge Mentor se prilagaja, ko se vaša organizacija razvija. Administratorji imajo možnost spremljanja in nadzora ustvarjanja notranjih wikisov, dokumentov in vozlišč znanja."
+        "description": "AI mentor znanja se prilagaja, ko se vaša organizacija razvija. Administratorji imajo možnost spremljanja in nadzora ustvarjanja notranjih wikisov, dokumentov in vozlišč znanja."
       },
       "adaptable": {
         "title": "Prilagodljivo potrebam podjetja",
@@ -226,33 +226,33 @@
       }
     },
     "use-cases": {
-      "title": "Primeri uporabe AI Knowledge Mentor",
+      "title": "Primeri uporabe AI mentor znanja",
       "subtitle": "Spoznajte, kako so podjetja revolucionirala svoje upravljanje znanja in uvajanje:",
       "item-1": {
         "title": "AI-podprto uvajanje zaposlenih",
-        "description": "Multinacionalno podjetje je uporabilo AI Knowledge Mentor za poenostavitev uvajanja svojih zaposlenih. Platforma je novim zaposlenim ponudila igrificirano učno pot z vprašanji, interaktivnimi moduli in spremljanjem napredka.\n\nTo ni samo povečalo angažiranost, ampak je tudi skrajšalo čas uvajanja za 30 % in omogočilo hitrejšo integracijo novih članov ekipe."
+        "description": "Multinacionalno podjetje je uporabilo AI mentor znanja za poenostavitev uvajanja svojih zaposlenih. Platforma je novim zaposlenim ponudila igrificirano učno pot z vprašanji, interaktivnimi moduli in spremljanjem napredka.\n\nTo ni samo povečalo angažiranost, ampak je tudi skrajšalo čas uvajanja za 30 % in omogočilo hitrejšo integracijo novih članov ekipe."
       },
       "item-2": {
         "title": "Vprašanja v realnem času za zaposlene",
-        "description": "Tehnološko podjetje je uvedlo AI Knowledge Mentor, da zmanjša čas, ki ga zaposleni porabijo za iskanje notranjih virov. Z AI-podprtim sistemom za postavljanje vprašanj so lahko zaposleni takoj postavili vprašanja, kot so:",
+        "description": "Tehnološko podjetje je uvedlo AI mentor znanja, da zmanjša čas, ki ga zaposleni porabijo za iskanje notranjih virov. Z AI-podprtim sistemom za postavljanje vprašanj so lahko zaposleni takoj postavili vprašanja, kot so:",
         "point-1": "\"Kakšen je postopek za oddajo stroškov?\"",
         "point-2": "\"Kdo je odgovoren za marketinški projekt?\" in podobno.",
         "end": "To je izboljšalo vsakodnevno učinkovitost in povečalo splošno produktivnost."
       },
       "item-3": {
         "title": "Ohranjanje notranjih standardov in najboljših praks",
-        "description": "Veliko podjetje je uporabilo AI Knowledge Mentor za centralizacijo njihove vedno spreminjajoče se dokumentacije o skladnosti in regulativnih zahtevah. Platforma je zagotavljala sprotne posodobitve politik in postopkov, kar je zagotovilo, da so se zaposleni na več lokacijah držali najnovejših standardov."
+        "description": "Veliko podjetje je uporabilo AI mentor znanja za centralizacijo njihove vedno spreminjajoče se dokumentacije o skladnosti in regulativnih zahtevah. Platforma je zagotavljala sprotne posodobitve politik in postopkov, kar je zagotovilo, da so se zaposleni na več lokacijah držali najnovejših standardov."
       },
       "item-4": {
         "title": "Olajšanje deljenja znanja med oddelki",
-        "description": "Podjetje za finančne storitve je uporabilo AI Knowledge Mentor za razbijanje silosov med oddelki. S povezovanjem znanja med finančnim, kadrovskim in IT oddelkom je platforma omogočila brezhibno sodelovanje in hitrejše odločanje.\n\nZaposleni iz različnih ekip lahko zdaj zlahka najdejo podrobne informacije o podjetju, kar izboljšuje komunikacijo in učinkovitost med oddelki."
+        "description": "Podjetje za finančne storitve je uporabilo AI mentor znanja za razbijanje silosov med oddelki. S povezovanjem znanja med finančnim, kadrovskim in IT oddelkom je platforma omogočila brezhibno sodelovanje in hitrejše odločanje.\n\nZaposleni iz različnih ekip lahko zdaj zlahka najdejo podrobne informacije o podjetju, kar izboljšuje komunikacijo in učinkovitost med oddelki."
       }
     },
     "cta": {
       "title": "Odklenite prihodnost upravljanja znanja",
-      "end-1": "Ste pripravljeni revolucionirati procese upravljanja znanja in uvajanja v vašem podjetju? Poskusite AI Knowledge Mentor — vašo AI-podprto rešitev za konsolidacijo notranjega znanja, povečanje učinkovitosti uvajanja in zagotavljanje brezhibnega deljenja znanja znotraj vaše organizacije.",
+      "end-1": "Ste pripravljeni revolucionirati procese upravljanja znanja in uvajanja v vašem podjetju? Poskusite AI mentor znanja — vašo AI-podprto rešitev za konsolidacijo notranjega znanja, povečanje učinkovitosti uvajanja in zagotavljanje brezhibnega deljenja znanja znotraj vaše organizacije.",
       "end-2": "Zagotovite svojim ekipam takojšen dostop do vsega, kar potrebujejo za uspeh — od uvajanja do zapletenih poslovnih procesov.",
-      "end-3": "Začnite danes in naredite prvi korak k prihodnosti vašega podjetja z AI Knowledge Mentor."
+      "end-3": "Začnite danes in naredite prvi korak k prihodnosti vašega podjetja z AI mentorjem znanja."
     }
   }
 }

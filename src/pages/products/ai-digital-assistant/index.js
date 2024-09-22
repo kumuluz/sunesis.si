@@ -3,12 +3,18 @@ import { Container, Row, Col } from "reactstrap";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
+import { SubNavbar } from "../../../components";
+
 import { Layout } from "../../../layouts";
 import { Footer, ServiceRangeBox, SEO, ReferencesSpinner, Link } from "../../../components";
 import { Itemized } from "../../../components/itemized/itemized.component";
 import { ServiceFullListItem } from "../../../components/services/service-full-list/list-item";
 
-import stockModernization from "../../../components/index-page/content/images/stock-modernization.jpg";
+import stockLibrary from "../../../components/index-page/content/images/stock-library.jpg";
+import stockArchitecture from "../../../components/index-page/content/images/stock-architecture-2.jpg";
+import stockPrivacy from "../../../components/index-page/content/images/stock-privacy.jpg";
+import stockFramework from "../../../components/index-page/content/images/stock-framework.jpg";
+import stockCrossPlatform from "../../../components/index-page/content/images/stock-cross-platform.jpg";
 
 import rangeDev from "../../../assets/images/services/dev.svg";
 import rangeReplatforming from "../../../assets/images/services/replafroming.svg";
@@ -25,7 +31,7 @@ function ProductsAiKnowledgeMentorPage() {
     <Layout>
       <div className="products">
         <SEO siteTitleId={["products:site.title-digital-assistant", "translations:site.title"]} canonical="/products" />
-
+        <SubNavbar nav="/products" />
         <Container fluid={true} className="header">
           <Row>
             <Col xs="12" className="px-0">
@@ -98,9 +104,9 @@ function ProductsAiKnowledgeMentorPage() {
                 <Row className="mt-5 content-body">
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockLibrary}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-photo-cloud"
+                      alt="stock-library"
                     />
                   </Col>
                   <Col md={6}>
@@ -148,9 +154,9 @@ function ProductsAiKnowledgeMentorPage() {
                   </Col>
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockArchitecture}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-modernization"
+                      alt="stock-architecture"
                     />
                   </Col>
                 </Row>
@@ -162,9 +168,9 @@ function ProductsAiKnowledgeMentorPage() {
                 <Row className="mt-5 content-body">
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockPrivacy}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-photo-cloud"
+                      alt="stock-privacy"
                     />
                   </Col>
                   <Col md={6}>
@@ -187,9 +193,9 @@ function ProductsAiKnowledgeMentorPage() {
                   </Col>
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockFramework}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-modernization"
+                      alt="stock-framework"
                     />
                   </Col>
                 </Row>
@@ -201,9 +207,9 @@ function ProductsAiKnowledgeMentorPage() {
                 <Row className="mt-5 content-body">
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockCrossPlatform}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-photo-cloud"
+                      alt="stock-cross-platform"
                     />
                   </Col>
                   <Col md={6}>

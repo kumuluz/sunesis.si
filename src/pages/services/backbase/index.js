@@ -3,13 +3,19 @@ import { Container, Row, Col } from "reactstrap";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
+import { SubNavbar } from "../../../components";
+
 import { Layout } from "../../../layouts";
 import { Footer, ServiceRangeBox, SEO, ReferencesSpinner, DarkFloatingSection } from "../../../components";
 import { ServiceFullListItem } from "../../../components/services/service-full-list/list-item";
 import { Benefits } from "../../../components";
 import { benefits } from "./benefits";
 
-import stockModernization from "../../../components/index-page/content/images/stock-modernization.jpg";
+import stockOmniBanking from "../../../components/index-page/content/images/stock-omni-banking.jpg";
+import stockCustomerJourney from "../../../components/index-page/content/images/stock-customer-journey.jpg";
+import stockScalableArchitecture from "../../../components/index-page/content/images/stock-scalable.jpg";
+import stockBusinessProcess from "../../../components/index-page/content/images/stock-business-process.jpg";
+import stockCustomerCentric from "../../../components/index-page/content/images/stock-customer-centric.jpg";
 
 import rangeDev from "../../../assets/images/services/dev.svg";
 import rangeReplatforming from "../../../assets/images/services/replafroming.svg";
@@ -25,7 +31,7 @@ function ServicesBackbasePage() {
     <Layout>
       <div className="services">
         <SEO siteTitleId={["services:site.title-backbase", "translations:site.title"]} canonical="/services" />
-
+        <SubNavbar nav="/services" />
         <Container fluid={true} className="header">
           <Row>
             <Col xs="12" className="px-0">
@@ -97,9 +103,9 @@ function ServicesBackbasePage() {
                 <Row className="mt-5 content-body">
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockOmniBanking}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-photo-cloud"
+                      alt="stock-omni-banking"
                     />
                   </Col>
                   <Col md={6}>
@@ -122,9 +128,9 @@ function ServicesBackbasePage() {
                   </Col>
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockCustomerJourney}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-modernization"
+                      alt="stock-customer-journey"
                     />
                   </Col>
                 </Row>
@@ -136,9 +142,9 @@ function ServicesBackbasePage() {
                 <Row className="mt-5 content-body">
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockScalableArchitecture}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-photo-cloud"
+                      alt="stock-scalable-architecture"
                     />
                   </Col>
                   <Col md={6}>
@@ -161,9 +167,9 @@ function ServicesBackbasePage() {
                   </Col>
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockBusinessProcess}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-modernization"
+                      alt="stock-business-process"
                     />
                   </Col>
                 </Row>
@@ -179,9 +185,9 @@ function ServicesBackbasePage() {
                 <Row className="mt-5 content-body">
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockCustomerCentric}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-photo-cloud"
+                      alt="stock-customer-centric"
                     />
                   </Col>
                   <Col md={6}>

@@ -115,6 +115,12 @@ a.nav-link:hover {
     background-image: $blue-gradient-left !important;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
+
+    .navbar-brand {
+      img {
+        width: 140px;
+      }
+    }
   }
 }
 
@@ -146,8 +152,21 @@ a.nav-link:hover {
     background-image: $blue-gradient-left !important;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
+
+    .navbar-brand {
+      img {
+        width: 140px;
+      }
+    }
   }
 }
+
+@include device-specific('(min-width: 992px) and (max-width: 1260px)') {
+  .placeholder {
+    height: 80px;
+  }
+}
+
 
 @include device-specific($pc) {
   .navbar-dark {

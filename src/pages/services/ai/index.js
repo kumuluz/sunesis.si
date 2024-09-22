@@ -3,12 +3,17 @@ import { Container, Row, Col } from "reactstrap";
 import { useI18next } from "gatsby-plugin-react-i18next";
 import { graphql } from "gatsby";
 
+import { SubNavbar } from "../../../components";
+
 import { Layout } from "../../../layouts";
 import { Footer, ServiceRangeBox, SEO, ReferencesSpinner, Link } from "../../../components";
 import { Itemized } from "../../../components/itemized/itemized.component";
 import { ServiceFullListItem } from "../../../components/services/service-full-list/list-item";
 
-import stockModernization from "../../../components/index-page/content/images/stock-modernization.jpg";
+import stockArchitecture from "../../../components/index-page/content/images/stock-architecture.jpg";
+import stockScalability from "../../../components/index-page/content/images/scalability-stock.jpg";
+import stockDataSecurity from "../../../components/index-page/content/images/data-security-stock.jpg";
+import stockAiForm from "../../../components/index-page/content/images/stock-ai-form.jpg";
 
 import rangeDev from "../../../assets/images/services/dev.svg";
 import rangeReplatforming from "../../../assets/images/services/replafroming.svg";
@@ -24,7 +29,7 @@ function ServicesAiPage() {
     <Layout>
       <div className="services">
         <SEO siteTitleId={["services:site.title-ai-integration", "translations:site.title"]} canonical="/services" />
-
+        <SubNavbar nav="/services" />
         <Container fluid={true} className="header">
           <Row>
             <Col xs="12" className="px-0">
@@ -98,9 +103,9 @@ function ServicesAiPage() {
                 <Row className="mt-5 content-body">
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockAiForm}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-photo-cloud"
+                      alt="stock-ai-form"
                     />
                   </Col>
                   <Col md={6}>
@@ -160,9 +165,9 @@ function ServicesAiPage() {
                   </Col>
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockArchitecture}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-modernization"
+                      alt="stock-architecture"
                     />
                   </Col>
                 </Row>
@@ -174,9 +179,9 @@ function ServicesAiPage() {
                 <Row className="mt-5 content-body">
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockDataSecurity}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-photo-cloud"
+                      alt="stock-security"
                     />
                   </Col>
                   <Col md={6}>
@@ -244,9 +249,9 @@ function ServicesAiPage() {
                   </Col>
                   <Col md={6}>
                     <img
-                      src={stockModernization}
+                      src={stockScalability}
                       style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
-                      alt="stock-modernization"
+                      alt="stock-scalability"
                     />
                   </Col>
                 </Row>
