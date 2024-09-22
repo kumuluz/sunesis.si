@@ -50,6 +50,8 @@
       "title": "OPERATIONAL",
       "cloud-dev": "Cloud-native development",
       "micro-apis": "Microservices & APIs",
+      "event-driven": "Event-driven architectures (Kafka, NATS)",
+      "cloud-edge": "Cloud-edge architectures",
       "dock-kube": "Docker & Kubernetes",
       "ent-arch": "Enterprise architecture",
       "integration": "Integration",
@@ -462,7 +464,7 @@
     "title": "Rapidly modernize your outdated software systems",
     "block1": "At Sunesis, we specialize in transforming legacy systems into agile, future-proof platforms. Our software modernization services enable businesses to stay competitive by re-platforming outdated software to cloud-native platforms, modernizing code and integrating cutting-edge technologies while ensuring seamless operational efficiency.",
     "servicerange": {
-      "title": "With Backbase, banks can modernize quickly, deliver differentiating capabilities faster and orchestrate personalized customer experiences across every touchpoint.",
+      "title": "Make sure your legacy software is not holding back your innovation and revenue.",
       "box": {
         "agility": {
           "title": "Increase operational agility",

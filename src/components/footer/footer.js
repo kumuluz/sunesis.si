@@ -125,9 +125,21 @@ export function Footer({ social, contact, grey, beige, blue }) {
                     return renderLink(link, ind);
                   } else {
                     return (
-                      <div key={ind} className="footer-bulletpoints">
-                        <div className="bullet-point" />
-                        <div>{t(link.title)}</div>
+                      <div key={ind}>
+                        <div className="footer-bulletpoints">
+                          <div className="bullet-point" />
+                          <div>{t(link.title)}</div>
+                        </div>
+                        {link.items && (
+                          <div className="ml-4 d-flex flex-column">
+                            {link.items.map((item, j) => (
+                              <div key={j} className="footer-bulletpoints">
+                                <div className="bullet-point" />
+                                <div>{t(item)}</div>
+                              </div>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     );
                   }

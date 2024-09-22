@@ -25,6 +25,7 @@ import "../../../components/index-page/content/index-content.scss";
 
 function ServicesAiPage() {
   const { t } = useI18next("services");
+
   return (
     <Layout>
       <div className="services">

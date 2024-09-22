@@ -54,6 +54,10 @@ export const footerLinks = [
       { title: "footer.services.service11" },
       { title: "footer.services.service12" },
       {
+        title: "footer.services.service13.title",
+        items: ["footer.services.service13.item-1", "footer.services.service13.item-2"],
+      },
+      {
         title: "footer.services.more",
         href: "/services/solutions",
       },

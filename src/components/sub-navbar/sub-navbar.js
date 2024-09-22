@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import * as PropTypes from "prop-types";
 import { useI18next } from "gatsby-plugin-react-i18next";
 
-import { products as kumuluzDigitalProducts } from "../../content/products";
 import { navigationLinks } from "../../content";
 import { Link } from "../link/link.component";
 
@@ -10,114 +9,90 @@ import "./sub-navbar.scss";
 
 export function SubNavbar({ nav }) {
   const { t } = useI18next();
-  const [state, setState] = useState({
-    width: 0,
-    height: 0,
-    index: 0,
-  });
+  const [isScrollable, setIsScrollable] = useState(false);
+  const containerRef = useRef(null);
+  const scrollContainerRef = useRef(null);
+  const activeLinkRef = useRef(null);
 
   useEffect(() => {
-    updateWindowDimensions();
-    window.addEventListener("resize", updateWindowDimensions);
+    updateScrollable();
+    window.addEventListener("resize", updateScrollable);
     return () => {
-      window.removeEventListener("resize", updateWindowDimensions);
+      window.removeEventListener("resize", updateScrollable);
     };
   }, []);
 
-  const { width, index } = state;
-
-  const bigEnough = width > 1500;
-
-  let content = [];
-  if (nav) {
-    content = navigationLinks.find((n) => n.href.includes(nav)).children;
-  } else {
-    content = kumuluzDigitalProducts;
-  }
-
-  const leftArray = content.slice(index);
-  const rightArray = content.slice(0, index);
-
-  function updateWindowDimensions() {
-    setState((prevState) => {
-      return {
-        ...prevState,
-        width: window.innerWidth,
-        height: window.innerHeight,
-      };
-    });
-  }
-
-  function toRight(t, content) {
-    if (index === content.length) {
-      setState((prevState) => {
-        return {
-          ...prevState,
-          index: 1,
-        };
+  useEffect(() => {
+    if (activeLinkRef.current) {
+      activeLinkRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "center",
       });
-    } else {
-      setState((prevState) => {
-        return {
-          ...prevState,
-          index: prevState.index + 1,
-        };
+    }
+  }, [nav]);
+
+  function updateScrollable() {
+    if (scrollContainerRef.current) {
+      const isScroll = scrollContainerRef.current.scrollWidth > scrollContainerRef.current.clientWidth;
+      setIsScrollable(isScroll);
+    }
+  }
+
+  function scrollToRight() {
+    const activeNav = navigationLinks.find((n) => n.href.includes(nav));
+    if (scrollContainerRef.current && activeNav) {
+      scrollContainerRef.current.scrollBy({
+        left: scrollContainerRef.current.clientWidth / activeNav.children.length,
+        behavior: "smooth",
       });
     }
   }
 
-  function toLeft(t, content) {
-    if (index === 0) {
-      setState((prevState) => {
-        return {
-          ...prevState,
-          index: content.length - 1,
-        };
-      });
-    } else {
-      setState((prevState) => {
-        return {
-          ...prevState,
-          index: prevState.index - 1,
-        };
+  function scrollToLeft() {
+    const activeNav = navigationLinks.find((n) => n.href.includes(nav));
+    if (scrollContainerRef.current && activeNav) {
+      scrollContainerRef.current.scrollBy({
+        left: -(scrollContainerRef.current.clientWidth / activeNav.children.length),
+        behavior: "smooth",
       });
     }
   }
 
   function isActive(product) {
     if (typeof window !== "undefined") {
-      if (window.location.pathname === product.href || window.location.pathname === product.href + "/") {
-        return true;
-      }
+      return window.location.pathname === product.href || window.location.pathname === product.href + "/";
     }
     return false;
   }
 
+  const activeNav = navigationLinks.find((n) => n.href.includes(nav));
+  if (!activeNav) {
+    return null;
+  }
+
   return (
-    <div className="subheader position-relative d-flex">
-      {!bigEnough && (
-        <div className="nav-left-right position-absolute" onClick={() => toRight(t, content)}>
+    <div className="subheader" ref={containerRef}>
+      {isScrollable && (
+        <div className="nav-left-right" onClick={scrollToLeft}>
           &#60;
         </div>
       )}
-      <div className={"d-flex align-items-center justify-content-center w-100 " + (bigEnough ? "mx-auto" : "")}>
-        {leftArray.map((prod, i) => (
-          <div key={i} className="text-center">
-            <Link to={prod.href} external={false} className={isActive(prod) ? (prod.id ? prod.id : "active") : ""}>
-              {t(prod.name)}
-            </Link>
-          </div>
-        ))}
-        {rightArray.map((prod, i) => (
-          <div key={i}>
-            <Link to={prod.href} external={false} className={isActive(prod) ? (prod.id ? prod.id : "active") : ""}>
-              {t(prod.name)}
-            </Link>
-          </div>
+      <div className="subheader-scrollable" ref={scrollContainerRef}>
+        {activeNav.children.map((prod, i) => (
+          <Link
+            key={i}
+            to={prod.href}
+            external={false}
+            className={isActive(prod) ? "active" : ""}
+            ref={isActive(prod) ? activeLinkRef : null}
+          >
+            {t(prod.name)}
+          </Link>
         ))}
       </div>
-      {!bigEnough && (
-        <div className="nav-left-right right position-absolute" onClick={() => toLeft(t, content)}>
+      {isScrollable && (
+        <div className="nav-left-right right" onClick={scrollToRight}>
           &#62;
         </div>
       )}
@@ -126,6 +101,5 @@ export function SubNavbar({ nav }) {
 }
 
 SubNavbar.propTypes = {
-  transformation: PropTypes.any,
-  nav: PropTypes.any,
+  nav: PropTypes.string.isRequired,
 };

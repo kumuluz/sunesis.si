@@ -1,7 +1,6 @@
 @import '../../layouts/variables.scss';
 @import '../../layouts/media-mixin.scss';
 
-
 .navbar-items {
   display: flex;
   justify-content: center;
@@ -105,6 +104,23 @@ a.nav-link:hover {
     .nav-item a.nav-link {
       color: $white;
     }
+
+    .dropdown {
+      width: 100%;
+    }
+
+    .dropdown-menu {
+      width: 100%;
+      text-align: center;
+      left: 20 !important;
+    }
+
+    .dropdown-item {
+      text-align: center;
+      word-wrap: break-word;
+      white-space: normal;
+      word-break: break-word;
+    }
   }
 
   .navbar-nav {
@@ -146,6 +162,13 @@ a.nav-link:hover {
     .nav-item a.nav-link {
       color: $white;
     }
+
+    .dropdown-menu {
+      width: fit-content;
+      left: 0 !important;
+      right: 0 !important;
+      margin: 0 auto;
+    }
   }
 
   .navbar-container {
@@ -166,7 +189,6 @@ a.nav-link:hover {
     height: 80px;
   }
 }
-
 
 @include device-specific($pc) {
   .navbar-dark {

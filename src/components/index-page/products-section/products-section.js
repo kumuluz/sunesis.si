@@ -1,16 +1,12 @@
 import React from "react";
-import * as PropTypes from "prop-types";
 import { Row, Col, Container } from "reactstrap";
 
 import { LineTitle } from "..";
 import { innovativeProducts } from "../../../content/indexPage/innovatite-products";
 
 import "./products-section.scss";
-import imageStrategicTactical from "../../../assets/images/strategic-tactical.svg";
-import imageOperational from "../../../assets/images/operational.svg";
 import imageDuke from "../../../assets/images/duke.svg";
 import { useI18next } from "gatsby-plugin-react-i18next";
-import { Link } from "../../link/link.component";
 
 export function ProductsSection() {
   const { t } = useI18next();

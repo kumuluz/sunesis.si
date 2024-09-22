@@ -1,65 +1,46 @@
 @import '../../layouts/variables.scss';
 
 .subheader {
+  display: flex;
+  justify-content: space-between;
   height: 60px;
   background: $blue-400;
   overflow: hidden;
 
   &>div {
     height: 60px;
-    margin-left: 40px;
   }
 
-  div>div {
-    margin-right: 2rem;
-  }
+  .subheader-scrollable {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    scroll-behavior: smooth;
+    margin-left: auto;
+    margin-right: auto;
 
-  a {
-    color: $white !important;
-    text-decoration: none !important;
-    font-size: 1.1rem;
 
-    div {
-      border-bottom: 4px solid transparent;
+    &::-webkit-scrollbar {
+      display: none;
     }
 
-    &.kumuluzEE div {
-      border-color: $ee;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    a {
+      font-size: 16px;
+      color: $white !important;
+      text-decoration: none !important;
+
+      border-bottom: 2px solid transparent;
+
+
     }
 
-    &.kumuluzAPI div {
-      border-color: $api;
-    }
-
-    &.kumuluzIntegration div {
-      border-color: $integration;
-    }
-
-    &.kumuluzDevOps div {
-      border-color: $devops;
-    }
-
-    &.kumuluzUX div {
-      border-color: $ux;
-    }
-
-    &.kumuluzCCM div {
-      border-color: $ccm;
-    }
-
-    &.kumuluzMarketplace div {
-      border-color: $marketplace;
-    }
-
-    &.kumuluzPayment div {
-      border-color: $payment;
-    }
-
-    &.kumuluzCrowdsensing div {
-      border-color: $crowdsensing;
-    }
-
-    &.active div {
+    .active {
       border-color: $blue-100;
     }
   }
@@ -70,9 +51,7 @@
   line-height: 58px;
   min-width: 40px;
   text-align: center;
-  margin-left: 0 !important;
   background: $blue-400;
-
   cursor: pointer;
   user-select: none;
 
