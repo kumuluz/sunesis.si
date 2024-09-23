@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import * as PropTypes from "prop-types";
 import languages from "../../i18n/languages";
 import "./language-selector.scss";
@@ -11,7 +11,25 @@ import { MEDIA_TABLET, MEDIA_PHONE, returnScreenSize } from "../../layouts/commo
 
 export function LanguageSelector({ compact, dark }) {
   const { t, language, showDropdown, toggleDropdown, toggleLanguage } = useLanguageState();
-  const screenSize = returnScreenSize();
+
+  const [screenSize, setScreenSize] = useState(0); // Default to 0 during SSR
+
+  useEffect(() => {
+    // Only run this on the client side
+    if (typeof window !== "undefined") {
+      setScreenSize(returnScreenSize());
+
+      const handleResize = () => {
+        setScreenSize(returnScreenSize());
+      };
+
+      window.addEventListener("resize", handleResize);
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+  }, []);
 
   return (
     <Dropdown isOpen={showDropdown} toggle={toggleDropdown} className={`lang ${compact ? "compact" : ""}`}>
