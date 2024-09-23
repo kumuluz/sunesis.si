@@ -1,31 +1,33 @@
-import React from "react";
-import {Link as ReactLink} from "gatsby-plugin-react-i18next";
+import React, { forwardRef } from "react";
+import { Link as ReactLink } from "gatsby-plugin-react-i18next";
 import PropTypes from "prop-types";
 
-export function Link(props) {
-    const {to, external, children, ...otherProps} = props;
-    
-    if (external) {
-        return (
-            <a href={to} target="_blank" rel="noreferrer noopener" {...otherProps}>
-                {children}
-            </a>
-        );
-    }
-    
+function Link({ to, external, children, ...otherProps }, ref) {
+  if (external) {
     return (
-        <ReactLink to={to} {...otherProps}>
-            {children}
-        </ReactLink>
+      <a href={to} target="_blank" rel="noreferrer noopener" ref={ref} {...otherProps}>
+        {children}
+      </a>
     );
+  }
+
+  return (
+    <ReactLink to={to} ref={ref} {...otherProps}>
+      {children}
+    </ReactLink>
+  );
 }
 
-Link.propTypes = {
-    to: PropTypes.string,
-    children: PropTypes.any,
-    external: PropTypes.bool,
-}
+const ForwardedLink = forwardRef(Link);
 
-Link.defaultProps = {
-    external: false,
-}
+ForwardedLink.propTypes = {
+  to: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+  external: PropTypes.bool,
+};
+
+ForwardedLink.defaultProps = {
+  external: false,
+};
+
+export { ForwardedLink as Link };

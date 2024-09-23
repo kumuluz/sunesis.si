@@ -23,19 +23,26 @@ export function SubNavbar({ nav }) {
   }, []);
 
   useEffect(() => {
-    if (activeLinkRef.current) {
-      activeLinkRef.current.scrollIntoView({
-        behavior: "smooth",
-        block: "nearest",
-        inline: "center",
-      });
-    }
+    updateScrollToActiveLink();
   }, [nav]);
 
   function updateScrollable() {
     if (scrollContainerRef.current) {
       const isScroll = scrollContainerRef.current.scrollWidth > scrollContainerRef.current.clientWidth;
       setIsScrollable(isScroll);
+    }
+  }
+
+  function updateScrollToActiveLink() {
+    if (activeLinkRef.current) {
+      const containerRect = containerRef.current.getBoundingClientRect();
+      const activeLinkRect = activeLinkRef.current.getBoundingClientRect();
+
+      if (activeLinkRect.left < containerRect.left) {
+        scrollContainerRef.current.scrollLeft -= containerRect.left - activeLinkRect.left;
+      } else if (activeLinkRect.right > containerRect.right) {
+        scrollContainerRef.current.scrollLeft += activeLinkRect.right - containerRect.right;
+      }
     }
   }
 
