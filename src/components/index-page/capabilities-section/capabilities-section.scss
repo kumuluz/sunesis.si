@@ -17,6 +17,42 @@
     }
   }
 
+  .duke-award-box {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .duke-award-box-background {
+      background-color: $blue-300;
+      height: 90px;
+      z-index: 2;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .duke-award-box-img {
+      margin-top: 20px;
+      z-index: 3;
+      text-align: left;
+
+      img {
+        height: 150px;
+        width: auto;
+      }
+    }
+
+    .duke-award-box-content {
+      margin-top: -10px;
+      margin-left: 5px;
+      margin-right: 5px;
+      z-index: 3;
+      text-align: left;
+    }
+  }
 }
 
 @include device-specific($phone) {
@@ -42,40 +78,42 @@
 
         .duke-award-box {
           width: 100%;
-          height: 200px;
+          height: fit-content;
           display: flex;
           align-items: center;
           justify-content: center;
+          padding: 30px 0px 30px 0px;
 
           .duke-award-box-background {
             background-color: $blue-300;
-            height: 90px;
+            height: fit-content !important;
             z-index: 2;
             width: 100%;
             display: flex;
+            flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-          }
 
-          .duke-award-box-img {
-            margin-top: 20px;
-            z-index: 3;
-            text-align: left;
+            .duke-award-box-img {
+              z-index: 3;
+              text-align: center;
+              margin: 20px 0px 10px 0px;
 
-            img {
-              height: 150px;
-              width: auto;
+              img {
+                max-height: 100px;
+                width: auto;
+              }
+            }
+
+            .duke-award-box-content {
+              margin: 0px 10px 20px 10px;
+              z-index: 3;
+              text-align: center;
             }
           }
-
-          .duke-award-box-content {
-            margin-top: -10px;
-            margin-left: 5px;
-            margin-right: 5px;
-            z-index: 3;
-            text-align: left;
-          }
         }
+
+
       }
 
       .core-services-section {

@@ -237,7 +237,7 @@ $phone-width: 90%;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 60px 100vw 0 0;
+    border-width: 180px 100vw 0 0;
     border-color: $blue-400 transparent transparent transparent;
   }
 }
@@ -389,6 +389,39 @@ $phone-width: 90%;
 
       .duke-award-box {
         width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0px 30px 0px;
+
+        .duke-award-box-background {
+          background-color: $grey-200;
+          height: fit-content !important;
+          z-index: 2;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+
+          .duke-award-box-img {
+            z-index: 3;
+            text-align: center;
+            margin: 20px 0px 10px 0px;
+
+            img {
+              max-height: 100px;
+              width: auto;
+            }
+          }
+
+          .duke-award-box-content {
+            margin: 0px 10px 20px 10px;
+            z-index: 3;
+            text-align: center;
+          }
+        }
       }
     }
 
@@ -404,6 +437,10 @@ $phone-width: 90%;
       .references-section {
         width: $phone-width;
       }
+    }
+
+    .dark-blue-white-arrow {
+      border-width: 60px 100vw 0 0;
     }
   }
 }
