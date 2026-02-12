@@ -29,29 +29,6 @@ module.exports = {
           nsSeparator: ":"
         }
       }
-    },
-    {
-      resolve: `gatsby-plugin-csp`,
-      options: {
-        disableOnDev: true,
-        reportOnly: false,
-        mergeScriptHashes: true,
-        mergeStyleHashes: true,
-        mergeDefaultDirectives: true,
-        directives: {
-          "default-src": "'self'",
-          "script-src": "'self'",
-          "style-src": "'self' 'unsafe-hashes' https://fonts.googleapis.com",
-          "img-src": "'self' data: https:",
-          "font-src": "'self' data: https://fonts.gstatic.com",
-          "connect-src": "'self' https://www.google-analytics.com",
-          "object-src": "'none'",
-          "base-uri": "'self'",
-          "form-action": "'self'",
-          "frame-ancestors": "'none'",
-          "upgrade-insecure-requests": true
-        }
-      }
     }
   ]
 };
