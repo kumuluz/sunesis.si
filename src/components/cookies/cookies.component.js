@@ -10,11 +10,6 @@ export function CookiesComponent() {
     
     const {displayCookies, agreeToCookies} = useCookieStorage();
     
-    // Don't render during SSR
-    if (typeof window === 'undefined') {
-        return null;
-    }
-    
     const clazz = displayCookies ? "sun-cookies-component" : "accepted-cookies sun-cookies-component";
     return (
         <div className={clazz}>
