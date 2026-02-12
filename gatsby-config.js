@@ -46,11 +46,10 @@ module.exports = {
           "font-src": "'self' data: https://fonts.gstatic.com",
           "connect-src": "'self' https://www.google-analytics.com https://cdn.segment.com https://api.segment.io https://sessions.bugsnag.com",
           "frame-src": "'self' https://app.netlify.com",
-          "frame-ancestors": "'none'",
           "object-src": "'none'",
           "base-uri": "'self'",
           "form-action": "'self'",
-          "upgrade-insecure-requests": true
+          "upgrade-insecure-requests": []
         }
       }
     }
