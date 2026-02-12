@@ -40,12 +40,12 @@ module.exports = {
         mergeDefaultDirectives: true,
         directives: {
           "default-src": "'self'",
-          "script-src": "'self' 'sha256-7Y8EpCoqVAbwtKUn+XCkV6j+lVvDuW/E9oM+l6Lk130=' 'sha256-UOjiBqac3dLnkgfGtlil5A5TrD4HPI/0/5F4cMWH7Xc=' 'sha256-zqw0pcdRbJTCYhXGdhzSjWVEHO8qlCGFvJ8a9S9S0yU='",
+          "script-src": "'self' 'sha256-7Y8EpCoqVAbwtKUn+XCkV6j+lVvDuW/E9oM+l6Lk130=' 'sha256-zqw0pcdRbJTCYhXGdhzSjWVEHO8qlCGFvJ8a9S9S0yU='",
           "style-src": "'self' 'unsafe-inline' https://fonts.googleapis.com",
           "img-src": "'self' data: https:",
           "font-src": "'self' data: https://fonts.gstatic.com",
           "connect-src": "'self' https://www.google-analytics.com",
-          "frame-src": "'none'",
+          "frame-src": "'self' https://app.netlify.com",
           "object-src": "'none'",
           "base-uri": "'self'",
           "form-action": "'self'"
