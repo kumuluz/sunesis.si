@@ -25,3 +25,16 @@ exports.onCreatePage = ({page, actions}) => {
 
 };
 */
+
+// Externalize webpack runtime to avoid inline scripts for CSP compliance
+exports.onCreateWebpackConfig = ({ actions, stage }) => {
+  if (stage === 'build-javascript') {
+    actions.setWebpackConfig({
+      optimization: {
+        runtimeChunk: {
+          name: 'webpack-runtime',
+        },
+      },
+    });
+  }
+};

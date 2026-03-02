@@ -1,5 +1,6 @@
 import React from "react";
-import {Helmet, useI18next} from "gatsby-plugin-react-i18next";
+import { Helmet } from "react-helmet";
+import { useI18next } from "gatsby-plugin-react-i18next";
 import languages from "../../i18n/languages";
 
 export function SEO({siteTitleId, canonical, translateSiteTitle = true}) {
