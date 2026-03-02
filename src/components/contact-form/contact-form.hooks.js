@@ -40,8 +40,8 @@ export function useContactForm() {
             const {fields} = prevState;
             let valid = true;
             
-            const updatedFields = Object.keys(fields).map(n => {
-                const field = fields[n];
+            const updatedFields = Object.keys(fields).reduce((acc, n) => {
+                const field = {...fields[n]};
                 
                 if (n === name) {
                     field.value = value;
@@ -80,8 +80,9 @@ export function useContactForm() {
                     }
                 }
                 
-                return field;
-            });
+                acc[n] = field;
+                return acc;
+            }, {});
             
             return {
                 valid,
@@ -96,9 +97,9 @@ export function useContactForm() {
         blurInput: function(e) {
             setFormValue(prevState => {
                 const updatedFields = {
-                    ...formValue.fields,
+                    ...prevState.fields,
                     [e.target.name]: {
-                        ...formValue.fields[e.target.name],
+                        ...prevState.fields[e.target.name],
                         touched: true,
                     },
                 };
