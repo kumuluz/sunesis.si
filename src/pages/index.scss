@@ -33,7 +33,9 @@ $phone-width: 90%;
 
     .index-header-title {
       display: flex;
-      gap: 1rem;
+      flex-wrap: wrap;
+      column-gap: 1rem;
+      row-gap: 0;
 
       .localized-title-1 {
         order: 1;
