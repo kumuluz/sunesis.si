@@ -23,4 +23,4 @@
   [plugins.inputs]
     reportOnly = false
     unsafeEval = false
-    excludedPath = ["/interstore/lpc"]
+    excludedPath = ["/interstore/lpc", "/interstore/lpc/"]
