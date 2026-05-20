@@ -9,6 +9,7 @@ export const navigationLinks = [
       { href: "/services/solutions", name: "menu.services.solutions" },
       { href: "/services/modernization", name: "menu.services.modernization" },
       { href: "/services/backbase", name: "menu.services.backbase" },
+      { href: "/services/agent-platforms", name: "menu.services.agent-platforms" },
     ],
   },
   {

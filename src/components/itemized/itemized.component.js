@@ -5,7 +5,7 @@ import "./itemized.component.scss";
 import {useI18next} from "gatsby-plugin-react-i18next";
 
 export function Itemized(props) {
-    const {trKey, label, small = false} = props;
+    const {trKey, label, small = false, boxColor} = props;
     const {t} = useI18next();
     
     const renderContent = () => {
@@ -18,7 +18,7 @@ export function Itemized(props) {
     return (
         <div className="itemized-component">
             <div className={small ? "box-container box-container-small" : "box-container"}>
-                <span className="box"/>
+                <span className="box" style={boxColor ? { backgroundColor: boxColor } : {}} />
             </div>
             <div className={small ? "content content-small" : "content"}>
                 {renderContent()}
@@ -30,5 +30,6 @@ export function Itemized(props) {
 Itemized.propTypes = {
     trKey: PropTypes.string,
     label: PropTypes.string,
-    small: PropTypes.bool
+    small: PropTypes.bool,
+    boxColor: PropTypes.string
 }

@@ -3,7 +3,8 @@
     "title": "Storitve",
     "title-modernization": "Posodobitev Programske Opreme",
     "title-ai-integration": "AI/GPT Integracija",
-    "title-backbase": "Platforma Backbase"
+    "title-backbase": "Platforma Backbase",
+    "title-agent-platforms": "Enterprise Agentna AI Platforma"
   },
   "navbar": {
     "dig-app": "Razvoj digitalnih aplikacij",
@@ -556,6 +557,98 @@
     },
     "cta": {
       "end-1": "Kontaktirajte nas danes, da ugotovite, kako vam lahko naše storitve modernizacije programske opreme omogočijo inovacije, modernizacijo in vodenje v današnjem konkurenčnem digitalnem okolju."
+    }
+  },
+  "agent-platforms": {
+    "title": "Enterprise agentna AI platforma",
+    "block1": "Od izoliranih LLM modelov do celovitega operacijskega sistema za podjetniško inteligenco.",
+    "servicerange": {
+      "title": "Za resno podjetniško uporabo AI model sam po sebi ni dovolj. Potrebujete programsko ogrodje, ki LLM model spremeni v funkcionalnega, avtonomnega agenta.",
+      "box": {
+        "sovereignty": {
+          "title": "Suverenost podatkov",
+          "description": "Vaši podatki nikoli ne zapustijo vašega varnega okolja"
+        },
+        "modularity": {
+          "title": "Modularnost",
+          "description": "Začnete z enim agentom in postopoma zgradite celotno digitalno delovno silo"
+        },
+        "specialization": {
+          "title": "Nišna specializacija",
+          "description": "Sistemi razumejo kompleksne podjetniške protokole"
+        },
+        "security": {
+          "title": "Varnost brez kompromisov",
+          "description": "Nadzor nad kognitivnim procesom in večnivojska zaščita"
+        }
+      }
+    },
+    "services": {
+      "beyond-chatbots": {
+        "title": "Presežemo omejitve klepetalnikov",
+        "description": "Za resno podjetniško uporabo AI model sam po sebi ni dovolj. Potrebujete programsko ogrodje, ki LLM model spremeni v funkcionalnega, avtonomnega agenta, sposobnega dolgotrajnega izvajanja nalog.",
+        "items": {
+          "item-1": "Delovni spomin: Agenti si zapomnijo pretekle interakcije in stanje procesov",
+          "item-2": "Kontekstni inženiring: Strateško upravljanje s podatki, ki jih agent potrebuje v vsakem trenutku, brez kognitivne preobremenitve",
+          "item-3": "Povezljivost: Preko MCP protokola agenti dostopajo do vaših realnih podatkov in orodij"
+        }
+      },
+      "architecture": {
+        "title": "Arhitektura platforme",
+        "description": "Namesto ene aplikacije vzpostavimo modularno okolje, ki vključuje:",
+        "items": {
+          "item-1": "Napredni orkestrator: Osrednji možgani (LangChain, LangGraph) za usmerjanje dela",
+          "item-2": "Agenti in podagenti: Arhitekturni vzorci, kjer glavni agent (Supervisor) delegira naloge specializiranim podagentom.",
+          "item-3": "Veščine (Skills): Prenosljivi paketi navodil in virov, ki agentom podeljujejo specifično domensko znanje",
+          "item-4": "MCP strežniki: Omogočamo popolno ločitev orodij od orkestracije. Orodja so lahko razvita v poljubnem jeziku (Java, Go, C#), agenti pa jih varno kličejo.",
+          "item-5": "Napredni RAG: Dinamičen priklic dokumentov in podatkov iz vaših internih baz v realnem času."
+        }
+      },
+      "security": {
+        "title": "Varnost brez kompromisov",
+        "description": "Varnost v agentni arhitekturi ni le šifriranje, ampak nadzor nad kognitivnim procesom.",
+        "items": {
+          "item-1": "Prompt Shielding: Aktivna zaščita pred prompt injection napadi",
+          "item-2": "Večnivojska varnost:",
+          "item-2-1": "Deterministične varovalke: Programska pravila za blokiranje izpisa občutljivih podatkov",
+          "item-2-2": "LLM-as-a-judge: Neodvisni modeli, ki v milisekundi preverijo primernost odgovora predno ga vidi uporabnik",
+          "item-3": "Kritične poslovne akcije (npr. finančne transakcije) zahtevajo eksplicitno potrditev skrbnika.",
+          "item-4": "Arhitekturni sloj za validacijo vhodov/izhodov in omejevanje števila klicev."
+        }
+      },
+      "compliance": {
+        "above-title": "Regulatory & Trust",
+        "title": "Skladnost in odgovorna AI",
+        "description": "Naša platforma je načrtovana z mislijo na strogo regulirano okolje evropskega trga:",
+        "items": {
+          "item-1": "Skladnost z EU AI Act: Zagotavljamo ustrezno upravljanje tveganj, transparentnost algoritmov in kakovost podatkov, ki so zahtevani za visoko tvegane AI sisteme.",
+          "item-2": "Operativna odpornost (DORA): Arhitektura je prilagojena zahtevam finančnega sektorja po neprekinjenem delovanju, obvladovanju IKT tveganj in varnem upravljanju zunanjih izvajalcev.",
+          "item-3": "Razložljiva AI (Explainable AI - XAI): Vsaka odločitev agenta je sledljiva. Platforma beleži revizijske sledi (Audit trails), ki pojasnjujejo, zakaj in na podlagi katerih virov je agent sprejel določeno odločitev.",
+          "item-4": "Zasebnost in GDPR: Popolna izolacija podatkovnih okolij in skladnost s standardi obdelave osebnih podatkov."
+        }
+      },
+      "tech-stack": {
+        "title": "Tehnološki sklad",
+        "description": "Platformo gradimo na preverjenih tehnologijah, ki zagotavljajo, da niste ujeti v vendor lock-in:",
+        "items": {
+          "item-1": "Odprtokodni temelji: Uporaba najboljših odprtokodnih ogrodij in modelov (Llama 3, Mistral), ki jih lahko gostujete v lastnem okolju.",
+          "item-2": "Azure Cloud Enterprise Ready: Popolna integracija z Azure AI Foundry, AKS (Kubernetes) in Azure AI Foundry za maksimalno skalabilnost in skladnost.",
+          "item-3": "LLM-Agnostic: Naša arhitektura omogoča hitro migracijo med modeli (npr. iz GPT-5.5 na Claude Opus 4.7) v urah, ne mesecih."
+        }
+      }
+    },
+    "why": {
+      "title": "Zakaj izbrati našo platformo?",
+      "items": {
+        "item-1": "Suverenost podatkov: Vaši podatki nikoli ne zapustijo vašega varnega okolja",
+        "item-2": "Modularnost: Začnete z enim agentom in postopoma zgradite celotno digitalno delovno silo",
+        "item-3": "Nišna specializacija: Naši sistemi razumejo kompleksne podjetniške protokole (npr. bančništvo, logistika, zavarovalništvo)"
+      }
+    },
+    "cta": {
+      "title": "Pripravljeni na naslednjo stopnjo AI?",
+      "description": "Kontaktirajte nas in skupaj bomo zasnovali agentno platformo, ki bo transformirala vaše poslovanje.",
+      "button": "Stopite v stik"
     }
   }
 }

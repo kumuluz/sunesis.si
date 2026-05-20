@@ -3,7 +3,8 @@
     "title": "Services",
     "title-modernization": "Software Modernization",
     "title-ai-integration": "AI/GPT Integration",
-    "title-backbase": "Backbase Platfrom"
+    "title-backbase": "Backbase Platfrom",
+    "title-agent-platforms": "Enterprise Agent AI Platform"
   },
   "navbar": {
     "dig-app": "Digital applications",
@@ -555,7 +556,100 @@
       }
     },
     "cta": {
-      "end-1": "Contact us today to find out how our software modernization services can enable your organization to innovate, modernize and lead in today’s competitive digital landscape."
+      "end-1": "Contact us today to find out how our software modernization services can enable your organization to innovate, modernize and lead in today's competitive digital landscape."
+    }
+  },
+  "agent-platforms": {
+    "title": "Enterprise agent AI platform",
+    "block1": "From isolated LLM models to a comprehensive operating system for enterprise intelligence.",
+    "servicerange": {
+      "title": "For serious enterprise AI use, a model alone is not enough. You need a software framework that transforms an LLM model into a functional, autonomous agent capable of long-term task execution.",
+      "box": {
+        "sovereignty": {
+          "title": "Data sovereignty",
+          "description": "Your data never leaves your secure environment"
+        },
+        "modularity": {
+          "title": "Modularity",
+          "description": "Start with one agent and gradually build an entire digital workforce"
+        },
+        "specialization": {
+          "title": "Niche specialization",
+          "description": "Systems that understand complex enterprise protocols"
+        },
+        "security": {
+          "title": "Security without compromise",
+          "description": "Control over the cognitive process and multi-level protection"
+        }
+      }
+    },
+    "services": {
+      "beyond-chatbots": {
+        "title": "Beyond chatbot limitations",
+        "description": "For serious enterprise AI use, a model alone is not enough. You need a software framework that transforms an LLM model into a functional, autonomous agent capable of long-term task execution.",
+        "items": {
+          "item-1": "Working memory: Agents remember past interactions and process states",
+          "item-2": "Context engineering: Strategic data management without cognitive overload",
+          "item-3": "Connectivity: Via MCP protocol, agents access your real data and tools"
+        }
+      },
+      "architecture": {
+        "above-title": "Platform architecture",
+        "title": "Modular environment for AI agents",
+        "description": "Instead of a single application, we establish a modular environment that includes:",
+        "items": {
+          "item-1": "Advanced orchestrator: Central brains (LangChain, LangGraph) for directing work",
+          "item-2": "Agents and sub-agents: Supervisor delegates tasks to specialized sub-agents",
+          "item-3": "Skills: Portable packages of instructions and resources for domain knowledge",
+          "item-4": "MCP servers: Complete separation of tools from orchestration, secure calls in any language",
+          "item-5": "Advanced RAG: Dynamic retrieval of documents from internal databases in real time"
+        }
+      },
+      "security": {
+        "title": "Security without compromise",
+        "description": "Security in agent architecture is not just encryption, but control over the cognitive process.",
+        "items": {
+          "item-1": "Prompt Shielding: Active protection against prompt injection attacks",
+          "item-2": "Multi-level security",
+          "item-2-1": "Deterministic guardrails: Programmatic rules for blocking sensitive data output",
+          "item-2-2": "LLM-as-a-judge: Independent models verify response appropriateness in milliseconds",
+          "item-3": "Human-in-the-Loop (HITL): Critical actions require explicit administrator approval",
+          "item-4": "Agent middleware: Input/output validation and call rate limiting"
+        }
+      },
+      "compliance": {
+        "above-title": "Compliance and responsible AI",
+        "title": "Regulatory & Trust",
+        "description": "Our platform is designed with the strictly regulated European market in mind:",
+        "items": {
+          "item-1": "EU AI Act compliance: Risk management, algorithm transparency, data quality",
+          "item-2": "Operational resilience (DORA): Continuous operation, ICT risk management",
+          "item-3": "Explainable AI (XAI): Traceable decisions with audit trails",
+          "item-4": "Privacy and GDPR: Complete data environment isolation"
+        }
+      },
+      "tech-stack": {
+        "title": "Technology stack",
+        "description": "We build the platform on proven technologies that ensure you are not locked into vendor lock-in:",
+        "items": {
+          "item-1": "Open-source foundations: Llama 3, Mistral – hosting in your own environment",
+          "item-2": "Azure Cloud Enterprise Ready: Azure AI Foundry, AKS, maximum scalability",
+          "item-3": "LLM-Agnostic: Fast migration between models in hours, not months"
+        }
+      }
+    },
+    "why": {
+      "title": "Why choose our platform?",
+      "items": {
+        "item-1": "Data sovereignty: Your data never leaves your secure environment",
+        "item-2": "Modularity: Start with one agent and gradually build an entire digital workforce",
+        "item-3": "Niche specialization: Our systems understand complex enterprise protocols (e.g. banking, logistics, insurance)"
+      }
+    },
+    "cta": {
+      "title": "Ready for the next level of AI?",
+      "description": "Contact us and together we will design an agent platform that will transform your business.",
+      "button": "Get in touch"
     }
   }
 }
