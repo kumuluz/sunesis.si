@@ -45,7 +45,7 @@ const products = t => [
         title: t('products-services.item-4.title'),
         subtitle: t('products-services.item-4.subtitle'),
         description: t('products-services.item-4.desc'),
-        url: EE_KUMULUZ_URL,
+        url: "/services/ai",
         size: 1
     },
     {
