@@ -5,9 +5,9 @@ export const navigationLinks = [
     name: "menu.services.title",
     href: "/services",
     children: [
+      { href: "/services/ai", name: "menu.services.ai" },
       { href: "/services/solutions", name: "menu.services.solutions" },
       { href: "/services/modernization", name: "menu.services.modernization" },
-      { href: "/services/ai", name: "menu.services.ai" },
       { href: "/services/backbase", name: "menu.services.backbase" },
     ],
   },
