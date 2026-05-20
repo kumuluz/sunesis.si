@@ -8,7 +8,7 @@ import { Itemized } from "../../itemized/itemized.component";
 
 import stockCloud from "./images/stock-cloud.jpg";
 import stockModernization from "./images/stock-modernization.jpg";
-import chatGptLogo from "./images/chatgpt-logo.png";
+import aiLogo from "./images/ai-logo.png";
 import backbaseStock from "./images/backbase-stock-photo.png";
 
 export function IndexContent() {
@@ -20,6 +20,49 @@ export function IndexContent() {
         <div className="flex-column d-flex align-items-center" style={{ marginTop: "60px" }}>
           <h2>{t("index:content.tabs.services.title")}</h2>
           <p className="mt-3 mx-5">{t("index:content.tabs.services.subtitle")}</p>
+          <Row className="mt-5 content-body">
+            <Col md={6}>
+              <img src={aiLogo} style={{ width: "75%" }} alt="openai" />
+            </Col>
+            <Col md={6}>
+              <div className="title">
+                <h2>{t("index:content.tabs.ai-backbase.ai.title")}</h2>
+                <div className="title-underline" />
+              </div>
+              <h3>{t("index:content.tabs.ai-backbase.ai.subtitle")}</h3>
+              <p>{t("index:content.tabs.ai-backbase.ai.description")}</p>
+              <Row>
+                <Col ms={12}>
+                  <Row>
+                    <Col md="6">
+                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-1" />
+                    </Col>
+                    <Col md="6">
+                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-2" />
+                    </Col>
+                  </Row>
+                  <Row className="items-margin-top">
+                    <Col md="6">
+                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-3" />
+                    </Col>
+                    <Col md="6">
+                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-4" />
+                    </Col>
+                  </Row>
+                  <Row className="items-margin-top">
+                    <Col md="6">
+                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-5" />
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Link to={"/services/ai"} external={false} className="link mt-4">
+                      {t("index:content.tabs.services.learn-more")}
+                    </Link>
+                  </Row>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
           <Row className="mt-5 content-body">
             <Col md={6}>
               <img
@@ -104,49 +147,6 @@ export function IndexContent() {
                 style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
                 alt="stock-modernization"
               />
-            </Col>
-          </Row>
-          <Row className="mt-5 content-body">
-            <Col md={6}>
-              <img src={chatGptLogo} style={{ width: "100%" }} alt="openai" />
-            </Col>
-            <Col md={6}>
-              <div className="title">
-                <h2>{t("index:content.tabs.ai-backbase.ai.title")}</h2>
-                <div className="title-underline" />
-              </div>
-              <h3>{t("index:content.tabs.ai-backbase.ai.subtitle")}</h3>
-              <p>{t("index:content.tabs.ai-backbase.ai.description")}</p>
-              <Row>
-                <Col ms={12}>
-                  <Row>
-                    <Col md="6">
-                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-1" />
-                    </Col>
-                    <Col md="6">
-                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-2" />
-                    </Col>
-                  </Row>
-                  <Row className="items-margin-top">
-                    <Col md="6">
-                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-3" />
-                    </Col>
-                    <Col md="6">
-                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-4" />
-                    </Col>
-                  </Row>
-                  <Row className="items-margin-top">
-                    <Col md="6">
-                      <Itemized trKey="index:content.tabs.ai-backbase.ai.items.item-5" />
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Link to={"/services/ai"} external={false} className="link mt-4">
-                      {t("index:content.tabs.services.learn-more")}
-                    </Link>
-                  </Row>
-                </Col>
-              </Row>
             </Col>
           </Row>
           <Row className="space-top content-body">

@@ -26,6 +26,10 @@ import imageDuke from "../assets/images/duke.svg";
 
 const headerItems = (t) => [
   {
+    icon: newWays,
+    text: t("blue-header.new-ways"),
+  },
+  {
     icon: digitalProducts,
     text: t("blue-header.digital-products"),
   },
@@ -36,10 +40,6 @@ const headerItems = (t) => [
   {
     icon: apiEconomy,
     text: t("blue-header.api-economy"),
-  },
-  {
-    icon: newWays,
-    text: t("blue-header.new-ways"),
   },
 ];
 

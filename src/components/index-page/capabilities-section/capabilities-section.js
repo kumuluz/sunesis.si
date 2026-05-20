@@ -15,15 +15,20 @@ const strategicTacticalBullets = [
   ["core-services.strat-and-tact.item-1-1", "core-services.strat-and-tact.item-1-2"],
   ["core-services.strat-and-tact.item-2-1", "core-services.strat-and-tact.item-2-2"],
   ["core-services.strat-and-tact.item-3-1", "core-services.strat-and-tact.item-3-2"],
+  ["core-services.strat-and-tact.item-4-1", "core-services.strat-and-tact.item-4-2"],
+  ["core-services.strat-and-tact.item-5-1", "core-services.strat-and-tact.item-5-2"],
 ];
 
 const operationalBullets = [
   ["core-services.operational.item-1-1", "core-services.operational.item-1-2"],
   ["core-services.operational.item-2-1", "core-services.operational.item-2-2"],
   ["core-services.operational.item-3-1", "core-services.operational.item-3-2"],
-  ["core-services.operational.item-3-3", "core-services.operational.item-4-1"],
-  ["core-services.operational.item-4-2"],
-  ["core-services.operational.item-4-3", "core-services.operational.item-4-4"],
+  ["core-services.operational.item-4-1", "core-services.operational.item-4-2"],
+  ["core-services.operational.item-5-1", "core-services.operational.item-5-2"],
+  ["core-services.operational.item-6-1", "core-services.operational.item-6-2"],
+  ["core-services.operational.item-7-1", "core-services.operational.item-7-2"],
+  ["core-services.operational.item-8-1", "core-services.operational.item-8-2"],
+  ["core-services.operational.item-9-1"],
 ];
 
 export function CapabilitiesSection() {

@@ -1,8 +1,8 @@
 {
   "header": {
-    "titleStrong": "Napredne programske rešitve",
-    "title": "za digitalno preobrazbo",
-    "subtitle-1": "Podjetjem omogočamo uspeh v digitalnem okolju. Naša strokovnost vključuje razvoj v oblaku, posodabljanje programske opreme in brezhibno integracijo najnovejših tehnologij, vključno z umetno inteligenco in GPT.",
+    "titleStrong": "Agentna arhitektura in napredne AI platforme",
+    "title": "za naslednjo generacijo digitalnih rešitev",
+    "subtitle-1": "Vzpostavljamo varne, razširljive in avtonomne agentske ekosisteme. Podjetjem omogočamo prehod v dobo agentne inteligence z arhitekturo, ki povezuje vaše podatke, procese in orodja v koherenten in varen AI organizem.",
     "button": "CTA",
     "they-trust-us": "Zaupajo nam"
   },
@@ -10,7 +10,7 @@
     "digital-products": "Razvijajte svoje podjetje z<br/>modernimi digitalnimi izdelki<br/>in rešitvami",
     "digitalize": "Optimizirajte interakcije s strankami<br/>in vaše zaledne procese",
     "api-economy": "Razširite svoje podjetje<br/>z API-ji in<br/>dogodkovno vodenimi integracijami",
-    "new-ways": "Uporabljajte tehnologije<br/>AI in GPT za povečanje<br/>učinkovitosti in znižanje stroškov"
+    "new-ways": "Napredna AI avtomatizacija:<br/>celoviti procesi in povezani sistemi"
   },
   "content": {
     "toggler": {
@@ -51,15 +51,15 @@
       "ai-backbase": {
         "learn-more": "Preberite več",
         "ai": {
-          "title": "Odklenite inovacije, učinkovitost in rast",
+          "title": "Odlenite inovacije, učinkovitost in rast z agentnimi sistemi",
           "subtitle": "z umetno inteligenco in GPT",
-          "description": "Specializirani smo za vključevanje naprednih AI tehnologij v vaše obstoječe poslovne aplikacije, s pomočjo Open AI storitev, vključno z modeli OpenAI GPT, AI iskanjem in drugimi.",
+          "description": "Specializirani smo za načrtovanje in implementacijo robustnih agentnih arhitektur, ki vaše obstoječe sisteme povežejo v robustno agentno hrbtenico podjetja. Vzpostavljamo centralizirane in varne platforme, na katere lahko povežete poljubno število specializiranih agentov in zalednih sistemov.",
           "items": {
-            "item-1": "Nemotena integracija AI in GPT s formami osnovanimi aplikacijami",
-            "item-2": "Optimizirana arhitekturna integracija z OpenAI",
-            "item-3": "Podjetniška raven varnosti podatkov in dokumentov ter zasebnost",
-            "item-4": "Gostovanje v oblaku (Azure OpenAI in drugi) ter zasebni AI, GPT in LLM modeli",
-            "item-5": "Razširljivost, hitrost in nadzor stroškov"
+            "item-1": "Napredna agentska orkestracija in multi-agent sistemi",
+            "item-2": "Varna integracija z vašimi sistemi in viri podatkov",
+            "item-3": "Gostovanje v oblaku (Azure OpenAI in drugi) ter zasebni ali on-premise modeli",
+            "item-4": "Razširljivost, hitrost in upravljanje stroškov",
+            "item-5": "Sistemi za spremljanje delovanja agentov in zagotavljanje visoke odzivnosti"
           }
         },
         "backbase": {
