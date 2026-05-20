@@ -7,6 +7,13 @@ import {EE_KUMULUZ_URL, IO_KUMULUZ_URL, KUMULUZ_URL} from "../constants";
 
 export const innovativeProducts = t => [
     {
+        title: t('innovative-products.community.title'),
+        shortDesc: t('innovative-products.community.short-desc'),
+        desc: t('innovative-products.community.desc'),
+        image: community,
+        url: EE_KUMULUZ_URL
+    },
+    {
         title: t('innovative-products.apis.title'),
         shortDesc: t('innovative-products.apis.short-desc'),
         desc: t('innovative-products.apis.desc'),
@@ -19,13 +26,6 @@ export const innovativeProducts = t => [
         desc: t('innovative-products.platform.desc'),
         image: platform,
         url: KUMULUZ_URL + '/digital-platform'
-    },
-    {
-        title: t('innovative-products.community.title'),
-        shortDesc: t('innovative-products.community.short-desc'),
-        desc: t('innovative-products.community.desc'),
-        image: community,
-        url: EE_KUMULUZ_URL
     },
     {
         title: t('innovative-products.dapis.title'),
