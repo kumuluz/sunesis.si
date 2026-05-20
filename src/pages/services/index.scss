@@ -57,27 +57,32 @@ $phone-width: 90%;
 
 .use-case-table-title {
   padding: 0.75rem;
-  border: 1px solid $grey-200;
-  border-bottom: none;
+  border: none;
+  border-bottom: 1px solid $grey-200;
   font-size: 16px;
   font-weight: 600;
+  align-items: center;
+  justify-content: center;
 }
 
 .use-case-table {
   display: flex;
-  justify-content: space-between;
   align-items: stretch;
   border: 1px solid $grey-200;
+
+  > div {
+    flex: 1;
+  }
 
   .content {
     padding: 1rem;
     text-align: left;
-    flex: 1;
   }
 
   .table-separator {
     width: 1px;
     background-color: $grey-200;
+    flex: none !important;
   }
 
   li {
@@ -91,7 +96,6 @@ $phone-width: 90%;
   }
 
   ul {
-    flex: 1;
     padding-left: 20px;
     margin: 0;
   }

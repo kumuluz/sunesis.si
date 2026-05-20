@@ -237,7 +237,7 @@
     },
     "services": {
       "title": "Naše tehnične zmožnosti",
-      "subtitle": "Razvijamo učinkovite rešitve v oblaku z optimiziranimi arhitekturami za razširljivost in visoko zmogljivost. Poleg tega izvajamo stroškovno učinkovite strategije za trajnostno vključevanje AI in GPT v vaše poslovanje.",
+      "subtitle": "Razvijamo robustne, varne in visoko zmogljive agentske platforme, ki presegajo zmožnosti preprostih klepetalnikov. Naše rešitve omogočajo orkestracijo specializiranih AI agentov, ki samostojno izvajajo kompleksne poslovne procese, se povezujejo z vašimi obstoječimi sistemi in zagotavljajo popolno varnost vaših podatkov.",
       "integration": {
         "title": "Brezhibna integracija GPT",
         "subtitle": "z aplikacijami, ki temeljijo na obrazcih",
@@ -280,6 +280,16 @@
           "item-2": "Inteligentno upravljanje stroškov",
           "item-3": "Optimizacija zmogljivosti",
           "item-4": "Sprejetje arhitekture brez strežnikov"
+        }
+      },
+      "agent-platforms": {
+        "title": "Napredne agentske platforme in orkestracija",
+        "description": "Namesto izoliranih AI funkcij gradimo celovite ekosisteme, kjer več specializiranih agentov (Multi-agent systems) sodeluje pri reševanju kompleksnih nalog. Naša platforma deluje kot inteligentno jedro, ki upravlja z orodji, dostopa do podatkov in izvaja end-to-end procese.",
+        "items": {
+          "item-1": "Avtonomno izvajanje nalog in uporaba orodij (Tool use)",
+          "item-2": "Orkestracija večagentnih sistemov (Multi-agent orchestration)",
+          "item-3": "Napredni agentski delovni tokovi (Agentic Workflows)",
+          "item-4": "Brezšivna integracija z ERP, CRM in internimi API-ji preko MCP"
         }
       },
       "table": {

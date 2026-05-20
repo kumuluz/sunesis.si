@@ -237,7 +237,7 @@
     },
     "services": {
       "title": "Our technical capabilities",
-      "subtitle": "We develop effective cloud-native solutions with optimized architectures for scalability and high performance. In addition, we implement cost-efficient strategies to make AI and GPT integration sustainable for your business.",
+      "subtitle": "We develop robust, secure and high-performance agent platforms that go beyond simple chatbots. Our solutions enable orchestration of specialized AI agents that autonomously execute complex business processes, integrate with your existing systems and ensure complete security of your data.",
       "integration": {
         "title": "Seamless GPT integration",
         "subtitle": "with form-based applications",
@@ -280,6 +280,16 @@
           "item-2": "Intelligent cost management",
           "item-3": "Performance optimization",
           "item-4": "Serverless architecture adoption"
+        }
+      },
+      "agent-platforms": {
+        "title": "Advanced agent platforms and orchestration",
+        "description": "Instead of isolated AI features, we build comprehensive ecosystems where multiple specialized agents (Multi-agent systems) collaborate to solve complex tasks. Our platform acts as an intelligent core that manages tools, accesses data and executes end-to-end processes.",
+        "items": {
+          "item-1": "Autonomous task execution and tool use",
+          "item-2": "Multi-agent system orchestration",
+          "item-3": "Advanced agentic workflows",
+          "item-4": "Seamless integration with ERP, CRM and internal APIs via MCP"
         }
       },
       "table": {

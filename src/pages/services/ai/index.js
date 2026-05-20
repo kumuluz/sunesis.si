@@ -256,18 +256,46 @@ function ServicesAiPage() {
                     />
                   </Col>
                 </Row>
+                <Row className="space-top content-body">
+                  <Col md={6}>
+                    <img
+                      src={stockAiForm}
+                      style={{ width: "100%", borderRadius: "16px", border: "8px solid #DCDCDC" }}
+                      alt="stock-agent-platforms"
+                    />
+                  </Col>
+                  <Col md={6}>
+                    <div className="title">
+                      <h2>{t("ai.services.agent-platforms.title")}</h2>
+                      <div className="title-underline" />
+                    </div>
+                    <p>{t("ai.services.agent-platforms.description")}</p>
+                    <Row>
+                      <Col ms={12}>
+                        <Row>
+                          <Col md="6">
+                            <Itemized trKey="ai.services.agent-platforms.items.item-1" />
+                          </Col>
+                          <Col md="6">
+                            <Itemized trKey="ai.services.agent-platforms.items.item-2" />
+                          </Col>
+                        </Row>
+                        <Row className="items-margin-top">
+                          <Col md="6">
+                            <Itemized trKey="ai.services.agent-platforms.items.item-3" />
+                          </Col>
+                          <Col md="6">
+                            <Itemized trKey="ai.services.agent-platforms.items.item-4" />
+                          </Col>
+                        </Row>
+                      </Col>
+                    </Row>
+                  </Col>
+                </Row>
               </div>
             </div>
           </div>
         </Container>
-
-        <div className="mt-5 container-margin">
-          <div className="use-case-table">
-            <div className="content">{t("ai.services.table.left")}</div>
-            <div className="table-separator" />
-            <div className="content">{t("ai.services.table.right")}</div>
-          </div>
-        </div>
 
         <div className="mt-5 container-margin">
           <Row className="content-body">
@@ -277,21 +305,27 @@ function ServicesAiPage() {
             </Col>
           </Row>
           <div className="use-case-table">
-            <ul>
-              <li>{t("ai.use-cases.table.item-1-1")}</li>
-              <li>{t("ai.use-cases.table.item-1-2")}</li>
-              <li>{t("ai.use-cases.table.item-1-3")}</li>
-              <li>{t("ai.use-cases.table.item-1-4")}</li>
-              <li>{t("ai.use-cases.table.item-1-5")}</li>
-            </ul>
+            <div>
+              <div className="content use-case-table-title">{t("ai.services.table.left")}</div>
+              <ul>
+                <li>{t("ai.use-cases.table.item-1-1")}</li>
+                <li>{t("ai.use-cases.table.item-1-2")}</li>
+                <li>{t("ai.use-cases.table.item-1-3")}</li>
+                <li>{t("ai.use-cases.table.item-1-4")}</li>
+                <li>{t("ai.use-cases.table.item-1-5")}</li>
+              </ul>
+            </div>
             <div className="table-separator" />
-            <ul>
-              <li>{t("ai.use-cases.table.item-2-1")}</li>
-              <li>{t("ai.use-cases.table.item-2-2")}</li>
-              <li>{t("ai.use-cases.table.item-2-3")}</li>
-              <li>{t("ai.use-cases.table.item-2-4")}</li>
-              <li>{t("ai.use-cases.table.item-2-5")}</li>
-            </ul>
+            <div>
+              <div className="content use-case-table-title">{t("ai.services.table.right")}</div>
+              <ul>
+                <li>{t("ai.use-cases.table.item-2-1")}</li>
+                <li>{t("ai.use-cases.table.item-2-2")}</li>
+                <li>{t("ai.use-cases.table.item-2-3")}</li>
+                <li>{t("ai.use-cases.table.item-2-4")}</li>
+                <li>{t("ai.use-cases.table.item-2-5")}</li>
+              </ul>
+            </div>
           </div>
           <Row className="full-list-component">
             <ul>
