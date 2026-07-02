@@ -41,10 +41,10 @@ export function HeaderDropdown({
 
   const columnsClass =
     links.length <= 3
-      ? 'lg:grid-cols-[repeat(3,14rem)]'
+      ? 'lg:grid-cols-[repeat(3,minmax(0,14rem))]'
       : links.length === 4
-        ? 'lg:grid-cols-[repeat(4,14rem)]'
-        : 'lg:grid-cols-[repeat(5,14rem)]'
+        ? 'lg:grid-cols-2 xl:grid-cols-[repeat(4,minmax(0,14rem))]'
+        : 'lg:grid-cols-3 xl:grid-cols-[repeat(5,minmax(0,14rem))]'
 
   return (
     <AnimatePresence>
@@ -68,7 +68,7 @@ export function HeaderDropdown({
               <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-center lg:gap-12">
                 <motion.div
                   animate="visible"
-                  className={`grid gap-x-8 gap-y-10 sm:grid-cols-2 ${columnsClass}`}
+                  className={`grid min-w-0 gap-x-8 gap-y-10 sm:grid-cols-2 ${columnsClass}`}
                   initial="hidden"
                   key={item.label}
                   variants={{
