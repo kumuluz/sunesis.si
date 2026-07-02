@@ -1,9 +1,12 @@
 import { Building2, Mail } from 'lucide-react'
+import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 import type { LandingContent } from '../../../content/landing/landing'
+import type { LanguageCode } from '../../../lib/router'
 
 type FinalCtaSectionProps = {
   content: LandingContent['landingPageSections']['finalCta']
+  language: LanguageCode
 }
 
 const MAPS_URL = 'https://maps.app.goo.gl/sUypTyZYofbouHZ79'
@@ -24,7 +27,7 @@ type FieldErrors = {
   message?: string
 }
 
-type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error'
+type SubmitStatus = 'idle' | 'submitting' | 'error'
 
 const FORM_NAME = 'contact'
 
@@ -36,8 +39,9 @@ const encodeFormData = (data: Record<string, string>) =>
     )
     .join('&')
 
-export function FinalCtaSection({ content }: FinalCtaSectionProps) {
+export function FinalCtaSection({ content, language }: FinalCtaSectionProps) {
   const { contact, form } = content
+  const router = useRouter()
   const [firstName, setFirstName] = useState('')
   const [lastName, setLastName] = useState('')
   const [email, setEmail] = useState('')
@@ -99,12 +103,7 @@ export function FinalCtaSection({ content }: FinalCtaSectionProps) {
         throw new Error(`Form submission failed: ${response.status}`)
       }
 
-      setStatus('success')
-      setFirstName('')
-      setLastName('')
-      setEmail('')
-      setPhone('')
-      setMessage('')
+      router.push(`/${language}/thanks/`)
     } catch {
       setStatus('error')
     }
@@ -310,14 +309,6 @@ export function FinalCtaSection({ content }: FinalCtaSectionProps) {
             ) : null}
           </div>
           <div className="flex flex-col items-end gap-3">
-            {status === 'success' ? (
-              <p
-                className="w-full text-sm font-medium text-green-700"
-                role="status"
-              >
-                {form.successMessage}
-              </p>
-            ) : null}
             {status === 'error' ? (
               <p className="w-full text-sm font-medium text-red-600" role="alert">
                 {form.errorMessage}

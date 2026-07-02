@@ -265,11 +265,15 @@ const enLanding = {
         phoneInvalidError: 'Please enter a valid phone number.',
         messageRequiredError: 'Please enter a message.',
         sendingLabel: 'Sending…',
-        successMessage: 'Thanks for reaching out — we will get back to you soon.',
         errorMessage:
           'Something went wrong sending your message. Please try again or email us directly.',
       },
     },
+  },
+  thanks: {
+    title: 'Thank you for reaching out',
+    text: 'We have received your message and will get back to you shortly.',
+    backLabel: 'Back to home',
   },
 } as const
 
@@ -538,11 +542,15 @@ const slLanding = {
         phoneInvalidError: 'Vnesite veljavno telefonsko številko.',
         messageRequiredError: 'Vnesite sporočilo.',
         sendingLabel: 'Pošiljanje…',
-        successMessage: 'Hvala za sporočilo — kmalu se vam oglasimo.',
         errorMessage:
           'Pri pošiljanju sporočila je prišlo do napake. Poskusite znova ali nam pišite neposredno.',
       },
     },
+  },
+  thanks: {
+    title: 'Hvala za vaše sporočilo',
+    text: 'Vaše sporočilo smo prejeli in se vam bomo kmalu oglasili.',
+    backLabel: 'Nazaj na domačo stran',
   },
 } as const
 

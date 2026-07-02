@@ -36,7 +36,10 @@ export function LandingPage({ content, language }: LandingPageProps) {
       <SelectedWorkSection content={content.landingPageSections.selectedWork} />
       <ProofSection content={content.landingPageSections.proof} />
       <WhySection content={content.landingPageSections.why} />
-      <FinalCtaSection content={content.landingPageSections.finalCta} />
+      <FinalCtaSection
+        content={content.landingPageSections.finalCta}
+        language={language}
+      />
     </MotionConfig>
   )
 }
