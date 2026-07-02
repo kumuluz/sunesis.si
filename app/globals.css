@@ -1,0 +1,109 @@
+@import 'tailwindcss';
+
+:root {
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  color: #171717;
+  /* Overscroll/rubber-band coloring: white at the top (page), dark at the
+     bottom (footer).
+     - Firefox paints the viewport-fixed gradient below into both ends.
+     - Chrome/Safari ignore the fixed image there and instead use the solid
+       background-color of <html> (top) and <body> (bottom), set here and on
+       the body rule respectively. */
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 50%,
+    #0a0a0a 50%,
+    #0a0a0a 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  /* Dark fallback used by Chrome/Safari for the bottom overscroll region (see
+     the :root rule). Hidden behind the page content during normal scrolling. */
+  background: #0a0a0a;
+}
+
+@keyframes marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(calc(-50% - 0.5rem), 0, 0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 180s linear infinite;
+}
+
+.references-marquee__viewport {
+  scrollbar-width: none;
+}
+
+.references-marquee__viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.references-marquee__track {
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+.references-marquee__track:has(.references-marquee__item:hover) {
+  animation-play-state: paused;
+}
+
+.references-marquee__track:has(.references-marquee__item:hover)
+  .references-marquee__item {
+  opacity: 0.6;
+  filter: grayscale(1);
+}
+
+.references-marquee__track:has(.references-marquee__item:hover)
+  .references-marquee__item:hover {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+.animate-float {
+  animation: float 7s ease-in-out infinite;
+}

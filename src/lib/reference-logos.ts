@@ -1,0 +1,82 @@
+type ReferenceLogo = { stem: string; folder: string; url: string }
+
+const referenceLogos: ReferenceLogo[] = [
+  { stem: '1_ibm', folder: '', url: '/images/references/1_ibm.png' },
+  { stem: '2_nlb', folder: '', url: '/images/references/2_nlb.png' },
+  { stem: '3_akrapovic', folder: '', url: '/images/references/3_akrapovic.png' },
+  { stem: '4_petrol', folder: '', url: '/images/references/4_petrol.png' },
+  { stem: '5_sava', folder: '', url: '/images/references/5_sava.png' },
+  { stem: '6_otp', folder: '', url: '/images/references/6_otp.png' },
+  { stem: '7_flare', folder: '', url: '/images/references/7_flare.png' },
+  { stem: '8_generali', folder: '', url: '/images/references/8_generali.png' },
+  { stem: '9_oracle', folder: '', url: '/images/references/9_oracle.png' },
+  { stem: '9_snaga', folder: '', url: '/images/references/9_snaga.png' },
+  { stem: 'cybergrid', folder: '', url: '/images/references/cybergrid.png' },
+  { stem: 'ebcont', folder: '', url: '/images/references/ebcont.png' },
+  { stem: 'energetika_ljubljana', folder: '', url: '/images/references/energetika_ljubljana.png' },
+  { stem: 'adriatic-slovenica', folder: 'extras', url: '/images/references/extras/adriatic-slovenica.png' },
+  { stem: 'chile', folder: 'extras', url: '/images/references/extras/chile.png' },
+  { stem: 'citytech', folder: 'extras', url: '/images/references/extras/citytech.png' },
+  { stem: 'ebrad', folder: 'extras', url: '/images/references/extras/ebrad.png' },
+  { stem: 'everis', folder: 'extras', url: '/images/references/extras/everis.png' },
+  { stem: 'globepayroll', folder: 'extras', url: '/images/references/extras/globepayroll.png' },
+  { stem: 'hardlab', folder: 'extras', url: '/images/references/extras/hardlab.png' },
+  { stem: 'informatika', folder: 'extras', url: '/images/references/extras/informatika.png' },
+  { stem: 'irc', folder: 'extras', url: '/images/references/extras/irc.png' },
+  { stem: 'kneip', folder: 'extras', url: '/images/references/extras/kneip.png' },
+  { stem: 'mmturist', folder: 'extras', url: '/images/references/extras/mmturist.png' },
+  { stem: 'osocial', folder: 'extras', url: '/images/references/extras/osocial.png' },
+  { stem: 'pbs', folder: 'extras', url: '/images/references/extras/pbs.png' },
+  { stem: 'plinovodi', folder: 'extras', url: '/images/references/extras/plinovodi.png' },
+  { stem: 'prva', folder: 'extras', url: '/images/references/extras/prva.png' },
+  { stem: 'solvera_lynx', folder: 'extras', url: '/images/references/extras/solvera_lynx.png' },
+  { stem: 'src', folder: 'extras', url: '/images/references/extras/src.png' },
+  { stem: 'tovarna_podjemov', folder: 'extras', url: '/images/references/extras/tovarna_podjemov.png' },
+  { stem: 'vsrs', folder: 'extras', url: '/images/references/extras/vsrs.png' },
+  { stem: 'zzzs', folder: 'extras', url: '/images/references/extras/zzzs.png' },
+  { stem: 'gen-i', folder: '', url: '/images/references/gen-i.png' },
+  { stem: 'giz', folder: '', url: '/images/references/giz.png' },
+  { stem: 'riko', folder: '', url: '/images/references/riko.png' },
+  { stem: 'trimmed-aegis-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-aegis-removebg-preview.png' },
+  { stem: 'trimmed-atos-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-atos-removebg-preview.png' },
+  { stem: 'trimmed-caixa-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-caixa-removebg-preview.png' },
+  { stem: 'trimmed-cap-watt-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-cap-watt-removebg-preview.png' },
+  { stem: 'trimmed-cndr-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-cndr-removebg-preview.png' },
+  { stem: 'trimmed-ease-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-ease-removebg-preview.png' },
+  { stem: 'trimmed-eaton-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-eaton-removebg-preview.png' },
+  { stem: 'trimmed-edp-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-edp-removebg-preview.png' },
+  { stem: 'trimmed-enel-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-enel-removebg-preview.png' },
+  { stem: 'trimmed-eng-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-eng-removebg-preview.png' },
+  { stem: 'trimmed-hess-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-hess-removebg-preview.png' },
+  { stem: 'trimmed-inesctec-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-inesctec-removebg-preview.png' },
+  { stem: 'trimmed-inlecom-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-inlecom-removebg-preview.png' },
+  { stem: 'trimmed-instrasoft-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-instrasoft-removebg-preview.png' },
+  { stem: 'trimmed-julich-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-julich-removebg-preview.png' },
+  { stem: 'trimmed-konnecta-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-konnecta-removebg-preview.png' },
+  { stem: 'trimmed-piraneus-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-piraneus-removebg-preview.png' },
+  { stem: 'trimmed-redhat-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-redhat-removebg-preview.png' },
+  { stem: 'trimmed-rwth-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-rwth-removebg-preview.png' },
+  { stem: 'trimmed-serveo-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-serveo-removebg-preview.png' },
+  { stem: 'trimmed-sphynx-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-sphynx-removebg-preview.png' },
+  { stem: 'trimmed-tehnoloski-gozd-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-tehnoloski-gozd-removebg-preview.png' },
+  { stem: 'trimmed-tuc-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-tuc-removebg-preview.png' },
+  { stem: 'trimmed-um-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-um-removebg-preview.png' },
+  { stem: 'trimmed-vde-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-vde-removebg-preview.png' },
+  { stem: 'trimmed-waboost-removebg-preview', folder: 'horizon', url: '/images/references/horizon/trimmed-waboost-removebg-preview.png' },
+  { stem: 'ministry_justice', folder: '', url: '/images/references/ministry_justice.png' },
+  { stem: 'ministry_public_admin', folder: '', url: '/images/references/ministry_public_admin.png' },
+]
+
+export const topLevelReferenceLogos = referenceLogos.filter((l) => l.folder === '')
+
+export const referenceUrlByStem: Record<string, string> = Object.fromEntries(
+  referenceLogos.map((l) => [l.stem, l.url]),
+)
+
+export const referenceStemsByFolder: Record<string, string[]> = referenceLogos.reduce(
+  (acc, l) => {
+    ;(acc[l.folder] ??= []).push(l.stem)
+    return acc
+  },
+  {} as Record<string, string[]>,
+)

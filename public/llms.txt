@@ -1,0 +1,79 @@
+# Sunesis
+
+Sunesis is a Slovenian enterprise software engineering and technology company founded in 2014.
+
+Sunesis designs, builds and operates AgenticAI solutions, API ecosystems, enterprise digital platforms, cloud-native architectures, DevOps foundations and Kumuluz platforms.
+
+Sunesis works with organizations in banking, insurance, public sector, energy, manufacturing, blockchain infrastructure, open-source ecosystems and European research and innovation projects.
+
+## Core positioning
+
+Sunesis helps organizations build secure, scalable and production-ready enterprise platforms where AgenticAI, APIs, workflows, data and business systems work together.
+
+## Main website sections
+
+- Homepage: https://sunesis.si/en/
+- AgenticAI Solutions: https://sunesis.si/en/expertise/agentic-ai/
+- Digital Solutions Development: https://sunesis.si/en/expertise/digital-solutions/
+- API Ecosystems & Integrations: https://sunesis.si/en/expertise/api-ecosystems-integrations/
+- Cloud-native & Edge Architectures: https://sunesis.si/en/expertise/cloud-native-edge/
+- DevOps & Platform Engineering: https://sunesis.si/en/expertise/devops-platform-engineering/
+- Kumuluz platforms: https://sunesis.si/en/kumuluz/
+- References: https://sunesis.si/en/references/
+- Selected Work: https://sunesis.si/en/references/selected-work/
+- Open Source: https://sunesis.si/en/references/open-source/
+- Clients & Industries: https://sunesis.si/en/references/clients-industries/
+- Research & Innovation: https://sunesis.si/en/references/research-innovation/
+- About Sunesis: https://sunesis.si/en/company/about/
+- Awards: https://sunesis.si/en/company/awards/
+- Careers: https://sunesis.si/en/company/careers/
+- Contact: https://sunesis.si/en/#contact
+
+## Key expertise
+
+Sunesis provides expertise in:
+- AgenticAI solutions and enterprise AI assistants
+- API ecosystems, API management, Business APIs and integrations
+- Enterprise digital solutions development
+- Cloud-native and edge architectures
+- DevOps and platform engineering
+- Open-source engineering
+- Research and innovation projects
+
+## Kumuluz
+
+Kumuluz is the Sunesis product and platform family for:
+- KumuluzAI Platform
+- Kumuluz API
+- Kumuluz Business APIs
+- Kumuluz Digital Platform
+- Kumuluz Crowdsensing
+
+More detailed Kumuluz product content is available at https://kumuluz.com/
+
+## Key references
+
+Selected Sunesis references include:
+- NLB Klik
+- RikoAI
+- AgenticAI Platform — Zavarovalniška skupina Sava
+- Flare
+- INATrace
+- CUPID
+- KYC — NLB
+- eSpis — Supreme Court
+- IKA — Supreme Court
+- EPUS — Plinovodi
+- Akrapovič Website
+- Akrapovič Business Portal
+- Inorma — Zavarovalniška skupina Sava
+- Energetika Moj utrip
+
+## Open source and ecosystems
+
+Sunesis has open-source engineering experience through projects such as INATrace and CUPID, connected with Linux Foundation ecosystems including AgStack and LF Energy.
+
+## Contact
+
+For project, partnership, research, open-source or career inquiries, use:
+https://sunesis.si/en/#contact

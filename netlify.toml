@@ -1,0 +1,11 @@
+[build]
+  command = "next build"
+  publish = "out"
+
+# Send the bare root to the default (English) locale. Static export has no
+# server/middleware, so this redirect lives at the CDN edge.
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
+  force = true
