@@ -13,6 +13,29 @@ const fieldClassName =
 
 const labelClassName = 'block text-sm font-semibold text-neutral-900'
 
+const errorClassName = 'text-sm text-red-600'
+
+const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+const PHONE_PATTERN = /^\+?(?:[\s().-]*\d){7,15}[\s().-]*$/
+
+type FieldErrors = {
+  email?: string
+  phone?: string
+  message?: string
+}
+
+type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error'
+
+const FORM_NAME = 'contact'
+
+const encodeFormData = (data: Record<string, string>) =>
+  Object.keys(data)
+    .map(
+      (key) =>
+        `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`,
+    )
+    .join('&')
+
 export function FinalCtaSection({ content }: FinalCtaSectionProps) {
   const { contact, form } = content
   const [firstName, setFirstName] = useState('')
@@ -20,26 +43,74 @@ export function FinalCtaSection({ content }: FinalCtaSectionProps) {
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
   const [message, setMessage] = useState('')
+  const [errors, setErrors] = useState<FieldErrors>({})
+  const [status, setStatus] = useState<SubmitStatus>('idle')
 
-  const handleSubmit: React.ComponentProps<'form'>['onSubmit'] = (event) => {
+  const validate = (): FieldErrors => {
+    const nextErrors: FieldErrors = {}
+
+    const trimmedEmail = email.trim()
+    if (!trimmedEmail) {
+      nextErrors.email = form.emailRequiredError
+    } else if (!EMAIL_PATTERN.test(trimmedEmail)) {
+      nextErrors.email = form.emailInvalidError
+    }
+
+    const trimmedPhone = phone.trim()
+    if (trimmedPhone && !PHONE_PATTERN.test(trimmedPhone)) {
+      nextErrors.phone = form.phoneInvalidError
+    }
+
+    if (!message.trim()) {
+      nextErrors.message = form.messageRequiredError
+    }
+
+    return nextErrors
+  }
+
+  const handleSubmit: React.ComponentProps<'form'>['onSubmit'] = async (
+    event,
+  ) => {
     event.preventDefault()
 
-    const name = [firstName, lastName].filter(Boolean).join(' ').trim()
-    const subject = name ? `Website inquiry from ${name}` : 'Website inquiry'
-    const body = [
-      `Name: ${name}`,
-      `Email: ${email}`,
-      phone ? `Phone: ${phone}` : null,
-      '',
-      message,
-    ]
-      .filter((line) => line !== null)
-      .join('\n')
+    const nextErrors = validate()
+    setErrors(nextErrors)
+    if (Object.keys(nextErrors).length > 0) {
+      return
+    }
 
-    window.location.href = `mailto:${contact.email}?subject=${encodeURIComponent(
-      subject,
-    )}&body=${encodeURIComponent(body)}`
+    setStatus('submitting')
+
+    try {
+      const response = await fetch('/__forms.html', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encodeFormData({
+          'form-name': FORM_NAME,
+          firstName,
+          lastName,
+          email,
+          phone,
+          message,
+        }),
+      })
+
+      if (!response.ok) {
+        throw new Error(`Form submission failed: ${response.status}`)
+      }
+
+      setStatus('success')
+      setFirstName('')
+      setLastName('')
+      setEmail('')
+      setPhone('')
+      setMessage('')
+    } catch {
+      setStatus('error')
+    }
   }
+
+  const isSubmitting = status === 'submitting'
 
   return (
     <section
@@ -114,9 +185,19 @@ export function FinalCtaSection({ content }: FinalCtaSectionProps) {
 
         <form
           className="flex flex-col gap-6"
+          data-netlify="true"
+          name={FORM_NAME}
+          netlify-honeypot="bot-field"
           noValidate
           onSubmit={handleSubmit}
         >
+          <input name="form-name" type="hidden" value={FORM_NAME} />
+          <p className="hidden">
+            <label>
+              Do not fill this out if you are human:{' '}
+              <input name="bot-field" tabIndex={-1} />
+            </label>
+          </p>
           <div className="grid gap-6 sm:grid-cols-2">
             <div className="space-y-2">
               <label className={labelClassName} htmlFor="contact-first-name">
@@ -152,50 +233,102 @@ export function FinalCtaSection({ content }: FinalCtaSectionProps) {
               {form.emailLabel}
             </label>
             <input
+              aria-describedby={errors.email ? 'contact-email-error' : undefined}
+              aria-invalid={errors.email ? true : undefined}
               autoComplete="email"
               className={fieldClassName}
               id="contact-email"
               name="email"
-              onChange={(event) => setEmail(event.target.value)}
+              onChange={(event) => {
+                setEmail(event.target.value)
+                if (errors.email) {
+                  setErrors((prev) => ({ ...prev, email: undefined }))
+                }
+              }}
               required
               type="email"
               value={email}
             />
+            {errors.email ? (
+              <p className={errorClassName} id="contact-email-error">
+                {errors.email}
+              </p>
+            ) : null}
           </div>
           <div className="space-y-2">
             <label className={labelClassName} htmlFor="contact-phone">
               {form.phoneLabel}
             </label>
             <input
+              aria-describedby={errors.phone ? 'contact-phone-error' : undefined}
+              aria-invalid={errors.phone ? true : undefined}
               autoComplete="tel"
               className={fieldClassName}
               id="contact-phone"
               name="phone"
-              onChange={(event) => setPhone(event.target.value)}
+              onChange={(event) => {
+                setPhone(event.target.value)
+                if (errors.phone) {
+                  setErrors((prev) => ({ ...prev, phone: undefined }))
+                }
+              }}
               type="tel"
               value={phone}
             />
+            {errors.phone ? (
+              <p className={errorClassName} id="contact-phone-error">
+                {errors.phone}
+              </p>
+            ) : null}
           </div>
           <div className="space-y-2">
             <label className={labelClassName} htmlFor="contact-message">
               {form.messageLabel}
             </label>
             <textarea
+              aria-describedby={
+                errors.message ? 'contact-message-error' : undefined
+              }
+              aria-invalid={errors.message ? true : undefined}
               className={`${fieldClassName} min-h-36 resize-y`}
               id="contact-message"
               name="message"
-              onChange={(event) => setMessage(event.target.value)}
+              onChange={(event) => {
+                setMessage(event.target.value)
+                if (errors.message) {
+                  setErrors((prev) => ({ ...prev, message: undefined }))
+                }
+              }}
               required
               rows={5}
               value={message}
             />
+            {errors.message ? (
+              <p className={errorClassName} id="contact-message-error">
+                {errors.message}
+              </p>
+            ) : null}
           </div>
-          <div className="flex justify-end">
+          <div className="flex flex-col items-end gap-3">
+            {status === 'success' ? (
+              <p
+                className="w-full text-sm font-medium text-green-700"
+                role="status"
+              >
+                {form.successMessage}
+              </p>
+            ) : null}
+            {status === 'error' ? (
+              <p className="w-full text-sm font-medium text-red-600" role="alert">
+                {form.errorMessage}
+              </p>
+            ) : null}
             <button
-              className="inline-flex min-h-11 items-center justify-center rounded-lg bg-blue-700 px-6 text-sm font-semibold text-white transition-colors hover:bg-blue-800"
+              className="inline-flex min-h-11 items-center justify-center rounded-lg bg-blue-700 px-6 text-sm font-semibold text-white transition-colors hover:bg-blue-800 disabled:cursor-not-allowed disabled:opacity-60"
+              disabled={isSubmitting}
               type="submit"
             >
-              {form.submitLabel}
+              {isSubmitting ? form.sendingLabel : form.submitLabel}
             </button>
           </div>
         </form>
