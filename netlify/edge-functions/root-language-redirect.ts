@@ -23,14 +23,11 @@ function preferredFromAcceptLanguage(header: string | null): Language | null {
 }
 
 export default async (request: Request, context: Context): Promise<Response> => {
-  // A previously remembered choice always wins (set by the in-page switcher).
   const remembered = context.cookies.get('preferred_lang')
   let language: Language | null =
     remembered === 'sl' || remembered === 'en' ? remembered : null
 
   if (!language) {
-    // Otherwise prefer the browser's declared language, then fall back to geo:
-    // visitors located in Slovenia default to Slovenian, everyone else English.
     language =
       preferredFromAcceptLanguage(request.headers.get('accept-language')) ??
       (context.geo?.country?.code === 'SI' ? 'sl' : 'en')
