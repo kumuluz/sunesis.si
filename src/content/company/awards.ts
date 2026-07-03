@@ -1,3 +1,4 @@
+import { Cloud, Rocket } from 'lucide-react'
 import type { LanguageCode } from '../../lib/router'
 import type { CompanyPageContent } from '../../views/company/types'
 
@@ -24,6 +25,8 @@ const en: CompanyPageContent = {
       title: 'Award-winning innovation',
       items: [
         {
+          image: '/images/awards/java-duke-award.png',
+          imageAlt: 'Java Duke’s Choice Award',
           title: 'Java Duke’s Choice Award',
           text: 'KumuluzEE, the open-source microservice framework developed by Sunesis, received the prestigious Java Duke’s Choice Award. The award recognizes innovation based on Java technology and was announced by Oracle at the JavaOne conference in San Francisco.',
           bulletsTitle: 'Why it matters',
@@ -33,6 +36,7 @@ const en: CompanyPageContent = {
           ],
         },
         {
+          icon: Cloud,
           title: 'EuroCloud Award',
           text: 'Sunesis received the EuroCloud Award for the most innovative cloud service for the Kumuluz product family. The expert jury recognized the innovation and competitive advantages of the Kumuluz integration platform.',
           bulletsTitle: 'Why it matters',
@@ -41,6 +45,7 @@ const en: CompanyPageContent = {
           ],
         },
         {
+          icon: Rocket,
           title: 'Slovenian Start:up of the Year Finalist',
           text: 'Sunesis was selected as one of the finalists of the Slovenian Start:up of the Year competition.',
           bulletsTitle: 'Why it matters',
@@ -155,6 +160,8 @@ const sl: CompanyPageContent = {
       title: 'Nagrajena inovativnost',
       items: [
         {
+          image: '/images/awards/java-duke-award.png',
+          imageAlt: 'Java Duke’s Choice Award',
           title: 'Java Duke’s Choice Award',
           text: 'KumuluzEE, odprtokodno ogrodje za mikrostoritve, ki ga je razvil Sunesis, je prejelo prestižno nagrado Java Duke’s Choice Award. Nagrada priznava inovativnost, ki temelji na tehnologiji Java, in jo je podjetje Oracle razglasilo na konferenci JavaOne v San Franciscu.',
           bulletsTitle: 'Zakaj je to pomembno',
@@ -164,6 +171,7 @@ const sl: CompanyPageContent = {
           ],
         },
         {
+          icon: Cloud,
           title: 'EuroCloud Award',
           text: 'Sunesis je za družino izdelkov Kumuluz prejel nagrado EuroCloud Award za najbolj inovativno storitev v oblaku. Strokovna žirija je prepoznala inovativnost in konkurenčne prednosti integracijske platforme Kumuluz.',
           bulletsTitle: 'Zakaj je to pomembno',
@@ -172,6 +180,7 @@ const sl: CompanyPageContent = {
           ],
         },
         {
+          icon: Rocket,
           title: 'Finalist izbora Slovenski start:up leta',
           text: 'Sunesis se je uvrstil med finaliste izbora Slovenski start:up leta.',
           bulletsTitle: 'Zakaj je to pomembno',

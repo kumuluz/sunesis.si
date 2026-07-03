@@ -2,10 +2,28 @@
   command = "next build"
   publish = "out"
 
-# Send the bare root to the default (English) locale. Static export has no
-# server/middleware, so this redirect lives at the CDN edge.
 [[redirects]]
   from = "/"
   to = "/en/"
   status = 302
   force = true
+
+[[redirects]]
+  from = "/interstore/lpc"
+  to = "https://lpc.sunesis.si"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/:lang/interstore/lpc"
+  to = "https://lpc.sunesis.si"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/:lang/interstore/lpc/*"
+  to = "https://lpc.sunesis.si/:splat"
+  status = 301
+  force = true
+
+

@@ -26,18 +26,28 @@ export function CapabilitiesSection({
               key={item.title}
               variants={revealItem}
             >
-              {Icon ? (
-                <div className="mb-8 flex h-10 w-10 items-center justify-center rounded-md bg-blue-50 text-blue-700 transition group-hover:bg-blue-700 group-hover:text-white">
-                  <Icon
-                    aria-hidden="true"
-                    className="size-5"
-                    strokeWidth={2.25}
-                  />
-                </div>
-              ) : null}
-              <h3 className="text-lg font-bold leading-snug text-neutral-950">
-                {item.title}
-              </h3>
+              <div className="flex items-center gap-4">
+                {item.image ? (
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-md bg-blue-50 p-1.5">
+                    <img
+                      alt={item.imageAlt ?? ''}
+                      className="h-full w-full object-contain"
+                      src={item.image}
+                    />
+                  </div>
+                ) : Icon ? (
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-md bg-blue-50 text-blue-700 transition group-hover:bg-blue-700 group-hover:text-white">
+                    <Icon
+                      aria-hidden="true"
+                      className="size-6"
+                      strokeWidth={2.25}
+                    />
+                  </div>
+                ) : null}
+                <h3 className="text-lg font-bold leading-snug text-neutral-950">
+                  {item.title}
+                </h3>
+              </div>
               <p className="mt-4 text-sm leading-7 text-neutral-600">
                 {item.text}
               </p>

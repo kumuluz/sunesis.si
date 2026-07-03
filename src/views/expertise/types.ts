@@ -19,6 +19,8 @@ export type CardItem = {
 
 export type CapabilityItem = {
   icon?: LucideIcon
+  image?: string
+  imageAlt?: string
   title: string
   text: string
   bulletsTitle?: string
