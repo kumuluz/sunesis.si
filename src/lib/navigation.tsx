@@ -83,6 +83,7 @@ export function useLanguageSwitch() {
   return (nextLanguage: LanguageCode) => {
     const language = getLanguageFromPath(pathname)
     if (nextLanguage === language) return
+    document.cookie = `preferred_lang=${nextLanguage}; path=/; max-age=31536000; samesite=lax`
     router.push(buildPath(nextLanguage, parseRoute(pathname)))
   }
 }

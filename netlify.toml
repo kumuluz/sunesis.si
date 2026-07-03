@@ -3,12 +3,6 @@
   publish = "out"
 
 [[redirects]]
-  from = "/"
-  to = "/en/"
-  status = 302
-  force = true
-
-[[redirects]]
   from = "/interstore/lpc"
   to = "https://lpc.sunesis.si"
   status = 301
