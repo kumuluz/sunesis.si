@@ -117,7 +117,7 @@ export const insightsContent: InsightsContent = {
     seo: {
       title: 'Insights — Sunesis',
       description:
-        'Articles, releases and updates from Sunesis on AgenticAI, APIs, cloud-native architectures, DevOps, KumuluzEE and enterprise software engineering.',
+        'Articles, releases and updates from Sunesis on AgenticAI, APIs, cloud-native architectures, DevOps, Kumuluz and enterprise software engineering.',
     },
     title: 'Insights',
     tagline:
@@ -162,7 +162,7 @@ export const insightsContent: InsightsContent = {
     seo: {
       title: 'Vsebine — Sunesis',
       description:
-        'Članki, izdaje in novice podjetja Sunesis o AgenticAI, API-jih, cloud-native arhitekturah, DevOpsu, KumuluzEE in razvoju poslovne programske opreme.',
+        'Članki, izdaje in novice podjetja Sunesis o AgenticAI, API-jih, cloud-native arhitekturah, DevOpsu, Kumuluz in razvoju poslovne programske opreme.',
     },
     title: 'Vsebine',
     tagline:
