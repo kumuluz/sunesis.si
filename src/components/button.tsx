@@ -8,6 +8,7 @@ type ButtonProps = {
   ariaLabel?: string
   children: ReactNode
   className?: string
+  disabled?: boolean
   fullWidth?: boolean
   href?: string
   icon?: LucideIcon
@@ -15,6 +16,7 @@ type ButtonProps = {
   onClick?: () => void
   size?: 'md' | 'lg'
   tone?: 'primary' | 'primary-dark' | 'secondary' | 'ghost'
+  type?: 'button' | 'submit' | 'reset'
 }
 
 export function Button({
@@ -23,6 +25,7 @@ export function Button({
   ariaLabel,
   children,
   className: extraClassName,
+  disabled = false,
   fullWidth = false,
   href,
   icon,
@@ -30,6 +33,7 @@ export function Button({
   onClick,
   size = 'lg',
   tone = 'primary',
+  type = 'button',
 }: ButtonProps) {
   const toneStyles = {
     primary: 'bg-blue-700 text-white hover:bg-neutral-900 transition-colors',
@@ -70,7 +74,7 @@ export function Button({
     />
   ) : null
 
-  const className = `group inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold transition-colors duration-300 ease ${
+  const className = `group inline-flex items-center justify-center gap-2 rounded-lg text-sm font-semibold transition-colors duration-300 ease disabled:cursor-not-allowed disabled:opacity-60 ${
     fullWidth ? 'w-full' : ''
   } ${layoutSizeStyles[iconLayout][size]} ${toneStyles[tone]} ${
     extraClassName ?? ''
@@ -103,7 +107,12 @@ export function Button({
 
   if (href === undefined) {
     return (
-      <motion.button type="button" {...sharedProps} {...animationProps}>
+      <motion.button
+        disabled={disabled}
+        type={type}
+        {...sharedProps}
+        {...animationProps}
+      >
         {content}
       </motion.button>
     )
