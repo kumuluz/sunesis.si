@@ -1,6 +1,6 @@
 import { ChevronLeft } from 'lucide-react'
 import { useState } from 'react'
-import { contactHref } from '../../lib/expertise-links'
+import { contactHref, insightsHref } from '../../lib/expertise-links'
 import { Button } from '../button'
 import { DesktopNavigation } from './desktop-navigation'
 import { HeaderDropdown } from './header-dropdown'
@@ -81,7 +81,7 @@ export function Header({
                   setMobileOpen(false)
                 }}
               />
-              <Button href="https://blog.sunesis.si/" size="md" tone="ghost">
+              <Button href={insightsHref(language)} size="md" tone="ghost">
                 {content.blog}
               </Button>
               <Button href={contactHref(language)} size="md" tone="primary">
@@ -121,7 +121,7 @@ export function Header({
 
         <MobileMenu
           activeItem={mobileSubItem}
-          blogHref="https://blog.sunesis.si/"
+          blogHref={insightsHref(language)}
           blogLabel={content.blog}
           contactLabel={content.contact}
           isOpen={mobileOpen}

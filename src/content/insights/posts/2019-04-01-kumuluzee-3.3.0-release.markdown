@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Announcing KumuluzEE 3.3.0"
+date:   2019-04-01
+author: urbim
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are releasing KumuluzEE version 3.3.0.
+
+This release adds a new feature that enables you to intercept and apply transformation to a value that is being read
+from the configuration. The feature is called Configuration Decoder and to use it simply implement the
+`ConfigurationDecoder` interface and register it using a service file. For example:
+
+<!--more-->
+
+```java
+public class CustomConfigurationDecoder implements ConfigurationDecoder {
+
+    @Override
+    public boolean shouldDecode(String key) {
+        return "rest-config.encoded-property".equals(key);
+    }
+
+    @Override
+    public String decode(String key, String value) {
+        return new String(DatatypeConverter.parseBase64Binary(value));
+    }
+}
+```
+
+Remember to register the implementation in a service file named `com.kumuluz.ee.configuration.ConfigurationDecoder`.
+
+Dependency versions have also been updated in this release. The main change is an upgrade of the _jackson_ dependency
+to 2.9.8. We also changed the way _jackson_ dependency is imported so the version is synchronized across all KumuluzEE
+dependencies.
+
+#### Features:
+
+- Added `ConfigurationDecoder`.
+
+#### Enhancements:
+
+- Updated dependency versions.
+
+
+More details about this release can be found on [GitHub](https://github.com/kumuluz/kumuluzee/releases/tag/v3.3.0).

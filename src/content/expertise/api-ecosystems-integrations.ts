@@ -239,7 +239,7 @@ const en: ExpertisePageContent = {
         },
       ],
       cta: 'Explore Kumuluz API',
-      ctaHref: 'kumuluz/',
+      ctaHref: 'https://kumuluz.com',
     },
     {
       type: 'cards',
@@ -933,7 +933,7 @@ const sl: ExpertisePageContent = {
         },
       ],
       cta: 'Raziščite Kumuluz API',
-      ctaHref: 'kumuluz/',
+      ctaHref: 'https://kumuluz.com',
     },
     {
       type: 'cards',

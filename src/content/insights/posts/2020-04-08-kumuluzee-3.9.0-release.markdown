@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Introducing KumuluzEE 3.9.0 with MicroProfile 3.3"
+date:   2020-04-08
+author: jmezna
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are happy to announce the release of [KumuluzEE 3.9.0](https://github.com/kumuluz/kumuluzee/releases/tag/v3.9.0), which brings support for MicroProfile 3.3. 
+
+<!--more-->
+
+The new MicroProfile version brings updates to the following modules:
+- [KumuluzEE Config](https://github.com/kumuluz/kumuluzee-config-mp/releases/tag/v1.4.0)
+- [KumuluzEE Fault Tolerance](https://github.com/kumuluz/kumuluzee-fault-tolerance/releases/tag/v2.1.0)
+- [KumuluzEE Health](https://github.com/kumuluz/kumuluzee-health/releases/tag/v2.2.0)
+- [KumuluzEE Metrics](https://github.com/kumuluz/kumuluzee-metrics/releases/tag/v2.3.0)
+- [KumuluzEE Rest Client](https://github.com/kumuluz/kumuluzee-rest-client/releases/tag/v1.4.1)
+
+Check out the release notes of individual modules for the description of new features. 

@@ -49,11 +49,6 @@ export const enContent = {
         ],
       },
       {
-        label: 'Kumuluz',
-        hasDropdown: false,
-        groups: [],
-      },
-      {
         label: 'References',
         hasDropdown: true,
         groups: [
@@ -109,6 +104,11 @@ export const enContent = {
             ],
           },
         ],
+      },
+      {
+        label: 'Kumuluz',
+        hasDropdown: false,
+        groups: [],
       },
     ],
     featuredLabel: 'Featured',

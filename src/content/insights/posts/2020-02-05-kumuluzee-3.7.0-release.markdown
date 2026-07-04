@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Support for MicroProfile 3.2 is here!"
+date:   2020-02-05
+author: jmezna
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are happy to announce the release of KumuluzEE 3.7.0. This release includes new profiles for MicroProfile 3.1 and 3.2 specifications. 
+
+<!--more-->
+
+The new MicroProfile versions bring updates the following modules:
+- [KumuluzEE Health](https://github.com/kumuluz/kumuluzee-health) (predefined and custom health-checks)
+- [KumuluzEE Metrics](https://github.com/kumuluz/kumuluzee-metrics) (collection of application and user-defined metrics)
+
+#### Features:
+
+- Added MicroProfile 3.1 and 3.2 profiles.

@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "KumuluzEE 3.2.0 brings MicroProfile 2.1 compliancy"
+date:   2019-02-28
+author: urbim
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are announcing the availability of KumuluzEE version 3.2.0.
+
+This release brings compliancy with the MicroProfile 1.3, 1.4, 2.0 and 2.1. MicroProfile is an open initiative extending
+Enterprise Java with standardized APIs in order to optimize Java EE for a microservice architecture. These APIs allow
+you to collect and expose application metrics in a standardized way, trace requests across multiple microservices, invoke
+RESTful APIs in a type-safe and intuitive way, introduce common fault-tolerance patterns, document microservices using
+the OpenAPI and much more.
+
+To start using MicroProfile with KumuluzEE pick the version that suits your needs and use one of the following
+dependencies:
+
+<!--more-->
+
+```xml
+<dependency>
+    <groupId>com.kumuluz.ee</groupId>
+    <artifactId>kumuluzee-microProfile-2.1</artifactId>
+</dependency>
+
+<!-- or -->
+
+<dependency>
+    <groupId>com.kumuluz.ee</groupId>
+    <artifactId>kumuluzee-microProfile-2.0</artifactId>
+</dependency>
+
+<!-- or -->
+
+<dependency>
+    <groupId>com.kumuluz.ee</groupId>
+    <artifactId>kumuluzee-microProfile-1.4</artifactId>
+</dependency>
+
+<!-- or -->
+
+<dependency>
+    <groupId>com.kumuluz.ee</groupId>
+    <artifactId>kumuluzee-microProfile-1.3</artifactId>
+</dependency>
+```
+
+To see what is included in each of the profiles, see the following links:
+
+- [MicroProfile 2.1](https://microprofile.io/2018/10/19/eclipse-microprofile-2-1-is-now-available/)
+- [MicroProfile 2.0 and 1.4](https://microprofile.io/2018/06/28/eclipse-microprofile-1-4-and-2-0-are-now-available/)
+- [MicroProfile 1.3](https://github.com/eclipse/microprofile-bom/releases/tag/1.3)
+
+To learn more about each specific API implementation, refer to the extension documentations:
+
+- [KumuluzEE Config MP](https://github.com/kumuluz/kumuluzee-config-mp)
+- [KumuluzEE Fault Tolerance](https://github.com/kumuluz/kumuluzee-fault-tolerance)
+- [KumuluzEE Health](https://github.com/kumuluz/kumuluzee-health)
+- [KumuluzEE Metrics](https://github.com/kumuluz/kumuluzee-metrics)
+- [KumuluzEE JWT Auth](https://github.com/kumuluz/kumuluzee-jwt-auth)
+- [KumuluzEE OpenTracing](https://github.com/kumuluz/kumuluzee-opentracing)
+- [KumuluzEE OpenAPI MP](https://github.com/kumuluz/kumuluzee-openapi-mp)
+- [KumuluzEE Rest Client](https://github.com/kumuluz/kumuluzee-rest-client)
+
+We are excited to be part of the MicroProfile and are delighted to share this excitement with you!
+
+#### Features:
+
+- Added MicroProfile profiles 1.3, 1.4, 2.0 and 2.1
+
+More details about this release can be found on [GitHub](https://github.com/kumuluz/kumuluzee/releases/tag/v3.2.0).

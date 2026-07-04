@@ -35,7 +35,7 @@ export function AgenticAiPage({ page, language }: AgenticAiPageProps) {
       return (
         <KumuluzSection
           block={block}
-          ctaHref={block.ctaHref ? `/${language}/${block.ctaHref}` : undefined}
+          ctaHref={block.ctaHref}
           key={key}
         />
       )

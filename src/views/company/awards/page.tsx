@@ -18,7 +18,7 @@ type AwardsPageProps = {
 export function AwardsPage({ page, language }: AwardsPageProps) {
   const contactHref = `/${language}/#contact`
   const expertiseHref = `/${language}/#expertise`
-  const kumuluzHref = `/${language}/kumuluz/`
+  const kumuluzHref = 'https://kumuluz.com'
 
   const isLight = (block: CompanyPageBlock) => block.type !== 'finalCta'
 

@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { insightPosts } from '@/content/insights/posts.generated'
 import { buildPath, type LanguageCode, type Route } from '@/lib/router'
 import { SITE_ORIGIN } from '@/lib/site'
 import { EXPERTISE_SLUGS } from '@/views/expertise/types'
@@ -17,7 +18,6 @@ const ROUTES: { route: Route; priority: number }[] = [
     route: { name: 'expertise', slug } as Route,
     priority: 0.9,
   })),
-  { route: { name: 'kumuluz' }, priority: 0.9 },
   { route: { name: 'references' }, priority: 0.8 },
   ...REFERENCE_SLUGS.map((slug) => ({
     route: { name: 'references', slug } as Route,
@@ -27,6 +27,11 @@ const ROUTES: { route: Route; priority: number }[] = [
   ...COMPANY_SLUGS.map((slug) => ({
     route: { name: 'company', slug } as Route,
     priority: 0.6,
+  })),
+  { route: { name: 'insights' }, priority: 0.7 },
+  ...insightPosts.map((post) => ({
+    route: { name: 'insights', slug: post.slug } as Route,
+    priority: 0.5,
   })),
 ]
 

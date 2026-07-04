@@ -19,5 +19,14 @@
       <textarea name="message"></textarea>
       <input name="bot-field" />
     </form>
+    <!--
+      "newsletter" form for the Insights page subscribe pill. The interactive
+      form is React-rendered (src/components/insights/newsletter-form.tsx) and
+      submits to this path via fetch. Keep field names in sync with that form.
+    -->
+    <form name="newsletter" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="email" name="email" />
+      <input name="bot-field" />
+    </form>
   </body>
 </html>

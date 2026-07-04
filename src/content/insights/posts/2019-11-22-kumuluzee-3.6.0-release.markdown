@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Support for MicroProfile 3.0 is here!"
+date:   2019-11-22
+author: jmezna
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are happy to announce the release of KumuluzEE 3.6.0. This release includes a brand new profile for MicroProfile 3.0 specification. 
+
+MicroProfile 3.0 specification consists of the following components:
+
+- KumuluzEE Core
+- KumuluzEE Servlet Jetty
+- KumuluzEE CDI Weld
+- KumuluzEE JAX-RS Jersey
+- KumuluzEE JSON-P
+- KumuluzEE JSON-B Yasson
+
+And the following extensions:
+
+- [KumuluzEE Config MP](https://github.com/kumuluz/kumuluzee-config-mp) (integrates MicroProfile configuration with KumuluzEE configuration framework)
+- [KumuluzEE Fault Tolerance SmallRye](https://github.com/kumuluz/kumuluzee-fault-tolerance) (fault tolerance patterns e.g. retry, circuit breaker, ...)
+- [KumuluzEE Health](https://github.com/kumuluz/kumuluzee-health) (predefined and custom health-checks)
+- [KumuluzEE Metrics](https://github.com/kumuluz/kumuluzee-metrics) (collection of application and user-defined metrics)
+- [KumuluzEE JWT Auth](https://github.com/kumuluz/kumuluzee-jwt-auth) (authentication using JSON Web Tokens)
+- [KumuluzEE OpenTracing Jaeger](https://github.com/kumuluz/kumuluzee-opentracing) (OpenTracing compliant instrumentation)
+- [KumuluzEE OpenAPI MP](https://github.com/kumuluz/kumuluzee-openapi-mp) (documentation of REST resources using OpenAPI specification)
+- [KumuluzEE Rest Client](https://github.com/kumuluz/kumuluzee-rest-client) (type-safe client for accessing REST resources)
+
+Dependency versions have also been updated to their latest versions.
+
+#### Features:
+
+- Added MicroProfile 3.0 profile.
+- Added Jetty `etag` header support for static content.
+
+#### Enhancements:
+
+- Upped dependency versions.
+- Added caching `EeExtensionGroup` in preparation for JCache extension.
+
+#### Bugs:
+
+- Downgraded `snakeyaml` version due to breakage of log4j2 initialization.
+
+More details about this release can be found on [GitHub](https://github.com/kumuluz/kumuluzee/releases/tag/v3.6.0).

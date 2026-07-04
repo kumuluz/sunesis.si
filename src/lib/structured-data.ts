@@ -1,3 +1,4 @@
+import { insightPosts } from '../content/insights/posts.generated'
 import { buildPath, type LanguageCode, type Route } from './router'
 import {
   CANONICAL_DESCRIPTION,
@@ -67,10 +68,14 @@ export function websiteSchema(language: LanguageCode) {
 // Localized labels for breadcrumb section roots and leaves.
 const homeLabel: Record<LanguageCode, string> = { en: 'Home', sl: 'Domov' }
 
-const sectionLabel: Record<'expertise' | 'references' | 'company', Record<LanguageCode, string>> = {
+const sectionLabel: Record<
+  'expertise' | 'references' | 'company' | 'insights',
+  Record<LanguageCode, string>
+> = {
   expertise: { en: 'Expertise', sl: 'Ekspertize' },
   references: { en: 'References', sl: 'Reference' },
   company: { en: 'Company', sl: 'Podjetje' },
+  insights: { en: 'Insights', sl: 'Vsebine' },
 }
 
 const expertiseLabel: Record<ExpertiseSlug, Record<LanguageCode, string>> = {
@@ -118,8 +123,6 @@ function crumbsForRoute(language: LanguageCode, route: Route): Crumb[] {
 
   if (route.name === 'expertise') {
     crumbs.push({ name: expertiseLabel[route.slug][language], route })
-  } else if (route.name === 'kumuluz') {
-    crumbs.push({ name: 'Kumuluz', route })
   } else if (route.name === 'references') {
     crumbs.push({
       name: sectionLabel.references[language],
@@ -135,6 +138,15 @@ function crumbsForRoute(language: LanguageCode, route: Route): Crumb[] {
     })
     if (route.slug) {
       crumbs.push({ name: companyLabel[route.slug][language], route })
+    }
+  } else if (route.name === 'insights') {
+    crumbs.push({
+      name: sectionLabel.insights[language],
+      route: { name: 'insights' },
+    })
+    if (route.slug) {
+      const post = insightPosts.find((p) => p.slug === route.slug)
+      if (post) crumbs.push({ name: post.title, route })
     }
   }
 
@@ -181,20 +193,5 @@ export function serviceSchema(
     serviceType: serviceType[slug],
     provider: { '@id': ORG_ID },
     description,
-  }
-}
-
-// schema.org SoftwareApplication for the KumuluzAI platform.
-export function kumuluzAiSchema(language: LanguageCode) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'SoftwareApplication',
-    '@id': `${abs(language, { name: 'kumuluz' })}#kumuluzai`,
-    name: 'KumuluzAI Platform',
-    applicationCategory: 'Enterprise AI Platform',
-    applicationSubCategory: 'AgenticAI platform',
-    description:
-      'KumuluzAI is a governed AgenticAI platform for enterprise AI agents, assistants, RAG, tool use, model routing, approvals, auditability and centralized management.',
-    creator: { '@id': ORG_ID },
   }
 }

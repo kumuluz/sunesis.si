@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "KumuluzEE 3.8.0 released!"
+date:   2020-03-06
+author: jmezna
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are happy to announce the release of the KumuluzEE 3.8.0. The new release brings a new database connection pool implementation which improves the JTA transaction handling. 
+
+<!--more-->
+
+The new version of the framework includes the [Agroal](https://agroal.github.io/) database connection pool, which is used with the JTA transactions. It improves transaction handling and fixes some existing problems. Non-JTA datasources still use the [HikariCP](https://github.com/brettwooldridge/HikariCP) connection pool. The HikariCP is wrapped in the Agroal API, the version of the HikariCP has been upped from 2.7.9 to 3.4.1 ([changelog](https://github.com/brettwooldridge/HikariCP/blob/dev/CHANGES)).
+
+The new connection pool implementation brings some new configuration options, while some old ones were deprecated. The list of all available configuration properties is listed in the [EeConfig wiki](https://github.com/kumuluz/kumuluzee/wiki/EeConfig).
+
+We have also included the missing integration between CDI and JTA components, which improves the propagation of JTA events. 
+
+#### Features:
+
+- Added Agroal database connection pool.
+- Upped the version of HikariCP from 2.7.9 to 3.4.1.
+
+#### Bugs:
+
+- Fixed JTA transaction rollback. 
+- Fixed the propagation of JTA events. 
+
+
+
+

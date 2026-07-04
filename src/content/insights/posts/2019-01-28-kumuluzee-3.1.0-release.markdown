@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Announcing KumuluzEE 3.1.0!"
+date:   2019-01-28
+author: urbim
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are announcing the availability of KumuluzEE version 3.1.0.
+
+This release enables configurable classpath scanning and includes an updated Jetty dependency and a minor bug fix.
+
+Configurable classpath scanning enables scanning of application dependencies in addition to the main application module.
+This means that you can put JAX-RS providers and other classes that need to be scanned in any module, whereas before
+these classes had to reside in the main application module or be correctly proxied in the main application module.
+
+<!--more-->
+
+To enable scanning of a dependency, specify it in the configuration with either its artifact name or full JAR name.
+For example:
+
+```yaml
+kumuluzee:
+  dev:
+    scan-libraries:
+      - lib-1.0.0-SNAPSHOT.jar
+      - lib2
+```
+
+Another option of specifying additional dependencies that need to be scanned is through the KumuluzEE `Extension`
+interface, which is especially useful for the developers of KumuluzEE extensions.
+
+This release also includes the update of Jetty dependency to its latest version. This resolves an ASM version warning
+that was previously emitted at every start of the server. The `so-linger-time` configuration parameter was also
+removed, since it was deprecated.
+
+Hibernate validator dependency was also updated, which resolved a bug where OpenJFX was included in the dependency
+graph.
+
+#### Features:
+
+- Added support for configurable classpath scanning.
+
+#### Enhancements:
+
+- Updated Jetty to its latest version.
+- Updated Hibernate validator to its latest version.
+
+
+More details about this release can be found on [GitHub](https://github.com/kumuluz/kumuluzee/releases/tag/v3.1.0).

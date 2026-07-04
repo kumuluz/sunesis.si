@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Introducing new KumuluzEE releases"
+date:   2020-06-11
+author: jmezna
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are announcing new releases in the KumuluzEE family. The new release of the core microservice framework KumuluzEE 3.10.0 brings support for Java 14 and a set of new features and enhancements. Supporting projects, including Config, Security, Rest Client, CORS, REST and JWT Auth, have also been updated.
+
+<!--more-->
+
+The details about each individual release can be found in the corresponding release notes:
+- [KumuluzEE 3.10.0](https://github.com/kumuluz/kumuluzee/releases/tag/v3.10.0)
+- [KumuluzEE Config 1.3.0](https://github.com/kumuluz/kumuluzee-config/releases/tag/v1.3.0)
+- [KumuluzEE Security 1.2.0](https://github.com/kumuluz/kumuluzee-security/releases/tag/v1.2.0)
+- [KumuluzEE Rest Client 1.4.1.1](https://github.com/kumuluz/kumuluzee-rest-client/releases/tag/v1.4.1.1)
+- [KumuluzEE CORS 1.0.6](https://github.com/kumuluz/kumuluzee-cors/releases/tag/v1.0.6)
+- [KumuluzEE REST 1.3.0](https://github.com/kumuluz/kumuluzee-rest/releases/tag/v1.3.0)
+- [KumuluzEE JWT Auth 1.1.3](https://github.com/kumuluz/kumuluzee-jwt-auth/releases/tag/v1.1.3)

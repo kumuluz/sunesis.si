@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "KumuluzEE 3.4.0 released!"
+date:   2019-04-12
+author: urbim
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are happy to announce the release of KumuluzEE version 3.4.0.
+
+This release brings a new utility class `JsonConfigurationUtil`, a companion to the familiar `ConfigurationUtil`. It
+enables retrieval of a part of the configuration hierarcy as a JSON-P object. For more information and a few examples
+check out the [PR](https://github.com/kumuluz/kumuluzee/pull/143). To start using this feature simply add the JSON-P
+dependency (`kumuluzee-json-p-jsonp`) and start using the utility class.
+
+<!--more-->
+
+We have also added a toggle that adds test classes to the classpath. This is useful when running tests manually
+(without Arquillian). To enable this feature set the `kumuluzee.dev.running-tests` configuration property to `true` when
+running tests.
+
+This release also brings some much needed fixes for the JPA-JTA integration. JTA is now behaving properly when using XA
+datasources. We have also added the missing `getMapKeys` method for the environment variables configuration source.
+
+#### Features:
+
+- Added `JsonConfigurationUtil`.
+- Added toggle that adds test classes to the classpath.
+
+#### Enhancements:
+
+- Added `getMapKeys` in environment variables configuration source.
+
+#### Bugs:
+
+- Fixed JPA-JTA integration.
+
+
+More details about this release can be found on [GitHub](https://github.com/kumuluz/kumuluzee/releases/tag/v3.4.0).

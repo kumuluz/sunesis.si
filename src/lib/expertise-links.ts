@@ -53,7 +53,7 @@ export function topLevelNavHref(
   language: LanguageCode,
 ): string | null {
   if (label === 'Kumuluz') {
-    return buildPath(language, { name: 'kumuluz' })
+    return KUMULUZ_SITE
   }
 
   return null
@@ -68,7 +68,9 @@ export function expertiseHrefForLabel(
   return slug ? buildPath(language, { name: 'expertise', slug }) : null
 }
 
-const BLOG_URL = 'https://blog.sunesis.si/'
+export function insightsHref(language: LanguageCode): string {
+  return buildPath(language, { name: 'insights' })
+}
 
 export const kumuluzProductAnchors = [
   'kumuluz-ai',
@@ -150,7 +152,7 @@ const footerLinkGroups: {
   },
   {
     labels: ['Insights', 'Vsebine'],
-    href: () => BLOG_URL,
+    href: (l) => insightsHref(l),
   },
   {
     labels: ['Contact', 'Kontakt'],

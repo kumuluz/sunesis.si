@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Support for MicroProfile 2.2 and Java 12 is here!"
+date:   2019-06-29
+author: urbim
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are happy to announce the release of KumuluzEE 3.5.0. This release includes a brand new profile for MicroProfile 2.2.
+MicroProfile 2.2 contains upgrades to existing extensions which are now better than ever. This release also fully
+supports Java 12.
+
+MicroProfile 2.2 profile consists of following components:
+
+- KumuluzEE Core
+- KumuluzEE Servlet Jetty
+- KumuluzEE CDI Weld
+- KumuluzEE JAX-RS Jersey
+- KumuluzEE JSON-P
+- KumuluzEE JSON-B Yasson
+
+And the following extensions:
+
+- [KumuluzEE Config MP](https://github.com/kumuluz/kumuluzee-config-mp) (integrates MicroProfile configuration with KumuluzEE configuration framework)
+- [KumuluzEE Fault Tolerance SmallRye](https://github.com/kumuluz/kumuluzee-fault-tolerance) (fault tolerance patterns e.g. retry, circuit breaker, ...)
+- [KumuluzEE Health](https://github.com/kumuluz/kumuluzee-health) (predefined and custom health-checks)
+- [KumuluzEE Metrics](https://github.com/kumuluz/kumuluzee-metrics) (collection of application and user-defined metrics)
+- [KumuluzEE JWT Auth](https://github.com/kumuluz/kumuluzee-jwt-auth) (authentication using JSON Web Tokens)
+- [KumuluzEE OpenTracing Jaeger](https://github.com/kumuluz/kumuluzee-opentracing) (OpenTracing compliant instrumentation)
+- [KumuluzEE OpenAPI MP](https://github.com/kumuluz/kumuluzee-openapi-mp) (documentation of REST resources using OpenAPI specification)
+- [KumuluzEE Rest Client](https://github.com/kumuluz/kumuluzee-rest-client) (type-safe client for accessing REST resources)
+
+Dependency versions have also been updated to their latest versions and the KumuluzEE framework is now fully compatible
+with the latest Java 12.
+
+#### Features:
+
+- Added MicroProfile 2.2 profile.
+
+#### Enhancements:
+
+- Upped dependency versions
+
+
+More details about this release can be found on [GitHub](https://github.com/kumuluz/kumuluzee/releases/tag/v3.5.0).

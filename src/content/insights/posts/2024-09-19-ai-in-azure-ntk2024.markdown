@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "5 spoznanj iz gradnje AI rešitev na Azure - Sunesis na NTK 2024"
+date:   2024-09-19
+author: gregorgabrovsek
+categories: []
+tags: [umetna inteligenca, Azure, KumuluzAI, NTK2024]
+---
+
+Na prihajajoči NT konferenci 2024 bomo v prispevku **5 ključnih spoznanj iz gradnje skalabilnih in varnih AI rešitev za podjetja z Azure** v torek, 24. septembra, predstavili ključne izzive pri razvoju AI rešitev in njihovo vključenost v informacijske sisteme.
+
+Ponudili bomo vpogled v konkretne izzive, s katerimi se soočamo pri implementaciji sistemov, ki nadgrajujejo poslovne procese s pomočjo umetne inteligence. Rešitve na te izzive bomo poslušalcem približali s pomočjo **demonstracije dveh AI sistemov** - sistem za analizo medijskih objav, ki **delovanje naše AI komponente obogati s pomočjo spletnih virov,** ter sistem za analizo dokumentacije, ki lahko **velike količine podatkov podjetja na varen način obdela** ter uporabniku omogoča analizo informacij, podrobno primerjanje besedil ter generiranje dokumentov.
+
+<!--more-->
+
+Prikazali bomo tudi tehnično arhitekturo naših AI rešitev, ki temeljijo na Azure AI storitvah in **zagotavljajo varnost podatkov ter stabilnost in skalabilnost rešitve.** Delili bomo naše znanje o tem, kako lahko z dodatnimi komponentami izboljšamo zanesljivost AI rešitve iz vidika natančnosti in specifičnosti odgovorov, ter opolnomočimo AI komponente s širokim naborom zunanjih virov informacij.
+
+Pri tem bomo osvetlili arhitekturo, ki jo uporabljamo v storitvi KumuluzAI, ki vključuje široko paleto komponent za delo z umetno inteligenco. Te komponente omogočajo **dinamično izboljševanje _promptov_** glede na kontekst poizvedb in ustvarjanje konteksta iz velike količine dokumentacije, ponujajo pa tudi kopico možnosti na področju obdelave podatkov, kot na primer pridobivanje in kontekstualizacija podatkov s spleta, inteligentna klasifikacija ter generiranje dokumentacije v poljubnem formatu.
+
+Svoj pogled na organizacijsko poslovne vidike vpeljave AI rešitve v podjetje pa nam bo ponudila mag. Biljana Prinčič iz podjetja Riko, ki bo z nami **iz prve roke delila svoje praktične izkušnje** z sistemom, ki temelji na razvitih AI komponentah.
+
+[Ne zamudite torej našega prispevka na torkovi NT konferenci 2024!](https://www.ntk.si/urnik/predavanje/5_kljucnih_spoznanj_iz_gradnje/106) Pridružite se nam in odkrijte več o tem, kako lahko z uporabo Azure AI storitev preoblikujete svoje poslovne procese, izboljšate učinkovitost ter vpeljete inovativne rešitve, ki bodo podjetju prinesle konkurenčno prednost.
+
+
+
+
+
+
+

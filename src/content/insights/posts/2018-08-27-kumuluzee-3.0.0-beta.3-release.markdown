@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "KumuluzEE 3.0.0 beta 3 is released"
+date:   2018-08-27
+author: urbim
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are happy to announce the third prerelease of the KumuluzEE 3.0.0 Beta. The v3.0.0-beta.3 prerelease of KumuluzEE
+framework further improves on the v3.0.0-beta.2 prerelease.
+
+<!--more-->
+
+This prerelease completes an important goal set for the release of KumuluzEE 3.0.0 - the support of Java 9+ in the core
+framework. We have updated JAX-RS Jersey, JAX-WS CXF, JAX-WS Metro and JPA Hibernate components to support Java 9 and
+Java 10 and done extensive testing on each component to ensure everything works with the latest improvements in the Java
+runtime environment. Along with this update, the Jetty and JAX-WS CXF dependencies have been upgraded to the latest
+versions.
+
+We have also included some missing integrations between various components. The Bean Valdation has been integrated with
+the CDI, which allows injection of `Validator` instances in CDI beans and validation of input arguments and return
+values of CDI methods. Also, the JNDI now allows lookup for the JTA `UserTransaction`.
+
+For all features introduced in the 3.0.0 version before this prerelease, see the following release notes:
+
+- [v3.0.0-beta.1](https://blog.kumuluz.com/product/announcement/developers/2018/03/11/kumuluzee-3.0.0-beta.1-release)
+- [v3.0.0-beta.2](https://blog.kumuluz.com/product/announcement/developers/2018/08/10/kumuluzee-3.0.0-beta.2-release)
+
+#### Features:
+
+- Added support for Java 9+ in components JAX-RS Jersey, JAX-WS CXF, JAX-WS Metro and JPA Hibernate
+
+#### Enhancements:
+
+- Added Bean Validation CDI integration
+- Added transaction manager to JNDI
+- Added Rest Client extension group
+
+#### Bugs:
+
+- Fixed `stopServlet` method in `JettyServletServer` throws `IllegalStateException`
+- Updated Travis build
+
+Please note that KumuluzEE v3.0.0-beta.3 is a _beta_ release and as such it is not recommended for use in production! We
+really appreciate your feedback so please report any issues and bugs for this Beta release on GitHub.
+
+If no major bugs are found, this will be the last prerelease of KumuluzEE 3.0.0 so stay tuned for the final release!
+
+Happy testing!

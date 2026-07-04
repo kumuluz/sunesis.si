@@ -338,7 +338,7 @@ const en: ExpertisePageContent = {
         },
       ],
       cta: 'Explore KumuluzAI Platform',
-      ctaHref: 'kumuluz/',
+      ctaHref: 'https://kumuluz.com',
     },
     {
       type: 'prose',
@@ -1027,7 +1027,7 @@ const sl: ExpertisePageContent = {
         },
       ],
       cta: 'Raziščite KumuluzAI platformo',
-      ctaHref: 'kumuluz/',
+      ctaHref: 'https://kumuluz.com',
     },
     {
       type: 'prose',

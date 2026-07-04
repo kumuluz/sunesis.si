@@ -6,10 +6,10 @@ export type LanguageCode = 'en' | 'sl'
 
 export type Route =
   | { name: 'landing' }
-  | { name: 'kumuluz' }
   | { name: 'references'; slug?: ReferenceSlug }
   | { name: 'expertise'; slug: ExpertiseSlug }
   | { name: 'company'; slug?: CompanySlug }
+  | { name: 'insights'; slug?: string }
 
 const expertiseSlugSet = new Set<string>(EXPERTISE_SLUGS)
 const referenceSlugSet = new Set<string>(REFERENCE_SLUGS)
@@ -24,10 +24,6 @@ export function parseRoute(pathname: string): Route {
 
   if (match && expertiseSlugSet.has(match[1])) {
     return { name: 'expertise', slug: match[1] as ExpertiseSlug }
-  }
-
-  if (/\/kumuluz(\/|$)/.test(pathname)) {
-    return { name: 'kumuluz' }
   }
 
   const referencesMatch = pathname.match(/\/references\/([^/]+)/)
@@ -50,16 +46,22 @@ export function parseRoute(pathname: string): Route {
     return { name: 'company' }
   }
 
+  const insightsMatch = pathname.match(/\/insights\/([^/]+)/)
+
+  if (insightsMatch) {
+    return { name: 'insights', slug: insightsMatch[1] }
+  }
+
+  if (/\/insights(\/|$)/.test(pathname)) {
+    return { name: 'insights' }
+  }
+
   return { name: 'landing' }
 }
 
 export function buildPath(language: LanguageCode, route: Route): string {
   if (route.name === 'expertise') {
     return `/${language}/expertise/${route.slug}/`
-  }
-
-  if (route.name === 'kumuluz') {
-    return `/${language}/kumuluz/`
   }
 
   if (route.name === 'references') {
@@ -72,6 +74,12 @@ export function buildPath(language: LanguageCode, route: Route): string {
     return route.slug
       ? `/${language}/company/${route.slug}/`
       : `/${language}/company/`
+  }
+
+  if (route.name === 'insights') {
+    return route.slug
+      ? `/${language}/insights/${route.slug}/`
+      : `/${language}/insights/`
   }
 
   return `/${language}/`

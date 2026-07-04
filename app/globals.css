@@ -107,3 +107,153 @@ body {
 .animate-float {
   animation: float 7s ease-in-out infinite;
 }
+
+/* Prose styling for on-site article bodies (Insights reader). The HTML is
+   generated from blog markdown, so it can't carry utility classes — style the
+   raw elements here using the site's neutral/blue tokens. */
+.insights-article {
+  color: #404040;
+  font-size: 1.0625rem;
+  line-height: 1.85;
+}
+
+.insights-article > :first-child {
+  margin-top: 0;
+}
+
+.insights-article p,
+.insights-article ul,
+.insights-article ol,
+.insights-article blockquote,
+.insights-article pre,
+.insights-article table {
+  margin: 1.5em 0;
+}
+
+.insights-article h1,
+.insights-article h2,
+.insights-article h3,
+.insights-article h4 {
+  color: #171717;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 2em 0 0.75em;
+  scroll-margin-top: 6rem;
+}
+
+.insights-article h1 {
+  font-size: 1.875rem;
+}
+
+.insights-article h2 {
+  font-size: 1.5rem;
+}
+
+.insights-article h3 {
+  font-size: 1.25rem;
+}
+
+.insights-article h4 {
+  font-size: 1.0625rem;
+}
+
+.insights-article a {
+  color: #1d4ed8;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.insights-article a:hover {
+  color: #171717;
+}
+
+.insights-article strong {
+  color: #171717;
+  font-weight: 700;
+}
+
+.insights-article ul,
+.insights-article ol {
+  padding-left: 1.5em;
+}
+
+.insights-article ul {
+  list-style: disc;
+}
+
+.insights-article ol {
+  list-style: decimal;
+}
+
+.insights-article li {
+  margin: 0.5em 0;
+}
+
+.insights-article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e5e5;
+  margin: 2em 0;
+}
+
+.insights-article blockquote {
+  border-left: 3px solid #1d4ed8;
+  padding-left: 1.25rem;
+  color: #525252;
+  font-style: italic;
+}
+
+.insights-article code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.3rem;
+  padding: 0.15em 0.4em;
+}
+
+.insights-article pre {
+  background: #0a0a0a;
+  color: #f5f5f5;
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  overflow-x: auto;
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+.insights-article pre code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
+.insights-article hr {
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+  margin: 2.5em 0;
+}
+
+.insights-article table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  display: block;
+  overflow-x: auto;
+}
+
+.insights-article th,
+.insights-article td {
+  border: 1px solid #e5e5e5;
+  padding: 0.6rem 0.85rem;
+  text-align: left;
+}
+
+.insights-article th {
+  background: #f7f9fb;
+  color: #171717;
+  font-weight: 600;
+}

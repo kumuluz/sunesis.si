@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "KumuluzEE 3.0.0 beta 2 is out"
+date:   2018-08-10
+author: urbim
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We have entered the second phase of KumuluzEE Beta testing. The v3.0.0-beta.2 prerelease of KumuluzEE framework
+continues to improve on the already stable v3.0.0-beta.1 prerelease.
+
+<!--more-->
+
+The brand new feature in this prerelease is the support of the Apache CXF JAX-WS implementation. We are continuing in
+the spirit of modularity, as this is the second JAX-WS implementation, supported by the KumuluzEE framework, the first
+one being Metro. The samples showing the usage of the new framework are already available at the
+[kumuluzee-samples](https://github.com/kumuluz/kumuluzee-samples/tree/master/jax-ws/jax-ws-cxf) repository. Also check
+out the previous [blog post](https://blog.kumuluz.com/product/developers/2018/05/25/jax-ws-cxf-support) to read more
+about it.
+
+Due to popular request we began implementing the mechanism that will allow activating or deactivating extensions
+via configuration framework properties. The necessary support in the core framework is finished and we
+will be pushing out support in each individual extension after the final 3.0.0 release. Stay tuned!
+
+Some enhancements that support further development of extensions also made it into this prerelase. The translation
+of configuration keys into environment variable names has changed to allow the `kumuluzee-config-mp` extension to align
+with the latest MicroProfile Config 1.3 specification. We will still be supporting the legacy lookups, so this won't
+break your existing configuration.
+
+A new configuration property has been added to the startup configuration, which instructs Jetty to propagate any
+exceptions that happen during startup. This property has little use for the end-user but aids in the development of
+the KumuluzEE Arquillian Container Adapter.
+
+Finally, the dependencies have been upgraded to their latest minor/patch versions and some minor bugs have been fixed.
+
+For all features introduced in the 3.0.0 version before this prerelease, see the v3.0.0-beta.1 release notes in
+[this](https://blog.kumuluz.com/product/announcement/developers/2018/03/11/kumuluzee-3.0.0-beta.1-release) blog post.
+
+#### Features:
+
+- Added support for Apache CXF JAX-WS implementation
+- Added ability for extensions to specify, when they should not be initialized
+
+#### Enhancements:
+
+- Added environment variable lookups as defined in the MicroProfile Config 1.3 specification
+- Added configuration property that enables Jetty startup exception propagation
+
+#### Bugs:
+
+- Added support for legacy key names in `getListSize` for environment variables
+- Fixed test that fails if build path contains space
+
+Please note that KumuluzEE v3.0.0-beta.2 is a beta release and as such it is not recommended for use in production! We
+really appreciate your feedback so please report any issues and bugs for this Beta release on GitHub.
+
+Happy testing!

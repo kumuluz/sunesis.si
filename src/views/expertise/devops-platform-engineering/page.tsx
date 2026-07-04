@@ -38,7 +38,7 @@ export function DevOpsPlatformEngineeringPage({
       return (
         <KumuluzSection
           block={block}
-          ctaHref={block.ctaHref ? `/${language}/${block.ctaHref}` : undefined}
+          ctaHref={block.ctaHref}
           key={key}
         />
       )

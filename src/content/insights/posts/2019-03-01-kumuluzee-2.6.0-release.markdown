@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "KumuluzEE 2.6.0 released"
+date:   2019-03-01
+author: urbim
+categories: [Product, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+__NOTE:__ The KumuluzEE 2.x.x releases are meant for projects still dependent on Java EE 7. If starting a new project
+the usage of KumuluzEE 3.x.x is highly recommended.
+
+We are releasing KumuluzEE version 2.6.0. This release brings the features developed in the 3.x.x branch (compliant with
+Java EE 8) to the older KumuluzEE version (compliant with Java EE 7).
+
+This release includes the support for Apache CXF JAX-WS implementation, configurable classpath scanning and MicroProfile
+profiles version 1.3 and 1.4. For a more detailed change-log see the corresponding 3.x.x releases in which the features
+were introduced.
+
+<!--more-->
+
+#### Features:
+
+- Added MicroProfile profiles 1.3 and 1.4
+- Added support for Apache CXF JAX-WS implementation.
+- Added ability for extensions to specify, when they should not be initialized.
+- Added support for configurable classpath scanning.
+
+#### Enhancements:
+
+- Sped up the classloading when using the uber JAR.
+- Added Bean Validation CDI integration.
+- Added transaction manager to JNDI.
+- Added environment variable lookups as defined in the MicroProfile Config 1.3 specification.
+- Added configuration property that enables Jetty startup exception propagation.
+- Retrieve configuration value as a raw key if the parsed key is not found.
+- Added support for dynamic key names with a custom prefix.
+- Added support for key names containing dots.
+- Added Rest Client and AMQP extension group.
+
+#### Bugs:
+
+- Fixed `stopServlet` method in `JettyServletServer` throws `IllegalStateException`.
+- Added support for legacy key names in `getListSize` for environment variables.
+- Uber JAR will now work in directories that include special characters (spaces, # ...).
+- Fixed an issue when loading resources in the Uber JAR.
+- Updated Travis build.
+
+More details about this release can be found on [GitHub](https://github.com/kumuluz/kumuluzee/releases/tag/v2.6.0).

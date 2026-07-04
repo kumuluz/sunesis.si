@@ -32,6 +32,7 @@ The dev server runs at [http://localhost:3000](http://localhost:3000). The bare 
 | `npm run lint:fix` | Run ESLint with `--fix` |
 | `npm run format` | Format with Prettier |
 | `npm run format:check` | Check formatting without writing |
+| `npm run insights` | Regenerate insights post metadata and body bundles from Markdown files |
 | `npm run doctor` | Run [react-doctor](https://www.npmjs.com/package/react-doctor) diagnostics |
 
 ## Internationalization
@@ -42,6 +43,18 @@ The site ships in two languages, keyed by the first path segment:
 - `/sl/…` — Slovenian
 
 Copy lives in [src/content/](src/content/), split per language (`en.ts`, `sl.ts`) and per section. Routing between locales and named routes is handled by [src/lib/router.ts](src/lib/router.ts).
+
+### Insights posts
+
+To edit or add insights posts, edit or add a `.markdown` file in [src/content/insights/posts/](src/content/insights/posts/), then run:
+
+```bash
+npm run insights
+```
+
+Commit the Markdown change together with the regenerated `src/content/insights/posts.generated.ts` and `src/content/insights/bodies.generated.ts` files. Regenerating these files preserves the client-bundle boundary.
+
+Note: `typecheck` may currently show pre-existing errors in `app/[lang]/kumuluz/page.tsx` from the separate in-progress Kumuluz route removal visible in `git status`; those errors are unrelated to insights post edits.
 
 ## Routes
 

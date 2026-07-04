@@ -11,6 +11,7 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
+    "insights": "node scripts/generate-insights.mjs",
     "doctor": "npx react-doctor@latest"
   },
   "dependencies": {
@@ -33,6 +34,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react-hooks": "^7.1.1",
     "globals": "^17.6.0",
+    "marked": "^18.0.5",
     "prettier": "^3.8.4",
     "react-doctor": "^0.5.8",
     "react-scan": "^0.5.7",

@@ -49,11 +49,6 @@ export const slContent = {
         ],
       },
       {
-        label: 'Kumuluz',
-        hasDropdown: false,
-        groups: [],
-      },
-      {
         label: 'Reference',
         hasDropdown: true,
         groups: [
@@ -109,6 +104,11 @@ export const slContent = {
             ],
           },
         ],
+      },
+      {
+        label: 'Kumuluz',
+        hasDropdown: false,
+        groups: [],
       },
     ],
     featuredLabel: 'Izpostavljeno',

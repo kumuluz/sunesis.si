@@ -1,0 +1,106 @@
+#username:
+#    name: John Doe
+#    gravatar: 8ecad199678ca92808a079031e45d4d1
+#    email: john.doe@cloud.si
+#    github: john.doe
+#    about: About John doe
+
+tfaga:
+    name: Tilen
+    gravatar: 3d707dfe5cda586bb8dd67a6d2bec79d
+    email: tilen.faganel@me.com
+    github: TFaga
+    twitter: TilenFaganel
+    about: Expert for software development, microservices, APIs, cloud and marketplace development. 
+zvoneg:
+    name: Zvone
+    email: info@kumuluz.com
+    github: zvonegit
+benjamink:
+    name: Benjamin
+    gravatar: 3f54afb6baafddf1ba414237af8afa83
+    email: info@kumuluz.com
+    github: osbeorn
+matjazbj:
+    name: Matjaz B. Juric
+    gravatar: ef0e7beae6a5fdc31232e2b52b0054c3
+    email: info@kumuluz.com
+    github: MBJuric
+    about: Java Champion, Professor, Book author, Expert, Consultant, Project lead for several industry and research projects utilizing cloud, APIs, microservices and blockchain.
+ezupancic:
+    name: Eva Zupancic
+    email: eva.zupancic@sunesis.si
+    github: ezupancic
+    about: PhD in Computer Science, 10 years of experience in software engineering, security, privacy and trust management. CEO of successful IT start-up company.
+lukas:
+    name: Luka
+    gravatar: 66fab2e78f40781474e8c83a06184a20
+    email: info@kumuluz.com
+    github: lukasarc
+urbim:
+    name: Urban
+    email: info@kumuluz.com
+    github: urbim
+jmezna:
+    name: Jan 
+    gravatar: b034bd319071ce601d8c334090fd13cc
+    email: info@kumuluz.com
+    github: jmezna
+mihaj:
+    name: Miha J.
+    email: info@kumuluz.com
+    github: Jamsek-m
+cen1:
+    name: Klemen F.
+    email: cen.is.imba@gmail.com
+    github: cen1
+gregorgabrovsek:
+    name: Gregor G.
+    email: gregor.gabrovsek@sunesis.si
+    github: gregorgabrovsek
+rokra:
+    name: Rok R.
+    email: rok.rajher@sunesis.si
+    github: rokrajher
+matijaklj:
+    name: Matija Kljun
+    email: info@kumuluz.com
+    github: matijaklj
+skrjanec:
+    name: Marko Škrjanec
+    email: info@kumuluz.com
+    github: skrjanec
+zanozbot:
+    name: Žan Ožbot
+    gravatar: ec9039ce88d2b788cf2d49409a2d526a
+    email: info@kumuluz.com
+    github: zanozbot
+primozh:
+    name: Primož Hrovat
+    email: info@kumuluz.com
+    github: primozh
+domeng:
+    name: Domen Gašperlin
+    gravatar: 1c39602b20883adeb33988c7c5ffcbf3
+    email: info@kumuluz.com
+    github: domengasperlin
+evader1337:
+    name: Domen Kajdič
+    email: info@kumuluz.com
+    github: evader1337
+gregorp:
+    name: Gregor Poročnik
+    email: info@kumuluz.com
+    github: gpor89
+blazm:
+    name: Blaž Mrak
+    email: info@kumuluz.com
+    github: blazmrak
+martinc:
+    name: Martin Čebular
+    email: info@kumuluz.com
+    github: mc0239
+dinm:
+    name: Din Music
+    email: info@kumuluz.com
+    github: MusicDin

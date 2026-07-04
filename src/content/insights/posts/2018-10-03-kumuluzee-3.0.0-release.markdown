@@ -1,0 +1,118 @@
+---
+layout: post
+title:  "KumuluzEE 3.0.0 is released!"
+date:   2018-10-03
+author: urbim
+categories: [Product, Announcement, Developers]
+tags: [KumuluzEE, Java EE, Microservices]
+---
+
+We are happy to announce the final release of the KumuluzEE 3.0.0. The new major release brings full support for Java 9+
+and support for Java EE 8 with some new components and a bunch of updated components.
+
+The following components from Java EE 8 have been added:
+
+- JSON-B 1.0
+- Java Mail 1.6
+
+We're including the reference implementation for both of the new components, with alternative implementations planned
+in the future when they become available.
+
+The following components were updated to their Java EE 8 versions:
+
+- JSF 2.3
+- JPA 2.2
+- JAX-RS 2.1
+- CDI 2.0
+- Bean Validation 2.0
+- JSON-P 1.1
+
+All implementations of the listed components have been updated to the latest Java EE component versions, so you're free
+to use any of them.
+
+<!--more-->
+
+Furthermore, the new release brings the support for the Apache CXF JAX-WS implementation. We are continuing in
+the spirit of modularity, as this is the second JAX-WS implementation, supported by the KumuluzEE framework, the first
+one being Metro. The samples showing the usage of the new framework are already available at the
+[kumuluzee-samples](https://github.com/kumuluz/kumuluzee-samples/tree/master/jax-ws/jax-ws-cxf) repository.
+
+We have also included some missing integrations between various components. The Bean Validation has been integrated with
+the CDI, which allows injection of `Validator` instances in CDI beans and validation of input arguments and return
+values of CDI methods. Also, the JNDI now allows lookup for the JTA `UserTransaction`. Additionally both JSON-P and
+JSON-B can now be used with JAX-RS automatically. You don't need to do anything, simply add the relevant components as
+your dependencies and it will work.
+
+Make note that the Servlet component is still on version 3.1 as the default implementation Jetty has not yet updated
+upstream to support the 4.0 version of the Servlet component. It will be added as soon as it will become available.
+The omission of Servlet 4.0 for this release however is a rather minor issue, as KumuluzEE already supports HTTP2, which
+is the flagship feature of Servlet 4.0.
+
+Due to popular request we began implementing the mechanism that will allow activating or deactivating extensions
+via configuration framework properties. The necessary support in the core framework is finished and we will be pushing
+out support in each individual extension soon alongside with the updates necessary to support Java 9+ in
+each individual extension.
+
+We're also hard at work at continuously optimizing and reducing the footprint of the framework and its dependencies,
+such as removing unneeded libraries, reducing the footprint of the initial loader and general speed ups of the
+framework. The release also includes updates to the maven plugin and the uber JAR loader, which address a number of
+issues found since its introduction. It's now more stable and handles edge cases better. We also took this opportunity
+to remove some of the legacy stuff still residing inside KumuluzEE. All deprecated features in versions 2.x are
+removed, so make sure to check whether you're still using any.
+
+Some enhancements that support further development of extensions also made it into this release. The translation
+of configuration keys into environment variable names has changed to allow the `kumuluzee-config-mp` extension to align
+with the latest MicroProfile Config 1.3 specification. We will be supporting the legacy lookups, so this won't break
+existing configuration.
+
+A new configuration property has been added to the startup configuration, which instructs Jetty to propagate any
+exceptions that happen during startup. This property has little use for the end-user but aids in the development of
+the KumuluzEE Arquillian Container Adapter.
+
+The release also includes bug fixes, improved compatibility with the EE specification and updates of the various
+components and libraries to their latest upstream versions.
+
+#### Features:
+
+- Added support for Java 9+.
+- Added new EE component Java Mail 1.6 (RI).
+- Added new EE component JSON-B 1.0 (Yasson).
+- Updated EE component JSF to 2.3 (Mojarra).
+- Updated EE component JPA to 2.2 (EclipseLink, Hibernate).
+- Updated EE component JAX-RS to 2.1 (Jersey).
+- Updated EE component CDI to 2.0 (CDI).
+- Updated EE component Bean Validation to 2.0 (Hibernate Validator).
+- Updated EE component JSON-P to 1.1 (RI).
+- Added support for Apache CXF JAX-WS implementation.
+- Added support for JSON-P and JSON-B when (de)serializing objects with JAX-RS (Jersey).
+- Added ability for extensions to specify, when they should not be initialized.
+- Removed deprecated features and config values.
+
+#### Enhancements:
+
+- Sped up the classloading when using the uber JAR.
+- Added Bean Validation CDI integration.
+- Added transaction manager to JNDI.
+- Added environment variable lookups as defined in the MicroProfile Config 1.3 specification.
+- Added configuration property that enables Jetty startup exception propagation.
+- Added the ability to retrieve registered Servlets at runtime.
+- Retrieve configuration value as a raw key if the parsed key is not found.
+- Updated libraries and component implementations to their latest versions.
+- Added support for dynamic key names with a custom prefix.
+- Added support for key names containing dots.
+- Added Rest Client extension group.
+
+#### Bugs:
+
+- Fixed `stopServlet` method in `JettyServletServer` throws `IllegalStateException`.
+- Added support for legacy key names in `getListSize` for environment variables.
+- Uber JAR will now work in directories that include special characters (spaces, # ...).
+- Fixed test that fails if build path contains space.
+- Fixed an issue when loading resources in the Uber JAR.
+- Fixed an issue where shutdown hooks of the Uber JAR were overlapping and causing undefined behavior on shutdown.
+- Fixed an issue where CDI not triggering shutdown events correctly when using the Uber JAR.
+- Fixed allowing repackaging WAR and EAR into an Uber JAR.
+- Updated Travis build.
+- Fixed package-info.java loading when running in JAR with Java 9+.
+
+More details about this release can be found on [GitHub](https://github.com/kumuluz/kumuluzee/releases/tag/v3.0.0).
