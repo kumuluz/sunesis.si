@@ -48,10 +48,7 @@ function companySlugForLabel(label: string): CompanySlug | null {
   return companySlugByLabel[label] ?? null
 }
 
-export function topLevelNavHref(
-  label: string,
-  language: LanguageCode,
-): string | null {
+export function topLevelNavHref(label: string): string | null {
   if (label === 'Kumuluz') {
     return KUMULUZ_SITE
   }
@@ -71,14 +68,6 @@ export function expertiseHrefForLabel(
 export function insightsHref(language: LanguageCode): string {
   return buildPath(language, { name: 'insights' })
 }
-
-export const kumuluzProductAnchors = [
-  'kumuluz-ai',
-  'kumuluz-api',
-  'kumuluz-business-apis',
-  'kumuluz-digital-platform',
-  'kumuluz-crowdsensing',
-] as const
 
 const KUMULUZ_SITE = 'https://kumuluz.com'
 
@@ -122,7 +111,10 @@ const footerLinkGroups: {
       buildPath(l, { name: 'expertise', slug: 'api-ecosystems-integrations' }),
   },
   {
-    labels: ['DevOps & Platform Engineering', 'DevOps in platformni inženiring'],
+    labels: [
+      'DevOps & Platform Engineering',
+      'DevOps in platformni inženiring',
+    ],
     href: (l) =>
       buildPath(l, { name: 'expertise', slug: 'devops-platform-engineering' }),
   },

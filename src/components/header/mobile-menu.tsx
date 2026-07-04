@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronRight } from 'lucide-react'
 import { AnimatePresence, motion } from 'motion/react'
-import { useEffect } from 'react'
+import { Fragment, useEffect, useEffectEvent } from 'react'
 import {
   contactHref,
   dropdownLinkHref,
@@ -39,6 +39,37 @@ export function MobileMenu({
   onClose,
 }: MobileMenuProps) {
   const pathname = useLocation()
+  const handleActiveItemChange = useEffectEvent(onActiveItemChange)
+  const handleClose = useEffectEvent(onClose)
+
+  const renderSubmenuLink = (
+    link: NavItem['groups'][number]['links'][number],
+  ) => {
+    const href = dropdownLinkHref(link.label, language) ?? '#'
+    const isActive = href !== '#' && pathname === href
+
+    return (
+      <a
+        className="group block transition-opacity active:opacity-60"
+        href={href}
+        key={link.label}
+        onClick={onClose}
+      >
+        <span
+          className={`block text-base font-semibold ${
+            isActive ? 'text-blue-700' : 'text-neutral-900'
+          }`}
+        >
+          {link.label}
+        </span>
+        {link.description ? (
+          <span className="mt-0.5 block text-sm leading-relaxed text-neutral-500">
+            {link.description}
+          </span>
+        ) : null}
+      </a>
+    )
+  }
 
   useEffect(() => {
     if (!isOpen) {
@@ -53,9 +84,9 @@ export function MobileMenu({
         return
       }
       if (activeItem) {
-        onActiveItemChange(null)
+        handleActiveItemChange(null)
       } else {
-        onClose()
+        handleClose()
       }
     }
     document.addEventListener('keydown', onKeyDown)
@@ -64,7 +95,7 @@ export function MobileMenu({
       document.body.style.overflow = previousOverflow
       document.removeEventListener('keydown', onKeyDown)
     }
-  }, [isOpen, activeItem, onActiveItemChange, onClose])
+  }, [isOpen, activeItem])
 
   return (
     <AnimatePresence>
@@ -92,45 +123,21 @@ export function MobileMenu({
                   </h2>
 
                   <div className="mt-6 space-y-5">
-                    {activeItem.groups
-                      .flatMap((group) => group.links)
-                      .map((link) => {
-                        const href =
-                          dropdownLinkHref(link.label, language) ?? '#'
-                        const isActive = href !== '#' && pathname === href
-
-                        return (
-                          <a
-                            className="group block transition-opacity active:opacity-60"
-                            href={href}
-                            key={link.label}
-                            onClick={onClose}
-                          >
-                            <span
-                              className={`block text-base font-semibold ${
-                                isActive ? 'text-blue-700' : 'text-neutral-900'
-                              }`}
-                            >
-                              {link.label}
-                            </span>
-                            {link.description ? (
-                              <span className="mt-0.5 block text-sm leading-relaxed text-neutral-500">
-                                {link.description}
-                              </span>
-                            ) : null}
-                          </a>
-                        )
-                      })}
+                    {activeItem.groups.map((group) => (
+                      <Fragment key={group.title}>
+                        {group.links.map(renderSubmenuLink)}
+                      </Fragment>
+                    ))}
                   </div>
                 </div>
               ) : (
                 <div>
                   {items.map((item) => {
-                    const links = (item as NavItem).groups.flatMap(
-                      (group) => group.links,
+                    const opensSubmenu = item.groups.some(
+                      (group) => group.links.length > 0,
                     )
 
-                    if (links.length > 0) {
+                    if (opensSubmenu) {
                       return (
                         <button
                           className="flex w-full items-center justify-between border-b border-neutral-200 py-4 text-left transition-colors active:text-blue-700"
@@ -153,7 +160,7 @@ export function MobileMenu({
                     return (
                       <a
                         className="flex w-full items-center justify-between border-b border-neutral-200 py-4 text-xl font-semibold text-neutral-900 transition-colors active:text-blue-700"
-                        href={topLevelNavHref(item.label, language) ?? '#'}
+                        href={topLevelNavHref(item.label) ?? '#'}
                         key={item.label}
                         onClick={onClose}
                       >

@@ -2,20 +2,17 @@ import { ChevronDown } from 'lucide-react'
 import { motion } from 'motion/react'
 import { topLevelNavHref } from '../../lib/expertise-links'
 import { useLocation } from '../../lib/navigation'
-import type { LanguageCode } from '../../lib/router'
 import type { HeaderProps, NavItem } from './types'
 
 type DesktopNavigationProps = {
   activeItem: NavItem | null
   content: HeaderProps['content']
-  language: LanguageCode
   onActiveItemChange: (item: NavItem | null) => void
 }
 
 export function DesktopNavigation({
   activeItem,
   content,
-  language,
   onActiveItemChange,
 }: DesktopNavigationProps) {
   const pathname = useLocation()
@@ -25,7 +22,7 @@ export function DesktopNavigation({
       {content.items.map((item) => {
         const isActive = activeItem?.label === item.label
         const opens = item.groups.length > 0
-        const directHref = topLevelNavHref(item.label, language)
+        const directHref = topLevelNavHref(item.label)
         const isCurrent = directHref !== null && pathname === directHref
 
         const className = `relative flex h-full items-center gap-1 px-4 text-left text-sm font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-[-6px] focus-visible:outline-blue-400 ${

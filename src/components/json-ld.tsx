@@ -5,10 +5,9 @@ export function JsonLd({ data }: { data: object | readonly object[] }) {
 
   return (
     <>
-      {items.map((item, index) => (
+      {items.map((item) => (
         <script
-          // eslint-disable-next-line react/no-array-index-key
-          key={index}
+          key={JSON.stringify(item)}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(item) }}
         />

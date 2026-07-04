@@ -23,17 +23,17 @@ The dev server runs at [http://localhost:3000](http://localhost:3000). The bare 
 
 ### Scripts
 
-| Script | Description |
-| --- | --- |
-| `npm run dev` | Start the Next.js dev server |
-| `npm run build` | Build the static export (output in `out/`) |
-| `npm run start` | Serve the production build |
-| `npm run lint` | Run ESLint |
-| `npm run lint:fix` | Run ESLint with `--fix` |
-| `npm run format` | Format with Prettier |
-| `npm run format:check` | Check formatting without writing |
-| `npm run insights` | Regenerate insights post metadata and body bundles from Markdown files |
-| `npm run doctor` | Run [react-doctor](https://www.npmjs.com/package/react-doctor) diagnostics |
+| Script                 | Description                                                                |
+| ---------------------- | -------------------------------------------------------------------------- |
+| `npm run dev`          | Start the Next.js dev server                                               |
+| `npm run build`        | Build the static export (output in `out/`)                                 |
+| `npm run start`        | Serve the production build                                                 |
+| `npm run lint`         | Run ESLint                                                                 |
+| `npm run lint:fix`     | Run ESLint with `--fix`                                                    |
+| `npm run format`       | Format with Prettier                                                       |
+| `npm run format:check` | Check formatting without writing                                           |
+| `npm run insights`     | Regenerate insights post metadata and body bundles from Markdown files     |
+| `npm run doctor`       | Run [react-doctor](https://www.npmjs.com/package/react-doctor) diagnostics |
 
 ## Internationalization
 
@@ -54,8 +54,6 @@ npm run insights
 
 Commit the Markdown change together with the regenerated `src/content/insights/posts.generated.ts` and `src/content/insights/bodies.generated.ts` files. Regenerating these files preserves the client-bundle boundary.
 
-Note: `typecheck` may currently show pre-existing errors in `app/[lang]/kumuluz/page.tsx` from the separate in-progress Kumuluz route removal visible in `git status`; those errors are unrelated to insights post edits.
-
 ## Routes
 
 The App Router pages under [app/](app/) are thin wrappers; page content and layout live in [src/views/](src/views/). Top-level routes:
@@ -64,7 +62,8 @@ The App Router pages under [app/](app/) are thin wrappers; page content and layo
 - `/[lang]/expertise/[slug]/` — expertise areas (AgenticAI, cloud-native & edge, API ecosystems, DevOps & platform engineering, digital solutions)
 - `/[lang]/references/[slug]/` — references (selected work, clients & industries, research & innovation, open source)
 - `/[lang]/company/[slug]/` — company (about, awards, careers)
-- `/[lang]/kumuluz/` — Kumuluz platform
+
+Kumuluz is linked as an external product site at `https://kumuluz.com`, not as a local page.
 
 ## Project structure
 

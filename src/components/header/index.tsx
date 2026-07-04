@@ -66,7 +66,6 @@ export function Header({
               <DesktopNavigation
                 activeItem={activeItem}
                 content={content}
-                language={language}
                 onActiveItemChange={setActiveItem}
               />
             </div>
