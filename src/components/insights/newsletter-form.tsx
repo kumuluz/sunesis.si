@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import type { InsightsPageContent } from '../../views/insights/types'
+import { Button } from '../button'
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 const MAILCHIMP_ACTION_URL =
@@ -113,13 +114,14 @@ export function NewsletterForm({ content }: { content: InsightsPageContent }) {
           type="email"
           value={email}
         />
-        <button
-          className="shrink-0 cursor-pointer rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-60"
+        <Button
+          className="bg-neutral-900 hover:bg-blue-700 cursor-pointer"
           disabled={isSubmitting}
+          size="md"
           type="submit"
         >
           {isSubmitting ? newsletter.submitting : newsletter.submit}
-        </button>
+        </Button>
       </div>
 
       {error ? (
