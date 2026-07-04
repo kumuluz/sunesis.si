@@ -4,10 +4,9 @@ title:  "KumuluzAPI - API Monitoring"
 date:   2017-08-13
 author: zvoneg
 author2: matjazbj
-categories: [Product, Developers]
-tags: [KumuluzAPI, API Monitoring, API Management, API Gateway]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps]
+tags: [Kumuluz API, API management, Cloud-native, API Gateway]
 ---
-
 Monitoring of APIs is one of the essential functionalities of API Management tools. API Gateways collect and record different metrics of API invocations.
 
 # API Monitoring in KumuluzAPI

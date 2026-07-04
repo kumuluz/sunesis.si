@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Logs now supports Fluentd"
 date:   2019-07-08
 author: domeng
-categories: [Product, Developers]
-tags: [KumuluzEE Logs,Java EE, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source]
+tags: [Cloud-native, Java EE, KumuluzEE Logs, Microservices]
 ---
-
 We are pleased to announce the support for fluentd in KumuluzEE Logs. 
 The module includes support for logging to Fluentd logger.
 It also introduces JAX-RS filters for logging contextual data for requests. 

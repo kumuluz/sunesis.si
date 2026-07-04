@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 2.4.1 released"
 date:   2017-09-15
 author: tfaga
-categories: [Product]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 KumuluzEE version 2.4.1 just was released. The new minor release includes several bug fixes regarding the new
 `kumuluzee-maven-plugin` for uber JAR support.
 

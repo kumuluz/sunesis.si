@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE MicroProfile Metrics 2.0.1 released"
 date:   2019-08-08
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE MicroProfile Metrics, KumuluzEE Metrics, Metrics, MicroProfile, Eclipse MicroProfile]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Eclipse MicroProfile, KumuluzEE Metrics, KumuluzEE MicroProfile Metrics, Metrics, MicroProfile]
 ---
-
 We are happy to announce a new major version of KumuluzEE Metrics - 2.0.1. This release implements the MicroProfile
 Metrics 2.0. Programming interface and REST format include a number of breaking changes which integrate the extension
 even better with popular cloud-native metric processing tools like Prometheus.

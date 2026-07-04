@@ -3,10 +3,9 @@ layout: post
 title:  "Digitalizacija v zavarovalništvu s KumuluzAPI"
 date:   2025-06-03
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, zavarovalnica, digitalizacija]
+categories: [Kumuluz, API & Integration, Research & Innovation]
+tags: [Kumuluz API, API management, Research projects, API, digitalizacija, zavarovalnica]
 ---
-
 Zavarovalništvo je panoga, kjer je digitalizacija ključna za boljšo uporabniško izkušnjo in hitrejšo obdelavo podatkov. Stranke danes pričakujejo, da lahko zavarovanje sklenejo ali škodo prijavijo kar prek mobilne aplikacije, brez obiska poslovalnice. V ozadju pa to pomeni, da mora zavarovalnica povezati številne različne sisteme – od obstoječih (legacy) aplikacij do sodobnih digitalnih kanalov.
 
 <!--more-->

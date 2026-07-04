@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 2.1.0 released"
 date:   2017-03-21
 author: tfaga
-categories: [Product]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Research projects, Java EE, KumuluzEE, Microservices]
 ---
-
 We're finally here. Announcing the availability of KumuluzEE version 2.1.0.
 
 This version aligns the versions of the various EE components with the latest ones and contains several bug fixes, a handy BOM project for easier dependency inclusions (so you don't need to fiddle with component versions) and project profiles for easier inclusion of the most popular combination of components with initial support for the [microprofile](https://microprofile.io) specification.

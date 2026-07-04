@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Config 1.1 released"
 date:   2018-01-19
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Config, etcd, Consul]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Consul, etcd, KumuluzEE Config]
 ---
-
 We're announcing the availability of KumuluzEE Config 1.1.0, an update to the configuration management
 extension, which extends basic configuration framework with etcd and Consul configuration sources.
 

@@ -3,10 +3,9 @@ layout: post
 title:  "Initial release of KumuluzEE OpenAPI MicroProfile is here!"
 date:   2019-02-22
 author: evader1337
-categories: [Product, Developers]
-tags: [KumuluzEE OpenAPI, Microprofile, Java EE]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE OpenAPI, Microprofile]
 ---
-
 We are releasing the first version of KumuluzEE OpenAPI MicroProfile. It implements the MicroProfile OpenAPI
 specification 1.0.1. Initial version of KumuluzEE OpenAPI enables intuitive documentation of your REST resources using
 the MicroProfile OpenAPI annotations.

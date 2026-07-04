@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE REST extension"
 date:   2017-09-09
 author: jmezna
-categories: [Product, Developers]
-tags: [KumuluzEE REST, REST API, REST patterns]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, KumuluzEE REST, REST API, REST patterns]
 ---
-
 We're happy to announce the initial version of the **KumuluzEE REST**
 extension v1.1.0 for the KumuluzEE framework.
 

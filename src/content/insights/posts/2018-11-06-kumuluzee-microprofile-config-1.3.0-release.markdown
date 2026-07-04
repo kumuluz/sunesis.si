@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE MicroProfile Config 1.3.0 released"
 date:   2018-11-06
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE MicroProfile Config, configuration, MicroProfile, Eclipse MicroProfile]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, configuration, Eclipse MicroProfile, KumuluzEE MicroProfile Config, MicroProfile]
 ---
-
 We're releasing the KumuluzEE MicroProfile Config 1.3.0. This version implements the MicroProfile Config specification
 1.3, which introduces a better implicit converter and removes redundant converters. This release also brings full
 support for Java 9+.

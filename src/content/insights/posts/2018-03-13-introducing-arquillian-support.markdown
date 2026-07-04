@@ -3,10 +3,9 @@ layout: post
 title:  "Introducing Arquillian Support"
 date:   2018-03-13
 author: urbim
-categories: [Product, Developers, Announcement]
-tags: [KumuluzEE Testing, Arquillian, Integration Testing]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Arquillian, Integration Testing, KumuluzEE Testing]
 ---
-
 Integration testing with the KumuluzEE framework has just become a lot easier with the
 [KumuluzEE Arquillian Container Adapter](https://github.com/kumuluz/kumuluzee-testing/blob/master/kumuluzee-arquillian-container/README.md).
 

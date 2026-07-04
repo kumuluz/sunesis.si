@@ -3,10 +3,9 @@ layout: post
 title:  "Using KumuluzEE Fault Tolerance"
 date:   2017-09-11
 author: lukas
-categories: [Product, Developers]
-tags: [KumuluzEE Fault Tolerance, Circuit Breaker, Retry, Bulkhead, Timeout, Fallback, Microprofile Fault Tolerance]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source]
+tags: [Cloud-native, Bulkhead, Circuit Breaker, Fallback, KumuluzEE Fault Tolerance, Microprofile Fault Tolerance, Retry, Timeout]
 ---
-
 KumuluzEE Fault Tolerance is a fault tolerance extension for the KumuluzEE microservice framework. It provides support for fault tolerance and latency tolerance with circuit breaker, bulkhead, timeout, retry and fallback patterns. KumuluzEE Fault Tolerance supports basic fault tolerance configuration using annotations. Additionally, configuring via KumuluzEE Config is supported. Dependency calls are wrapped and executed using Hystrix, a latency and fault tolerance library.
 
 ## Usage

@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzAPI za pametno upravljanje polnilnih postaj"
 date:   2024-07-23
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, pametna mesta, EV]
+categories: [Kumuluz, API & Integration, Research & Innovation]
+tags: [Kumuluz API, Research projects, API, EV, pametna mesta]
 ---
-
 S širitvijo električnih vozil (EV) postaja infrastruktura polnilnih postaj vedno pomembnejša, a z njo prihaja tudi potreba po učinkovitem upravljanju. Ponudniki polnilnih storitev se soočajo z izzivi, kot so zagotavljanje optimalne porabe energije, zagotavljanje dobre uporabniške izkušnje in omogočanje spremljanja polnjenja v realnem času. Z uporabo platforme KumuluzAPI je mogoče vzpostaviti pametno rešitev za upravljanje polnilnih postaj, ki **naslavlja vse te potrebe** in hkrati omogoča trajnostno uporabo energije.
 
 <!--more-->

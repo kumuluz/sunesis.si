@@ -3,10 +3,9 @@ layout: post
 title:  "Announcing KumuluzEE Database Schema Migrations 1.0.0 release"
 date:   2022-07-04
 author: dinm
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Microservices, Migrations, KumuluzEE Database Schema Migrations, Liquibase]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, KumuluzEE, KumuluzEE Database Schema Migrations, Liquibase, Microservices, Migrations]
 ---
-
 We are pleased to announce the first stable release of the KumuluzEE Database Schema Migration extension for the KumuluzEE microservice framework.
 
 The extension provides an easy way to migrate database schemas with Liquibase.

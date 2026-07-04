@@ -3,10 +3,9 @@ layout: post
 title:  "Announcing KumuluzEE 3.1.0!"
 date:   2019-01-28
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are announcing the availability of KumuluzEE version 3.1.0.
 
 This release enables configurable classpath scanning and includes an updated Jetty dependency and a minor bug fix.

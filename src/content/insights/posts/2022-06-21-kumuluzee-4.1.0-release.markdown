@@ -3,10 +3,9 @@ layout: post
 title:  "Announcing KumuluzEE 4.1.0 release - with improvements to the configuration framework!"
 date:   2022-06-21
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are announcing the availability of KumuluzEE version 4.1.0.
 
 This release brings improvements to the configuration framework, such as configuration profiles, improved variable

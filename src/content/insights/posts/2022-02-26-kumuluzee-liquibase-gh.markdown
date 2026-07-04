@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Database Schema Migrations - Liquibase extension"
 date:   2022-02-26
 author: dinm
-categories: [Product, Developers]
-tags: [KumuluzEE Database Schema Migrations, Liquibase]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source]
+tags: [Workflow automation, Cloud-native, KumuluzEE Database Schema Migrations, Liquibase]
 ---
-
 In the rapidly growing world of automation, there is a constant need for application updates.
 Every change made to the application is nowadays version controlled, making it easy to automate deployment and, if necessary, roll back changes.
 Today, it is not uncommon to have multiple versions of an application deployed on the same day.

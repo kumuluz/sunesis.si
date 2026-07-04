@@ -3,10 +3,9 @@ layout: post
 title:  "Using KumuluzEE Discovery"
 date:   2017-09-15
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Discovery, etcd, Consul]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
+tags: [Kumuluz API, Cloud-native, Kubernetes, Research projects, Consul, etcd, KumuluzEE Discovery]
 ---
-
 KumuluzEE Discovery is a service discovery extension for the KumuluzEE microservice framework. It provides support for service registration, service discovery and client side load balancing.
 
 KumuluzEE Discovery provides full support for microservices packed as Docker containers. It also provides full support for executing microservices in clusters and cloud-native platforms with full support for Kubernetes.

@@ -3,10 +3,9 @@ layout: post
 title:  "Vzpostavitev API integracijske infrastrukture v banki s pomočjo rešitve KumuluzAPI"
 date:   2023-03-14
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, banka]
+categories: [Kumuluz, API & Integration]
+tags: [Kumuluz API, API management, API, banka]
 ---
-
 Digitalna preobrazba bank je danes nujna, saj omogoča prilagodljivost in odzivnost v hitro spreminjajočem se finančnem okolju. Ključni del tega procesa je integracija različnih aplikacij in sistemov znotraj banke ter povezovanje z zunanjimi partnerji. Ena izmed ključnih rešitev, ki omogoča učinkovito in varno integracijo, je **KumuluzAPI,** ki smo ga uspešno vpeljali pri naši stranki iz **bančnega sektorja.** V nadaljevanju bomo predstavili, kako je bila s to rešitvijo vzpostavljena API integracijska infrastruktura v okolju banke ter kakšne koristi prinaša.
 
 <!--more-->

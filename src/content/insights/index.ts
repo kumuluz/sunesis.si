@@ -9,6 +9,16 @@ export const INSIGHT_SLUGS = insightPosts.map((post) => post.slug)
 
 const postsBySlug = new Map(insightPosts.map((post) => [post.slug, post]))
 
+const INSIGHT_CATEGORY_ORDER = [
+  'AgenticAI',
+  'Kumuluz',
+  'API & Integration',
+  'Cloud-native & DevOps',
+  'Open Source',
+  'Research & Innovation',
+  'Company',
+]
+
 export function insightBySlug(slug: string): InsightPost | undefined {
   return postsBySlug.get(slug)
 }
@@ -20,7 +30,9 @@ export function insightArticleHref(
   return buildPath(language, { name: 'insights', slug })
 }
 
-export function insightCategories(posts: InsightPost[] = insightPosts): string[] {
+export function insightCategories(
+  posts: InsightPost[] = insightPosts,
+): string[] {
   const counts = new Map<string, number>()
   for (const post of posts) {
     for (const category of post.categories) {
@@ -28,12 +40,25 @@ export function insightCategories(posts: InsightPost[] = insightPosts): string[]
     }
   }
   return [...counts.entries()]
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .sort((a, b) => {
+      const orderA = INSIGHT_CATEGORY_ORDER.indexOf(a[0])
+      const orderB = INSIGHT_CATEGORY_ORDER.indexOf(b[0])
+      if (orderA !== -1 || orderB !== -1) {
+        return (
+          (orderA === -1 ? Number.MAX_SAFE_INTEGER : orderA) -
+          (orderB === -1 ? Number.MAX_SAFE_INTEGER : orderB)
+        )
+      }
+      return b[1] - a[1] || a[0].localeCompare(b[0])
+    })
     .map(([category]) => category)
 }
 
 export function categorySlug(category: string): string {
-  return category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  return category
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
 }
 
 const thumbnailsBySlug = new Map(
@@ -48,8 +73,34 @@ export function thumbnailForSlug(slug: string) {
 }
 
 const MONTHS: Record<LanguageCode, string[]> = {
-  en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-  sl: ['jan.', 'feb.', 'mar.', 'apr.', 'maj', 'jun.', 'jul.', 'avg.', 'sep.', 'okt.', 'nov.', 'dec.'],
+  en: [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ],
+  sl: [
+    'jan.',
+    'feb.',
+    'mar.',
+    'apr.',
+    'maj',
+    'jun.',
+    'jul.',
+    'avg.',
+    'sep.',
+    'okt.',
+    'nov.',
+    'dec.',
+  ],
 }
 
 export function formatInsightDate(iso: string, language: LanguageCode): string {
@@ -69,10 +120,12 @@ export const insightsContent: InsightsContent = {
         'Articles, releases and updates from Sunesis on AgenticAI, APIs, cloud-native architectures, DevOps, KumuluzEE and enterprise software engineering.',
     },
     title: 'Insights',
-    tagline: 'New articles, the latest in technology, solutions, and updates.',
+    tagline:
+      'Practical perspectives on AgenticAI, digital platforms, APIs, cloud-native engineering, DevOps, Kumuluz, open source and research-driven innovation.',
     viewAll: 'View all',
     readPost: 'Read post',
-    articlesCount: (count) => `${count} ${count === 1 ? 'article' : 'articles'}`,
+    articlesCount: (count) =>
+      `${count} ${count === 1 ? 'article' : 'articles'}`,
     empty: 'No articles in this topic yet.',
     newsletter: {
       heading: 'Subscribe to our newsletter',
@@ -96,14 +149,13 @@ export const insightsContent: InsightsContent = {
       empty: 'This article has no content.',
     },
     categoryLabels: {
-      Product: 'Products',
-      Developers: 'Developers',
-      Announcement: 'Announcements',
-      API: 'API',
-      Crowdsensing: 'Crowdsensing',
-      Community: 'Community',
-      News: 'News',
-      Integration: 'Integration',
+      AgenticAI: 'AgenticAI',
+      Kumuluz: 'Kumuluz',
+      'API & Integration': 'API & Integration',
+      'Cloud-native & DevOps': 'Cloud-native & DevOps',
+      'Open Source': 'Open Source',
+      'Research & Innovation': 'Research & Innovation',
+      Company: 'Company',
     },
   },
   sl: {
@@ -113,7 +165,8 @@ export const insightsContent: InsightsContent = {
         'Članki, izdaje in novice podjetja Sunesis o AgenticAI, API-jih, cloud-native arhitekturah, DevOpsu, KumuluzEE in razvoju poslovne programske opreme.',
     },
     title: 'Vsebine',
-    tagline: 'Novi članki, najnovejše na področju tehnologije, rešitev in novic.',
+    tagline:
+      'Praktični vpogledi v AgenticAI, digitalne platforme, API-je, cloud-native engineering, DevOps, Kumuluz, open source in raziskovalno podprto inoviranje.',
     viewAll: 'Vse',
     readPost: 'Preberi',
     articlesCount: (count) => {
@@ -150,14 +203,13 @@ export const insightsContent: InsightsContent = {
       empty: 'Ta članek nima vsebine.',
     },
     categoryLabels: {
-      Product: 'Produkti',
-      Developers: 'Razvijalci',
-      Announcement: 'Napovedi',
-      API: 'API',
-      Crowdsensing: 'Crowdsensing',
-      Community: 'Skupnost',
-      News: 'Novice',
-      Integration: 'Integracije',
+      AgenticAI: 'AgenticAI',
+      Kumuluz: 'Kumuluz',
+      'API & Integration': 'API-ji in integracije',
+      'Cloud-native & DevOps': 'Cloud-native in DevOps',
+      'Open Source': 'Open source',
+      'Research & Innovation': 'Raziskave in inovacije',
+      Company: 'Podjetje',
     },
   },
 }

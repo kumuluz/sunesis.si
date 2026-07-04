@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Nodejs Config 1.1.0 released"
 date:   2018-11-28
 author: mihaj
-categories: [Product, Developers]
-tags: [KumuluzEE Nodejs, KumuluzEE Nodejs Config, configuration]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, configuration, KumuluzEE Nodejs, KumuluzEE Nodejs Config]
 ---
-
 We're releasing the KumuluzEE Nodejs Config 1.1.0. This version updates node-etcd dependency to provide better support for latest nodejs lts version. It also fixes bugs related to node-etcd.
 
 [Samples](https://github.com/kumuluz/kumuluzee-nodejs-samples/tree/master/kumuluzee-nodejs-config) have been updated to use latest version.

@@ -3,10 +3,9 @@ layout: post
 title:  "HTTP health check"
 date:   2017-12-06
 author: skrjanec
-categories: [Product, Developers]
-tags: [KumuluzEE Health, Microprofile-Health, HTTP health check]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
+tags: [Kumuluz API, Cloud-native, HTTP health check, KumuluzEE Health, Microprofile-Health]
 ---
-
 KumuluzEE Health extension health check set has been expanded with a **HttpHealthCheck**.
 
 <!--more-->

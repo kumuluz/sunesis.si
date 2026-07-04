@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Health 2.1.0 released"
 date:   2019-11-22
 author: jmezna
-categories: [Product, Developers]
-tags: [KumuluzEE Health, Microprofile-Health, HTTP health check]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, HTTP health check, KumuluzEE Health, Microprofile-Health]
 ---
-
 We are happy to announce a new version of the KumuluzEE Health. This version implements the MicroProfile Health 2.1 specification. 
 
 <!--more-->

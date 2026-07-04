@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE MicroProfile Metrics 1.1.2 released"
 date:   2019-01-30
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE MicroProfile Metrics, KumuluzEE Metrics, Metrics, MicroProfile, Eclipse MicroProfile]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Eclipse MicroProfile, KumuluzEE Metrics, KumuluzEE MicroProfile Metrics, Metrics, MicroProfile]
 ---
-
 We are announcing a minor release of KumuluzEE Metrics. This release brings some important bug fixes and adds support
 for Java 9+. Dependencies have also been updated to their latest versions.
 

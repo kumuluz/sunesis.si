@@ -3,10 +3,9 @@ layout: post
 title:  "Tutorial: Cloud-native Java EE Microservices with KumuluzEE"
 date:   2017-09-28
 author: jmezna
-categories: [Product, Developers]
-tags: [KumuluzEE, Java EE, Microservices, Cloud-native, Tutorial]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
+tags: [Kumuluz API, Cloud-native, Research projects, Java EE, KumuluzEE, Microservices, Tutorial]
 ---
-
 We published a tutorial on developing a cloud-native Java EE microservice application, using KumuluzEE microservice
 framework and KumuluzEE extensions.
 

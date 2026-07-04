@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE gRPC 1.0.0-SNAPSHOT released"
 date:   2018-04-23
 author: primozh
-categories: [Product, Developers]
-tags: [KumuluzEE gRPC, gRPC API]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, gRPC API, KumuluzEE gRPC]
 ---
-
 We're announcing the availability of **KumuluzEE gRPC** extension (1.0.0-SNAPSHOT), first beta release, which provides
 easy-to-implement gRPC based communication between microservices.
 

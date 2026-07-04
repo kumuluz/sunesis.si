@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE JCache 1.0.0 released"
 date:   2020-01-29
 author: jmezna
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE JCache, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, KumuluzEE JCache, Microservices]
 ---
-
 We are releasing the first version of KumuluzEE JCache. It allows usage of JCache annotations and JCache programmatic API in your KumuluzEE applications. Currently used JCache implementation is [Caffeine](https://github.com/ben-manes/caffeine).
 
 <!--more-->

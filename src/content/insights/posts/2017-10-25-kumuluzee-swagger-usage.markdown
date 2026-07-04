@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Swagger usage"
 date:   2017-10-25
 author: zvoneg
-categories: [Product, Developers]
-tags: [KumuluzEE Swagger, Swagger-UI]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
+tags: [Kumuluz API, Cloud-native, Research projects, KumuluzEE Swagger, Swagger-UI]
 ---
-
 **KumuluzEE Swagger was recently updated!** with separate dependency for the Swagger UI. Check [KumuluzEE Swagger - Updated](https://blog.kumuluz.com/product/developers/2018/01/14/kumuluzee-swagger-usage-updated)
 
 

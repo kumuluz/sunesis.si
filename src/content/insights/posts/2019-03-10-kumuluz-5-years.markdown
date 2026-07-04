@@ -3,10 +3,9 @@ layout: post
 title:  "Kumuluz is celebrating 5 years! What we’ve done and the roadmap ahead"
 date:   2019-03-10
 author: matjazbj
-categories: [Announcement, Community, News, Product]
-tags: [Kumuluz, KumuluzEE, Digital, Kumuluz.io]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Research & Innovation, Company]
+tags: [Kumuluz API, Business APIs, Kumuluz Digital Platform, Kumuluz Crowdsensing, API management, Cloud-native, Kubernetes, OpenShift, DevOps, Research projects, Digital, Kumuluz, Kumuluz.io, KumuluzEE]
 ---
-
 Five years have already passed since we began developing the Kumuluz digital platform, although the initial ideas and development of various pieces started even earlier. Five years ago we finalized our vision to provide a unique set of open, lightweight, API and microservice based building blocks within the Kumuluz digital platform. The main objective of Kumuluz is to help companies make their digital transformation faster, more efficient, less costly, and – most importantly – to shorten time-to-market for their digital products and services. 
 
 <!--more-->

@@ -3,10 +3,9 @@ layout: post
 title:  "Tracing KumuluzEE microservices with Jaeger"
 date:   2019-02-11
 author: evader1337
-categories: [Developers, Community]
-tags: [KumuluzEE OpenTracing, Jaeger, Tracing microservices, OpenTracing, MicroProfile OpenTracing, KumuluzEE]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Kubernetes, Research projects, Jaeger, KumuluzEE, KumuluzEE OpenTracing, MicroProfile OpenTracing, OpenTracing, Tracing microservices]
 ---
-
 When it comes to developing applications within the microservice architecture, the number of microservices can grow quickly. Managing microservices becomes harder with each new or updated microservice. When an application experiences a slowdown and its »data flow« goes through several different microservices, pinpointing the exact location of a slowdown may be difficult for a developer. 
 
 This blog post will cover the basics of distributed tracing. It will demonstrate the usage of KumuluzEE OpenTracing extension with Jaeger to fight the challenges mentioned above.

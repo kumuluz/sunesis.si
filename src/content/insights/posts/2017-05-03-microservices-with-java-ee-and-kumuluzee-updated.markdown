@@ -4,10 +4,9 @@ title:  "Develop microservices with Java EE and KumuluzEE - updated"
 date:   2017-05-03
 author: tfaga
 author2: matjazbj
-categories: [Product, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Temporal, Cloud-native, DevOps, Research projects, Java EE, KumuluzEE, Microservices]
 ---
-
 This article explores the way the microservices can be used together with Java EE using KumuluzEE.
 It expands on the benefits and drawbacks compared to the monolithic architecture that's popular in Java EE. It shows how to quickly and simply develop two microservices with standard Java EE using KumuluzEE. You can find the examples produced in this article on [GitHub](https://github.com/kumuluz/kumuluzee-samples) under the name `microservice-simple`.
 

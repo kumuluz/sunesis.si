@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 4.0.0 released, with Java 17 LTS support, Jetty 10 and more!"
 date:   2022-05-27
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are happy to announce the next major release of KumuluzEE 4.0.0. This release includes a major Jetty upgrade, support
 for the latest released versions of Java, including the Java 17 LTS version and the use of JakartaEE 8 artifacts
 replacing the JavaEE 8 artifacts.

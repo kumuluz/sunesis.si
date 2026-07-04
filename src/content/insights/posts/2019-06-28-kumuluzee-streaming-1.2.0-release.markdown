@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Event Streaming 1.2.0 released"
 date:   2019-06-28
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Event Streaming, Kafka ]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Kafka, KumuluzEE Event Streaming]
 ---
-
 We are pleased to announce the release of KumuluzEE Streaming 1.2.0. This release includes ready-to-use JSON Serializer,
 Deserializer and SerDe. Producers with generic types defined can now also be injected and listeners have been improved
 with explicit parameter validation.

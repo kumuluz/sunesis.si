@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE GraphQL officially released!"
 date:   2018-10-12
 author: evader1337
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices, GraphQL]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, GraphQL, Java EE, KumuluzEE, Microservices]
 ---
-
 After a few months of development and testing, KumuluzEE GraphQL is now officially released. 
 You can now use GraphQL in your microservices.
 Extension is designed to be as user-friendly as possible; you can create your first GraphQL endpoint with as little as two annotations in the code!

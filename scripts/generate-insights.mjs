@@ -80,6 +80,24 @@ function parseCategories(fm) {
   return []
 }
 
+function parseTags(fm) {
+  const inline = fm.match(/^tags:\s*\[(.*)\]\s*$/m)
+  if (inline) {
+    return inline[1]
+      .split(',')
+      .map((tag) => tag.trim())
+      .filter(Boolean)
+  }
+  const block = fm.match(/^tags:\s*\n((?:\s*-\s*.+\n?)+)/m)
+  if (block) {
+    return block[1]
+      .split('\n')
+      .map((line) => line.replace(/^\s*-\s*/, '').trim())
+      .filter(Boolean)
+  }
+  return []
+}
+
 function buildExcerpt(body) {
   let text = body
   const moreIndex = text.indexOf('<!--more-->')
@@ -157,6 +175,7 @@ for (const file of files) {
 
   const title = unquote(fmValue(fm, 'title')) || slug.replace(/-/g, ' ')
   const categories = parseCategories(fm)
+  const tags = parseTags(fm)
   const author = authorLabel(fmValue(fm, 'author'))
   const author2 = fmValue(fm, 'author2')
   const authors = author2 ? `${author} & ${authorLabel(author2)}` : author
@@ -165,7 +184,7 @@ for (const file of files) {
   const bodyHtml = bodyToHtml(body)
   const minutes = readingMinutes(bodyHtml)
 
-  posts.push({ slug, title, date, authors, categories, excerpt, minutes })
+  posts.push({ slug, title, date, authors, categories, tags, excerpt, minutes })
   bodies.push([slug, bodyHtml])
 }
 

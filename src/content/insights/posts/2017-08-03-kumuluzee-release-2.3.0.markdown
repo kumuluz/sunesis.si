@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 2.3.0 released"
 date:   2017-08-03
 author: tfaga
-categories: [Product]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Java EE, KumuluzEE, Microservices]
 ---
-
 We're announcing the availability of KumuluzEE version 2.3.0.
 
 This version includes two (2) new major features described below, further improves on the new configuration framework introduced in version 2.1.0, improves compatibility of components with the EE specification, aligns with the upstream versions of all the EE components with the latest ones and contains several bug fixes and quality of life enhancements.

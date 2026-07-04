@@ -3,10 +3,9 @@ layout: post
 title:  "Prvi korak k doseganju ciljev pametnega mesta"
 date:   2022-01-15
 author: ezupancic
-categories: [Crowdsensing]
-tags: [Crowdsensing, KumuluzCrowdsensing, Pametna mesta]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Research & Innovation]
+tags: [Kumuluz API, Kumuluz Crowdsensing, Workflow automation, Cloud-native, Research projects, Crowdsensing, Pametna mesta]
 ---
-
 Pametno mesto je relativno nov in zelo širok pojem s številnimi definicijami. V grobem pomeni mesto, ki s pomočjo razvite infrastrukture in naprednih IT storitev prebivalcem omogoča visoko kakovost življenja, mestnim oblastem pa enostaven pregled in upravljanje z viri. **Prvi korak na poti do pametnega mesta je zagotovo sodelovanje in učinkovita dvosmerna komunikacija z občani.**
 
 <!--more-->

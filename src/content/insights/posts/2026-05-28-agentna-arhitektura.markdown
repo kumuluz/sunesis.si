@@ -3,10 +3,9 @@ layout: post
 title:  "Onkraj klepetalnih robotov: Večagentna arhitektura"
 date:   2026-05-28
 author: gregorgabrovsek
-categories: [API]
-tags: [KumuluzAI, AI, umetna inteligenca]
+categories: [AgenticAI, Kumuluz, API & Integration, Research & Innovation, Company]
+tags: [KumuluzAI, Kumuluz API, AI agents, Digital agent teams, Agentic operating models, Workflow automation, Research projects, AI, umetna inteligenca]
 ---
-
 Obdobje preprostih, samostojnih klepetalnih robotov z umetno inteligenco se končuje. Za srednja in velika podjetja ni več dovolj, da od UI zahtevajo le povzetek dokumenta ali osnutek e-poštnega sporočila. Prava konkurenčna prednost se skriva v globoki integraciji UI v vaše poslovne procese. Vendar pa to zahteva temeljit premik v tem, kako gradimo sisteme UI: prehod od preprostih vmesnikov za klepet do celovitih »agentskih ogrodij« – programske strukture in izvajalnega okolja, ki jezikovni model spremeni v funkcionalnega in dolgotrajno delujočega agenta.
 
 <!--more-->

@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE OpenAPI 1.0.0 is released!"
 date:   2018-07-10
 author: zvoneg
-categories: [Product, Developers, Announcement]
-tags: [KumuluzEE OpenAPI, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Java EE, KumuluzEE OpenAPI, Microservices]
 ---
-
 The first version of the KumuluzEE OpenAPI extension is now available.
 
 KumuluzEE OpenAPI project allows you to document microservice APIs using OpenAPI v3 compliant annotations.

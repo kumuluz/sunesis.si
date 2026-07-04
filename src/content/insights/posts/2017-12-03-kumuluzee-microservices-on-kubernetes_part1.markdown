@@ -3,10 +3,9 @@ layout: post
 title:  "Running KumuluzEE microservices on Kubernetes (Part 1)"
 date:   2017-12-03
 author: zvoneg
-categories: [Product, Developers]
-tags: [KumuluzEE, KumuluzEE Discovery, KumuluzEE Config, Kubernetes]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
+tags: [Kumuluz API, Cloud-native, Kubernetes, KumuluzEE, KumuluzEE Config, KumuluzEE Discovery]
 ---
-
 Today Kubernetes is one of the most commonly used runtime platforms for the containerized applications. Providing automatic binpacking, horizontal scaling, automated rollouts and rollbacks, self-healing, service discovery, load balancing and other services out of the box, Kubernetes is a platform that suits microservices down to the ground.
 
 However, equally as important as the utilities provided by the runtime environment is the ability of microservice framework to exploit provided utilities. In this three-part blog, we will demonstrate how KumuluzEE microservice framework is able to make use of Kubernetes for optimal execution of the microservices.

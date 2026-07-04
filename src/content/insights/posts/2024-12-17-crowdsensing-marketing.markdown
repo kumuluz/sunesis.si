@@ -3,11 +3,9 @@ layout: post
 title:  "Crowdsensing v marketingu: Kako lahko podatki izboljšajo marketinške strategije?"
 date:   2024-12-17
 author: ezupancic
-categories: [Crowdsensing]
-tags: [Crowdsensing, KumuluzCrowdsensing, Marketing]
+categories: [Kumuluz, Research & Innovation]
+tags: [Kumuluz Crowdsensing, Research projects, Crowdsensing, Marketing]
 ---
-
-
 Crowdsensing je revolucionarna metoda zbiranja podatkov, ki jo podjetja lahko uporabijo za izboljšanje svojih marketinških strategij. Namesto da se zanašajo zgolj na tradicionalne metode raziskav trga, lahko podjetja z množičnim zbiranjem podatkov v realnem času pridobijo natančnejši vpogled v vedenje potrošnikov.
 <!--more-->
 

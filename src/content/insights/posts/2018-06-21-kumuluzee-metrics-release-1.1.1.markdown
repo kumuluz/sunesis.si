@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE MicroProfile Metrics 1.1.1 released"
 date:   2018-06-21
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE MicroProfile Metrics, KumuluzEE Metrics, Metrics, MicroProfile, Eclipse MicroProfile]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Eclipse MicroProfile, KumuluzEE Metrics, KumuluzEE MicroProfile Metrics, Metrics, MicroProfile]
 ---
-
 We're happy to announce the release of KumuluzEE Metrics 1.1.1. This release implements the MicroProfile Metrics 1.1.1
 specification, which brings a new `reusable` flag, integration with KumuluzEE MicroProfile Config and some general
 improvements to the programmatic API.

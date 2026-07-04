@@ -3,10 +3,9 @@ layout: post
 title:  "Release of KumuluzEE Rest Client 1.2.1"
 date:   2019-03-15
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Rest Client, REST API, MicroProfile, Eclipse MicroProfile]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Eclipse MicroProfile, KumuluzEE Rest Client, MicroProfile, REST API]
 ---
-
 We are pleased to announce the release of KumuluzEE Rest Client 1.2.1. This release brings support for better header
 generation and propagation of headers from incoming requests, read and connect timeouts and other enhancements.
 KumuluzEE Rest Client 1.2.1 implements the MicroProfile Rest Client 1.2 specification.

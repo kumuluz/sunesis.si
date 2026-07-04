@@ -3,10 +3,9 @@ layout: post
 title:  "Announcing KumuluzEE Fault Tolerance 2.0.0"
 date:   2019-06-11
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Fault Tolerance, Circuit Breaker, Retry, Bulkhead, Timeout, Fallback, Microprofile Fault Tolerance]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Research & Innovation, Company]
+tags: [Cloud-native, Research projects, Bulkhead, Circuit Breaker, Fallback, KumuluzEE Fault Tolerance, Microprofile Fault Tolerance, Retry, Timeout]
 ---
-
 We are happy to announce the release of KumuluzEE Fault Tolerance 2.0.0. This release brings a new implementation -
 kumuluzee-fault-tolerance-smallrye.
 

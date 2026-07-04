@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Testing released"
 date:   2018-06-19
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Testing, Arquillian, jUnit, TestNG]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Arquillian, jUnit, KumuluzEE Testing, TestNG]
 ---
-
 We're announcing the first release of the KumuluzEE Testing tools. The first release contains the KumuluzEE Arquillian
 Container Adapter, which brings the popular integration testing framework Arquillian to the KumuluzEE.
 

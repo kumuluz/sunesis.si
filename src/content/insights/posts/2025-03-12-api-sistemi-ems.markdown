@@ -3,11 +3,9 @@ layout: post
 title:  "KumuluzAPI kot orodje za integracijo energetskih naprav z EMS sistemi"
 date:   2025-03-12
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, EMS]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
+tags: [Kumuluz API, API management, Cloud-native, API, EMS]
 ---
-
-
 Ena od največjih izzivov sodobnih energetskih sistemov je, kako med seboj povezati zelo raznolike naprave – od sončnih elektrarn in baterijskih hranilnikov do pametnih merilnikov, vtičnic in ogrevalnih sistemov. Vsaka naprava običajno uporablja svoj protokol in svoj način komunikacije. Če želimo, da vse te komponente sodelujejo znotraj enotnega EMS (Energy Management System), potrebujemo zanesljiv način upravljanja njihovih API-jev.
 
 Prav tu pride na pomoč KumuluzAPI, sodobna platforma za upravljanje API-jev, ki poenostavi in standardizira integracijo.

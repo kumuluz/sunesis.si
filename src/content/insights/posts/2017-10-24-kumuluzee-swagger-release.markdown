@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Swagger extension"
 date:   2017-10-24
 author: zvoneg
-categories: [Product, Developers]
-tags: [KumuluzEE Swagger, Swagger-UI]
+categories: [Kumuluz, API & Integration, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, KumuluzEE Swagger, Swagger-UI]
 ---
-
 KumuluzEE Swagger extension is released! You can now provide Swagger/OpenAPI v2 specification for your APIs simply by including KumuluzEE Swagger dependency and annotating your REST API.
 KumuluzEE Swagger will expose Swagger specification for your API when your microservice is started.
 

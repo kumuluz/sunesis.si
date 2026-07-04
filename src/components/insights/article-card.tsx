@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import type { StaticImageData } from 'next/image'
 import type { InsightPost } from '../../views/insights/types'
 import { cardHover } from '../cards/card-hover'
@@ -6,7 +7,7 @@ type ArticleCardProps = {
   post: InsightPost
   thumbnail: StaticImageData
   href: string
-  topics: string[]
+  categoryLabels: Record<string, string>
   dateLabel: string
 }
 
@@ -14,17 +15,23 @@ export function ArticleCard({
   post,
   thumbnail,
   href,
-  topics,
+  categoryLabels,
   dateLabel,
 }: ArticleCardProps) {
+  const topics = post.categories.map(
+    (category) => categoryLabels[category] ?? category,
+  )
+
   return (
     <article className={`group relative flex flex-col ${cardHover}`}>
       <div className="relative aspect-[16/10] overflow-hidden rounded-xl border border-neutral-200 bg-neutral-100">
-        <img
+        <Image
           alt=""
           className="size-full object-cover"
+          fill
           loading="lazy"
-          src={thumbnail.src}
+          sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
+          src={thumbnail}
         />
       </div>
 

@@ -3,10 +3,9 @@ layout: post
 title:  "Announcing release of KumuluzEE OpenTracing 1.3.1"
 date:   2019-03-18
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE OpenTracing, Microprofile, Jaeger, Zipkin]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Jaeger, KumuluzEE OpenTracing, Microprofile, Zipkin]
 ---
-
 We are releasing KumuluzEE OpenTracing v1.3.1. It implements the MicroProfile OpenTracing specification 1.3.1. This
 version brings integration with the KumuluzEE Rest Client.
 

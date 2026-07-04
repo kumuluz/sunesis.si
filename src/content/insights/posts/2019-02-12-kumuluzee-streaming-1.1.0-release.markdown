@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Event Streaming 1.1.0 released"
 date:   2019-02-12
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Event Streaming, Kafka ]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Kafka, KumuluzEE Event Streaming]
 ---
-
 We are pleased to announce the release of KumuluzEE Streaming 1.1.0. This release includes support for configuration
 overrides through annotations. Kafka client has also been updated and some bugs have been fixed.
 

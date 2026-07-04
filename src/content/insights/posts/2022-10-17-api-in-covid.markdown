@@ -3,10 +3,9 @@ layout: post
 title:  "Kako je COVID-19 pripomogel k razumevanju in uporabi API-jev"
 date:   2022-10-17
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, digitalna transformacija, Covid-19]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Company]
+tags: [Kumuluz API, Workflow automation, API management, Cloud-native, API, Covid-19, digitalna transformacija]
 ---
-
 Največja škoda, ki jo je povzročila pandemija COVID-19 je bila poleg ogrožanja človeškega zdravja in življenj ter padca zdravstvenega sistema, ohromitev globalne ekonomije in prekinitev dobavnih verig. COVID-19 nas je poleg postavil pred zdravstvene, gospodarske in socialne preizkušnje, države pa silil v zapiranje javne infrastrukture in omejevanje fizičnih stikov. 
 
 Podjetja v določenih sektorjih (kot so letalske družbe, turistična podjetja) so bila resno resno ogrožena, brez večjih možnosti prilagoditve. Druga (trgovina na drobno, gostinstvo in mnogo drugih sektorjev) pa prisiljena v prilagoditev poslovne strategije za doseganje baze strank prek alternativnih kanalov. Tu pa nastopi digitalna tehnologija, vključno z API-ji.

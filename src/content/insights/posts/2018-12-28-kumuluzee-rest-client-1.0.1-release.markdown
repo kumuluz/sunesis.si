@@ -3,10 +3,9 @@ layout: post
 title:  "Initial release of KumuluzEE Rest Client is here"
 date:   2018-12-28
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Rest Client, REST API, MicroProfile, Eclipse MicroProfile]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Eclipse MicroProfile, KumuluzEE Rest Client, MicroProfile, REST API]
 ---
-
 We're happy to announce the first release of KumuluzEE Rest Client. This release implements the MicroProfile Rest Client
 1.0.1 specification.
 

@@ -3,10 +3,9 @@ layout: post
 title:  "Announcing initial release of KumuluzEE OpenTracing!"
 date:   2019-02-18
 author: evader1337
-categories: [Product, Developers]
-tags: [KumuluzEE OpenTracing, Microprofile, Jaeger, Zipkin]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Research projects, Jaeger, KumuluzEE OpenTracing, Microprofile, Zipkin]
 ---
-
 The first version of KumuluzEE OpenTracing has been released. It implements the MicroProfile OpenTracing specification
 1.2.1. Initial version of KumuluzEE OpenTracing brings full power of distributed tracing to your new/existing
 microservices. From automatic tracing of incoming JAX-RS requests to tracing function calls with annotations, the

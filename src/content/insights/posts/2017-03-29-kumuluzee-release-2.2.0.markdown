@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 2.2.0 released"
 date:   2017-03-29
 author: tfaga
-categories: [Product]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Research projects, Java EE, KumuluzEE, Microservices]
 ---
-
 We're announcing the availability of KumuluzEE version 2.2.0. This is a relatively small release which includes a few key additions to the advanced logging framework introduced in the previous release. The reason for the minor version bump is that we added a few enhancements which are described below. If you're using it and the [KumuluzEE Logs](https://github.com/kumuluz/kumuluzee-logs) project, you need to also update it to its latest corresponding version that supports the included enhancements.
 
 <!--more-->

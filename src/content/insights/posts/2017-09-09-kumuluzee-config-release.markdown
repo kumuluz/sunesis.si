@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Config extension"
 date:   2017-09-09
 author: jmezna
-categories: [Product, Developers]
-tags: [KumuluzEE Config, etcd, Consul]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Consul, etcd, KumuluzEE Config]
 ---
-
 We're happy to announce the initial version of the **KumuluzEE Config**
 extension v1.0.0 for the KumuluzEE framework.
 

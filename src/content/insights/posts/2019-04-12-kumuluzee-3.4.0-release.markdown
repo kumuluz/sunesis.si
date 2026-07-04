@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 3.4.0 released!"
 date:   2019-04-12
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are happy to announce the release of KumuluzEE version 3.4.0.
 
 This release brings a new utility class `JsonConfigurationUtil`, a companion to the familiar `ConfigurationUtil`. It

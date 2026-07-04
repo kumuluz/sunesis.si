@@ -3,10 +3,9 @@ layout: post
 title:  "5 spoznanj iz gradnje AI rešitev na Azure - Sunesis na NTK 2024"
 date:   2024-09-19
 author: gregorgabrovsek
-categories: []
-tags: [umetna inteligenca, Azure, KumuluzAI, NTK2024]
+categories: [AgenticAI, Kumuluz, Research & Innovation, Company]
+tags: [KumuluzAI, Workflow automation, Research projects, Azure, NTK2024, umetna inteligenca]
 ---
-
 Na prihajajoči NT konferenci 2024 bomo v prispevku **5 ključnih spoznanj iz gradnje skalabilnih in varnih AI rešitev za podjetja z Azure** v torek, 24. septembra, predstavili ključne izzive pri razvoju AI rešitev in njihovo vključenost v informacijske sisteme.
 
 Ponudili bomo vpogled v konkretne izzive, s katerimi se soočamo pri implementaciji sistemov, ki nadgrajujejo poslovne procese s pomočjo umetne inteligence. Rešitve na te izzive bomo poslušalcem približali s pomočjo **demonstracije dveh AI sistemov** - sistem za analizo medijskih objav, ki **delovanje naše AI komponente obogati s pomočjo spletnih virov,** ter sistem za analizo dokumentacije, ki lahko **velike količine podatkov podjetja na varen način obdela** ter uporabniku omogoča analizo informacij, podrobno primerjanje besedil ter generiranje dokumentov.

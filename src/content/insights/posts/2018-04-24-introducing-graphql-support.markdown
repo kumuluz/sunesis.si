@@ -3,10 +3,9 @@ layout: post
 title:  "Introducing KumuluzEE GraphQL extension (1.0.0-SNAPSHOT)"
 date:   2018-04-24
 author: evader1337
-categories: [Product, Developers]
-tags: [KumuluzEE GraphQL, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Java EE, KumuluzEE GraphQL, Microservices]
 ---
-
 We have released the first snapshot of **KumuluzEE GraphQL** extension. 
 
 GraphQL is a data query language developed internally at Facebook in 2012 before being publicly released in 2015. It provides an alternative to REST and ad-hoc webservice architectures. It allows clients to define the structure of the data required, and exactly the same structure of the data is returned from the server. It is a strongly typed runtime which allows clients to dictate what data is needed. This avoids both the problems of over-fetching as well as under-fetching of data.

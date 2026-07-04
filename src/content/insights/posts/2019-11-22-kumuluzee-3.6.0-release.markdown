@@ -3,10 +3,9 @@ layout: post
 title:  "Support for MicroProfile 3.0 is here!"
 date:   2019-11-22
 author: jmezna
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are happy to announce the release of KumuluzEE 3.6.0. This release includes a brand new profile for MicroProfile 3.0 specification. 
 
 MicroProfile 3.0 specification consists of the following components:

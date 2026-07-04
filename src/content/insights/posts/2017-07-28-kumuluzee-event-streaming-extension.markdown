@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Event Streaming extension"
 date:   2017-07-28
 author: matijaklj
-categories: [Product, Developers]
-tags: [KumuluzEE Event Streaming, Kafka ]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Kafka, KumuluzEE Event Streaming]
 ---
-
 We are announcing the release of **KumuluzEE Streaming** extension which provides easy-to-use annotations for developing microservices that produce or consume event streams. 
 
 <!--more-->

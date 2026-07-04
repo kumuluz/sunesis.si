@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE MicroProfile Config 2.0.0 released"
 date:   2022-07-14
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are excited to announce the next major release of KumuluzEE Config MP. KumuluzeEE Config MP 2.0.0 implements the
 MicroProfile Config 2.0 specification, which includes many improvements, among others the support for the
 `@ConfigProperties` annotation which extracts bulk config properties into a POJO, the API which allows developers to

@@ -3,10 +3,9 @@ layout: post
 title:  "Introducing KumuluzEE 3.9.0 with MicroProfile 3.3"
 date:   2020-04-08
 author: jmezna
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are happy to announce the release of [KumuluzEE 3.9.0](https://github.com/kumuluz/kumuluzee/releases/tag/v3.9.0), which brings support for MicroProfile 3.3. 
 
 <!--more-->

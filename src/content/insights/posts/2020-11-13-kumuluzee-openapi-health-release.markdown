@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE OpenAPI MP and KumuluzEE Health new versions released"
 date:   2020-11-13
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE OpenAPI, KumuluzEE Health, Microprofile, JavaEE]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, JavaEE, KumuluzEE Health, KumuluzEE OpenAPI, Microprofile]
 ---
-
 New versions of [_KumuluzEE OpenAPI MP_](https://github.com/kumuluz/kumuluzee-openapi-mp) and [_KumuluzEE Health_](https://github.com/kumuluz/kumuluzee-health) were released today.
 
 <!--more-->

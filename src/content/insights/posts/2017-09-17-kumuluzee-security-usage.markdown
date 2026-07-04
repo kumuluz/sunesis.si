@@ -3,10 +3,9 @@ layout: post
 title:  "Using KumuluzEE Security"
 date:   2017-09-17
 author: benjamink
-categories: [Product, Developers]
-tags: [KumuluzEE Security, OAuth 2.0, OpenID]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
+tags: [Kumuluz API, Cloud-native, Research projects, KumuluzEE Security, OAuth 2.0, OpenID]
 ---
-
 KumuluzEE Security is a security extension for the KumuluzEE microservice framework. It provides support for OpenID 
 authentication through standard Java EE security annotations for roles. It is specifically targeted towards securing 
 REST services. Roles are mapped to the selected OpenID provider. KumuluzEE Security has been designed to work with 

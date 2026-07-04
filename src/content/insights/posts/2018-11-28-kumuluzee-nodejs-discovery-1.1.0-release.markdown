@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Nodejs Discovery 1.1.0 released"
 date:   2018-11-28
 author: mihaj
-categories: [Product, Developers]
-tags: [KumuluzEE Nodejs, KumuluzEE Nodejs Discovery, discovery]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, discovery, KumuluzEE Nodejs, KumuluzEE Nodejs Discovery]
 ---
-
 We're releasing the KumuluzEE Nodejs Discovery 1.1.0. This version updates node-etcd dependency to provide better support for latest nodejs lts version. It also fixes bugs related to node-etcd.
 
 [Samples](https://github.com/kumuluz/kumuluzee-nodejs-samples/tree/master/kumuluzee-nodejs-discovery) have been updated to use latest version.

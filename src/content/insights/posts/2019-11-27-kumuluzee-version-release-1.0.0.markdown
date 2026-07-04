@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Version 1.0.0 released"
 date:   2019-11-27
 author: jmezna
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE Version, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, KumuluzEE Version, Microservices]
 ---
-
 We are releasing a first version of KumuluzEE Version, a simple KumuluzEE extension that provides mechanisms for exposing version details of your microservices.
 
 <!--more-->

@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE-gRPC extension v1 released!"
 date:   2018-10-11
 author: primozh
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices, gRPC]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, gRPC, Java EE, KumuluzEE, Microservices]
 ---
-
 We are happy to announce first stable release of KumuluzEE-gRPC extension.
 This extension provides an easy way to include gRPC communication protocol in your existing KumuluzEE microservices.
 Define API (using Protobufs), extend generated classes, provide configuration and you are good to go!

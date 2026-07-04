@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Discovery 1.1 released"
 date:   2018-01-25
 author: urbim
-categories: [Product, Announcement]
-tags: [KumuluzEE Discovery, etcd, Consul]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Consul, etcd, KumuluzEE Discovery]
 ---
-
 We’re announcing the availability of the KumuluzEE Discovery 1.1.0 extension, an update to the microservice discovery framework that uses etcd or Consul as the backend.
 
 <!--more-->

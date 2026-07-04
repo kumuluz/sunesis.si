@@ -4,10 +4,9 @@ title:  "API ekonomija - Kaj je in kako vam lahko pomaga pri rasti vašega podje
 date:   2021-04-06
 author: zvoneg
 author2: matjazbj
-categories: [API]
-tags: [API, KumuluzAPI, API ekonomija, Upravljanje API-jev]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps]
+tags: [Kumuluz API, API management, Cloud-native, API, API ekonomija, Upravljanje API-jev]
 ---
-
 Preprosto povedano API-ji določajo, kako naj dve aplikaciji med seboj komunicirata oziroma izmenjata podatke. Čeprav se 
 sliši definicija API-ja izjemno preprosta, pa je s prihodom API-jev zaživela povsem nova ekonomija – API ekonomija, ki 
 pa postaja vse bolj kompleksna in zahtevna, a ključna za rast in razvoj skoraj vsake organizacije. 

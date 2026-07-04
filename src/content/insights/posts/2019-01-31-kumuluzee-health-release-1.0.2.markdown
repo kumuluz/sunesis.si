@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Health 1.0.2 released"
 date:   2019-01-31
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Health, Microprofile-Health, HTTP health check]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, HTTP health check, KumuluzEE Health, Microprofile-Health]
 ---
-
 We are announcing a minor release of KumuluzEE Health. This release comes with updated dependencies, support for
 Java 9+ and support for disabling the extension through configuration.
 

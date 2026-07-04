@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 2.6.0 released"
 date:   2019-03-01
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Java EE, KumuluzEE, Microservices]
 ---
-
 __NOTE:__ The KumuluzEE 2.x.x releases are meant for projects still dependent on Java EE 7. If starting a new project
 the usage of KumuluzEE 3.x.x is highly recommended.
 

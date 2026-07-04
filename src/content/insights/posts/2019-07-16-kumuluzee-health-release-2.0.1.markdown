@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Health 2.0.1 released"
 date:   2019-07-16
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Health, Microprofile-Health, HTTP health check]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Kubernetes, HTTP health check, KumuluzEE Health, Microprofile-Health]
 ---
-
 We are happy to announce a new major version of the KumuluzEE Health. This version implements the MicroProfile Health
 2.0 specification. This release contains updates which improve the compatibility of health checks with Kubernetes and
 its readiness and liveness probes.

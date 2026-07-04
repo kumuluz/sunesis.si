@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Health 1.0 released"
 date:   2017-12-19
 author: skrjanec
-categories: [Product, Developers]
-tags: [KumuluzEE Health, Microprofile-Health]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, KumuluzEE Health, Microprofile-Health]
 ---
-
 We're happy to announce the initial version of the KumuluzEE Health extension v1.0.0 for the KumuluzEE framework.
 
 <!--more-->

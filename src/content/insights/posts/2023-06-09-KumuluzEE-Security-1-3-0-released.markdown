@@ -3,10 +3,9 @@ layout: post
 title: "KumuluzEE Security 1.3.0 released"
 date: 2023-06-09
 author: mihaj
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are excited to announce a new minor version of KumuluzEE Security - 1.3.0.
 
 This release adds support for new authentication provider - Firebase Authentication.

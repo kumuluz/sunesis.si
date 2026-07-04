@@ -3,10 +3,9 @@ layout: post
 title:  "Announcing KumuluzEE 3.3.0"
 date:   2019-04-01
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are releasing KumuluzEE version 3.3.0.
 
 This release adds a new feature that enables you to intercept and apply transformation to a value that is being read

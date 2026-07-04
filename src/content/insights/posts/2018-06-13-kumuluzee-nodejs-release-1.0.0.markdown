@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE is now on Node!"
 date:   2018-06-13
 author: mihaj
-categories: [Product, Developers]
-tags: [KumuluzEE Nodejs, KumuluzEE Nodejs Config, KumuluzEE Nodejs Discovery]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, KumuluzEE Nodejs, KumuluzEE Nodejs Config, KumuluzEE Nodejs Discovery]
 ---
-
 We are announcing the release of libraries for Node.js platform **@kumuluz/kumuluzee-config@1.0.0-snapshot**
 and **@kumuluz/kumuluzee-discovery@1.0.0-snapshot**.
 

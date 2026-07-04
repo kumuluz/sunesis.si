@@ -3,10 +3,9 @@ layout: post
 title:  "New releases of KumuluzEE OpenAPI MP and Health"
 date:   2020-11-02
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE OpenAPI, KumuluzEE Health, Microprofile, JavaEE]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, JavaEE, KumuluzEE Health, KumuluzEE OpenAPI, Microprofile]
 ---
-
 We have just released new versions of [KumuluzEE OpenAPI MP](https://github.com/kumuluz/kumuluzee-openapi-mp) and [KumuluzEE Health](https://github.com/kumuluz/kumuluzee-health). New features include a Maven plugin which generates OpenAPI schema at compile-time, a new health check for Kafka clusters and integration between the two extensions.
 
 <!--more-->

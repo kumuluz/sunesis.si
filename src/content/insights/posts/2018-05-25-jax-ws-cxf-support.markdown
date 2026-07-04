@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE adds the Apache CXF JAX-WS implementation"
 date:   2018-05-25
 author: gregorp
-categories: [Product, Developers]
-tags: [KumuluzEE, Java EE, JAX-WS, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, JAX-WS, KumuluzEE, Microservices]
 ---
-
 We are happy to announce the support for widely used CXF implementation of Java API for XML Web Services (JAX-WS). The release 3.0.0 of KumuluzEE microservice framework will bring the support for SOAP web services with context dependency injection (CDI).
 
 <!--more-->

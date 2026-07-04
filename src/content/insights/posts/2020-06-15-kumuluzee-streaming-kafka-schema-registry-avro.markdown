@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Kafka Streaming with Schema Registry"
 date:   2020-06-15
 author: cen1
-categories: [Product, Developers]
-tags: [KumuluzEE, Streaming, Kafka, Schema Registry]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Workflow automation, Cloud-native, Research projects, Kafka, KumuluzEE, Schema Registry, Streaming]
 ---
-
 Apache Kafka is an excellent tool enabling asynchronous architecture in the modern microservice world. While Kafka offers very high-level abstractions in the form of Producer/Consumer APIs, Streams API, and Processor APIs, there is no out of the box support for managing the schema of records. [Confluent Schema Registry](https://github.com/confluentinc/schema-registry) is a tool solving this problem. This guide will show how you can use Schema Registry with [kumuluzee-streaming](https://github.com/kumuluz/kumuluzee-streaming) and suggest a typical development flow for this setup.
 
 <!--more-->

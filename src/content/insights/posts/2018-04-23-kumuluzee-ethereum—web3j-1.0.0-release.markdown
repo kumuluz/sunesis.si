@@ -3,8 +3,8 @@ layout: post
 title:  "KumuluzEE Ethereum 1.0.0-SNAPSHOT is here!"
 date:   2018-04-23
 author: domeng
-categories: [Product, Community, Developers]
-tags: [KumuluzEE Ethereum, Java EE, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Java EE, KumuluzEE Ethereum, Microservices]
 ---
 Pre-release version of Ethereum extension for KumuluzEE framework is now available.
 

@@ -3,10 +3,9 @@ layout: post
 title:  "Bančništvo 4.0: Kako obvladovati priložnosti in izzive?"
 date:   2022-02-11
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, bančništvo]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps]
+tags: [Kumuluz API, API management, Cloud-native, API, bančništvo]
 ---
-
 Odprto bančništvo prinaša številne priložnosti za vpeljavo novih poslovnih modelov. Uporabnikom in komitentom prinaša višjo inovativnost in konkurenčnost finančnih ponudnikov. Finančnim institucijam pa posledično številne izzive. Poglejmo si, kako učinkovito obvladovati izzive na področju Bančništva 4.0 in katera orodja nam pri tem lahko koristijo.
 
 <!--more-->

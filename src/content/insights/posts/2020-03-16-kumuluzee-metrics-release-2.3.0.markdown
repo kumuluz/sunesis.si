@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Metrics 2.3.0 released"
 date:   2020-03-16
 author: jmezna
-categories: [Product, Developers]
-tags: [KumuluzEE Metrics, Metrics, MicroProfile, Eclipse MicroProfile]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Eclipse MicroProfile, KumuluzEE Metrics, Metrics, MicroProfile]
 ---
-
 We are happy to announce a release of KumuluzEE Metrics 2.3.0. This release implements the MicroProfile Metrics 2.3 specification. 
 
 <!--more-->

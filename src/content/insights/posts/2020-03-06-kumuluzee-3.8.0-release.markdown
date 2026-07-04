@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 3.8.0 released!"
 date:   2020-03-06
 author: jmezna
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are happy to announce the release of the KumuluzEE 3.8.0. The new release brings a new database connection pool implementation which improves the JTA transaction handling. 
 
 <!--more-->

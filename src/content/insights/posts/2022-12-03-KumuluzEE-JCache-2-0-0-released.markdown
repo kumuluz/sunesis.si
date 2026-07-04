@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE JCache 2.0.0 released"
 date:   2022-12-03
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are excited to announce the next major version of KumuluzEE JCache - 2.0.0. This release adds support for the newest KumuluzEE version 4 and adds support for Java 17 LTS and Java 18.
 
 This release also uses the new configuration prefix `kumuluzee.jcache.caffeine.caches` instead of `kumuluzee.jcache.caffeine.caffeine.jcache` and adds support for the entire configuration framework instead only yaml files, including overriding properties from ENV variables.

@@ -3,10 +3,9 @@ layout: post
 title:  "Announcing a new minor release - KumuluzEE 3.12.0!"
 date:   2021-01-13
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are excited to announce a new KumuluzEE minor version - KumuluzEE 3.12.0! The most significant feature in this
 release is the support for Java 15. Dependencies have been updated to their latest minor versions, and a collection of
 tough bugs have been cracked. Check out the full changelog below:

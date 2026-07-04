@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Health 2.4.4 released"
 date:   2022-11-30
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We have released a minor release of KumuluzEE Health 2.4.4 with the following:
 This patch release fixes a initialization bug, where built-in health checks were not initialized from configuration.
 Bugs:

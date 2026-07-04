@@ -3,10 +3,9 @@ layout: post
 title:  "Etcd health check"
 date:   2017-12-13
 author: skrjanec
-categories: [Product, Developers]
-tags: [KumuluzEE Health, Microprofile-Health, Etcd health check]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source]
+tags: [Cloud-native, Etcd health check, KumuluzEE Health, Microprofile-Health]
 ---
-
 KumuluzEE Health extension health check set has been expanded with an **EtcdHealthCheck**.
 
 <!--more-->

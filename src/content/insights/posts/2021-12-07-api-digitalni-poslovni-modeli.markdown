@@ -3,11 +3,9 @@ layout: post
 title:  "Novi digitalni poslovni modeli, ki jih omogočajo API-ji"
 date:   2021-12-07
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, digitalni poslovni modeli]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Company]
+tags: [Kumuluz API, Cloud-native, API, digitalni poslovni modeli]
 ---
-
-
 API-ji so koristni tako za podjetja, ki jih izpostavijo, kot tudi za razvijalce, ki jih uporabijo. Razvijalci z uporabo API-jev uporabijo že obstoječe programske komponente, namesto da se poslužijo razvoja novih in tako prihranijo čas in denarni vložek. Podjetja, ki pa izpostavijo/ponujajo svoje API-je, pa lahko promovirajo svoje rešitve in zaslužijo s prodajo le-teh. Več o osnovah API ekonomije si lahko preberete [tukaj](https://blog.sunesis.si/api/2021/04/06/kumuluzapi-api-economy).
 
 Kakšne digitalne modele pa omogočajo API-ji?

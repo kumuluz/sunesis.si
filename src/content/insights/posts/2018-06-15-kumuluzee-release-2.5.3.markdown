@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 2.5.3 released"
 date:   2018-06-15
 author: urbim
-categories: [Product, Announcement]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are announcing the availability of KumuluzEE version 2.5.3.
 This version represents a maintenance update, which exposes the necessary functionalities required by the Arquillian
 extension.

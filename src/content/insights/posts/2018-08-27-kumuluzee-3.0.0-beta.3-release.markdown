@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 3.0.0 beta 3 is released"
 date:   2018-08-27
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are happy to announce the third prerelease of the KumuluzEE 3.0.0 Beta. The v3.0.0-beta.3 prerelease of KumuluzEE
 framework further improves on the v3.0.0-beta.2 prerelease.
 

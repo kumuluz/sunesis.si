@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 2.5.2 released"
 date:   2018-02-09
 author: tfaga
-categories: [Product, Announcement]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Java EE, KumuluzEE, Microservices]
 ---
-
 We are announcing the availability of KumuluzEE version 2.5.2.
 This version brings important features and fixes to various bugs.
 

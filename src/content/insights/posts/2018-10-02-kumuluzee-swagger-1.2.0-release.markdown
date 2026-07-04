@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Swagger 1.2.0 released!"
 date:   2018-10-02
 author: zvoneg
-categories: [Product, Developers, Announcement]
-tags: [KumuluzEE Swagger, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE Swagger, Microservices]
 ---
-
 New release of KumuluzEE Swagger has arrived. With version 1.2.0 we are bringing new features and enhancements.
 
 **Features**:

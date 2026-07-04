@@ -3,10 +3,9 @@ layout: post
 title:  "Using KumuluzEE CORS"
 date:   2017-09-26
 author: zvoneg
-categories: [Product, Developers]
-tags: [KumuluzEE CORS, Cross-Origin]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
+tags: [Kumuluz API, Cloud-native, Research projects, Cross-Origin, KumuluzEE CORS]
 ---
-
 KumuluzEE CORS filter extension for the KumuluzEE microservice framework supports:
 
 * **Browser script perspective**: Allowing cross-domain requests, which are subject to tihter controls on the types of data that is exchanged.

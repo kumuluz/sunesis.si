@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Reactive extension"
 date:   2017-12-17
 author: zanozbot
-categories: [Product, Developers]
-tags: [KumuluzEE Reactive, Vert.x]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, KumuluzEE Reactive, Vert.x]
 ---
-
 We are announcing the release of KumuluzEE Reactive extension for developing reactive microservices and integration with reactive streams (Vert.x and similar).
 
 <!--more-->

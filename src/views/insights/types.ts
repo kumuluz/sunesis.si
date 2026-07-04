@@ -6,6 +6,7 @@ export type InsightPost = {
   date: string
   authors: string
   categories: string[]
+  tags: string[]
   excerpt: string
   minutes: number
 }

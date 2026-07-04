@@ -3,10 +3,9 @@ layout: post
 title:  "Možnosti uporabe KumuluzAPI za rešitve v okolju pametnih mest"
 date:   2023-11-22
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, pametna mesta]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Research & Innovation]
+tags: [Kumuluz API, Workflow automation, API management, Cloud-native, Research projects, API, pametna mesta]
 ---
-
 Pametna mesta so prihodnost urbanega življenja. Z uporabo naprednih tehnologij in podatkov pametna mesta omogočajo učinkovitejše delovanje, izboljšujejo kakovost življenja prebivalcev ter zmanjšujejo okoljski odtis. Ključ do uspešne digitalne transformacije mest je povezanost različnih storitev, naprav in sistemov, kar omogoča nemoten pretok podatkov in informacij. Eden najpomembnejših gradnikov pri tem so API-ji (Application Programming Interfaces), ki omogočajo integracijo med različnimi sistemi. **V tem blogu bomo raziskali, kako je mogoče z uporabo platforme KumuluzAPI učinkovito implementirati rešitve za pametna mesta.**
 
 <!--more-->

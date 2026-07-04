@@ -3,10 +3,9 @@ layout: post
 title:  "Ali stranke dovolijo spremljanje njihove lokacije in zakaj?"
 date:   2021-05-21
 author: ezupancic
-categories: [Crowdsensing]
-tags: [Crowdsensing, KumuluzCrowdsensing, Geo-lokacija]
+categories: [Kumuluz, Cloud-native & DevOps, Research & Innovation]
+tags: [Kumuluz Crowdsensing, Cloud-native, Research projects, Crowdsensing, Geo-lokacija]
 ---
-
 Kratek povzetek nekaterih zanimivih izsledkov raziskav o tem, ali se uporabniki strinjajo s tem, da se spremlja njihova lokacija. 
 
 <!--more-->

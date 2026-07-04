@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE CORS 2.0.0 released"
 date:   2022-12-02
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are excited to announce the next major version of KumuluzEE CORS - 2.0.0. This release adds support for the newest KumuluzEE version 4 and adds support for Java 17 LTS and Java 18.
 Since the support for Java 1.8 is dropped by KumuluzEE 4.x, the KumuluzEE CORS 2.0.0 also drops support for Java 1.8.
 

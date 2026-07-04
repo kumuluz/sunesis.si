@@ -3,10 +3,9 @@ layout: post
 title:  "Kako se povezati s strankami ob pravem času in na pravem mestu? Uporaba geolokacije za pošiljanje sporočil."
 date:   2021-06-22
 author: ezupancic
-categories: [Crowdsensing]
-tags: [Crowdsensing, KumuluzCrowdsensing, Geo-lokacija]
+categories: [Kumuluz, Research & Innovation]
+tags: [Kumuluz Crowdsensing, Research projects, Crowdsensing, Geo-lokacija]
 ---
-
 Nekatera sporočila imajo smisel samo, če so poslana ob pravem trenutku in na pravi lokaciji. **Geo-ograja (angl. geo-fence)** je navidezna ograja okrog katerekoli lokacije na zemljevidu. Z njo lahko definiramo določimo geografski območje in sledimo dogajanja znotraj tega. Strankam, ki **vstopijo, izstopijo ali preživijo določen čas na tem območju,** lahko pošljemo sporočila, ki imajo pomen samo na tej lokaciji in na ta način poskbrimo za boljšo uporabniško izkušnjo.
 
 <!--more-->

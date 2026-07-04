@@ -3,10 +3,9 @@ layout: post
 title:  "Using KumuluzEE Reactive Vert.x"
 date:   2017-12-17
 author: zanozbot
-categories: [Product, Developers]
-tags: [KumuluzEE Reactive, Vert.x]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
+tags: [Kumuluz API, Cloud-native, Research projects, KumuluzEE Reactive, Vert.x]
 ---
-
 KumuluzEE Reactive is an extension for developing reactive microservices for the KumuluzEE microservice framework.
 
 KumuluzEE Reactive provides integration with Vert.x distributed event bus, integration with Vert.x service discovery, easy-to-use annotations for developing microservices that listen to or produce messages on the Vert.x distributed event bus and a service discovery bridge for importing and exporting services from Vert.x Service Discovery to KumuluzEE Discovery (for Consul and etcd).

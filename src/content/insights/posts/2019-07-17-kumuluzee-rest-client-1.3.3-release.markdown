@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Rest Client 1.3.3 released"
 date:   2019-07-17
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Rest Client, REST API, MicroProfile, Eclipse MicroProfile]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Eclipse MicroProfile, KumuluzEE Rest Client, MicroProfile, REST API]
 ---
-
 We are happy to present a new release of KumuluzEE Rest Client. This version implements the MicroProfile Rest Client
 1.3.3 specification. It includes support for advanced SSL configuration, enables simpler configuration with
 configuration keys and other enhancements.

@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE MicroProfile Metrics now implements MicroProfile Metrics 1.1"
 date:   2018-01-24
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE MicroProfile Metrics, metrics, MicroProfile, Eclipse MicroProfile]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Eclipse MicroProfile, KumuluzEE MicroProfile Metrics, metrics, MicroProfile]
 ---
-
 KumuluzEE Metrics, an implementation of the Eclipse MicroProfile Metrics API, has been updated to support the Eclipse
 MicroProfile Metrics 1.1.
 

@@ -3,10 +3,9 @@ layout: post
 title:  "Support for MicroProfile 2.2 and Java 12 is here!"
 date:   2019-06-29
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are happy to announce the release of KumuluzEE 3.5.0. This release includes a brand new profile for MicroProfile 2.2.
 MicroProfile 2.2 contains upgrades to existing extensions which are now better than ever. This release also fully
 supports Java 12.

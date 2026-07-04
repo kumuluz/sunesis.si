@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE OpenAPI Microprofile 1.1.2 released"
 date:   2019-06-14
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE OpenAPI, Microprofile, Java EE]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Java EE, KumuluzEE OpenAPI, Microprofile]
 ---
-
 We are happy to announce the release of KumuluzEE OpenAPI MicroProfile 1.1.2. It implements the updated MicroProfile OpenAPI
 specification 1.1.2. It features the support for JAX-RS `PATCH` method and improves usability of various annotations.
 We have also optimized the scanning process which greatly reduces the startup time. Another

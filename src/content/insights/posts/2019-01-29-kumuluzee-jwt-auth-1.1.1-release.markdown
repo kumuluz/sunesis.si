@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE JWT Auth 1.1.1 released"
 date:   2019-01-29
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE JWT Auth, JWT, OpenID Connect, OIDC]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, JWT, KumuluzEE JWT Auth, OIDC, OpenID Connect]
 ---
-
 We are announcing the release of KumuluzEE JWT Auth 1.1.1. This release brings simplified configuration, as manual
 import of the JWT filter and dynamic feature is no longer required and is done automatically. KumuluzEE JWT Auth now
 implements the MicroProfile JWT Authentication 1.1. It also fully supports Java 9+.

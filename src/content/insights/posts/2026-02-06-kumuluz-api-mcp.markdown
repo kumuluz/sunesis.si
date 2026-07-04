@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzAPI MCP strežnik"
 date:   2026-02-06
 author: rokra
-categories: [API]
-tags: [KumuluzAPI, MCP, umetna inteligenca]
+categories: [AgenticAI, Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Research & Innovation]
+tags: [KumuluzAI, Kumuluz API, AI agents, MCP, Cloud-native, Research projects, umetna inteligenca]
 ---
-
 Model Context Protocol (MCP) je v zadnjem času postal de facto standard za varno povezovanje velikih jezikovnih modelov (LLM) z zunanjimi aplikacijami in podatki. S tem protokolom modele “opremimo” z dodatnimi sposobnostmi in jim tako omogočimo dostop do specifičnih informacij, ki jih v osnovi nimajo.
 
 Z veseljem naznanjamo, da smo v koraku z globalnimi tehnološkimi trendi kot eni prvih v Sloveniji razvili lasten **MCP strežnik**, ki je integriran neposredno v našo KumuluzAPI platformo.

@@ -3,10 +3,9 @@ layout: post
 title:  "API Management v najzahtevnejših poslovnih okoljih"
 date:   2021-09-23
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, API management]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps]
+tags: [Kumuluz API, API management, Cloud-native, API]
 ---
-
 Najuspešnejša hitro rastoča podjetja svoje poslovanje danes širijo predvsem na podlagi digitalnih rešitev, <u>digitalnih poslovnih modelov</u>  ter digitalnih sredstev. Razumejo API ekonomijo in s kreiranjem digitalnih sredstev rušijo fizične omejitve rasti, saj so digitalna sredstva enostavno ponovljiva in skalabilna.
 
 

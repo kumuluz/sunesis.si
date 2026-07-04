@@ -3,10 +3,9 @@ layout: post
 title:  "Go packages for KumuluzEE are now available"
 date:   2019-03-12
 author: martinc
-categories: [Product, Developers]
-tags: [KumuluzEE Go, KumuluzEE Go Config, KumuluzEE Go Discovery]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source, Company]
+tags: [Cloud-native, KumuluzEE Go, KumuluzEE Go Config, KumuluzEE Go Discovery]
 ---
-
 We are announcing the release of Go packages for KumuluzEE, **kumuluz/kumuluzee-go-config** and **kumuluz/kumuluzee-go-discovery**.
 
 <!--more-->

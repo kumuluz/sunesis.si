@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE REST 2.0.1 released"
 date:   2023-03-28
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Temporal, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are excited to announce a new major version of KumuluzEE REST - 2.0.1.
 
 This release brings support for Java 17, along with the support for `LocalDateTime`, `LocalDate`, `LocalTime` and `OffsetTime` temporal fields and a couple of new filters - the `BETWEEN` and `NBETWEEN` filters.

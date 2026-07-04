@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 3.0.0 is released!"
 date:   2018-10-03
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We are happy to announce the final release of the KumuluzEE 3.0.0. The new major release brings full support for Java 9+
 and support for Java EE 8 with some new components and a bunch of updated components.
 

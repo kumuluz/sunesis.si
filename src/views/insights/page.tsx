@@ -1,14 +1,11 @@
 'use client'
 
 import { MotionConfig } from 'motion/react'
-import { useCallback, useEffect, useMemo, useState } from 'react'
-import {
-  ArticleCard,
-  NewsletterForm,
-  Pagination,
-  TopicTabs,
-  type TopicTab,
-} from '../../components/insights'
+import { useCallback, useMemo, useSyncExternalStore } from 'react'
+import { ArticleCard } from '../../components/insights/article-card'
+import { NewsletterForm } from '../../components/insights/newsletter-form'
+import { Pagination } from '../../components/insights/pagination'
+import { TopicTabs, type TopicTab } from '../../components/insights/topic-tabs'
 import {
   categorySlug,
   formatInsightDate,
@@ -30,10 +27,44 @@ type InsightsPageProps = {
 
 const CATEGORIES = insightCategories()
 const SLUG_TO_CATEGORY = new Map(CATEGORIES.map((c) => [categorySlug(c), c]))
+const URL_CHANGE_EVENT = 'insights:url-change'
+const DEFAULT_URL_STATE_SNAPSHOT = '|1'
+
+function readUrlStateSnapshot() {
+  if (typeof window === 'undefined') return DEFAULT_URL_STATE_SNAPSHOT
+
+  const params = new URLSearchParams(window.location.search)
+  const topic = params.get('topic')
+  const activeKey = topic ? (SLUG_TO_CATEGORY.get(topic) ?? null) : null
+  const parsedPage = Number(params.get('page'))
+  const page = Number.isFinite(parsedPage) && parsedPage > 0 ? parsedPage : 1
+
+  return `${activeKey ?? ''}|${page}`
+}
+
+function subscribeToUrlState(onStoreChange: () => void) {
+  window.addEventListener('popstate', onStoreChange)
+  window.addEventListener(URL_CHANGE_EVENT, onStoreChange)
+  return () => {
+    window.removeEventListener('popstate', onStoreChange)
+    window.removeEventListener(URL_CHANGE_EVENT, onStoreChange)
+  }
+}
 
 export function InsightsPage({ language, content }: InsightsPageProps) {
-  const [activeKey, setActiveKey] = useState<string | null>(null)
-  const [page, setPage] = useState(1)
+  const { activeKey, page } = useSyncExternalStore(
+    subscribeToUrlState,
+    readUrlStateSnapshot,
+    () => DEFAULT_URL_STATE_SNAPSHOT,
+  )
+    .split('|')
+    .reduce(
+      (state, value, index) =>
+        index === 0
+          ? { ...state, activeKey: value || null }
+          : { ...state, page: Number(value) || 1 },
+      { activeKey: null as string | null, page: 1 },
+    )
 
   const tabs: TopicTab[] = useMemo(
     () => [
@@ -46,20 +77,6 @@ export function InsightsPage({ language, content }: InsightsPageProps) {
     [content],
   )
 
-  useEffect(() => {
-    const syncFromUrl = () => {
-      const params = new URLSearchParams(window.location.search)
-      const topic = params.get('topic')
-      const key = topic ? (SLUG_TO_CATEGORY.get(topic) ?? null) : null
-      const parsedPage = Number(params.get('page'))
-      setActiveKey(key)
-      setPage(Number.isFinite(parsedPage) && parsedPage > 0 ? parsedPage : 1)
-    }
-    syncFromUrl()
-    window.addEventListener('popstate', syncFromUrl)
-    return () => window.removeEventListener('popstate', syncFromUrl)
-  }, [])
-
   const writeUrl = useCallback(
     (key: string | null, nextPage: number) => {
       const params = new URLSearchParams()
@@ -68,6 +85,7 @@ export function InsightsPage({ language, content }: InsightsPageProps) {
       const query = params.toString()
       const url = `/${language}/insights/${query ? `?${query}` : ''}`
       window.history.replaceState(null, '', url)
+      window.dispatchEvent(new Event(URL_CHANGE_EVENT))
     },
     [language],
   )
@@ -88,13 +106,10 @@ export function InsightsPage({ language, content }: InsightsPageProps) {
   )
 
   const handleSelectTopic = (key: string | null) => {
-    setActiveKey(key)
-    setPage(1)
     writeUrl(key, 1)
   }
 
   const handleSelectPage = (nextPage: number) => {
-    setPage(nextPage)
     writeUrl(activeKey, nextPage)
     if (typeof document !== 'undefined') {
       document
@@ -106,18 +121,18 @@ export function InsightsPage({ language, content }: InsightsPageProps) {
   return (
     <MotionConfig reducedMotion="user">
       <section className="mx-auto max-w-6xl px-4 pb-24 pt-32 sm:px-6 sm:pt-40">
-        <header className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
-          <h1 className="text-4xl font-bold leading-[1.05] text-neutral-900 sm:text-5xl">
-            {content.title}
-          </h1>
-          <p className="max-w-sm text-base leading-7 text-neutral-500 sm:text-right">
+        <header className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,30rem)] lg:items-start lg:justify-between">
+          <div className="flex flex-col items-start gap-8">
+            <h1 className="text-4xl font-bold leading-[1.05] text-neutral-900 sm:text-5xl">
+              {content.title}
+            </h1>
+            <NewsletterForm content={content} />
+          </div>
+
+          <p className="max-w-xl text-base leading-7 text-neutral-500 lg:pt-0 lg:text-right">
             {content.tagline}
           </p>
         </header>
-
-        <div className="mt-8">
-          <NewsletterForm content={content} />
-        </div>
 
         <div className="mt-12">
           <TopicTabs
@@ -139,14 +154,11 @@ export function InsightsPage({ language, content }: InsightsPageProps) {
               {visible.map((post) => (
                 <RevealItem key={post.slug}>
                   <ArticleCard
+                    categoryLabels={content.categoryLabels}
                     dateLabel={formatInsightDate(post.date, language)}
                     href={insightArticleHref(language, post.slug)}
                     post={post}
                     thumbnail={thumbnailForSlug(post.slug)}
-                    topics={post.categories.map(
-                      (category) =>
-                        content.categoryLabels[category] ?? category,
-                    )}
                   />
                 </RevealItem>
               ))}

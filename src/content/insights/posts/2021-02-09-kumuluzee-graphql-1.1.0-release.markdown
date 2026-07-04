@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE GraphQL 1.1.0 released!"
 date:   2021-02-09
 author: urbim
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices, GraphQL]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, GraphQL, Java EE, KumuluzEE, Microservices]
 ---
-
 We are excited to announce a new minor release - KumuluzEE GraphQL 1.1.0. This release includes a new MicroProfile
 compatible implementation, we have updated the Graph*i*QL (GraphQL UI) to support better schema exploration and fixed
 some bugs in our existing implementation.

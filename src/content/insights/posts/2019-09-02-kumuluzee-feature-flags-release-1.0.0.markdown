@@ -3,10 +3,9 @@ layout: post
 title:  "First version of the KumuluzEE Feature Flags project published"
 date:   2019-09-02
 author: blazm
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Java EE, KumuluzEE, Microservices]
 ---
-
 We are pleased to announce the first version of the KumuluzEE Feature Flags project. This version provides support for the Unleash implementation.
 
 KumuluzEE Feature Flags supports feature flags with a few simple methods. Unleash configuration can be defined with the configuration framework, which makes it fairly simple.

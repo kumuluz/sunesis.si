@@ -3,10 +3,9 @@ layout: post
 title:  "Running KumuluzEE microservices on Kubernetes (Part 2)"
 date:   2017-12-14
 author: zvoneg
-categories: [Product, Developers]
-tags: [KumuluzEE, KumuluzEE Health, Microprofile 1.2, Kubernetes]
+categories: [Kumuluz, Cloud-native & DevOps, Open Source]
+tags: [Cloud-native, Kubernetes, KumuluzEE, KumuluzEE Health, Microprofile 1.2]
 ---
-
 Implementing cloud-native applications by following microservice architecture brings quite a few challenges. Because of the distributed nature, microservices have to be able to deal with unexpected failures caused by node crashes, deadlocks, connectivity issues etc. To build truly resilient systems, failures have to be tackled with different mechanisms such as circuit breakers, retries/timeouts and health checks, at the same time in order to cover all the aspects of the failures.
 
 <!--more-->

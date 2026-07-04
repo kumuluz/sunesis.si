@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzAPI – celostna platforma za upravljanje z API-ji. Kaj vse zmore?"
 date:   2021-10-26
 author: ezupancic
-categories: [API]
-tags: [API, KumuluzAPI, funkcionalnosti]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Company]
+tags: [Kumuluz API, API management, Cloud-native, Kubernetes, API, funkcionalnosti]
 ---
-
 Učinkovita rešitev za upravljanje API-jev naslavlja več kot le dober portal za razvijalce, upravljavce in visoko performančni API prehod. Vključuje tudi ustrezno infrastrukturo in naslavlja upravljanje API-jev v več nivojih, in sicer: Nivo upravljanja podatkov, aplikacijski nivo, integracijski nivo in interakcijski nivo. Več o tem si lahko preberete v članku o upravljanju API-jev v najzahtevnejših poslovnih okoljih [(tukaj)](https://blog.sunesis.si/api/2021/09/23/api-management-zahtevna-okolja).
 
 <!--more-->

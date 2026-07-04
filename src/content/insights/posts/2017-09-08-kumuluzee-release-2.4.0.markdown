@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 2.4.0 released"
 date:   2017-09-08
 author: tfaga
-categories: [Product]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Java EE, KumuluzEE, Microservices]
 ---
-
 We're announcing the availability of KumuluzEE version 2.4.0.
 
 This version marks an important milestone for the framework as it brings much needed major new features that were

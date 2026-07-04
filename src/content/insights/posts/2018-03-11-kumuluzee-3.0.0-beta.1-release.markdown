@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE 3.0.0 beta 1 release with Java EE 8 and Java 9+ is here!"
 date:   2018-03-11
 author: tfaga
-categories: [Product, Announcement, Developers]
-tags: [KumuluzEE, Java EE, Microservices]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Java EE, KumuluzEE, Microservices]
 ---
-
 We're exited to announce the first Beta of KumuluzEE version 3.0.0. It's the first of a series of prerelease versions that will feature full support for Java EE 8 as a baseline for KumuluzEE components, replacing Java EE 7. We're also bringing better support for Java 9 and above, with continuously increased streamlined modules support throughout the betas.
 
 This release focuses on updating all Java EE components available in KumuluzEE to their Java EE 8 versions as well as further integration between them. Updated components are:

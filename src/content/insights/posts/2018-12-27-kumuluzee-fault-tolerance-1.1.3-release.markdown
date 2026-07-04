@@ -3,10 +3,9 @@ layout: post
 title:  "Announcing KumuluzEE Fault Tolerance 1.1.3"
 date:   2018-12-27
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Fault Tolerance, Circuit Breaker, Retry, Bulkhead, Timeout, Fallback, Microprofile Fault Tolerance]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Bulkhead, Circuit Breaker, Fallback, KumuluzEE Fault Tolerance, Microprofile Fault Tolerance, Retry, Timeout]
 ---
-
 We are pleased to announce the release of KumuluzEE Fault Tolerance 1.1.3. This release brings the update to the 1.1.3
 version of the MicroProfile Fault Tolerance specification and Java 9+ support.
 

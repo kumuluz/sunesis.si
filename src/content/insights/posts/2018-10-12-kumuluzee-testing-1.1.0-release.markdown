@@ -3,10 +3,9 @@ layout: post
 title:  "KumuluzEE Testing 1.1.0 released"
 date:   2018-10-12
 author: urbim
-categories: [Product, Developers]
-tags: [KumuluzEE Testing, Arquillian, jUnit, TestNG]
+categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Company]
+tags: [Kumuluz API, Cloud-native, Research projects, Arquillian, jUnit, KumuluzEE Testing, TestNG]
 ---
-
 We're announcing the release of the KumuluzEE Testing 1.1.0. The KumuluzEE Arquillian Container Adapter has been updated
 and delivers improved dependency handling, better exception reporting, support for Uber JAR package deployment and more.
 
