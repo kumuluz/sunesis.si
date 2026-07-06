@@ -1,15 +1,21 @@
-import { Blocks, CloudCog, Network, ShieldCheck, Sparkles } from 'lucide-react'
+import { Blocks } from 'lucide-react'
 import type { LandingContent } from '../../../content/landing/landing'
 import { CardC } from '../../../components/cards/card-c'
 import { Reveal, RevealGroup } from '../../../components/motion'
+import { familyProductLink, familyTitleRank } from '../../../lib/accents'
+import { useLocation } from '../../../lib/navigation'
+import { getLanguageFromPath } from '../../../lib/router'
 
 type KumuluzSectionProps = {
   content: LandingContent['landingPageSections']['kumuluz']
 }
 
-const kumuluzIcons = [Sparkles, Network, Blocks, CloudCog, ShieldCheck]
-
 export function KumuluzSection({ content }: KumuluzSectionProps) {
+  const language = getLanguageFromPath(useLocation())
+  const items = [...content.items].sort(
+    (a, b) => familyTitleRank(a.title) - familyTitleRank(b.title),
+  )
+
   return (
     <section className="bg-neutral-950 py-20 text-white sm:py-24" id="kumuluz">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -30,12 +36,14 @@ export function KumuluzSection({ content }: KumuluzSectionProps) {
           </Reveal>
         </div>
         <RevealGroup className="mt-12 grid gap-4 md:grid-cols-2 xl:grid-cols-5">
-          {content.items.map((item, index) => {
-            const Icon = kumuluzIcons[index] ?? Blocks
+          {items.map((item) => {
+            const link = familyProductLink(item.title, language)
 
             return (
               <CardC
-                icon={Icon}
+                colors={link?.colors}
+                href={link?.href}
+                icon={link?.icon ?? Blocks}
                 key={item.title}
                 label={item.label}
                 text={item.text}

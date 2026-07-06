@@ -1,7 +1,10 @@
 import { ArrowRight } from 'lucide-react'
-import { motion } from 'motion/react'
 import { Button } from '../../../../components/button'
-import { Reveal, RevealGroup, revealItem } from '../../../../components/motion'
+import { CardC } from '../../../../components/cards/card-c'
+import { Reveal, RevealGroup } from '../../../../components/motion'
+import { familyProductLink } from '../../../../lib/accents'
+import { useLocation } from '../../../../lib/navigation'
+import { getLanguageFromPath } from '../../../../lib/router'
 import type { KumuluzBlock } from '../../types'
 import { Section } from './section-shell'
 
@@ -12,6 +15,8 @@ export function KumuluzSection({
   block: KumuluzBlock
   ctaHref?: string
 }) {
+  const language = getLanguageFromPath(useLocation())
+
   return (
     <Section bg="dark" id="kumuluz">
       <div className="max-w-3xl">
@@ -30,29 +35,21 @@ export function KumuluzSection({
         </Reveal>
       </div>
       <RevealGroup className="mt-12 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {block.items.map((item) => (
-          <motion.article
-            className="rounded-lg border border-white/10 bg-white/[0.04] p-5 transition-colors duration-200 hover:bg-neutral-900"
-            key={item.title}
-            transition={{ duration: 0.2, ease: 'easeOut' }}
-            variants={revealItem}
-            whileHover={{ scale: 1.02 }}
-          >
-            {item.label ? (
-              <p className="text-xs font-bold uppercase leading-4 tracking-[0.14em] text-blue-200">
-                {item.label}
-              </p>
-            ) : null}
-            <h3
-              className={`text-lg font-bold leading-snug ${item.label ? 'mt-3' : ''}`}
-            >
-              {item.title}
-            </h3>
-            <p className="mt-3 text-sm leading-7 text-neutral-300">
-              {item.text}
-            </p>
-          </motion.article>
-        ))}
+        {block.items.map((item) => {
+          const link = familyProductLink(item.title, language)
+
+          return (
+            <CardC
+              colors={link?.colors}
+              href={link?.href}
+              icon={link?.icon}
+              key={item.title}
+              label={item.label}
+              text={item.text}
+              title={item.title}
+            />
+          )
+        })}
       </RevealGroup>
       {block.cta ? (
         <Reveal className="mt-10">

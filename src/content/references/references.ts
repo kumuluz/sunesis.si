@@ -34,6 +34,41 @@ const CLIENT_LOGOS = [
   'src',
 ] as const
 
+// European research and innovation partners, in the curated display order.
+const HORIZON_PARTNER_LOGOS = [
+  'rwth', // 1. RWTH Aachen University
+  'seville', // 2. University of Seville
+  'dfki', // 3. DFKI
+  'eurodyn', // 4. European Dynamics
+  'tus', // 5. Technological University of the Shannon
+  'inlecom', // 6. INLECOM
+  'ntua', // 7. National Technical University of Athens
+  'inesctec', // 8. INESC TEC
+  'cnr', // 9. CNR
+  'um', // 10. University of Maribor
+  'eclipse', // 11. Eclipse Foundation
+  '1_ibm', // 12. IBM
+  'redhat', // 13. Red Hat
+  'siemens', // 14. Siemens
+  'atos', // 15. Atos / Eviden
+  'eng', // 16. Engineering Ingegneria Informatica
+  'vde', // 17. VDE / DKE
+  'ease', // 18. EASE
+  'fundingbox', // 19. FundingBox
+  'f6s', // 20. F6S
+  'eaton', // 21. Eaton
+  'enel', // 22. Enel X
+  'daikin', // 23. Daikin Europe
+  'cybergrid', // 24. CyberGrid
+  'julich', // 25. Forschungszentrum Jülich
+  'caixa', // 26. CaixaBank
+  'zhaw', // 27. ZHAW
+  'inria', // 28. Inria
+  'jamk', // 29. JAMK University of Applied Sciences
+  'joanneum', // 30. Joanneum Research
+  'kemea', // 31. KEMEA
+] as const
+
 const FINAL_CTA_EN: FinalCtaBlock = {
   type: 'finalCta',
   title:
@@ -629,7 +664,7 @@ const researchInnovationEn: ReferencesPageContent = {
       title: 'European research and innovation partners',
       intro:
         'Universities, research institutes, technology companies and industry partners we collaborate with across international research and innovation consortia.',
-      folder: 'horizon',
+      logos: HORIZON_PARTNER_LOGOS,
     },
     FINAL_CTA_EN,
   ],
@@ -1209,7 +1244,7 @@ const researchInnovationSl: ReferencesPageContent = {
       title: 'Evropski raziskovalni in inovacijski partnerji',
       intro:
         'Univerze, raziskovalni inštituti, tehnološka podjetja in industrijski partnerji, s katerimi sodelujemo v mednarodnih raziskovalnih in inovacijskih konzorcijih.',
-      folder: 'horizon',
+      logos: HORIZON_PARTNER_LOGOS,
     },
     FINAL_CTA_SL,
   ],
