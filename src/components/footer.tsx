@@ -13,6 +13,49 @@ type FooterProps = {
 
 const MAPS_URL = 'https://maps.app.goo.gl/sUypTyZYofbouHZ79'
 
+const branchAddresses = {
+  en: [
+    {
+      address: [
+        'SUNESIS d.o.o., PE Maribor',
+        'Beloruska ulica 5',
+        '2000 Maribor',
+        'Slovenia',
+      ],
+      href: 'https://maps.app.goo.gl/BQJYCwaPKRiqBaXZ7',
+    },
+    {
+      address: [
+        'SUNESIS d.o.o., PE Ptuj',
+        'Osojnikova cesta 3',
+        '2250 Ptuj',
+        'Slovenia',
+      ],
+      href: 'https://maps.app.goo.gl/tutA4iran95kFs118',
+    },
+  ],
+  sl: [
+    {
+      address: [
+        'SUNESIS d.o.o., PE Maribor',
+        'Beloruska ulica 5',
+        '2000 Maribor',
+        'Slovenija',
+      ],
+      href: 'https://maps.app.goo.gl/BQJYCwaPKRiqBaXZ7',
+    },
+    {
+      address: [
+        'SUNESIS d.o.o., PE Ptuj',
+        'Osojnikova cesta 3',
+        '2250 Ptuj',
+        'Slovenija',
+      ],
+      href: 'https://maps.app.goo.gl/tutA4iran95kFs118',
+    },
+  ],
+} satisfies Record<LanguageCode, { address: string[]; href: string }[]>
+
 export function Footer({ content, contact, language }: FooterProps) {
   const { columns, social, copyright } = content
   const year = new Date().getFullYear()
@@ -73,6 +116,32 @@ export function Footer({ content, contact, language }: FooterProps) {
                   </a>
                 </dd>
               </div>
+              {branchAddresses[language].map(({ address, href }) => (
+                <div className="flex items-start gap-3.5" key={address[0]}>
+                  <dt>
+                    <Building2
+                      aria-hidden="true"
+                      className="size-5 text-neutral-500"
+                      strokeWidth={1.75}
+                    />
+                    <span className="sr-only">Address</span>
+                  </dt>
+                  <dd className="text-sm leading-6 text-neutral-400">
+                    <a
+                      className="transition-colors hover:text-white"
+                      href={href}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {address.map((line) => (
+                        <span className="block" key={line}>
+                          {line}
+                        </span>
+                      ))}
+                    </a>
+                  </dd>
+                </div>
+              ))}
               <div className="flex items-center gap-3.5">
                 <dt>
                   <Mail
