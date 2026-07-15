@@ -6,6 +6,9 @@
   for = "/*"
   [headers.values]
     Content-Security-Policy = "default-src 'self'; script-src 'self' https://kumuluz.us12.list-manage.com; style-src 'self'; style-src-attr 'none'; img-src 'self'; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self' https://kumuluz.us12.list-manage.com; manifest-src 'self'; worker-src 'self'"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), geolocation=(), microphone=(), payment=(), usb=()"
 
 [[plugins]]
   package = "@netlify/plugin-csp-nonce"
@@ -14,7 +17,7 @@
     strictDynamic = true
     unsafeEval = false
     unsafeInline = false
-    self = true
+    self = false
     https = false
     http = false
 
