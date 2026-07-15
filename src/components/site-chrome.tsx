@@ -1,6 +1,5 @@
 'use client'
 
-import { MotionConfig } from 'motion/react'
 import { useEffect, type ReactNode } from 'react'
 import type { PageContent } from '../content'
 import type { LandingContent } from '../content/landing/landing'
@@ -30,10 +29,6 @@ export function SiteChrome({
   children,
 }: SiteChromeProps) {
   const switchLanguage = useLanguageSwitch()
-  const cspNonce =
-    typeof document === 'undefined'
-      ? undefined
-      : document.querySelector<HTMLScriptElement>('script[nonce]')?.nonce
 
   useEffect(() => {
     document.documentElement.lang = language
@@ -67,18 +62,16 @@ export function SiteChrome({
   }, [])
 
   return (
-    <MotionConfig nonce={cspNonce}>
-      <div className="min-h-screen overflow-hidden bg-white text-neutral-900">
-        <LinkInterceptor />
-        <Header
-          content={nav}
-          language={language}
-          languages={LANGUAGES}
-          onLanguageChange={switchLanguage}
-        />
-        <main>{children}</main>
-        <Footer contact={contact} content={footer} language={language} />
-      </div>
-    </MotionConfig>
+    <div className="min-h-screen overflow-hidden bg-white text-neutral-900">
+      <LinkInterceptor />
+      <Header
+        content={nav}
+        language={language}
+        languages={LANGUAGES}
+        onLanguageChange={switchLanguage}
+      />
+      <main>{children}</main>
+      <Footer contact={contact} content={footer} language={language} />
+    </div>
   )
 }

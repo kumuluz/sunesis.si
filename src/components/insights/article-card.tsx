@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import type { StaticImageData } from 'next/image'
 import type { InsightPost } from '../../views/insights/types'
 import { cardHover } from '../cards/card-hover'
@@ -25,13 +24,15 @@ export function ArticleCard({
   return (
     <article className={`group relative flex flex-col ${cardHover}`}>
       <div className="relative aspect-[16/10] overflow-hidden rounded-xl border border-neutral-200 bg-neutral-100">
-        <Image
+        {/* next/image injects a style attribute that violates the enforced CSP. */}
+        <img
           alt=""
-          className="size-full object-cover"
-          fill
+          className="block size-full object-cover"
+          decoding="async"
+          height={thumbnail.height}
           loading="lazy"
-          sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
-          src={thumbnail}
+          src={thumbnail.src}
+          width={thumbnail.width}
         />
       </div>
 

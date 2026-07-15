@@ -1,5 +1,4 @@
 import { Menu, X } from 'lucide-react'
-import { AnimatePresence, motion } from 'motion/react'
 import { Button } from '../button'
 
 type MobileMenuButtonProps = {
@@ -8,15 +7,11 @@ type MobileMenuButtonProps = {
   onClick: () => void
 }
 
-const ICON_SPRING = { type: 'spring', stiffness: 380, damping: 26 } as const
-
 export function MobileMenuButton({
   ariaLabel,
   isOpen,
   onClick,
 }: MobileMenuButtonProps) {
-  const Icon = isOpen ? X : Menu
-
   return (
     <Button
       ariaExpanded={isOpen}
@@ -27,18 +22,24 @@ export function MobileMenuButton({
       size="lg"
       tone="secondary"
     >
-      <AnimatePresence initial={false} mode="popLayout">
-        <motion.span
-          animate={{ opacity: 1, rotate: 0, scale: 1 }}
-          className="flex"
-          exit={{ opacity: 0, rotate: isOpen ? -90 : 90, scale: 0.6 }}
-          initial={{ opacity: 0, rotate: isOpen ? 90 : -90, scale: 0.6 }}
-          key={isOpen ? 'close' : 'open'}
-          transition={ICON_SPRING}
-        >
-          <Icon aria-hidden="true" className="size-4" strokeWidth={2.25} />
-        </motion.span>
-      </AnimatePresence>
+      <span aria-hidden="true" className="relative flex size-4">
+        <Menu
+          className={`absolute inset-0 size-4 transition duration-300 ease-out ${
+            isOpen
+              ? 'rotate-90 scale-75 opacity-0'
+              : 'rotate-0 scale-100 opacity-100'
+          }`}
+          strokeWidth={2.25}
+        />
+        <X
+          className={`absolute inset-0 size-4 transition duration-300 ease-out ${
+            isOpen
+              ? 'rotate-0 scale-100 opacity-100'
+              : '-rotate-90 scale-75 opacity-0'
+          }`}
+          strokeWidth={2.25}
+        />
+      </span>
     </Button>
   )
 }
