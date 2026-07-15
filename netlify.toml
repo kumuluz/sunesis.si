@@ -2,6 +2,22 @@
   command = "next build"
   publish = "out"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://kumuluz.us12.list-manage.com; style-src 'self'; style-src-attr 'none'; img-src 'self'; font-src 'self'; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self' https://kumuluz.us12.list-manage.com; manifest-src 'self'; worker-src 'self'"
+
+[[plugins]]
+  package = "@netlify/plugin-csp-nonce"
+  [plugins.inputs]
+    reportOnly = false
+    strictDynamic = true
+    unsafeEval = false
+    unsafeInline = false
+    self = true
+    https = false
+    http = false
+
 [[redirects]]
   from = "/interstore/lpc"
   to = "https://lpc.sunesis.si"
