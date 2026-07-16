@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@firecms/neat": "^1.0.0",
+    "@netlify/plugin-csp-nonce": "^1.6.2",
     "lucide-react": "^1.20.0",
     "motion": "^12.40.0",
     "next": "^16.2.9",

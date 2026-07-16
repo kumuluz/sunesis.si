@@ -13,8 +13,6 @@ import type { HeaderProps, NavItem } from './types'
 
 const EASE = [0.22, 1, 0.36, 1] as const
 
-const HEADER_OFFSET = '73px'
-
 type MobileMenuProps = {
   activeItem: NavItem | null
   blogHref: string
@@ -102,10 +100,9 @@ export function MobileMenu({
       {isOpen ? (
         <motion.div
           animate={{ opacity: 1 }}
-          className="fixed inset-x-0 bottom-0 z-30 flex flex-col bg-white lg:hidden"
+          className="fixed inset-x-0 bottom-0 top-[73px] z-30 flex flex-col bg-white lg:hidden"
           exit={{ opacity: 0, transition: { duration: 0.18, ease: EASE } }}
           initial={{ opacity: 0 }}
-          style={{ top: HEADER_OFFSET }}
           transition={{ duration: 0.22, ease: EASE }}
         >
           <div className="relative flex-1 overflow-hidden">

@@ -63,17 +63,17 @@ export function MobileLanguageSwitcher({
           strokeWidth={2.25}
         />
         <span className="uppercase">{current?.label ?? language}</span>
-        <motion.span
-          animate={{ rotate: open ? 180 : 0 }}
-          className="flex"
-          transition={{ type: 'spring', stiffness: 320, damping: 24 }}
+        <span
+          className={`flex transition-transform duration-300 ${
+            open ? 'rotate-180' : 'rotate-0'
+          }`}
         >
           <ChevronDown
             aria-hidden="true"
             className="size-4 text-neutral-500"
             strokeWidth={2.25}
           />
-        </motion.span>
+        </span>
       </Button>
 
       <AnimatePresence>
