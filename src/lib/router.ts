@@ -10,6 +10,7 @@ export type Route =
   | { name: 'expertise'; slug: ExpertiseSlug }
   | { name: 'company'; slug?: CompanySlug }
   | { name: 'insights'; slug?: string }
+  | { name: 'accountdelete' }
 
 const expertiseSlugSet = new Set<string>(EXPERTISE_SLUGS)
 const referenceSlugSet = new Set<string>(REFERENCE_SLUGS)
@@ -56,6 +57,10 @@ export function parseRoute(pathname: string): Route {
     return { name: 'insights' }
   }
 
+  if (/\/accountdelete(\/|$)/.test(pathname)) {
+    return { name: 'accountdelete' }
+  }
+
   return { name: 'landing' }
 }
 
@@ -80,6 +85,10 @@ export function buildPath(language: LanguageCode, route: Route): string {
     return route.slug
       ? `/${language}/insights/${route.slug}/`
       : `/${language}/insights/`
+  }
+
+  if (route.name === 'accountdelete') {
+    return `/${language}/accountdelete/`
   }
 
   return `/${language}/`

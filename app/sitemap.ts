@@ -33,6 +33,7 @@ const ROUTES: { route: Route; priority: number }[] = [
     route: { name: 'insights', slug: post.slug } as Route,
     priority: 0.5,
   })),
+  { route: { name: 'accountdelete' }, priority: 0.2 },
 ]
 
 // Emitted as a static /sitemap.xml during the static export build. Each entry

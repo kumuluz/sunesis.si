@@ -145,7 +145,7 @@ export const slContent = {
       },
       {
         title: 'Gradiva',
-        links: ['Vsebine', 'Odprta koda', 'Kontakt'],
+        links: ['Vsebine', 'Odprta koda', 'Kontakt', 'Izbris računa'],
       },
     ],
     social: {

@@ -150,6 +150,10 @@ const footerLinkGroups: {
     labels: ['Contact', 'Kontakt'],
     href: (l) => contactHref(l),
   },
+  {
+    labels: ['Account deletion', 'Izbris računa'],
+    href: (l) => buildPath(l, { name: 'accountdelete' }),
+  },
 ]
 
 const footerHrefByLabel = new Map<string, (language: LanguageCode) => string>(

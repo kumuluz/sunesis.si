@@ -145,7 +145,7 @@ export const enContent = {
       },
       {
         title: 'Resources',
-        links: ['Insights', 'Open source', 'Contact'],
+        links: ['Insights', 'Open source', 'Contact', 'Account deletion'],
       },
     ],
     social: {
