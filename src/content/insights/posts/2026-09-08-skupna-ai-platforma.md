@@ -35,7 +35,7 @@ Vsak AI agent za svoje delovanje potrebuje osem ključnih gradnikov:
 
 Sedem od teh osmih gradnikov je univerzalnih. Le zadnji je specifičen za vaš primer uporabe.
 
-![Anatomija AI agneta]({{site.baseurl}}/assets/images/anatomijaAgenta.png.png)
+![Anatomija AI agneta]({{site.baseurl}}/assets/images/anatomijaAgenta.png)
 
 
 Ko kupite tri ločene rešitve, v resnici **trikrat plačate za isto infrastrukturo.** In kar je še slabše: dobite tri različne, med seboj nepovezane različice iste infrastrukture. V praksi to pomeni:

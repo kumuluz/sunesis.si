@@ -2,6 +2,22 @@ import type { InsightPost } from '../../views/insights/types'
 
 export const insightPosts: InsightPost[] = [
   {
+    "slug": "skupna-ai-platforma",
+    "title": "Zakaj potrebujete skupno platformo za AI agente",
+    "date": "2026-09-08",
+    "authors": "Eva Zupancic",
+    "categories": [
+      "API"
+    ],
+    "tags": [
+      "AI",
+      "KumuluzAI",
+      "agenti"
+    ],
+    "excerpt": "Prvi AI agent v podjetju je projekt. Deseti je arhitekturna odločitev — in pogosto jo sprejmete, ne da bi se tega sploh zavedali. V zadnjem letu v podjetjih opažamo vedno isti vzorec. Oddelek za…",
+    "minutes": 5
+  },
+  {
     "slug": "agentna-arhitektura",
     "title": "Onkraj klepetalnih robotov: Večagentna arhitektura",
     "date": "2026-05-28",
