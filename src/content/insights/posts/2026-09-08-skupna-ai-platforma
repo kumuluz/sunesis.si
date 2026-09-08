@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "Zakaj potrebujete skupno platformo za AI agente"
+date:   2026-09-08
+author: ezupancic
+categories: [API]
+tags: [AI, KumuluzAI, agenti]
+---
+
+*Prvi AI agent v podjetju je projekt. Deseti je arhitekturna odločitev — in pogosto jo sprejmete, ne da bi se tega sploh zavedali.**
+
+V zadnjem letu v podjetjih opažamo vedno isti vzorec. Oddelek za poodporo strankam kupi AI agenta za obravnavo zahtevkov. Nabava dobi asistenta za pregled pogodb in ponudb. Kadrovska služba si omisli pomočnika za navigacijo po internih predpisih. Vsak nakup je sam zase povsem razumen: rešitev deluje, dobavitelj je odziven, oddelek je zadovoljen.
+
+Težava se namreč ne pokaže pri prvem agentu. Pokaže se šele pri tretjem.
+
+<!--more-->
+
+## Kako nastanejo AI silosi
+
+To ni nova zgodba. Popolnoma enako se je v devetdesetih letih zgodilo z informacijskimi sistemi: vsak oddelek je kupil svojo aplikacijo, IT oddelek pa je nato celo desetletje reševal integracijske izzive. Pri AI agentih se ta cikel ponavlja, le da bistveno hitreje.
+
+Vsak AI agent za svoje delovanje potrebuje osem ključnih gradnikov: 
+1. dostop do jezikovnega modela, 
+2. dostop do znanja podjetja, 
+3. orodja za povezavo z zalednimi sistemi, 
+4. upravljanje pravic, 
+5. varnostna varovala (angl. *guardrails*), 
+6. zaščito osebnih podatkov, 
+7. beleženje in sledljivost 
+
+— in šele na koncu:
+
+8. poslovno logiko, zaradi katere ste ga sploh kupili.
+
+
+Sedem od teh osmih gradnikov je univerzalnih. Le zadnji je specifičen za vaš primer uporabe.
+
+![Anatomija AI agneta]({{site.baseurl}}/assets/images/anatomijaAgenta.png.png)
+
+
+Ko kupite tri ločene rešitve, v resnici **trikrat plačate za isto infrastrukturo.** In kar je še slabše: dobite tri različne, med seboj nepovezane različice iste infrastrukture. V praksi to pomeni:
+
+- **Isti dokumenti v treh različnih indeksih.** Vsaka rešitev si dokumente prekopira in indeksira po svoje. Ko posodobite pravilnik, ga morate posodobiti na treh mestih. Če na to pozabite, bosta dva agenta na isto vprašanje odgovorila različno — in v tistem trenutku bodo zaposleni prenehali zaupati obema.
+- **Trije različni modeli pravic.** Vsaka rešitev uporablja svoj servisni račun. Ker je to najlažje, ima ta račun praviloma dostop do vseh podatkov. Trije takšni računi pomenijo tri nevarne obvode vašega varnostnega modela, ki jih ob morebitni reviziji ne bo mogoče zagovarjati.
+- **Trojna integracija z istim ERP sistemom.** Vsak dobavitelj razvije svojo povezavo in ob vsaki nadgradnji ERP-ja tvegate, da se bo katera izmed njih zlomila.
+- **Pomanjkanje skupne sledljivosti.** Ko agent naredi napako — in slej ko prej jo bo —, na vprašanje »zakaj je to rekel?« preprosto ni odgovora. Vsaka rešitev namreč beleži dogodke po svoje, nekatere pa skoraj ničesar.
+- **Trojno delo ob vsaki spremembi.** Nov jezikovni model, nova zahteva regulatorja ali nov vzorec zlorabe ne pomenijo ene posodobitve, temveč tri ločene posege, pri treh različnih dobaviteljih, v treh različnih terminih.
+
+Največji strošek torej ni v samem nakupu. Skriti strošek je v tem, da nobene od teh rešitev ne morete nadgraditi neodvisno in da ste pri vsaki ujetniki dobavitelja, ki ima v rokah del dragocenega znanja vašega podjetja.
+
+## Kaj prinaša skupna agentna platforma
+
+Rešitev ni v tem, da kupite en velik, monoliten sistem. Prava alternativa je, da tistih sedem skupnih gradnikov postavite le enkrat, v obliki enotne infrastrukturne plasti. Agenti tako postanejo to, kar bi v resnici morali biti: tanka plast poslovne logike nad to infrastrukturo.
+
+**Skupno znanje.** Dokument se zajame in indeksira le enkrat, uporablja pa ga lahko poljubno število agentov. Pravice dostopa so določene na ravni dokumenta in se samodejno preverijo ob vsaki poizvedbi. Ko izboljšate kakovost iskanja, se ta izboljša za vse agente hkrati. Ko morate določene podatke izbrisati, jih izbrišete na enem mestu — kar je mimogrede edini način, da *pravica do pozabe* v praksi sploh deluje.
+
+**Skupna identiteta.** Agent deluje v imenu prijavljenega uporabnika in ne s privilegiranim servisnim računom. Uporablja iste vloge in skupine, kot jih v podjetju že imate. Ko zaposlenemu odvzamete določeno pravico, to v isti sekundi velja za vse AI agente.
+
+**Skupna varovala.** Kaj sme agent povedati, katera orodja sme uporabiti in kdaj potrebuje potrditev človeka (*human-in-the-loop*), je centralno zapisano kot varnostna politika. Ta je ločena od kode samega agenta, je verzionirana in preverljiva. Nova varnostna zahteva se uveljavi na enem mestu in takoj zaščiti tudi tiste agente, ki jih morda sploh ni razvila vaša interna ekipa.
+
+**Skupna sledljivost.** Vsak zagon vsakega agenta je natančno zabeležen: vprašanje uporabnika, uporabljeni viri, klici orodij, poraba žetonov in končni strošek. To je hkrati orodje za razhroščevanje, podlaga za varnostno revizijo in edini način, da strošek umetne inteligence postane transparentna postavka, ki jo je mogoče načrtovati.
+
+**Agilnost in neodvisnost od modelov.** Jezikovni modeli se danes razvijajo in menjajo hitreje kot vaši poslovni procesi. Če je izbira modela stvar krovne platforme, je njegova zamenjava le preprosta sprememba konfiguracije. Če pa je model trdo vgrajen v vsakega agenta posebej, postane vsaka menjava nov, drag IT projekt.
+
+**Skladnost z zakonodajo kot stranski produkt.** Evropski akt o umetni inteligenci (EU AI Act) zahteva natančen popis AI sistemov, tehnično dokumentacijo, revizijske sledi in človeški nadzor. Podjetje, ki ima platformo, ima vse to urejeno samodejno. Podjetje, ki gradi silose, mora to za vsako rešitev zbirati in sestavljati ročno.
+
+In kar je najpomembneje: **mejni strošek vsakega naslednjega agenta drastično pade.** Prvi agent na platformi je ob začetni investiciji morda dražji od tistega v silosu, saj vključuje tudi postavitev temeljne infrastrukture. A že drugi agent je bistveno cenejši, saj podeduje vse integracije, znanje, pravice in varovala. Razvoj petega agenta je nato le še vprašanje nekaj tednov, ne več mesecev.
+
+## Tri vprašanja pred naslednjim nakupom AI agenta
+
+Preden podpišete pogodbo za naslednjo AI rešitev, si zastavite tri preprosta vprašanja:
+
+1. **Kje bo živelo znanje?** V vaši centralni bazi znanja ali v dobaviteljevi zaprti kopiji?
+2. **S čigavimi pravicami bo agent dostopal do sistemov?** Z dejanskimi pravicami uporabnika ali s privilegiranim servisnim računom?
+3. **Kdo bo čez leto dni znal natančno odgovoriti, zakaj je agent potegnil določeno potezo?**
+
+Če na katero koli izmed teh vprašanj nimate dobrega odgovora, v resnici ne kupujete agenta. Kupujete silos.
+
+***
+
+## KumuluzAI
+
+KumuluzAI je naša napredna agentna platforma za varne, integrirane in produkcijsko pripravljene AI agente, asistente in avtomatizacijo procesov. 
+
+Združuje varno izvajalno okolje za agente, napredno semantično iskanje in dostop do znanja podjetja (RAG), povezovanje z zalednimi sistemi prek standarda MCP, propagacijo identitete in avtorizacijo, varnostna varovala, dinamično usmerjanje med jezikovnimi modeli, popolno sledljivost, nadzor stroškov ter centralno upravljanje.
+
+Zgrajena je iz preverjenih odprtokodnih komponent in v celoti temelji na industrijskih standardih (Kubernetes, OAuth2/OpenID Connect, Model Context Protocol, OpenTelemetry). Deluje znotraj vašega okolja — tudi v hibridni postavitvi —, vse njene komponente pa so medsebojno zamenljive (*vendor lock-in free*). Tako vaši agenti, znanje in varnostne politike vedno ostanejo izključno vaši.
+
+**[Spoznajte platformo KumuluzAI →](https://sunesis.si/en/expertise/agentic-ai/)**
+
+
+
+
+
+
+
