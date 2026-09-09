@@ -3,7 +3,7 @@ layout: post
 title:  "Zakaj potrebujete skupno platformo za AI agente"
 date:   2026-09-08
 author: ezupancic
-categories: [API]
+categories: [AgenticAI]
 tags: [AI, KumuluzAI, agenti]
 ---
 
@@ -86,7 +86,7 @@ Združuje varno izvajalno okolje za agente, napredno semantično iskanje in dost
 
 Zgrajena je iz preverjenih odprtokodnih komponent in v celoti temelji na industrijskih standardih (Kubernetes, OAuth2/OpenID Connect, Model Context Protocol, OpenTelemetry). Deluje znotraj vašega okolja — tudi v hibridni postavitvi —, vse njene komponente pa so medsebojno zamenljive (*vendor lock-in free*). Tako vaši agenti, znanje in varnostne politike vedno ostanejo izključno vaši.
 
-**[Spoznajte platformo KumuluzAI →](https://sunesis.si/en/expertise/agentic-ai/)**
+**[Spoznajte platformo KumuluzAI →](https://kumuluz.com/en/products/kumuluz-ai/)**
 
 
 
