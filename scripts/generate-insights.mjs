@@ -184,11 +184,66 @@ for (const file of files) {
   const bodyHtml = bodyToHtml(body)
   const minutes = readingMinutes(bodyHtml)
 
-  posts.push({ slug, title, date, authors, categories, tags, excerpt, minutes })
+  posts.push({
+    slug,
+    title,
+    date,
+    authors,
+    categories,
+    tags,
+    excerpt,
+    minutes,
+    thumbnail: 0,
+  })
   bodies.push([slug, bodyHtml])
 }
 
 posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
+
+// Thumbnails are assigned here rather than at render time so a post keeps the
+// same image for its lifetime. Posts are walked oldest-first, so a newly added
+// post is processed last and never disturbs an existing assignment.
+const THUMBNAIL_DIR = resolve(REPO_ROOT, 'src', 'components', 'thumbnails')
+const thumbnailCount = readdirSync(THUMBNAIL_DIR).filter((f) =>
+  /^\d+\.png$/.test(f),
+).length
+
+// Insights lists 12 posts per page, so holding the last 12 assignments out of
+// the running guarantees no repeated image within a page.
+const THUMBNAIL_WINDOW = 12
+
+function hashSlug(slug) {
+  let hash = 0x811c9dc5
+  for (let i = 0; i < slug.length; i += 1) {
+    hash ^= slug.charCodeAt(i)
+    hash = Math.imul(hash, 0x01000193) >>> 0
+  }
+  return hash
+}
+
+function assignThumbnails(sorted) {
+  if (!thumbnailCount) {
+    console.warn(`No thumbnails found in ${THUMBNAIL_DIR}`)
+    return
+  }
+  const recent = []
+  for (const post of [...sorted].reverse()) {
+    const start = hashSlug(post.slug) % thumbnailCount
+    let chosen = start
+    for (let step = 0; step < thumbnailCount; step += 1) {
+      const candidate = (start + step) % thumbnailCount
+      if (!recent.includes(candidate)) {
+        chosen = candidate
+        break
+      }
+    }
+    post.thumbnail = chosen
+    recent.push(chosen)
+    if (recent.length > THUMBNAIL_WINDOW) recent.shift()
+  }
+}
+
+assignThumbnails(posts)
 
 const header = `import type { InsightPost } from '../../views/insights/types'
 

@@ -32,7 +32,7 @@ The dev server runs at [http://localhost:3000](http://localhost:3000). The bare 
 | `npm run lint:fix`     | Run ESLint with `--fix`                                                    |
 | `npm run format`       | Format with Prettier                                                       |
 | `npm run format:check` | Check formatting without writing                                           |
-| `npm run insights`     | Regenerate insights post metadata and body bundles from Markdown files     |
+| `npm run insights`     | Regenerate insights metadata and body bundles (runs automatically)         |
 | `npm run doctor`       | Run [react-doctor](https://www.npmjs.com/package/react-doctor) diagnostics |
 
 ## Internationalization
@@ -46,13 +46,35 @@ Copy lives in [src/content/](src/content/), split per language (`en.ts`, `sl.ts`
 
 ### Insights posts
 
-To edit or add insights posts, edit or add a `.markdown` file in [src/content/insights/posts/](src/content/insights/posts/), then run:
+To publish a post, add a `.md` (or `.markdown`) file to [src/content/insights/posts/](src/content/insights/posts/) and commit it. That is the whole job — `npm run insights` runs automatically before `dev`, `build` and `lint`, and Netlify's build command goes through `npm run build`, so the post is live on the next deploy.
 
-```bash
-npm run insights
+The filename carries the publish date and the URL, and must match `YYYY-MM-DD-slug.md`; files that don't are skipped with a warning. Front matter:
+
+```markdown
+---
+layout: post
+title: 'Naslov članka'
+date: 2026-09-09
+author: ezupancic
+categories: [AgenticAI, Kumuluz]
+tags: [AI, KumuluzAI, agenti]
+---
+
+Intro paragraph — this becomes the listing excerpt.
+
+<!--more-->
+
+## First section
 ```
 
-Commit the Markdown change together with the regenerated `src/content/insights/posts.generated.ts` and `src/content/insights/bodies.generated.ts` files. Regenerating these files preserves the client-bundle boundary.
+- `author` is a key from [authors.yml](src/content/insights/posts/authors.yml); add `author2` for a co-author.
+- `categories` must come from the taxonomy in [src/content/insights/index.ts](src/content/insights/index.ts): `AgenticAI`, `Kumuluz`, `API & Integration`, `Cloud-native & DevOps`, `Open Source`, `Research & Innovation`, `Company`. A misspelling silently creates a new filter tab.
+- Everything above `<!--more-->` becomes the 200-character excerpt.
+- Images go in `public/assets/images/posts-<slug>/` and may keep the Jekyll `{{site.baseurl}}` prefix; the generator strips it.
+
+A card thumbnail is assigned automatically from [src/components/thumbnails/](src/components/thumbnails/) by hashing the slug, so a post keeps the same image for its lifetime and no image repeats within a page of results. Adding a post never changes an existing post's thumbnail.
+
+`posts.generated.ts` and `bodies.generated.ts` are build output and are git-ignored — never commit them. The generated split is what keeps the article HTML out of the listing page's client bundle.
 
 ## Routes
 

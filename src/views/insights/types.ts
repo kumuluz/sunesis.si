@@ -9,6 +9,7 @@ export type InsightPost = {
   tags: string[]
   excerpt: string
   minutes: number
+  thumbnail: number
 }
 
 export type InsightsPageContent = {

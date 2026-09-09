@@ -61,15 +61,10 @@ export function categorySlug(category: string): string {
     .replace(/^-|-$/g, '')
 }
 
-const thumbnailsBySlug = new Map(
-  insightPosts.map((post, index) => [
-    post.slug,
-    thumbnails[index % thumbnails.length],
-  ]),
-)
-
 export function thumbnailForSlug(slug: string) {
-  return thumbnailsBySlug.get(slug) ?? thumbnails[0]
+  const post = postsBySlug.get(slug)
+  if (!post) return thumbnails[0]
+  return thumbnails[post.thumbnail % thumbnails.length] ?? thumbnails[0]
 }
 
 const MONTHS: Record<LanguageCode, string[]> = {

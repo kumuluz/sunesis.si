@@ -18,6 +18,10 @@ out
 next-env.d.ts
 .vercel
 
+# Generated from src/content/insights/posts/ by `npm run insights`
+src/content/insights/posts.generated.ts
+src/content/insights/bodies.generated.ts
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
