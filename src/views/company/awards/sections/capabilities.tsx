@@ -4,6 +4,29 @@ import { cardHover } from '../../../../components/cards/card-hover'
 import type { CapabilitiesBlock } from '../../types'
 import { Heading, Section, type SectionBg } from './section-shell'
 
+function InlineLinks({ text }: { text: string }) {
+  const links = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g
+  const parts = []
+  let offset = 0
+
+  for (const match of text.matchAll(links)) {
+    parts.push(text.slice(offset, match.index))
+    parts.push(
+      <a
+        className="break-words text-blue-700 underline underline-offset-2 hover:text-blue-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+        href={match[2]}
+        key={match.index}
+      >
+        {match[1]}
+      </a>,
+    )
+    offset = match.index + match[0].length
+  }
+
+  parts.push(text.slice(offset))
+  return <>{parts}</>
+}
+
 export function CapabilitiesSection({
   block,
   bg,
@@ -49,7 +72,7 @@ export function CapabilitiesSection({
                 </h3>
               </div>
               <p className="mt-4 text-sm leading-7 text-neutral-600">
-                {item.text}
+                <InlineLinks text={item.text} />
               </p>
               {item.bullets && item.bullets.length > 0 ? (
                 <div className="mt-5">
@@ -68,7 +91,9 @@ export function CapabilitiesSection({
                     {item.bullets.map((bullet) => (
                       <li className="flex gap-2" key={bullet}>
                         <span className="mt-2 size-1.5 shrink-0 rounded-full bg-blue-600" />
-                        <span>{bullet}</span>
+                        <span className="min-w-0">
+                          <InlineLinks text={bullet} />
+                        </span>
                       </li>
                     ))}
                   </ul>

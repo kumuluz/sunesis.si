@@ -25,6 +25,17 @@ const en: CompanyPageContent = {
       title: 'Award-winning innovation',
       items: [
         {
+          image: '/images/awards/seal-of-excellence.png',
+          imageAlt: 'European Commission Seal of Excellence',
+          title: 'European Commission Seal of Excellence',
+          text: 'Sunesis received the European Commission’s Seal of Excellence for its project proposal, recognising its quality and innovation potential. This European quality label is awarded to proposals that meet the rigorous evaluation criteria of EU research and innovation programmes but cannot receive funding due to budget constraints. ([commission.europa.eu](https://commission.europa.eu/funding-and-tenders/find-funding/seal-excellence_en))',
+          bulletsTitle: 'Why it matters',
+          bullets: [
+            'This recognition reflects our commitment to research-driven innovation and the development of advanced technology solutions.',
+            'It provides independent recognition of the quality of our proposal through a rigorous European evaluation process. ([research-and-innovation.ec.europa.eu](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/seal-excellence_en))',
+          ],
+        },
+        {
           image: '/images/awards/java-duke-award.png',
           imageAlt: 'Java Duke’s Choice Award',
           title: 'Java Duke’s Choice Award',
@@ -159,6 +170,17 @@ const sl: CompanyPageContent = {
       type: 'capabilities',
       title: 'Nagrajena inovativnost',
       items: [
+        {
+          image: '/images/awards/seal-of-excellence.png',
+          imageAlt: 'Pečat odličnosti Evropske komisije',
+          title: 'Pečat odličnosti Evropske komisije',
+          text: 'Sunesis je za svoj projektni predlog prejel pečat odličnosti Evropske komisije (Seal of Excellence), ki potrjuje njegovo kakovost in inovacijski potencial. Ta evropski znak kakovosti prejmejo projektni predlogi, ki izpolnjujejo stroga ocenjevalna merila programov EU za raziskave in inovacije, vendar zaradi omejenih proračunskih sredstev ne prejmejo financiranja. ([commission.europa.eu](https://commission.europa.eu/funding-and-tenders/find-funding/seal-excellence_en))',
+          bulletsTitle: 'Zakaj je to pomembno',
+          bullets: [
+            'Priznanje odraža našo zavezanost inovacijam, ki temeljijo na raziskavah, in razvoju naprednih tehnoloških rešitev.',
+            'Predstavlja neodvisno potrditev kakovosti našega projektnega predloga v okviru zahtevnega evropskega ocenjevalnega postopka. ([research-and-innovation.ec.europa.eu](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/seal-excellence_en))',
+          ],
+        },
         {
           image: '/images/awards/java-duke-award.png',
           imageAlt: 'Java Duke’s Choice Award',
