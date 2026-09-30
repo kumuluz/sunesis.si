@@ -1,8 +1,26 @@
+import type { LanguageCode } from './router'
+
 type ReferenceLogo = { stem: string; folder: string; url: string; name: string }
+
+export const sursReferenceLogos: Record<LanguageCode, ReferenceLogo> = {
+  sl: {
+    stem: 'surs-sl',
+    folder: 'localized',
+    url: '/images/references/SURS_SLO.png',
+    name: 'Statistični urad Republike Slovenije (SURS)',
+  },
+  en: {
+    stem: 'surs-en',
+    folder: 'localized',
+    url: '/images/references/SURS_ANG.png',
+    name: 'Statistical Office of the Republic of Slovenia (SURS)',
+  },
+}
 
 // `name` is the label shown in the hover overlay on the logo walls.
 // Edit these freely if any firm/partner name is wrong — this is the single source of truth.
 const referenceLogos: ReferenceLogo[] = [
+  ...Object.values(sursReferenceLogos),
   {
     stem: '1_ibm',
     folder: '',

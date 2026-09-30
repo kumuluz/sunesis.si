@@ -43,7 +43,7 @@ KumuluzAI is a governed AgenticAI platform for enterprise AI agents, assistants,
 ## References
 
 https://sunesis.si/en/references/
-Selected references: NLB Klik, RikoAI, AgenticAI Platform (Zavarovalniška skupina Sava), Flare, INATrace, CUPID, KYC (NLB), eSpis (Supreme Court), IKA (Supreme Court), EPUS (Plinovodi), Akrapovič Website, Akrapovič Business Portal, Inorma (Zavarovalniška skupina Sava), Energetika Moj utrip.
+Selected references: NLB Klik, RikoAI, AgenticAI Platform (Zavarovalniška skupina Sava), Flare, INATrace, CUPID, KYC (NLB), eSpis (Supreme Court), iK (Supreme Court), EPUS (Plinovodi), Akrapovič Website, Akrapovič Business Portal, Inorma (Zavarovalniška skupina Sava), Energetika Moj utrip.
 
 Open source: INATrace and CUPID, connected with Linux Foundation ecosystems including AgStack and LF Energy.
 Research & innovation: European projects across AI, cloud-edge, IoT, cybersecurity and data platforms.

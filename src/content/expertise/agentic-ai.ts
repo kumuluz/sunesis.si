@@ -695,7 +695,7 @@ const en: ExpertisePageContent = {
       title: 'AgenticAI in practice',
       intro:
         'We are already applying AgenticAI concepts in enterprise environments, helping organizations move from experimentation to practical business value.',
-      columns: 2,
+      columns: 3,
       variant: 'feature',
       cta: 'Explore our references',
       ctaHref: 'references/',
@@ -709,6 +709,11 @@ const en: ExpertisePageContent = {
           label: 'Reference',
           title: 'AgenticAI Platform — Zavarovalniška skupina Sava',
           text: 'An enterprise AgenticAI platform enabling intelligent process automation, secure use of organizational knowledge and integration with business systems through governed knowledge access, tool use and API integrations.',
+        },
+        {
+          label: 'Reference',
+          title: 'SI-GEOS — Statistical Office of the Republic of Slovenia',
+          text: 'A multimodal AgenticAI solution based on KumuluzAI, developed with UM FERI for SURS, that turns questions in Slovenian or English into traceable statistical and geospatial analyses. It connects data sources and presents results through interactive maps, charts and tables.',
         },
       ],
     },
@@ -1425,7 +1430,7 @@ const sl: ExpertisePageContent = {
       title: 'AgenticAI v praksi',
       intro:
         'AgenticAI koncepte že uporabljamo v enterprise okoljih in organizacijam pomagamo od eksperimentiranja do praktične poslovne vrednosti.',
-      columns: 2,
+      columns: 3,
       variant: 'feature',
       cta: 'Oglejte si reference',
       ctaHref: 'references/',
@@ -1439,6 +1444,11 @@ const sl: ExpertisePageContent = {
           label: 'Referenca',
           title: 'AgenticAI platforma — Zavarovalniška skupina Sava',
           text: 'Enterprise AgenticAI platforma za inteligentno avtomatizacijo procesov, varno uporabo znanja in integracijo s poslovnimi sistemi preko nadzorovanega dostopa, orodij in API-jev.',
+        },
+        {
+          label: 'Referenca',
+          title: 'SI-GEOS — Statistični urad RS',
+          text: 'Večmodalna rešitev AgenticAI na osnovi KumuluzAI, razvita v sodelovanju z UM FERI za SURS, ki vprašanja v slovenščini ali angleščini pretvori v sledljive statistične in geoprostorske analize. Povezuje podatkovne vire ter rezultate predstavi z interaktivnimi zemljevidi, grafikoni in tabelami.',
         },
       ],
     },

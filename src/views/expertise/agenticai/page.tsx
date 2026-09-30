@@ -86,7 +86,7 @@ export function AgenticAiPage({ page, language }: AgenticAiPageProps) {
         hero={page.hero}
         secondaryHref={expertiseHref}
       />
-      <ReferencesMarquee />
+      <ReferencesMarquee language={language} />
       {page.sections.map((block, index) => renderBlock(block, index))}
     </MotionConfig>
   )

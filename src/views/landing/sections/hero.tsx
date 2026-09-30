@@ -4,12 +4,14 @@ import { BackgroundRibbon } from '../../../components/background-ribbon'
 import { Button } from '../../../components/button'
 import { RevealGroup, RevealItem } from '../../../components/motion'
 import { ReferencesMarquee } from '../../../components/references-marquee'
+import type { LanguageCode } from '../../../lib/router'
 
 type HeroSectionProps = {
   content: LandingContent['hero']
+  language: LanguageCode
 }
 
-export function HeroSection({ content }: HeroSectionProps) {
+export function HeroSection({ content, language }: HeroSectionProps) {
   return (
     <div className="relative isolate overflow-hidden">
       <BackgroundRibbon />
@@ -51,7 +53,7 @@ export function HeroSection({ content }: HeroSectionProps) {
             {content.trustLine}
           </p>
         </div>
-        <ReferencesMarquee />
+        <ReferencesMarquee language={language} />
       </div>
     </div>
   )
