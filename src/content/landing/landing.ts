@@ -91,9 +91,9 @@ const enLanding = {
       ],
     },
     agenticOperations: {
-      title: 'From AI assistants to agentic operations',
+      title: 'From AI agents to autonomous departments and companies',
       intro:
-        'Many organizations start with AI assistants. Sunesis helps them go further, building digital agent teams that retrieve knowledge, call APIs, trigger workflows, request approvals and monitor process progress.',
+        'We build digital agent teams that autonomously run complete processes, department operations and, where appropriate, company-wide operations. They work within defined rules and permissions, handing exceptions and decisions requiring human judgment to people. Business-level oversight monitors the quality of their work, while continuous-improvement mechanisms help optimize agents and processes.',
       cards: [
         {
           title: 'AI assistants',
@@ -105,7 +105,7 @@ const enLanding = {
         },
         {
           title: 'Agentic operating models',
-          text: 'Digital agent teams automate complete workflows while people focus on oversight, exceptions and accountability.',
+          text: 'Digital agent teams autonomously execute connected business processes, supported by business-level oversight, anomaly detection and continuous improvement. People retain oversight and accountability.',
         },
       ],
     },
@@ -367,9 +367,9 @@ const slLanding = {
       ],
     },
     agenticOperations: {
-      title: 'Od AI asistentov do agentnih operacij',
+      title: 'Od AI agentov do avtonomnih oddelkov in podjetij',
       intro:
-        'Mnoge organizacije začnejo z AI asistenti. Sunesis jim pomaga narediti korak naprej z gradnjo digitalnih agentnih ekip, ki pridobivajo znanje, kličejo API-je, prožijo workflowe, zahtevajo odobritve in spremljajo potek procesov.',
+        'Razvijamo digitalne agentne ekipe za avtonomno izvajanje celotnih procesov, dela oddelkov in, kjer je to primerno, operativnega poslovanja podjetja. Delujejo znotraj določenih pravil in pooblastil, ljudem pa predajajo izjeme in odločitve, ki zahtevajo njihovo presojo. Vsebinski nadzor spremlja pravilnost dela, mehanizmi nenehnih izboljšav pa omogočajo optimizacijo agentov in procesov.',
       cards: [
         {
           title: 'AI asistenti',
@@ -381,7 +381,7 @@ const slLanding = {
         },
         {
           title: 'Agentni operativni modeli',
-          text: 'Digitalne agentne ekipe avtomatizirajo celovite workflowe, ljudje pa se osredotočajo na nadzor, izjeme in odgovornost.',
+          text: 'Digitalne agentne ekipe samostojno izvajajo povezane poslovne procese, ob vsebinskem nadzoru, zaznavanju anomalij in nenehnem izboljševanju delovanja. Ljudje ohranijo nadzor in odgovornost.',
         },
       ],
     },
