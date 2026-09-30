@@ -22,7 +22,7 @@ type LandingPageProps = {
 export function LandingPage({ content, language }: LandingPageProps) {
   return (
     <MotionConfig reducedMotion="user">
-      <HeroSection content={content.hero} />
+      <HeroSection content={content.hero} language={language} />
       <IntroSection content={content.intro} />
       <PositioningSection content={content.landingPageSections.positioning} />
       <ExpertiseSection

@@ -470,7 +470,7 @@ const en: ExpertisePageContent = {
         },
         {
           label: 'Reference',
-          title: 'IKA — Supreme Court',
+          title: 'iK — Supreme Court',
           text: 'An enterprise information system supporting court administration and operations.',
         },
         {
@@ -1017,7 +1017,7 @@ const sl: ExpertisePageContent = {
         },
         {
           label: 'Referenca',
-          title: 'IKA — Supreme Court',
+          title: 'iK — Vrhovno sodišče',
           text: 'Enterprise informacijski sistem v podporo sodni upravi in njenemu delovanju.',
         },
         {

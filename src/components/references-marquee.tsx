@@ -1,4 +1,8 @@
-import { topLevelReferenceLogos } from '../lib/reference-logos'
+import {
+  sursReferenceLogos,
+  topLevelReferenceLogos,
+} from '../lib/reference-logos'
+import type { LanguageCode } from '../lib/router'
 
 const references = topLevelReferenceLogos
   .map(({ stem, url }) => {
@@ -12,8 +16,13 @@ const references = topLevelReferenceLogos
   })
   .sort((a, b) => a.name.localeCompare(b.name))
 
-export function ReferencesMarquee() {
-  const duplicatedReferences = [...references, ...references]
+export function ReferencesMarquee({ language }: { language: LanguageCode }) {
+  const sursLogo = sursReferenceLogos[language]
+  const localizedReferences = [
+    ...references,
+    { name: sursLogo.name, src: sursLogo.url },
+  ].sort((a, b) => a.name.localeCompare(b.name))
+  const duplicatedReferences = [...localizedReferences, ...localizedReferences]
 
   return (
     <section className="relative z-10 border-y bg-white border-neutral-200 bg-transparent py-7">

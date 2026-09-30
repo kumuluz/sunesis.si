@@ -272,7 +272,7 @@ const selectedWorkEn: ReferencesPageContent = {
         },
         {
           label: 'Court administration information system',
-          title: 'IKA — Supreme Court',
+          title: 'iK — Supreme Court',
           text: 'Enterprise information system supporting advanced court administration and operational processes.',
           meta: 'Public sector, enterprise applications, process support, integrations, operational systems.',
         },
@@ -325,7 +325,7 @@ const selectedWorkEn: ReferencesPageContent = {
         {
           label: 'Digital Solutions Development',
           title: 'Full-stack delivery',
-          text: 'NLB Klik, KYC, eSpis, IKA, Akrapovič Business Portal, Energetika Moj utrip and INATrace show our delivery across backend, frontend, mobile, portals, workflows and integrations.',
+          text: 'NLB Klik, KYC, eSpis, iK, Akrapovič Business Portal, Energetika Moj utrip and INATrace show our delivery across backend, frontend, mobile, portals, workflows and integrations.',
         },
         {
           label: 'Cloud-native & Edge Architectures',
@@ -508,7 +508,7 @@ const clientsIndustriesEn: ReferencesPageContent = {
           bulletsTitle: 'Example references',
           bullets: [
             'eSpis — Supreme Court',
-            'IKA — Supreme Court',
+            'iK — Supreme Court',
             'SI-GEOS — Statistical Office of the Republic of Slovenia',
           ],
         },
@@ -562,7 +562,7 @@ const clientsIndustriesEn: ReferencesPageContent = {
       title: 'Organizations and ecosystems we work with',
       intro:
         'We work with enterprise organizations, public-sector institutions, technology partners, open-source communities and European research consortia.',
-      logos: CLIENT_LOGOS,
+      logos: [...CLIENT_LOGOS, 'surs-en'],
       folder: 'extras',
     },
     {
@@ -873,7 +873,7 @@ const selectedWorkSl: ReferencesPageContent = {
         },
         {
           label: 'Informacijski sistem sodne uprave',
-          title: 'IKA — Vrhovno sodišče',
+          title: 'iK — Vrhovno sodišče',
           text: 'Enterprise informacijski sistem, ki podpira napredno sodno upravo in operativne procese.',
           meta: 'Javni sektor, enterprise aplikacije, podpora procesom, integracije, operativni sistemi.',
         },
@@ -926,7 +926,7 @@ const selectedWorkSl: ReferencesPageContent = {
         {
           label: 'Razvoj digitalnih rešitev',
           title: 'Celovita izvedba',
-          text: 'NLB Klik, KYC, eSpis, IKA, Poslovni portal Akrapovič, Energetika Moj utrip in INATrace prikazujejo našo izvedbo na področju backenda, frontenda, mobilnih aplikacij, portalov, workflowov in integracij.',
+          text: 'NLB Klik, KYC, eSpis, iK, Poslovni portal Akrapovič, Energetika Moj utrip in INATrace prikazujejo našo izvedbo na področju backenda, frontenda, mobilnih aplikacij, portalov, workflowov in integracij.',
         },
         {
           label: 'Cloud-native in edge arhitekture',
@@ -1109,7 +1109,7 @@ const clientsIndustriesSl: ReferencesPageContent = {
           bulletsTitle: 'Primeri referenc',
           bullets: [
             'eSpis — Vrhovno sodišče',
-            'IKA — Vrhovno sodišče',
+            'iK — Vrhovno sodišče',
             'SI-GEOS — Statistični urad RS',
           ],
         },
@@ -1163,7 +1163,7 @@ const clientsIndustriesSl: ReferencesPageContent = {
       title: 'Organizacije in ekosistemi, s katerimi sodelujemo',
       intro:
         'Sodelujemo z enterprise organizacijami, institucijami javnega sektorja, tehnološkimi partnerji, odprtokodnimi skupnostmi in evropskimi raziskovalnimi konzorciji.',
-      logos: CLIENT_LOGOS,
+      logos: [...CLIENT_LOGOS, 'surs-sl'],
       folder: 'extras',
     },
     {

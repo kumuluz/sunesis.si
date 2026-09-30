@@ -58,7 +58,7 @@ export function SelectedWorkPage({ page, language }: SelectedWorkPageProps) {
         hero={page.hero}
         secondaryHref={page.heroSecondaryHref}
       />
-      <ReferencesMarquee />
+      <ReferencesMarquee language={language} />
       {page.sections.map((block, index) => renderBlock(block, index))}
     </MotionConfig>
   )
