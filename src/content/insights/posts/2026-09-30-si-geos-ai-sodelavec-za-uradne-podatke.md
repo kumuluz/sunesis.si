@@ -87,7 +87,7 @@ Arhitektura pri tem podpira zahteve organizacij, ki želijo ohraniti nadzor nad 
 - **Prilagodljiva namestitev.** Mikrostoritve v okolju Kubernetes omogočajo delovanje v lastni infrastrukturi, državnem računalniškem oblaku (DRO) ali oblaku EU.
 - **Neodvisnost od ponudnika jezikovnega modela.** Sistem lahko izbira med modeli glede na zahtevnost vprašanja in strošek obdelave.
 - **Zaščita podatkov po zasnovi.** Maskiranje morebitnih osebnih podatkov, preden dosežejo jezikovni model, podpira varstvo zasebnosti in izpolnjevanje zahtev GDPR.
-- **Iskanje s podprtim generiranjem (RAG).** Agent pri delu uporablja relevantne vire, povratne informacije uporabnikov pa pomagajo pri njegovem nadaljnjem izboljševanju.
+- **Generiranje, podprto s priklicem informacij (RAG).** Agent pri delu uporablja relevantne vire, povratne informacije uporabnikov pa pomagajo pri njegovem nadaljnjem izboljševanju.
 
 Tehnologija je pomembna predvsem zaradi rezultata: agent lahko statistične tabele in prostorske sloje povezuje sproti, glede na konkretno vprašanje, namesto da bi bil omejen na vnaprej pripravljene prikaze.
 
