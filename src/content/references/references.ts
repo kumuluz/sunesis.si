@@ -176,6 +176,24 @@ const selectedWorkEn: ReferencesPageContent = {
           ],
         },
         {
+          label: 'AgenticAI for statistical and geospatial analysis',
+          title: 'SI-GEOS — Statistical Office of the Republic of Slovenia',
+          body: [
+            'Sunesis, in a strategic consortium with UM FERI, is developing SI-GEOS for the Statistical Office of the Republic of Slovenia (SURS), a multimodal AgenticAI solution based on KumuluzAI for analysing official statistical and geospatial data. Given questions in Slovenian or English, the AI agent connects data sources, performs geostatistical analyses and presents results through interactive multilayer maps, charts, tables and clear explanations.',
+            'Its “Grounded-by-Design” architecture separates question understanding from computation: the language model plans the analysis, while deterministic tools calculate values from official data, making results traceable to their sources. In internal production at SURS since September 2026, the solution reduces complex analyses from days to hours and from hours to minutes.',
+          ],
+          expertiseTitle: 'Sunesis expertise',
+          expertise: [
+            'Multimodal AI agents',
+            'Data integration and harmonisation',
+            'Geostatistical analysis',
+            'Interactive visualisations',
+            'Traceable results',
+            'LLM provider independence',
+            'KumuluzAI-based delivery',
+          ],
+        },
+        {
           label: 'DevOps for blockchain infrastructure',
           title: 'Flare',
           body: [
@@ -302,7 +320,7 @@ const selectedWorkEn: ReferencesPageContent = {
         {
           label: 'AgenticAI Solutions',
           title: 'Enterprise AI agents and platforms',
-          text: 'RikoAI and the AgenticAI Platform for Zavarovalniška skupina Sava demonstrate our ability to build enterprise AI agents, process automation and secure AI platforms.',
+          text: 'RikoAI, the AgenticAI Platform for Zavarovalniška skupina Sava and SI-GEOS for SURS demonstrate our ability to build enterprise AI agents, process automation, secure AI platforms and traceable statistical and geospatial analyses.',
         },
         {
           label: 'Digital Solutions Development',
@@ -486,9 +504,13 @@ const clientsIndustriesEn: ReferencesPageContent = {
         },
         {
           title: 'Public Sector',
-          text: 'Case-management systems, secure workflows, digital administration, document-heavy processes and enterprise information systems.',
+          text: 'Case-management systems, secure workflows, digital administration, enterprise information systems and AI-powered analysis of official statistical and geospatial data.',
           bulletsTitle: 'Example references',
-          bullets: ['eSpis — Supreme Court', 'IKA — Supreme Court'],
+          bullets: [
+            'eSpis — Supreme Court',
+            'IKA — Supreme Court',
+            'SI-GEOS — Statistical Office of the Republic of Slovenia',
+          ],
         },
         {
           title: 'Energy & Utilities',
@@ -755,6 +777,24 @@ const selectedWorkSl: ReferencesPageContent = {
           ],
         },
         {
+          label: 'AgenticAI za statistične in geoprostorske analize',
+          title: 'SI-GEOS — Statistični urad RS',
+          body: [
+            'Sunesis v strateškem konzorciju z UM FERI za Statistični urad RS (SURS) razvija SI-GEOS, večmodalno rešitev AgenticAI na osnovi KumuluzAI za analizo uradnih statističnih in geoprostorskih podatkov. AI-agent na podlagi vprašanj v slovenščini ali angleščini poveže različne podatkovne vire, izvede geostatistične analize ter rezultate predstavi z interaktivnimi večslojnimi zemljevidi, grafikoni, tabelami in razumljivo razlago.',
+            'Arhitektura »Grounded-by-Design« ločuje razumevanje vprašanj od izračunov: jezikovni model načrtuje analizo, deterministična orodja pa izračunajo vrednosti iz uradnih podatkov, kar zagotavlja sledljivost rezultatov do virov. Rešitev je od septembra 2026 v interni produkciji na SURS in skrajšuje zahtevne analize z dni na ure oziroma z ur na minute.',
+          ],
+          expertiseTitle: 'Strokovnost Sunesis',
+          expertise: [
+            'Večmodalni AI agenti',
+            'Povezovanje in harmonizacija podatkov',
+            'Geostatistične analize',
+            'Interaktivne vizualizacije',
+            'Sledljivost rezultatov',
+            'Neodvisnost od ponudnika LLM',
+            'Izvedba na KumuluzAI',
+          ],
+        },
+        {
           label: 'DevOps za blockchain infrastrukturo',
           title: 'Flare',
           body: [
@@ -881,7 +921,7 @@ const selectedWorkSl: ReferencesPageContent = {
         {
           label: 'Rešitve AgenticAI',
           title: 'Enterprise AI agenti in platforme',
-          text: 'RikoAI in platforma AgenticAI za Zavarovalniško skupino Sava prikazujeta našo sposobnost gradnje enterprise AI agentov, avtomatizacije procesov in varnih AI platform.',
+          text: 'RikoAI, platforma AgenticAI za Zavarovalniško skupino Sava in SI-GEOS za SURS prikazujejo našo sposobnost gradnje enterprise AI agentov, avtomatizacije procesov, varnih AI platform ter sledljivih statističnih in geoprostorskih analiz.',
         },
         {
           label: 'Razvoj digitalnih rešitev',
@@ -1065,9 +1105,13 @@ const clientsIndustriesSl: ReferencesPageContent = {
         },
         {
           title: 'Javni sektor',
-          text: 'Sistemi za vodenje zadev, varni workflowi, digitalna uprava, dokumentno intenzivni procesi in enterprise informacijski sistemi.',
+          text: 'Sistemi za vodenje zadev, varni workflowi, digitalna uprava, enterprise informacijski sistemi ter AI-podprta analiza uradnih statističnih in geoprostorskih podatkov.',
           bulletsTitle: 'Primeri referenc',
-          bullets: ['eSpis — Vrhovno sodišče', 'IKA — Vrhovno sodišče'],
+          bullets: [
+            'eSpis — Vrhovno sodišče',
+            'IKA — Vrhovno sodišče',
+            'SI-GEOS — Statistični urad RS',
+          ],
         },
         {
           title: 'Energetika in oskrbne dejavnosti',

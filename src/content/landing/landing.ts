@@ -163,6 +163,13 @@ const enLanding = {
             'AgenticAI, insurance processes, enterprise integrations, governance, KumuluzAI',
         },
         {
+          title: 'SI-GEOS — Statistical Office of the Republic of Slovenia',
+          label: 'AI for statistics and geospatial data',
+          text: 'An AI agent based on KumuluzAI for natural-language analysis of statistical and geospatial data, with traceable calculations, interactive maps, charts and tables.',
+          expertise:
+            'AgenticAI, data integration, geostatistics, multimodal visualisations, KumuluzAI',
+        },
+        {
           title: 'Flare',
           label: 'DevOps for blockchain infrastructure',
           text: 'DevOps and platform engineering for automation, cloud-native operations and reliable delivery in blockchain infrastructure.',
@@ -437,6 +444,13 @@ const slLanding = {
           text: 'Enterprise AgenticAI platforma za inteligentno avtomatizacijo procesov, upravljan dostop do znanja in integracijo s poslovnimi sistemi.',
           expertise:
             'AgenticAI, zavarovalniški procesi, enterprise integracije, governance, KumuluzAI',
+        },
+        {
+          title: 'SI-GEOS — Statistični urad RS',
+          label: 'AI za statistiko in prostor',
+          text: 'AI-agent na osnovi KumuluzAI za analizo statističnih in geoprostorskih podatkov v naravnem jeziku, s sledljivimi izračuni ter interaktivnimi zemljevidi, grafikoni in tabelami.',
+          expertise:
+            'AgenticAI, povezovanje podatkov, geostatistika, večmodalne vizualizacije, KumuluzAI',
         },
         {
           title: 'Flare',
