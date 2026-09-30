@@ -1,4 +1,5 @@
 import { thumbnails } from '../../components/thumbnails'
+import type { StaticImageData } from 'next/image'
 import { buildPath, type LanguageCode } from '../../lib/router'
 import type { InsightsContent, InsightPost } from '../../views/insights/types'
 import { insightPosts } from './posts.generated'
@@ -8,6 +9,14 @@ export { insightPosts }
 export const INSIGHT_SLUGS = insightPosts.map((post) => post.slug)
 
 const postsBySlug = new Map(insightPosts.map((post) => [post.slug, post]))
+
+const customThumbnails: Record<string, StaticImageData> = {
+  'si-geos-ai-sodelavec-za-uradne-podatke': {
+    src: '/images/insights/si-geos-ai-sodelavec-za-uradne-podatke/si-geos-analiza-poplav.png',
+    width: 673,
+    height: 1085,
+  },
+}
 
 const INSIGHT_CATEGORY_ORDER = [
   'AgenticAI',
@@ -62,6 +71,9 @@ export function categorySlug(category: string): string {
 }
 
 export function thumbnailForSlug(slug: string) {
+  const customThumbnail = customThumbnails[slug]
+  if (customThumbnail) return customThumbnail
+
   const post = postsBySlug.get(slug)
   if (!post) return thumbnails[0]
   return thumbnails[post.thumbnail % thumbnails.length] ?? thumbnails[0]

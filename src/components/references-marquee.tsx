@@ -22,7 +22,9 @@ export function ReferencesMarquee({ language }: { language: LanguageCode }) {
     ...references,
     { name: sursLogo.name, src: sursLogo.url },
   ].sort((a, b) => a.name.localeCompare(b.name))
-  const duplicatedReferences = [...localizedReferences, ...localizedReferences]
+  const repeatedReferences = Array.from({ length: 3 }, (_, repetition) =>
+    localizedReferences.map((reference) => ({ ...reference, repetition })),
+  ).flat()
 
   return (
     <section className="relative z-10 border-y bg-white border-neutral-200 bg-transparent py-7">
@@ -31,10 +33,11 @@ export function ReferencesMarquee({ language }: { language: LanguageCode }) {
         <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-white via-white/90 to-transparent" />
         <div className="references-marquee__viewport overflow-x-auto overflow-y-hidden">
           <div className="references-marquee__track animate-marquee flex w-max gap-4">
-            {duplicatedReferences.map((reference, index) => (
+            {repeatedReferences.map((reference) => (
               <div
+                aria-hidden={reference.repetition > 0 ? true : undefined}
                 className="references-marquee__item grayscale flex h-16 min-w-48 items-center justify-center rounded-md bg-white px-8 transition duration-300"
-                key={`${reference.name}-${index}`}
+                key={`${reference.name}-${reference.repetition}`}
               >
                 <img
                   alt={reference.name}

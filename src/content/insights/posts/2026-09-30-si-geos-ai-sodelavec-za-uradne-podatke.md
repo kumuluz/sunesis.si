@@ -29,7 +29,7 @@ SI-GEOS naslavlja prav ta vmesni korak: **iz razdrobljenih virov sestavi smiseln
 
 ## Vprašate v slovenščini. Dobite več kot besedilo.
 
-SI-GEOS ni le klepetalnik nad podatkovno zbirko. Je večmodalni UI-agent, ki vprašanje v slovenščini ali angleščini prevede v zaporedje analitičnih opravil.
+SI-GEOS je večmodalni UI-agent, ki vprašanje v slovenščini ali angleščini prevede v zaporedje analitičnih opravil.
 
 1. **Razumevanje namena.** Agent razčleni vprašanje in ob nejasnostih prosi za pojasnilo: »Mislite občine ali statistične regije?«
 2. **Iskanje ustreznih virov.** Poišče podatke o prebivalstvu in relevantne prostorske sloje.
@@ -37,15 +37,15 @@ SI-GEOS ni le klepetalnik nad podatkovno zbirko. Je večmodalni UI-agent, ki vpr
 4. **Izračun.** Z namenskimi programskimi orodji izvede prostorske preseke in agregacije.
 5. **Predstavitev.** Pripravi interaktivni zemljevid, grafikone, strukturirane tabele in razlago z viri.
 
-Odgovor ni zgolj odstavek s številko. **Večslojni interaktivni zemljevid** lahko poveže mrežo prebivalstva velikosti 1 × 1 km, poplavno ogroženost in obremenjenost s hrupom. Uporabnik vidi, kje se obravnavani pojavi prekrivajo.
+**Večslojni interaktivni zemljevid** lahko poveže mrežo prebivalstva velikosti 1 × 1 km, poplavno ogroženost in obremenjenost s hrupom. Uporabnik vidi, kje se obravnavani pojavi prekrivajo.
 
 Grafikoni olajšajo primerjavo med regijami, tabele omogočijo pregled vrednosti, besedilna razlaga pa postavi rezultate v kontekst.
 
-_[Prostor za posnetek zaslona SI-GEOS: večslojni zemljevid z rezultati analize in prikazanimi viri.]_
+![Vmesnik SI-GEOS z rezultati analize prebivalstva na poplavno ogroženih območjih in interaktivnim zemljevidom Ljubljane](/images/insights/si-geos-ai-sodelavec-za-uradne-podatke/si-geos-analiza-poplav.png)
 
 ## UI razume, orodja računajo, viri dokazujejo
 
-Pri uradni statistiki prepričljiv odgovor ni dovolj. Pomembno je, od kod podatek prihaja in kako je bil izračunan.
+Pri uradni statistiki sta pomembna izvor podatka in način izračuna.
 
 Zato SI-GEOS temelji na arhitekturi **»Grounded-by-Design«**. Jezikovni model razume vprašanje in načrtuje analizo, številčnih vrednosti pa ne ustvarja sam. Z orodji sestavi in izvede poizvedbe po podatkovnih virih, izračune pa opravijo deterministična programska orodja.
 

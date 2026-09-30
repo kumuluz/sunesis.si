@@ -6,13 +6,13 @@ export const sursReferenceLogos: Record<LanguageCode, ReferenceLogo> = {
   sl: {
     stem: 'surs-sl',
     folder: 'localized',
-    url: '/images/references/SURS_SLO.png',
+    url: '/images/references/SURS_SLO.svg',
     name: 'Statistični urad Republike Slovenije (SURS)',
   },
   en: {
     stem: 'surs-en',
     folder: 'localized',
-    url: '/images/references/SURS_ANG.png',
+    url: '/images/references/SURS_ANG.svg',
     name: 'Statistical Office of the Republic of Slovenia (SURS)',
   },
 }
