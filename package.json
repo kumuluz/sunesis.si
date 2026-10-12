@@ -8,6 +8,7 @@
     "dev": "next dev",
     "prebuild": "npm run insights",
     "build": "next build",
+    "postbuild": "node scripts/verify-ai-resources.mjs",
     "start": "next start",
     "prelint": "npm run insights",
     "lint": "eslint .",
@@ -15,7 +16,10 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "insights": "node scripts/generate-insights.mjs",
-    "doctor": "npx react-doctor@latest"
+    "doctor": "npx react-doctor@latest",
+    "test": "node --test tests/*.test.mjs && node scripts/verify-ai-resources.mjs",
+    "verify:ai": "node scripts/verify-ai-resources.mjs",
+    "smoke:ai": "node scripts/smoke-check-live.mjs"
   },
   "dependencies": {
     "@firecms/neat": "^1.0.0",
