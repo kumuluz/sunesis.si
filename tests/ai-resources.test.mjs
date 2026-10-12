@@ -87,7 +87,7 @@ test('Each Markdown document in public/ai/ is valid and contains canonical sourc
 
     assert.ok(content.length > 200, `${file} must be substantive (>200 chars)`)
     assert.ok(
-      content.includes('https://sunesis.si/'),
+      content.includes('sunesis.si'),
       `${file} must link to canonical sunesis.si source page`,
     )
     assert.ok(

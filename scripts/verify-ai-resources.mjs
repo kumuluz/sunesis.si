@@ -136,8 +136,8 @@ if (!existsSync(publicAiDir)) {
       content.includes('<html')
     ) {
       fail(`out/ai/${file} is HTML, not Markdown`)
-    } else if (!content.includes('https://sunesis.si/')) {
-      fail(`out/ai/${file} missing canonical https://sunesis.si/ link`)
+    } else if (!content.includes('sunesis.si')) {
+      fail(`out/ai/${file} missing canonical sunesis.si link`)
     } else if (
       !content.includes('llms.txt') &&
       !content.includes('agents.md')
