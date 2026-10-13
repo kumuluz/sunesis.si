@@ -50,7 +50,7 @@ Selected references: NLB Klik, Sava Insurance Group (Agentic AI on KumuluzAI), F
 
 ### Company & Contact
 - About Sunesis: https://sunesis.si/en/company/about/
-- Awards: https://sunesis.si/en/company/awards/ (including Oracle Duke's Choice Award)
+- Awards: https://sunesis.si/en/company/awards/ (European Commission Seal of Excellence, Java Duke's Choice Award (KumuluzEE), EuroCloud Award, GZS innovation award and Slovenian Start:up of the Year finalist)
 - Careers: https://sunesis.si/en/company/careers/
 - Contact: https://sunesis.si/en/#contact
 

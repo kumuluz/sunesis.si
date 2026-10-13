@@ -6,7 +6,7 @@ const en: CompanyPageContent = {
   seo: {
     title: 'Awards and Recognitions | Sunesis',
     description:
-      'Sunesis and Kumuluz have received international and national recognition, including the Java Duke’s Choice Award, EuroCloud Award, GZS innovation recognition and Slovenian Start:up of the Year finalist recognition.',
+      'Sunesis and Kumuluz have received international and national recognition, including the European Commission Seal of Excellence, Java Duke’s Choice Award, EuroCloud Award, GZS innovation recognition and Slovenian Start:up of the Year finalist recognition.',
   },
   hero: {
     type: 'hero',
@@ -160,7 +160,7 @@ const sl: CompanyPageContent = {
   seo: {
     title: 'Nagrade in priznanja | Sunesis',
     description:
-      'Sunesis in Kumuluz sta prejela mednarodna in nacionalna priznanja, vključno z nagradama Java Duke’s Choice Award in EuroCloud Award, priznanjem GZS za inovacije ter uvrstitvijo med finaliste izbora Slovenski start:up leta.',
+      'Sunesis in Kumuluz sta prejela mednarodna in nacionalna priznanja, vključno s pečatom odličnosti Evropske komisije, nagradama Java Duke’s Choice Award in EuroCloud Award, priznanjem GZS za inovacije ter uvrstitvijo med finaliste izbora Slovenski start:up leta.',
   },
   hero: {
     type: 'hero',

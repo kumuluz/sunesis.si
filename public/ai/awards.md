@@ -2,6 +2,7 @@
 
 > **Canonical HTML Sources:**
 >
+> - Awards and Recognitions: [https://sunesis.si/en/company/awards/](https://sunesis.si/en/company/awards/)
 > - About Sunesis: [https://sunesis.si/en/company/about/](https://sunesis.si/en/company/about/)
 > - Homepage: [https://sunesis.si/en/](https://sunesis.si/en/)
 > - Kumuluz: [https://kumuluz.com/](https://kumuluz.com/)
@@ -14,9 +15,15 @@
 
 ---
 
-## 1. Verified Industry Awards
+## 1. Awards and Recognitions
 
-Sunesis and its platform technologies have received major international and regional industry awards recognizing technical excellence, software architecture innovation, and cloud-native leadership.
+Sunesis and the Kumuluz product family have been recognized for innovation in cloud-native technologies, Java microservices, cloud services and enterprise digital platforms.
+
+### European Commission Seal of Excellence
+
+- **Conferred by:** European Commission.
+- **Recipient:** Sunesis, for its project proposal.
+- **Scope & Significance:** A European quality label for proposals that meet the rigorous evaluation criteria of EU research and innovation programmes but cannot receive funding due to budget constraints. It recognises the quality and innovation potential of the proposal.
 
 ### Duke's Choice Award (2015)
 
@@ -26,15 +33,19 @@ Sunesis and its platform technologies have received major international and regi
 
 ### EuroCloud Award
 
-- **Conferred by:** EuroCloud Europe / EuroCloud Slovenia.
-- **Recipient:** Kumuluz Digital Platform.
-- **Scope & Significance:** Recognized as the best cloud software service and cloud-native digital platform, evaluating technological maturity, security, business impact, and architectural scalability.
+- **Recipient:** Sunesis, for the Kumuluz product family.
+- **Scope & Significance:** Awarded for the most innovative cloud service. The expert jury recognized the innovation and competitive advantages of the Kumuluz integration platform.
 
 ### GZS Innovation Award
 
 - **Conferred by:** Chamber of Commerce and Industry of Slovenia (Gospodarska zbornica Slovenije — GZS).
 - **Recipient:** Sunesis, for innovations in API management, cloud microservices and enterprise digital platforms.
 - **Scope & Significance:** Annual awards recognizing outstanding technological inventions and commercially applied software innovations in the region.
+
+### Slovenian Start:up of the Year — Finalist
+
+- **Recipient:** Sunesis.
+- **Scope & Significance:** Sunesis was selected as one of the finalists of the Slovenian Start:up of the Year competition, reflecting the early innovation potential, market relevance and technology ambition of Sunesis and its products.
 
 ---
 
