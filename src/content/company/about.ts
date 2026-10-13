@@ -169,7 +169,7 @@ const en: CompanyPageContent = {
       title: 'Recognized expertise',
       body: [
         'Sunesis and the Kumuluz product family have received national and international recognition for innovation in cloud-native and enterprise technologies.',
-        'KumuluzEE received the Java Duke’s Choice Award at JavaOne, and Sunesis has also been recognized with the EuroCloud Award and Slovenian Start:up of the Year finalist recognition.',
+        'KumuluzEE received the Java Duke’s Choice Award at JavaOne, and Sunesis has also been recognized with the European Commission Seal of Excellence, the EuroCloud Award and Slovenian Start:up of the Year finalist recognition.',
         'Our team also brings recognized expertise and certifications across Java, cloud computing, enterprise architecture, SOA, project management and innovation management.',
       ],
     },
@@ -229,7 +229,7 @@ const en: CompanyPageContent = {
         {
           label: 'Award-winning',
           title: 'Recognized innovation',
-          text: 'KumuluzEE received the Java Duke’s Choice Award, and Sunesis has also been recognized with the EuroCloud Award and as a Slovenian Start:up of the Year finalist.',
+          text: 'KumuluzEE received the Java Duke’s Choice Award, and Sunesis has also been recognized with the European Commission Seal of Excellence, the EuroCloud Award and as a Slovenian Start:up of the Year finalist.',
         },
         {
           label: 'Enterprise & open source',
@@ -419,7 +419,7 @@ const sl: CompanyPageContent = {
       title: 'Prepoznano strokovno znanje',
       body: [
         'Sunesis in družina izdelkov Kumuluz sta prejela nacionalna in mednarodna priznanja za inovacije na področju cloud-native in poslovnih tehnologij.',
-        'KumuluzEE je na konferenci JavaOne prejel nagrado Java Duke’s Choice Award, Sunesis pa je bil prepoznan tudi z nagrado EuroCloud Award in kot finalist izbora Slovenski start:up leta.',
+        'KumuluzEE je na konferenci JavaOne prejel nagrado Java Duke’s Choice Award, Sunesis pa je bil prepoznan tudi s pečatom odličnosti Evropske komisije, z nagrado EuroCloud Award in kot finalist izbora Slovenski start:up leta.',
         'Naša ekipa prinaša tudi priznano strokovno znanje in certifikate na področjih Jave, računalništva v oblaku, poslovne arhitekture, SOA, projektnega vodenja in upravljanja inovacij.',
       ],
     },
@@ -479,7 +479,7 @@ const sl: CompanyPageContent = {
         {
           label: 'Nagrajeni',
           title: 'Prepoznana inovativnost',
-          text: 'KumuluzEE je prejel nagrado Java Duke’s Choice Award, Sunesis pa je bil prepoznan tudi z nagrado EuroCloud Award in kot finalist izbora Slovenski start:up leta.',
+          text: 'KumuluzEE je prejel nagrado Java Duke’s Choice Award, Sunesis pa je bil prepoznan tudi s pečatom odličnosti Evropske komisije, z nagrado EuroCloud Award in kot finalist izbora Slovenski start:up leta.',
         },
         {
           label: 'Posel in odprta koda',

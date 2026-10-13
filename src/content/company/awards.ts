@@ -6,7 +6,7 @@ const en: CompanyPageContent = {
   seo: {
     title: 'Awards and Recognitions | Sunesis',
     description:
-      'Sunesis and Kumuluz have received international and national recognition, including the Java Duke’s Choice Award, EuroCloud Award and Slovenian Start:up of the Year finalist recognition.',
+      'Sunesis and Kumuluz have received international and national recognition, including the European Commission Seal of Excellence, Java Duke’s Choice Award, EuroCloud Award and Slovenian Start:up of the Year finalist recognition.',
   },
   hero: {
     type: 'hero',
@@ -113,7 +113,7 @@ const en: CompanyPageContent = {
       title: 'The Kumuluz heritage',
       body: [
         'The Kumuluz story started with cloud-native and microservice innovation.',
-        'KumuluzEE became one of the early frameworks focused on simplifying Java microservice development and cloud-native application architectures.',
+        'KumuluzEE became one of the world’s first frameworks focused on simplifying Java microservice development and cloud-native application architectures.',
         'Today, the Kumuluz product family continues this direction with platforms and accelerators for AgenticAI, digital platforms, APIs, Business APIs and crowdsensing. The focus has evolved from cloud-native microservices toward reusable enterprise platform foundations for AI agents, API ecosystems, workflows, digital services and AI-enhanced data.',
       ],
       quote:
@@ -151,7 +151,7 @@ const sl: CompanyPageContent = {
   seo: {
     title: 'Nagrade in priznanja | Sunesis',
     description:
-      'Sunesis in Kumuluz sta prejela mednarodna in nacionalna priznanja, vključno z nagradama Java Duke’s Choice Award in EuroCloud Award ter uvrstitvijo med finaliste izbora Slovenski start:up leta.',
+      'Sunesis in Kumuluz sta prejela mednarodna in nacionalna priznanja, vključno s pečatom odličnosti Evropske komisije, nagradama Java Duke’s Choice Award in EuroCloud Award ter uvrstitvijo med finaliste izbora Slovenski start:up leta.',
   },
   hero: {
     type: 'hero',
@@ -259,7 +259,7 @@ const sl: CompanyPageContent = {
       title: 'Dediščina Kumuluza',
       body: [
         'Zgodba Kumuluza se je začela z inovacijami na področju cloud-native in mikrostoritev.',
-        'KumuluzEE je postal eno prvih ogrodij, osredotočenih na poenostavitev razvoja mikrostoritev v Javi in cloud-native arhitektur aplikacij.',
+        'KumuluzEE je postal eno prvih ogrodij na svetu, osredotočenih na poenostavitev razvoja mikrostoritev v Javi in cloud-native arhitektur aplikacij.',
         'Danes družina izdelkov Kumuluz to smer nadaljuje s platformami in pospeševalniki za AgenticAI, digitalne platforme, API-je, Business API-je in crowdsensing. Težišče se je premaknilo od cloud-native mikrostoritev k ponovno uporabljivim temeljem poslovnih platform za AI agente, API ekosisteme, delovne tokove, digitalne storitve in z AI obogatene podatke.',
       ],
       quote:

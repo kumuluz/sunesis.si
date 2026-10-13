@@ -33,7 +33,76 @@ The dev server runs at [http://localhost:3000](http://localhost:3000). The bare 
 | `npm run format`       | Format with Prettier                                                       |
 | `npm run format:check` | Check formatting without writing                                           |
 | `npm run insights`     | Regenerate insights metadata and body bundles (runs automatically)         |
+| `npm run test`         | Run resource and validator test suites                                     |
+| `npm run verify:ai`    | Verify exported AI resources and discovery links in `out/`                 |
+| `npm run smoke:ai`     | Run live HTTP smoke checks against deploy preview or production            |
 | `npm run doctor`       | Run [react-doctor](https://www.npmjs.com/package/react-doctor) diagnostics |
+
+## Public AI Resources (`llms.txt`, `agents.md`, `/ai/*.md`)
+
+This website provides structured, machine-readable English resources for AI search engines, research agents, and LLMs, adhering to the [llms.txt v2 proposal](https://llmstxt.org/):
+
+### Distinction: Public `agents.md` vs. Root `AGENTS.md`
+
+- **Root `AGENTS.md` / `CLAUDE.md`:** Strictly internal developer guidance and repository editing instructions (e.g., how to add Insights articles, tech stack conventions). These files are developer-facing only and are never exposed as public marketing material.
+- **Public `public/agents.md` (`https://sunesis.si/agents.md`):** A public company research and navigation guide for external AI research agents and crawlers. It details company identity, Sunesis vs. Kumuluz differentiation, core technical pillars, verified customer references, and rules for interpreting evidence without unsupported claims or prompt injections.
+
+### Public Resource URLs
+
+- `https://sunesis.si/llms.txt` — Concise machine-readable index with canonical links and topic summaries.
+- `https://sunesis.si/llms-full.txt` — Full text of all `/ai/*.md` briefs in one file.
+- `https://sunesis.si/agents.md` — Public research and navigation guide for AI agents.
+- `https://sunesis.si/ai/company.md` — Company identity, history, leadership, and Sunesis vs. Kumuluz relationship.
+- `https://sunesis.si/ai/agentic-ai.md` — Enterprise AgenticAI, multi-agent orchestration, and KumuluzAI platform capabilities.
+- `https://sunesis.si/ai/cloud-native.md` — Cloud-native architectures, Kubernetes/OpenShift, event streaming, and edge computing.
+- `https://sunesis.si/ai/api-ecosystems.md` — Enterprise API governance, Kumuluz API, Business APIs, and MCP integration.
+- `https://sunesis.si/ai/devops.md` — Platform engineering, GitOps delivery pipelines, and SRE operations.
+- `https://sunesis.si/ai/selected-work.md` — Documented customer production references (Sava, SURS, NLB, Plinovodi, Flare, etc.).
+- `https://sunesis.si/ai/research-open-source.md` — Linux Foundation contributions (INATrace, CUPID) and EU Horizon Europe consortia.
+- `https://sunesis.si/ai/awards.md` — Verified industry awards (European Commission Seal of Excellence, Oracle Duke's Choice Award, EuroCloud Award, Slovenian Start:up of the Year finalist).
+
+### Editing and Maintaining Content
+
+All public AI resources are maintained directly in English in the `public/` directory:
+
+- Index file: `public/llms.txt`
+- Full-text file: `public/llms-full.txt` — generated from `public/ai/*.md` by `npm run llms`, which runs automatically before `dev` and `build`. Do not edit it by hand.
+- AI research guide: `public/agents.md`
+- Markdown topic briefs: `public/ai/*.md`
+
+Because Next.js uses static HTML export (`output: 'export'`), static assets in `public/` are copied directly into the `out/` export directory during `next build`. Content updates must be accompanied by canonical source URLs, adhere to facts documented in the main site, avoid prompt-injection instructions, and preserve exact customer/award citations.
+
+### Verification and Testing
+
+Automated verification is built into the production build pipeline:
+
+1. **Build-artifact verification (local / CI):**
+
+   ```bash
+   npm run build
+   # Automatically executes 'npm run verify:ai' via postbuild
+   ```
+
+   Or run the validator directly against `out/`:
+
+   ```bash
+   npm run verify:ai
+   ```
+
+   Or run all test suites:
+
+   ```bash
+   npm test
+   ```
+
+   The validator checks that all expected files exist in `out/`, are non-empty, contain expected markers, are served as plain text / markdown rather than HTML fallbacks, have valid canonical sources, and that discovery links (`<link rel="describedby">` and `<link rel="alternate" type="text/markdown">`) are properly injected.
+
+2. **Hosted / Deploy-preview verification:**
+   To test a live Netlify deploy preview or production environment over HTTP GET:
+   ```bash
+   npm run smoke:ai https://deploy-preview-<id>--sunesis.netlify.app
+   ```
+   This script verifies HTTP status 200, correct `Content-Type` headers (`text/plain; charset=utf-8` or `text/markdown; charset=utf-8`), and valid body contents.
 
 ## Internationalization
 
