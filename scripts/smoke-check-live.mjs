@@ -44,7 +44,7 @@ const resources = [
   {
     path: '/ai/agentic-ai.md',
     expectedContentType: 'text/markdown',
-    requiredMarker: '# Sunesis — Enterprise Agentic AI Capabilities',
+    requiredMarker: '# Sunesis — Enterprise AgenticAI Capabilities',
   },
   {
     path: '/ai/cloud-native.md',

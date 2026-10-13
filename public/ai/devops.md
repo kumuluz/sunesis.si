@@ -43,7 +43,7 @@ Sunesis designs, implements, and maintains robust operational pipelines using st
 
 ## 3. Production References & Case Studies
 
-### Flare Network
+### Flare
 
 - **Domain:** Blockchain Infrastructure & Decentralized Networks.
 - **Implementation:** High-availability DevOps and platform engineering for Flare validator and node infrastructure. Sunesis automated cluster deployment, continuous health checks, node synchronization monitoring, automated failover, and metrics collection for high-throughput networks.
@@ -58,7 +58,7 @@ Sunesis designs, implements, and maintains robust operational pipelines using st
 
 ---
 
-## 4. Operational Readiness for Agentic AI
+## 4. Operational Readiness for AgenticAI
 
 Deploying autonomous AI agents requires specialized platform engineering considerations:
 

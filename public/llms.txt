@@ -1,22 +1,22 @@
 # Sunesis
 
-> Sunesis is a Slovenian enterprise software engineering and consulting company specializing in enterprise Agentic AI, cloud-native platforms, API ecosystems, and DevOps.
+> Sunesis is a Slovenian enterprise software engineering and consulting company specializing in enterprise AgenticAI, cloud-native platforms, API ecosystems, and DevOps.
 
 Sunesis designs, builds, integrates, and operates secure, scalable, and business-critical software systems. It is also the creator and owner of the Kumuluz platform family (KumuluzAI, Kumuluz API, KumuluzEE).
 
 ## AI & Agent Resources
 - [Research & Navigation Guide](https://sunesis.si/agents.md): Public research guide for AI agents evaluating Sunesis capabilities, architecture, and evidence.
 - [Company Overview (Markdown)](https://sunesis.si/ai/company.md): Clean Markdown summary of identity, leadership, service offerings, and Sunesis vs. Kumuluz.
-- [Enterprise Agentic AI (Markdown)](https://sunesis.si/ai/agentic-ai.md): Deep dive into enterprise multi-agent orchestration, KumuluzAI platform, and governance.
+- [Enterprise AgenticAI (Markdown)](https://sunesis.si/ai/agentic-ai.md): Deep dive into enterprise multi-agent orchestration, KumuluzAI platform, and governance.
 - [Cloud-native & Edge (Markdown)](https://sunesis.si/ai/cloud-native.md): Distributed systems, Kubernetes/OpenShift, event streaming, and KumuluzEE heritage.
 - [API Ecosystems & Integrations (Markdown)](https://sunesis.si/ai/api-ecosystems.md): Enterprise API governance, Business APIs, and MCP / agent tool integration.
 - [DevOps & Platform Engineering (Markdown)](https://sunesis.si/ai/devops.md): GitOps, IaC, DevSecOps, and platform engineering for production resilience.
-- [Selected Enterprise Work (Markdown)](https://sunesis.si/ai/selected-work.md): Production references across banking, insurance, public sector, energy, and blockchain.
+- [Selected Enterprise Work (Markdown)](https://sunesis.si/ai/selected-work.md): Production references: AgenticAI Platform (Zavarovalniška skupina Sava), RikoAI, SI-GEOS (SURS), NLB Klik, KYC — NLB, Flare, INATrace, CUPID, eSpis and iK (Supreme Court), EPUS (Plinovodi), Akrapovič Website, Akrapovič Business Portal, Inorma (Zavarovalniška skupina Sava) and Energetika Moj utrip.
 - [Research & Open Source (Markdown)](https://sunesis.si/ai/research-open-source.md): Linux Foundation projects (INATrace, CUPID) and European Horizon Europe initiatives.
 - [Awards & Recognition (Markdown)](https://sunesis.si/ai/awards.md): European Commission Seal of Excellence, Java Duke's Choice Award (KumuluzEE), EuroCloud Award, GZS innovation award and Slovenian Start:up of the Year finalist.
 
 ## Core Capabilities (Web Pages)
-- [Enterprise Agentic AI](https://sunesis.si/en/expertise/agentic-ai/): Governed AI agents, assistants, tool use, and enterprise orchestration on KumuluzAI.
+- [Enterprise AgenticAI](https://sunesis.si/en/expertise/agentic-ai/): Governed AI agents, assistants, tool use, and enterprise orchestration on KumuluzAI.
 - [Digital Solutions Development](https://sunesis.si/en/expertise/digital-solutions/): End-to-end custom enterprise applications, portals, and system integrations.
 - [API Ecosystems & Integrations](https://sunesis.si/en/expertise/api-ecosystems-integrations/): Strategic API governance, Kumuluz API, and partner integration architectures.
 - [Cloud-native & Edge Architectures](https://sunesis.si/en/expertise/cloud-native-edge/): Kubernetes, OpenShift, microservices, and edge computing.
@@ -27,6 +27,8 @@ Sunesis designs, builds, integrates, and operates secure, scalable, and business
 ## Enterprise References & Company (Web Pages)
 - [Sunesis Overview](https://sunesis.si/en/): Company positioning, engineering approach, and enterprise services.
 - [Case Studies & References](https://sunesis.si/en/references/): Real-world implementations across financial services, energy, public sector, and manufacturing.
+- [Selected Work](https://sunesis.si/en/references/selected-work/): Client and partner projects in detail.
+- [Clients & Industries](https://sunesis.si/en/references/clients-industries/): Industries served and organizations Sunesis works with.
 - [About Sunesis](https://sunesis.si/en/company/about/): Background, history, leadership, and operational locations (Ljubljana, Maribor, Ptuj).
 - [Awards & Honors](https://sunesis.si/en/company/awards/): International and national recognition: European Commission Seal of Excellence, Java Duke's Choice Award (KumuluzEE), EuroCloud Award, GZS innovation award and Slovenian Start:up of the Year finalist.
 - [Careers](https://sunesis.si/en/company/careers/): Engineering culture, open roles, and career opportunities at Sunesis.
@@ -36,5 +38,5 @@ Sunesis designs, builds, integrates, and operates secure, scalable, and business
 - [KumuluzEE](https://ee.kumuluz.com/): Duke's Choice Award-winning microservice framework for Jakarta EE and MicroProfile.
 
 ## Optional
-- [Insights & Technical Articles](https://sunesis.si/en/insights/): Technical perspectives on Agentic AI, API architecture, cloud-native development, and research.
-- [Contact & Inquiries](https://sunesis.si/en/#contact): Inquiries regarding enterprise architecture, Agentic AI delivery, or engineering partnerships.
+- [Insights & Technical Articles](https://sunesis.si/en/insights/): Technical perspectives on AgenticAI, API architecture, cloud-native development, and research.
+- [Contact & Inquiries](https://sunesis.si/en/#contact): Inquiries regarding enterprise architecture, AgenticAI delivery, or engineering partnerships.

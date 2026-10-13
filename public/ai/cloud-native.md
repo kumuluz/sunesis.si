@@ -62,19 +62,19 @@ As enterprise workloads extend beyond centralized data centers, Sunesis develops
 
 ## 5. Production Reference Cases
 
-### NLB d.d. (Nova Ljubljanska Banka)
+### NLB
 
 - **Domain:** Banking & Financial Services.
 - **Implementation:** Modernization and engineering support for mission-critical digital banking platforms (NLB Klik), emphasizing microservice scalability, secure integration with core banking systems, and continuous availability.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
-### Plinovodi d.o.o.
+### Plinovodi
 
 - **Domain:** Critical National Energy Infrastructure.
 - **Implementation:** Design and development of EPUS, the core transmission and balancing information platform for Slovenia's natural gas transmission system operator.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
-### Flare Network
+### Flare
 
 - **Domain:** Decentralized Infrastructure & Blockchain.
 - **Implementation:** High-reliability DevOps engineering, node infrastructure deployment, monitoring, and automated cluster operations for mission-critical blockchain infrastructure.

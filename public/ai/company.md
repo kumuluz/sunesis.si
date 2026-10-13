@@ -18,7 +18,7 @@ Sunesis (SUNESIS d.o.o. / SUNESIS Ltd.) is a Slovenian enterprise software engin
 
 Sunesis designs, builds, integrates, and operates secure, scalable, and business-critical software systems for organizations in demanding enterprise environments. Our work spans five core pillars:
 
-1. **Agentic AI Solutions**
+1. **AgenticAI Solutions**
 2. **Digital Solutions Development**
 3. **Cloud-native & Edge Architectures**
 4. **API Ecosystems & Integrations**
@@ -47,9 +47,9 @@ For dedicated Kumuluz product content and documentation, visit [https://kumuluz.
 
 ## 3. Core Expertise Areas
 
-### Agentic AI Solutions
+### AgenticAI Solutions
 
-Enterprise-grade Agentic AI solutions that go beyond conversation. We build digital agent teams and governed agentic workflows that connect AI reasoning with enterprise knowledge, tools, APIs, and business systems under strict security, authorization, and audit controls. Most implementations are powered by the KumuluzAI platform.
+Enterprise-grade AgenticAI solutions that go beyond conversation. We build digital agent teams and governed agentic workflows that connect AI reasoning with enterprise knowledge, tools, APIs, and business systems under strict security, authorization, and audit controls. Most implementations are powered by the KumuluzAI platform.
 
 - Canonical Brief: [https://sunesis.si/ai/agentic-ai.md](https://sunesis.si/ai/agentic-ai.md)
 
@@ -82,7 +82,7 @@ Establishing secure, automated delivery platforms using Infrastructure as Code (
 Sunesis delivers software systems across regulated and mission-critical industries:
 
 - **Banking & Financial Services:** Digital banking channels (NLB Klik), digital KYC compliance and onboarding.
-- **Insurance:** Governed Agentic AI platforms for automated claims and underwriting support (Zavarovalniška skupina Sava), enterprise integration platforms (Inorma).
+- **Insurance:** Governed AgenticAI platforms for automated claims and underwriting support (Zavarovalniška skupina Sava), enterprise integration platforms (Inorma).
 - **Public Sector:** Multimodal AI geospatial/statistical analysis (SI-GEOS for SURS), judicial case management (`eSpis`) and court administration (`iK`) for the Supreme Court.
 - **Energy & Utilities:** Critical energy infrastructure platforms (EPUS for Plinovodi), customer engagement portals (Energetika Moj utrip), open-source DER interoperability (CUPID).
 - **Manufacturing & Premium Brands:** Global web presence and B2B business portals (Akrapovič).

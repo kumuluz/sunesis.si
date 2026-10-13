@@ -53,7 +53,7 @@ This website provides structured, machine-readable English resources for AI sear
 - `https://sunesis.si/llms-full.txt` — Full text of all `/ai/*.md` briefs in one file.
 - `https://sunesis.si/agents.md` — Public research and navigation guide for AI agents.
 - `https://sunesis.si/ai/company.md` — Company identity, history, leadership, and Sunesis vs. Kumuluz relationship.
-- `https://sunesis.si/ai/agentic-ai.md` — Enterprise Agentic AI, multi-agent orchestration, and KumuluzAI platform capabilities.
+- `https://sunesis.si/ai/agentic-ai.md` — Enterprise AgenticAI, multi-agent orchestration, and KumuluzAI platform capabilities.
 - `https://sunesis.si/ai/cloud-native.md` — Cloud-native architectures, Kubernetes/OpenShift, event streaming, and edge computing.
 - `https://sunesis.si/ai/api-ecosystems.md` — Enterprise API governance, Kumuluz API, Business APIs, and MCP integration.
 - `https://sunesis.si/ai/devops.md` — Platform engineering, GitOps delivery pipelines, and SRE operations.

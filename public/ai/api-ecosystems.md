@@ -31,14 +31,14 @@ Our approach centers on:
 
 Sunesis delivers API solutions both as custom architectural implementations and through the **Kumuluz** product suite:
 
-- **Kumuluz API Gateway & Management:** A high-throughput, low-latency API gateway offering centralized policy enforcement, traffic shaping, authentication/authorization offloading, transformation, and comprehensive analytics.
+- **Kumuluz API:** A high-throughput, low-latency API gateway offering centralized policy enforcement, traffic shaping, authentication/authorization offloading, transformation, and comprehensive analytics.
 - **Kumuluz Business APIs:** Pre-architected, domain-driven API components designed for rapid rollout in banking, insurance, utility, and telecom sectors, dramatically reducing time-to-market for complex partner ecosystems.
 
 ---
 
 ## 3. AI-Ready APIs & Model Context Protocol (MCP)
 
-As organizations adopt Agentic AI, APIs become the primary mechanism through which autonomous agents inspect state and execute transactional actions:
+As organizations adopt AgenticAI, APIs become the primary mechanism through which autonomous agents inspect state and execute transactional actions:
 
 - **Agent Tool Schemas:** Transforming existing enterprise APIs into structured tool definitions (JSON Schema, OpenAPI) consumable by AI reasoning engines.
 - **Model Context Protocol (MCP):** Implementing native MCP servers to expose enterprise data and actions directly to AI agents with deterministic input validation and safety boundaries.

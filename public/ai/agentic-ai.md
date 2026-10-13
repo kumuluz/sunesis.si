@@ -1,4 +1,4 @@
-# Sunesis — Enterprise Agentic AI Capabilities
+# Sunesis — Enterprise AgenticAI Capabilities
 
 > **Canonical HTML Sources:**
 >
@@ -14,9 +14,9 @@
 
 ---
 
-## 1. What Sets Enterprise Agentic AI Apart
+## 1. What Sets Enterprise AgenticAI Apart
 
-While simple AI chat interfaces provide conversational answers, **Enterprise Agentic AI** deploys autonomous and semi-autonomous digital agents that:
+While simple AI chat interfaces provide conversational answers, **Enterprise AgenticAI** deploys autonomous and semi-autonomous digital agents that:
 
 1. Formulate multi-step action plans to achieve business objectives.
 2. Coordinate as specialized agent teams (multi-agent orchestration).
@@ -24,7 +24,7 @@ While simple AI chat interfaces provide conversational answers, **Enterprise Age
 4. Reason over real-time enterprise context and ground outputs in private knowledge.
 5. Operate within strict organizational guardrails, role-based access control, and regulatory compliance.
 
-Sunesis delivers production-ready Agentic AI systems by combining deep enterprise backend engineering, API integration, and cloud-native architecture with modern agent frameworks and governance layers.
+Sunesis delivers production-ready AgenticAI systems by combining deep enterprise backend engineering, API integration, and cloud-native architecture with modern agent frameworks and governance layers.
 
 ---
 
@@ -44,7 +44,7 @@ Sunesis builds enterprise agentic solutions on top of **KumuluzAI**, a governed 
 
 ## 3. Production References & Case Studies
 
-### Zavarovalniška skupina Sava (Sava Insurance Group)
+### AgenticAI Platform — Zavarovalniška skupina Sava
 
 - **Domain:** Insurance and financial services.
 - **Implementation:** Deployment of the KumuluzAI platform as the enterprise foundation for AI agents, assistants, and intelligent process automation across the group's companies.
@@ -74,7 +74,7 @@ For comprehensive research details, see [https://sunesis.si/ai/research-open-sou
 
 ## 5. Delivery Lifecycle & Engagement Model
 
-Sunesis delivers Agentic AI systems through a structured enterprise engagement lifecycle:
+Sunesis delivers AgenticAI systems through a structured enterprise engagement lifecycle:
 
 1. **Opportunity Assessment & Feasibility:** Identifying high-value agentic use cases with clear ROI, operational boundaries, and integration feasibility.
 2. **Architecture & Governance Design:** Specifying agent topology, tool contracts, security guardrails, data residency, and HITL approval mechanisms.

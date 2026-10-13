@@ -28,7 +28,7 @@ Sunesis (SUNESIS d.o.o. / SUNESIS Ltd.) is a Slovenian enterprise software engin
 
 Sunesis designs, builds, integrates, and operates secure, scalable, and business-critical software systems for organizations in demanding enterprise environments. Our work spans five core pillars:
 
-1. **Agentic AI Solutions**
+1. **AgenticAI Solutions**
 2. **Digital Solutions Development**
 3. **Cloud-native & Edge Architectures**
 4. **API Ecosystems & Integrations**
@@ -57,9 +57,9 @@ For dedicated Kumuluz product content and documentation, visit [https://kumuluz.
 
 ### 3. Core Expertise Areas
 
-#### Agentic AI Solutions
+#### AgenticAI Solutions
 
-Enterprise-grade Agentic AI solutions that go beyond conversation. We build digital agent teams and governed agentic workflows that connect AI reasoning with enterprise knowledge, tools, APIs, and business systems under strict security, authorization, and audit controls. Most implementations are powered by the KumuluzAI platform.
+Enterprise-grade AgenticAI solutions that go beyond conversation. We build digital agent teams and governed agentic workflows that connect AI reasoning with enterprise knowledge, tools, APIs, and business systems under strict security, authorization, and audit controls. Most implementations are powered by the KumuluzAI platform.
 
 - Canonical Brief: [https://sunesis.si/ai/agentic-ai.md](https://sunesis.si/ai/agentic-ai.md)
 
@@ -92,7 +92,7 @@ Establishing secure, automated delivery platforms using Infrastructure as Code (
 Sunesis delivers software systems across regulated and mission-critical industries:
 
 - **Banking & Financial Services:** Digital banking channels (NLB Klik), digital KYC compliance and onboarding.
-- **Insurance:** Governed Agentic AI platforms for automated claims and underwriting support (Zavarovalniška skupina Sava), enterprise integration platforms (Inorma).
+- **Insurance:** Governed AgenticAI platforms for automated claims and underwriting support (Zavarovalniška skupina Sava), enterprise integration platforms (Inorma).
 - **Public Sector:** Multimodal AI geospatial/statistical analysis (SI-GEOS for SURS), judicial case management (`eSpis`) and court administration (`iK`) for the Supreme Court.
 - **Energy & Utilities:** Critical energy infrastructure platforms (EPUS for Plinovodi), customer engagement portals (Energetika Moj utrip), open-source DER interoperability (CUPID).
 - **Manufacturing & Premium Brands:** Global web presence and B2B business portals (Akrapovič).
@@ -114,7 +114,7 @@ For detailed reference descriptions, see [https://sunesis.si/ai/selected-work.md
 
 Source: https://sunesis.si/ai/agentic-ai.md
 
-## Sunesis — Enterprise Agentic AI Capabilities
+## Sunesis — Enterprise AgenticAI Capabilities
 
 > **Canonical HTML Sources:**
 >
@@ -130,9 +130,9 @@ Source: https://sunesis.si/ai/agentic-ai.md
 
 ---
 
-### 1. What Sets Enterprise Agentic AI Apart
+### 1. What Sets Enterprise AgenticAI Apart
 
-While simple AI chat interfaces provide conversational answers, **Enterprise Agentic AI** deploys autonomous and semi-autonomous digital agents that:
+While simple AI chat interfaces provide conversational answers, **Enterprise AgenticAI** deploys autonomous and semi-autonomous digital agents that:
 
 1. Formulate multi-step action plans to achieve business objectives.
 2. Coordinate as specialized agent teams (multi-agent orchestration).
@@ -140,7 +140,7 @@ While simple AI chat interfaces provide conversational answers, **Enterprise Age
 4. Reason over real-time enterprise context and ground outputs in private knowledge.
 5. Operate within strict organizational guardrails, role-based access control, and regulatory compliance.
 
-Sunesis delivers production-ready Agentic AI systems by combining deep enterprise backend engineering, API integration, and cloud-native architecture with modern agent frameworks and governance layers.
+Sunesis delivers production-ready AgenticAI systems by combining deep enterprise backend engineering, API integration, and cloud-native architecture with modern agent frameworks and governance layers.
 
 ---
 
@@ -160,7 +160,7 @@ Sunesis builds enterprise agentic solutions on top of **KumuluzAI**, a governed 
 
 ### 3. Production References & Case Studies
 
-#### Zavarovalniška skupina Sava (Sava Insurance Group)
+#### AgenticAI Platform — Zavarovalniška skupina Sava
 
 - **Domain:** Insurance and financial services.
 - **Implementation:** Deployment of the KumuluzAI platform as the enterprise foundation for AI agents, assistants, and intelligent process automation across the group's companies.
@@ -190,7 +190,7 @@ For comprehensive research details, see [https://sunesis.si/ai/research-open-sou
 
 ### 5. Delivery Lifecycle & Engagement Model
 
-Sunesis delivers Agentic AI systems through a structured enterprise engagement lifecycle:
+Sunesis delivers AgenticAI systems through a structured enterprise engagement lifecycle:
 
 1. **Opportunity Assessment & Feasibility:** Identifying high-value agentic use cases with clear ROI, operational boundaries, and integration feasibility.
 2. **Architecture & Governance Design:** Specifying agent topology, tool contracts, security guardrails, data residency, and HITL approval mechanisms.
@@ -266,19 +266,19 @@ As enterprise workloads extend beyond centralized data centers, Sunesis develops
 
 ### 5. Production Reference Cases
 
-#### NLB d.d. (Nova Ljubljanska Banka)
+#### NLB
 
 - **Domain:** Banking & Financial Services.
 - **Implementation:** Modernization and engineering support for mission-critical digital banking platforms (NLB Klik), emphasizing microservice scalability, secure integration with core banking systems, and continuous availability.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
-#### Plinovodi d.o.o.
+#### Plinovodi
 
 - **Domain:** Critical National Energy Infrastructure.
 - **Implementation:** Design and development of EPUS, the core transmission and balancing information platform for Slovenia's natural gas transmission system operator.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
-#### Flare Network
+#### Flare
 
 - **Domain:** Decentralized Infrastructure & Blockchain.
 - **Implementation:** High-reliability DevOps engineering, node infrastructure deployment, monitoring, and automated cluster operations for mission-critical blockchain infrastructure.
@@ -321,14 +321,14 @@ Our approach centers on:
 
 Sunesis delivers API solutions both as custom architectural implementations and through the **Kumuluz** product suite:
 
-- **Kumuluz API Gateway & Management:** A high-throughput, low-latency API gateway offering centralized policy enforcement, traffic shaping, authentication/authorization offloading, transformation, and comprehensive analytics.
+- **Kumuluz API:** A high-throughput, low-latency API gateway offering centralized policy enforcement, traffic shaping, authentication/authorization offloading, transformation, and comprehensive analytics.
 - **Kumuluz Business APIs:** Pre-architected, domain-driven API components designed for rapid rollout in banking, insurance, utility, and telecom sectors, dramatically reducing time-to-market for complex partner ecosystems.
 
 ---
 
 ### 3. AI-Ready APIs & Model Context Protocol (MCP)
 
-As organizations adopt Agentic AI, APIs become the primary mechanism through which autonomous agents inspect state and execute transactional actions:
+As organizations adopt AgenticAI, APIs become the primary mechanism through which autonomous agents inspect state and execute transactional actions:
 
 - **Agent Tool Schemas:** Transforming existing enterprise APIs into structured tool definitions (JSON Schema, OpenAPI) consumable by AI reasoning engines.
 - **Model Context Protocol (MCP):** Implementing native MCP servers to expose enterprise data and actions directly to AI agents with deterministic input validation and safety boundaries.
@@ -406,7 +406,7 @@ Sunesis designs, implements, and maintains robust operational pipelines using st
 
 ### 3. Production References & Case Studies
 
-#### Flare Network
+#### Flare
 
 - **Domain:** Blockchain Infrastructure & Decentralized Networks.
 - **Implementation:** High-availability DevOps and platform engineering for Flare validator and node infrastructure. Sunesis automated cluster deployment, continuous health checks, node synchronization monitoring, automated failover, and metrics collection for high-throughput networks.
@@ -421,7 +421,7 @@ Sunesis designs, implements, and maintains robust operational pipelines using st
 
 ---
 
-### 4. Operational Readiness for Agentic AI
+### 4. Operational Readiness for AgenticAI
 
 Deploying autonomous AI agents requires specialized platform engineering considerations:
 
@@ -438,32 +438,34 @@ Source: https://sunesis.si/ai/selected-work.md
 > **Canonical HTML Sources:**
 >
 > - All References: [https://sunesis.si/en/references/](https://sunesis.si/en/references/)
+> - Selected Work: [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
+> - Clients & Industries: [https://sunesis.si/en/references/clients-industries/](https://sunesis.si/en/references/clients-industries/)
 > - Homepage: [https://sunesis.si/en/](https://sunesis.si/en/)
 >
 > **AI Navigation:**
 >
 > - Index: [https://sunesis.si/llms.txt](https://sunesis.si/llms.txt)
 > - Research Guide: [https://sunesis.si/agents.md](https://sunesis.si/agents.md)
-> - Agentic AI Capabilities: [https://sunesis.si/ai/agentic-ai.md](https://sunesis.si/ai/agentic-ai.md)
+> - AgenticAI Capabilities: [https://sunesis.si/ai/agentic-ai.md](https://sunesis.si/ai/agentic-ai.md)
 
 ---
 
 ### Overview
 
-The following reference engagements reflect Sunesis's proven track record delivering mission-critical enterprise systems, cloud-native architectures, API integrations, and governed Agentic AI solutions across banking, insurance, public sector, energy, manufacturing, and decentralized infrastructure.
+The following reference engagements reflect Sunesis's proven track record delivering mission-critical enterprise systems, cloud-native architectures, API integrations, and governed AgenticAI solutions across banking, insurance, public sector, energy, manufacturing, and decentralized infrastructure.
 
 ---
 
-### 1. Zavarovalniška skupina Sava (Sava Insurance Group)
+### 1. AgenticAI Platform — Zavarovalniška skupina Sava
 
 - **Sector:** Insurance & Financial Services
-- **Focus:** Enterprise Agentic AI & Intelligent Process Automation
+- **Focus:** Enterprise AgenticAI & Intelligent Process Automation
 - **Solution:** Deployment of the **KumuluzAI** enterprise platform to empower insurance operations with secure AI agents, assistants, and automated multi-step workflows. The platform provides governed access to insurance systems, enterprise-grade audit trails, role-based access control, and privacy protection.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
-### 2. Statistical Office of the Republic of Slovenia (SURS) — SI-GEOS
+### 2. SI-GEOS — Statistical Office of the Republic of Slovenia
 
 - **Sector:** Public Sector & National Statistics
 - **Focus:** Multimodal AI Geospatial & Statistical Intelligence
@@ -472,7 +474,7 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 ---
 
-### 3. NLB d.d. (Nova Ljubljanska Banka) — NLB Klik
+### 3. NLB Klik
 
 - **Sector:** Banking & Financial Services
 - **Focus:** Digital Banking Channels & Cloud-Native Modernization
@@ -481,7 +483,7 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 ---
 
-### 4. Plinovodi d.o.o. — EPUS Platform
+### 4. EPUS — Plinovodi
 
 - **Sector:** Critical Energy Transmission Infrastructure
 - **Focus:** Mission-Critical Transmission System Operator (TSO) Platforms
@@ -490,7 +492,7 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 ---
 
-### 5. Vrhovno sodišče Republike Slovenije (Supreme Court of Slovenia) — eSpis & iK
+### 5. eSpis and iK — Supreme Court
 
 - **Sector:** Judiciary & Public Administration
 - **Focus:** Case Management Systems & Judicial Integrations
@@ -499,7 +501,7 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 ---
 
-### 6. Akrapovič d.d.
+### 6. Akrapovič Website
 
 - **Sector:** Premium Automotive & Motorcycle Exhaust Manufacturing
 - **Focus:** Digital Experience, Global Web Presence & B2B Integration
@@ -508,7 +510,7 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 ---
 
-### 7. Flare Network
+### 7. Flare
 
 - **Sector:** Decentralized Networks & Blockchain
 - **Focus:** DevOps, Node Reliability Engineering & Infrastructure Automation
@@ -526,7 +528,7 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 ---
 
-### 9. Linux Foundation AgStack — INATrace
+### 9. INATrace
 
 - **Sector:** Agriculture & Open-Source Supply Chain Traceability
 - **Focus:** Digital Supply Chain Traceability & Smallholder Inclusion
@@ -535,7 +537,7 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 ---
 
-### 10. Linux Foundation Energy — CUPID
+### 10. CUPID
 
 - **Sector:** Energy & Open-Source Grid Interoperability
 - **Focus:** Distributed Energy Resources (DER) Interoperability API
@@ -544,11 +546,39 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 ---
 
-### 11. Energetika Ljubljana — Moj utrip
+### 11. Energetika Moj utrip
 
 - **Sector:** Municipal Utilities & Energy Supply
 - **Focus:** Customer Portal & Smart Metering Integration
 - **Solution:** Development of **Moj utrip**, a self-service customer engagement platform for Slovenia's largest municipal energy supplier, integrating consumption analytics, electronic billing, and automated meter data feeds.
+- **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
+
+---
+
+### 12. RikoAI
+
+- **Focus:** AgenticAI solution
+- **Solution:** RikoAI is an AgenticAI solution designed to support intelligent assistance, knowledge-driven automation and business process optimization in an enterprise environment. It shows how enterprise knowledge, AI assistants, controlled integrations and process context can be combined to improve user support, decision-making and operational efficiency.
+- **Sunesis expertise:** AgenticAI, enterprise AI assistants, knowledge-driven automation, business process support, secure AI architecture and KumuluzAI-based delivery.
+- **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
+
+---
+
+### 13. KYC — NLB
+
+- **Sector:** Banking
+- **Focus:** Banking compliance and onboarding
+- **Solution:** Digital KYC solution and integrations supporting banking compliance, customer onboarding and regulated digital processes.
+- **Scope:** Digital banking, integrations, compliance workflows, backend systems and secure processes.
+- **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
+
+---
+
+### 14. Akrapovič Business Portal
+
+- **Sector:** Manufacturing & Premium Brands
+- **Solution:** Digital business portal supporting partner, customer and internal enterprise workflows.
+- **Scope:** Business portals, frontend, backend, integrations and partner services.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
@@ -593,7 +623,7 @@ Sunesis believes enterprise software excellence thrives on open standards, modul
 - **Implementation:** Enables end-to-end provenance tracking of agricultural commodities (such as coffee) from smallholder farms to international roasters and retailers. Provides tamper-evident data collection, digital payments traceability, and geospatial validation required for EU Deforestation Regulation (EUDR) compliance.
 - **Reference Detail:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
-#### Linux Foundation Energy — CUPID
+#### CUPID
 
 - **Foundation:** Linux Foundation (LF Energy).
 - **Focus:** Common Universal Power Interface for Distributed Energy Resources (CUPID).

@@ -36,7 +36,7 @@ Sunesis believes enterprise software excellence thrives on open standards, modul
 - **Implementation:** Enables end-to-end provenance tracking of agricultural commodities (such as coffee) from smallholder farms to international roasters and retailers. Provides tamper-evident data collection, digital payments traceability, and geospatial validation required for EU Deforestation Regulation (EUDR) compliance.
 - **Reference Detail:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
-### Linux Foundation Energy — CUPID
+### CUPID
 
 - **Foundation:** Linux Foundation (LF Energy).
 - **Focus:** Common Universal Power Interface for Distributed Energy Resources (CUPID).
