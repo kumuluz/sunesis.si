@@ -59,7 +59,7 @@ This website provides structured, machine-readable English resources for AI sear
 - `https://sunesis.si/ai/devops.md` — Platform engineering, GitOps delivery pipelines, and SRE operations.
 - `https://sunesis.si/ai/selected-work.md` — Documented customer production references (Sava, SURS, NLB, Plinovodi, Flare, etc.).
 - `https://sunesis.si/ai/research-open-source.md` — Linux Foundation contributions (INATrace, CUPID) and EU Horizon Europe consortia.
-- `https://sunesis.si/ai/awards.md` — Verified industry awards (Oracle Duke's Choice Award, EuroCloud, GZS Innovation Awards).
+- `https://sunesis.si/ai/awards.md` — Verified industry awards (European Commission Seal of Excellence, Oracle Duke's Choice Award, EuroCloud Award, Slovenian Start:up of the Year finalist).
 
 ### Editing and Maintaining Content
 

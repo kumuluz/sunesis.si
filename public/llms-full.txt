@@ -703,12 +703,6 @@ Sunesis and the Kumuluz product family have been recognized for innovation in cl
 - **Recipient:** Sunesis, for the Kumuluz product family.
 - **Scope & Significance:** Awarded for the most innovative cloud service. The expert jury recognized the innovation and competitive advantages of the Kumuluz integration platform.
 
-#### GZS Innovation Award
-
-- **Conferred by:** Chamber of Commerce and Industry of Slovenia (Gospodarska zbornica Slovenije — GZS).
-- **Recipient:** Sunesis, for innovations in API management, cloud microservices and enterprise digital platforms.
-- **Scope & Significance:** Annual awards recognizing outstanding technological inventions and commercially applied software innovations in the region.
-
 #### Slovenian Start:up of the Year — Finalist
 
 - **Recipient:** Sunesis.

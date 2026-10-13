@@ -13,7 +13,7 @@ Sunesis designs, builds, integrates, and operates secure, scalable, and business
 - [DevOps & Platform Engineering (Markdown)](https://sunesis.si/ai/devops.md): GitOps, IaC, DevSecOps, and platform engineering for production resilience.
 - [Selected Enterprise Work (Markdown)](https://sunesis.si/ai/selected-work.md): Production references: AgenticAI Platform (Zavarovalniška skupina Sava), RikoAI, SI-GEOS (SURS), NLB Klik, KYC — NLB, Flare, INATrace, CUPID, eSpis and iK (Supreme Court), EPUS (Plinovodi), Akrapovič Website, Akrapovič Business Portal, Inorma (Zavarovalniška skupina Sava) and Energetika Moj utrip.
 - [Research & Open Source (Markdown)](https://sunesis.si/ai/research-open-source.md): Linux Foundation projects (INATrace, CUPID) and European Horizon Europe initiatives.
-- [Awards & Recognition (Markdown)](https://sunesis.si/ai/awards.md): European Commission Seal of Excellence, Java Duke's Choice Award (KumuluzEE), EuroCloud Award, GZS innovation award and Slovenian Start:up of the Year finalist.
+- [Awards & Recognition (Markdown)](https://sunesis.si/ai/awards.md): European Commission Seal of Excellence, Java Duke's Choice Award (KumuluzEE), EuroCloud Award and Slovenian Start:up of the Year finalist.
 
 ## Core Capabilities (Web Pages)
 - [Enterprise AgenticAI](https://sunesis.si/en/expertise/agentic-ai/): Governed AI agents, assistants, tool use, and enterprise orchestration on KumuluzAI.
@@ -30,7 +30,7 @@ Sunesis designs, builds, integrates, and operates secure, scalable, and business
 - [Selected Work](https://sunesis.si/en/references/selected-work/): Client and partner projects in detail.
 - [Clients & Industries](https://sunesis.si/en/references/clients-industries/): Industries served and organizations Sunesis works with.
 - [About Sunesis](https://sunesis.si/en/company/about/): Background, history, leadership, and operational locations (Ljubljana, Maribor, Ptuj).
-- [Awards & Honors](https://sunesis.si/en/company/awards/): International and national recognition: European Commission Seal of Excellence, Java Duke's Choice Award (KumuluzEE), EuroCloud Award, GZS innovation award and Slovenian Start:up of the Year finalist.
+- [Awards & Honors](https://sunesis.si/en/company/awards/): International and national recognition: European Commission Seal of Excellence, Java Duke's Choice Award (KumuluzEE), EuroCloud Award and Slovenian Start:up of the Year finalist.
 - [Careers](https://sunesis.si/en/company/careers/): Engineering culture, open roles, and career opportunities at Sunesis.
 
 ## Platforms & Products
