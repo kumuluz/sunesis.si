@@ -17,24 +17,25 @@
 
 ## Overview
 
-The following reference engagements reflect Sunesis's proven track record delivering mission-critical enterprise systems, cloud-native architectures, API integrations, and governed AgenticAI solutions across banking, insurance, public sector, energy, manufacturing, and decentralized infrastructure.
+The following client and partner projects reflect where Sunesis contributes to digital platforms, AgenticAI solutions, enterprise integrations, DevOps foundations, open-source systems and business-critical software across banking, insurance, public sector, energy, manufacturing, blockchain infrastructure and open-source ecosystems.
 
 ---
 
 ## 1. AgenticAI Platform — Zavarovalniška skupina Sava
 
-- **Sector:** Insurance & Financial Services
-- **Focus:** Enterprise AgenticAI & Intelligent Process Automation
-- **Solution:** Deployment of the **KumuluzAI** enterprise platform to empower insurance operations with secure AI agents, assistants, and automated multi-step workflows. The platform provides governed access to insurance systems, enterprise-grade audit trails, role-based access control, and privacy protection.
+- **Sector:** Insurance
+- **Focus:** Insurance process automation
+- **Solution:** Sunesis developed an enterprise AgenticAI platform for Zavarovalniška skupina Sava, enabling intelligent process automation, secure use of organizational knowledge and integration with business systems. The project shows how AI agents can support insurance processes through governed knowledge access, tool use, API integrations, enterprise controls and production-ready platform delivery on the **KumuluzAI** platform.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ## 2. SI-GEOS — Statistical Office of the Republic of Slovenia
 
-- **Sector:** Public Sector & National Statistics
-- **Focus:** Multimodal AI Geospatial & Statistical Intelligence
-- **Solution:** Design and development of **SI-GEOS**, an advanced geospatial and statistical analytics platform. SI-GEOS integrates spatial layers with demographic and economic data, enabling researchers and government bodies to execute complex natural-language and multimodal queries across national datasets.
+- **Sector:** Public Sector & Official Statistics
+- **Focus:** AgenticAI for statistical and geospatial analysis
+- **Solution:** Sunesis, in a strategic consortium with UM FERI, is developing **SI-GEOS** for the Statistical Office of the Republic of Slovenia (SURS): a multimodal AgenticAI solution based on KumuluzAI for analysing official statistical and geospatial data. Given questions in Slovenian or English, the AI agent connects data sources, performs geostatistical analyses and presents results through interactive multilayer maps, charts, tables and clear explanations. Its "Grounded-by-Design" architecture separates question understanding from computation: the language model plans the analysis, while deterministic tools calculate values from official data, making results traceable to their sources.
+- **Status:** In internal production at SURS since September 2026, the solution reduces complex analyses from days to hours and from hours to minutes.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
@@ -42,44 +43,48 @@ The following reference engagements reflect Sunesis's proven track record delive
 ## 3. NLB Klik
 
 - **Sector:** Banking & Financial Services
-- **Focus:** Digital Banking Channels & Cloud-Native Modernization
-- **Solution:** Enterprise software engineering, architecture, and microservice integration for **NLB Klik**, the flagship digital banking platform of Slovenia's largest banking group. Focus areas included high-concurrency microservices, robust integration with core banking systems, zero-downtime deployments, and regulatory compliance.
+- **Focus:** Digital banking platform
+- **Solution:** Sunesis contributes to frontend and backend development for **NLB Klik**, supporting modern digital banking experiences and complex banking journeys for one of the leading financial institutions in the region. The work covers secure digital channels, enterprise backend development, integrations and production-ready financial services software.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ## 4. EPUS — Plinovodi
 
-- **Sector:** Critical Energy Transmission Infrastructure
-- **Focus:** Mission-Critical Transmission System Operator (TSO) Platforms
-- **Solution:** Architecture, engineering, and maintenance of **EPUS**, the central commercial and operational platform for natural gas transmission in Slovenia. EPUS handles complex capacity booking, balancing, cross-border nominations, and real-time operational reporting under European energy regulations (ENTSO-G).
+- **Sector:** Energy & Utilities
+- **Focus:** Energy infrastructure platform
+- **Solution:** Business-critical enterprise platform supporting energy infrastructure and operational workflows.
+- **Scope:** Energy and utilities, enterprise platforms, integrations, operational systems and business-critical delivery.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ## 5. eSpis and iK — Supreme Court
 
-- **Sector:** Judiciary & Public Administration
-- **Focus:** Case Management Systems & Judicial Integrations
-- **Solution:** Software development and enterprise integration for **eSpis** (electronic judicial case file management) and **iK** (court administration and management information system). Integrates court workflows with central governmental registers, security services, and external legal databases.
+- **Sector:** Public Sector
+- **Focus:** Digital case management and court administration
+- **Solution:** **eSpis** is a digital case-management solution supporting judicial workflows, secure document handling and court processes. **iK** is an enterprise information system supporting advanced court administration and operational processes.
+- **Scope:** Public sector systems, secure workflows, document management, case management, enterprise backend and applications, process support and integrations.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ## 6. Akrapovič Website
 
-- **Sector:** Premium Automotive & Motorcycle Exhaust Manufacturing
-- **Focus:** Digital Experience, Global Web Presence & B2B Integration
-- **Solution:** Development and maintenance of the global digital web platform for Akrapovič, delivering high-performance content delivery, dynamic product catalogs, and backend integration with enterprise ERP systems.
+- **Sector:** Manufacturing & Premium Brands
+- **Focus:** Premium brand digital presence
+- **Solution:** High-performance website for a global premium brand, supporting digital presentation, brand experience and online engagement.
+- **Scope:** Web development, performance, user experience and digital brand presence.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ## 7. Flare
 
-- **Sector:** Decentralized Networks & Blockchain
-- **Focus:** DevOps, Node Reliability Engineering & Infrastructure Automation
-- **Solution:** Enterprise DevOps engineering for validator and state-connector node infrastructure. Developed automated deployment pipelines, real-time node synchronization monitors, fault detection, and automated failover mechanisms ensuring network resilience.
+- **Sector:** Blockchain & Web3 Infrastructure
+- **Focus:** DevOps for blockchain infrastructure
+- **Solution:** Sunesis provides DevOps and platform engineering expertise for Flare, supporting automation, cloud-native operations and reliable delivery practices for a large-scale blockchain infrastructure environment.
+- **Scope:** DevOps engineering, platform engineering, Kubernetes-based operations, automation and deployment, production-grade infrastructure and operational reliability.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
@@ -87,35 +92,37 @@ The following reference engagements reflect Sunesis's proven track record delive
 ## 8. Inorma — Zavarovalniška skupina Sava
 
 - **Sector:** Insurance
-- **Focus:** Enterprise Integrations & API Architecture
-- **Solution:** Integration platform connecting systems, data flows and business processes across an insurance group. Covers enterprise integrations, API architecture, data flows, insurance systems and integration governance.
+- **Focus:** Enterprise integration platform
+- **Solution:** Integration platform connecting systems, data flows and business processes across an insurance group.
+- **Scope:** Enterprise integrations, API architecture, data flows, insurance systems and integration governance.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ## 9. INATrace
 
-- **Sector:** Agriculture & Open-Source Supply Chain Traceability
-- **Focus:** Digital Supply Chain Traceability & Smallholder Inclusion
-- **Solution:** Core contributor to **INATrace**, an open-source digital traceability platform hosted under the Linux Foundation's AgStack project. Enables verifiable tracing of agricultural products (such as coffee) from smallholder farms to global markets, supporting EU Deforestation Regulation (EUDR) compliance.
+- **Sector:** Agriculture & Supply Chains
+- **Focus:** Open-source supply-chain traceability
+- **Solution:** Sunesis was the main development partner for **INATrace**, an open-source digital traceability solution for transparent agricultural supply chains. INATrace supports end-to-end traceability, helping supply-chain actors record, manage and share traceability data from production to final product. The project has joined the Linux Foundation AgStack community.
 - **Canonical Reference:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
 ---
 
 ## 10. CUPID
 
-- **Sector:** Energy & Open-Source Grid Interoperability
-- **Focus:** Distributed Energy Resources (DER) Interoperability API
-- **Solution:** Development of the **Common Universal Power Interface for Distributed Energy Resources (CUPID)** under LF Energy. Implements open-source, vendor-neutral API standards for grid operators to manage and coordinate distributed renewable energy assets.
+- **Sector:** Energy & Utilities
+- **Focus:** Open-source energy interoperability toolkit
+- **Solution:** Sunesis was a main development and contributing partner for **CUPID**, an open-source interoperability toolkit for distributed energy resource (DER) communication, hosted at LF Energy. The work covers Java-based development, NATS messaging, protocol integration and edge, on-premise and cloud deployment scenarios.
 - **Canonical Reference:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
 ---
 
 ## 11. Energetika Moj utrip
 
-- **Sector:** Municipal Utilities & Energy Supply
-- **Focus:** Customer Portal & Smart Metering Integration
-- **Solution:** Development of **Moj utrip**, a self-service customer engagement platform for Slovenia's largest municipal energy supplier, integrating consumption analytics, electronic billing, and automated meter data feeds.
+- **Sector:** Energy & Utilities
+- **Focus:** Digital customer engagement solution
+- **Solution:** Digital solution supporting modern customer engagement and energy-related services.
+- **Scope:** Customer portals, digital services, energy sector and integrations.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---

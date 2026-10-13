@@ -59,7 +59,7 @@ End-to-end development of custom enterprise software across backend architecture
 
 ### Cloud-native & Edge Architectures
 
-Designing modular, containerized, and resilient architectures using Kubernetes, Red Hat OpenShift, microservices, event streaming (Apache Kafka, NATS), contract-first gRPC, and distributed observability (OpenTelemetry). Workloads span private cloud, public cloud (Azure, Google Cloud), and edge-fog-cloud environments.
+Designing modular, containerized, and resilient architectures using Kubernetes, Red Hat OpenShift, microservices, event streaming (Apache Kafka, NATS), contract-first gRPC, and distributed observability (OpenTelemetry, Instana). Workloads span private cloud, public cloud (Azure, Google Cloud), and edge-fog-cloud environments.
 
 - Canonical Brief: [https://sunesis.si/ai/cloud-native.md](https://sunesis.si/ai/cloud-native.md)
 
@@ -71,7 +71,7 @@ Transforming fragmented, point-to-point connections into governed, reusable API 
 
 ### DevOps & Platform Engineering
 
-Establishing secure, automated delivery platforms using Infrastructure as Code (Terraform, Ansible), GitOps continuous delivery (Argo CD, Helm), CI/CD pipelines (GitLab, Azure DevOps, GitHub Actions), and enterprise Kubernetes operations.
+Establishing secure, automated delivery platforms using Infrastructure as Code (Terraform, Ansible), GitOps continuous delivery (Argo CD, Helm), CI/CD pipelines (GitLab, Azure DevOps, GitHub Actions), platform security (Keycloak, Microsoft Entra ID, HashiCorp Vault), and enterprise Kubernetes operations.
 
 - Canonical Brief: [https://sunesis.si/ai/devops.md](https://sunesis.si/ai/devops.md)
 
@@ -82,13 +82,13 @@ Establishing secure, automated delivery platforms using Infrastructure as Code (
 Sunesis delivers software systems across regulated and mission-critical industries:
 
 - **Banking & Financial Services:** Digital banking channels (NLB Klik), digital KYC compliance and onboarding.
-- **Insurance:** Governed AgenticAI platforms for automated claims and underwriting support (Zavarovalniška skupina Sava), enterprise integration platforms (Inorma).
-- **Public Sector:** Multimodal AI geospatial/statistical analysis (SI-GEOS for SURS), judicial case management (`eSpis`) and court administration (`iK`) for the Supreme Court.
-- **Energy & Utilities:** Critical energy infrastructure platforms (EPUS for Plinovodi), customer engagement portals (Energetika Moj utrip), open-source DER interoperability (CUPID).
-- **Manufacturing & Premium Brands:** Global web presence and B2B business portals (Akrapovič).
-- **Blockchain Infrastructure:** Production DevOps and platform reliability engineering for high-throughput node infrastructure (Flare).
+- **Insurance:** AgenticAI platform for insurance process automation (Zavarovalniška skupina Sava), enterprise integration platform (Inorma).
+- **Public Sector:** AgenticAI analysis of official statistical and geospatial data (SI-GEOS for SURS), judicial case management (`eSpis`) and court administration (`iK`) for the Supreme Court.
+- **Energy & Utilities:** Energy infrastructure platform (EPUS for Plinovodi), customer engagement solution (Energetika Moj utrip), open-source DER interoperability (CUPID).
+- **Manufacturing & Premium Brands:** Premium brand website and business portal (Akrapovič).
+- **Blockchain Infrastructure:** DevOps, platform engineering, automation and cloud-native operations for large-scale blockchain infrastructure (Flare).
 - **Open-source Ecosystems:** Linux Foundation projects in agriculture (INATrace in AgStack) and energy (CUPID in LF Energy).
-- **European Research & Innovation:** Horizon Europe consortia exploring AI, cloud-edge continuum, IoT, and cybersecurity (GreenDat.AI, NEPHELE, dAIEDGE, Resilmesh, HEDGE-IoT).
+- **European Research & Innovation:** International research and innovation projects in AI, cloud-edge continuum, IoT, cybersecurity and energy-aware digital infrastructure (GreenDat.AI, Interstore, NEPHELE, dAIEDGE, Resilmesh, HEDGE-IoT, COSMIC).
 
 For detailed reference descriptions, see [https://sunesis.si/ai/selected-work.md](https://sunesis.si/ai/selected-work.md).
 

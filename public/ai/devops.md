@@ -20,9 +20,10 @@ DevOps at Sunesis is focused on **Platform Engineering**: creating self-service 
 Core engineering principles:
 
 - **GitOps as Single Source of Truth:** Declarative configuration management where every infrastructure and deployment state is versioned in Git and reconciled continuously using tools like Argo CD.
-- **Infrastructure as Code (IaC):** Repeatable, drift-managed environment provisioning using Terraform, OpenTofu, and Ansible across on-premise clusters, OpenShift, and multi-cloud providers.
+- **Infrastructure as Code (IaC):** Repeatable, drift-managed environment provisioning using Terraform and Ansible across on-premise clusters, OpenShift, and multi-cloud providers.
 - **Automated Quality & Security Gates (DevSecOps):** Integrating static code analysis, dependency vulnerability scanning, container image scanning, and automated contract tests into CI pipelines before any code reaches production.
-- **Zero-Downtime Releases:** Progressive delivery patterns including rolling updates, blue/green deployments, and canary rollouts managed by ingress controllers and service meshes.
+- **Controlled Releases:** Automated, reviewable releases through GitOps, Helm and Kustomize, with consistent configuration across environments.
+- **Platform Security & Policy:** Keycloak and Microsoft Entra ID for identity, HashiCorp Vault for secrets, Open Policy Agent (OPA) and Kyverno for automated policy enforcement, Cerbos for fine-grained application authorization, and Wultra where relevant for stronger authentication.
 
 ---
 
@@ -30,14 +31,17 @@ Core engineering principles:
 
 Sunesis designs, implements, and maintains robust operational pipelines using standard enterprise tooling:
 
-| Category                   | Primary Technologies                                        |
-| -------------------------- | ----------------------------------------------------------- |
-| **Container Platforms**    | Red Hat OpenShift, Kubernetes (Vanilla, AKS, GKE, EKS)      |
-| **GitOps & Delivery**      | Argo CD, Flux, Helm, Kustomize                              |
-| **CI / CD Pipelines**      | GitLab CI, GitHub Actions, Azure DevOps, Jenkins            |
-| **Infrastructure as Code** | Terraform, OpenTofu, Ansible                                |
-| **Observability & SRE**    | OpenTelemetry, Prometheus, Grafana, Jaeger, Loki, ELK Stack |
-| **Security & Secrets**     | HashiCorp Vault, cert-manager, Trivy, SonarQube             |
+| Category                   | Primary Technologies                                    |
+| -------------------------- | ------------------------------------------------------- |
+| **Container Platforms**    | Red Hat OpenShift, Kubernetes (upstream, AKS, GKE)      |
+| **Cloud Platforms**        | Microsoft Azure, Google Cloud, hybrid environments      |
+| **GitOps & Delivery**      | Argo CD, Helm, Kustomize                                |
+| **CI / CD Pipelines**      | GitLab CI/CD, GitHub Actions, Azure DevOps              |
+| **Infrastructure as Code** | Terraform, Ansible                                      |
+| **Observability & SRE**    | OpenTelemetry, Instana APM, Prometheus, Grafana, Jaeger |
+| **Identity & Secrets**     | Keycloak, Microsoft Entra ID, HashiCorp Vault, Wultra   |
+| **Policy & Authorization** | Open Policy Agent (OPA), Kyverno, Cerbos                |
+| **Workflow & API**         | Temporal, Camunda, Kumuluz API                          |
 
 ---
 
@@ -45,16 +49,21 @@ Sunesis designs, implements, and maintains robust operational pipelines using st
 
 ### Flare
 
-- **Domain:** Blockchain Infrastructure & Decentralized Networks.
-- **Implementation:** High-availability DevOps and platform engineering for Flare validator and node infrastructure. Sunesis automated cluster deployment, continuous health checks, node synchronization monitoring, automated failover, and metrics collection for high-throughput networks.
-- **Impact:** Ensured continuous uptime, rapid recovery, and transparent operational metrics for critical blockchain node operations.
+- **Domain:** Blockchain infrastructure.
+- **Implementation:** Sunesis provides DevOps and platform engineering expertise for Flare, supporting automation, cloud-native operations and reliable delivery practices for a large-scale blockchain infrastructure environment.
+- **Scope:** DevOps engineering, platform engineering, Kubernetes-based operations, automation and deployment, production-grade infrastructure and operational reliability.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
-### Enterprise Financial & Public Platforms
+### AgenticAI Platform — Zavarovalniška skupina Sava
 
-- **Domain:** Banking, Insurance, and Public Sector.
-- **Implementation:** Modernization of enterprise release cycles through containerization, migration to Red Hat OpenShift, declarative deployment pipelines, and integrated security compliance auditing.
-- **Impact:** Decreased deployment cycle times from months to hours while maintaining strict regulatory traceability and compliance audit trails.
+- **Domain:** Insurance.
+- **Implementation:** Platform engineering, Kubernetes-based delivery, security and governance for an enterprise AgenticAI platform.
+- **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
+
+### Enterprise Digital Platforms
+
+- **Domain:** Banking, insurance, energy and enterprise environments.
+- **Implementation:** DevOps and platform engineering foundations — CI/CD, GitOps, Kubernetes and OpenShift, infrastructure automation, security and observability — for enterprise digital platforms.
 
 ---
 
@@ -62,6 +71,6 @@ Sunesis designs, implements, and maintains robust operational pipelines using st
 
 Deploying autonomous AI agents requires specialized platform engineering considerations:
 
-- **Inference Runtime Orchestration:** Scaling containerized model serving runtimes (vLLM, Ollama, Triton) with GPU-aware Kubernetes scheduling.
+- **Platform Engineering for KumuluzAI:** Secure deployment of AI assistants and agents on Kubernetes-based platforms.
 - **Observability for Agents:** Capturing end-to-end trace telemetry for multi-step reasoning loops, token budgets, prompt latency, and downstream tool execution errors.
-- **Dynamic Secret Injection:** Safely supplying short-lived, least-privilege credentials to agents executing authorized operational tasks.
+- **Secrets for Model Providers:** Managing model-provider credentials and secrets centrally, with cost and usage visibility for AI services.
