@@ -82,11 +82,11 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 ---
 
-## 8. Inorma
+## 8. Inorma — Zavarovalniška skupina Sava
 
-- **Sector:** Insurance Brokerage
-- **Focus:** API Ecosystems & Insurance Carrier Aggregation
-- **Solution:** Development of an enterprise middleware platform connecting independent insurance broker systems with multiple heterogeneous insurance carrier backends through a unified API architecture.
+- **Sector:** Insurance
+- **Focus:** Enterprise Integrations & API Architecture
+- **Solution:** Integration platform connecting systems, data flows and business processes across an insurance group. Covers enterprise integrations, API architecture, data flows, insurance systems and integration governance.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---

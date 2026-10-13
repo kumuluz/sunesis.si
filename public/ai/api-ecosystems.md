@@ -48,11 +48,11 @@ As organizations adopt Agentic AI, APIs become the primary mechanism through whi
 
 ## 4. Production References & Integrations
 
-### Inorma
+### Inorma — Zavarovalniška skupina Sava
 
-- **Domain:** Insurance Brokerage & Financial Systems.
-- **Implementation:** Design and development of an enterprise integration and aggregation platform connecting insurance brokers with multiple diverse insurance carrier backends.
-- **Impact:** Unified API layer abstracting complex heterogeneous legacy insurance protocols into clean, modern transactional interfaces.
+- **Domain:** Insurance.
+- **Implementation:** Enterprise integration platform connecting systems, data flows and business processes across an insurance group.
+- **Scope:** Enterprise integrations, API architecture, data flows, insurance systems and integration governance.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ### Vrhovno sodišče Republike Slovenije (Supreme Court of Slovenia)

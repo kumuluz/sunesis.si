@@ -30,10 +30,10 @@ Sunesis and its platform technologies have received major international and regi
 - **Recipient:** Kumuluz Digital Platform.
 - **Scope & Significance:** Recognized as the best cloud software service and cloud-native digital platform, evaluating technological maturity, security, business impact, and architectural scalability.
 
-### Chamber of Commerce and Industry Innovation Awards (GZS)
+### GZS Innovation Award
 
 - **Conferred by:** Chamber of Commerce and Industry of Slovenia (Gospodarska zbornica Slovenije — GZS).
-- **Recipient:** Sunesis team innovations in API management, cloud microservices, and enterprise digital transformation platforms.
+- **Recipient:** Sunesis, for innovations in API management, cloud microservices and enterprise digital platforms.
 - **Scope & Significance:** Annual awards recognizing outstanding technological inventions and commercially applied software innovations in the region.
 
 ---

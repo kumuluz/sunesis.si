@@ -41,8 +41,8 @@ Enterprise software engineering for Agentic AI, API ecosystems, digital platform
   European Horizon Europe research consortia across AI, cloud-edge continuum, IoT, and cybersecurity.
 
 ### Kumuluz
-https://sunesis.si/en/kumuluz/
-Kumuluz is the Sunesis product and platform family: KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform, and Kumuluz Crowdsensing. Detailed product content: https://kumuluz.com/
+https://kumuluz.com/
+Kumuluz is the Sunesis product and platform family: KumuluzAI Platform, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform, and Kumuluz Crowdsensing.
 
 ### References
 https://sunesis.si/en/references/
