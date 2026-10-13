@@ -69,7 +69,7 @@ const resources = [
   {
     path: '/ai/research-open-source.md',
     expectedContentType: 'text/markdown',
-    requiredMarker: '# Sunesis — Research & Open-Source Leadership',
+    requiredMarker: '# Sunesis — Open Source and Research & Innovation',
   },
   {
     path: '/ai/awards.md',
