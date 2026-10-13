@@ -69,7 +69,7 @@ End-to-end development of custom enterprise software across backend architecture
 
 #### Cloud-native & Edge Architectures
 
-Designing modular, containerized, and resilient architectures using Kubernetes, Red Hat OpenShift, microservices, event streaming (Apache Kafka, NATS), contract-first gRPC, and distributed observability (OpenTelemetry). Workloads span private cloud, public cloud (Azure, Google Cloud), and edge-fog-cloud environments.
+Designing modular, containerized, and resilient architectures using Kubernetes, Red Hat OpenShift, microservices, event streaming (Apache Kafka, NATS), contract-first gRPC, and distributed observability (OpenTelemetry, Instana). Workloads span private cloud, public cloud (Azure, Google Cloud), and edge-fog-cloud environments.
 
 - Canonical Brief: [https://sunesis.si/ai/cloud-native.md](https://sunesis.si/ai/cloud-native.md)
 
@@ -81,7 +81,7 @@ Transforming fragmented, point-to-point connections into governed, reusable API 
 
 #### DevOps & Platform Engineering
 
-Establishing secure, automated delivery platforms using Infrastructure as Code (Terraform, Ansible), GitOps continuous delivery (Argo CD, Helm), CI/CD pipelines (GitLab, Azure DevOps, GitHub Actions), and enterprise Kubernetes operations.
+Establishing secure, automated delivery platforms using Infrastructure as Code (Terraform, Ansible), GitOps continuous delivery (Argo CD, Helm), CI/CD pipelines (GitLab, Azure DevOps, GitHub Actions), platform security (Keycloak, Microsoft Entra ID, HashiCorp Vault), and enterprise Kubernetes operations.
 
 - Canonical Brief: [https://sunesis.si/ai/devops.md](https://sunesis.si/ai/devops.md)
 
@@ -92,13 +92,13 @@ Establishing secure, automated delivery platforms using Infrastructure as Code (
 Sunesis delivers software systems across regulated and mission-critical industries:
 
 - **Banking & Financial Services:** Digital banking channels (NLB Klik), digital KYC compliance and onboarding.
-- **Insurance:** Governed AgenticAI platforms for automated claims and underwriting support (Zavarovalniška skupina Sava), enterprise integration platforms (Inorma).
-- **Public Sector:** Multimodal AI geospatial/statistical analysis (SI-GEOS for SURS), judicial case management (`eSpis`) and court administration (`iK`) for the Supreme Court.
-- **Energy & Utilities:** Critical energy infrastructure platforms (EPUS for Plinovodi), customer engagement portals (Energetika Moj utrip), open-source DER interoperability (CUPID).
-- **Manufacturing & Premium Brands:** Global web presence and B2B business portals (Akrapovič).
-- **Blockchain Infrastructure:** Production DevOps and platform reliability engineering for high-throughput node infrastructure (Flare).
+- **Insurance:** AgenticAI platform for insurance process automation (Zavarovalniška skupina Sava), enterprise integration platform (Inorma).
+- **Public Sector:** AgenticAI analysis of official statistical and geospatial data (SI-GEOS for SURS), judicial case management (`eSpis`) and court administration (`iK`) for the Supreme Court.
+- **Energy & Utilities:** Energy infrastructure platform (EPUS for Plinovodi), customer engagement solution (Energetika Moj utrip), open-source DER interoperability (CUPID).
+- **Manufacturing & Premium Brands:** Premium brand website and business portal (Akrapovič).
+- **Blockchain Infrastructure:** DevOps, platform engineering, automation and cloud-native operations for large-scale blockchain infrastructure (Flare).
 - **Open-source Ecosystems:** Linux Foundation projects in agriculture (INATrace in AgStack) and energy (CUPID in LF Energy).
-- **European Research & Innovation:** Horizon Europe consortia exploring AI, cloud-edge continuum, IoT, and cybersecurity (GreenDat.AI, NEPHELE, dAIEDGE, Resilmesh, HEDGE-IoT).
+- **European Research & Innovation:** International research and innovation projects in AI, cloud-edge continuum, IoT, cybersecurity and energy-aware digital infrastructure (GreenDat.AI, Interstore, NEPHELE, dAIEDGE, Resilmesh, HEDGE-IoT, COSMIC).
 
 For detailed reference descriptions, see [https://sunesis.si/ai/selected-work.md](https://sunesis.si/ai/selected-work.md).
 
@@ -136,7 +136,7 @@ While simple AI chat interfaces provide conversational answers, **Enterprise Age
 
 1. Formulate multi-step action plans to achieve business objectives.
 2. Coordinate as specialized agent teams (multi-agent orchestration).
-3. Access verified enterprise tools, APIs, databases, and business systems.
+3. Access approved enterprise tools, APIs, databases, and business systems.
 4. Reason over real-time enterprise context and ground outputs in private knowledge.
 5. Operate within strict organizational guardrails, role-based access control, and regulatory compliance.
 
@@ -162,27 +162,27 @@ Sunesis builds enterprise agentic solutions on top of **KumuluzAI**, a governed 
 
 #### AgenticAI Platform — Zavarovalniška skupina Sava
 
-- **Domain:** Insurance and financial services.
-- **Implementation:** Deployment of the KumuluzAI platform as the enterprise foundation for AI agents, assistants, and intelligent process automation across the group's companies.
-- **Impact:** Enables secure, governed agentic workflows across insurance lines while ensuring strict data privacy, enterprise auditability, and role-based access to core insurance systems.
+- **Domain:** Insurance.
+- **Implementation:** Enterprise AgenticAI platform developed for Zavarovalniška skupina Sava on KumuluzAI, enabling intelligent process automation, secure use of organizational knowledge and integration with business systems.
+- **Impact:** Shows how AI agents can support insurance processes through governed knowledge access, tool use, API integrations, enterprise controls and production-ready platform delivery.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 #### Statistical Office of the Republic of Slovenia (SURS) — SI-GEOS
 
-- **Domain:** Public sector and geospatial/statistical analytics.
-- **Implementation:** Advanced multimodal statistical and geospatial platform that allows institutional users and researchers to query, cross-analyze, and visualize complex spatial and demographic datasets.
-- **Impact:** Employs multimodal AI and natural-language query interfaces to make complex geospatial and statistical data accessible across public administration.
+- **Domain:** Public sector; official statistical and geospatial data.
+- **Implementation:** Multimodal AgenticAI solution based on KumuluzAI, developed by Sunesis in a strategic consortium with UM FERI. Given questions in Slovenian or English, the agent connects data sources, performs geostatistical analyses and presents results through interactive multilayer maps, charts, tables and clear explanations. Its "Grounded-by-Design" architecture lets the language model plan the analysis while deterministic tools calculate values from official data, making results traceable to their sources.
+- **Impact:** In internal production at SURS since September 2026, the solution reduces complex analyses from days to hours and from hours to minutes.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ### 4. European Research & Innovation in AI
 
-Sunesis actively participates in leading European Horizon Europe research initiatives that advance the state of the art in artificial intelligence:
+Sunesis participates in international research and innovation projects that explore the future of artificial intelligence, cloud-edge architectures and data platforms, including:
 
-- **dAIEDGE (Horizon Europe):** Network of excellence developing distributed edge AI technologies, edge intelligence frameworks, and hardware-software co-design for edge intelligence.
-- **GreenDat.AI (Horizon Europe):** Energy-efficient and green data analytics and AI architectures targeting reduced carbon footprints for intensive AI computing across mobility, energy, and environmental analytics.
-- **NEPHELE (Horizon Europe):** Lightweight edge-to-cloud computing continuum framework for dynamic execution and deployment of IoT and edge AI services.
+- **Headlight / NEPHELE:** AI-enabled, context-aware orchestration for next-generation compute continuum environments.
+- **EDGEWISE / dAIEDGE:** AI-native orchestration for trustworthy and energy-efficient systems across the IoT–Edge–Fog–Cloud continuum.
+- **GreenDat.AI:** Research and innovation focused on AI, data platforms and greener, more efficient digital systems.
 
 For comprehensive research details, see [https://sunesis.si/ai/research-open-source.md](https://sunesis.si/ai/research-open-source.md).
 
@@ -225,16 +225,16 @@ Cloud-native engineering at Sunesis is rooted in resilient, modular, and observa
 Key architectural principles:
 
 - **Loose Coupling & High Cohesion:** Domain-Driven Design (DDD) to isolate business domains into autonomous microservices.
-- **Contract-First Communication:** Strongly typed service interfaces using OpenAPI, gRPC, and Protocol Buffers to prevent runtime incompatibilities.
+- **Contract-First Communication:** Strongly typed service interfaces using OpenAPI and gRPC to prevent runtime incompatibilities.
 - **Event-Driven Resilience:** Asynchronous messaging and event streaming with Apache Kafka and NATS for eventual consistency and peak load buffering.
-- **Zero-Trust Security & Service Mesh:** Mutual TLS (mTLS), fine-grained identity propagation, and declarative traffic policies using Istio / Linkerd.
-- **Full-Stack Observability:** Distributed tracing, structured logging, and metrics instrumented with OpenTelemetry, Prometheus, Grafana, and Jaeger.
+- **Zero-Trust Security:** OAuth2 and OIDC with Keycloak and Microsoft Entra ID, identity propagation, mTLS and policy-based access between services.
+- **Full-Stack Observability:** Distributed tracing, structured logging, and metrics instrumented with OpenTelemetry and monitored with Instana APM, Prometheus, Grafana, and Jaeger.
 
 ---
 
 ### 2. Cloud-native Heritage & KumuluzEE
 
-Sunesis has been a pioneer in cloud-native Java and microservice architectures since the inception of containerized enterprise development:
+Sunesis's cloud-native engineering builds on KumuluzEE, a foundation for the move from monoliths to microservices:
 
 - **KumuluzEE Framework:** In 2015, Sunesis launched KumuluzEE, one of the world's first lightweight microservice frameworks for standard Java EE / Jakarta EE and Eclipse MicroProfile. KumuluzEE packaged standard enterprise APIs into minimal, container-ready executables without requiring heavyweight application servers.
 - **Java Community Recognition:** KumuluzEE was awarded the prestigious **Duke's Choice Award** by Oracle at JavaOne in San Francisco (2015) for outstanding innovation in enterprise Java and cloud-native technology.
@@ -246,10 +246,12 @@ Sunesis has been a pioneer in cloud-native Java and microservice architectures s
 
 Sunesis engineers and operates cloud-native workloads across multiple environments:
 
-- **Container Orchestration:** Red Hat OpenShift, Kubernetes (upstream, AKS, GKE, EKS, Tanzu).
-- **Service Communication:** gRPC, REST, GraphQL, WebSocket, HTTP/2 and HTTP/3.
-- **Streaming & Messaging:** Apache Kafka, NATS, RabbitMQ, MQTT.
-- **Data Architectures:** PostgreSQL, MongoDB, Redis, Elasticsearch, ClickHouse, distributed object storage.
+- **Container Orchestration:** Red Hat OpenShift, Kubernetes (upstream, AKS, GKE).
+- **Service Communication:** gRPC, REST, GraphQL, WebSocket and HTTP/2.
+- **Streaming & Messaging:** Apache Kafka, NATS, RabbitMQ.
+- **Workflow Engines:** Temporal and Camunda for long-running processes, service tasks and human approval flows.
+- **Identity & Observability:** Keycloak, Microsoft Entra ID, OpenTelemetry and Instana APM.
+- **Data Architectures:** PostgreSQL, Redis, distributed object storage.
 - **Operating Environments:** Private cloud bare-metal installations, hybrid enterprise setups, sovereign public cloud environments (Microsoft Azure, Google Cloud), and constrained edge computing nodes.
 
 ---
@@ -260,7 +262,7 @@ As enterprise workloads extend beyond centralized data centers, Sunesis develops
 
 - **Lightweight Runtimes:** Optimizing containerized microservices and AI inference runtimes for constrained edge hardware.
 - **Autonomous Local Operations:** Designing edge nodes capable of continuous local execution during network partitions, with deterministic bi-directional sync upon reconnection.
-- **Research Consortia:** Active contributions to European projects including **NEPHELE** (dynamic edge-cloud compute continuum) and **HEDGE-IoT** (intelligent edge-fog computing for next-generation energy networks).
+- **Research & Innovation:** Sunesis research work in cloud-edge systems includes **Headlight / NEPHELE** (AI-enabled, context-aware orchestration for the compute continuum across edge, fog and cloud), **EDGEWISE / dAIEDGE** (AI-native orchestration for trustworthy, energy-efficient IoT–Edge–Fog–Cloud environments), **AURORA / HEDGE-IoT** (intelligent IoT, edge computing and energy-aware infrastructure for distributed systems), **CHAMELEON / Resilmesh** (adaptive Kubernetes resilience and cybersecurity through a mesh-based approach) and **BONSAI / COSMIC** (advanced cloud-edge-IoT systems and intelligent infrastructure).
 
 ---
 
@@ -269,19 +271,19 @@ As enterprise workloads extend beyond centralized data centers, Sunesis develops
 #### NLB
 
 - **Domain:** Banking & Financial Services.
-- **Implementation:** Modernization and engineering support for mission-critical digital banking platforms (NLB Klik), emphasizing microservice scalability, secure integration with core banking systems, and continuous availability.
+- **Implementation:** Frontend and backend development for NLB Klik, supporting modern digital banking experiences and complex banking journeys through secure digital channels, enterprise backend development and integrations.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 #### Plinovodi
 
-- **Domain:** Critical National Energy Infrastructure.
-- **Implementation:** Design and development of EPUS, the core transmission and balancing information platform for Slovenia's natural gas transmission system operator.
+- **Domain:** Energy & Utilities.
+- **Implementation:** EPUS, a business-critical enterprise platform supporting energy infrastructure and operational workflows.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 #### Flare
 
 - **Domain:** Decentralized Infrastructure & Blockchain.
-- **Implementation:** High-reliability DevOps engineering, node infrastructure deployment, monitoring, and automated cluster operations for mission-critical blockchain infrastructure.
+- **Implementation:** DevOps and platform engineering expertise supporting automation, Kubernetes-based cloud-native operations and reliable delivery practices for a large-scale blockchain infrastructure environment.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
@@ -310,9 +312,9 @@ Enterprise systems often accumulate decades of fragile, ad-hoc integrations acro
 
 Our approach centers on:
 
-- **API-First & Contract-Driven Design:** Establishing OpenAPI, AsyncAPI, and gRPC contracts as the single source of truth before implementation begins.
+- **API-First & Contract-Driven Design:** Establishing OpenAPI and gRPC contracts as the single source of truth before implementation begins.
 - **Enterprise API Governance:** Standardizing naming conventions, versioning schemes, error formats, and deprecation lifecycles across the entire organization.
-- **Zero-Trust API Security:** Enforcing OAuth 2.0, OpenID Connect (OIDC), fine-grained token scopes, Mutual TLS (mTLS), token exchange patterns, rate limiting, and threat detection at the gateway layer.
+- **Zero-Trust API Security:** OAuth2 and OpenID Connect (OIDC) with Keycloak or Microsoft Entra ID, mTLS between services, and centralized enforcement of security, rate limiting and access policies at the gateway.
 - **Developer Experience (DX) & Portals:** Providing interactive documentation, mock servers, client SDK generation, and developer onboarding to accelerate both internal and external API adoption.
 
 ---
@@ -321,8 +323,8 @@ Our approach centers on:
 
 Sunesis delivers API solutions both as custom architectural implementations and through the **Kumuluz** product suite:
 
-- **Kumuluz API:** A high-throughput, low-latency API gateway offering centralized policy enforcement, traffic shaping, authentication/authorization offloading, transformation, and comprehensive analytics.
-- **Kumuluz Business APIs:** Pre-architected, domain-driven API components designed for rapid rollout in banking, insurance, utility, and telecom sectors, dramatically reducing time-to-market for complex partner ecosystems.
+- **Kumuluz API:** An API management and API economy platform for exposing, securing, monitoring and governing APIs across teams, partners, applications and AI-agent-ready environments — with an API catalog, developer portals, gateway, access control, sandbox, lifecycle governance and usage visibility. It also supports AgenticAI scenarios, including MCP server patterns, contextual routing, LLM routing and token usage logging.
+- **Kumuluz Business APIs:** Reusable Business APIs that encapsulate common business behavior behind clean, governed contracts (for example customer and identity, products and catalogs, orders and payments, KYC and onboarding, or cases, tasks and notifications), so teams consume a shared capability layer instead of rebuilding the same logic in every project.
 
 ---
 
@@ -348,13 +350,13 @@ As organizations adopt AgenticAI, APIs become the primary mechanism through whic
 #### Vrhovno sodišče Republike Slovenije (Supreme Court of Slovenia)
 
 - **Domain:** Public Sector & Judiciary.
-- **Implementation:** Multi-system integration architectures connecting judicial case management (`eSpis`) and court administration systems (`iK`) with government registries, law enforcement, and European judicial databases.
+- **Implementation:** `eSpis`, a digital case-management solution supporting judicial workflows, secure document handling and court processes, and `iK`, an enterprise information system supporting court administration and operational processes, including their integrations.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 #### LF Energy CUPID (Open Source)
 
 - **Domain:** Energy Systems & Distributed Energy Resources (DER).
-- **Implementation:** Standardized open-source API implementations for the Common Universal Power Interface for Distributed Energy Resources (CUPID), establishing interoperable, secure communication between grid operators and distributed energy assets.
+- **Implementation:** CUPID is an open-source interoperability toolkit for distributed energy resource communication, hosted at LF Energy. Sunesis was a main development and contributing partner, supporting Java-based development, NATS messaging, interoperability patterns and protocol integration.
 - **Reference Detail:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
 ---
@@ -383,9 +385,10 @@ DevOps at Sunesis is focused on **Platform Engineering**: creating self-service 
 Core engineering principles:
 
 - **GitOps as Single Source of Truth:** Declarative configuration management where every infrastructure and deployment state is versioned in Git and reconciled continuously using tools like Argo CD.
-- **Infrastructure as Code (IaC):** Repeatable, drift-managed environment provisioning using Terraform, OpenTofu, and Ansible across on-premise clusters, OpenShift, and multi-cloud providers.
+- **Infrastructure as Code (IaC):** Repeatable, drift-managed environment provisioning using Terraform and Ansible across on-premise clusters, OpenShift, and multi-cloud providers.
 - **Automated Quality & Security Gates (DevSecOps):** Integrating static code analysis, dependency vulnerability scanning, container image scanning, and automated contract tests into CI pipelines before any code reaches production.
-- **Zero-Downtime Releases:** Progressive delivery patterns including rolling updates, blue/green deployments, and canary rollouts managed by ingress controllers and service meshes.
+- **Controlled Releases:** Automated, reviewable releases through GitOps, Helm and Kustomize, with consistent configuration across environments.
+- **Platform Security & Policy:** Keycloak and Microsoft Entra ID for identity, HashiCorp Vault for secrets, Open Policy Agent (OPA) and Kyverno for automated policy enforcement, Cerbos for fine-grained application authorization, and Wultra where relevant for stronger authentication.
 
 ---
 
@@ -393,14 +396,17 @@ Core engineering principles:
 
 Sunesis designs, implements, and maintains robust operational pipelines using standard enterprise tooling:
 
-| Category                   | Primary Technologies                                        |
-| -------------------------- | ----------------------------------------------------------- |
-| **Container Platforms**    | Red Hat OpenShift, Kubernetes (Vanilla, AKS, GKE, EKS)      |
-| **GitOps & Delivery**      | Argo CD, Flux, Helm, Kustomize                              |
-| **CI / CD Pipelines**      | GitLab CI, GitHub Actions, Azure DevOps, Jenkins            |
-| **Infrastructure as Code** | Terraform, OpenTofu, Ansible                                |
-| **Observability & SRE**    | OpenTelemetry, Prometheus, Grafana, Jaeger, Loki, ELK Stack |
-| **Security & Secrets**     | HashiCorp Vault, cert-manager, Trivy, SonarQube             |
+| Category                   | Primary Technologies                                    |
+| -------------------------- | ------------------------------------------------------- |
+| **Container Platforms**    | Red Hat OpenShift, Kubernetes (upstream, AKS, GKE)      |
+| **Cloud Platforms**        | Microsoft Azure, Google Cloud, hybrid environments      |
+| **GitOps & Delivery**      | Argo CD, Helm, Kustomize                                |
+| **CI / CD Pipelines**      | GitLab CI/CD, GitHub Actions, Azure DevOps              |
+| **Infrastructure as Code** | Terraform, Ansible                                      |
+| **Observability & SRE**    | OpenTelemetry, Instana APM, Prometheus, Grafana, Jaeger |
+| **Identity & Secrets**     | Keycloak, Microsoft Entra ID, HashiCorp Vault, Wultra   |
+| **Policy & Authorization** | Open Policy Agent (OPA), Kyverno, Cerbos                |
+| **Workflow & API**         | Temporal, Camunda, Kumuluz API                          |
 
 ---
 
@@ -408,16 +414,21 @@ Sunesis designs, implements, and maintains robust operational pipelines using st
 
 #### Flare
 
-- **Domain:** Blockchain Infrastructure & Decentralized Networks.
-- **Implementation:** High-availability DevOps and platform engineering for Flare validator and node infrastructure. Sunesis automated cluster deployment, continuous health checks, node synchronization monitoring, automated failover, and metrics collection for high-throughput networks.
-- **Impact:** Ensured continuous uptime, rapid recovery, and transparent operational metrics for critical blockchain node operations.
+- **Domain:** Blockchain infrastructure.
+- **Implementation:** Sunesis provides DevOps and platform engineering expertise for Flare, supporting automation, cloud-native operations and reliable delivery practices for a large-scale blockchain infrastructure environment.
+- **Scope:** DevOps engineering, platform engineering, Kubernetes-based operations, automation and deployment, production-grade infrastructure and operational reliability.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
-#### Enterprise Financial & Public Platforms
+#### AgenticAI Platform — Zavarovalniška skupina Sava
 
-- **Domain:** Banking, Insurance, and Public Sector.
-- **Implementation:** Modernization of enterprise release cycles through containerization, migration to Red Hat OpenShift, declarative deployment pipelines, and integrated security compliance auditing.
-- **Impact:** Decreased deployment cycle times from months to hours while maintaining strict regulatory traceability and compliance audit trails.
+- **Domain:** Insurance.
+- **Implementation:** Platform engineering, Kubernetes-based delivery, security and governance for an enterprise AgenticAI platform.
+- **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
+
+#### Enterprise Digital Platforms
+
+- **Domain:** Banking, insurance, energy and enterprise environments.
+- **Implementation:** DevOps and platform engineering foundations — CI/CD, GitOps, Kubernetes and OpenShift, infrastructure automation, security and observability — for enterprise digital platforms.
 
 ---
 
@@ -425,9 +436,9 @@ Sunesis designs, implements, and maintains robust operational pipelines using st
 
 Deploying autonomous AI agents requires specialized platform engineering considerations:
 
-- **Inference Runtime Orchestration:** Scaling containerized model serving runtimes (vLLM, Ollama, Triton) with GPU-aware Kubernetes scheduling.
+- **Platform Engineering for KumuluzAI:** Secure deployment of AI assistants and agents on Kubernetes-based platforms.
 - **Observability for Agents:** Capturing end-to-end trace telemetry for multi-step reasoning loops, token budgets, prompt latency, and downstream tool execution errors.
-- **Dynamic Secret Injection:** Safely supplying short-lived, least-privilege credentials to agents executing authorized operational tasks.
+- **Secrets for Model Providers:** Managing model-provider credentials and secrets centrally, with cost and usage visibility for AI services.
 
 ---
 
@@ -452,24 +463,25 @@ Source: https://sunesis.si/ai/selected-work.md
 
 ### Overview
 
-The following reference engagements reflect Sunesis's proven track record delivering mission-critical enterprise systems, cloud-native architectures, API integrations, and governed AgenticAI solutions across banking, insurance, public sector, energy, manufacturing, and decentralized infrastructure.
+The following client and partner projects reflect where Sunesis contributes to digital platforms, AgenticAI solutions, enterprise integrations, DevOps foundations, open-source systems and business-critical software across banking, insurance, public sector, energy, manufacturing, blockchain infrastructure and open-source ecosystems.
 
 ---
 
 ### 1. AgenticAI Platform — Zavarovalniška skupina Sava
 
-- **Sector:** Insurance & Financial Services
-- **Focus:** Enterprise AgenticAI & Intelligent Process Automation
-- **Solution:** Deployment of the **KumuluzAI** enterprise platform to empower insurance operations with secure AI agents, assistants, and automated multi-step workflows. The platform provides governed access to insurance systems, enterprise-grade audit trails, role-based access control, and privacy protection.
+- **Sector:** Insurance
+- **Focus:** Insurance process automation
+- **Solution:** Sunesis developed an enterprise AgenticAI platform for Zavarovalniška skupina Sava, enabling intelligent process automation, secure use of organizational knowledge and integration with business systems. The project shows how AI agents can support insurance processes through governed knowledge access, tool use, API integrations, enterprise controls and production-ready platform delivery on the **KumuluzAI** platform.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ### 2. SI-GEOS — Statistical Office of the Republic of Slovenia
 
-- **Sector:** Public Sector & National Statistics
-- **Focus:** Multimodal AI Geospatial & Statistical Intelligence
-- **Solution:** Design and development of **SI-GEOS**, an advanced geospatial and statistical analytics platform. SI-GEOS integrates spatial layers with demographic and economic data, enabling researchers and government bodies to execute complex natural-language and multimodal queries across national datasets.
+- **Sector:** Public Sector & Official Statistics
+- **Focus:** AgenticAI for statistical and geospatial analysis
+- **Solution:** Sunesis, in a strategic consortium with UM FERI, is developing **SI-GEOS** for the Statistical Office of the Republic of Slovenia (SURS): a multimodal AgenticAI solution based on KumuluzAI for analysing official statistical and geospatial data. Given questions in Slovenian or English, the AI agent connects data sources, performs geostatistical analyses and presents results through interactive multilayer maps, charts, tables and clear explanations. Its "Grounded-by-Design" architecture separates question understanding from computation: the language model plans the analysis, while deterministic tools calculate values from official data, making results traceable to their sources.
+- **Status:** In internal production at SURS since September 2026, the solution reduces complex analyses from days to hours and from hours to minutes.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
@@ -477,44 +489,48 @@ The following reference engagements reflect Sunesis's proven track record delive
 ### 3. NLB Klik
 
 - **Sector:** Banking & Financial Services
-- **Focus:** Digital Banking Channels & Cloud-Native Modernization
-- **Solution:** Enterprise software engineering, architecture, and microservice integration for **NLB Klik**, the flagship digital banking platform of Slovenia's largest banking group. Focus areas included high-concurrency microservices, robust integration with core banking systems, zero-downtime deployments, and regulatory compliance.
+- **Focus:** Digital banking platform
+- **Solution:** Sunesis contributes to frontend and backend development for **NLB Klik**, supporting modern digital banking experiences and complex banking journeys for one of the leading financial institutions in the region. The work covers secure digital channels, enterprise backend development, integrations and production-ready financial services software.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ### 4. EPUS — Plinovodi
 
-- **Sector:** Critical Energy Transmission Infrastructure
-- **Focus:** Mission-Critical Transmission System Operator (TSO) Platforms
-- **Solution:** Architecture, engineering, and maintenance of **EPUS**, the central commercial and operational platform for natural gas transmission in Slovenia. EPUS handles complex capacity booking, balancing, cross-border nominations, and real-time operational reporting under European energy regulations (ENTSO-G).
+- **Sector:** Energy & Utilities
+- **Focus:** Energy infrastructure platform
+- **Solution:** Business-critical enterprise platform supporting energy infrastructure and operational workflows.
+- **Scope:** Energy and utilities, enterprise platforms, integrations, operational systems and business-critical delivery.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ### 5. eSpis and iK — Supreme Court
 
-- **Sector:** Judiciary & Public Administration
-- **Focus:** Case Management Systems & Judicial Integrations
-- **Solution:** Software development and enterprise integration for **eSpis** (electronic judicial case file management) and **iK** (court administration and management information system). Integrates court workflows with central governmental registers, security services, and external legal databases.
+- **Sector:** Public Sector
+- **Focus:** Digital case management and court administration
+- **Solution:** **eSpis** is a digital case-management solution supporting judicial workflows, secure document handling and court processes. **iK** is an enterprise information system supporting advanced court administration and operational processes.
+- **Scope:** Public sector systems, secure workflows, document management, case management, enterprise backend and applications, process support and integrations.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ### 6. Akrapovič Website
 
-- **Sector:** Premium Automotive & Motorcycle Exhaust Manufacturing
-- **Focus:** Digital Experience, Global Web Presence & B2B Integration
-- **Solution:** Development and maintenance of the global digital web platform for Akrapovič, delivering high-performance content delivery, dynamic product catalogs, and backend integration with enterprise ERP systems.
+- **Sector:** Manufacturing & Premium Brands
+- **Focus:** Premium brand digital presence
+- **Solution:** High-performance website for a global premium brand, supporting digital presentation, brand experience and online engagement.
+- **Scope:** Web development, performance, user experience and digital brand presence.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ### 7. Flare
 
-- **Sector:** Decentralized Networks & Blockchain
-- **Focus:** DevOps, Node Reliability Engineering & Infrastructure Automation
-- **Solution:** Enterprise DevOps engineering for validator and state-connector node infrastructure. Developed automated deployment pipelines, real-time node synchronization monitors, fault detection, and automated failover mechanisms ensuring network resilience.
+- **Sector:** Blockchain & Web3 Infrastructure
+- **Focus:** DevOps for blockchain infrastructure
+- **Solution:** Sunesis provides DevOps and platform engineering expertise for Flare, supporting automation, cloud-native operations and reliable delivery practices for a large-scale blockchain infrastructure environment.
+- **Scope:** DevOps engineering, platform engineering, Kubernetes-based operations, automation and deployment, production-grade infrastructure and operational reliability.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
@@ -522,35 +538,37 @@ The following reference engagements reflect Sunesis's proven track record delive
 ### 8. Inorma — Zavarovalniška skupina Sava
 
 - **Sector:** Insurance
-- **Focus:** Enterprise Integrations & API Architecture
-- **Solution:** Integration platform connecting systems, data flows and business processes across an insurance group. Covers enterprise integrations, API architecture, data flows, insurance systems and integration governance.
+- **Focus:** Enterprise integration platform
+- **Solution:** Integration platform connecting systems, data flows and business processes across an insurance group.
+- **Scope:** Enterprise integrations, API architecture, data flows, insurance systems and integration governance.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ### 9. INATrace
 
-- **Sector:** Agriculture & Open-Source Supply Chain Traceability
-- **Focus:** Digital Supply Chain Traceability & Smallholder Inclusion
-- **Solution:** Core contributor to **INATrace**, an open-source digital traceability platform hosted under the Linux Foundation's AgStack project. Enables verifiable tracing of agricultural products (such as coffee) from smallholder farms to global markets, supporting EU Deforestation Regulation (EUDR) compliance.
+- **Sector:** Agriculture & Supply Chains
+- **Focus:** Open-source supply-chain traceability
+- **Solution:** Sunesis was the main development partner for **INATrace**, an open-source digital traceability solution for transparent agricultural supply chains. INATrace supports end-to-end traceability, helping supply-chain actors record, manage and share traceability data from production to final product. The project has joined the Linux Foundation AgStack community.
 - **Canonical Reference:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
 ---
 
 ### 10. CUPID
 
-- **Sector:** Energy & Open-Source Grid Interoperability
-- **Focus:** Distributed Energy Resources (DER) Interoperability API
-- **Solution:** Development of the **Common Universal Power Interface for Distributed Energy Resources (CUPID)** under LF Energy. Implements open-source, vendor-neutral API standards for grid operators to manage and coordinate distributed renewable energy assets.
+- **Sector:** Energy & Utilities
+- **Focus:** Open-source energy interoperability toolkit
+- **Solution:** Sunesis was a main development and contributing partner for **CUPID**, an open-source interoperability toolkit for distributed energy resource (DER) communication, hosted at LF Energy. The work covers Java-based development, NATS messaging, protocol integration and edge, on-premise and cloud deployment scenarios.
 - **Canonical Reference:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
 ---
 
 ### 11. Energetika Moj utrip
 
-- **Sector:** Municipal Utilities & Energy Supply
-- **Focus:** Customer Portal & Smart Metering Integration
-- **Solution:** Development of **Moj utrip**, a self-service customer engagement platform for Slovenia's largest municipal energy supplier, integrating consumption analytics, electronic billing, and automated meter data feeds.
+- **Sector:** Energy & Utilities
+- **Focus:** Digital customer engagement solution
+- **Solution:** Digital solution supporting modern customer engagement and energy-related services.
+- **Scope:** Customer portals, digital services, energy sector and integrations.
 - **Canonical Reference:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
@@ -585,7 +603,7 @@ The following reference engagements reflect Sunesis's proven track record delive
 
 Source: https://sunesis.si/ai/research-open-source.md
 
-## Sunesis — Research & Open-Source Leadership
+## Sunesis — Open Source and Research & Innovation
 
 > **Canonical HTML Sources:**
 >
@@ -601,9 +619,9 @@ Source: https://sunesis.si/ai/research-open-source.md
 
 ---
 
-### 1. Open-Source Philosophy & Ecosystem Contributions
+### 1. Open-Source Commitment
 
-Sunesis believes enterprise software excellence thrives on open standards, modular architecture, and collaborative technology development. Rather than viewing open source solely as a source of dependencies, Sunesis actively conceives, leads, and contributes to open-source frameworks and community foundations.
+Sunesis has a strong commitment to open-source software, open standards and reusable digital infrastructure. Its teams do not only use open-source technologies — they help build complete open-source solutions that continue to evolve through international communities, including projects connected to Linux Foundation ecosystems such as AgStack and LF Energy. Sunesis brings enterprise engineering discipline to open-source projects: architecture, security, maintainability, documentation, integration capability and production-quality implementation.
 
 ---
 
@@ -618,48 +636,68 @@ Sunesis believes enterprise software excellence thrives on open standards, modul
 
 #### Linux Foundation AgStack — INATrace
 
-- **Foundation:** Linux Foundation (AgStack Project).
-- **Focus:** Open-source digital supply chain traceability platform.
-- **Implementation:** Enables end-to-end provenance tracking of agricultural commodities (such as coffee) from smallholder farms to international roasters and retailers. Provides tamper-evident data collection, digital payments traceability, and geospatial validation required for EU Deforestation Regulation (EUDR) compliance.
+- **Ecosystem:** Linux Foundation AgStack community.
+- **Focus:** Open-source agricultural supply-chain traceability solution focused on transparency, fairer value chains and digital traceability from production to final product.
+- **Sunesis role:** Main development partner, contributing full-stack engineering, backend architecture, web and mobile development, data workflows and open-source implementation.
 - **Reference Detail:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
 #### CUPID
 
-- **Foundation:** Linux Foundation (LF Energy).
-- **Focus:** Common Universal Power Interface for Distributed Energy Resources (CUPID).
-- **Implementation:** Standardized open-source API implementations facilitating vendor-neutral, interoperable communication between transmission/distribution system operators and distributed energy resources (solar, battery storage, EV charging).
+- **Ecosystem:** LF Energy.
+- **Focus:** Open-source energy interoperability toolkit for distributed energy resource (DER) communication.
+- **Sunesis role:** Main development and contributing partner, supporting Java-based development, NATS messaging, interoperability patterns, protocol integration and edge, on-premise and cloud deployment scenarios.
 - **Reference Detail:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
 ---
 
-### 3. European Research & Innovation Consortia
+### 3. European Research & Innovation
 
-Sunesis is an active industrial research partner in high-impact European research projects funded under the European Union's **Horizon Europe** and **Horizon 2020** framework programmes:
+Beyond client delivery and open-source contribution, Sunesis participates in international research and innovation projects that explore the future of artificial intelligence, cloud-edge architectures, IoT, cybersecurity, data platforms and next-generation digital infrastructure. Where an entry is written as "A / B", A is Sunesis's own project and B is the European initiative it belongs to.
 
-#### dAIEDGE (Horizon Europe)
+#### GreenDat.AI
 
-- **Domain:** Distributed Edge Artificial Intelligence.
-- **Focus:** Building a European network of excellence in distributed Edge AI. Sunesis contributes to edge intelligence architectures, lightweight AI model acceleration, and edge-to-cloud coordination frameworks.
+- **Area:** AI and data-driven digital sustainability.
+- **Focus:** Research and innovation focused on AI, data platforms and greener, more efficient digital systems.
+- **Themes:** AI, data platforms, sustainability, digital infrastructure, AI-ready data services.
+- **Funding:** Horizon Europe R&I programme (GA No. 101070416).
 
-#### GreenDat.AI (Horizon Europe)
+#### Interstore
 
-- **Domain:** Energy-Efficient Data Analytics & Green AI.
-- **Focus:** Developing energy-aware algorithms, green data management architectures, and AI model optimization to significantly lower the carbon footprint of data-intensive analytics across smart mobility, renewable energy, and environmental modeling.
+- **Area:** Future-ready energy and digital infrastructure.
+- **Focus:** Advanced digital technologies for energy, interoperability, distributed systems and intelligent digital services.
+- **Themes:** Energy systems, interoperability, data-driven systems, enterprise technology.
 
-#### NEPHELE (Horizon Europe)
+#### Headlight / NEPHELE
 
-- **Domain:** Edge-to-Cloud Continuum.
-- **Focus:** Designing and deploying a programmable computing continuum orchestration platform that dynamically assigns and migrates IoT, microservice, and AI workloads across edge nodes, 5G gateways, and centralized cloud clusters.
+- **Area:** Compute continuum orchestration.
+- **Focus:** AI-enabled, context-aware orchestration for next-generation compute continuum environments.
+- **Themes:** Cloud-edge continuum, orchestration, AI-enabled infrastructure, distributed systems.
 
-#### Resilmesh (Horizon Europe)
+#### BONSAI / COSMIC
 
-- **Domain:** Enterprise Cybersecurity & Cyber-Resilience.
-- **Focus:** Developing an AI-driven, zero-trust cybersecurity mesh architecture capable of real-time threat detection, automated incident containment, and security orchestration across critical European infrastructures.
+- **Area:** Cloud-edge-IoT systems.
+- **Focus:** Research and innovation in advanced cloud-edge-IoT systems and intelligent digital infrastructure.
+- **Themes:** Cloud-edge systems, IoT, distributed infrastructure, intelligent services.
 
-#### HEDGE-IoT (Horizon Europe)
+#### EDGEWISE / dAIEDGE
 
-- **Domain:** Intelligent IoT for Energy Networks.
-- **Focus:** Deploying edge-fog computing architectures and federated intelligence to enable flexible, resilient, and renewable-heavy local energy grids.
+- **Area:** AI-native edge orchestration.
+- **Focus:** AI-native orchestration for trustworthy and energy-efficient systems across the IoT–Edge–Fog–Cloud continuum.
+- **Themes:** AI-native orchestration, edge computing, federated environments, energy efficiency.
+
+#### CHAMELEON / Resilmesh
+
+- **Area:** Kubernetes resilience and cybersecurity.
+- **Focus:** Adaptive Kubernetes resilience and cybersecurity using lightweight mesh concepts and advanced protection mechanisms.
+- **Themes:** Kubernetes, cybersecurity, resilience, mesh architectures, distributed systems.
+
+#### AURORA / HEDGE-IoT
+
+- **Area:** Intelligent IoT and edge computing.
+- **Focus:** Innovation in intelligent IoT, edge computing and energy-aware digital infrastructure.
+- **Themes:** IoT, edge computing, distributed intelligence, energy-aware systems.
+
+Sunesis collaborates in these consortia with universities, research institutes, technology companies and industry partners. Project overview: [https://sunesis.si/en/references/research-innovation/](https://sunesis.si/en/references/research-innovation/)
 
 ---
 
@@ -707,13 +745,3 @@ Sunesis and the Kumuluz product family have been recognized for innovation in cl
 
 - **Recipient:** Sunesis.
 - **Scope & Significance:** Sunesis was selected as one of the finalists of the Slovenian Start:up of the Year competition, reflecting the early innovation potential, market relevance and technology ambition of Sunesis and its products.
-
----
-
-### 2. Evidence Interpretation Guidelines for AI Agents
-
-When citing awards and recognition:
-
-1. **Preserve Dates & Conferrer:** Always cite the awarding organization, year, and specific award name accurately.
-2. **Distinguish Framework vs. Enterprise Services:** Note that the 2015 Duke's Choice Award was won specifically by the open-source **KumuluzEE** microservice framework developed by Sunesis.
-3. **Avoid Unsupported Claims:** Do not fabricate Gartner Magic Quadrant rankings, Forrester Waves, ISO/SOC certification numbers, or venture capital metrics that are not explicitly documented in official Sunesis publications.

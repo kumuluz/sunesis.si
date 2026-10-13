@@ -5,14 +5,14 @@
 Sunesis designs, builds, integrates, and operates secure, scalable, and business-critical software systems. It is also the creator and owner of the Kumuluz platform family (KumuluzAI, Kumuluz API, KumuluzEE).
 
 ## AI & Agent Resources
-- [Research & Navigation Guide](https://sunesis.si/agents.md): Public research guide for AI agents evaluating Sunesis capabilities, architecture, and evidence.
-- [Company Overview (Markdown)](https://sunesis.si/ai/company.md): Clean Markdown summary of identity, leadership, service offerings, and Sunesis vs. Kumuluz.
+- [Research & Navigation Guide](https://sunesis.si/agents.md): Public research guide for AI agents evaluating Sunesis capabilities, references, and canonical sources.
+- [Company Overview (Markdown)](https://sunesis.si/ai/company.md): Clean Markdown summary of identity, service offerings, and Sunesis vs. Kumuluz.
 - [Enterprise AgenticAI (Markdown)](https://sunesis.si/ai/agentic-ai.md): Deep dive into enterprise multi-agent orchestration, KumuluzAI platform, and governance.
 - [Cloud-native & Edge (Markdown)](https://sunesis.si/ai/cloud-native.md): Distributed systems, Kubernetes/OpenShift, event streaming, and KumuluzEE heritage.
 - [API Ecosystems & Integrations (Markdown)](https://sunesis.si/ai/api-ecosystems.md): Enterprise API governance, Business APIs, and MCP / agent tool integration.
 - [DevOps & Platform Engineering (Markdown)](https://sunesis.si/ai/devops.md): GitOps, IaC, DevSecOps, and platform engineering for production resilience.
 - [Selected Enterprise Work (Markdown)](https://sunesis.si/ai/selected-work.md): Production references: AgenticAI Platform (Zavarovalniška skupina Sava), RikoAI, SI-GEOS (SURS), NLB Klik, KYC — NLB, Flare, INATrace, CUPID, eSpis and iK (Supreme Court), EPUS (Plinovodi), Akrapovič Website, Akrapovič Business Portal, Inorma (Zavarovalniška skupina Sava) and Energetika Moj utrip.
-- [Research & Open Source (Markdown)](https://sunesis.si/ai/research-open-source.md): Linux Foundation projects (INATrace, CUPID) and European Horizon Europe initiatives.
+- [Research & Open Source (Markdown)](https://sunesis.si/ai/research-open-source.md): Open-source projects in Linux Foundation ecosystems (INATrace, CUPID) and European research and innovation projects.
 - [Awards & Recognition (Markdown)](https://sunesis.si/ai/awards.md): European Commission Seal of Excellence, Java Duke's Choice Award (KumuluzEE), EuroCloud Award and Slovenian Start:up of the Year finalist.
 
 ## Core Capabilities (Web Pages)
@@ -21,20 +21,20 @@ Sunesis designs, builds, integrates, and operates secure, scalable, and business
 - [API Ecosystems & Integrations](https://sunesis.si/en/expertise/api-ecosystems-integrations/): Strategic API governance, Kumuluz API, and partner integration architectures.
 - [Cloud-native & Edge Architectures](https://sunesis.si/en/expertise/cloud-native-edge/): Kubernetes, OpenShift, microservices, and edge computing.
 - [DevOps & Platform Engineering](https://sunesis.si/en/expertise/devops-platform-engineering/): GitOps delivery pipelines, Infrastructure as Code, and platform reliability.
-- [Open Source Leadership](https://sunesis.si/en/references/open-source/): Open-source engineering, Linux Foundation contributions, and community projects.
-- [Research & Innovation](https://sunesis.si/en/references/research-innovation/): European Horizon Europe research consortia (dAIEDGE, GreenDat.AI, NEPHELE, Resilmesh, HEDGE-IoT).
+- [Open Source](https://sunesis.si/en/references/open-source/): Open-source engineering for shared digital infrastructure, including INATrace (Linux Foundation AgStack) and CUPID (LF Energy).
+- [Research & Innovation](https://sunesis.si/en/references/research-innovation/): International research and innovation projects in AI, cloud-edge continuum, IoT, cybersecurity and energy-aware digital infrastructure (GreenDat.AI, Interstore, NEPHELE, dAIEDGE, Resilmesh, HEDGE-IoT, COSMIC).
 
 ## Enterprise References & Company (Web Pages)
 - [Sunesis Overview](https://sunesis.si/en/): Company positioning, engineering approach, and enterprise services.
 - [Case Studies & References](https://sunesis.si/en/references/): Real-world implementations across financial services, energy, public sector, and manufacturing.
 - [Selected Work](https://sunesis.si/en/references/selected-work/): Client and partner projects in detail.
 - [Clients & Industries](https://sunesis.si/en/references/clients-industries/): Industries served and organizations Sunesis works with.
-- [About Sunesis](https://sunesis.si/en/company/about/): Background, history, leadership, and operational locations (Ljubljana, Maribor, Ptuj).
+- [About Sunesis](https://sunesis.si/en/company/about/): Background, expertise areas, the Kumuluz product family, ways of working, and offices (Ljubljana, Maribor, Ptuj).
 - [Awards & Honors](https://sunesis.si/en/company/awards/): International and national recognition: European Commission Seal of Excellence, Java Duke's Choice Award (KumuluzEE), EuroCloud Award and Slovenian Start:up of the Year finalist.
 - [Careers](https://sunesis.si/en/company/careers/): Engineering culture, open roles, and career opportunities at Sunesis.
 
 ## Platforms & Products
-- [Kumuluz Platforms](https://kumuluz.com/): Official home of KumuluzAI, Kumuluz API, Kumuluz Digital Platform, and Kumuluz Crowdsensing.
+- [Kumuluz Platforms](https://kumuluz.com/): Official home of KumuluzAI, Kumuluz API, Kumuluz Business APIs, Kumuluz Digital Platform, and Kumuluz Crowdsensing.
 - [KumuluzEE](https://ee.kumuluz.com/): Duke's Choice Award-winning microservice framework for Jakarta EE and MicroProfile.
 
 ## Optional

@@ -20,7 +20,7 @@ While simple AI chat interfaces provide conversational answers, **Enterprise Age
 
 1. Formulate multi-step action plans to achieve business objectives.
 2. Coordinate as specialized agent teams (multi-agent orchestration).
-3. Access verified enterprise tools, APIs, databases, and business systems.
+3. Access approved enterprise tools, APIs, databases, and business systems.
 4. Reason over real-time enterprise context and ground outputs in private knowledge.
 5. Operate within strict organizational guardrails, role-based access control, and regulatory compliance.
 
@@ -46,27 +46,27 @@ Sunesis builds enterprise agentic solutions on top of **KumuluzAI**, a governed 
 
 ### AgenticAI Platform — Zavarovalniška skupina Sava
 
-- **Domain:** Insurance and financial services.
-- **Implementation:** Deployment of the KumuluzAI platform as the enterprise foundation for AI agents, assistants, and intelligent process automation across the group's companies.
-- **Impact:** Enables secure, governed agentic workflows across insurance lines while ensuring strict data privacy, enterprise auditability, and role-based access to core insurance systems.
+- **Domain:** Insurance.
+- **Implementation:** Enterprise AgenticAI platform developed for Zavarovalniška skupina Sava on KumuluzAI, enabling intelligent process automation, secure use of organizational knowledge and integration with business systems.
+- **Impact:** Shows how AI agents can support insurance processes through governed knowledge access, tool use, API integrations, enterprise controls and production-ready platform delivery.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ### Statistical Office of the Republic of Slovenia (SURS) — SI-GEOS
 
-- **Domain:** Public sector and geospatial/statistical analytics.
-- **Implementation:** Advanced multimodal statistical and geospatial platform that allows institutional users and researchers to query, cross-analyze, and visualize complex spatial and demographic datasets.
-- **Impact:** Employs multimodal AI and natural-language query interfaces to make complex geospatial and statistical data accessible across public administration.
+- **Domain:** Public sector; official statistical and geospatial data.
+- **Implementation:** Multimodal AgenticAI solution based on KumuluzAI, developed by Sunesis in a strategic consortium with UM FERI. Given questions in Slovenian or English, the agent connects data sources, performs geostatistical analyses and presents results through interactive multilayer maps, charts, tables and clear explanations. Its "Grounded-by-Design" architecture lets the language model plan the analysis while deterministic tools calculate values from official data, making results traceable to their sources.
+- **Impact:** In internal production at SURS since September 2026, the solution reduces complex analyses from days to hours and from hours to minutes.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ---
 
 ## 4. European Research & Innovation in AI
 
-Sunesis actively participates in leading European Horizon Europe research initiatives that advance the state of the art in artificial intelligence:
+Sunesis participates in international research and innovation projects that explore the future of artificial intelligence, cloud-edge architectures and data platforms, including:
 
-- **dAIEDGE (Horizon Europe):** Network of excellence developing distributed edge AI technologies, edge intelligence frameworks, and hardware-software co-design for edge intelligence.
-- **GreenDat.AI (Horizon Europe):** Energy-efficient and green data analytics and AI architectures targeting reduced carbon footprints for intensive AI computing across mobility, energy, and environmental analytics.
-- **NEPHELE (Horizon Europe):** Lightweight edge-to-cloud computing continuum framework for dynamic execution and deployment of IoT and edge AI services.
+- **Headlight / NEPHELE:** AI-enabled, context-aware orchestration for next-generation compute continuum environments.
+- **EDGEWISE / dAIEDGE:** AI-native orchestration for trustworthy and energy-efficient systems across the IoT–Edge–Fog–Cloud continuum.
+- **GreenDat.AI:** Research and innovation focused on AI, data platforms and greener, more efficient digital systems.
 
 For comprehensive research details, see [https://sunesis.si/ai/research-open-source.md](https://sunesis.si/ai/research-open-source.md).
 

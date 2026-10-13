@@ -1,4 +1,4 @@
-# Sunesis — Research & Open-Source Leadership
+# Sunesis — Open Source and Research & Innovation
 
 > **Canonical HTML Sources:**
 >
@@ -14,9 +14,9 @@
 
 ---
 
-## 1. Open-Source Philosophy & Ecosystem Contributions
+## 1. Open-Source Commitment
 
-Sunesis believes enterprise software excellence thrives on open standards, modular architecture, and collaborative technology development. Rather than viewing open source solely as a source of dependencies, Sunesis actively conceives, leads, and contributes to open-source frameworks and community foundations.
+Sunesis has a strong commitment to open-source software, open standards and reusable digital infrastructure. Its teams do not only use open-source technologies — they help build complete open-source solutions that continue to evolve through international communities, including projects connected to Linux Foundation ecosystems such as AgStack and LF Energy. Sunesis brings enterprise engineering discipline to open-source projects: architecture, security, maintainability, documentation, integration capability and production-quality implementation.
 
 ---
 
@@ -31,45 +31,65 @@ Sunesis believes enterprise software excellence thrives on open standards, modul
 
 ### Linux Foundation AgStack — INATrace
 
-- **Foundation:** Linux Foundation (AgStack Project).
-- **Focus:** Open-source digital supply chain traceability platform.
-- **Implementation:** Enables end-to-end provenance tracking of agricultural commodities (such as coffee) from smallholder farms to international roasters and retailers. Provides tamper-evident data collection, digital payments traceability, and geospatial validation required for EU Deforestation Regulation (EUDR) compliance.
+- **Ecosystem:** Linux Foundation AgStack community.
+- **Focus:** Open-source agricultural supply-chain traceability solution focused on transparency, fairer value chains and digital traceability from production to final product.
+- **Sunesis role:** Main development partner, contributing full-stack engineering, backend architecture, web and mobile development, data workflows and open-source implementation.
 - **Reference Detail:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
 ### CUPID
 
-- **Foundation:** Linux Foundation (LF Energy).
-- **Focus:** Common Universal Power Interface for Distributed Energy Resources (CUPID).
-- **Implementation:** Standardized open-source API implementations facilitating vendor-neutral, interoperable communication between transmission/distribution system operators and distributed energy resources (solar, battery storage, EV charging).
+- **Ecosystem:** LF Energy.
+- **Focus:** Open-source energy interoperability toolkit for distributed energy resource (DER) communication.
+- **Sunesis role:** Main development and contributing partner, supporting Java-based development, NATS messaging, interoperability patterns, protocol integration and edge, on-premise and cloud deployment scenarios.
 - **Reference Detail:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
 
 ---
 
-## 3. European Research & Innovation Consortia
+## 3. European Research & Innovation
 
-Sunesis is an active industrial research partner in high-impact European research projects funded under the European Union's **Horizon Europe** and **Horizon 2020** framework programmes:
+Beyond client delivery and open-source contribution, Sunesis participates in international research and innovation projects that explore the future of artificial intelligence, cloud-edge architectures, IoT, cybersecurity, data platforms and next-generation digital infrastructure. Where an entry is written as "A / B", A is Sunesis's own project and B is the European initiative it belongs to.
 
-### dAIEDGE (Horizon Europe)
+### GreenDat.AI
 
-- **Domain:** Distributed Edge Artificial Intelligence.
-- **Focus:** Building a European network of excellence in distributed Edge AI. Sunesis contributes to edge intelligence architectures, lightweight AI model acceleration, and edge-to-cloud coordination frameworks.
+- **Area:** AI and data-driven digital sustainability.
+- **Focus:** Research and innovation focused on AI, data platforms and greener, more efficient digital systems.
+- **Themes:** AI, data platforms, sustainability, digital infrastructure, AI-ready data services.
+- **Funding:** Horizon Europe R&I programme (GA No. 101070416).
 
-### GreenDat.AI (Horizon Europe)
+### Interstore
 
-- **Domain:** Energy-Efficient Data Analytics & Green AI.
-- **Focus:** Developing energy-aware algorithms, green data management architectures, and AI model optimization to significantly lower the carbon footprint of data-intensive analytics across smart mobility, renewable energy, and environmental modeling.
+- **Area:** Future-ready energy and digital infrastructure.
+- **Focus:** Advanced digital technologies for energy, interoperability, distributed systems and intelligent digital services.
+- **Themes:** Energy systems, interoperability, data-driven systems, enterprise technology.
 
-### NEPHELE (Horizon Europe)
+### Headlight / NEPHELE
 
-- **Domain:** Edge-to-Cloud Continuum.
-- **Focus:** Designing and deploying a programmable computing continuum orchestration platform that dynamically assigns and migrates IoT, microservice, and AI workloads across edge nodes, 5G gateways, and centralized cloud clusters.
+- **Area:** Compute continuum orchestration.
+- **Focus:** AI-enabled, context-aware orchestration for next-generation compute continuum environments.
+- **Themes:** Cloud-edge continuum, orchestration, AI-enabled infrastructure, distributed systems.
 
-### Resilmesh (Horizon Europe)
+### BONSAI / COSMIC
 
-- **Domain:** Enterprise Cybersecurity & Cyber-Resilience.
-- **Focus:** Developing an AI-driven, zero-trust cybersecurity mesh architecture capable of real-time threat detection, automated incident containment, and security orchestration across critical European infrastructures.
+- **Area:** Cloud-edge-IoT systems.
+- **Focus:** Research and innovation in advanced cloud-edge-IoT systems and intelligent digital infrastructure.
+- **Themes:** Cloud-edge systems, IoT, distributed infrastructure, intelligent services.
 
-### HEDGE-IoT (Horizon Europe)
+### EDGEWISE / dAIEDGE
 
-- **Domain:** Intelligent IoT for Energy Networks.
-- **Focus:** Deploying edge-fog computing architectures and federated intelligence to enable flexible, resilient, and renewable-heavy local energy grids.
+- **Area:** AI-native edge orchestration.
+- **Focus:** AI-native orchestration for trustworthy and energy-efficient systems across the IoT–Edge–Fog–Cloud continuum.
+- **Themes:** AI-native orchestration, edge computing, federated environments, energy efficiency.
+
+### CHAMELEON / Resilmesh
+
+- **Area:** Kubernetes resilience and cybersecurity.
+- **Focus:** Adaptive Kubernetes resilience and cybersecurity using lightweight mesh concepts and advanced protection mechanisms.
+- **Themes:** Kubernetes, cybersecurity, resilience, mesh architectures, distributed systems.
+
+### AURORA / HEDGE-IoT
+
+- **Area:** Intelligent IoT and edge computing.
+- **Focus:** Innovation in intelligent IoT, edge computing and energy-aware digital infrastructure.
+- **Themes:** IoT, edge computing, distributed intelligence, energy-aware systems.
+
+Sunesis collaborates in these consortia with universities, research institutes, technology companies and industry partners. Project overview: [https://sunesis.si/en/references/research-innovation/](https://sunesis.si/en/references/research-innovation/)

@@ -21,16 +21,16 @@ Cloud-native engineering at Sunesis is rooted in resilient, modular, and observa
 Key architectural principles:
 
 - **Loose Coupling & High Cohesion:** Domain-Driven Design (DDD) to isolate business domains into autonomous microservices.
-- **Contract-First Communication:** Strongly typed service interfaces using OpenAPI, gRPC, and Protocol Buffers to prevent runtime incompatibilities.
+- **Contract-First Communication:** Strongly typed service interfaces using OpenAPI and gRPC to prevent runtime incompatibilities.
 - **Event-Driven Resilience:** Asynchronous messaging and event streaming with Apache Kafka and NATS for eventual consistency and peak load buffering.
-- **Zero-Trust Security & Service Mesh:** Mutual TLS (mTLS), fine-grained identity propagation, and declarative traffic policies using Istio / Linkerd.
-- **Full-Stack Observability:** Distributed tracing, structured logging, and metrics instrumented with OpenTelemetry, Prometheus, Grafana, and Jaeger.
+- **Zero-Trust Security:** OAuth2 and OIDC with Keycloak and Microsoft Entra ID, identity propagation, mTLS and policy-based access between services.
+- **Full-Stack Observability:** Distributed tracing, structured logging, and metrics instrumented with OpenTelemetry and monitored with Instana APM, Prometheus, Grafana, and Jaeger.
 
 ---
 
 ## 2. Cloud-native Heritage & KumuluzEE
 
-Sunesis has been a pioneer in cloud-native Java and microservice architectures since the inception of containerized enterprise development:
+Sunesis's cloud-native engineering builds on KumuluzEE, a foundation for the move from monoliths to microservices:
 
 - **KumuluzEE Framework:** In 2015, Sunesis launched KumuluzEE, one of the world's first lightweight microservice frameworks for standard Java EE / Jakarta EE and Eclipse MicroProfile. KumuluzEE packaged standard enterprise APIs into minimal, container-ready executables without requiring heavyweight application servers.
 - **Java Community Recognition:** KumuluzEE was awarded the prestigious **Duke's Choice Award** by Oracle at JavaOne in San Francisco (2015) for outstanding innovation in enterprise Java and cloud-native technology.
@@ -42,10 +42,12 @@ Sunesis has been a pioneer in cloud-native Java and microservice architectures s
 
 Sunesis engineers and operates cloud-native workloads across multiple environments:
 
-- **Container Orchestration:** Red Hat OpenShift, Kubernetes (upstream, AKS, GKE, EKS, Tanzu).
-- **Service Communication:** gRPC, REST, GraphQL, WebSocket, HTTP/2 and HTTP/3.
-- **Streaming & Messaging:** Apache Kafka, NATS, RabbitMQ, MQTT.
-- **Data Architectures:** PostgreSQL, MongoDB, Redis, Elasticsearch, ClickHouse, distributed object storage.
+- **Container Orchestration:** Red Hat OpenShift, Kubernetes (upstream, AKS, GKE).
+- **Service Communication:** gRPC, REST, GraphQL, WebSocket and HTTP/2.
+- **Streaming & Messaging:** Apache Kafka, NATS, RabbitMQ.
+- **Workflow Engines:** Temporal and Camunda for long-running processes, service tasks and human approval flows.
+- **Identity & Observability:** Keycloak, Microsoft Entra ID, OpenTelemetry and Instana APM.
+- **Data Architectures:** PostgreSQL, Redis, distributed object storage.
 - **Operating Environments:** Private cloud bare-metal installations, hybrid enterprise setups, sovereign public cloud environments (Microsoft Azure, Google Cloud), and constrained edge computing nodes.
 
 ---
@@ -56,7 +58,7 @@ As enterprise workloads extend beyond centralized data centers, Sunesis develops
 
 - **Lightweight Runtimes:** Optimizing containerized microservices and AI inference runtimes for constrained edge hardware.
 - **Autonomous Local Operations:** Designing edge nodes capable of continuous local execution during network partitions, with deterministic bi-directional sync upon reconnection.
-- **Research Consortia:** Active contributions to European projects including **NEPHELE** (dynamic edge-cloud compute continuum) and **HEDGE-IoT** (intelligent edge-fog computing for next-generation energy networks).
+- **Research & Innovation:** Sunesis research work in cloud-edge systems includes **Headlight / NEPHELE** (AI-enabled, context-aware orchestration for the compute continuum across edge, fog and cloud), **EDGEWISE / dAIEDGE** (AI-native orchestration for trustworthy, energy-efficient IoT–Edge–Fog–Cloud environments), **AURORA / HEDGE-IoT** (intelligent IoT, edge computing and energy-aware infrastructure for distributed systems), **CHAMELEON / Resilmesh** (adaptive Kubernetes resilience and cybersecurity through a mesh-based approach) and **BONSAI / COSMIC** (advanced cloud-edge-IoT systems and intelligent infrastructure).
 
 ---
 
@@ -65,17 +67,17 @@ As enterprise workloads extend beyond centralized data centers, Sunesis develops
 ### NLB
 
 - **Domain:** Banking & Financial Services.
-- **Implementation:** Modernization and engineering support for mission-critical digital banking platforms (NLB Klik), emphasizing microservice scalability, secure integration with core banking systems, and continuous availability.
+- **Implementation:** Frontend and backend development for NLB Klik, supporting modern digital banking experiences and complex banking journeys through secure digital channels, enterprise backend development and integrations.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ### Plinovodi
 
-- **Domain:** Critical National Energy Infrastructure.
-- **Implementation:** Design and development of EPUS, the core transmission and balancing information platform for Slovenia's natural gas transmission system operator.
+- **Domain:** Energy & Utilities.
+- **Implementation:** EPUS, a business-critical enterprise platform supporting energy infrastructure and operational workflows.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ### Flare
 
 - **Domain:** Decentralized Infrastructure & Blockchain.
-- **Implementation:** High-reliability DevOps engineering, node infrastructure deployment, monitoring, and automated cluster operations for mission-critical blockchain infrastructure.
+- **Implementation:** DevOps and platform engineering expertise supporting automation, Kubernetes-based cloud-native operations and reliable delivery practices for a large-scale blockchain infrastructure environment.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)

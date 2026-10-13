@@ -20,9 +20,9 @@ Enterprise systems often accumulate decades of fragile, ad-hoc integrations acro
 
 Our approach centers on:
 
-- **API-First & Contract-Driven Design:** Establishing OpenAPI, AsyncAPI, and gRPC contracts as the single source of truth before implementation begins.
+- **API-First & Contract-Driven Design:** Establishing OpenAPI and gRPC contracts as the single source of truth before implementation begins.
 - **Enterprise API Governance:** Standardizing naming conventions, versioning schemes, error formats, and deprecation lifecycles across the entire organization.
-- **Zero-Trust API Security:** Enforcing OAuth 2.0, OpenID Connect (OIDC), fine-grained token scopes, Mutual TLS (mTLS), token exchange patterns, rate limiting, and threat detection at the gateway layer.
+- **Zero-Trust API Security:** OAuth2 and OpenID Connect (OIDC) with Keycloak or Microsoft Entra ID, mTLS between services, and centralized enforcement of security, rate limiting and access policies at the gateway.
 - **Developer Experience (DX) & Portals:** Providing interactive documentation, mock servers, client SDK generation, and developer onboarding to accelerate both internal and external API adoption.
 
 ---
@@ -31,8 +31,8 @@ Our approach centers on:
 
 Sunesis delivers API solutions both as custom architectural implementations and through the **Kumuluz** product suite:
 
-- **Kumuluz API:** A high-throughput, low-latency API gateway offering centralized policy enforcement, traffic shaping, authentication/authorization offloading, transformation, and comprehensive analytics.
-- **Kumuluz Business APIs:** Pre-architected, domain-driven API components designed for rapid rollout in banking, insurance, utility, and telecom sectors, dramatically reducing time-to-market for complex partner ecosystems.
+- **Kumuluz API:** An API management and API economy platform for exposing, securing, monitoring and governing APIs across teams, partners, applications and AI-agent-ready environments — with an API catalog, developer portals, gateway, access control, sandbox, lifecycle governance and usage visibility. It also supports AgenticAI scenarios, including MCP server patterns, contextual routing, LLM routing and token usage logging.
+- **Kumuluz Business APIs:** Reusable Business APIs that encapsulate common business behavior behind clean, governed contracts (for example customer and identity, products and catalogs, orders and payments, KYC and onboarding, or cases, tasks and notifications), so teams consume a shared capability layer instead of rebuilding the same logic in every project.
 
 ---
 
@@ -58,11 +58,11 @@ As organizations adopt AgenticAI, APIs become the primary mechanism through whic
 ### Vrhovno sodišče Republike Slovenije (Supreme Court of Slovenia)
 
 - **Domain:** Public Sector & Judiciary.
-- **Implementation:** Multi-system integration architectures connecting judicial case management (`eSpis`) and court administration systems (`iK`) with government registries, law enforcement, and European judicial databases.
+- **Implementation:** `eSpis`, a digital case-management solution supporting judicial workflows, secure document handling and court processes, and `iK`, an enterprise information system supporting court administration and operational processes, including their integrations.
 - **Reference Detail:** [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
 
 ### LF Energy CUPID (Open Source)
 
 - **Domain:** Energy Systems & Distributed Energy Resources (DER).
-- **Implementation:** Standardized open-source API implementations for the Common Universal Power Interface for Distributed Energy Resources (CUPID), establishing interoperable, secure communication between grid operators and distributed energy assets.
+- **Implementation:** CUPID is an open-source interoperability toolkit for distributed energy resource communication, hosted at LF Energy. Sunesis was a main development and contributing partner, supporting Java-based development, NATS messaging, interoperability patterns and protocol integration.
 - **Reference Detail:** [https://sunesis.si/en/references/open-source/](https://sunesis.si/en/references/open-source/)
