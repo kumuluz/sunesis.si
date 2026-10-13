@@ -26,7 +26,7 @@
     Content-Type = "text/markdown; charset=utf-8"
 
 [[headers]]
-  for = "/ai/*"
+  for = "/ai/*.md"
   [headers.values]
     Content-Type = "text/markdown; charset=utf-8"
 

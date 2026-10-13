@@ -116,9 +116,9 @@ test('netlify.toml contains scoped Content-Type headers', () => {
     'must define text/markdown for /agents.md',
   )
   assert.ok(
-    toml.includes('for = "/ai/*"') &&
+    toml.includes('for = "/ai/*.md"') &&
       toml.includes('text/markdown; charset=utf-8'),
-    'must define text/markdown for /ai/*',
+    'must define text/markdown for /ai/*.md',
   )
   assert.ok(toml.includes('publish = "out"'), 'must publish out/ directory')
 })

@@ -50,7 +50,7 @@ This website provides structured, machine-readable English resources for AI sear
 ### Public Resource URLs
 
 - `https://sunesis.si/llms.txt` — Concise machine-readable index with canonical links and topic summaries.
-- `https://sunesis.si/llms-full.txt` — Detailed plain-text companion document.
+- `https://sunesis.si/llms-full.txt` — Full text of all `/ai/*.md` briefs in one file.
 - `https://sunesis.si/agents.md` — Public research and navigation guide for AI agents.
 - `https://sunesis.si/ai/company.md` — Company identity, history, leadership, and Sunesis vs. Kumuluz relationship.
 - `https://sunesis.si/ai/agentic-ai.md` — Enterprise Agentic AI, multi-agent orchestration, and KumuluzAI platform capabilities.
@@ -65,7 +65,8 @@ This website provides structured, machine-readable English resources for AI sear
 
 All public AI resources are maintained directly in English in the `public/` directory:
 
-- Index files: `public/llms.txt`, `public/llms-full.txt`
+- Index file: `public/llms.txt`
+- Full-text file: `public/llms-full.txt` — generated from `public/ai/*.md` by `npm run llms`, which runs automatically before `dev` and `build`. Do not edit it by hand.
 - AI research guide: `public/agents.md`
 - Markdown topic briefs: `public/ai/*.md`
 

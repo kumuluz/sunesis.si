@@ -154,6 +154,31 @@ if (!existsSync(publicAiDir)) {
   }
 }
 
+// 3b. llms-full.txt must contain the full text of every public/ai/*.md brief
+const llmsFullPath = join(outDir, 'llms-full.txt')
+if (!existsSync(llmsFullPath)) {
+  fail('out/llms-full.txt does not exist')
+} else if (existsSync(publicAiDir)) {
+  const full = readFileSync(llmsFullPath, 'utf8')
+  const missing = readdirSync(publicAiDir)
+    .filter((f) => f.endsWith('.md'))
+    .filter(
+      (f) =>
+        !full.includes(`Source: https://sunesis.si/ai/${f}`) ||
+        !full.includes(
+          readFileSync(join(publicAiDir, f), 'utf8').match(/^# (.+)$/m)?.[1] ??
+            '\0',
+        ),
+    )
+  if (missing.length > 0) {
+    fail(`out/llms-full.txt is missing briefs: ${missing.join(', ')}`)
+  } else {
+    pass(
+      `out/llms-full.txt contains all briefs (${statSync(llmsFullPath).size} bytes)`,
+    )
+  }
+}
+
 // 4. Verify discovery links in generated HTML
 const enIndexHtml = join(outDir, 'en', 'index.html')
 if (existsSync(enIndexHtml)) {
@@ -202,10 +227,10 @@ if (existsSync(netlifyTomlPath)) {
   ) {
     fail('netlify.toml missing scoped Content-Type header for /agents.md')
   } else if (
-    !toml.includes('for = "/ai/*"') ||
+    !toml.includes('for = "/ai/*.md"') ||
     !toml.includes('text/markdown; charset=utf-8')
   ) {
-    fail('netlify.toml missing scoped Content-Type header for /ai/*')
+    fail('netlify.toml missing scoped Content-Type header for /ai/*.md')
   } else {
     pass(
       'netlify.toml contains required scoped Content-Type headers for plain text & markdown',
