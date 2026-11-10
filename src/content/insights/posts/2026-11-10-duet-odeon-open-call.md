@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DUET: Sunesis selected for the ODEON Open Call"
+title: "Sunesis advances solar forecasting across European energy dataspaces within ODEON"
 date: 2026-11-10
 author: dimitarstefanov
 categories: [Research & Innovation, Company]
