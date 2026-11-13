@@ -183,6 +183,14 @@ for (const file of files) {
   const excerpt = buildExcerpt(body)
   const bodyHtml = bodyToHtml(body)
   const minutes = readingMinutes(bodyHtml)
+  const language = unquote(fmValue(fm, 'language'))
+  const translationKey = unquote(fmValue(fm, 'translationKey'))
+  if (language && !['en', 'sl'].includes(language)) {
+    throw new Error(`${file}: language must be en or sl`)
+  }
+  if (translationKey && !language) {
+    throw new Error(`${file}: translationKey requires language`)
+  }
 
   posts.push({
     slug,
@@ -194,11 +202,31 @@ for (const file of files) {
     excerpt,
     minutes,
     thumbnail: 0,
+    ...(language ? { language } : {}),
+    ...(translationKey ? { translationKey } : {}),
   })
   bodies.push([slug, bodyHtml])
 }
 
 posts.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
+
+const translationGroups = new Map()
+for (const post of posts) {
+  if (!post.translationKey) continue
+  const translations = translationGroups.get(post.translationKey) ?? {}
+  if (translations[post.language]) {
+    throw new Error(
+      `Duplicate ${post.language} translation for ${post.translationKey}`,
+    )
+  }
+  translations[post.language] = post.slug
+  translationGroups.set(post.translationKey, translations)
+}
+for (const post of posts) {
+  if (!post.translationKey) continue
+  post.translations = translationGroups.get(post.translationKey)
+  delete post.translationKey
+}
 
 // Thumbnails are assigned here rather than at render time so a post keeps the
 // same image for its lifetime. Posts are walked oldest-first, so a newly added

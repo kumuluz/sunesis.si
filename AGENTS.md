@@ -75,7 +75,8 @@ Vsebina…
 - The text **above `<!--more-->`** becomes the listing excerpt, trimmed to 200 characters. Always include the marker — without it the excerpt is taken from the top of the whole article and usually reads badly.
 - Start body headings at `##`. The `title` from the front matter is rendered as the page's `<h1>`; do not repeat it in the body.
 - Standard GitHub-flavoured Markdown. Fenced code blocks with a language tag.
-- Articles are written in one language and shown unchanged under both `/en/` and `/sl/` — there is no translation layer. Only the surrounding chrome is localised.
+- Articles without a linked translation are shown unchanged under both `/en/` and `/sl/`.
+- To link translations, add `language: sl` or `language: en` and the same `translationKey: your-article-key` to each version's front matter. Keep separate files and slugs. Insights shows one card per translation group, preferring the current site language; posts without a translation remain visible in both listings. Each translated article automatically links to the other version, and both original URLs remain available. A group may have only one post per language.
 
 ### 4. Images
 

@@ -4,11 +4,13 @@ import { JsonLd } from '@/components/json-ld'
 import {
   INSIGHT_SLUGS,
   insightBySlug,
+  insightArticleHref,
   insightsContent,
 } from '@/content/insights'
 import { articleBodies } from '@/content/insights/bodies.generated'
 import { buildPageMetadata } from '@/lib/metadata'
 import type { LanguageCode } from '@/lib/router'
+import { SITE_ORIGIN } from '@/lib/site'
 import { breadcrumbSchema } from '@/lib/structured-data'
 import { InsightsArticle } from '@/views/insights/article'
 
@@ -27,11 +29,22 @@ export async function generateMetadata({
   const language = lang as LanguageCode
   const post = insightBySlug(slug)
   if (!post) return {}
-  return buildPageMetadata(
+  const metadata = buildPageMetadata(
     language,
     { name: 'insights', slug },
     { title: `${post.title} — Sunesis`, description: post.excerpt },
   )
+  if (post.translations) {
+    const en =
+      SITE_ORIGIN + insightArticleHref('en', post.translations.en ?? slug)
+    const sl =
+      SITE_ORIGIN + insightArticleHref('sl', post.translations.sl ?? slug)
+    metadata.alternates = {
+      ...metadata.alternates,
+      languages: { en, sl, 'x-default': en },
+    }
+  }
+  return metadata
 }
 
 export default async function Page({ params }: PageParams) {
@@ -45,9 +58,7 @@ export default async function Page({ params }: PageParams) {
 
   return (
     <>
-      <JsonLd
-        data={breadcrumbSchema(language, { name: 'insights', slug })}
-      />
+      <JsonLd data={breadcrumbSchema(language, { name: 'insights', slug })} />
       <InsightsArticle
         bodyHtml={articleBodies[slug] ?? ''}
         content={insightsContent[language]}

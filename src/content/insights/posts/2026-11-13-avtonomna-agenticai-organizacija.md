@@ -3,6 +3,8 @@ layout: post
 title: 'Avtonomna AgenticAI organizacija - od agentnih sistemov k avtonomnim agentom in digitalnim delavcem'
 date: 2026-11-13
 author: matjaz
+language: sl
+translationKey: autonomous-agenticai-organisation
 categories: [AgenticAI, Kumuluz]
 tags: [AI, KumuluzAI, agenti, večagentni sistemi, MCP, digitalni delavci]
 ---

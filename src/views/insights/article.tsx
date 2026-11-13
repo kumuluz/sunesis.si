@@ -1,5 +1,6 @@
 import { ArrowLeft } from 'lucide-react'
-import { formatInsightDate } from '../../content/insights'
+import { formatInsightDate, insightArticleHref } from '../../content/insights'
+import { insightTranslation } from '../../content/insights/translations'
 import type { LanguageCode } from '../../lib/router'
 import type { InsightPost, InsightsPageContent } from './types'
 
@@ -17,6 +18,7 @@ export function InsightsArticle({
   bodyHtml,
 }: InsightsArticleProps) {
   const insightsHref = `/${language}/insights/`
+  const translation = insightTranslation(post)
   const topics = post.categories.map(
     (category) => content.categoryLabels[category] ?? category,
   )
@@ -50,14 +52,32 @@ export function InsightsArticle({
       <div className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-neutral-500">
         <span className="font-semibold text-neutral-700">{post.authors}</span>
         <span aria-hidden="true">·</span>
-        <time dateTime={post.date}>{formatInsightDate(post.date, language)}</time>
+        <time dateTime={post.date}>
+          {formatInsightDate(post.date, language)}
+        </time>
         <span aria-hidden="true">·</span>
         <span>{content.article.minRead(post.minutes)}</span>
       </div>
 
+      {translation ? (
+        <p className="mt-5 text-sm">
+          <a
+            className="rounded-sm font-semibold text-blue-600 underline underline-offset-4 hover:text-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+            href={insightArticleHref(translation.language, translation.slug)}
+            hrefLang={translation.language}
+            lang={translation.language}
+          >
+            {translation.language === 'en'
+              ? 'Read in English'
+              : 'Preberi v slovenščini'}
+          </a>
+        </p>
+      ) : null}
+
       {bodyHtml ? (
         <div
           className="insights-article mt-12"
+          lang={post.language}
           dangerouslySetInnerHTML={{ __html: bodyHtml }}
         />
       ) : (

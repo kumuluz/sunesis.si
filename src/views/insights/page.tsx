@@ -15,6 +15,7 @@ import {
   thumbnailForSlug,
 } from '../../content/insights'
 import { RevealGroup, RevealItem } from '../../components/motion'
+import { insightPostsForLanguage } from '../../content/insights/translations'
 import type { LanguageCode } from '../../lib/router'
 import type { InsightsPageContent } from './types'
 
@@ -90,13 +91,12 @@ export function InsightsPage({ language, content }: InsightsPageProps) {
     [language],
   )
 
-  const filtered = useMemo(
-    () =>
-      activeKey
-        ? insightPosts.filter((post) => post.categories.includes(activeKey))
-        : insightPosts,
-    [activeKey],
-  )
+  const filtered = useMemo(() => {
+    const posts = insightPostsForLanguage(insightPosts, language)
+    return activeKey
+      ? posts.filter((post) => post.categories.includes(activeKey))
+      : posts
+  }, [activeKey, language])
 
   const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
   const currentPage = Math.min(page, pageCount)

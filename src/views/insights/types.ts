@@ -10,6 +10,8 @@ export type InsightPost = {
   excerpt: string
   minutes: number
   thumbnail: number
+  language?: LanguageCode
+  translations?: Partial<Record<LanguageCode, string>>
 }
 
 export type InsightsPageContent = {
