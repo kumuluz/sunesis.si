@@ -48,7 +48,7 @@ const en: CompanyPageContent = {
           image: '/images/awards/seal-of-excellence.png',
           imageAlt: 'European Commission Seal of Excellence',
           title: 'European Commission Seal of Excellence',
-          text: 'Sunesis received the European Commission’s Seal of Excellence for its project proposal, recognising its quality and innovation potential. This European quality label is awarded to proposals that meet the rigorous evaluation criteria of EU research and innovation programmes but cannot receive funding due to budget constraints. ([commission.europa.eu](https://commission.europa.eu/funding-and-tenders/find-funding/seal-excellence_en))',
+          text: 'Sunesis received the European Commission’s Seal of Excellence for its project proposal, recognising its quality and innovation potential. This European quality label is awarded to proposals that meet the rigorous evaluation criteria of EU research and innovation programmes. ([commission.europa.eu](https://commission.europa.eu/funding-and-tenders/find-funding/seal-excellence_en))',
           bulletsTitle: 'Why it matters',
           bullets: [
             'This recognition reflects our commitment to research-driven innovation and the development of advanced technology solutions.',
@@ -214,7 +214,7 @@ const sl: CompanyPageContent = {
           image: '/images/awards/seal-of-excellence.png',
           imageAlt: 'Pečat odličnosti Evropske komisije',
           title: 'Pečat odličnosti Evropske komisije',
-          text: 'Sunesis je za svoj projektni predlog prejel pečat odličnosti Evropske komisije (Seal of Excellence), ki potrjuje njegovo kakovost in inovacijski potencial. Ta evropski znak kakovosti prejmejo projektni predlogi, ki izpolnjujejo stroga ocenjevalna merila programov EU za raziskave in inovacije, vendar zaradi omejenih proračunskih sredstev ne prejmejo financiranja. ([commission.europa.eu](https://commission.europa.eu/funding-and-tenders/find-funding/seal-excellence_en))',
+          text: 'Sunesis je za svoj projektni predlog prejel pečat odličnosti Evropske komisije (Seal of Excellence), ki potrjuje njegovo kakovost in inovacijski potencial. Ta evropski znak kakovosti prejmejo projektni predlogi, ki izpolnjujejo stroga ocenjevalna merila programov EU za raziskave in inovacije. ([commission.europa.eu](https://commission.europa.eu/funding-and-tenders/find-funding/seal-excellence_en))',
           bulletsTitle: 'Zakaj je to pomembno',
           bullets: [
             'Priznanje odraža našo zavezanost inovacijam, ki temeljijo na raziskavah, in razvoju naprednih tehnoloških rešitev.',
