@@ -6,7 +6,7 @@ const en: CompanyPageContent = {
     title:
       'About Sunesis | Enterprise Software Engineering, AgenticAI, APIs and Cloud-native Platforms',
     description:
-      'Sunesis is a Slovenian software engineering and technology company specializing in AgenticAI, digital platforms, API ecosystems, cloud-native architectures, DevOps and Kumuluz platforms.',
+      'Sunesis builds AgenticAI solutions, digital workers and autonomous organizations, digital platforms, API ecosystems and cloud-native systems, backed by award-winning engineering.',
   },
   hero: {
     type: 'hero',
@@ -16,6 +16,7 @@ const en: CompanyPageContent = {
     body: [
       'Sunesis is a Slovenian software engineering and technology company focused on enterprise AgenticAI, digital solutions, API ecosystems, cloud-native architectures, DevOps, workflow automation and Kumuluz platforms.',
       'Founded in 2014, we help organizations design, build, integrate and operate secure, scalable and business-critical software systems.',
+      'We also develop digital workers and AgenticAI organizations: coordinated agent teams that proactively carry out operational work, from a defined business role to connected departments and, where appropriate, organization-wide operations under human oversight.',
       'We work with organizations that need more than development capacity — they need architecture, engineering depth, integration expertise, platform thinking and production delivery experience.',
     ],
     primaryCta: 'Talk to our experts',
@@ -39,13 +40,17 @@ const en: CompanyPageContent = {
       id: 'what-we-do',
       title: 'What we do',
       intro:
-        'Our work is focused on five expertise areas where deep technical knowledge, enterprise experience and reliable delivery matter most.',
+        'Our work is focused on six expertise areas where deep technical knowledge, enterprise experience and reliable delivery matter most.',
       variant: 'accent',
       columns: 3,
       items: [
         {
           title: 'AgenticAI Solutions',
           text: 'We design and build enterprise-grade AI agents and assistants that automate processes, use enterprise knowledge, connect to APIs and tools, support human approvals and run on governed AI platforms.',
+        },
+        {
+          title: 'AgenticAI Organizations & Digital Workers',
+          text: 'We design digital roles and coordinated teams that respond to events, schedules and requests, executing complete processes within agreed permissions. Delivery includes enterprise integration, business-level oversight, exception handling and measured, controlled improvement; people retain accountability.',
         },
         {
           title: 'Digital Solutions Development',
@@ -169,6 +174,8 @@ const en: CompanyPageContent = {
       title: 'Recognized expertise',
       body: [
         'Sunesis and the Kumuluz product family have received national and international recognition for innovation in cloud-native and enterprise technologies.',
+        'RIKO received the AI of the Year 2026 award (UI leta 2026) at the CIO leta event for RikoAI, an AgenticAI solution developed by Sunesis on KumuluzAI for analysing complex business documentation and international tenders.',
+        'SI-GEOS, developed by Sunesis in partnership with the Statistical Office of the Republic of Slovenia (SURS) and UM FERI, is one of three finalists for GoDigital 2026. The multimodal AI agent connects official statistical and geospatial data with natural-language analysis, maps and charts.',
         'KumuluzEE received the Java Duke’s Choice Award at JavaOne, and Sunesis has also been recognized with the European Commission Seal of Excellence, the EuroCloud Award and Slovenian Start:up of the Year finalist recognition.',
         'Our team also brings recognized expertise and certifications across Java, cloud computing, enterprise architecture, SOA, project management and innovation management.',
       ],
@@ -229,7 +236,7 @@ const en: CompanyPageContent = {
         {
           label: 'Award-winning',
           title: 'Recognized innovation',
-          text: 'KumuluzEE received the Java Duke’s Choice Award, and Sunesis has also been recognized with the European Commission Seal of Excellence, the EuroCloud Award and as a Slovenian Start:up of the Year finalist.',
+          text: 'RikoAI, developed by Sunesis for RIKO, received AI of the Year 2026; SI-GEOS is a GoDigital 2026 finalist. These complement the Java Duke’s Choice Award for KumuluzEE, the European Commission Seal of Excellence, EuroCloud Award and Slovenian Start:up of the Year finalist recognition.',
         },
         {
           label: 'Enterprise & open source',
@@ -243,7 +250,7 @@ const en: CompanyPageContent = {
       title:
         'Looking for a technology partner for complex digital initiatives?',
       body: [
-        'Whether you are exploring AgenticAI, building a digital platform, modernizing architecture, creating API ecosystems or strengthening DevOps, Sunesis can help you design, build and operate enterprise-grade software solutions.',
+        'Whether you are building AgenticAI solutions, introducing digital workers and autonomous operations, developing digital platforms, modernizing architecture, creating API ecosystems or strengthening DevOps, Sunesis can help you design, build and operate enterprise-grade software solutions.',
       ],
       primaryCta: 'Talk to our experts',
       secondaryCta: 'Explore our expertise',
@@ -256,7 +263,7 @@ const sl: CompanyPageContent = {
     title:
       'O Sunesisu | Inženiring poslovne programske opreme, AgenticAI, API-ji in cloud-native platforme',
     description:
-      'Sunesis je slovensko podjetje za inženiring programske opreme in tehnologije, specializirano za AgenticAI, digitalne platforme, API ekosisteme, cloud-native arhitekture, DevOps in platforme Kumuluz.',
+      'Sunesis razvija AgenticAI rešitve, digitalne delavce in avtonomne organizacije, digitalne platforme, API ekosisteme in cloud-native sisteme z nagrajenim inženirskim znanjem.',
   },
   hero: {
     type: 'hero',
@@ -266,6 +273,7 @@ const sl: CompanyPageContent = {
     body: [
       'Sunesis je slovensko podjetje za inženiring programske opreme in tehnologije, osredotočeno na poslovni AgenticAI, digitalne rešitve, API ekosisteme, cloud-native arhitekture, DevOps, avtomatizacijo workflowov in platforme Kumuluz.',
       'Ustanovljeni leta 2014 organizacijam pomagamo načrtovati, razvijati, integrirati in upravljati varne, skalabilne ter poslovno kritične programske sisteme.',
+      'Razvijamo tudi digitalne delavce in AgenticAI organizacije: povezane agentne ekipe, ki proaktivno izvajajo operativno delo, od določene poslovne vloge do povezanih oddelkov in, kjer je to primerno, poslovanja celotne organizacije pod človeškim nadzorom.',
       'Sodelujemo z organizacijami, ki potrebujejo več kot le razvojne kapacitete — potrebujejo arhitekturo, inženirsko globino, integracijsko znanje, platformno razmišljanje in izkušnje s produkcijsko dostavo.',
     ],
     primaryCta: 'Pogovorite se z našimi strokovnjaki',
@@ -289,13 +297,17 @@ const sl: CompanyPageContent = {
       id: 'what-we-do',
       title: 'Kaj počnemo',
       intro:
-        'Naše delo je osredotočeno na pet področij ekspertize, kjer globoko tehnično znanje, poslovne izkušnje in zanesljiva dostava štejejo največ.',
+        'Naše delo je osredotočeno na šest področij ekspertize, kjer globoko tehnično znanje, poslovne izkušnje in zanesljiva dostava štejejo največ.',
       variant: 'accent',
       columns: 3,
       items: [
         {
           title: 'AgenticAI rešitve',
           text: 'Načrtujemo in gradimo poslovne AI agente in asistente, ki avtomatizirajo procese, uporabljajo poslovno znanje, se povezujejo z API-ji in orodji, podpirajo človeške odobritve in tečejo na upravljanih AI platformah.',
+        },
+        {
+          title: 'AgenticAI organizacije in digitalni delavci',
+          text: 'Načrtujemo digitalne vloge in povezane ekipe, ki se odzivajo na dogodke, urnike in zahteve ter izvajajo celotne procese znotraj dogovorjenih pooblastil. Uvedba vključuje poslovne integracije, vsebinski nadzor, obravnavo izjem in merljivo, nadzorovano izboljševanje; ljudje ohranijo odgovornost.',
         },
         {
           title: 'Razvoj digitalnih rešitev',
@@ -419,6 +431,8 @@ const sl: CompanyPageContent = {
       title: 'Prepoznano strokovno znanje',
       body: [
         'Sunesis in družina izdelkov Kumuluz sta prejela nacionalna in mednarodna priznanja za inovacije na področju cloud-native in poslovnih tehnologij.',
+        'Podjetje RIKO je na dogodku CIO leta prejelo nagrado UI leta 2026 za RikoAI, rešitev AgenticAI, ki jo je Sunesis razvil na platformi KumuluzAI za analizo kompleksne poslovne dokumentacije in mednarodnih razpisov.',
+        'SI-GEOS, ki ga Sunesis razvija v partnerstvu s Statističnim uradom Republike Slovenije (SURS) in UM FERI, je eden od treh finalistov GoDigital 2026. Večmodalni AI agent povezuje uradne statistične in geoprostorske podatke z analizami v naravnem jeziku, zemljevidi in grafikoni.',
         'KumuluzEE je na konferenci JavaOne prejel nagrado Java Duke’s Choice Award, Sunesis pa je bil prepoznan tudi s pečatom odličnosti Evropske komisije, z nagrado EuroCloud Award in kot finalist izbora Slovenski start:up leta.',
         'Naša ekipa prinaša tudi priznano strokovno znanje in certifikate na področjih Jave, računalništva v oblaku, poslovne arhitekture, SOA, projektnega vodenja in upravljanja inovacij.',
       ],
@@ -479,7 +493,7 @@ const sl: CompanyPageContent = {
         {
           label: 'Nagrajeni',
           title: 'Prepoznana inovativnost',
-          text: 'KumuluzEE je prejel nagrado Java Duke’s Choice Award, Sunesis pa je bil prepoznan tudi s pečatom odličnosti Evropske komisije, z nagrado EuroCloud Award in kot finalist izbora Slovenski start:up leta.',
+          text: 'RikoAI, ki ga je Sunesis razvil za RIKO, je prejel UI leta 2026; SI-GEOS je finalist GoDigital 2026. Priznanji dopolnjujeta nagrado Java Duke’s Choice Award za KumuluzEE, pečat odličnosti Evropske komisije, EuroCloud Award in uvrstitev med finaliste Slovenskega start:upa leta.',
         },
         {
           label: 'Posel in odprta koda',
@@ -492,7 +506,7 @@ const sl: CompanyPageContent = {
       type: 'finalCta',
       title: 'Iščete tehnološkega partnerja za kompleksne digitalne pobude?',
       body: [
-        'Ne glede na to, ali raziskujete AgenticAI, gradite digitalno platformo, modernizirate arhitekturo, ustvarjate API ekosisteme ali krepite DevOps, vam Sunesis lahko pomaga načrtovati, graditi in upravljati poslovne programske rešitve.',
+        'Ne glede na to, ali gradite AgenticAI rešitve, uvajate digitalne delavce in avtonomno poslovanje, razvijate digitalne platforme, modernizirate arhitekturo, ustvarjate API ekosisteme ali krepite DevOps, vam Sunesis lahko pomaga načrtovati, graditi in upravljati poslovne programske rešitve.',
       ],
       primaryCta: 'Pogovorite se z našimi strokovnjaki',
       secondaryCta: 'Raziščite naše ekspertize',

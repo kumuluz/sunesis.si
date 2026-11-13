@@ -26,13 +26,14 @@ Source: https://sunesis.si/ai/company.md
 
 Sunesis (SUNESIS d.o.o. / SUNESIS Ltd.) is a Slovenian enterprise software engineering and technology consulting company founded in 2014 and based in Ljubljana, Slovenia, with regional branch offices in Maribor and Ptuj.
 
-Sunesis designs, builds, integrates, and operates secure, scalable, and business-critical software systems for organizations in demanding enterprise environments. Our work spans five core pillars:
+Sunesis designs, builds, integrates, and operates secure, scalable, and business-critical software systems for organizations in demanding enterprise environments. Our work spans six core expertise areas:
 
 1. **AgenticAI Solutions**
-2. **Digital Solutions Development**
-3. **Cloud-native & Edge Architectures**
-4. **API Ecosystems & Integrations**
-5. **DevOps & Platform Engineering**
+2. **AgenticAI Organizations & Digital Workers**
+3. **Digital Solutions Development**
+4. **Cloud-native & Edge Architectures**
+5. **API Ecosystems & Integrations**
+6. **DevOps & Platform Engineering**
 
 We work with clients that need more than raw development capacity: they need deep architecture, integration expertise, platform thinking, security-by-design, and proven production delivery experience.
 
@@ -62,6 +63,12 @@ For dedicated Kumuluz product content and documentation, visit [https://kumuluz.
 Enterprise-grade AgenticAI solutions that go beyond conversation. We build digital agent teams and governed agentic workflows that connect AI reasoning with enterprise knowledge, tools, APIs, and business systems under strict security, authorization, and audit controls. Most implementations are powered by the KumuluzAI platform.
 
 - Canonical Brief: [https://sunesis.si/ai/agentic-ai.md](https://sunesis.si/ai/agentic-ai.md)
+
+#### AgenticAI Organizations & Digital Workers
+
+Design and delivery of digital business roles and coordinated agent teams that proactively respond to events, schedules and requests. The scope ranges from one role to connected processes, departments and, where appropriate, organization-wide operations. Delivery includes enterprise integration, defined permissions, business-level oversight, exception handling and measured, controlled improvement. People retain oversight, required approvals and accountability.
+
+- Canonical Offering: [https://sunesis.si/en/expertise/agentic-organizations/](https://sunesis.si/en/expertise/agentic-organizations/)
 
 #### Digital Solutions Development
 
@@ -104,7 +111,15 @@ For detailed reference descriptions, see [https://sunesis.si/ai/selected-work.md
 
 ---
 
-### 5. Contact & Collaboration
+### 5. Awards & Recognition
+
+RIKO received **AI of the Year 2026 (UI leta 2026)** at the CIO leta event for **RikoAI**, an AgenticAI solution developed by Sunesis on KumuluzAI for analysing complex business documentation and international tenders.
+
+**SI-GEOS**, developed by Sunesis in partnership with SURS and UM FERI, is one of three **GoDigital 2026 finalists**, not an announced winner. The multimodal AI agent connects official statistical and geospatial data with natural-language analysis, maps and charts.
+
+These complement the Java Duke's Choice Award for KumuluzEE, the European Commission Seal of Excellence, EuroCloud Award and Slovenian Start:up of the Year finalist recognition. See [awards and sources](https://sunesis.si/ai/awards.md).
+
+### 6. Contact & Collaboration
 
 - **General & Enterprise Inquiries:** [https://sunesis.si/en/#contact](https://sunesis.si/en/#contact)
 - **Headquarters:** Sunesis d.o.o., Ljubljana, Slovenia
