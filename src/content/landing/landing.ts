@@ -13,16 +13,6 @@ const enLanding = {
       label: 'Awards',
       items: [
         {
-          icon: 'trophy',
-          title: 'AI of the Year 2026',
-          product: 'RikoAI solution',
-        },
-        {
-          icon: 'medal',
-          title: 'GoDigital 2026 finalist',
-          product: 'SI-GEOS AI agent',
-        },
-        {
           icon: 'seal',
           title: 'Seal of Excellence',
           product: 'European Commission',
@@ -31,6 +21,16 @@ const enLanding = {
           icon: 'star',
           title: 'Duke’s Choice Award',
           product: 'Kumuluz',
+        },
+        {
+          icon: 'trophy',
+          title: 'AI of the Year 2026',
+          product: 'RikoAI solution',
+        },
+        {
+          icon: 'medal',
+          title: 'GoDigital 2026 finalist',
+          product: 'SI-GEOS AI agent',
         },
       ],
     },
@@ -321,16 +321,6 @@ const slLanding = {
       label: 'Nagrade',
       items: [
         {
-          icon: 'trophy',
-          title: 'UI leta 2026',
-          product: 'Rešitev RikoAI',
-        },
-        {
-          icon: 'medal',
-          title: 'Finalist GoDigital 2026',
-          product: 'AI agent SI-GEOS',
-        },
-        {
           icon: 'seal',
           title: 'Pečat odličnosti',
           product: 'Evropska komisija',
@@ -339,6 +329,16 @@ const slLanding = {
           icon: 'star',
           title: 'Duke’s Choice Award',
           product: 'Kumuluz',
+        },
+        {
+          icon: 'trophy',
+          title: 'UI leta 2026',
+          product: 'Rešitev RikoAI',
+        },
+        {
+          icon: 'medal',
+          title: 'Finalist GoDigital 2026',
+          product: 'AI agent SI-GEOS',
         },
       ],
     },
