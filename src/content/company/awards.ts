@@ -1,4 +1,4 @@
-import { Cloud, Rocket } from 'lucide-react'
+import { Award, Cloud, Rocket, Trophy } from 'lucide-react'
 import type { LanguageCode } from '../../lib/router'
 import type { CompanyPageContent } from '../../views/company/types'
 
@@ -6,7 +6,7 @@ const en: CompanyPageContent = {
   seo: {
     title: 'Awards and Recognitions | Sunesis',
     description:
-      'Sunesis and Kumuluz have received international and national recognition, including the European Commission Seal of Excellence, Java Duke’s Choice Award, EuroCloud Award and Slovenian Start:up of the Year finalist recognition.',
+      'Awards and recognition for Sunesis, Kumuluz and solutions built by Sunesis: AI of the Year 2026 for RikoAI, GoDigital 2026 finalist for SI-GEOS, European Commission Seal of Excellence, Java Duke’s Choice Award, EuroCloud Award and Start:up of the Year finalist.',
   },
   hero: {
     type: 'hero',
@@ -24,6 +24,26 @@ const en: CompanyPageContent = {
       type: 'capabilities',
       title: 'Award-winning innovation',
       items: [
+        {
+          icon: Trophy,
+          title: 'AI of the Year 2026',
+          text: 'Award for the RikoAI solution. RIKO received the AI of the Year 2026 award (UI leta 2026) at the CIO leta event at Brdo pri Kranju for RikoAI, an AgenticAI solution built by Sunesis on the KumuluzAI platform. ([riko.si](https://www.riko.si/riko-prejel-prestizno-nagrado-ui-leta-2026/))',
+          bulletsTitle: 'Why it matters',
+          bullets: [
+            'Recognizes RikoAI, a multi-agent system that automates the analysis of complex business documentation and international tenders.',
+            'The expert committee recognized the solution’s innovation, technological maturity and measurable business impact.',
+          ],
+        },
+        {
+          icon: Award,
+          title: 'GoDigital 2026 Finalist',
+          text: 'Recognition for the SI-GEOS AI agent. SI-GEOS, developed by Sunesis in partnership with the Statistical Office of the Republic of Slovenia (SURS) and the Faculty of Electrical Engineering and Computer Science of the University of Maribor (FERI), is one of three finalists for the GoDigital 2026 award for the best digital project of the year, presented by the Association for Informatics and Telecommunications (ZIT) at the Chamber of Commerce and Industry of Slovenia and SRIP GoDigital. ([gzs.si](https://www.gzs.si/zdruzenje_za_informatiko_in_telekomunikacije/Novice/ArticleId/92066/znani-finalisti-za-nagrado-godigital-2026x))',
+          bulletsTitle: 'Why it matters',
+          bullets: [
+            'Recognizes SI-GEOS, a multimodal AI agent that answers natural-language questions with official statistical and geospatial data, dynamic multi-layer maps, charts and explanations.',
+            'The project is co-funded by Eurostat, and the solution has been in use at SURS since September 2026.',
+          ],
+        },
         {
           image: '/images/awards/seal-of-excellence.png',
           imageAlt: 'European Commission Seal of Excellence',
@@ -151,7 +171,7 @@ const sl: CompanyPageContent = {
   seo: {
     title: 'Nagrade in priznanja | Sunesis',
     description:
-      'Sunesis in Kumuluz sta prejela mednarodna in nacionalna priznanja, vključno s pečatom odličnosti Evropske komisije, nagradama Java Duke’s Choice Award in EuroCloud Award ter uvrstitvijo med finaliste izbora Slovenski start:up leta.',
+      'Nagrade in priznanja za Sunesis, Kumuluz in rešitve, ki jih je razvil Sunesis: UI leta 2026 za RikoAI, finalist GoDigital 2026 za SI-GEOS, pečat odličnosti Evropske komisije, Java Duke’s Choice Award, EuroCloud Award in finalist izbora Slovenski start:up leta.',
   },
   hero: {
     type: 'hero',
@@ -170,6 +190,26 @@ const sl: CompanyPageContent = {
       type: 'capabilities',
       title: 'Nagrajena inovativnost',
       items: [
+        {
+          icon: Trophy,
+          title: 'UI leta 2026',
+          text: 'Nagrada za rešitev RikoAI. Podjetje RIKO je na dogodku CIO leta na Brdu pri Kranju prejelo nagrado UI leta 2026 za RikoAI, rešitev AgenticAI, ki jo je Sunesis razvil na platformi KumuluzAI. ([riko.si](https://www.riko.si/riko-prejel-prestizno-nagrado-ui-leta-2026/))',
+          bulletsTitle: 'Zakaj je to pomembno',
+          bullets: [
+            'Priznanje za RikoAI, večagentni sistem, ki avtomatizira analizo zahtevne poslovne dokumentacije in mednarodnih razpisov.',
+            'Strokovni odbor je prepoznal inovativnost rešitve, njeno tehnološko naprednost in merljive poslovne učinke.',
+          ],
+        },
+        {
+          icon: Award,
+          title: 'Finalist GoDigital 2026',
+          text: 'Priznanje za AI agenta SI-GEOS. SI-GEOS, ki ga Sunesis razvija v partnerstvu s Statističnim uradom Republike Slovenije (SURS) in Fakulteto za elektrotehniko, računalništvo in informatiko Univerze v Mariboru (FERI), je eden od treh finalistov za nagrado GoDigital 2026 za najboljši digitalni projekt leta, ki jo podeljujeta Združenje za informatiko in telekomunikacije (ZIT) pri Gospodarski zbornici Slovenije in SRIP GoDigital. ([gzs.si](https://www.gzs.si/zdruzenje_za_informatiko_in_telekomunikacije/Novice/ArticleId/92066/znani-finalisti-za-nagrado-godigital-2026x))',
+          bulletsTitle: 'Zakaj je to pomembno',
+          bullets: [
+            'Priznanje za SI-GEOS, večmodalnega agenta umetne inteligence, ki na vprašanja v naravnem jeziku odgovarja z uradnimi statističnimi in geoprostorskimi podatki, dinamičnimi večslojnimi kartami, grafikoni in razlago.',
+            'Projekt sofinancira Eurostat, od septembra 2026 pa je rešitev v uporabi na SURS.',
+          ],
+        },
         {
           image: '/images/awards/seal-of-excellence.png',
           imageAlt: 'Pečat odličnosti Evropske komisije',
