@@ -3,6 +3,8 @@ layout: post
 title:  "5 spoznanj iz gradnje AI rešitev na Azure - Sunesis na NTK 2024"
 date:   2024-09-19
 author: gregorgabrovsek
+language: sl
+translationKey: ai-azure-ntk2024
 categories: [AgenticAI, Kumuluz, Research & Innovation, Company]
 tags: [KumuluzAI, Workflow automation, Research projects, Azure, NTK2024, umetna inteligenca]
 ---

@@ -3,6 +3,8 @@ layout: post
 title:  "Crowdsensing v marketingu: Kako lahko podatki izboljšajo marketinške strategije?"
 date:   2024-12-17
 author: ezupancic
+language: sl
+translationKey: crowdsensing-marketing
 categories: [Kumuluz, Research & Innovation]
 tags: [Kumuluz Crowdsensing, Research projects, Crowdsensing, Marketing]
 ---

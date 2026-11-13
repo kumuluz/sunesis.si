@@ -3,6 +3,8 @@ layout: post
 title:  "Zakaj potrebujete skupno platformo za AI agente"
 date:   2026-09-08
 author: ezupancic
+language: sl
+translationKey: shared-ai-agent-platform
 categories: [AgenticAI]
 tags: [AI, KumuluzAI, agenti]
 ---

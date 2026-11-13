@@ -3,6 +3,8 @@ layout: post
 title:  "KumuluzAPI MCP strežnik"
 date:   2026-02-06
 author: rokra
+language: sl
+translationKey: kumuluz-api-mcp
 categories: [AgenticAI, Kumuluz, API & Integration, Cloud-native & DevOps, Open Source, Research & Innovation]
 tags: [KumuluzAI, Kumuluz API, AI agents, MCP, Cloud-native, Research projects, umetna inteligenca]
 ---

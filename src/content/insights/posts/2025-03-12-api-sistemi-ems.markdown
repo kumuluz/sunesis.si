@@ -3,6 +3,8 @@ layout: post
 title:  "KumuluzAPI kot orodje za integracijo energetskih naprav z EMS sistemi"
 date:   2025-03-12
 author: ezupancic
+language: sl
+translationKey: energy-device-ems-integration
 categories: [Kumuluz, API & Integration, Cloud-native & DevOps, Open Source]
 tags: [Kumuluz API, API management, Cloud-native, API, EMS]
 ---

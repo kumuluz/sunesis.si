@@ -3,6 +3,8 @@ layout: post
 title:  "Onkraj klepetalnih robotov: Večagentna arhitektura"
 date:   2026-05-28
 author: gregorgabrovsek
+language: sl
+translationKey: multi-agent-architecture
 categories: [AgenticAI, Kumuluz, API & Integration, Research & Innovation, Company]
 tags: [KumuluzAI, Kumuluz API, AI agents, Digital agent teams, Agentic operating models, Workflow automation, Research projects, AI, umetna inteligenca]
 ---

@@ -3,6 +3,8 @@ layout: post
 title: 'RikoAI: Agentni sistem za kompleksne tehnološke projekte'
 date: 2026-10-22
 author: gregorgabrovsek
+language: sl
+translationKey: rikoai-complex-technology-projects
 categories: [AgenticAI, Company]
 tags: [AI, RikoAI, RIKO, agenti, večagentni sistemi]
 ---

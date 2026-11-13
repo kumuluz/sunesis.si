@@ -3,6 +3,8 @@ layout: post
 title: 'SI-GEOS: od vprašanja do zemljevida z vašim novim AI sodelavcem'
 date: 2026-09-30
 author: gregorgabrovsek
+language: sl
+translationKey: si-geos-ai-colleague
 categories: [AgenticAI, Kumuluz, Research & Innovation]
 tags: [AI, KumuluzAI, agenti, SI-GEOS, SURS, geoprostorski podatki]
 ---

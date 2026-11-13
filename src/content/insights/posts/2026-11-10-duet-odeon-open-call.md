@@ -3,6 +3,8 @@ layout: post
 title: "Sunesis advances solar forecasting across European energy dataspaces within ODEON"
 date: 2026-11-10
 author: dimitarstefanov
+language: en
+translationKey: duet-odeon-open-call
 categories: [Research & Innovation, Company]
 tags: [DUET, ODEON, HEDGE-IoT, AI, Energy, Data spaces]
 ---

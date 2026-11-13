@@ -3,6 +3,8 @@ layout: post
 title:  "Kako napovedati porabo energije za električna vozila s KumuluzCrowdsensing?"
 date:   2024-10-07
 author: ezupancic
+language: sl
+translationKey: ev-energy-forecasting
 categories: [Kumuluz, Research & Innovation]
 tags: [Kumuluz Crowdsensing, Research projects, Crowdsensing, Elektična vozila]
 ---

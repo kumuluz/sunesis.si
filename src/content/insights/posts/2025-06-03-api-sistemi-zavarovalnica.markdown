@@ -3,6 +3,8 @@ layout: post
 title:  "Digitalizacija v zavarovalništvu s KumuluzAPI"
 date:   2025-06-03
 author: ezupancic
+language: sl
+translationKey: insurance-digitalisation-kumuluzapi
 categories: [Kumuluz, API & Integration, Research & Innovation]
 tags: [Kumuluz API, API management, Research projects, API, digitalizacija, zavarovalnica]
 ---
