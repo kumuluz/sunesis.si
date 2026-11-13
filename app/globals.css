@@ -375,6 +375,11 @@ body {
   .award-seal:nth-child(3) .award-seal__layer {
     animation-delay: 560ms;
   }
+
+  .award-seal:nth-child(4),
+  .award-seal:nth-child(4) .award-seal__layer {
+    animation-delay: 640ms;
+  }
 }
 
 /* Seal captions on the hero background (contrastCaptions): the text is a
