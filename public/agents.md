@@ -80,6 +80,8 @@ The following summaries reflect how these references and awards are described on
 
 ### Awards & Recognition
 
+- **AI of the Year 2026 (UI leta 2026):** Awarded to RIKO at the CIO leta event for RikoAI, an AgenticAI solution built by Sunesis on the KumuluzAI platform.
+- **GoDigital 2026 finalist:** The SI-GEOS AI agent, developed by Sunesis with SURS and UM FERI, is one of three finalists for the best digital project of the year, presented by ZIT at GZS and SRIP GoDigital.
 - **European Commission Seal of Excellence:** Awarded by the European Commission for high-quality project proposals evaluated under EU research and innovation framework programmes.
 - **Java Duke's Choice Award:** Awarded to KumuluzEE by Oracle at the JavaOne conference in San Francisco for innovative Java microservice technology.
 - **EuroCloud Award:** Awarded for the most innovative cloud service for the Kumuluz product family.
