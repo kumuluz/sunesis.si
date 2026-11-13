@@ -1,7 +1,8 @@
-import { Award, Star, Trophy } from 'lucide-react'
+import { Award, BadgeCheck, Star, Trophy } from 'lucide-react'
 
 const AWARD_ICONS = {
   medal: Award,
+  seal: BadgeCheck,
   star: Star,
   trophy: Trophy,
 } as const
@@ -24,6 +25,7 @@ type AwardSealItem = {
 }
 
 type AwardSealsProps = {
+  /** Grid columns and width of the list, e.g. `grid-cols-2 sm:grid-cols-4`. */
   className?: string
   /**
    * Where the seals sit on the hero background, the title and product become
@@ -51,13 +53,13 @@ export function AwardSeals({
   return (
     <ul
       aria-label={label}
-      className={`award-seals grid w-full max-w-[27.5rem] grid-cols-3 gap-3 sm:gap-4 ${
+      className={`award-seals grid w-full gap-x-3 gap-y-6 sm:gap-x-4 ${
         className ?? ''
       }`}
     >
       {items.map((item, index) => (
         <li
-          className="award-seal flex flex-col items-center text-center"
+          className="award-seal mx-auto flex w-full max-w-[8.5rem] flex-col items-center text-center"
           key={item.title}
         >
           <AwardSealGraphic icon={item.icon} />
