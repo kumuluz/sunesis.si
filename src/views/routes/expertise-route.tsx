@@ -15,6 +15,7 @@ const components: Record<
   ComponentType<{ page: ExpertisePageContent; language: LanguageCode }>
 > = {
   'agentic-ai': AgenticAiPage,
+  'agentic-organizations': AgenticAiPage,
   'digital-solutions': DigitalSolutionsPage,
   'cloud-native-edge': CloudNativeEdgePage,
   'api-ecosystems-integrations': ApiEcosystemsIntegrationsPage,

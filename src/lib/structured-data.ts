@@ -80,6 +80,10 @@ const sectionLabel: Record<
 
 const expertiseLabel: Record<ExpertiseSlug, Record<LanguageCode, string>> = {
   'agentic-ai': { en: 'AgenticAI Solutions', sl: 'AgenticAI rešitve' },
+  'agentic-organizations': {
+    en: 'AgenticAI Organizations & Digital Workers',
+    sl: 'AgenticAI organizacije in digitalni delavci',
+  },
   'digital-solutions': {
     en: 'Digital Solutions Development',
     sl: 'Razvoj digitalnih rešitev',
@@ -171,6 +175,8 @@ export function breadcrumbSchema(language: LanguageCode, route: Route) {
 
 const serviceType: Record<ExpertiseSlug, string> = {
   'agentic-ai': 'Enterprise AgenticAI solutions',
+  'agentic-organizations':
+    'AgenticAI organizations and digital worker development',
   'digital-solutions': 'Enterprise digital solutions development',
   'cloud-native-edge': 'Cloud-native and edge architecture',
   'api-ecosystems-integrations': 'API ecosystems and integrations',

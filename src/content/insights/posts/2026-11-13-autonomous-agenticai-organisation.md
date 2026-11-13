@@ -46,3 +46,7 @@ In practice, the transition to fully autonomous digital workers is gradual. At S
 - For the **Statistical Office of the Republic of Slovenia (SURS)**, in collaboration with the University of Maribor's Faculty of Electrical Engineering and Computer Science (UM FERI), we designed **SI-GEOS**, a multimodal agent that connects statistical and geospatial sources through MCP to produce automated analyses. The project was shortlisted for the GoDigital 2026 award.
 
 Experience from these environments confirms that introducing autonomous agents and digital workers is no longer simply a matter of choosing the best language model. Well-designed back-end integrations and a reliable layer for monitoring, measuring performance and continuously improving production operation are becoming essential. Only when an organisation can clearly see what its agents are doing, why they made particular decisions, what results they achieve collectively and where they must stop for human judgement can it safely entrust them with day-to-day operations.
+
+## From design to delivery
+
+Our [AgenticAI Organizations & Digital Workers](/en/expertise/agentic-organizations/) offering explains how we select a first process together, define digital roles and autonomy boundaries, and expand delivery based on measurable outcomes — from an individual digital worker to connected operations across an organisation.

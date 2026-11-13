@@ -31,6 +31,7 @@ export function LandingPage({ content, language }: LandingPageProps) {
       />
       <AgenticOperationsSection
         content={content.landingPageSections.agenticOperations}
+        language={language}
       />
       <KumuluzSection content={content.landingPageSections.kumuluz} />
       <SelectedWorkSection content={content.landingPageSections.selectedWork} />

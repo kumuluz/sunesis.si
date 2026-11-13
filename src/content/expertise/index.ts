@@ -4,6 +4,7 @@ import type {
   ExpertiseSlug,
 } from '../../views/expertise/types'
 import { agenticAiPage } from './agentic-ai'
+import { agenticOrganizationsPage } from './agentic-organizations'
 import { apiEcosystemsIntegrationsPage } from './api-ecosystems-integrations'
 import { cloudNativeEdgePage } from './cloud-native-edge'
 import { devOpsPlatformEngineeringPage } from './devops-platform-engineering'
@@ -14,6 +15,7 @@ export const expertisePages: Record<
   Record<LanguageCode, ExpertisePageContent>
 > = {
   'agentic-ai': agenticAiPage,
+  'agentic-organizations': agenticOrganizationsPage,
   'digital-solutions': digitalSolutionsPage,
   'cloud-native-edge': cloudNativeEdgePage,
   'api-ecosystems-integrations': apiEcosystemsIntegrationsPage,

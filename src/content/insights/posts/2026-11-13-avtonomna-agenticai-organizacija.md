@@ -46,3 +46,7 @@ Prehod k popolnoma avtonomnim digitalnim delavcem je v praksi postopen, zato v p
 - Za **Statistični urad RS (SURS)** pa smo v sodelovanju z UM FERI zasnovali večmodalnega agenta **SI-GEOS**, ki prek protokola MCP povezuje statistične in geoprostorske vire v samodejne analize in se je uvrstil med finaliste za nagrado GoDigital 2026.
 
 Izkušnje iz teh okolij potrjujejo, da vpeljava avtonomnih agentov in digitalnih delavcev ni več vprašanje izbire najboljšega jezikovnega modela. Ključna postajata kakovostna zasnova zalednih povezav ter zanesljiva plast za spremljanje, merjenje učinkovitosti in nenehno izboljševanje delovanja v produkciji. Šele ko organizacija jasno vidi, kaj agenti počnejo, zakaj so se tako odločili, kakšne rezultate dosegajo kot celota in kje se morajo ustaviti pred človeško presojo, jim lahko varno prepusti tudi vsakodnevno operativno poslovanje.
+
+## Od zasnove do uvedbe
+
+V ponudbi [AgenticAI organizacije in digitalni delavci](/sl/expertise/agentic-organizations/) predstavljamo, kako skupaj izberemo prvi proces, določimo digitalne vloge in meje avtonomije ter uvedbo širimo na podlagi merljivih rezultatov — od posameznega digitalnega delavca do povezanega operativnega poslovanja organizacije.

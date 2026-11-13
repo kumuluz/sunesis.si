@@ -16,6 +16,7 @@ function getMarkdownAlternate(
   if (route.name === 'expertise') {
     switch (route.slug) {
       case 'agentic-ai':
+      case 'agentic-organizations':
         return `${SITE_ORIGIN}/ai/agentic-ai.md`
       case 'cloud-native-edge':
         return `${SITE_ORIGIN}/ai/cloud-native.md`

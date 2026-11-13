@@ -17,6 +17,7 @@ Sunesis designs, builds, integrates, and operates secure, scalable, and business
 
 ## Core Capabilities (Web Pages)
 - [Enterprise AgenticAI](https://sunesis.si/en/expertise/agentic-ai/): Governed AI agents, assistants, tool use, and enterprise orchestration on KumuluzAI.
+- [AgenticAI Organizations & Digital Workers](https://sunesis.si/en/expertise/agentic-organizations/): A dedicated service for proactive digital roles, coordinated teams and autonomous operations with human oversight, exception handling and measurable process improvement.
 - [Digital Solutions Development](https://sunesis.si/en/expertise/digital-solutions/): End-to-end custom enterprise applications, portals, and system integrations.
 - [API Ecosystems & Integrations](https://sunesis.si/en/expertise/api-ecosystems-integrations/): Strategic API governance, Kumuluz API, and partner integration architectures.
 - [Cloud-native & Edge Architectures](https://sunesis.si/en/expertise/cloud-native-edge/): Kubernetes, OpenShift, microservices, and edge computing.

@@ -5,11 +5,13 @@ import { type CompanySlug } from '../views/company/types'
 
 const slugByLabel: Record<string, ExpertiseSlug> = {
   'AgenticAI Solutions': 'agentic-ai',
+  'AgenticAI Organizations & Digital Workers': 'agentic-organizations',
   'Digital Solutions Development': 'digital-solutions',
   'Cloud-native & Edge Architectures': 'cloud-native-edge',
   'API Ecosystems & Integrations': 'api-ecosystems-integrations',
   'DevOps & Platform Engineering': 'devops-platform-engineering',
   'AgenticAI rešitve': 'agentic-ai',
+  'AgenticAI organizacije in digitalni delavci': 'agentic-organizations',
   'Razvoj digitalnih rešitev': 'digital-solutions',
   'Cloud-native in edge arhitekture': 'cloud-native-edge',
   'API ekosistemi in integracije': 'api-ecosystems-integrations',
@@ -93,6 +95,14 @@ const footerLinkGroups: {
   {
     labels: ['AgenticAI Solutions', 'AgenticAI rešitve'],
     href: (l) => buildPath(l, { name: 'expertise', slug: 'agentic-ai' }),
+  },
+  {
+    labels: [
+      'AgenticAI Organizations & Digital Workers',
+      'AgenticAI organizacije in digitalni delavci',
+    ],
+    href: (l) =>
+      buildPath(l, { name: 'expertise', slug: 'agentic-organizations' }),
   },
   {
     labels: ['Digital Solutions Development', 'Razvoj digitalnih rešitev'],

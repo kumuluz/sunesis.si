@@ -44,7 +44,9 @@ export function HeaderDropdown({
       ? 'lg:grid-cols-[repeat(3,minmax(0,14rem))]'
       : links.length === 4
         ? 'lg:grid-cols-2 xl:grid-cols-[repeat(4,minmax(0,14rem))]'
-        : 'lg:grid-cols-3 xl:grid-cols-[repeat(5,minmax(0,14rem))]'
+        : links.length === 5
+          ? 'lg:grid-cols-3 xl:grid-cols-[repeat(5,minmax(0,14rem))]'
+          : 'lg:grid-cols-[repeat(3,minmax(0,14rem))]'
 
   return (
     <AnimatePresence>

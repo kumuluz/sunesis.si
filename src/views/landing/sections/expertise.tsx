@@ -4,13 +4,14 @@ import {
   Code2,
   GitBranch,
   Network,
-  Sparkles,
+  Workflow,
+  type LucideIcon,
 } from 'lucide-react'
 import type { LandingContent } from '../../../content/landing/landing'
 import { CardB } from '../../../components/cards/card-b'
 import { RevealGroup } from '../../../components/motion'
 import { buildPath, type LanguageCode } from '../../../lib/router'
-import { EXPERTISE_SLUGS } from '../../expertise/types'
+import type { ExpertiseSlug } from '../../expertise/types'
 import { SectionHeader } from './section-header'
 
 type ExpertiseSectionProps = {
@@ -18,7 +19,14 @@ type ExpertiseSectionProps = {
   language: LanguageCode
 }
 
-const expertiseIcons = [Bot, Code2, CloudCog, Network, GitBranch]
+const expertiseIcons: Record<ExpertiseSlug, LucideIcon> = {
+  'agentic-ai': Bot,
+  'agentic-organizations': Workflow,
+  'digital-solutions': Code2,
+  'cloud-native-edge': CloudCog,
+  'api-ecosystems-integrations': Network,
+  'devops-platform-engineering': GitBranch,
+}
 
 export function ExpertiseSection({ content, language }: ExpertiseSectionProps) {
   return (
@@ -26,12 +34,12 @@ export function ExpertiseSection({ content, language }: ExpertiseSectionProps) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeader intro={content.intro} title={content.title} />
         <RevealGroup className="mt-12 flex flex-wrap gap-5">
-          {content.items.map((item, index) => {
-            const Icon = expertiseIcons[index] ?? Sparkles
-            const slug = EXPERTISE_SLUGS[index]
-            const href = slug
-              ? buildPath(language, { name: 'expertise', slug })
-              : '#'
+          {content.items.map((item) => {
+            const Icon = expertiseIcons[item.slug]
+            const href = buildPath(language, {
+              name: 'expertise',
+              slug: item.slug,
+            })
 
             return (
               <CardB
@@ -39,7 +47,7 @@ export function ExpertiseSection({ content, language }: ExpertiseSectionProps) {
                 cta={item.cta}
                 href={href}
                 icon={Icon}
-                key={item.title}
+                key={item.slug}
                 text={item.text}
                 title={item.title}
               />

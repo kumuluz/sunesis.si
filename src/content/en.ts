@@ -3,7 +3,7 @@ export const enContent = {
     title:
       'Sunesis | Enterprise AgenticAI, Digital Platforms, APIs and Cloud-native Engineering',
     description:
-      'Sunesis helps organizations build enterprise AgenticAI solutions, digital agent teams, API ecosystems, cloud-native platforms, Business APIs, workflows, integrations and DevOps foundations.',
+      'Sunesis builds AgenticAI solutions, digital workers and autonomous organizations, digital platforms, microservices, API integrations and cloud-native and DevOps foundations.',
   },
   nav: {
     closeMenu: 'Close menu',
@@ -23,6 +23,11 @@ export const enContent = {
                 label: 'AgenticAI Solutions',
                 description:
                   'Enterprise AI agents and assistants wired into your knowledge, APIs, tools and workflows.',
+              },
+              {
+                label: 'AgenticAI Organizations & Digital Workers',
+                description:
+                  'Digital workers and coordinated teams that proactively run processes and operations under human oversight.',
               },
               {
                 label: 'Digital Solutions Development',
@@ -123,6 +128,7 @@ export const enContent = {
         title: 'Solutions',
         links: [
           'AgenticAI Solutions',
+          'AgenticAI Organizations & Digital Workers',
           'Digital Solutions Development',
           'Cloud-native & Edge Architectures',
           'API Ecosystems & Integrations',

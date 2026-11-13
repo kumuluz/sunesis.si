@@ -2,6 +2,7 @@ import type { LucideIcon } from 'lucide-react'
 
 export const EXPERTISE_SLUGS = [
   'agentic-ai',
+  'agentic-organizations',
   'digital-solutions',
   'cloud-native-edge',
   'api-ecosystems-integrations',

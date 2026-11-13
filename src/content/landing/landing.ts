@@ -5,7 +5,7 @@ const enLanding = {
     eyebrow: 'Award-winning software solutions',
     title:
       'Enterprise AgenticAI, digital platforms and cloud-native engineering',
-    body: 'Sunesis helps organizations design, build, integrate and operate secure, scalable and business-critical software platforms, from AgenticAI solutions and digital agent teams to API ecosystems, digital platforms, cloud-native architectures, workflow automation and DevOps foundations. We help enterprises move beyond isolated AI assistants by building governed AI agents that safely use knowledge, APIs, tools and workflows to automate complete business processes.',
+    body: 'We build secure, reliable digital solutions, microservices, cloud-native platforms and API integrations. With AgenticAI, we also develop digital workers and coordinated agent teams that automate complete processes — through to autonomous department and organization operations under human oversight.',
     primaryCta: 'Talk to our experts',
     secondaryCta: 'Explore our expertise',
     trustLine: 'Trusted by',
@@ -40,7 +40,7 @@ const enLanding = {
     title:
       'Senior delivery teams for complex digital initiatives and production platforms',
     cards: [
-      'Build enterprise AI assistants, agents and automation workflows',
+      'Build AI solutions, digital workers and AgenticAI organizations',
       'Modernize digital products with cloud-native platform foundations',
       'Connect systems, data and business processes through APIs',
       'Operate secure, scalable software with DevOps and platform engineering',
@@ -63,17 +63,29 @@ const enLanding = {
         'We focus on the areas where deep technical expertise, enterprise experience and reliable delivery matter most.',
       items: [
         {
+          slug: 'agentic-ai',
           title: 'AgenticAI Solutions',
-          text: 'Enterprise-grade AI agents and assistants connected with knowledge, APIs, tools, workflows and business systems, from individual assistants to digital agent teams.',
+          text: 'Enterprise AI applications and platforms connected with knowledge, APIs, tools and business systems, from assistants to multi-agent solutions.',
           capabilities: [
-            'Digital agent teams and agentic operating models',
-            'End-to-end workflow automation with AI agents',
-            'AI-native departments and operational functions',
-            'RAG, governance, human approvals and audit trails',
+            'AI assistants, agents and multi-agent applications',
+            'RAG, tool use and enterprise integrations',
+            'Governance, human approvals and audit trails',
           ],
           cta: 'Explore AgenticAI Solutions',
         },
         {
+          slug: 'agentic-organizations',
+          title: 'AgenticAI Organizations & Digital Workers',
+          text: 'Digital workers and coordinated agent teams that proactively carry out operational work, from a single business role to an entire organization within agreed autonomy boundaries.',
+          capabilities: [
+            'Digital workers and coordinated agent teams',
+            'Process, department and organization automation',
+            'Oversight, exception handling and performance measurement',
+          ],
+          cta: 'Explore AgenticAI Organizations',
+        },
+        {
+          slug: 'digital-solutions',
           title: 'Digital Solutions Development',
           text: 'Complete digital solutions from backend systems and integrations to web, mobile and user-facing applications.',
           capabilities: [
@@ -84,6 +96,7 @@ const enLanding = {
           cta: 'Explore Digital Solutions',
         },
         {
+          slug: 'cloud-native-edge',
           title: 'Cloud-native & Edge Architectures',
           text: 'Modern architectures connecting cloud, on-premise, Kubernetes, APIs, events, identity, security and observability.',
           capabilities: [
@@ -94,6 +107,7 @@ const enLanding = {
           cta: 'Explore Cloud-native & Edge',
         },
         {
+          slug: 'api-ecosystems-integrations',
           title: 'API Ecosystems & Integrations',
           text: 'API ecosystems that connect applications, partners, business systems, workflows and AI agents.',
           capabilities: [
@@ -104,6 +118,7 @@ const enLanding = {
           cta: 'Explore API Ecosystems',
         },
         {
+          slug: 'devops-platform-engineering',
           title: 'DevOps & Platform Engineering',
           text: 'Secure, automated and production-ready foundations for software delivery and platform operations.',
           capabilities: [
@@ -116,21 +131,24 @@ const enLanding = {
       ],
     },
     agenticOperations: {
-      title: 'From AI agents to autonomous departments and companies',
+      title: 'From a digital worker to an autonomous AgenticAI organization',
       intro:
-        'We build digital agent teams that autonomously run complete processes, department operations and, where appropriate, company-wide operations. They work within defined rules and permissions, handing exceptions and decisions requiring human judgment to people. Business-level oversight monitors the quality of their work, while continuous-improvement mechanisms help optimize agents and processes.',
+        'We build digital workers that respond to events, schedules and requests, proactively carrying out work in the background. Start with one role, connect a team or redesign organization-wide operations where appropriate. People set goals, supervise outcomes and handle exceptions and required approvals.',
+      primaryCta: 'Explore AgenticAI Organizations',
+      secondaryCta: 'Read our approach in practice',
+      articleSlug: 'autonomous-agenticai-organisation',
       cards: [
         {
-          title: 'AI assistants',
-          text: 'Help users find information, understand procedures and complete simple tasks.',
+          title: 'Digital worker',
+          text: 'Takes on a defined business role, monitors events, performs approved actions and follows work through to completion.',
         },
         {
-          title: 'AI agents',
-          text: 'Use tools, APIs, knowledge and workflows to support multi-step business processes.',
+          title: 'Agent team',
+          text: 'Coordinates specialized roles and runs a complete process, sharing context and handing exceptions to the right person.',
         },
         {
-          title: 'Agentic operating models',
-          text: 'Digital agent teams autonomously execute connected business processes, supported by business-level oversight, anomaly detection and continuous improvement. People retain oversight and accountability.',
+          title: 'AgenticAI organization',
+          text: 'Connects processes and departments into a governed operating model with business-level oversight, measurable outcomes and continuous improvement.',
         },
       ],
     },
@@ -275,7 +293,7 @@ const enLanding = {
     },
     finalCta: {
       title: 'Get in touch',
-      text: 'Whether you are exploring AgenticAI, building digital agent teams, redesigning workflows around agentic operating models, modernizing enterprise software, strengthening your API ecosystem or improving your DevOps foundations, we would love to hear from you.',
+      text: 'Whether you are building AgenticAI solutions, introducing digital workers and autonomous operations, modernizing enterprise software, strengthening your API ecosystem or improving DevOps foundations, we would love to hear from you.',
       contact: {
         address: [
           'SUNESIS d.o.o.',
@@ -313,7 +331,7 @@ const slLanding = {
   hero: {
     eyebrow: 'Nagrajene programske rešitve',
     title: 'Enterprise AgenticAI, digitalne platforme in cloud-native razvoj',
-    body: 'Sunesis organizacijam pomaga načrtovati, razvijati, integrirati in upravljati varne, skalabilne ter poslovno kritične programske platforme, od AgenticAI rešitev in digitalnih agentnih ekip do API ekosistemov, digitalnih platform, cloud-native arhitektur, avtomatizacije workflowov in DevOps temeljev. Podjetjem pomagamo preseči izolirane AI asistente z gradnjo upravljanih AI agentov, ki varno uporabljajo znanje, API-je, orodja in workflowe za avtomatizacijo celovitih poslovnih procesov.',
+    body: 'Razvijamo varne in zanesljive digitalne rešitve, mikrostoritve, cloud-native platforme in API integracije. Z AgenticAI gradimo tudi digitalne delavce in povezane agentne ekipe za avtomatizacijo celotnih procesov — vse do avtonomnega operativnega delovanja oddelkov in organizacij pod človeškim nadzorom.',
     primaryCta: 'Pogovorite se z našimi strokovnjaki',
     secondaryCta: 'Raziščite naše ekspertize',
     trustLine: 'Zaupajo nam',
@@ -348,7 +366,7 @@ const slLanding = {
     title:
       'Senior razvojne ekipe za kompleksne digitalne pobude in produkcijske platforme',
     cards: [
-      'Gradite enterprise AI asistente, AI agente in avtomatizirane workflowe',
+      'Gradite AI rešitve, digitalne delavce in AgenticAI organizacije',
       'Posodobite digitalne produkte s cloud-native platformnimi temelji',
       'Povežite sisteme, podatke in poslovne procese prek API-jev',
       'Upravljajte varno in skalabilno programsko opremo z DevOps in platformnim inženiringom',
@@ -371,17 +389,29 @@ const slLanding = {
         'Osredotočamo se na področja, kjer so najpomembnejši globoko tehnično znanje, enterprise izkušnje in zanesljiva izvedba.',
       items: [
         {
+          slug: 'agentic-ai',
           title: 'AgenticAI rešitve',
-          text: 'Enterprise AI agenti in asistenti, povezani z znanjem, API-ji, orodji, workflowi in poslovnimi sistemi, od posameznih asistentov do digitalnih agentnih ekip.',
+          text: 'Poslovne AI aplikacije in platforme, povezane z znanjem, API-ji, orodji in poslovnimi sistemi, od asistentov do večagentnih rešitev.',
           capabilities: [
-            'Digitalne agentne ekipe in agentni operativni modeli',
-            'Celovita avtomatizacija workflowov z AI agenti',
-            'AI-native oddelki in operativne funkcije',
-            'RAG, governance, human-in-the-loop odobritve in revizijske sledi',
+            'AI asistenti, agenti in večagentne aplikacije',
+            'RAG, uporaba orodij in poslovne integracije',
+            'Upravljanje, človeške odobritve in revizijske sledi',
           ],
           cta: 'Raziščite AgenticAI rešitve',
         },
         {
+          slug: 'agentic-organizations',
+          title: 'AgenticAI organizacije in digitalni delavci',
+          text: 'Digitalni delavci in povezane agentne ekipe, ki proaktivno izvajajo operativno delo, od posamezne poslovne vloge do celotne organizacije znotraj dogovorjenih meja avtonomije.',
+          capabilities: [
+            'Digitalni delavci in usklajene agentne ekipe',
+            'Avtomatizacija procesov, oddelkov in organizacij',
+            'Nadzor, obravnava izjem in merjenje učinkovitosti',
+          ],
+          cta: 'Raziščite AgenticAI organizacije',
+        },
+        {
+          slug: 'digital-solutions',
           title: 'Razvoj digitalnih rešitev',
           text: 'Celovite digitalne rešitve od zalednih sistemov in integracij do spletnih, mobilnih in uporabniških aplikacij.',
           capabilities: [
@@ -392,6 +422,7 @@ const slLanding = {
           cta: 'Raziščite digitalne rešitve',
         },
         {
+          slug: 'cloud-native-edge',
           title: 'Cloud-native in edge arhitekture',
           text: 'Sodobne arhitekture, ki povezujejo oblak, lokalna okolja, Kubernetes, API-je, dogodke, identiteto, varnost in opazljivost sistemov.',
           capabilities: [
@@ -402,6 +433,7 @@ const slLanding = {
           cta: 'Raziščite cloud-native in edge',
         },
         {
+          slug: 'api-ecosystems-integrations',
           title: 'API ekosistemi in integracije',
           text: 'API ekosistemi, ki povezujejo aplikacije, partnerje, poslovne sisteme, workflowe in AI agente.',
           capabilities: [
@@ -412,6 +444,7 @@ const slLanding = {
           cta: 'Raziščite API ekosisteme',
         },
         {
+          slug: 'devops-platform-engineering',
           title: 'DevOps in platformni inženiring',
           text: 'Varni, avtomatizirani in produkcijsko pripravljeni temelji za razvoj, dostavo ter obratovanje platform.',
           capabilities: [
@@ -424,21 +457,24 @@ const slLanding = {
       ],
     },
     agenticOperations: {
-      title: 'Od AI agentov do avtonomnih oddelkov in podjetij',
+      title: 'Od digitalnega delavca do avtonomne AgenticAI organizacije',
       intro:
-        'Razvijamo digitalne agentne ekipe za avtonomno izvajanje celotnih procesov, dela oddelkov in, kjer je to primerno, operativnega poslovanja podjetja. Delujejo znotraj določenih pravil in pooblastil, ljudem pa predajajo izjeme in odločitve, ki zahtevajo njihovo presojo. Vsebinski nadzor spremlja pravilnost dela, mehanizmi nenehnih izboljšav pa omogočajo optimizacijo agentov in procesov.',
+        'Razvijamo digitalne delavce, ki se odzivajo na dogodke, urnike in zahteve ter proaktivno opravljajo delo v ozadju. Začnemo z eno vlogo, povežemo ekipo ali, kjer je to primerno, preoblikujemo poslovanje celotne organizacije. Ljudje določajo cilje, nadzirajo rezultate ter obravnavajo izjeme in zahtevane odobritve.',
+      primaryCta: 'Raziščite AgenticAI organizacije',
+      secondaryCta: 'Preberite o našem pristopu v praksi',
+      articleSlug: 'avtonomna-agenticai-organizacija',
       cards: [
         {
-          title: 'AI asistenti',
-          text: 'Uporabnikom pomagajo najti informacije, razumeti postopke in opraviti preproste naloge.',
+          title: 'Digitalni delavec',
+          text: 'Prevzame določeno poslovno vlogo, spremlja dogodke, izvaja dovoljena dejanja in skrbi za zaključek dela.',
         },
         {
-          title: 'AI agenti',
-          text: 'Uporabljajo orodja, API-je, znanje in workflowe za podporo večkoračnim poslovnim procesom.',
+          title: 'Agentna ekipa',
+          text: 'Usklajuje specializirane vloge in izvaja celoten proces, pri tem deli kontekst in izjeme preda pravi osebi.',
         },
         {
-          title: 'Agentni operativni modeli',
-          text: 'Digitalne agentne ekipe samostojno izvajajo povezane poslovne procese, ob vsebinskem nadzoru, zaznavanju anomalij in nenehnem izboljševanju delovanja. Ljudje ohranijo nadzor in odgovornost.',
+          title: 'AgenticAI organizacija',
+          text: 'Povezuje procese in oddelke v nadzorovano operativno celoto z vsebinskim nadzorom, merljivimi rezultati in nenehnim izboljševanjem.',
         },
       ],
     },
@@ -584,7 +620,7 @@ const slLanding = {
     },
     finalCta: {
       title: 'Stopite v stik',
-      text: 'Če raziskujete AgenticAI, gradite digitalne agentne ekipe, preoblikujete workflowe okoli agentnih operativnih modelov, posodabljate enterprise programsko opremo, krepite API ekosistem ali izboljšujete DevOps temelje, se veselimo vašega sporočila.',
+      text: 'Če gradite AgenticAI rešitve, uvajate digitalne delavce in avtonomno poslovanje, posodabljate poslovno programsko opremo, krepite API ekosistem ali izboljšujete DevOps temelje, se veselimo vašega sporočila.',
       contact: {
         address: [
           'SUNESIS d.o.o.',

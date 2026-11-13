@@ -89,7 +89,7 @@ Automated verification is built into the production build pipeline:
    npm run verify:ai
    ```
 
-   Or run all test suites:
+   Or run all test suites after building (including exported expertise pages and their links):
 
    ```bash
    npm test
@@ -150,11 +150,13 @@ A card thumbnail is assigned automatically from [src/components/thumbnails/](src
 The App Router pages under [app/](app/) are thin wrappers; page content and layout live in [src/views/](src/views/). Top-level routes:
 
 - `/[lang]/` — landing page
-- `/[lang]/expertise/[slug]/` — expertise areas (AgenticAI, cloud-native & edge, API ecosystems, DevOps & platform engineering, digital solutions)
+- `/[lang]/expertise/[slug]/` — expertise areas (AgenticAI solutions, AgenticAI organizations & digital workers, cloud-native & edge, API ecosystems, DevOps & platform engineering, digital solutions)
 - `/[lang]/references/[slug]/` — references (selected work, clients & industries, research & innovation, open source)
 - `/[lang]/company/[slug]/` — company (about, awards, careers)
 
 Kumuluz is linked as an external product site at `https://kumuluz.com`, not as a local page.
+
+The `agentic-organizations` expertise page presents digital workers and autonomous operating models in both languages, separately from the `agentic-ai` application and platform offering. It reuses the AgenticAI section renderer. Homepage expertise cards carry explicit slugs, so their links and icons do not depend on display order.
 
 ## Project structure
 

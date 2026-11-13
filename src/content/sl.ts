@@ -3,7 +3,7 @@ export const slContent = {
     title:
       'Sunesis | AgenticAI, digitalne platforme, API ekosistemi in cloud-native razvoj',
     description:
-      'Sunesis načrtuje in razvija enterprise AgenticAI rešitve, digitalne agentne ekipe, API ekosisteme, cloud-native digitalne platforme, Business API-je, workflowe, integracije in DevOps temelje.',
+      'Sunesis razvija AgenticAI rešitve, digitalne delavce in avtonomne organizacije, digitalne platforme, mikrostoritve, API integracije ter cloud-native in DevOps temelje.',
   },
   nav: {
     closeMenu: 'Zapri meni',
@@ -23,6 +23,11 @@ export const slContent = {
                 label: 'AgenticAI rešitve',
                 description:
                   'Enterprise AI agenti in asistenti, povezani z znanjem, API-ji, orodji in workflowi.',
+              },
+              {
+                label: 'AgenticAI organizacije in digitalni delavci',
+                description:
+                  'Digitalni delavci in povezane ekipe za proaktivno izvajanje procesov in poslovanja pod človeškim nadzorom.',
               },
               {
                 label: 'Razvoj digitalnih rešitev',
@@ -123,6 +128,7 @@ export const slContent = {
         title: 'Storitve',
         links: [
           'AgenticAI rešitve',
+          'AgenticAI organizacije in digitalni delavci',
           'Razvoj digitalnih rešitev',
           'Cloud-native in edge arhitekture',
           'API ekosistemi in integracije',

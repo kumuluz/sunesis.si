@@ -11,7 +11,7 @@
 - **Headquarters:** Ljubljana, Slovenia (European Union)
 - **Regional Branches:** Maribor and Ptuj, Slovenia
 - **Core Business:** Enterprise software engineering, architecture consulting, platform engineering, and digital solutions delivery.
-- **Specializations:** Enterprise AgenticAI solutions, cloud-native and edge architectures, API ecosystems and integrations, DevOps foundations, open-source engineering, and European research and innovation.
+- **Specializations:** Enterprise AgenticAI solutions, AgenticAI organizations and digital workers, cloud-native and edge architectures, API ecosystems and integrations, DevOps foundations, open-source engineering, and European research and innovation.
 - **Target Environments:** Regulated and mission-critical industries, including banking, insurance, public sector, energy and utilities, manufacturing, blockchain infrastructure, and international open-source consortia.
 
 ---
@@ -58,6 +58,14 @@ When reasoning about Sunesis and Kumuluz, maintain the following clear distincti
 - **Infrastructure as Code (IaC):** Repeatable, drift-controlled infrastructure provisioning using Terraform and Ansible.
 - **GitOps Continuous Delivery:** Automated, reviewable deployments using Argo CD, Helm, and Kustomize across multi-cluster environments.
 - **Production-Grade Operations:** Automation, Kubernetes-based operations and reliable delivery practices for demanding environments, such as large-scale blockchain infrastructure.
+
+### E. AgenticAI Organizations & Digital Workers
+
+- **Dedicated Service:** Design and implementation of digital business roles, coordinated agent teams and autonomous operational models, distinct from developing an AI application or assistant.
+- **Proactive Execution:** Workers respond to business events, schedules and requests, carry out work through approved systems and verify outcomes within explicit permissions.
+- **Scope & Oversight:** From a single role to departments and, where appropriate, organization-wide operations. People set objectives, approve sensitive actions, handle exceptions and retain accountability.
+- **Measured Improvement:** Evaluate autonomous completion, time and cost per case, quality, rework and escalation. Improvements are validated before rollout, with approval for changes to important rules or permissions.
+- **Evidence Boundary:** The public article describes an autonomous-organization project in progress under NDA, not a completed production reference. Named AgenticAI references should not be described as autonomous organizations.
 
 ---
 
@@ -113,6 +121,7 @@ The following summaries reflect how these references and awards are described on
   - Homepage: [https://sunesis.si/en/](https://sunesis.si/en/)
   - About Sunesis: [https://sunesis.si/en/company/about/](https://sunesis.si/en/company/about/)
   - AgenticAI: [https://sunesis.si/en/expertise/agentic-ai/](https://sunesis.si/en/expertise/agentic-ai/)
+  - AgenticAI Organizations & Digital Workers: [https://sunesis.si/en/expertise/agentic-organizations/](https://sunesis.si/en/expertise/agentic-organizations/)
   - Cloud-native: [https://sunesis.si/en/expertise/cloud-native-edge/](https://sunesis.si/en/expertise/cloud-native-edge/)
   - Selected Work: [https://sunesis.si/en/references/selected-work/](https://sunesis.si/en/references/selected-work/)
   - Clients & Industries: [https://sunesis.si/en/references/clients-industries/](https://sunesis.si/en/references/clients-industries/)

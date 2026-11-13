@@ -3,6 +3,7 @@
 > **Canonical HTML Sources:**
 >
 > - Expertise: [https://sunesis.si/en/expertise/agentic-ai/](https://sunesis.si/en/expertise/agentic-ai/)
+> - Organizations & Digital Workers: [https://sunesis.si/en/expertise/agentic-organizations/](https://sunesis.si/en/expertise/agentic-organizations/)
 > - Homepage: [https://sunesis.si/en/](https://sunesis.si/en/)
 > - KumuluzAI: [https://kumuluz.com/](https://kumuluz.com/)
 >
@@ -25,6 +26,16 @@ While simple AI chat interfaces provide conversational answers, **Enterprise Age
 5. Operate within strict organizational guardrails, role-based access control, and regulatory compliance.
 
 Sunesis delivers production-ready AgenticAI systems by combining deep enterprise backend engineering, API integration, and cloud-native architecture with modern agent frameworks and governance layers.
+
+### AgenticAI Organizations & Digital Workers
+
+Sunesis also offers a dedicated service for designing and implementing digital business roles and connected operational models. Unlike an assistant waiting for a conversation, a digital worker responds to events, schedules and requests, uses approved tools and follows a case through to a verified outcome.
+
+The scope ranges from one digital worker to coordinated teams, departments and, where the nature of the business allows, organization-wide operations. Delivery includes process and role design, enterprise integration, autonomy boundaries, business-level supervision, exception handling and controlled improvement. People retain goal-setting, required approvals, oversight and accountability.
+
+Success is measured through end-to-end autonomous completion, escalation rates, time and cost per completed case, outcome quality and rework. These are evaluation criteria, not guaranteed savings. KumuluzAI is the platform foundation; Sunesis is the engineering and delivery partner. Cloud-native engineering, microservices, APIs and DevOps remain independent services as well as foundations for autonomous operations.
+
+Sunesis's [public article on autonomous AgenticAI organizations](https://sunesis.si/en/insights/autonomous-agenticai-organisation/) describes participation in an ongoing project. Customer and industry details are not disclosed under NDA. This must not be described as a completed production deployment or attributed to the named references below.
 
 ---
 

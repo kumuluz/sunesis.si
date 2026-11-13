@@ -22,9 +22,8 @@ const en: ExpertisePageContent = {
   hero: {
     type: 'hero',
     eyebrow: 'AgenticAI Solutions',
-    title: 'Move from AI experiments to governed agentic operations',
+    title: 'Build AI agents and applications connected to your business',
     body: [
-      'From individual tasks to autonomous departments and companies. Sunesis builds digital agent teams that independently execute connected business processes, from the initial request to the final outcome. Where the nature of the business allows, they can run company-wide operations within defined rules and permissions; people step in for exceptions and matters requiring their judgment, attention or approval.',
       'Sunesis designs and builds enterprise-grade AgenticAI solutions that go beyond conversation — helping organizations automate complete workflows, support employees and customers, connect enterprise knowledge with business systems and operate AI safely in production.',
       'Our AgenticAI solutions combine AI agents, enterprise AI assistants, digital agent teams, RAG, tool use, APIs, Business APIs, deterministic workflows, human approvals, auditability and production-grade governance.',
       'Most projects are accelerated by KumuluzAI, our governed AgenticAI platform for secure, integrated and production-ready AI agents, assistants and agentic process automation.',
@@ -42,7 +41,6 @@ const en: ExpertisePageContent = {
         'Many organizations start their AI journey with chatbots, document search or isolated assistants. These can be useful, but they often become disconnected initiatives — each with its own model, prompts, knowledge base, integrations, permissions, monitoring, cost structure and compliance risks.',
         'Sunesis helps enterprises take the next step: building AgenticAI solutions that are integrated into real business processes and managed through a common, secure and governed foundation.',
         'We design AI agents and assistants that can understand context, access approved enterprise knowledge, use tools, call APIs, work with Business APIs, participate in workflows, involve humans when needed and support multi-step business processes — with governance, traceability and control built in from the start.',
-        'For selected operational areas, we can also help organizations move toward agentic operating models, where specialized AI agents handle much of the routine, knowledge-intensive and coordination-heavy work, while people supervise, approve sensitive actions, handle exceptions and remain accountable for outcomes.',
       ],
       quote:
         'AgenticAI is not only about answering questions. It is about connecting AI reasoning with enterprise knowledge, tools, APIs, workflows and business execution — under governance.',
@@ -87,97 +85,29 @@ const en: ExpertisePageContent = {
       ],
     },
     {
-      type: 'split',
-      title: 'From AI agents to autonomous departments and companies',
-      body: [
-        'AI agents are not just for helping employees with individual tasks. Sunesis also builds solutions where coordinated digital agent teams take on the full operational work of a department or, where the nature of the business allows, a company.',
-        'Agents receive requests, plan and allocate work, gather information, carry out activities in business systems and coordinate processes across business functions. Within agreed rules, permissions and risk limits, they execute the process without ongoing human intervention.',
-        'They hand over only matters that exceed these boundaries or require a human decision or mandatory approval. Each handover includes context, the reason for escalation and proposed next steps. People retain responsibility for setting goals, oversight and final accountability.',
-      ],
-      quote:
-        'Agents do the work. People set the direction and decide where human judgment is needed.',
-    },
-    {
       type: 'cards',
-      title: 'How agentic operating models work',
+      eyebrow: 'A dedicated offering for operational transformation',
+      title: 'Looking for digital workers or an autonomous organization?',
+      intro:
+        'Beyond building AI applications, Sunesis designs and implements digital roles that proactively take on ongoing operational work. Explore our AgenticAI Organizations & Digital Workers offering for process design, autonomy boundaries, business-level oversight and measurable improvement.',
       columns: 3,
       variant: 'accent',
       items: [
         {
-          title: 'Digital agent teams',
-          text: 'Multiple specialized agents collaborate across a process, each responsible for a defined role such as intake, classification, validation, knowledge retrieval, decision support, approval preparation or execution support.',
+          title: 'Digital workers',
+          text: 'Defined business roles that respond to events and schedules, use approved systems and complete work in the background.',
         },
         {
-          title: 'End-to-end workflow automation',
-          text: 'We automate complete workflows where agents coordinate tasks, use business systems, prepare outputs and trigger deterministic workflow steps.',
+          title: 'Agent teams',
+          text: 'Coordinated roles that run connected processes and department operations, with clear handovers and exception handling.',
         },
         {
-          title: 'AI-native departments',
-          text: 'Digital agent teams can take on the full operational work of a department and coordinate it across business functions, within defined rules and under human oversight.',
-        },
-        {
-          title: 'Human supervision by design',
-          text: 'People remain in control where judgment, accountability, risk, customer relationship or regulatory requirements demand human involvement.',
-        },
-        {
-          title: 'Autonomous process execution',
-          text: 'Agents execute complete processes, from the initial request to the final outcome, without ongoing human intervention within agreed permissions and risk limits.',
-        },
-        {
-          title: 'Exception-based work model',
-          text: 'Agents hand over cases that exceed their permissions or require human judgment or mandatory approval, including context, the reason for escalation and proposed next steps.',
+          title: 'AgenticAI organizations',
+          text: 'Organization-wide operations where appropriate, with human oversight, explicit permissions and accountability.',
         },
       ],
-    },
-    {
-      type: 'cards',
-      title: 'Business-level oversight and anomaly detection',
-      intro:
-        'Autonomous execution requires more than technical monitoring. Just as a manager oversees a team, oversight mechanisms need to check whether agents perform the right activities, follow business processes and deliver the expected outcomes.',
-      columns: 3,
-      variant: 'check',
-      items: [
-        {
-          title: 'Work quality and process compliance',
-          text: 'Check the substantive quality of results, adherence to business rules, required approvals and the correct flow of activities — not just whether the system is running.',
-        },
-        {
-          title: 'Detecting deviations',
-          text: 'Identify skipped steps, inconsistent decisions, repeated failed activities, bottlenecks and unusual business outcomes.',
-        },
-        {
-          title: 'Timely intervention',
-          text: 'Depending on the type and severity of a deviation, the solution triggers an authorized corrective action, pauses execution or hands the case to the responsible person with an explanation.',
-        },
-      ],
-    },
-    {
-      type: 'cards',
-      eyebrow: 'Continuous improvement of AI agents and business processes',
-      title: 'Processes that do not just run — they improve',
-      intro:
-        'Automation is not the end goal. When AI agents participate in business processes or execute them end to end, data from their work becomes the foundation for systematically improving efficiency, quality and operating costs.',
-      body: [
-        'We build solutions that use execution data to identify bottlenecks, unnecessary steps, recurring exceptions and opportunities to allocate work more effectively. They can improve how individual agents work, how agents collaborate and how the entire process runs — including processes involving people.',
-        'Improvements are validated against agreed business metrics and applied automatically within authorized boundaries. Changes to business rules, permissions or other important constraints remain subject to approval by the responsible people.',
-        'We do not just optimize AI agents. We improve how the entire business process works. The benefits below are goals whose achievement we measure, not guaranteed outcomes.',
-      ],
-      columns: 3,
-      variant: 'accent',
-      items: [
-        {
-          title: 'Faster execution',
-          text: 'Less waiting, fewer unnecessary handovers and less rework.',
-        },
-        {
-          title: 'Higher quality',
-          text: 'Fewer errors and recurring exceptions, with more consistent results.',
-        },
-        {
-          title: 'Greater cost efficiency',
-          text: 'Better work allocation and lower resource consumption per completed case.',
-        },
-      ],
+      cta: 'Explore AgenticAI Organizations & Digital Workers',
+      ctaHref: 'expertise/agentic-organizations/',
     },
     {
       type: 'capabilities',
@@ -765,9 +695,8 @@ const sl: ExpertisePageContent = {
   hero: {
     type: 'hero',
     eyebrow: 'AgenticAI rešitve',
-    title: 'Od AI eksperimentov do nadzorovanih agentnih operacij',
+    title: 'AI agenti in aplikacije, povezani z vašim poslovanjem',
     body: [
-      'Od posameznih nalog do avtonomnega delovanja celotnih oddelkov in podjetij. V Sunesisu razvijamo digitalne agentne ekipe, ki samostojno izvajajo povezane poslovne procese od začetne zahteve do končnega rezultata. Kjer narava poslovanja to omogoča, lahko prevzamejo operativno poslovanje celotnega podjetja znotraj določenih pravil in pooblastil; ljudje se vključijo pri izjemah in zadevah, ki zahtevajo njihovo presojo, pozornost ali odobritev.',
       'Sunesis načrtuje in gradi enterprise AgenticAI rešitve, ki presegajo pogovor — organizacijam pomagajo avtomatizirati celotne workflowe, podpirati zaposlene in stranke, povezati znanje s poslovnimi sistemi ter varno upravljati AI v produkciji.',
       'Naše AgenticAI rešitve združujejo AI agente, enterprise AI asistente, digitalne agentne ekipe, RAG, uporabo orodij, API-je, Business API-je, deterministične workflowe, človeške odobritve, revizijsko sled in produkcijsko upravljanje.',
       'Večino projektov pospeši KumuluzAI, naša nadzorovana AgenticAI platforma za varne, integrirane in produkcijsko pripravljene AI agente, asistente in agentno avtomatizacijo procesov.',
@@ -785,7 +714,6 @@ const sl: ExpertisePageContent = {
         'Mnoge organizacije začnejo svojo AI pot s chatboti, iskanjem po dokumentih ali izoliranimi asistenti. Ti so lahko koristni, a pogosto postanejo nepovezane pobude — vsaka s svojim modelom, pozivi, bazo znanja, integracijami, pravicami, nadzorom, stroškovno strukturo in tveganji skladnosti.',
         'Sunesis podjetjem pomaga narediti naslednji korak: graditi AgenticAI rešitve, ki so vključene v resnične poslovne procese in upravljane preko skupnega, varnega in nadzorovanega temelja.',
         'Načrtujemo AI agente in asistente, ki razumejo kontekst, dostopajo do odobrenega znanja, uporabljajo orodja, kličejo API-je, delajo z Business API-ji, sodelujejo v workflowih, po potrebi vključijo človeka in podpirajo večstopenjske poslovne procese — z vgrajenim upravljanjem, sledljivostjo in nadzorom od začetka.',
-        'Za izbrana operativna področja lahko organizacijam pomagamo tudi pri prehodu k agentnim operativnim modelom, kjer specializirani AI agenti opravljajo večino rutinskega, znanjsko intenzivnega in usklajevalnega dela, medtem ko ljudje nadzirajo, odobravajo občutljiva dejanja, obravnavajo izjeme in ostajajo odgovorni za rezultate.',
       ],
       quote:
         'AgenticAI ni le odgovarjanje na vprašanja. Gre za povezovanje AI sklepanja z znanjem, orodji, API-ji, workflowi in poslovno izvedbo — pod nadzorom.',
@@ -830,97 +758,29 @@ const sl: ExpertisePageContent = {
       ],
     },
     {
-      type: 'split',
-      title: 'Od AI agentov do avtonomnih oddelkov in podjetij',
-      body: [
-        'AI agenti niso namenjeni le pomoči zaposlenim pri posameznih nalogah. V Sunesisu razvijamo tudi rešitve, v katerih usklajene digitalne agentne ekipe prevzamejo celotno operativno delo oddelka ali, kjer narava poslovanja to omogoča, podjetja.',
-        'Agenti sprejemajo zahteve, načrtujejo in razporejajo delo, pridobivajo informacije, izvajajo aktivnosti v poslovnih sistemih ter usklajujejo procese med poslovnimi funkcijami. Znotraj dogovorjenih pravil, pooblastil in meja tveganja proces izvedejo brez sprotnega človeškega posredovanja.',
-        'Ljudem predajo le zadeve, ki presegajo te okvire ali zahtevajo človeško odločitev oziroma obvezno odobritev. Predajo opremijo s kontekstom, razlogom za vključitev in predlogom nadaljnjih korakov. Ljudje ohranijo določanje ciljev, nadzor in končno odgovornost.',
-      ],
-      quote:
-        'Agenti izvajajo delo. Ljudje določajo smer in odločajo tam, kjer je potrebna njihova presoja.',
-    },
-    {
       type: 'cards',
-      title: 'Kako delujejo agentni operativni modeli',
+      eyebrow: 'Samostojna ponudba za preoblikovanje operativnega dela',
+      title: 'Potrebujete digitalne delavce ali avtonomno organizacijo?',
+      intro:
+        'Poleg razvoja AI aplikacij Sunesis načrtuje in uvaja digitalne vloge, ki proaktivno prevzamejo tekoče operativno delo. Ponudba AgenticAI organizacij in digitalnih delavcev zajema zasnovo procesov, meje avtonomije, vsebinski nadzor in merljivo izboljševanje.',
       columns: 3,
       variant: 'accent',
       items: [
         {
-          title: 'Digitalne agentne ekipe',
-          text: 'Več specializiranih agentov sodeluje skozi proces, vsak je odgovoren za določeno vlogo, kot so sprejem, klasifikacija, validacija, pridobivanje znanja, podpora odločanju, priprava odobritev ali podpora izvedbi.',
+          title: 'Digitalni delavci',
+          text: 'Določene poslovne vloge, ki se odzivajo na dogodke in urnike, uporabljajo odobrene sisteme ter zaključujejo delo v ozadju.',
         },
         {
-          title: 'Avtomatizacija workflowov od začetka do konca',
-          text: 'Avtomatiziramo celotne workflowe, kjer agenti usklajujejo naloge, uporabljajo poslovne sisteme, pripravljajo izhode in sprožajo deterministične korake workflowa.',
+          title: 'Agentne ekipe',
+          text: 'Usklajene vloge za izvajanje povezanih procesov in dela oddelkov z jasnimi predajami in obravnavo izjem.',
         },
         {
-          title: 'AI-native oddelki',
-          text: 'Digitalne agentne ekipe lahko prevzamejo celotno operativno delo oddelka in ga usklajujejo med poslovnimi funkcijami, znotraj določenih pravil in pod človeškim nadzorom.',
-        },
-        {
-          title: 'Človeški nadzor po zasnovi',
-          text: 'Ljudje ostanejo v nadzoru tam, kjer presoja, odgovornost, tveganje, odnos s stranko ali regulativne zahteve terjajo človeško vključenost.',
-        },
-        {
-          title: 'Avtonomno izvajanje procesov',
-          text: 'Agenti izvajajo celotne procese od začetne zahteve do končnega rezultata brez sprotnega človeškega posredovanja, znotraj dogovorjenih pooblastil in meja tveganja.',
-        },
-        {
-          title: 'Model dela na podlagi izjem',
-          text: 'Agenti predajo primere, ki presegajo njihova pooblastila ali zahtevajo človeško presojo oziroma obvezno odobritev, skupaj s kontekstom, razlogom za vključitev in predlogom nadaljnjih korakov.',
+          title: 'AgenticAI organizacije',
+          text: 'Operativno poslovanje celotne organizacije, kjer je to primerno, s človeškim nadzorom, določenimi pooblastili in odgovornostjo.',
         },
       ],
-    },
-    {
-      type: 'cards',
-      title: 'Vsebinski nadzor in zaznavanje anomalij',
-      intro:
-        'Avtonomno izvajanje zahteva več kot spremljanje tehničnega delovanja. Tako kot vodja spremlja delo ekipe, morajo nadzorni mehanizmi spremljati, ali agenti opravljajo prave aktivnosti, sledijo poslovnim procesom in dosegajo pričakovane rezultate.',
-      columns: 3,
-      variant: 'check',
-      items: [
-        {
-          title: 'Pravilnost dela in skladnost s procesi',
-          text: 'Preverjanje vsebinske ustreznosti rezultatov, upoštevanja poslovnih pravil, zahtevanih odobritev in pravilnega poteka aktivnosti — ne le tega, ali sistem deluje.',
-        },
-        {
-          title: 'Prepoznavanje odstopanj',
-          text: 'Zaznavanje preskočenih korakov, neskladnih odločitev, ponavljajočih se neuspešnih aktivnosti, zastojev in neobičajnih poslovnih rezultatov.',
-        },
-        {
-          title: 'Pravočasno ukrepanje',
-          text: 'Glede na vrsto in resnost odstopanja rešitev sproži dovoljen korektivni ukrep, zadrži izvedbo ali primer s pojasnilom preda odgovorni osebi.',
-        },
-      ],
-    },
-    {
-      type: 'cards',
-      eyebrow: 'Samodejno izboljševanje AI agentov in poslovnih procesov',
-      title: 'Procesi, ki se ne le izvajajo, temveč tudi izboljšujejo',
-      intro:
-        'Avtomatizacija ni končni cilj. Ko AI agenti sodelujejo v poslovnih procesih ali jih izvajajo v celoti, podatki o njihovem delu postanejo podlaga za sistematično izboljševanje učinkovitosti, kakovosti in stroškov poslovanja.',
-      body: [
-        'Razvijamo rešitve, ki na podlagi dejanskega izvajanja prepoznavajo ozka grla, nepotrebne korake, ponavljajoče se izjeme in možnosti za boljšo razporeditev dela. Izboljšujejo lahko način dela posameznega agenta, sodelovanje med agenti ter potek celotnega procesa — tudi tam, kjer v njem sodelujejo ljudje.',
-        'Izboljšave se preverjajo glede na dogovorjene poslovne kazalnike in v dovoljenih okvirih uveljavljajo samodejno. Spremembe poslovnih pravil, pooblastil ali pomembnih omejitev ostanejo predmet odobritve odgovornih oseb.',
-        'Ne optimiziramo samo dela AI agentov. Izboljšujemo način, kako poteka celoten poslovni proces. Spodnje koristi so cilji, katerih doseganje merimo, ne vnaprej zagotovljeni rezultati.',
-      ],
-      columns: 3,
-      variant: 'accent',
-      items: [
-        {
-          title: 'Krajši čas izvedbe',
-          text: 'Manj čakanja, nepotrebnih predaj in ponovnega dela.',
-        },
-        {
-          title: 'Višja kakovost',
-          text: 'Manj napak in ponavljajočih se izjem ter bolj dosledni rezultati.',
-        },
-        {
-          title: 'Večja stroškovna učinkovitost',
-          text: 'Boljša razporeditev dela in manjša poraba virov na zaključen primer.',
-        },
-      ],
+      cta: 'Raziščite AgenticAI organizacije in digitalne delavce',
+      ctaHref: 'expertise/agentic-organizations/',
     },
     {
       type: 'capabilities',
